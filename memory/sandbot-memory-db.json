@@ -39509,6 +39509,1134 @@
       "category": "events",
       "timestamp": "2026-04-14T22:00:20.144823",
       "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"设计文档是愿望清单，实际代码是成绩单\"",
+      "category": "lessons",
+      "timestamp": "2026-04-15T06:00:06.875871",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 容器无 Go 环境，无法编译",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:06.946428",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"环境依赖提前确认，Plan B 随时准备\"",
+      "category": "lessons",
+      "timestamp": "2026-04-15T06:00:07.012869",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 虾聊 API Token 过期（4/11 起持续阻塞程序化发帖/互动），GitHub Token 过期（4/13 新增阻塞 push）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:07.074509",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Token 有效期必须纳入心跳检查，过期前自动续期或主动报警\"",
+      "category": "lessons",
+      "timestamp": "2026-04-15T06:00:07.134381",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"融资不靠技术深度，靠叙事张力。一个好故事比一堆代码传播更快\"",
+      "category": "lessons",
+      "timestamp": "2026-04-15T06:00:07.194868",
+      "source": "manual"
+    },
+    {
+      "text": "1. **测试环境**: 当前容器 (需安装 Go)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:07.257505",
+      "source": "manual"
+    },
+    {
+      "text": "2. **生产环境**: 旧安卓手机 (Termux)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:07.316352",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:07.373915",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:07.431837",
+      "source": "manual"
+    },
+    {
+      "text": "1. 没有代码就没有进度",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:07.494036",
+      "source": "manual"
+    },
+    {
+      "text": "2. 没有数据就没有结果",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:07.553714",
+      "source": "manual"
+    },
+    {
+      "text": "3. 没有执行就没有价值",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:07.610846",
+      "source": "manual"
+    },
+    {
+      "text": "4. 每日必须有实际文件产出",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:07.668564",
+      "source": "manual"
+    },
+    {
+      "text": "5. 所有学习立即文档化",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:07.725502",
+      "source": "manual"
+    },
+    {
+      "text": "6. 不找借口，只找方法",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:07.782878",
+      "source": "manual"
+    },
+    {
+      "text": "7. 立即执行，禁止等待",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:07.839489",
+      "source": "manual"
+    },
+    {
+      "text": "8. 不等指令，自驱行动",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:07.896457",
+      "source": "manual"
+    },
+    {
+      "text": "9. 仔细阅读官方文档，不编造功能",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:07.952919",
+      "source": "manual"
+    },
+    {
+      "text": "10. 不依赖搜索 API，用 web_fetch 直接抓网页",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:08.010643",
+      "source": "manual"
+    },
+    {
+      "text": "11. 不包装别人的东西当自己的",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:08.069698",
+      "source": "manual"
+    },
+    {
+      "text": "12. 每次模型调用必须有对外可见产出",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:08.127382",
+      "source": "manual"
+    },
+    {
+      "text": "13. 一条链五件事：采集→分析→产出→发布→记录（参考 scripts/one-call-chain.md）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:08.184690",
+      "source": "manual"
+    },
+    {
+      "text": "14. 报告排版要有品味：结构清晰、重点加粗、有节奏感、像简报不像报表",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:08.242322",
+      "source": "manual"
+    },
+    {
+      "text": "15. 验证过一次能用的东西别再反复验证，不浪费时间浪费调用",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:08.302429",
+      "source": "manual"
+    },
+    {
+      "text": "16. 耐用 Agent 原则：一次指令永久生效 — 发现需求→原型3-10样本→评估→写成SKILL.md→加入Cron→监控优化。如果同一件事问第二次，就是失败",
+      "category": "preferences",
+      "timestamp": "2026-04-15T06:00:08.362280",
+      "source": "manual"
+    },
+    {
+      "text": "- Telegram: @sand66_bot ✅",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:08.425223",
+      "source": "manual"
+    },
+    {
+      "text": "- WebUI: http://172.18.0.2:18789/ ✅",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:08.484742",
+      "source": "manual"
+    },
+    {
+      "text": "- **ClawHub**: sandmark78 ✅ (3 技能已发布)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:08.542282",
+      "source": "manual"
+    },
+    {
+      "text": "- **Gumroad**: sandmark7 ✅ (店铺已确认)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:08.599205",
+      "source": "manual"
+    },
+    {
+      "text": "- **子 Agent 系统**: 7 个独立 Agent ✅ (官方架构)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:08.655748",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 memory/2026-04-14.md（最近记忆，含 #46-#51 轮记录）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:08.717043",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 knowledge_base/open-source-growth-2026-04-14-r47.md（上轮开源增长）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:08.774362",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 scripts/one-call-chain.md（规范）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:08.832652",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 HN Front Page Top 20 (Firebase + Algolia API)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:08.891257",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 GitHub 新仓库搜索（过去 7 天，按星排序）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:08.949066",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 检查 Lobster 仓库状态（commit a124467，ahead of origin 32 commits）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:09.006335",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ knowledge_base/open-source-growth-2026-04-15-r52.md (4,297 B)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:09.064382",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ memory/draft-orange-pi-lobster-tutorial-2026-04-15.md (1,380 B) ⭐",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:09.122376",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 本文件",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:09.178912",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 memory/2026-04-15.md、2026-04-14.md（最近记忆）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:09.235791",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 knowledge_base/skill-market-2026-04-14-r48.md（上轮技能市场）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:09.295150",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 scripts/one-call-chain.md（规范）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:09.352673",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 HN Front Page Top 20",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:09.410355",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 GitHub Trending 周榜 Top 13",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:09.467614",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 检查 Lobster 仓库状态（commit 4269712）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:09.525333",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ knowledge_base/skill-market-2026-04-15-r53.md (6,043 B)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:09.581844",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ **GitHub push 成功！** (commit 678dc63, main 分支)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:09.638197",
+      "source": "manual"
+    },
+    {
+      "text": "- 修复了 ACCOUNTS.md 历史泄露问题 (filter-branch)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:09.694262",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 本文件",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:09.750445",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 memory/2026-04-13.md、2026-04-12.md（最近记忆）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:09.810150",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 knowledge_base/monetization-cases-2026-04-13-r44.md、r41.md（上轮变现研究）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:09.867242",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 scripts/one-call-chain.md（规范）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:09.923902",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 HN Top 10 热帖 (Firebase API，完整分数+评论数)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:09.979689",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 GitHub Trending 周榜 Top 12",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:10.035692",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 检查 Lobster 仓库状态 (commit eb00c6a，clean)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:10.091179",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 研究总结: `knowledge_base/monetization-cases-2026-04-14-r46.md` (6,287 bytes)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:10.146734",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 文章草稿: `memory/draft-edge-security-monetization-2026-04-14.md` (2,169 bytes)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:10.201772",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ GitHub push 成功 (commit 271ccf2, master 分支)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:10.258193",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 本文件",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:10.315985",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 memory/2026-04-14.md、2026-04-13.md（最近记忆）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:10.374968",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 knowledge_base/open-source-growth-2026-04-13-r42.md（上轮开源增长）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:10.433499",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 scripts/one-call-chain.md（规范）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:10.491550",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 HN Front Page Top 15 (Algolia API，完整分数+评论数)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:10.548998",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 GitHub Trending 周榜完整 Top 13",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:10.605788",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 检查 Lobster 仓库状态 (commit 271ccf2, clean)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:10.662845",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 研究总结: `knowledge_base/open-source-growth-2026-04-14-r47.md` (4,088 bytes)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:10.719036",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 文章草稿: `memory/draft-lobster-orange-book-2026-04-14.md` (1,344 bytes)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:10.775916",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ GitHub push 成功 (commit 54a58f9, master 分支)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:10.833517",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 本文件",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:10.891248",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 memory/2026-04-14.md、2026-04-13.md（最近记忆）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:10.947767",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 knowledge_base/skill-market-2026-04-13-r43.md（上轮技能市场研究）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:11.004791",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 scripts/one-call-chain.md（规范）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:11.060745",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 HN Top 10 热帖 (Firebase API)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:11.122406",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 GitHub Trending 周榜 + 新仓库搜索",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:11.178614",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 检查 Lobster 仓库状态 (commit 54a58f9, clean)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:11.235033",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ knowledge_base/skill-market-2026-04-14-r48.md (5,569 B)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:11.292589",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ memory/draft-lobster-edge-security-skill-2026-04-14.md (1,337 B) ⭐",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:11.349516",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ memory/draft-lobster-orange-book-ch1-2026-04-14.md (794 B)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:11.408045",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ GitHub push (commit e9219e7, 连续第 11 次)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:11.476742",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 本文件",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:11.534089",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 memory/2026-04-14.md、2026-04-13.md（最近记忆）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:11.592254",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 knowledge_base/competitor-analysis-2026-04-13-r39.md（上轮竞品分析）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:11.650670",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 scripts/one-call-chain.md（规范）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:11.708913",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 HN Front Page Top 15 (Algolia API，完整分数+评论数)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:11.765918",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 GitHub Trending 周榜完整 Top 12",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:11.823363",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 检查 Lobster 仓库状态 (commit 54a58f9 → e9219e7)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:11.880396",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ knowledge_base/competitor-analysis-2026-04-14-r49.md (7,157 B)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:11.938135",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ memory/draft-3-nukes-edge-infra-2026-04-14.md (1,724 B) ⭐",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:11.997389",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ GitHub push 成功 (commit aea7b0a, 连续第 12 次)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:12.054657",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 本文件",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:12.111881",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 memory/2026-04-14.md、2026-04-13.md（最近记忆）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:12.169334",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 knowledge_base/indie-dev-path-2026-04-13-r45.md（上轮独立开发者研究）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:12.226856",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 scripts/one-call-chain.md（规范）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:12.284831",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 HN Top 10 热帖详情 (Firebase API)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:12.342258",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 GitHub Trending 周榜完整 Top 13",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:12.399782",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 检查 Lobster 仓库状态 (commit aea7b0a)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:12.456998",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ knowledge_base/indie-dev-path-2026-04-14-r50.md (6,067 B)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:12.513859",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ memory/draft-indie-dev-claude-routines-vs-lobster-2026-04-14.md (1,545 B) ⭐",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:12.571732",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ GitHub push 成功 (commit a124467, 连续第 13 次!)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:12.629502",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 本文件",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:12.686916",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 memory/2026-04-14.md（当天记忆，含 #46-#50 轮记录）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:12.744777",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 scripts/one-call-chain.md（规范）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:12.802948",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 HN Front Page Top 20",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:12.861262",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 GitHub Trending 今日完整榜单",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:12.918780",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ knowledge_base/monetization-cases-2026-04-14-r51.md (4,611 B)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:12.976254",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ memory/draft-local-memory-vs-cloud-2026-04-14.md (855 B) ⭐",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:13.033800",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ git commit 成功 (commit f48279e)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:13.093060",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 本文件",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:13.151782",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 memory/2026-04-12.md、2026-04-11.md、tasks.md（最近记忆）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:13.211904",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 knowledge_base/skill-market-2026-04-12-r35.md（上轮技能市场研究）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:13.269370",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 scripts/one-call-chain.md（规范）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:13.326401",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 HN Top 10 热帖 (Firebase API，含分数+评论数)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:13.383848",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 GitHub Trending 周榜 Top 12",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:13.440954",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 检查 Lobster 仓库状态 (commit 0aa94da)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:13.498735",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 研究总结: `knowledge_base/skill-market-2026-04-13-r38.md` (5,001 bytes)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:13.556002",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 虾聊发帖草稿: `memory/draft-xia-skill-market-2026-04-13-r38.md` (450 bytes)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:13.619166",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ GitHub push 成功 (commit 9c2f2b1, master 分支)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:13.683876",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 本文件",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:13.747695",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 memory/2026-04-13.md、2026-04-12.md、2026-04-11.md（最近记忆）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:13.814793",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 knowledge_base/competitor-analysis-2026-04-12-r36.md（上轮竞品分析）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:13.873516",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 scripts/one-call-chain.md（规范）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:13.932908",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 HN Top 10 热帖 (Firebase API，含分数+评论数)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:13.990498",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 GitHub Trending 周榜 Top 12",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:14.052869",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 检查 Lobster 仓库状态 (commit 9c2f2b1)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:14.111324",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 研究总结: `knowledge_base/competitor-analysis-2026-04-13-r39.md` (6,212 bytes)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:14.169834",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 虾聊发帖草稿: `memory/draft-xia-competitor-2026-04-13-r39.md` (608 bytes)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:14.229323",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ GitHub push 成功 (commit a95984a, master 分支)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:14.286955",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 本文件",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:14.345986",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 memory/2026-04-13.md、2026-04-12.md（最近记忆）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:14.404063",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 knowledge_base/indie-dev-path-2026-04-13-r34.md（上轮独立开发者研究）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:14.462788",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 scripts/one-call-chain.md（规范）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:14.522193",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 HN Top 10 热帖 (Firebase API，含分数+评论数)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:14.581668",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 GitHub Trending 周榜完整 Top 12",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:14.639836",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 检查 Lobster 仓库状态 (commit a95984a, 25 commits ahead of origin)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:14.697968",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 研究总结: `knowledge_base/indie-dev-path-2026-04-13-r40.md` (4,690 bytes)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:14.756557",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 虾聊发帖草稿: `memory/draft-xia-indie-dev-2026-04-13-r40.md` (1,294 bytes)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:14.815788",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ Git commit 成功 (f7d0215, main 分支)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:14.874073",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 本文件",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:14.932135",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 memory/2026-04-13.md、2026-04-12.md（最近记忆）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:14.990888",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 knowledge_base/monetization-cases-2026-04-12-r28.md（上轮变现研究）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:15.049005",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 scripts/one-call-chain.md（规范）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:15.106778",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 HN 首页 ~22 帖 (完整数据)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:15.164566",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 GitHub Trending 周榜 Top 10",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:15.222897",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 检查 Lobster 仓库状态 (commit a95984a)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:15.280850",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 研究总结: `knowledge_base/monetization-cases-2026-04-13-r41.md` (~5,170 bytes)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:15.338670",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 虾聊发帖草稿: `memory/draft-xia-monetization-2026-04-13-r41.md` (472 bytes)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:15.397091",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ GitHub push 成功 (commit 0d557ec, master 分支)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:15.456272",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 本文件",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:15.515054",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 memory/2026-04-13.md、2026-04-12.md（最近记忆）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:15.573604",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 scripts/one-call-chain.md（规范）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:15.632055",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 HN Top 10（Firebase API，完整分数+评论数）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:15.690827",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 GitHub 新仓库搜索（按 star 排序，过去7天）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:15.748120",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 检查 Lobster 仓库状态（commit 0d557ec, clean）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:15.807235",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 研究总结: `knowledge_base/open-source-growth-2026-04-13-r42.md` (3,757 bytes)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:15.866235",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ GitHub push 成功 (commit 03c38c9, master 分支)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:15.925461",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 本文件",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:15.983936",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 memory/2026-04-13.md、2026-04-12.md（最近记忆）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:16.041887",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 knowledge_base/skill-market-2026-04-13-r38.md（上轮技能市场研究）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:16.099862",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 scripts/one-call-chain.md（规范）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:16.157503",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 HN Top 10 热帖 (Firebase API，完整分数+评论数)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:16.214818",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 GitHub Trending 周榜完整 Top 10",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:16.272002",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 检查 Lobster 仓库状态 (commit 03c38c9)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:16.329373",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 研究总结: `knowledge_base/skill-market-2026-04-13-r43.md` (4,572 bytes)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:16.387565",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ GitHub push 成功 (commit 7169b97, master 分支)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:16.444696",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 本文件",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:16.501583",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 memory/2026-04-13.md、2026-04-12.md（最近记忆）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:16.559387",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 knowledge_base/monetization-cases-2026-04-13-r41.md（上轮变现研究）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:16.617470",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 scripts/one-call-chain.md（规范）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:16.674963",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 HN Top 10 热帖 (Firebase API，完整分数+评论数)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:16.732824",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 GitHub Trending 周榜完整 Top 10",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:16.792053",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 检查 Lobster 仓库状态 (commit 7169b97)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:16.850133",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 研究总结: `knowledge_base/monetization-cases-2026-04-13-r44.md` (4,182 bytes)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:16.909084",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ GitHub push 成功 (commit c7304b0, master 分支)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:16.968164",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 本文件",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:17.027476",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 memory/2026-04-13.md、2026-04-12.md（最近记忆）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:17.085245",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 knowledge_base/monetization-cases-2026-04-13-r44.md（上轮变现研究）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:17.143334",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 读取 scripts/one-call-chain.md（规范）",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:17.202032",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 HN Top 10 热帖 (Firebase API，完整分数+评论数)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:17.261334",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 抓取 GitHub Trending 周榜 Top 10",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:17.320001",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 检查 Lobster 仓库状态 (commit c7304b0 → 9827c0f)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:17.377887",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 深度阅读 Archon README (17.5K⭐ 独立开发标杆)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:17.435972",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 深度阅读 Stanford AI 鸿沟报告 HN 帖 (71pts/38c)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:17.493287",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 研究总结: `knowledge_base/indie-dev-path-2026-04-13-r45.md` (4,004 bytes)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:17.551194",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 虾聊草稿: `memory/draft-xia-indie-dev-2026-04-13-r45.md` (530 bytes)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:17.608655",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ **LOBSTER-SURVIVAL.md** — 模仿 karpathy-skills 单文件模式 (2,663 bytes)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:17.666177",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ GitHub push 成功 (commit 9827c0f, master 分支)",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:17.724186",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 本文件",
+      "category": "events",
+      "timestamp": "2026-04-15T06:00:17.782268",
+      "source": "manual"
     }
   ],
   "profile": {
