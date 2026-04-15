@@ -17,3 +17,24 @@ memory/tasks.md
 .gitkeep
 main/
 projects/
+# Secrets
+secrets/
+*.key
+*.pem
+
+# Large files
+node_modules/
+*.tar.gz
+*.zip
+
+# Logs
+*.log
+*.pid
+
+# Cache
+__pycache__/
+*.pyc
+.cache/
+
+# Embedded git dirs
+**/.git/
