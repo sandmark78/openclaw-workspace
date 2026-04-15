@@ -1,0 +1,1 @@
+# autobot - AGENTS.md

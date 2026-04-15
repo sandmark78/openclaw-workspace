@@ -1,0 +1,40 @@
+# 敏感信息
+.secrets/
+*.token
+*.key
+secrets/
+
+# 本地配置
+.openclaw/
+.clawhub/
+
+# 记忆文件 (只推送公开文档)
+memory/2026-02-*.md
+memory/heartbeat-logs/
+memory/tasks.md
+
+# 其他
+.gitkeep
+main/
+projects/
+# Secrets
+secrets/
+*.key
+*.pem
+
+# Large files
+node_modules/
+*.tar.gz
+*.zip
+
+# Logs
+*.log
+*.pid
+
+# Cache
+__pycache__/
+*.pyc
+.cache/
+
+# Embedded git dirs
+**/.git/

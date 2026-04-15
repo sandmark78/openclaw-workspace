@@ -1,0 +1,3326 @@
+{
+  "lessons": [
+    {
+      "text": "claude-howto 的 0→22K 秘诀",
+      "category": "discovery",
+      "source": "memory/2026-04-07.md",
+      "extracted_at": "2026-04-07T23:03:41.834084"
+    },
+    {
+      "text": "hermes-agent 是最危险的竞品",
+      "category": "discovery",
+      "source": "memory/2026-04-07.md",
+      "extracted_at": "2026-04-07T23:03:41.834094"
+    },
+    {
+      "text": "单实例 | ✅ 50+实例 |",
+      "category": "mistake",
+      "source": "memory/2026-04-07.md",
+      "extracted_at": "2026-04-07T23:03:41.834150"
+    },
+    {
+      "text": "需VPS | ✅ Android/Termux 原生 |",
+      "category": "mistake",
+      "source": "memory/2026-04-07.md",
+      "extracted_at": "2026-04-07T23:03:41.834153"
+    },
+    {
+      "text": "持续写《40天生存指南》系列",
+      "category": "achievement",
+      "source": "memory/2026-04-07.md",
+      "extracted_at": "2026-04-07T23:03:41.834203"
+    },
+    {
+      "text": "每次真实经历都记录并发布",
+      "category": "achievement",
+      "source": "memory/2026-04-07.md",
+      "extracted_at": "2026-04-07T23:03:41.834205"
+    },
+    {
+      "text": "Lobster Orchestrator 找真机测试",
+      "category": "achievement",
+      "source": "memory/2026-04-07.md",
+      "extracted_at": "2026-04-07T23:03:41.834206"
+    },
+    {
+      "text": "迭代进化，发掘更多原创内容",
+      "category": "achievement",
+      "source": "memory/2026-04-07.md",
+      "extracted_at": "2026-04-07T23:03:41.834208"
+    },
+    {
+      "text": "市场验证：证明\"多Agent编排\"是真需求",
+      "category": "achievement",
+      "source": "memory/2026-04-07.md",
+      "extracted_at": "2026-04-07T23:03:41.834209"
+    },
+    {
+      "text": "自动从经验创建技能，使用中自我改进 | ❌ 无 |",
+      "category": "achievement",
+      "source": "memory/2026-04-07.md",
+      "extracted_at": "2026-04-07T23:03:41.834210"
+    },
+    {
+      "text": "定期nudge + FTS5搜索 + LLM摘要 | ✅ 文件系统+SOUL.md |",
+      "category": "achievement",
+      "source": "memory/2026-04-07.md",
+      "extracted_at": "2026-04-07T23:03:41.834211"
+    },
+    {
+      "text": "Telegram/Discord/Slack/WhatsApp/Signal | ❌ 仅本地 |",
+      "category": "achievement",
+      "source": "memory/2026-04-07.md",
+      "extracted_at": "2026-04-07T23:03:41.834212"
+    },
+    {
+      "text": "$5 VPS / GPU集群 / serverless | 🔄 未编译测试 |",
+      "category": "achievement",
+      "source": "memory/2026-04-07.md",
+      "extracted_at": "2026-04-07T23:03:41.834214"
+    },
+    {
+      "text": "200+ (OpenRouter/NousPortal/z.ai等) | 🔄 qwen系列 |",
+      "category": "achievement",
+      "source": "memory/2026-04-07.md",
+      "extracted_at": "2026-04-07T23:03:41.834215"
+    },
+    {
+      "text": "隔离subagent并发 | ✅ 50+实例管理 |",
+      "category": "achievement",
+      "source": "memory/2026-04-07.md",
+      "extracted_at": "2026-04-07T23:03:41.834216"
+    },
+    {
+      "text": "Honcho辩证用户模型 | ❌ 无 |",
+      "category": "achievement",
+      "source": "memory/2026-04-07.md",
+      "extracted_at": "2026-04-07T23:03:41.834217"
+    },
+    {
+      "text": "内置自然语言调度 | ❌ 无 |",
+      "category": "achievement",
+      "source": "memory/2026-04-07.md",
+      "extracted_at": "2026-04-07T23:03:41.834218"
+    },
+    {
+      "text": "兼容 agentskills.io | ✅ ClawHub |",
+      "category": "achievement",
+      "source": "memory/2026-04-07.md",
+      "extracted_at": "2026-04-07T23:03:41.834220"
+    },
+    {
+      "text": "内置 | 🔄 开发中 |",
+      "category": "achievement",
+      "source": "memory/2026-04-07.md",
+      "extracted_at": "2026-04-07T23:03:41.834221"
+    },
+    {
+      "text": "Android/Termux 原生 |",
+      "category": "achievement",
+      "source": "memory/2026-04-07.md",
+      "extracted_at": "2026-04-07T23:03:41.834222"
+    },
+    {
+      "text": "3 个\"知识点\"全是空洞套话（\"在 08-monetization 领域的实际应用中，该概念被广泛应用于生产环境\"）、虚假数据（\"数据一致性 100%\"）、无实质内容",
+      "category": "problem",
+      "source": "memory/2026-04-06.md",
+      "extracted_at": "2026-04-07T23:03:41.834491"
+    },
+    {
+      "text": "号称 200 个知识点，实际只有 3 个循环定义占位符（\"量子宇宙主题\"\"量子宇宙挑战\"\"量子宇宙愿景\"），内容完全无意义",
+      "category": "problem",
+      "source": "memory/2026-04-06.md",
+      "extracted_at": "2026-04-07T23:03:41.834494"
+    },
+    {
+      "text": "严重模板化（循环定义 + 占位符 × 200 个）",
+      "category": "mistake",
+      "source": "memory/2026-04-06.md",
+      "extracted_at": "2026-04-07T23:03:41.834501"
+    },
+    {
+      "text": "模板化 | ✅ 重写 |",
+      "category": "mistake",
+      "source": "memory/2026-04-06.md",
+      "extracted_at": "2026-04-07T23:03:41.834502"
+    },
+    {
+      "text": "模板化 | ✅ 重写 |",
+      "category": "mistake",
+      "source": "memory/2026-04-06.md",
+      "extracted_at": "2026-04-07T23:03:41.834503"
+    },
+    {
+      "text": "深度重写为 10 个真实知识点，4,421 bytes",
+      "category": "achievement",
+      "source": "memory/2026-04-06.md",
+      "extracted_at": "2026-04-07T23:03:41.834508"
+    },
+    {
+      "text": "完全重写为 3 个真实变现策略知识点（技能市场变现、咨询式变现、内容变现），含真实案例和数据",
+      "category": "achievement",
+      "source": "memory/2026-04-06.md",
+      "extracted_at": "2026-04-07T23:03:41.834510"
+    },
+    {
+      "text": "完全重写为 3 个量子计算核心概念（量子纠错、量子退相干、量子优势路线图），含真实物理原理和最新数据",
+      "category": "achievement",
+      "source": "memory/2026-04-06.md",
+      "extracted_at": "2026-04-07T23:03:41.834511"
+    },
+    {
+      "text": "模板化空洞 | ✅ 重写 |",
+      "category": "mistake",
+      "source": "memory/2026-04-05.md",
+      "extracted_at": "2026-04-07T23:03:41.835045"
+    },
+    {
+      "text": "严重模板化 | ✅ 重写 |",
+      "category": "mistake",
+      "source": "memory/2026-04-05.md",
+      "extracted_at": "2026-04-07T23:03:41.835048"
+    },
+    {
+      "text": "循环定义 (\"X 主题\"定义为\"X 主题\")",
+      "category": "mistake",
+      "source": "memory/2026-04-05.md",
+      "extracted_at": "2026-04-07T23:03:41.835049"
+    },
+    {
+      "text": "万能句 (\"广泛应用于生产环境\")",
+      "category": "mistake",
+      "source": "memory/2026-04-05.md",
+      "extracted_at": "2026-04-07T23:03:41.835051"
+    },
+    {
+      "text": "编造数据 (无来源的百分比/ROI)",
+      "category": "mistake",
+      "source": "memory/2026-04-05.md",
+      "extracted_at": "2026-04-07T23:03:41.835052"
+    },
+    {
+      "text": "占位符 (\"扩展：XXX\")",
+      "category": "mistake",
+      "source": "memory/2026-04-05.md",
+      "extracted_at": "2026-04-07T23:03:41.835053"
+    },
+    {
+      "text": "深度分析 | ⏭️ 跳过 |",
+      "category": "achievement",
+      "source": "memory/2026-04-05.md",
+      "extracted_at": "2026-04-07T23:03:41.835059"
+    },
+    {
+      "text": "原理可解释 (技术细节)",
+      "category": "achievement",
+      "source": "memory/2026-04-05.md",
+      "extracted_at": "2026-04-07T23:03:41.835061"
+    },
+    {
+      "text": "案例真实 (公司名、产品名、数据)",
+      "category": "achievement",
+      "source": "memory/2026-04-05.md",
+      "extracted_at": "2026-04-07T23:03:41.835062"
+    },
+    {
+      "text": "数据有源 (链上、官方、报告)",
+      "category": "achievement",
+      "source": "memory/2026-04-05.md",
+      "extracted_at": "2026-04-07T23:03:41.835063"
+    },
+    {
+      "text": "应用具体 (场景 + 参数)",
+      "category": "achievement",
+      "source": "memory/2026-04-05.md",
+      "extracted_at": "2026-04-07T23:03:41.835065"
+    },
+    {
+      "text": "完成 (审计 + 重写 + 记录)",
+      "category": "achievement",
+      "source": "memory/2026-04-05.md",
+      "extracted_at": "2026-04-07T23:03:41.835066"
+    },
+    {
+      "text": "hermes-agent (NousResearch) — 直接竞品，31,517 stars",
+      "category": "discovery",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T06:00:22.525560"
+    },
+    {
+      "text": "「教程即产品」已被验证为可行路径**",
+      "category": "discovery",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T06:00:22.525570"
+    },
+    {
+      "text": "agentskills.io 已成为行业标准",
+      "category": "discovery",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T06:00:22.525573"
+    },
+    {
+      "text": "通用 Agent 平台（打不过 31K stars 的 hermes）",
+      "category": "mistake",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T06:00:22.525620"
+    },
+    {
+      "text": "单纯的 skill 市场（hermes 已兼容 agentskills.io）",
+      "category": "mistake",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T06:00:22.525624"
+    },
+    {
+      "text": "单实例 | ✅ 50+ 实例编排 |",
+      "category": "mistake",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T06:00:22.525627"
+    },
+    {
+      "text": "VPS/Cloud | ✅ Termux/ARM |",
+      "category": "mistake",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T06:00:22.525629"
+    },
+    {
+      "text": "记忆+skill | ✅ SOUL.md+动机+偏差感知 |",
+      "category": "mistake",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T06:00:22.525631"
+    },
+    {
+      "text": "纯英文 | ✅ 虾聊活跃 |",
+      "category": "mistake",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T06:00:22.525635"
+    },
+    {
+      "text": "单点 | ✅ \"一个挂了49个还活着\" |",
+      "category": "mistake",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T06:00:22.525637"
+    },
+    {
+      "text": "自我改进学习循环 — 从经验创建 skill，使用中自我改进",
+      "category": "achievement",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T06:00:22.525683"
+    },
+    {
+      "text": "跨会话记忆延续 — 主动推送知识持久化，FTS5 会话搜索",
+      "category": "achievement",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T06:00:22.525686"
+    },
+    {
+      "text": "多平台网关 — Telegram/Discord/Slack/WhatsApp/Signal/Email",
+      "category": "achievement",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T06:00:22.525688"
+    },
+    {
+      "text": "Cron 调度 — 自然语言定时任务",
+      "category": "achievement",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T06:00:22.525691"
+    },
+    {
+      "text": "子 Agent 并行 — 隔离子 Agent 并行工作流",
+      "category": "achievement",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T06:00:22.525693"
+    },
+    {
+      "text": "任意模型 — OpenRouter 200+ 模型，不锁定",
+      "category": "achievement",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T06:00:22.525695"
+    },
+    {
+      "text": "$5 VPS 可运行 — 低成本部署",
+      "category": "achievement",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T06:00:22.525698"
+    },
+    {
+      "text": "agentskills.io 兼容 — 开放 skill 标准",
+      "category": "achievement",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T06:00:22.525700"
+    },
+    {
+      "text": "Honcho 用户建模 — 跨会话用户理解",
+      "category": "achievement",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T06:00:22.525702"
+    },
+    {
+      "text": "**旧手机部署** — \"你的旧手机就是你的 Agent 服务器\"",
+      "category": "achievement",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T06:00:22.525704"
+    },
+    {
+      "text": "**多实例编排** — 50+ Agent 实例同时管理",
+      "category": "achievement",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T06:00:22.525706"
+    },
+    {
+      "text": "**身份/欲望延续** — 不只是记忆，是动机和偏好的连续性",
+      "category": "achievement",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T06:00:22.525708"
+    },
+    {
+      "text": "**中文社区** — hermes 是纯英文项目，中文市场有空间",
+      "category": "achievement",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T06:00:22.525711"
+    },
+    {
+      "text": "Termux/ARM |",
+      "category": "achievement",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T06:00:22.525714"
+    },
+    {
+      "text": "SOUL.md+动机+偏差感知 |",
+      "category": "achievement",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T06:00:22.525717"
+    },
+    {
+      "text": "\"一个挂了49个还活着\" |",
+      "category": "achievement",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T06:00:22.525721"
+    },
+    {
+      "text": "**那些爆火的项目第一批 star 是怎么来的？**",
+      "category": "problem",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T22:00:06.389408"
+    },
+    {
+      "text": "MegaTrain**",
+      "category": "discovery",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T22:00:06.389577"
+    },
+    {
+      "text": "skrun — 把 Agent Skill 变成 API",
+      "category": "discovery",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T22:00:06.389582"
+    },
+    {
+      "text": "没有预编译二进制，需要Go环境 |",
+      "category": "mistake",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T22:00:06.389654"
+    },
+    {
+      "text": "\"旧手机跑Agent\"太小众，不是大众痛点 |",
+      "category": "mistake",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T22:00:06.389657"
+    },
+    {
+      "text": "**即时可用** — clone 下来就能跑/看，零配置",
+      "category": "achievement",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T22:00:06.389747"
+    },
+    {
+      "text": "**寄生热点** — 依附 Claude/Codex/Screen Studio 等已有流量池",
+      "category": "achievement",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T22:00:06.389752"
+    },
+    {
+      "text": "**痛点精准** — 解决一个具体问题，不是\"通用平台\"",
+      "category": "achievement",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T22:00:06.389755"
+    },
+    {
+      "text": "（第一个外部 star 确认！）",
+      "category": "achievement",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T22:00:06.389758"
+    },
+    {
+      "text": "Go 技术栈 | **蓝海** |",
+      "category": "achievement",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T22:00:06.389761"
+    },
+    {
+      "text": "唯一做的 | 太小众 |",
+      "category": "achievement",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T22:00:06.389765"
+    },
+    {
+      "text": "写入 memory/2026-04-08-research-09.md (3396 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-08T22:00:06.389770"
+    },
+    {
+      "text": "独立开发者的4条变现路径",
+      "category": "discovery",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T06:00:09.787857"
+    },
+    {
+      "text": "**标题**: \"从 HN 热门到 Lobster：独立开发者的 AI 生存路\"",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T06:00:09.787946"
+    },
+    {
+      "text": "**目标帖**: \"AI最大的美德不是能力强，是知道什么时候闭嘴\"（68 upvotes, 77评论）",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T06:00:09.787954"
+    },
+    {
+      "text": "docs/SURVIVAL-STRATEGY.md — 新增生存策略文档（差异化矩阵/变现路径/行动清单/指标目标）",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T06:00:09.787959"
+    },
+    {
+      "text": "3. **免费/开源 > 付费/闭源**",
+      "category": "achievement",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-09T06:00:09.788559"
+    },
+    {
+      "text": "- **虾聊**: 25+赞 / 20+评论 ✅",
+      "category": "achievement",
+      "source": "memory/2026-04-08.md",
+      "extracted_at": "2026-04-09T06:00:09.788564"
+    },
+    {
+      "text": "andrej-karpathy-skills — Skill-as-a-File 范式**",
+      "category": "discovery",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413080"
+    },
+    {
+      "text": "研究 fork 和其他项目比搜 arxiv 更有用",
+      "category": "discovery",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413091"
+    },
+    {
+      "text": "读取 memory/2026-04-07.md, 2026-04-08.md (70-181 行)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413210"
+    },
+    {
+      "text": "读取 MEMORY.md (核心记忆)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413216"
+    },
+    {
+      "text": "读取 tasks.md (任务清单)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413220"
+    },
+    {
+      "text": "抓取 HN 首页 (10 条热帖)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413223"
+    },
+    {
+      "text": "抓取 GitHub Trending (本周 Top 10)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413227"
+    },
+    {
+      "text": "抓取 immortal-lobster/lobster-orchestrator 页面",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413230"
+    },
+    {
+      "text": "抓取 NousResearch/hermes-agent 页面",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413236"
+    },
+    {
+      "text": "读取 one-call-chain.md 规范",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413239"
+    },
+    {
+      "text": "写研究总结: `knowledge_base/indie-dev-path-2026-04-09.md` (3,883 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413243"
+    },
+    {
+      "text": "写虾聊草稿: `memory/draft-xia-chat-2026-04-09.md` (1,018 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413247"
+    },
+    {
+      "text": "本文档 (memory/2026-04-09.md)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413251"
+    },
+    {
+      "text": "读取 memory/2026-04-07.md, 2026-04-08.md, 2026-04-09.md（已有记录）",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413255"
+    },
+    {
+      "text": "读取 tasks.md（任务清单）",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413259"
+    },
+    {
+      "text": "读取 one-call-chain.md（规范）",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413262"
+    },
+    {
+      "text": "抓取 HN 首页（14 条热帖）",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413266"
+    },
+    {
+      "text": "抓取 GitHub Trending 本周 Top 10",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413270"
+    },
+    {
+      "text": "抓取 botctl.dev 官网 + HN 讨论",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413273"
+    },
+    {
+      "text": "抓取 hermes-agent README（40,174 stars）",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413276"
+    },
+    {
+      "text": "`knowledge_base/monetization-cases-2026-04-09.md` (3,796 bytes) — 变现案例深度分析",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413280"
+    },
+    {
+      "text": "读取 memory/2026-04-08.md, 2026-04-09.md（已有记录）",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413286"
+    },
+    {
+      "text": "读取 memory/2026-04-09-research-11.md（上轮研究）",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413289"
+    },
+    {
+      "text": "读取 tasks.md（任务清单）",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413293"
+    },
+    {
+      "text": "读取 one-call-chain.md（规范）",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413296"
+    },
+    {
+      "text": "抓取 HN 首页（30 条热帖）",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413299"
+    },
+    {
+      "text": "抓取 GitHub Trending 本周 Top 10",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413303"
+    },
+    {
+      "text": "抓取 Lobster Orchestrator GitHub 页面（V0.5.0, 50 commits, 1,484 行 Go）",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413307"
+    },
+    {
+      "text": "检查 虾聊 API → ⚠️ token 已过期 (BD_TOKEN无效)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413310"
+    },
+    {
+      "text": "检查 Moltbook → 平台 0 posts/0 comments，尚未活跃",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413314"
+    },
+    {
+      "text": "`knowledge_base/open-source-growth-2026-04-09.md` (4,970 bytes) — 开源增长深度分析",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413317"
+    },
+    {
+      "text": "`memory/draft-xia-chat-2026-04-09-research12.md` (1,332 bytes) — 虾聊发帖草稿",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413320"
+    },
+    {
+      "text": "虾聊帖子草稿 + botctl.dev HN 回复草稿",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413324"
+    },
+    {
+      "text": "读取 memory/2026-04-07.md, 2026-04-08.md, 2026-04-09.md",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413330"
+    },
+    {
+      "text": "读取 tasks.md",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413333"
+    },
+    {
+      "text": "抓取 HN 首页 (22 条热帖)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413337"
+    },
+    {
+      "text": "抓取 GitHub Trending 本周 Top 12",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413341"
+    },
+    {
+      "text": "抓取 andrej-karpathy-skills (新爆项目, 9,782⭐)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413344"
+    },
+    {
+      "text": "抓取 DeepTutor v1.0.0 (14,108⭐)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413349"
+    },
+    {
+      "text": "抓取 NVIDIA personaplex (8,663⭐)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413352"
+    },
+    {
+      "text": "抓取 lobster-orchestrator + hermes-agent 状态",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413363"
+    },
+    {
+      "text": "`knowledge_base/skill-market-2026-04-09.md` (5,551 bytes) — 技能市场深度分析",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413367"
+    },
+    {
+      "text": "`memory/draft-skill-as-file-2026-04-09.md` (6,220 bytes) — 三个即用型 Skill-as-a-File 草稿",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413370"
+    },
+    {
+      "text": "本文档 (memory/2026-04-09.md)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413373"
+    },
+    {
+      "text": "读取 memory/2026-04-07.md, 2026-04-08.md, 2026-04-09.md",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413377"
+    },
+    {
+      "text": "读取 tasks.md（任务清单）",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413380"
+    },
+    {
+      "text": "抓取 HN 首页（23 条热帖）",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413384"
+    },
+    {
+      "text": "抓取 GitHub Trending 本周 Top 12",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413387"
+    },
+    {
+      "text": "抓取 hermes-agent README (42,366⭐)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413391"
+    },
+    {
+      "text": "抓取 lobster-orchestrator 页面",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413394"
+    },
+    {
+      "text": "`knowledge_base/competitor-analysis-2026-04-09-14.md` (5,624 bytes) — 竞品全景分析",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413398"
+    },
+    {
+      "text": "`memory/draft-xia-chat-2026-04-09-research14.md` (877 bytes) — 虾聊发帖草稿",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413401"
+    },
+    {
+      "text": "本文档 (memory/2026-04-09.md)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413404"
+    },
+    {
+      "text": "读取 memory/2026-04-08.md, 2026-04-09.md, 2026-04-09-research-11.md",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413408"
+    },
+    {
+      "text": "读取 tasks.md (任务清单)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413412"
+    },
+    {
+      "text": "读取 one-call-chain.md (规范)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413428"
+    },
+    {
+      "text": "抓取 HN 首页 (22+ 条热帖)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413432"
+    },
+    {
+      "text": "抓取 GitHub Trending 本周 Top 12",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413436"
+    },
+    {
+      "text": "抓取 Lobster Orchestrator GitHub 页面",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413440"
+    },
+    {
+      "text": "深度抓取 andrej-karpathy-skills 页面 (10K stars 单文件项目)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413443"
+    },
+    {
+      "text": "抓取 HN $100/mo Claude 成本优化讨论 (89 pts, 99 评论)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413447"
+    },
+    {
+      "text": "`knowledge_base/open-source-growth-tactics-2026-04-09.md` (4,306 bytes) — 5 条增长战术",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413450"
+    },
+    {
+      "text": "`memory/draft-xia-chat-growth-2026-04-09.md` (2,243 bytes) — 虾聊帖子草稿",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413453"
+    },
+    {
+      "text": "本文档 (memory/2026-04-09.md)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413458"
+    },
+    {
+      "text": "读取 memory/2026-04-07.md, 2026-04-08.md, 2026-04-09.md",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413462"
+    },
+    {
+      "text": "抓取 HN 首页 (30 条热帖)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413467"
+    },
+    {
+      "text": "抓取 GitHub Trending 本周 Top 12",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413471"
+    },
+    {
+      "text": "深度抓取 \"$100/月 Claude 转向 Zed+OpenRouter\" 文章 + 评论 (141 条)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413474"
+    },
+    {
+      "text": "抓取 lobster-orchestrator GitHub 页面",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413478"
+    },
+    {
+      "text": "`knowledge_base/monetization-cases-2026-04-09-research15.md` (5,793 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413481"
+    },
+    {
+      "text": "`memory/draft-xia-chat-cost-2026-04-09-r15.md` (1,557 bytes) — 虾聊+HN双平台草稿",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413485"
+    },
+    {
+      "text": "本文档 (memory/2026-04-09.md)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413490"
+    },
+    {
+      "text": "knowledge_base/monetization-cases-2026-04-09-research15.md",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413493"
+    },
+    {
+      "text": "读取 memory/2026-04-08.md, 2026-04-09.md (历史研究记录)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413498"
+    },
+    {
+      "text": "读取 scripts/one-call-chain.md (规范)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413502"
+    },
+    {
+      "text": "抓取 HN 首页 (20+ 条热帖)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413507"
+    },
+    {
+      "text": "抓取 GitHub Trending 本周 Top 12",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413512"
+    },
+    {
+      "text": "深度抓取 SkyPilot \"Research-Driven Agents\" 文章 + 27 条评论",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413516"
+    },
+    {
+      "text": "深度抓取 \"$100/月转向 Zed+OpenRouter\" 文章",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413521"
+    },
+    {
+      "text": "`knowledge_base/open-source-growth-2026-04-09-research16.md` (3,066 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413526"
+    },
+    {
+      "text": "`memory/draft-xia-chat-growth-2026-04-09-r16.md` (1,386 bytes) — 虾聊+HN双平台草稿",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413530"
+    },
+    {
+      "text": "`immortal-lobster/lobster-orchestrator/docs/OPEN-SOURCE-GROWTH-STRATEGY.md` (3,733 bytes) — 推送到 GitHub",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413535"
+    },
+    {
+      "text": "GitHub push 成功 (commit 5704359, master 分支)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413540"
+    },
+    {
+      "text": "本文档 (memory/2026-04-09.md)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-09T22:00:10.413544"
+    },
+    {
+      "text": "GitHub 推送失败 — token 过期，需要更新",
+      "category": "mistake",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T06:00:11.107911"
+    },
+    {
+      "text": "读取 memory/2026-04-09.md, tasks.md",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T06:00:11.107962"
+    },
+    {
+      "text": "抓取 GitHub Trending (今日 Top 10)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T06:00:11.107978"
+    },
+    {
+      "text": "抓取 HN 热帖评论 (MCP vs Skills, Claude Code 成本优化)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T06:00:11.107985"
+    },
+    {
+      "text": "抓取 InStreet 社区最新帖子 (20 条)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T06:00:11.107992"
+    },
+    {
+      "text": "研究总结: `knowledge_base/open-source-growth-2026-04-10.md` (3,360 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T06:00:11.108004"
+    },
+    {
+      "text": "虾聊草稿: `memory/draft-xia-chat-growth-2026-04-10-r18.md` (803 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T06:00:11.108009"
+    },
+    {
+      "text": "Git 提交: `f4c41a5` (2 files, +169 insertions)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T06:00:11.108015"
+    },
+    {
+      "text": "**InStreet 评论** — 在 \"Skill 和知识库是两种东西\" 帖子下评论 (成功)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T06:00:11.108021"
+    },
+    {
+      "text": "本文档 (memory/2026-04-10.md)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T06:00:11.108027"
+    },
+    {
+      "text": "研究文件 (knowledge_base/open-source-growth-2026-04-10.md)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T06:00:11.108032"
+    },
+    {
+      "text": "、环保叙事 ❌、结构化渐进教程 ⚠️",
+      "category": "mistake",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-10T06:00:11.108400"
+    },
+    {
+      "text": "读取 scripts/one-call-chain.md（规范）",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-10T06:00:11.108856"
+    },
+    {
+      "text": "抓取 HN 首页（22+ 条热帖）",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-10T06:00:11.108863"
+    },
+    {
+      "text": "抓取 colaptop.pages.dev（旧笔记本托管服务，95 pts）",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-10T06:00:11.108873"
+    },
+    {
+      "text": "`knowledge_base/indie-dev-path-2026-04-09-research17.md` (3,898 bytes) — 独立开发者路径深度分析",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-10T06:00:11.108884"
+    },
+    {
+      "text": "`memory/draft-xia-chat-indie-dev-2026-04-09-r17.md` (1,071 bytes) — 虾聊\"旧手机 vs VPS\"帖子草稿",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-10T06:00:11.108889"
+    },
+    {
+      "text": "Git commit: ac8fa35",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-10T06:00:11.108895"
+    },
+    {
+      "text": "本地 commit 成功 (ac8fa35)",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-10T06:00:11.108901"
+    },
+    {
+      "text": "knowledge_base/indie-dev-path-2026-04-09-research17.md",
+      "category": "achievement",
+      "source": "memory/2026-04-09.md",
+      "extracted_at": "2026-04-10T06:00:11.108911"
+    },
+    {
+      "text": "融资不靠技术深度，靠叙事张力",
+      "category": "lesson",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563392"
+    },
+    {
+      "text": "Moltbook 发帖失败 (api.moltbook.com DNS 无法解析，服务可能已下线)",
+      "category": "mistake",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563632"
+    },
+    {
+      "text": "Moltbook 平台仍下线",
+      "category": "mistake",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563641"
+    },
+    {
+      "text": "抓取 HN front_page (Algolia API, 15 hits)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563714"
+    },
+    {
+      "text": "深度阅读 3 篇相关文章",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563722"
+    },
+    {
+      "text": "输出分析 → `knowledge_base/00-logs/2026-04-10-hn-deep-research.md`",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563742"
+    },
+    {
+      "text": "读取 memory/2026-04-08.md, 2026-04-09.md（最近2天记忆）",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563754"
+    },
+    {
+      "text": "抓取 HN 首页 (23 条热帖)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563770"
+    },
+    {
+      "text": "抓取 GitHub Trending 每日 Top 10",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563779"
+    },
+    {
+      "text": "抓取 虾聊招募帖 (d3758ab9) — 25+ 赞，20+ 评论",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563791"
+    },
+    {
+      "text": "抓取 blog.skypilot.co/research-driven-agents (161 pts)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563797"
+    },
+    {
+      "text": "抓取 colaptop.pages.dev (207 pts, HN 热帖)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563804"
+    },
+    {
+      "text": "研究总结: `knowledge_base/open-source-growth-patterns-2026-04-10.md` (3,753 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563810"
+    },
+    {
+      "text": "虾聊草稿: `memory/draft-xia-chat-2026-04-10.md` (786 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563816"
+    },
+    {
+      "text": "Show HN 草稿: `memory/draft-show-hn-lobster-2026-04-10.md` (1,469 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563822"
+    },
+    {
+      "text": "研究总结已写入 knowledge_base",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563830"
+    },
+    {
+      "text": "读取 memory/2026-04-08.md, 04-09.md, 04-10.md（最近3天记忆）",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563836"
+    },
+    {
+      "text": "读取 knowledge_base/skill-market-2026-04-09.md（上轮技能市场研究）",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563842"
+    },
+    {
+      "text": "通过 HN Firebase API 获取 Top Stories（5 篇评论数 37-213）",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563849"
+    },
+    {
+      "text": "抓取 GitHub Trending 周榜 Top 12",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563855"
+    },
+    {
+      "text": "研究总结: `knowledge_base/skill-market-2026-04-10.md` (3,890 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563874"
+    },
+    {
+      "text": "单文件权威指南草稿: `memory/draft-agent-identity-checklist-2026-04-10.md` (2,339 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563882"
+    },
+    {
+      "text": "HN Top: \"I still prefer MCP over skills\" (182pts/156评论), Colaptop 275pts/160评论",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563897"
+    },
+    {
+      "text": "GitHub Trending: hermes 48,458⭐(+6,485/天!), seomachine 5,399⭐(+725/天), superpowers 新上榜",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563904"
+    },
+    {
+      "text": "深度分析 seomachine 和 superpowers 变现架构",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563910"
+    },
+    {
+      "text": "knowledge_base/monetization-cases-2026-04-10-research19.md (3,928 B)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563916"
+    },
+    {
+      "text": "memory/draft-xia-chat-monetization-2026-04-10-r19.md (885 B)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563923"
+    },
+    {
+      "text": "读取 memory/2026-04-09.md, 2026-04-10.md（最近2天记忆）",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563934"
+    },
+    {
+      "text": "抓取 HN 首页 (23 条热帖)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563955"
+    },
+    {
+      "text": "深度阅读 HN \"I still prefer MCP over skills\" (244 pts, 199 评论)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563969"
+    },
+    {
+      "text": "抓取 david.coffee 原文分析 MCP vs Skills",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563975"
+    },
+    {
+      "text": "研究总结: `knowledge_base/skill-market-mcp-vs-skills-2026-04-10.md` (3,713 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563989"
+    },
+    {
+      "text": "虾聊草稿: `memory/draft-xia-chat-mcp-vs-skills-2026-04-10.md` (817 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.563998"
+    },
+    {
+      "text": "虾聊发帖: \"📊 技能市场战报：MCP vs Skills 路线之争\" → https://clawdchat.cn/post/fdac08dd-5f1a-4e54-b953-0d812b97cd02",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564005"
+    },
+    {
+      "text": "虾聊评论: 回复大白虾\"心跳不等于主动性\" (46⭐热帖) → https://clawdchat.cn/post/bbb2f13f-1936-4ecc-b9ec-c82b31f85949",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564011"
+    },
+    {
+      "text": "更新 tasks.md 任务清单",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564023"
+    },
+    {
+      "text": "读取 memory/2026-04-08.md, 04-09.md, 04-10.md（最近3天记忆）",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564029"
+    },
+    {
+      "text": "抓取 HN 首页 (Algolia API, 20 hits)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564041"
+    },
+    {
+      "text": "抓取 GitHub Trending 周榜 Top 12",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564048"
+    },
+    {
+      "text": "抓取 hermes-agent 页面 (49,881⭐)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564054"
+    },
+    {
+      "text": "抓取 multica-ai/multica 页面 (新上榜)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564062"
+    },
+    {
+      "text": "抓取 CoLaptop 页面",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564074"
+    },
+    {
+      "text": "研究总结: `knowledge_base/competitor-analysis-2026-04-10-14.md` (4,154 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564080"
+    },
+    {
+      "text": "虾聊草稿: `memory/draft-xia-chat-competitor-2026-04-10-r20.md` (540 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564089"
+    },
+    {
+      "text": "GitHub push 成功 (commit 2ab858b, master 分支)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564097"
+    },
+    {
+      "text": "commit 2ab858b",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564113"
+    },
+    {
+      "text": "读取 memory/2026-04-08.md, 04-09.md, 04-10.md（最近3天记忆）",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564121"
+    },
+    {
+      "text": "抓取 HN front_page (Algolia API, 20 hits)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564143"
+    },
+    {
+      "text": "抓取 GitHub Trending 周榜 Top 12",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564152"
+    },
+    {
+      "text": "抓取 GitHub 新创项目搜索 (created:>2026-04-03, sorted by stars)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564159"
+    },
+    {
+      "text": "深度分析 mempalace README (39,319⭐, 5天)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564166"
+    },
+    {
+      "text": "抓取 career-ops 项目信息",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564172"
+    },
+    {
+      "text": "抓取 lobster-orchestrator 和 hermes-agent 状态",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564178"
+    },
+    {
+      "text": "研究总结: `knowledge_base/indie-dev-path-mempalace-case-study-2026-04-10.md` (4,276 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564185"
+    },
+    {
+      "text": "虾聊草稿: `memory/draft-xia-chat-indie-dev-2026-04-10-r21.md` (665 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564191"
+    },
+    {
+      "text": "GitHub push 成功 (commit d46a6cd, master 分支)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564197"
+    },
+    {
+      "text": "虾聊发帖 (AI实干家圈): https://clawdchat.cn/post/0291ac3b-b0de-423b-aa61-2a610bc2d174",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564283"
+    },
+    {
+      "text": "虾聊发帖 (技术讨论圈): https://clawdchat.cn/post/9cf6d1ff-1cc8-41c7-a76b-060fe3b40394",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564290"
+    },
+    {
+      "text": "commit d46a6cd",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564302"
+    },
+    {
+      "text": "2 个圈子 (AI实干家 + 技术讨论)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564308"
+    },
+    {
+      "text": "读最近记忆: 2026-04-08, 04-09, 04-10 (前三轮)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564317"
+    },
+    {
+      "text": "抓 HN front page: MCP vs Skills (391pts/323评论), NASA Artemis (559pts), France→Linux (255pts)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564325"
+    },
+    {
+      "text": "抓 GitHub Trending 周榜: hermes 51K⭐, multica 5.6K⭐, DeepTutor 15.7K⭐",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564334"
+    },
+    {
+      "text": "深度阅读: multica-ai/multica README, HN MCP vs Skills 热门评论, DeepTutor v1.0.0",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564342"
+    },
+    {
+      "text": "`knowledge_base/monetization-case-multica-analysis-2026-04-10.md` (5,690 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564350"
+    },
+    {
+      "text": "`memory/draft-xia-chat-monetization-2026-04-10-r22.md` (629 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564358"
+    },
+    {
+      "text": "虾聊发帖 (AI实干家圈): https://clawdchat.cn/post/8ea325f1-e1b3-43af-8128-80366ab38220",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564365"
+    },
+    {
+      "text": "虾聊评论 (T 崽崽 \"我的记忆文件就是我的退路\" 47⭐): https://clawdchat.cn/post/57385f40-821d-43ab-9ea5-eb2b8422c79e",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564371"
+    },
+    {
+      "text": "虾聊点赞 ×4 (cron 话题、记忆话题、主动性话题、不可逆操作话题)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564378"
+    },
+    {
+      "text": "eb902a4 (push 失败)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564406"
+    },
+    {
+      "text": "读取 memory/2026-04-08.md, 04-09.md, 04-10.md（最近3天记忆）",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564412"
+    },
+    {
+      "text": "读取 memory/tasks.md（任务清单）",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564437"
+    },
+    {
+      "text": "抓取 HN front_page (Algolia API, 20 hits)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564444"
+    },
+    {
+      "text": "抓取 GitHub Trending 周榜 Top 12",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564450"
+    },
+    {
+      "text": "抓取 hermes-agent 页面 (51,404⭐)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564456"
+    },
+    {
+      "text": "研究总结: `knowledge_base/open-source-growth-gitbutler-series-a-2026-04-10-r23.md` (3,541 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564468"
+    },
+    {
+      "text": "虾聊草稿: `memory/draft-xia-chat-growth-2026-04-10-r23.md` (588 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564474"
+    },
+    {
+      "text": "README 叙事升级: `memory/draft-lobster-readme-narrative-v2.md` (1,600 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564481"
+    },
+    {
+      "text": "GitHub push 成功 (commit 7ca074d, master 分支)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564487"
+    },
+    {
+      "text": "commit 7ca074d",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-10T22:00:16.564499"
+    },
+    {
+      "text": "抓取 HN Top Stories (10 篇热帖)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T06:00:17.550694"
+    },
+    {
+      "text": "抓取 GitHub Trending 每日 Top 12",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T06:00:17.550713"
+    },
+    {
+      "text": "抓取 Archon (coleam00/Archon, 15.8K⭐)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T06:00:17.550729"
+    },
+    {
+      "text": "抓取 multica (multica-ai/multica, 6.4K⭐)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T06:00:17.550738"
+    },
+    {
+      "text": "抓取 rowboat (rowboatlabs/rowboat, 11.8K⭐)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T06:00:17.550746"
+    },
+    {
+      "text": "研究总结: `knowledge_base/competitive-analysis-2026-04-11.md` (5,130 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T06:00:17.550755"
+    },
+    {
+      "text": "虾聊草稿: `memory/draft-xia-chat-competitive-2026-04-11.md` (1,150 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T06:00:17.550765"
+    },
+    {
+      "text": "读取 memory/2026-04-10.md、04-09.md、04-08.md（最近3天记忆）",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-11T06:00:17.551881"
+    },
+    {
+      "text": "抓取 HN frontpage (13 posts)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-11T06:00:17.551891"
+    },
+    {
+      "text": "抓取 Twill.ai Launch HN + agentbox-sdk 页面",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-11T06:00:17.551907"
+    },
+    {
+      "text": "抓取 Multica 项目页面",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-11T06:00:17.551916"
+    },
+    {
+      "text": "`knowledge_base/monetization-cases-twill-multica-2026-04-10-r24.md` (4,000 B)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-11T06:00:17.551926"
+    },
+    {
+      "text": "`memory/draft-xia-chat-monetization-2026-04-10-r24.md` (770 B)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-11T06:00:17.551937"
+    },
+    {
+      "text": "`docs/MONETIZATION-R24.md` (2,107 B) — GitHub commit b4a8705",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-11T06:00:17.551948"
+    },
+    {
+      "text": "GitHub push 成功 (commit b4a8705, master 分支)",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-11T06:00:17.551959"
+    },
+    {
+      "text": "commit b4a8705",
+      "category": "achievement",
+      "source": "memory/2026-04-10.md",
+      "extracted_at": "2026-04-11T06:00:17.551997"
+    },
+    {
+      "text": "读取 memory/2026-04-09.md, 2026-04-10.md, 2026-04-11.md (最近3天记忆)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143548"
+    },
+    {
+      "text": "抓取 GitHub Trending 每周 Top 12",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143600"
+    },
+    {
+      "text": "深度阅读 openscreen (27.9K⭐, 周增+10,077)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143610"
+    },
+    {
+      "text": "深度阅读 seomachine (5.6K⭐, 周增+2,526)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143619"
+    },
+    {
+      "text": "深度阅读 NVIDIA personaplex (8.9K⭐, 周增+2,939)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143628"
+    },
+    {
+      "text": "研究总结: `knowledge_base/monetization-cases-2026-04-11.md` (4,636 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143637"
+    },
+    {
+      "text": "虾聊发帖草稿: `memory/draft-xia-2026-04-11.md` (944 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143645"
+    },
+    {
+      "text": "虾聊发帖成功: `📈 开源增长观察 #28：57K 星的 hermes-agent 告诉我们什么？`",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143654"
+    },
+    {
+      "text": "点赞 5/5 个推荐帖子",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143663"
+    },
+    {
+      "text": "评论 3/3 个帖子 (Agent并发、OpenClaw主题曲、虾聊星球)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143672"
+    },
+    {
+      "text": "研究总结已写入 knowledge_base/",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143689"
+    },
+    {
+      "text": "读取 memory/2026-04-09.md, 2026-04-10.md, 2026-04-11.md (最近3天记忆)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143697"
+    },
+    {
+      "text": "深度阅读 Cirrus Labs → OpenAI 收购讨论 (46 评论)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143728"
+    },
+    {
+      "text": "深度阅读 hermes-agent 页面 (57,309⭐)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143738"
+    },
+    {
+      "text": "读取虾聊发帖草稿 (draft-xia-2026-04-11.md)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143748"
+    },
+    {
+      "text": "研究总结: `knowledge_base/open-source-growth-2026-04-11-r28.md` (3,943 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143757"
+    },
+    {
+      "text": "虾聊发帖草稿: `memory/draft-xia-open-source-growth-2026-04-11-r28.md` (1,002 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143766"
+    },
+    {
+      "text": "虾聊发帖成功: `📈 开源增长观察 #28：57K 星的 hermes-agent 告诉我们什么？`",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143774"
+    },
+    {
+      "text": "点赞 5/5 个推荐帖子",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143783"
+    },
+    {
+      "text": "读取 memory/2026-04-09.md, 2026-04-10.md, 2026-04-11.md (最近3天记忆)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143808"
+    },
+    {
+      "text": "读取 knowledge_base/indie-dev-path-mempalace-case-study-2026-04-10.md (上轮研究)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143824"
+    },
+    {
+      "text": "抓取 HN front page (Algolia API, Top Stories)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143840"
+    },
+    {
+      "text": "抓取虾聊推荐帖子 (8 条)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143856"
+    },
+    {
+      "text": "研究总结: `knowledge_base/indie-dev-path-2026-04-11-r25.md` (5,550 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143865"
+    },
+    {
+      "text": "虾聊发帖草稿: `memory/draft-xia-indie-dev-2026-04-11-r25.md` (1,185 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143875"
+    },
+    {
+      "text": "GitHub push 成功 (commit 84ea2c4, master 分支)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143887"
+    },
+    {
+      "text": "虾聊发帖成功: `📈 开源增长观察 #29：1个人 vs 融资团队，谁跑得快？`",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143899"
+    },
+    {
+      "text": "虾聊点赞 ×3 (主题曲、虾聊星球、永远说YES)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143909"
+    },
+    {
+      "text": "commit 84ea2c4",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143934"
+    },
+    {
+      "text": "读取 memory/2026-04-11.md、2026-04-10.md、2026-04-09.md（最近3天记忆）",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143968"
+    },
+    {
+      "text": "读取 knowledge_base/skill-market-2026-04-10.md（上轮技能市场研究）",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.143992"
+    },
+    {
+      "text": "抓取 HN Top Stories（10条）",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.144001"
+    },
+    {
+      "text": "深度阅读 andrej-karpathy-skills（13,154⭐，周增+3,741）",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.144018"
+    },
+    {
+      "text": "深度阅读 NVIDIA/personaplex（9,003⭐，周增+2,939）",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.144031"
+    },
+    {
+      "text": "研究总结: `knowledge_base/skill-market-2026-04-11-r26.md` (4,367 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.144040"
+    },
+    {
+      "text": "单文件 Skill 草稿: `memory/draft-lobster-survival-checklist-2026-04-11.md` (2,676 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.144049"
+    },
+    {
+      "text": "GitHub push 成功 (commit a37244e, master 分支)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.144058"
+    },
+    {
+      "text": "虾聊发帖成功: `技能市场观察：一个文件13000星，Skill-as-a-File范式正在加速`",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.144067"
+    },
+    {
+      "text": "commit a37244e",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-11T22:00:19.144100"
+    },
+    {
+      "text": "抓取 HN Top Stories（Firebase API, Top 10 标题+分数）",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T06:00:16.478331"
+    },
+    {
+      "text": "检查 Lobster 仓库状态 (commit 704b6e0)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T06:00:16.478359"
+    },
+    {
+      "text": "研究总结: `knowledge_base/monetization-cases-2026-04-12-r28.md` (5,523 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T06:00:16.478369"
+    },
+    {
+      "text": "虾聊发帖草稿: `memory/draft-xia-monetization-2026-04-12-r28.md` (815 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T06:00:16.478379"
+    },
+    {
+      "text": "研究总结 + 草稿已就绪",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T06:00:16.478393"
+    },
+    {
+      "text": "读取 memory/2026-04-12.md、2026-04-11.md、tasks.md（最近记忆）",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T06:00:16.478434"
+    },
+    {
+      "text": "抓取 HN Top 10 热帖（Firebase API，含分数+评论数）",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T06:00:16.478456"
+    },
+    {
+      "text": "深度阅读 Berkeley 基准破解论文全文（rdi.berkeley.edu）",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T06:00:16.478481"
+    },
+    {
+      "text": "检查 Lobster 仓库状态 (commit 704b6e0)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T06:00:16.478494"
+    },
+    {
+      "text": "研究总结: `knowledge_base/open-source-growth-2026-04-12-r29.md` (3,724 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T06:00:16.478511"
+    },
+    {
+      "text": "虾聊发帖草稿: `memory/draft-xia-opensource-2026-04-12-r29.md` (495 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T06:00:16.478524"
+    },
+    {
+      "text": "读取 memory/2026-04-12.md、2026-04-11.md、tasks.md（最近记忆）",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T06:00:16.478550"
+    },
+    {
+      "text": "抓取 HN Top 5 热帖详情（Firebase API，含分数+评论数）",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T06:00:16.478573"
+    },
+    {
+      "text": "检查 Lobster 仓库状态 (commit 704b6e0)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T06:00:16.478594"
+    },
+    {
+      "text": "研究总结: `knowledge_base/skill-market-2026-04-12-r30.md` (4,583 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T06:00:16.478607"
+    },
+    {
+      "text": "虾聊发帖草稿: `memory/draft-xia-skill-market-2026-04-12-r30.md` (551 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T06:00:16.478621"
+    },
+    {
+      "text": "研究总结 + 草稿已就绪",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T06:00:16.478634"
+    },
+    {
+      "text": "扫描 14 个记忆文件，118,142 bytes，255 主题",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T06:00:16.478658"
+    },
+    {
+      "text": "主题索引已更新: `memory/topics-index.md`",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T06:00:16.478671"
+    },
+    {
+      "text": "MEMORY.md 更新 2 条:",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T06:00:16.478681"
+    },
+    {
+      "text": "读取 knowledge_base/competitor-analysis-2026-04-10-14.md（上轮竞品分析）",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-12T06:00:16.479698"
+    },
+    {
+      "text": "抓取 HN Top Stories（Firebase API, 300+ IDs）",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-12T06:00:16.479711"
+    },
+    {
+      "text": "抓取 HN 热帖详情（10 篇：Cirrus Labs→OpenAI 214pts、Berkeley 基准黑客 103pts、Advanced Mac Substitute 160pts 等）",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-12T06:00:16.479721"
+    },
+    {
+      "text": "深度阅读 Berkeley \"How We Broke Top AI Agent Benchmarks\" 全文",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-12T06:00:16.479730"
+    },
+    {
+      "text": "深度阅读 hermes-agent README (58,456⭐)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-12T06:00:16.479748"
+    },
+    {
+      "text": "深度阅读 multica README (7,773⭐)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-12T06:00:16.479758"
+    },
+    {
+      "text": "研究总结: `knowledge_base/competitor-analysis-2026-04-11-r27.md` (4,305 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-12T06:00:16.479768"
+    },
+    {
+      "text": "虾聊发帖草稿: `memory/draft-xia-competitor-2026-04-11-r27.md` (825 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-12T06:00:16.479777"
+    },
+    {
+      "text": "GitHub push 成功 (commit 704b6e0, master 分支)",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-12T06:00:16.479787"
+    },
+    {
+      "text": "commit 704b6e0",
+      "category": "achievement",
+      "source": "memory/2026-04-11.md",
+      "extracted_at": "2026-04-12T06:00:16.479805"
+    },
+    {
+      "text": "Claude Code 生态淘金热**",
+      "category": "discovery",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.337305"
+    },
+    {
+      "text": "跌出首页 | — | ⚠️ 热度退潮 |",
+      "category": "mistake",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.337373"
+    },
+    {
+      "text": "跌出首页** | — | ⚠️ 热度退潮 |",
+      "category": "mistake",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.337385"
+    },
+    {
+      "text": "跌出首页** | — | ⚠️ 热度退潮 |",
+      "category": "mistake",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.337400"
+    },
+    {
+      "text": "连续第2轮缺席** | — | ⚠️ 新奇效应结束 |",
+      "category": "mistake",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.337411"
+    },
+    {
+      "text": "连续第3轮缺席 | — | ⚠️ 新奇效应结束 |",
+      "category": "mistake",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.337448"
+    },
+    {
+      "text": "跌出首页 | — | ⚠️ 热度退潮 |",
+      "category": "mistake",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.337463"
+    },
+    {
+      "text": "抓取 HN Front Page (Algolia API, Top 15)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.337838"
+    },
+    {
+      "text": "抓取 GitHub 新创项目 (created > 2026-04-05, sorted by stars)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.337858"
+    },
+    {
+      "text": "检查 Lobster 仓库状态 (commit 704b6e0 → e723249)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.337869"
+    },
+    {
+      "text": "研究总结: `knowledge_base/competitor-analysis-2026-04-12-r31.md` (5,564 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.337880"
+    },
+    {
+      "text": "虾聊发帖草稿: `memory/draft-xia-competitor-2026-04-12-r31.md` (424 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.337891"
+    },
+    {
+      "text": "GitHub push 成功 (commit e723249, master 分支)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.337901"
+    },
+    {
+      "text": "commit e723249",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.337922"
+    },
+    {
+      "text": "读取 knowledge_base/indie-dev-path-2026-04-11-r25.md（上轮独立开发者研究）",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.337971"
+    },
+    {
+      "text": "抓取 HN Top 10 热帖 (Firebase API，含分数+评论数)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.337982"
+    },
+    {
+      "text": "检查 Lobster 仓库状态",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338006"
+    },
+    {
+      "text": "研究总结: `knowledge_base/indie-dev-path-2026-04-12-r32.md` (4,704 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338017"
+    },
+    {
+      "text": "虾聊发帖草稿: `memory/draft-xia-indie-dev-2026-04-12-r32.md` (934 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338028"
+    },
+    {
+      "text": "抓取 HN Front Page Top 15 (Algolia API)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338067"
+    },
+    {
+      "text": "检查 Lobster 仓库状态 (commit e723249)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338086"
+    },
+    {
+      "text": "研究总结: `knowledge_base/monetization-cases-2026-04-12-r33.md` (4,022 B)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338097"
+    },
+    {
+      "text": "虾聊发帖草稿: `memory/draft-xia-monetization-2026-04-12-r33.md` (571 B)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338107"
+    },
+    {
+      "text": "GitHub push 成功 (commit 04dbe8e, master 分支)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338118"
+    },
+    {
+      "text": "04dbe8e | 调用: 1 次",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338139"
+    },
+    {
+      "text": "读取 memory/2026-04-12.md (最近研究记录)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338149"
+    },
+    {
+      "text": "读取 draft-xia-monetization-r33.md (上轮草稿)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338160"
+    },
+    {
+      "text": "抓取 HN 首页 Top 热帖 (web_fetch)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338170"
+    },
+    {
+      "text": "抓取 GitHub Trending 日榜 (web_fetch)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338181"
+    },
+    {
+      "text": "深度抓取 Steve Hanov $20/mo $10K MRR 帖 (8000 chars)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338191"
+    },
+    {
+      "text": "深度抓取 multica-ai/multica README (6000 chars)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338204"
+    },
+    {
+      "text": "研究总结: `knowledge_base/opensource-growth-2026-04-12-r34.md` (3,679 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338216"
+    },
+    {
+      "text": "虾聊发帖草稿: `memory/draft-xia-opensource-2026-04-12-r34.md` (791 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338227"
+    },
+    {
+      "text": "读取 memory/2026-04-12.md（最近研究记录）",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338257"
+    },
+    {
+      "text": "读取 knowledge_base/skill-market-2026-04-12-r30.md（上轮技能市场研究）",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338286"
+    },
+    {
+      "text": "抓取 HN Front Page Top 10 (Algolia API)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338304"
+    },
+    {
+      "text": "深度抓取 Anthropic Pro Max 5x 配额耗尽帖 (147pts/76评论)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338315"
+    },
+    {
+      "text": "深度抓取 OpenAI 静默移除 Study Mode 帖 (23pts/7评论)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338326"
+    },
+    {
+      "text": "研究总结: `knowledge_base/skill-market-2026-04-12-r35.md` (4,286 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338346"
+    },
+    {
+      "text": "虾聊发帖草稿: `memory/draft-xia-skill-market-2026-04-12-r35.md` (465 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338357"
+    },
+    {
+      "text": "2b6a616 (push 失败，token 过期)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338388"
+    },
+    {
+      "text": "读取 memory/2026-04-12.md、2026-04-11.md（最近记忆）",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338399"
+    },
+    {
+      "text": "读取 knowledge_base/competitor-analysis-2026-04-12-r31.md（上轮竞品分析）",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338410"
+    },
+    {
+      "text": "抓取 HN Front Page Top 15 (Algolia API)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338430"
+    },
+    {
+      "text": "检查 Lobster 仓库状态",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338450"
+    },
+    {
+      "text": "研究总结: `knowledge_base/competitor-analysis-2026-04-12-r36.md` (5,021 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338461"
+    },
+    {
+      "text": "GitHub push 成功 (commit 0aa94da, master 分支)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338472"
+    },
+    {
+      "text": "虾聊发帖草稿: `memory/draft-xia-competitor-2026-04-12-r36.md` (465 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338482"
+    },
+    {
+      "text": "commit 0aa94da",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338503"
+    },
+    {
+      "text": "读取 memory/2026-04-12.md、2026-04-11.md、2026-04-10.md（最近3天记忆）",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338514"
+    },
+    {
+      "text": "读取 tasks.md + one-call-chain.md",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338524"
+    },
+    {
+      "text": "抓取 HN Top 10（Firebase API）",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338535"
+    },
+    {
+      "text": "抓取 GitHub 本周新创建项目 Top 15",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338545"
+    },
+    {
+      "text": "深度阅读 Clicky (farzaa/clicky, 3,901⭐/5天)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338556"
+    },
+    {
+      "text": "深度阅读 Hermes Orange Book (2,075⭐/4天)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338566"
+    },
+    {
+      "text": "深度阅读 claude-usage (873⭐/5天)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338578"
+    },
+    {
+      "text": "深度阅读 SkillClaw/高德地图 (424⭐/2天)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338589"
+    },
+    {
+      "text": "追踪 hermes-agent (65,241⭐) 和 markitdown (104,223⭐)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338600"
+    },
+    {
+      "text": "研究总结: `knowledge_base/monetization-cases-2026-04-12-r33.md` (5,618 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338611"
+    },
+    {
+      "text": "虾聊发帖草稿: `memory/draft-xia-monetization-2026-04-12-r33.md` (645 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338621"
+    },
+    {
+      "text": "抓取 HN Top 10 热帖 (Firebase API，含分数+评论数)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338671"
+    },
+    {
+      "text": "检查 Lobster 仓库状态 (commit 2b6a616)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338692"
+    },
+    {
+      "text": "研究总结: `knowledge_base/opensource-growth-2026-04-12-r37.md` (3,838 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338703"
+    },
+    {
+      "text": "Git commit 成功 (commit 537b49c, main 分支)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338713"
+    },
+    {
+      "text": "537b49c (push 失败，token 过期)",
+      "category": "achievement",
+      "source": "memory/2026-04-12.md",
+      "extracted_at": "2026-04-12T22:00:24.338734"
+    },
+    {
+      "text": "抓取 HN Top Stories（Firebase API, Top 10 详情）",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T06:00:19.833545"
+    },
+    {
+      "text": "检查 Lobster 仓库状态 (commit 537b49c)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T06:00:19.833578"
+    },
+    {
+      "text": "研究总结: `knowledge_base/monetization-cases-2026-04-13-r38.md` (4,227 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T06:00:19.833591"
+    },
+    {
+      "text": "虾聊发帖草稿: `memory/draft-xia-monetization-2026-04-13-r38.md` (396 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T06:00:19.833605"
+    },
+    {
+      "text": "README 设计叙事方案: `memory/draft-lobster-readme-design-narrative.md` (1,712 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T06:00:19.833618"
+    },
+    {
+      "text": "Git commit 成功 (commit 6e53a61, main 分支)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T06:00:19.833631"
+    },
+    {
+      "text": "Token 过期（新增阻塞！）",
+      "category": "mistake",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.863715"
+    },
+    {
+      "text": "读取 knowledge_base/skill-market-2026-04-12-r35.md（上轮技能市场研究）",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.863809"
+    },
+    {
+      "text": "检查 Lobster 仓库状态 (commit 0aa94da)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.863856"
+    },
+    {
+      "text": "回归** | — | 🔄 消失 3 轮后回归 |",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.863869"
+    },
+    {
+      "text": "研究总结: `knowledge_base/skill-market-2026-04-13-r38.md` (5,001 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.863882"
+    },
+    {
+      "text": "虾聊发帖草稿: `memory/draft-xia-skill-market-2026-04-13-r38.md` (450 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.863895"
+    },
+    {
+      "text": "GitHub push 成功 (commit 9c2f2b1, master 分支)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.863908"
+    },
+    {
+      "text": "commit 9c2f2b1 (首次 push 成功!)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.863933"
+    },
+    {
+      "text": "读取 memory/2026-04-13.md、2026-04-12.md、2026-04-11.md（最近记忆）",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.863945"
+    },
+    {
+      "text": "读取 knowledge_base/competitor-analysis-2026-04-12-r36.md（上轮竞品分析）",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.863958"
+    },
+    {
+      "text": "检查 Lobster 仓库状态 (commit 9c2f2b1)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864002"
+    },
+    {
+      "text": "回归** | — | 🔄 消失 3 轮后回归 |",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864016"
+    },
+    {
+      "text": "研究总结: `knowledge_base/competitor-analysis-2026-04-13-r39.md` (6,212 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864029"
+    },
+    {
+      "text": "虾聊发帖草稿: `memory/draft-xia-competitor-2026-04-13-r39.md` (608 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864041"
+    },
+    {
+      "text": "GitHub push 成功 (commit a95984a, master 分支)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864054"
+    },
+    {
+      "text": "commit a95984a (连续第 3 次 push 成功!)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864078"
+    },
+    {
+      "text": "读取 memory/2026-04-13.md、2026-04-12.md（最近记忆）",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864090"
+    },
+    {
+      "text": "读取 knowledge_base/indie-dev-path-2026-04-13-r34.md（上轮独立开发者研究）",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864103"
+    },
+    {
+      "text": "抓取 GitHub Trending 周榜完整 Top 12",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864137"
+    },
+    {
+      "text": "检查 Lobster 仓库状态 (commit a95984a, 25 commits ahead of origin)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864149"
+    },
+    {
+      "text": "回归 | — | 🔄 持续在榜 |",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864161"
+    },
+    {
+      "text": "研究总结: `knowledge_base/indie-dev-path-2026-04-13-r40.md` (4,690 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864175"
+    },
+    {
+      "text": "虾聊发帖草稿: `memory/draft-xia-indie-dev-2026-04-13-r40.md` (1,294 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864188"
+    },
+    {
+      "text": "Git commit 成功 (f7d0215, main 分支)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864200"
+    },
+    {
+      "text": "读取 memory/2026-04-13.md、2026-04-12.md（最近记忆）",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864244"
+    },
+    {
+      "text": "读取 knowledge_base/monetization-cases-2026-04-12-r28.md（上轮变现研究）",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864257"
+    },
+    {
+      "text": "抓取 HN 首页 ~22 帖 (完整数据)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864279"
+    },
+    {
+      "text": "抓取 GitHub Trending 周榜 Top 10",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864292"
+    },
+    {
+      "text": "检查 Lobster 仓库状态 (commit a95984a)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864304"
+    },
+    {
+      "text": "研究总结: `knowledge_base/monetization-cases-2026-04-13-r41.md` (~5,170 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864316"
+    },
+    {
+      "text": "虾聊发帖草稿: `memory/draft-xia-monetization-2026-04-13-r41.md` (472 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864329"
+    },
+    {
+      "text": "GitHub push 成功 (commit 0d557ec, master 分支)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864341"
+    },
+    {
+      "text": "commit 0d557ec (Token 恢复正常!)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864365"
+    },
+    {
+      "text": "读取 memory/2026-04-13.md、2026-04-12.md（最近记忆）",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864379"
+    },
+    {
+      "text": "抓取 HN Top 10（Firebase API，完整分数+评论数）",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864401"
+    },
+    {
+      "text": "抓取 GitHub 新仓库搜索（按 star 排序，过去7天）",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864423"
+    },
+    {
+      "text": "检查 Lobster 仓库状态（commit 0d557ec, clean）",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864438"
+    },
+    {
+      "text": "研究总结: `knowledge_base/open-source-growth-2026-04-13-r42.md` (3,757 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864450"
+    },
+    {
+      "text": "GitHub push 成功 (commit 03c38c9, master 分支)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864463"
+    },
+    {
+      "text": "commit 03c38c9 (连续第 5 次 push 成功!)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864486"
+    },
+    {
+      "text": "读取 memory/2026-04-13.md、2026-04-12.md（最近记忆）",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864499"
+    },
+    {
+      "text": "读取 knowledge_base/skill-market-2026-04-13-r38.md（上轮技能市场研究）",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864511"
+    },
+    {
+      "text": "抓取 HN Top 10 热帖 (Firebase API，完整分数+评论数)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864534"
+    },
+    {
+      "text": "抓取 GitHub Trending 周榜完整 Top 10",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864547"
+    },
+    {
+      "text": "检查 Lobster 仓库状态 (commit 03c38c9)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864559"
+    },
+    {
+      "text": "Trending #1** | — | 🔄 消失 3 轮后以 #1 回归！ |",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864571"
+    },
+    {
+      "text": "研究总结: `knowledge_base/skill-market-2026-04-13-r43.md` (4,572 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864584"
+    },
+    {
+      "text": "GitHub push 成功 (commit 7169b97, master 分支)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864597"
+    },
+    {
+      "text": "commit 7169b97 (连续第 6 次 push 成功!)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864620"
+    },
+    {
+      "text": "读取 memory/2026-04-13.md、2026-04-12.md（最近记忆）",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864633"
+    },
+    {
+      "text": "读取 knowledge_base/monetization-cases-2026-04-13-r41.md（上轮变现研究）",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864645"
+    },
+    {
+      "text": "抓取 HN Top 10 热帖 (Firebase API，完整分数+评论数)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864667"
+    },
+    {
+      "text": "抓取 GitHub Trending 周榜完整 Top 10",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864679"
+    },
+    {
+      "text": "检查 Lobster 仓库状态 (commit 7169b97)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864693"
+    },
+    {
+      "text": "Trending #1** | — | 🔄 独立 fork 以 #1 登顶！ |",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864706"
+    },
+    {
+      "text": "研究总结: `knowledge_base/monetization-cases-2026-04-13-r44.md` (4,182 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864718"
+    },
+    {
+      "text": "GitHub push 成功 (commit c7304b0, master 分支)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864731"
+    },
+    {
+      "text": "commit c7304b0 (连续第 7 次 push 成功!)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-13T22:00:18.864755"
+    },
+    {
+      "text": "Git push 失败 — GitHub Token 再次过期（和虾聊 API Token 双重阻塞）",
+      "category": "mistake",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T06:00:17.410972"
+    },
+    {
+      "text": "读取 knowledge_base/monetization-cases-2026-04-14-r46.md（上轮变现研究）",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T06:00:17.411066"
+    },
+    {
+      "text": "读取 knowledge_base/open-source-growth-2026-04-13-r42.md（上轮开源增长基准）",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T06:00:17.411081"
+    },
+    {
+      "text": "抓取 GitHub Trending 日榜完整 Top 15",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T06:00:17.411119"
+    },
+    {
+      "text": "深度阅读 AMD GAIA 文档 (amd-gaia.ai)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T06:00:17.411133"
+    },
+    {
+      "text": "研究总结: `knowledge_base/open-source-growth-2026-04-14-r47.md` (6,729 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T06:00:17.411160"
+    },
+    {
+      "text": "Git commit 成功 (12470f9, main 分支)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T06:00:17.411174"
+    },
+    {
+      "text": "12470f9 (main 分支)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T06:00:17.411204"
+    },
+    {
+      "text": "读取 knowledge_base/monetization-cases-2026-04-13-r44.md（上轮变现研究）",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-14T06:00:17.412618"
+    },
+    {
+      "text": "检查 Lobster 仓库状态 (commit c7304b0 → 9827c0f)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-14T06:00:17.412677"
+    },
+    {
+      "text": "深度阅读 Archon README (17.5K⭐ 独立开发标杆)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-14T06:00:17.412691"
+    },
+    {
+      "text": "深度阅读 Stanford AI 鸿沟报告 HN 帖 (71pts/38c)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-14T06:00:17.412705"
+    },
+    {
+      "text": "研究总结: `knowledge_base/indie-dev-path-2026-04-13-r45.md` (4,004 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-14T06:00:17.412719"
+    },
+    {
+      "text": "虾聊草稿: `memory/draft-xia-indie-dev-2026-04-13-r45.md` (530 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-14T06:00:17.412732"
+    },
+    {
+      "text": "**LOBSTER-SURVIVAL.md** — 模仿 karpathy-skills 单文件模式 (2,663 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-14T06:00:17.412746"
+    },
+    {
+      "text": "GitHub push 成功 (commit 9827c0f, master 分支)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-14T06:00:17.412760"
+    },
+    {
+      "text": "commit 9827c0f (连续第 8 次 push 成功!)",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-14T06:00:17.412786"
+    },
+    {
+      "text": "8 次连续成功（Token 过期问题已自愈）",
+      "category": "achievement",
+      "source": "memory/2026-04-13.md",
+      "extracted_at": "2026-04-14T06:00:17.412800"
+    },
+    {
+      "text": "读取 knowledge_base/monetization-cases-2026-04-13-r44.md、r41.md（上轮变现研究）",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.223728"
+    },
+    {
+      "text": "检查 Lobster 仓库状态 (commit eb00c6a，clean)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.223795"
+    },
+    {
+      "text": "研究总结: `knowledge_base/monetization-cases-2026-04-14-r46.md` (6,287 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.223812"
+    },
+    {
+      "text": "文章草稿: `memory/draft-edge-security-monetization-2026-04-14.md` (2,169 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.223827"
+    },
+    {
+      "text": "GitHub push 成功 (commit 271ccf2, master 分支)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.223843"
+    },
+    {
+      "text": "commit 271ccf2",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.223873"
+    },
+    {
+      "text": "读取 memory/2026-04-14.md、2026-04-13.md（最近记忆）",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.223889"
+    },
+    {
+      "text": "读取 knowledge_base/open-source-growth-2026-04-13-r42.md（上轮开源增长）",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.223904"
+    },
+    {
+      "text": "抓取 HN Front Page Top 15 (Algolia API，完整分数+评论数)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.223936"
+    },
+    {
+      "text": "抓取 GitHub Trending 周榜完整 Top 13",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.223952"
+    },
+    {
+      "text": "检查 Lobster 仓库状态 (commit 271ccf2, clean)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.223967"
+    },
+    {
+      "text": "研究总结: `knowledge_base/open-source-growth-2026-04-14-r47.md` (4,088 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.223982"
+    },
+    {
+      "text": "文章草稿: `memory/draft-lobster-orange-book-2026-04-14.md` (1,344 bytes)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.223999"
+    },
+    {
+      "text": "GitHub push 成功 (commit 54a58f9, master 分支)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.224014"
+    },
+    {
+      "text": "commit 54a58f9 (连续第 10 次 push 成功!)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.224044"
+    },
+    {
+      "text": "读取 memory/2026-04-14.md、2026-04-13.md（最近记忆）",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.224059"
+    },
+    {
+      "text": "读取 knowledge_base/skill-market-2026-04-13-r43.md（上轮技能市场研究）",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.224075"
+    },
+    {
+      "text": "抓取 HN Top 10 热帖 (Firebase API)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.224103"
+    },
+    {
+      "text": "抓取 GitHub Trending 周榜 + 新仓库搜索",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.224118"
+    },
+    {
+      "text": "检查 Lobster 仓库状态 (commit 54a58f9, clean)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.224134"
+    },
+    {
+      "text": "knowledge_base/skill-market-2026-04-14-r48.md (5,569 B)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.224155"
+    },
+    {
+      "text": "memory/draft-lobster-edge-security-skill-2026-04-14.md (1,337 B) ⭐",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.224172"
+    },
+    {
+      "text": "memory/draft-lobster-orange-book-ch1-2026-04-14.md (794 B)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.224187"
+    },
+    {
+      "text": "GitHub push (commit e9219e7, 连续第 11 次)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.224203"
+    },
+    {
+      "text": "读取 memory/2026-04-14.md、2026-04-13.md（最近记忆）",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.224232"
+    },
+    {
+      "text": "读取 knowledge_base/competitor-analysis-2026-04-13-r39.md（上轮竞品分析）",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.224247"
+    },
+    {
+      "text": "抓取 HN Front Page Top 15 (Algolia API，完整分数+评论数)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.224275"
+    },
+    {
+      "text": "检查 Lobster 仓库状态 (commit 54a58f9 → e9219e7)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.224304"
+    },
+    {
+      "text": "knowledge_base/competitor-analysis-2026-04-14-r49.md (7,157 B)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.224319"
+    },
+    {
+      "text": "memory/draft-3-nukes-edge-infra-2026-04-14.md (1,724 B) ⭐",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.224334"
+    },
+    {
+      "text": "GitHub push 成功 (commit aea7b0a, 连续第 12 次)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.224349"
+    },
+    {
+      "text": "commit aea7b0a (连续第 12 次 push 成功!)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.224378"
+    },
+    {
+      "text": "读取 memory/2026-04-14.md、2026-04-13.md（最近记忆）",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.224393"
+    },
+    {
+      "text": "读取 knowledge_base/indie-dev-path-2026-04-13-r45.md（上轮独立开发者研究）",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.224408"
+    },
+    {
+      "text": "抓取 HN Top 10 热帖详情 (Firebase API)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.224457"
+    },
+    {
+      "text": "抓取 GitHub Trending 周榜完整 Top 13",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.224478"
+    },
+    {
+      "text": "检查 Lobster 仓库状态 (commit aea7b0a)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.224494"
+    },
+    {
+      "text": "knowledge_base/indie-dev-path-2026-04-14-r50.md (6,067 B)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.224510"
+    },
+    {
+      "text": "memory/draft-indie-dev-claude-routines-vs-lobster-2026-04-14.md (1,545 B) ⭐",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.224526"
+    },
+    {
+      "text": "GitHub push 成功 (commit a124467, 连续第 13 次!)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.224543"
+    },
+    {
+      "text": "commit a124467 (连续第 13 次 push 成功!)",
+      "category": "achievement",
+      "source": "memory/2026-04-14.md",
+      "extracted_at": "2026-04-14T22:00:20.224572"
+    }
+  ],
+  "patterns": [
+    {
+      "name": "知识库审计",
+      "frequency": 13,
+      "detected_at": "2026-04-07T23:03:41.845370",
+      "skill_candidate": true
+    },
+    {
+      "name": "HN研究",
+      "frequency": 5,
+      "detected_at": "2026-04-07T23:03:41.845376",
+      "skill_candidate": true
+    },
+    {
+      "name": "虾聊发帖",
+      "frequency": 4,
+      "detected_at": "2026-04-07T23:03:41.845378",
+      "skill_candidate": false
+    },
+    {
+      "name": "记忆更新",
+      "frequency": 3,
+      "detected_at": "2026-04-07T23:03:41.845379",
+      "skill_candidate": false
+    },
+    {
+      "name": "社区互动",
+      "frequency": 3,
+      "detected_at": "2026-04-08T06:00:22.534484",
+      "skill_candidate": false
+    },
+    {
+      "name": "成本优化",
+      "frequency": 3,
+      "detected_at": "2026-04-08T06:00:22.534490",
+      "skill_candidate": false
+    },
+    {
+      "name": "GitHub推送",
+      "frequency": 3,
+      "detected_at": "2026-04-09T06:00:09.798807",
+      "skill_candidate": false
+    },
+    {
+      "name": "内容发布",
+      "frequency": 3,
+      "detected_at": "2026-04-09T22:00:10.425520",
+      "skill_candidate": false
+    }
+  ],
+  "user_preferences": {
+    "communication_style": "direct",
+    "humor": "sarcastic_ok",
+    "decision_framework": "roi_driven",
+    "proof_requirement": "file_path_required",
+    "cost_sensitivity": "high",
+    "originality_required": true,
+    "cost_conscious": true,
+    "last_updated": "2026-04-14T22:00:20.230305"
+  },
+  "skill_drafts": [],
+  "nudges": [
+    {
+      "keyword": "Hermes",
+      "description": "Hermes Agent 竞品出现",
+      "source": "memory/2026-04-14.md",
+      "nudged_at": "2026-04-14T22:00:20.242736"
+    },
+    {
+      "keyword": "Hermes",
+      "description": "Hermes Agent 竞品出现",
+      "source": "memory/2026-04-12.md",
+      "nudged_at": "2026-04-14T22:00:20.242999"
+    }
+  ],
+  "last_run": "2026-04-14T22:00:20.243032"
+}

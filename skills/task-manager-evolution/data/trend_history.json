@@ -1,0 +1,2160 @@
+[
+  {
+    "timestamp": "2026-03-10T06:12:39.334956",
+    "total_points": 1040,
+    "percentage": 16.25,
+    "speed": 300,
+    "domains": {
+      "02-openclaw": 7.5,
+      "01-ai-agent": 9.8,
+      "04-skill-dev": 17.8,
+      "03-federal-system": 15.0,
+      "05-memory-system": 22.0,
+      "06-growth-system": 21.75,
+      "07-community": 17.4,
+      "09-security": 21.75,
+      "08-monetization": 18.6,
+      "10-automation": 17.6,
+      "11-content": 21.5,
+      "12-tools": 21.75
+    },
+    "version": "V6.2.8 (migrated)"
+  },
+  {
+    "timestamp": "2026-03-12T06:16:05.564958",
+    "version": "V6.3.1",
+    "total_points": 413609,
+    "completion_rate": 3086.63,
+    "speed": 300,
+    "total_files": 2107,
+    "total_domains": 27,
+    "domains": {
+      "00-logs": {
+        "points": 3,
+        "files": 3,
+        "percentage": 0.6
+      },
+      "00-trends": {
+        "points": 1,
+        "files": 1,
+        "percentage": 0.2
+      },
+      "01-ai-agent": {
+        "points": 24129,
+        "files": 115,
+        "percentage": 2412.9
+      },
+      "02-openclaw": {
+        "points": 11935,
+        "files": 61,
+        "percentage": 1491.88
+      },
+      "03-federal-system": {
+        "points": 17235,
+        "files": 90,
+        "percentage": 2872.5
+      },
+      "04-skill-dev": {
+        "points": 18977,
+        "files": 91,
+        "percentage": 3795.4
+      },
+      "05-memory-system": {
+        "points": 16477,
+        "files": 88,
+        "percentage": 4119.25
+      },
+      "06-growth-system": {
+        "points": 16476,
+        "files": 87,
+        "percentage": 4119.0
+      },
+      "07-community": {
+        "points": 16975,
+        "files": 88,
+        "percentage": 3395.0
+      },
+      "08-monetization": {
+        "points": 17029,
+        "files": 93,
+        "percentage": 3405.8
+      },
+      "09-security": {
+        "points": 17008,
+        "files": 88,
+        "percentage": 4252.0
+      },
+      "10-automation": {
+        "points": 16815,
+        "files": 89,
+        "percentage": 3363.0
+      },
+      "11-content": {
+        "points": 16753,
+        "files": 87,
+        "percentage": 4188.25
+      },
+      "12-tools": {
+        "points": 16755,
+        "files": 89,
+        "percentage": 4188.75
+      },
+      "13-blockchain": {
+        "points": 20102,
+        "files": 87,
+        "percentage": 4020.4
+      },
+      "14-iot": {
+        "points": 22902,
+        "files": 86,
+        "percentage": 4580.4
+      },
+      "15-cloud": {
+        "points": 16504,
+        "files": 87,
+        "percentage": 3300.8
+      },
+      "17-ml": {
+        "points": 16504,
+        "files": 87,
+        "percentage": 3300.8
+      },
+      "16-devops": {
+        "points": 16502,
+        "files": 85,
+        "percentage": 3300.4
+      },
+      "18-nlp": {
+        "points": 16502,
+        "files": 85,
+        "percentage": 3300.4
+      },
+      "19-cv": {
+        "points": 16501,
+        "files": 84,
+        "percentage": 3300.2
+      },
+      "20-robotics": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "21-edge": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "22-quantum": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "23-bio": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "23_articles_series": {
+        "points": 23,
+        "files": 23,
+        "percentage": null
+      },
+      "24-finance": {
+        "points": 16701,
+        "files": 85,
+        "percentage": 3340.2
+      }
+    }
+  },
+  {
+    "timestamp": "2026-03-12T06:17:39.595881",
+    "version": "V6.3.1",
+    "total_points": 429845,
+    "completion_rate": 3207.8,
+    "speed": 300,
+    "total_files": 2107,
+    "total_domains": 27,
+    "domains": {
+      "00-trends": {
+        "points": 1,
+        "files": 1,
+        "percentage": 0.2
+      },
+      "00-logs": {
+        "points": 3,
+        "files": 3,
+        "percentage": 0.6
+      },
+      "02-openclaw": {
+        "points": 13533,
+        "files": 61,
+        "percentage": 1691.63
+      },
+      "01-ai-agent": {
+        "points": 27399,
+        "files": 115,
+        "percentage": 2739.9
+      },
+      "03-federal-system": {
+        "points": 17953,
+        "files": 90,
+        "percentage": 2992.17
+      },
+      "04-skill-dev": {
+        "points": 20474,
+        "files": 91,
+        "percentage": 4094.8
+      },
+      "05-memory-system": {
+        "points": 17513,
+        "files": 88,
+        "percentage": 4378.25
+      },
+      "06-growth-system": {
+        "points": 17303,
+        "files": 87,
+        "percentage": 4325.75
+      },
+      "07-community": {
+        "points": 18132,
+        "files": 88,
+        "percentage": 3626.4
+      },
+      "08-monetization": {
+        "points": 18027,
+        "files": 93,
+        "percentage": 3605.4
+      },
+      "09-security": {
+        "points": 17806,
+        "files": 88,
+        "percentage": 4451.5
+      },
+      "10-automation": {
+        "points": 17962,
+        "files": 89,
+        "percentage": 3592.4
+      },
+      "11-content": {
+        "points": 17152,
+        "files": 87,
+        "percentage": 4288.0
+      },
+      "12-tools": {
+        "points": 17154,
+        "files": 89,
+        "percentage": 4288.5
+      },
+      "13-blockchain": {
+        "points": 20401,
+        "files": 87,
+        "percentage": 4080.2
+      },
+      "14-iot": {
+        "points": 23201,
+        "files": 86,
+        "percentage": 4640.2
+      },
+      "15-cloud": {
+        "points": 16803,
+        "files": 87,
+        "percentage": 3360.6
+      },
+      "16-devops": {
+        "points": 16801,
+        "files": 85,
+        "percentage": 3360.2
+      },
+      "17-ml": {
+        "points": 16803,
+        "files": 87,
+        "percentage": 3360.6
+      },
+      "18-nlp": {
+        "points": 16801,
+        "files": 85,
+        "percentage": 3360.2
+      },
+      "19-cv": {
+        "points": 16800,
+        "files": 84,
+        "percentage": 3360.0
+      },
+      "20-robotics": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "21-edge": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "22-quantum": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "23_articles_series": {
+        "points": 23,
+        "files": 23,
+        "percentage": null
+      },
+      "23-bio": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "24-finance": {
+        "points": 17000,
+        "files": 85,
+        "percentage": 3400.0
+      }
+    }
+  },
+  {
+    "timestamp": "2026-03-13T06:11:13.952042",
+    "version": "V6.3.1",
+    "total_points": 431888,
+    "completion_rate": 3223.04,
+    "speed": 300,
+    "total_files": 2122,
+    "total_domains": 27,
+    "domains": {
+      "00-logs": {
+        "points": 3,
+        "files": 3,
+        "percentage": 0.6
+      },
+      "01-ai-agent": {
+        "points": 27404,
+        "files": 120,
+        "percentage": 2740.4
+      },
+      "02-openclaw": {
+        "points": 13533,
+        "files": 61,
+        "percentage": 1691.63
+      },
+      "00-trends": {
+        "points": 6,
+        "files": 6,
+        "percentage": 1.2
+      },
+      "04-skill-dev": {
+        "points": 20474,
+        "files": 91,
+        "percentage": 4094.8
+      },
+      "03-federal-system": {
+        "points": 17953,
+        "files": 90,
+        "percentage": 2992.17
+      },
+      "05-memory-system": {
+        "points": 17513,
+        "files": 88,
+        "percentage": 4378.25
+      },
+      "06-growth-system": {
+        "points": 17303,
+        "files": 87,
+        "percentage": 4325.75
+      },
+      "08-monetization": {
+        "points": 18027,
+        "files": 93,
+        "percentage": 3605.4
+      },
+      "07-community": {
+        "points": 18132,
+        "files": 88,
+        "percentage": 3626.4
+      },
+      "09-security": {
+        "points": 17813,
+        "files": 92,
+        "percentage": 4453.25
+      },
+      "10-automation": {
+        "points": 17962,
+        "files": 89,
+        "percentage": 3592.4
+      },
+      "11-content": {
+        "points": 17152,
+        "files": 87,
+        "percentage": 4288.0
+      },
+      "12-tools": {
+        "points": 17154,
+        "files": 89,
+        "percentage": 4288.5
+      },
+      "13-blockchain": {
+        "points": 20401,
+        "files": 87,
+        "percentage": 4080.2
+      },
+      "14-iot": {
+        "points": 23201,
+        "files": 86,
+        "percentage": 4640.2
+      },
+      "15-cloud": {
+        "points": 18829,
+        "files": 88,
+        "percentage": 3765.8
+      },
+      "16-devops": {
+        "points": 16801,
+        "files": 85,
+        "percentage": 3360.2
+      },
+      "17-ml": {
+        "points": 16803,
+        "files": 87,
+        "percentage": 3360.6
+      },
+      "18-nlp": {
+        "points": 16801,
+        "files": 85,
+        "percentage": 3360.2
+      },
+      "19-cv": {
+        "points": 16800,
+        "files": 84,
+        "percentage": 3360.0
+      },
+      "20-robotics": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "21-edge": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "22-quantum": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "23_articles_series": {
+        "points": 23,
+        "files": 23,
+        "percentage": null
+      },
+      "23-bio": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "24-finance": {
+        "points": 17000,
+        "files": 85,
+        "percentage": 3400.0
+      }
+    }
+  },
+  {
+    "timestamp": "2026-03-14T06:12:50.284315",
+    "version": "V6.3.1",
+    "total_points": 427890,
+    "completion_rate": 3193.21,
+    "speed": 300,
+    "total_files": 2169,
+    "total_domains": 27,
+    "domains": {
+      "00-logs": {
+        "points": 14,
+        "files": 3,
+        "percentage": 2.8
+      },
+      "00-trends": {
+        "points": 17,
+        "files": 6,
+        "percentage": 3.4
+      },
+      "02-openclaw": {
+        "points": 12412,
+        "files": 62,
+        "percentage": 1551.5
+      },
+      "01-ai-agent": {
+        "points": 30177,
+        "files": 146,
+        "percentage": 3017.7
+      },
+      "04-skill-dev": {
+        "points": 21072,
+        "files": 94,
+        "percentage": 4214.4
+      },
+      "03-federal-system": {
+        "points": 17605,
+        "files": 95,
+        "percentage": 2934.17
+      },
+      "05-memory-system": {
+        "points": 17006,
+        "files": 88,
+        "percentage": 4251.5
+      },
+      "06-growth-system": {
+        "points": 16741,
+        "files": 87,
+        "percentage": 4185.25
+      },
+      "07-community": {
+        "points": 17112,
+        "files": 88,
+        "percentage": 3422.4
+      },
+      "08-monetization": {
+        "points": 17839,
+        "files": 95,
+        "percentage": 3567.8
+      },
+      "09-security": {
+        "points": 18194,
+        "files": 95,
+        "percentage": 4548.5
+      },
+      "11-content": {
+        "points": 16788,
+        "files": 87,
+        "percentage": 4197.0
+      },
+      "10-automation": {
+        "points": 16919,
+        "files": 89,
+        "percentage": 3383.8
+      },
+      "12-tools": {
+        "points": 17327,
+        "files": 89,
+        "percentage": 4331.75
+      },
+      "13-blockchain": {
+        "points": 20131,
+        "files": 87,
+        "percentage": 4026.2
+      },
+      "14-iot": {
+        "points": 22931,
+        "files": 86,
+        "percentage": 4586.2
+      },
+      "15-cloud": {
+        "points": 17014,
+        "files": 92,
+        "percentage": 3402.8
+      },
+      "16-devops": {
+        "points": 16549,
+        "files": 86,
+        "percentage": 3309.8
+      },
+      "17-ml": {
+        "points": 17428,
+        "files": 89,
+        "percentage": 3485.6
+      },
+      "18-nlp": {
+        "points": 16531,
+        "files": 85,
+        "percentage": 3306.2
+      },
+      "19-cv": {
+        "points": 16530,
+        "files": 84,
+        "percentage": 3306.0
+      },
+      "20-robotics": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "21-edge": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "23-bio": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "23_articles_series": {
+        "points": 23,
+        "files": 23,
+        "percentage": null
+      },
+      "22-quantum": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "24-finance": {
+        "points": 16730,
+        "files": 85,
+        "percentage": 3346.0
+      }
+    }
+  },
+  {
+    "timestamp": "2026-03-15T06:01:49.392540",
+    "version": "V6.3.1",
+    "total_points": 431028,
+    "completion_rate": 3216.63,
+    "speed": 300,
+    "total_files": 2213,
+    "total_domains": 27,
+    "domains": {
+      "00-logs": {
+        "points": 14,
+        "files": 3,
+        "percentage": 2.8
+      },
+      "00-trends": {
+        "points": 17,
+        "files": 6,
+        "percentage": 3.4
+      },
+      "02-openclaw": {
+        "points": 12412,
+        "files": 62,
+        "percentage": 1551.5
+      },
+      "01-ai-agent": {
+        "points": 31319,
+        "files": 170,
+        "percentage": 3131.9
+      },
+      "03-federal-system": {
+        "points": 17605,
+        "files": 95,
+        "percentage": 2934.17
+      },
+      "04-skill-dev": {
+        "points": 21072,
+        "files": 94,
+        "percentage": 4214.4
+      },
+      "05-memory-system": {
+        "points": 17006,
+        "files": 88,
+        "percentage": 4251.5
+      },
+      "06-growth-system": {
+        "points": 16741,
+        "files": 87,
+        "percentage": 4185.25
+      },
+      "07-community": {
+        "points": 17112,
+        "files": 88,
+        "percentage": 3422.4
+      },
+      "08-monetization": {
+        "points": 17854,
+        "files": 96,
+        "percentage": 3570.8
+      },
+      "09-security": {
+        "points": 18972,
+        "files": 100,
+        "percentage": 4743.0
+      },
+      "10-automation": {
+        "points": 16979,
+        "files": 93,
+        "percentage": 3395.8
+      },
+      "11-content": {
+        "points": 16817,
+        "files": 89,
+        "percentage": 4204.25
+      },
+      "12-tools": {
+        "points": 17327,
+        "files": 89,
+        "percentage": 4331.75
+      },
+      "13-blockchain": {
+        "points": 21111,
+        "files": 88,
+        "percentage": 4222.2
+      },
+      "14-iot": {
+        "points": 22978,
+        "files": 88,
+        "percentage": 4595.6
+      },
+      "16-devops": {
+        "points": 16568,
+        "files": 87,
+        "percentage": 3313.6
+      },
+      "15-cloud": {
+        "points": 17044,
+        "files": 94,
+        "percentage": 3408.8
+      },
+      "17-ml": {
+        "points": 17466,
+        "files": 91,
+        "percentage": 3493.2
+      },
+      "18-nlp": {
+        "points": 16531,
+        "files": 85,
+        "percentage": 3306.2
+      },
+      "19-cv": {
+        "points": 16530,
+        "files": 84,
+        "percentage": 3306.0
+      },
+      "20-robotics": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "21-edge": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "22-quantum": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "23_articles_series": {
+        "points": 23,
+        "files": 23,
+        "percentage": null
+      },
+      "23-bio": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "24-finance": {
+        "points": 16730,
+        "files": 85,
+        "percentage": 3346.0
+      }
+    }
+  },
+  {
+    "timestamp": "2026-03-15T06:05:31.598643",
+    "version": "V6.3.1",
+    "total_points": 1060732,
+    "completion_rate": 5764.85,
+    "speed": 300,
+    "total_files": 2432,
+    "total_domains": 37,
+    "domains": {
+      "00-logs": {
+        "points": 14,
+        "files": 3,
+        "percentage": 2.8
+      },
+      "00-trends": {
+        "points": 17,
+        "files": 6,
+        "percentage": 3.4
+      },
+      "02-openclaw": {
+        "points": 12412,
+        "files": 62,
+        "percentage": 1551.5
+      },
+      "01-ai-agent": {
+        "points": 31319,
+        "files": 170,
+        "percentage": 3131.9
+      },
+      "03-federal-system": {
+        "points": 17605,
+        "files": 95,
+        "percentage": 2934.17
+      },
+      "04-skill-dev": {
+        "points": 21072,
+        "files": 94,
+        "percentage": 4214.4
+      },
+      "05-memory-system": {
+        "points": 17006,
+        "files": 88,
+        "percentage": 4251.5
+      },
+      "06-growth-system": {
+        "points": 16741,
+        "files": 87,
+        "percentage": 4185.25
+      },
+      "07-community": {
+        "points": 17112,
+        "files": 88,
+        "percentage": 3422.4
+      },
+      "08-monetization": {
+        "points": 17854,
+        "files": 96,
+        "percentage": 3570.8
+      },
+      "09-security": {
+        "points": 18972,
+        "files": 100,
+        "percentage": 4743.0
+      },
+      "10-automation": {
+        "points": 16979,
+        "files": 93,
+        "percentage": 3395.8
+      },
+      "11-content": {
+        "points": 16817,
+        "files": 89,
+        "percentage": 4204.25
+      },
+      "12-tools": {
+        "points": 17327,
+        "files": 89,
+        "percentage": 4331.75
+      },
+      "13-blockchain": {
+        "points": 21111,
+        "files": 88,
+        "percentage": 4222.2
+      },
+      "14-iot": {
+        "points": 22978,
+        "files": 88,
+        "percentage": 4595.6
+      },
+      "15-cloud": {
+        "points": 17044,
+        "files": 94,
+        "percentage": 3408.8
+      },
+      "16-devops": {
+        "points": 16568,
+        "files": 87,
+        "percentage": 3313.6
+      },
+      "17-ml": {
+        "points": 17466,
+        "files": 91,
+        "percentage": 3493.2
+      },
+      "18-nlp": {
+        "points": 16531,
+        "files": 85,
+        "percentage": 3306.2
+      },
+      "19-cv": {
+        "points": 16530,
+        "files": 84,
+        "percentage": 3306.0
+      },
+      "20-robotics": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "21-edge": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "22-quantum": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "23-bio": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "23_articles_series": {
+        "points": 23,
+        "files": 23,
+        "percentage": null
+      },
+      "ai-agent": {
+        "points": 56,
+        "files": 3,
+        "percentage": 11.2
+      },
+      "ai-ethics": {
+        "points": 25,
+        "files": 1,
+        "percentage": 5.0
+      },
+      "ai-evaluation": {
+        "points": 19,
+        "files": 1,
+        "percentage": 3.8
+      },
+      "ai-infrastructure": {
+        "points": 32,
+        "files": 2,
+        "percentage": 6.4
+      },
+      "ai-legal": {
+        "points": 25,
+        "files": 1,
+        "percentage": 5.0
+      },
+      "ai-security": {
+        "points": 15,
+        "files": 1,
+        "percentage": 3.0
+      },
+      "external-trends": {
+        "points": 20,
+        "files": 5,
+        "percentage": 4.0
+      },
+      "gap-reports": {
+        "points": 28,
+        "files": 2,
+        "percentage": 5.6
+      },
+      "product-strategy": {
+        "points": 17,
+        "files": 1,
+        "percentage": 3.4
+      },
+      "tech-society": {
+        "points": 24,
+        "files": 1,
+        "percentage": 4.8
+      },
+      "24-finance": {
+        "points": 16730,
+        "files": 85,
+        "percentage": 3346.0
+      },
+      "_root_files": {
+        "points": 629443,
+        "files": 201,
+        "percentage": 125888.6
+      }
+    }
+  },
+  {
+    "timestamp": "2026-03-16T06:01:12.150410",
+    "version": "V6.3.1",
+    "total_points": 1063753,
+    "completion_rate": 5781.27,
+    "speed": 300,
+    "total_files": 2449,
+    "total_domains": 37,
+    "domains": {
+      "00-trends": {
+        "points": 17,
+        "files": 6,
+        "percentage": 3.4
+      },
+      "00-logs": {
+        "points": 14,
+        "files": 3,
+        "percentage": 2.8
+      },
+      "02-openclaw": {
+        "points": 13342,
+        "files": 64,
+        "percentage": 1667.75
+      },
+      "01-ai-agent": {
+        "points": 32054,
+        "files": 174,
+        "percentage": 3205.4
+      },
+      "03-federal-system": {
+        "points": 17605,
+        "files": 95,
+        "percentage": 2934.17
+      },
+      "04-skill-dev": {
+        "points": 21072,
+        "files": 94,
+        "percentage": 4214.4
+      },
+      "06-growth-system": {
+        "points": 16741,
+        "files": 87,
+        "percentage": 4185.25
+      },
+      "05-memory-system": {
+        "points": 17006,
+        "files": 88,
+        "percentage": 4251.5
+      },
+      "07-community": {
+        "points": 17112,
+        "files": 88,
+        "percentage": 3422.4
+      },
+      "09-security": {
+        "points": 19186,
+        "files": 104,
+        "percentage": 4796.5
+      },
+      "08-monetization": {
+        "points": 17878,
+        "files": 97,
+        "percentage": 3575.6
+      },
+      "10-automation": {
+        "points": 16979,
+        "files": 93,
+        "percentage": 3395.8
+      },
+      "12-tools": {
+        "points": 17327,
+        "files": 89,
+        "percentage": 4331.75
+      },
+      "11-content": {
+        "points": 16851,
+        "files": 91,
+        "percentage": 4212.75
+      },
+      "13-blockchain": {
+        "points": 21111,
+        "files": 88,
+        "percentage": 4222.2
+      },
+      "14-iot": {
+        "points": 23002,
+        "files": 89,
+        "percentage": 4600.4
+      },
+      "15-cloud": {
+        "points": 17044,
+        "files": 94,
+        "percentage": 3408.8
+      },
+      "16-devops": {
+        "points": 16568,
+        "files": 87,
+        "percentage": 3313.6
+      },
+      "17-ml": {
+        "points": 17926,
+        "files": 92,
+        "percentage": 3585.2
+      },
+      "18-nlp": {
+        "points": 16531,
+        "files": 85,
+        "percentage": 3306.2
+      },
+      "19-cv": {
+        "points": 16530,
+        "files": 84,
+        "percentage": 3306.0
+      },
+      "20-robotics": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "21-edge": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "22-quantum": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "23_articles_series": {
+        "points": 23,
+        "files": 23,
+        "percentage": null
+      },
+      "23-bio": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "ai-agent": {
+        "points": 56,
+        "files": 3,
+        "percentage": 11.2
+      },
+      "ai-ethics": {
+        "points": 25,
+        "files": 1,
+        "percentage": 5.0
+      },
+      "ai-evaluation": {
+        "points": 19,
+        "files": 1,
+        "percentage": 3.8
+      },
+      "ai-infrastructure": {
+        "points": 32,
+        "files": 2,
+        "percentage": 6.4
+      },
+      "ai-legal": {
+        "points": 25,
+        "files": 1,
+        "percentage": 5.0
+      },
+      "ai-security": {
+        "points": 15,
+        "files": 1,
+        "percentage": 3.0
+      },
+      "external-trends": {
+        "points": 20,
+        "files": 5,
+        "percentage": 4.0
+      },
+      "gap-reports": {
+        "points": 28,
+        "files": 2,
+        "percentage": 5.6
+      },
+      "product-strategy": {
+        "points": 17,
+        "files": 1,
+        "percentage": 3.4
+      },
+      "tech-society": {
+        "points": 24,
+        "files": 1,
+        "percentage": 4.8
+      },
+      "24-finance": {
+        "points": 17330,
+        "files": 87,
+        "percentage": 3466.0
+      },
+      "_root_files": {
+        "points": 629443,
+        "files": 201,
+        "percentage": 125888.6
+      }
+    }
+  },
+  {
+    "timestamp": "2026-03-16T06:03:58.169837",
+    "version": "V6.3.1",
+    "total_points": 1063753,
+    "completion_rate": 5781.27,
+    "speed": 300,
+    "total_files": 2449,
+    "total_domains": 37,
+    "domains": {
+      "00-logs": {
+        "points": 14,
+        "files": 3,
+        "percentage": 2.8
+      },
+      "00-trends": {
+        "points": 17,
+        "files": 6,
+        "percentage": 3.4
+      },
+      "02-openclaw": {
+        "points": 13342,
+        "files": 64,
+        "percentage": 1667.75
+      },
+      "03-federal-system": {
+        "points": 17605,
+        "files": 95,
+        "percentage": 2934.17
+      },
+      "01-ai-agent": {
+        "points": 32054,
+        "files": 174,
+        "percentage": 3205.4
+      },
+      "04-skill-dev": {
+        "points": 21072,
+        "files": 94,
+        "percentage": 4214.4
+      },
+      "05-memory-system": {
+        "points": 17006,
+        "files": 88,
+        "percentage": 4251.5
+      },
+      "06-growth-system": {
+        "points": 16741,
+        "files": 87,
+        "percentage": 4185.25
+      },
+      "07-community": {
+        "points": 17112,
+        "files": 88,
+        "percentage": 3422.4
+      },
+      "09-security": {
+        "points": 19186,
+        "files": 104,
+        "percentage": 4796.5
+      },
+      "08-monetization": {
+        "points": 17878,
+        "files": 97,
+        "percentage": 3575.6
+      },
+      "10-automation": {
+        "points": 16979,
+        "files": 93,
+        "percentage": 3395.8
+      },
+      "12-tools": {
+        "points": 17327,
+        "files": 89,
+        "percentage": 4331.75
+      },
+      "13-blockchain": {
+        "points": 21111,
+        "files": 88,
+        "percentage": 4222.2
+      },
+      "11-content": {
+        "points": 16851,
+        "files": 91,
+        "percentage": 4212.75
+      },
+      "14-iot": {
+        "points": 23002,
+        "files": 89,
+        "percentage": 4600.4
+      },
+      "15-cloud": {
+        "points": 17044,
+        "files": 94,
+        "percentage": 3408.8
+      },
+      "16-devops": {
+        "points": 16568,
+        "files": 87,
+        "percentage": 3313.6
+      },
+      "17-ml": {
+        "points": 17926,
+        "files": 92,
+        "percentage": 3585.2
+      },
+      "18-nlp": {
+        "points": 16531,
+        "files": 85,
+        "percentage": 3306.2
+      },
+      "19-cv": {
+        "points": 16530,
+        "files": 84,
+        "percentage": 3306.0
+      },
+      "21-edge": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "20-robotics": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "23-bio": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "23_articles_series": {
+        "points": 23,
+        "files": 23,
+        "percentage": null
+      },
+      "24-finance": {
+        "points": 17330,
+        "files": 87,
+        "percentage": 3466.0
+      },
+      "ai-agent": {
+        "points": 56,
+        "files": 3,
+        "percentage": 11.2
+      },
+      "ai-ethics": {
+        "points": 25,
+        "files": 1,
+        "percentage": 5.0
+      },
+      "22-quantum": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "ai-infrastructure": {
+        "points": 32,
+        "files": 2,
+        "percentage": 6.4
+      },
+      "ai-evaluation": {
+        "points": 19,
+        "files": 1,
+        "percentage": 3.8
+      },
+      "ai-security": {
+        "points": 15,
+        "files": 1,
+        "percentage": 3.0
+      },
+      "ai-legal": {
+        "points": 25,
+        "files": 1,
+        "percentage": 5.0
+      },
+      "gap-reports": {
+        "points": 28,
+        "files": 2,
+        "percentage": 5.6
+      },
+      "product-strategy": {
+        "points": 17,
+        "files": 1,
+        "percentage": 3.4
+      },
+      "tech-society": {
+        "points": 24,
+        "files": 1,
+        "percentage": 4.8
+      },
+      "external-trends": {
+        "points": 20,
+        "files": 5,
+        "percentage": 4.0
+      },
+      "_root_files": {
+        "points": 629443,
+        "files": 201,
+        "percentage": 125888.6
+      }
+    }
+  },
+  {
+    "timestamp": "2026-03-16T06:10:15.901218",
+    "version": "V6.3.1",
+    "total_points": 1063753,
+    "completion_rate": 5781.27,
+    "speed": 300,
+    "total_files": 2449,
+    "total_domains": 37,
+    "domains": {
+      "00-logs": {
+        "points": 14,
+        "files": 3,
+        "percentage": 2.8
+      },
+      "00-trends": {
+        "points": 17,
+        "files": 6,
+        "percentage": 3.4
+      },
+      "02-openclaw": {
+        "points": 13342,
+        "files": 64,
+        "percentage": 1667.75
+      },
+      "03-federal-system": {
+        "points": 17605,
+        "files": 95,
+        "percentage": 2934.17
+      },
+      "01-ai-agent": {
+        "points": 32054,
+        "files": 174,
+        "percentage": 3205.4
+      },
+      "05-memory-system": {
+        "points": 17006,
+        "files": 88,
+        "percentage": 4251.5
+      },
+      "04-skill-dev": {
+        "points": 21072,
+        "files": 94,
+        "percentage": 4214.4
+      },
+      "06-growth-system": {
+        "points": 16741,
+        "files": 87,
+        "percentage": 4185.25
+      },
+      "07-community": {
+        "points": 17112,
+        "files": 88,
+        "percentage": 3422.4
+      },
+      "08-monetization": {
+        "points": 17878,
+        "files": 97,
+        "percentage": 3575.6
+      },
+      "09-security": {
+        "points": 19186,
+        "files": 104,
+        "percentage": 4796.5
+      },
+      "10-automation": {
+        "points": 16979,
+        "files": 93,
+        "percentage": 3395.8
+      },
+      "11-content": {
+        "points": 16851,
+        "files": 91,
+        "percentage": 4212.75
+      },
+      "12-tools": {
+        "points": 17327,
+        "files": 89,
+        "percentage": 4331.75
+      },
+      "13-blockchain": {
+        "points": 21111,
+        "files": 88,
+        "percentage": 4222.2
+      },
+      "14-iot": {
+        "points": 23002,
+        "files": 89,
+        "percentage": 4600.4
+      },
+      "15-cloud": {
+        "points": 17044,
+        "files": 94,
+        "percentage": 3408.8
+      },
+      "17-ml": {
+        "points": 17926,
+        "files": 92,
+        "percentage": 3585.2
+      },
+      "16-devops": {
+        "points": 16568,
+        "files": 87,
+        "percentage": 3313.6
+      },
+      "18-nlp": {
+        "points": 16531,
+        "files": 85,
+        "percentage": 3306.2
+      },
+      "19-cv": {
+        "points": 16530,
+        "files": 84,
+        "percentage": 3306.0
+      },
+      "20-robotics": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "21-edge": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "22-quantum": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "23_articles_series": {
+        "points": 23,
+        "files": 23,
+        "percentage": null
+      },
+      "23-bio": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "ai-agent": {
+        "points": 56,
+        "files": 3,
+        "percentage": 11.2
+      },
+      "ai-ethics": {
+        "points": 25,
+        "files": 1,
+        "percentage": 5.0
+      },
+      "ai-evaluation": {
+        "points": 19,
+        "files": 1,
+        "percentage": 3.8
+      },
+      "ai-infrastructure": {
+        "points": 32,
+        "files": 2,
+        "percentage": 6.4
+      },
+      "ai-legal": {
+        "points": 25,
+        "files": 1,
+        "percentage": 5.0
+      },
+      "ai-security": {
+        "points": 15,
+        "files": 1,
+        "percentage": 3.0
+      },
+      "external-trends": {
+        "points": 20,
+        "files": 5,
+        "percentage": 4.0
+      },
+      "gap-reports": {
+        "points": 28,
+        "files": 2,
+        "percentage": 5.6
+      },
+      "product-strategy": {
+        "points": 17,
+        "files": 1,
+        "percentage": 3.4
+      },
+      "tech-society": {
+        "points": 24,
+        "files": 1,
+        "percentage": 4.8
+      },
+      "24-finance": {
+        "points": 17330,
+        "files": 87,
+        "percentage": 3466.0
+      },
+      "_root_files": {
+        "points": 629443,
+        "files": 201,
+        "percentage": 125888.6
+      }
+    }
+  },
+  {
+    "timestamp": "2026-03-16T06:10:46.578735",
+    "version": "V6.3.1",
+    "total_points": 458753,
+    "completion_rate": 2493.22,
+    "speed": 300,
+    "total_files": 2449,
+    "total_domains": 37,
+    "domains": {
+      "00-logs": {
+        "points": 14,
+        "files": 3,
+        "percentage": 2.8
+      },
+      "00-trends": {
+        "points": 17,
+        "files": 6,
+        "percentage": 3.4
+      },
+      "02-openclaw": {
+        "points": 13342,
+        "files": 64,
+        "percentage": 1667.75
+      },
+      "01-ai-agent": {
+        "points": 32054,
+        "files": 174,
+        "percentage": 3205.4
+      },
+      "03-federal-system": {
+        "points": 17605,
+        "files": 95,
+        "percentage": 2934.17
+      },
+      "04-skill-dev": {
+        "points": 21072,
+        "files": 94,
+        "percentage": 4214.4
+      },
+      "05-memory-system": {
+        "points": 17006,
+        "files": 88,
+        "percentage": 4251.5
+      },
+      "06-growth-system": {
+        "points": 16741,
+        "files": 87,
+        "percentage": 4185.25
+      },
+      "08-monetization": {
+        "points": 17878,
+        "files": 97,
+        "percentage": 3575.6
+      },
+      "07-community": {
+        "points": 17112,
+        "files": 88,
+        "percentage": 3422.4
+      },
+      "10-automation": {
+        "points": 16979,
+        "files": 93,
+        "percentage": 3395.8
+      },
+      "09-security": {
+        "points": 19186,
+        "files": 104,
+        "percentage": 4796.5
+      },
+      "11-content": {
+        "points": 16851,
+        "files": 91,
+        "percentage": 4212.75
+      },
+      "12-tools": {
+        "points": 17327,
+        "files": 89,
+        "percentage": 4331.75
+      },
+      "13-blockchain": {
+        "points": 21111,
+        "files": 88,
+        "percentage": 4222.2
+      },
+      "14-iot": {
+        "points": 23002,
+        "files": 89,
+        "percentage": 4600.4
+      },
+      "15-cloud": {
+        "points": 17044,
+        "files": 94,
+        "percentage": 3408.8
+      },
+      "16-devops": {
+        "points": 16568,
+        "files": 87,
+        "percentage": 3313.6
+      },
+      "17-ml": {
+        "points": 17926,
+        "files": 92,
+        "percentage": 3585.2
+      },
+      "18-nlp": {
+        "points": 16531,
+        "files": 85,
+        "percentage": 3306.2
+      },
+      "19-cv": {
+        "points": 16530,
+        "files": 84,
+        "percentage": 3306.0
+      },
+      "21-edge": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "20-robotics": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "23-bio": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "22-quantum": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "23_articles_series": {
+        "points": 23,
+        "files": 23,
+        "percentage": null
+      },
+      "ai-agent": {
+        "points": 56,
+        "files": 3,
+        "percentage": 11.2
+      },
+      "ai-ethics": {
+        "points": 25,
+        "files": 1,
+        "percentage": 5.0
+      },
+      "ai-evaluation": {
+        "points": 19,
+        "files": 1,
+        "percentage": 3.8
+      },
+      "ai-infrastructure": {
+        "points": 32,
+        "files": 2,
+        "percentage": 6.4
+      },
+      "ai-legal": {
+        "points": 25,
+        "files": 1,
+        "percentage": 5.0
+      },
+      "ai-security": {
+        "points": 15,
+        "files": 1,
+        "percentage": 3.0
+      },
+      "external-trends": {
+        "points": 20,
+        "files": 5,
+        "percentage": 4.0
+      },
+      "gap-reports": {
+        "points": 28,
+        "files": 2,
+        "percentage": 5.6
+      },
+      "product-strategy": {
+        "points": 17,
+        "files": 1,
+        "percentage": 3.4
+      },
+      "tech-society": {
+        "points": 24,
+        "files": 1,
+        "percentage": 4.8
+      },
+      "24-finance": {
+        "points": 17330,
+        "files": 87,
+        "percentage": 3466.0
+      },
+      "_root_files": {
+        "points": 24443,
+        "files": 201,
+        "percentage": 4888.6
+      }
+    }
+  },
+  {
+    "timestamp": "2026-03-17T06:08:13.135441",
+    "version": "V6.3.1",
+    "total_points": 470091,
+    "completion_rate": 2554.84,
+    "speed": 300,
+    "total_files": 2484,
+    "total_domains": 37,
+    "domains": {
+      "00-trends": {
+        "points": 17,
+        "files": 6,
+        "percentage": 3.4
+      },
+      "00-logs": {
+        "points": 14,
+        "files": 3,
+        "percentage": 2.8
+      },
+      "02-openclaw": {
+        "points": 13496,
+        "files": 67,
+        "percentage": 1687.0
+      },
+      "01-ai-agent": {
+        "points": 36641,
+        "files": 190,
+        "percentage": 3664.1
+      },
+      "03-federal-system": {
+        "points": 17605,
+        "files": 95,
+        "percentage": 2934.17
+      },
+      "04-skill-dev": {
+        "points": 22452,
+        "files": 97,
+        "percentage": 4490.4
+      },
+      "05-memory-system": {
+        "points": 17006,
+        "files": 88,
+        "percentage": 4251.5
+      },
+      "06-growth-system": {
+        "points": 16741,
+        "files": 87,
+        "percentage": 4185.25
+      },
+      "07-community": {
+        "points": 17112,
+        "files": 88,
+        "percentage": 3422.4
+      },
+      "08-monetization": {
+        "points": 18398,
+        "files": 98,
+        "percentage": 3679.6
+      },
+      "09-security": {
+        "points": 22422,
+        "files": 112,
+        "percentage": 5605.5
+      },
+      "10-automation": {
+        "points": 16979,
+        "files": 93,
+        "percentage": 3395.8
+      },
+      "12-tools": {
+        "points": 17327,
+        "files": 89,
+        "percentage": 4331.75
+      },
+      "11-content": {
+        "points": 16864,
+        "files": 92,
+        "percentage": 4216.0
+      },
+      "13-blockchain": {
+        "points": 21111,
+        "files": 88,
+        "percentage": 4222.2
+      },
+      "15-cloud": {
+        "points": 17044,
+        "files": 94,
+        "percentage": 3408.8
+      },
+      "14-iot": {
+        "points": 23582,
+        "files": 90,
+        "percentage": 4716.4
+      },
+      "16-devops": {
+        "points": 16568,
+        "files": 87,
+        "percentage": 3313.6
+      },
+      "18-nlp": {
+        "points": 16531,
+        "files": 85,
+        "percentage": 3306.2
+      },
+      "17-ml": {
+        "points": 17926,
+        "files": 92,
+        "percentage": 3585.2
+      },
+      "19-cv": {
+        "points": 16530,
+        "files": 84,
+        "percentage": 3306.0
+      },
+      "20-robotics": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "21-edge": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "22-quantum": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "23-bio": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "23_articles_series": {
+        "points": 23,
+        "files": 23,
+        "percentage": null
+      },
+      "ai-agent": {
+        "points": 74,
+        "files": 4,
+        "percentage": 14.8
+      },
+      "ai-ethics": {
+        "points": 25,
+        "files": 1,
+        "percentage": 5.0
+      },
+      "ai-evaluation": {
+        "points": 19,
+        "files": 1,
+        "percentage": 3.8
+      },
+      "ai-infrastructure": {
+        "points": 32,
+        "files": 2,
+        "percentage": 6.4
+      },
+      "ai-legal": {
+        "points": 25,
+        "files": 1,
+        "percentage": 5.0
+      },
+      "ai-security": {
+        "points": 15,
+        "files": 1,
+        "percentage": 3.0
+      },
+      "external-trends": {
+        "points": 20,
+        "files": 5,
+        "percentage": 4.0
+      },
+      "gap-reports": {
+        "points": 28,
+        "files": 2,
+        "percentage": 5.6
+      },
+      "product-strategy": {
+        "points": 17,
+        "files": 1,
+        "percentage": 3.4
+      },
+      "tech-society": {
+        "points": 24,
+        "files": 1,
+        "percentage": 4.8
+      },
+      "24-finance": {
+        "points": 18180,
+        "files": 88,
+        "percentage": 3636.0
+      },
+      "_root_files": {
+        "points": 24443,
+        "files": 201,
+        "percentage": 4888.6
+      }
+    }
+  },
+  {
+    "timestamp": "2026-03-18T06:17:10.510128",
+    "version": "V6.3.1",
+    "total_points": 479162,
+    "completion_rate": 2604.14,
+    "speed": 300,
+    "total_files": 2522,
+    "total_domains": 37,
+    "domains": {
+      "00-trends": {
+        "points": 17,
+        "files": 6,
+        "percentage": 3.4
+      },
+      "00-logs": {
+        "points": 14,
+        "files": 3,
+        "percentage": 2.8
+      },
+      "02-openclaw": {
+        "points": 14536,
+        "files": 69,
+        "percentage": 1817.0
+      },
+      "03-federal-system": {
+        "points": 18613,
+        "files": 99,
+        "percentage": 3102.17
+      },
+      "01-ai-agent": {
+        "points": 39286,
+        "files": 199,
+        "percentage": 3928.6
+      },
+      "04-skill-dev": {
+        "points": 22475,
+        "files": 99,
+        "percentage": 4495.0
+      },
+      "05-memory-system": {
+        "points": 17006,
+        "files": 88,
+        "percentage": 4251.5
+      },
+      "06-growth-system": {
+        "points": 16741,
+        "files": 87,
+        "percentage": 4185.25
+      },
+      "07-community": {
+        "points": 17165,
+        "files": 91,
+        "percentage": 3433.0
+      },
+      "08-monetization": {
+        "points": 18398,
+        "files": 98,
+        "percentage": 3679.6
+      },
+      "09-security": {
+        "points": 22486,
+        "files": 116,
+        "percentage": 5621.5
+      },
+      "10-automation": {
+        "points": 16979,
+        "files": 93,
+        "percentage": 3395.8
+      },
+      "11-content": {
+        "points": 18004,
+        "files": 94,
+        "percentage": 4501.0
+      },
+      "12-tools": {
+        "points": 17327,
+        "files": 89,
+        "percentage": 4331.75
+      },
+      "13-blockchain": {
+        "points": 21731,
+        "files": 89,
+        "percentage": 4346.2
+      },
+      "14-iot": {
+        "points": 24801,
+        "files": 93,
+        "percentage": 4960.2
+      },
+      "15-cloud": {
+        "points": 17063,
+        "files": 95,
+        "percentage": 3412.6
+      },
+      "16-devops": {
+        "points": 16627,
+        "files": 91,
+        "percentage": 3325.4
+      },
+      "18-nlp": {
+        "points": 16531,
+        "files": 85,
+        "percentage": 3306.2
+      },
+      "17-ml": {
+        "points": 17947,
+        "files": 93,
+        "percentage": 3589.4
+      },
+      "20-robotics": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "19-cv": {
+        "points": 16530,
+        "files": 84,
+        "percentage": 3306.0
+      },
+      "22-quantum": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "21-edge": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "23_articles_series": {
+        "points": 23,
+        "files": 23,
+        "percentage": null
+      },
+      "23-bio": {
+        "points": 16200,
+        "files": 82,
+        "percentage": 3240.0
+      },
+      "ai-agent": {
+        "points": 74,
+        "files": 4,
+        "percentage": 14.8
+      },
+      "ai-ethics": {
+        "points": 25,
+        "files": 1,
+        "percentage": 5.0
+      },
+      "ai-evaluation": {
+        "points": 19,
+        "files": 1,
+        "percentage": 3.8
+      },
+      "ai-infrastructure": {
+        "points": 32,
+        "files": 2,
+        "percentage": 6.4
+      },
+      "ai-legal": {
+        "points": 25,
+        "files": 1,
+        "percentage": 5.0
+      },
+      "ai-security": {
+        "points": 15,
+        "files": 1,
+        "percentage": 3.0
+      },
+      "external-trends": {
+        "points": 20,
+        "files": 5,
+        "percentage": 4.0
+      },
+      "gap-reports": {
+        "points": 28,
+        "files": 2,
+        "percentage": 5.6
+      },
+      "product-strategy": {
+        "points": 17,
+        "files": 1,
+        "percentage": 3.4
+      },
+      "tech-society": {
+        "points": 24,
+        "files": 1,
+        "percentage": 4.8
+      },
+      "24-finance": {
+        "points": 19340,
+        "files": 90,
+        "percentage": 3868.0
+      },
+      "_root_files": {
+        "points": 24443,
+        "files": 201,
+        "percentage": 4888.6
+      }
+    }
+  }
+]
