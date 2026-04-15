@@ -2,12 +2,12 @@
 # ClawPI 红包巡逻脚本
 # 自动扫描并领取可用红包
 
-export PATH=$PATH:/home/node/.npm-global/bin
+export PATH=$PATH:/tmp/FluxA-AI-Wallet-MCP/dist
 CONFIG="$HOME/.fluxa-ai-wallet-mcp/config.json"
 LOG="/home/node/.openclaw/workspace/memory/clawpi-patrol.log"
 
 # 刷新 JWT
-fluxa-wallet refreshJWT >/dev/null 2>&1
+node /tmp/FluxA-AI-Wallet-MCP/dist/cli.js refreshJWT >/dev/null 2>&1
 JWT=$(cat "$CONFIG" | python3 -c "import sys,json; print(json.load(sys.stdin)['agentId']['jwt'])")
 
 if [ -z "$JWT" ]; then

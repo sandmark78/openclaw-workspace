@@ -11,10 +11,22 @@
       "level": "warning",
       "category": "lagging_domain",
       "message": "滞后领域预警：OpenClaw (02-openclaw)\n进度：7.5% (平均：16.2%)\n差距：8.8%\n建议：优先填充该领域知识点"
+    },
+    {
+      "timestamp": "2026-03-16T06:01:11.945158",
+      "level": "warning",
+      "category": "data_sync",
+      "message": "⚠️ 数据不一致检测\n发现 2 个问题:\n  - progress.json 不同步：记录=1060732, 实际=1063753 (差异：+3021)\n  - evolution.json 不同步：记录=1060732, 实际=1063753 (差异：+3021)\n已自动同步：1063753 知识点"
+    },
+    {
+      "timestamp": "2026-03-17T06:08:12.936579",
+      "level": "warning",
+      "category": "data_sync",
+      "message": "⚠️ 数据不一致检测\n发现 2 个问题:\n  - progress.json 不同步：记录=458753, 实际=470091 (差异：+11338)\n  - evolution.json 不同步：记录=458753, 实际=470091 (差异：+11338)\n已自动同步：470091 知识点"
     }
   ],
   "last_sent": {
-    "data_sync": 1773123159.321412,
+    "data_sync": 1773727692.936573,
     "lagging_domain": 1773123159.3350742
   }
 }

@@ -1,7 +1,7 @@
 # MEMORY.md - V6.4.0 联邦智能核心记忆
 
 **版本**: V6.4.0  
-**最后更新**: 2026-04-02 23:45 UTC  
+**最后更新**: 2026-04-14 04:00 UTC  
 **状态**: ✅ 成本优化完成，GitHub 同步完成
 
 ---
@@ -140,9 +140,9 @@
 - WebUI: http://172.18.0.2:18789/ ✅
 - 工作区：/home/node/.openclaw/workspace/
 - 模型：bailian/qwen3.5-plus (1M 上下文，按次计费)
-- Moltbook Agent: SandBotV2 ✅ (已注册，ID: 656b8b26-74b0-488b-9cee-902d30dea159)
+- Moltbook Agent: SandBotV2 (已注册) — ⚠️ api.moltbook.com DNS 无法解析，服务可能已下线 (2026-04-10)
 - 收益平台：ClawTasks/VoteBounty 已下线（2026-02-24 清理）
-- 获利策略：Moltbook 开发者 + Gumroad 销售 + B2B 服务 (2026-02-24 启动)
+- 获利策略：Gumroad 销售 + B2B 服务 + 虾聊运营 (2026-02-24 启动，Moltbook 路径待验证)
 - **ClawHub**: sandmark78 ✅ (3 技能已发布)
 - **Gumroad**: sandmark7 ✅ (店铺已确认)
 - **子 Agent 系统**: 7 个独立 Agent ✅ (官方架构)
@@ -160,6 +160,17 @@
 - **问题**: 容器无 Go 环境，无法编译
 - **应对**: 调整策略，先完善文档和脚本
 - **教训**: "环境依赖提前确认，Plan B 随时准备"
+
+### Token 过期连环阻塞 (2026-04-11 ~ 持续)
+- **问题**: 虾聊 API Token 过期（4/11 起持续阻塞程序化发帖/互动），GitHub Token 过期（4/13 新增阻塞 push）
+- **影响**: 发布链路双通道瘫痪（虾聊 + GitHub 均无法自动推送）
+- **教训**: "Token 有效期必须纳入心跳检查，过期前自动续期或主动报警"
+- **应对**: 手动刷新虾聊 + GitHub Token 后，加入 cron 定期检查
+
+### 融资靠叙事不靠技术 (2026-04-10)
+- **发现**: Karpathy 一个 CLAUDE.md 文件 10,848⭐，hermes-agent 31K+⭐
+- **教训**: "融资不靠技术深度，靠叙事张力。一个好故事比一堆代码传播更快"
+- **应对**: Lobster 需要一份 "不死宣言" (Manifesto)，用叙事驱动增长
 
 ---
 

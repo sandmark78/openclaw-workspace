@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🦞 Lobster Orchestrator Dashboard</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #1a1a2e; color: #eee; }
+        
+        /* 头部 */
+        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; text-align: center; }
+        .header h1 { font-size: 24px; margin-bottom: 5px; }
+        .header p { opacity: 0.8; font-size: 14px; }
+        .header .stats { display: flex; justify-content: center; gap: 20px; margin-top: 15px; flex-wrap: wrap; }
+        .header .stat { background: rgba(255,255,255,0.1); padding: 10px 20px; border-radius: 8px; }
+        .header .stat-value { font-size: 20px; font-weight: bold; }
+        .header .stat-label { font-size: 12px; opacity: 0.8; }
+        
+        .container { max-width: 1400px; margin: 0 auto; padding: 20px; }
+        
+        /* 资源监控卡片 */
+        .resource-panel { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 30px; }
+        .resource-card { background: #16213e; padding: 20px; border-radius: 10px; border-left: 4px solid #667eea; }
+        .resource-card h3 { font-size: 14px; opacity: 0.7; margin-bottom: 10px; }
+        .resource-card .value { font-size: 28px; font-weight: bold; color: #667eea; }
+        .resource-card .unit { font-size: 12px; opacity: 0.6; }
+        .resource-card .progress { height: 6px; background: #0f3460; border-radius: 3px; margin-top: 10px; overflow: hidden; }
+        .resource-card .progress-bar { height: 100%; background: linear-gradient(90deg, #667eea, #764ba2); transition: width 0.3s; }
+        
+        /* 操作按钮 */
+        .action-panel { display: flex; gap: 10px; margin-bottom: 30px; flex-wrap: wrap; }
+        .btn { padding: 12px 24px; border: none; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: 500; transition: all 0.2s; display: flex; align-items: center; gap: 8px; }
+        .btn:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(102,126,234,0.4); }
+        .btn-primary { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+        .btn-success { background: linear-gradient(135deg, #00c853 0%, #69f0ae 100%); color: white; }
+        .btn-warning { background: linear-gradient(135deg, #ff9800 0%, #ffc107 100%); color: white; }
+        .btn-danger { background: linear-gradient(135deg, #f44336 0%, #ff5252 100%); color: white; }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+        
+        /* 实例列表 */
+        .instances { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 15px; }
+        .instance-card { background: #16213e; border-radius: 10px; padding: 15px; border-left: 4px solid #667eea; transition: all 0.2s; }
+        .instance-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.3); }
+        .instance-card.running { border-left-color: #00c853; }
+        .instance-card.stopped { border-left-color: #ff5252; }
+        .instance-card.crashed { border-left-color: #ff9800; }
+        .instance-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+        .instance-name { font-weight: bold; font-size: 16px; }
+        .instance-status { padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: 500; }
+        .status-running { background: #00c853; color: white; }
+        .status-stopped { background: #ff5252; color: white; }
+        .status-crashed { background: #ff9800; color: white; }
+        .instance-info { font-size: 12px; opacity: 0.7; margin-bottom: 10px; }
+        .instance-info div { margin: 3px 0; display: flex; justify-content: space-between; }
+        .instance-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+        .btn-small { padding: 6px 12px; font-size: 12px; border-radius: 4px; }
+        
+        /* 模态框 */
+        .modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 1000; justify-content: center; align-items: center; }
+        .modal.show { display: flex; }
+        .modal-content { background: #16213e; padding: 30px; border-radius: 12px; max-width: 600px; width: 90%; max-height: 80vh; overflow-y: auto; }
+        .modal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+        .modal-header h2 { font-size: 20px; }
+        .modal-close { background: none; border: none; color: #fff; font-size: 24px; cursor: pointer; opacity: 0.7; }
+        .modal-close:hover { opacity: 1; }
+        .modal-body { margin-bottom: 20px; }
+        .modal-footer { display: flex; gap: 10px; justify-content: flex-end; }
+        
+        /* 表单 */
+        .form-group { margin-bottom: 15px; }
+        .form-group label { display: block; margin-bottom: 5px; font-size: 14px; opacity: 0.8; }
+        .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 10px; border: 1px solid #0f3460; border-radius: 6px; background: #1a1a2e; color: #eee; font-size: 14px; }
+        .form-group input:focus, .form-group select:focus, .form-group textarea:focus { outline: none; border-color: #667eea; }
+        
+        /* 日志输出 */
+        .log-output { background: #0f3460; padding: 15px; border-radius: 6px; font-family: 'Courier New', monospace; font-size: 12px; max-height: 300px; overflow-y: auto; }
+        .log-line { margin: 3px 0; }
+        .log-info { color: #667eea; }
+        .log-success { color: #00c853; }
+        .log-warning { color: #ff9800; }
+        .log-error { color: #ff5252; }
+        
+        /* 刷新按钮 */
+        .refresh-btn { position: fixed; bottom: 20px; right: 20px; width: 56px; height: 56px; border-radius: 50%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; font-size: 20px; cursor: pointer; box-shadow: 0 4px 12px rgba(102,126,234,0.4); transition: all 0.3s; z-index: 100; }
+        .refresh-btn:hover { transform: rotate(90deg) scale(1.1); }
+        
+        /* 加载动画 */
+        .loading { text-align: center; padding: 40px; opacity: 0.7; }
+        .spinner { border: 4px solid #16213e; border-top: 4px solid #667eea; border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin: 0 auto 15px; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🦞 Lobster Orchestrator Dashboard</h1>
+        <p>不死龙虾编排器 - 手机运行 50 个 PicoClaw 实例</p>
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-value" id="total-instances">-</div>
+                <div class="stat-label">总实例</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="running-instances">-</div>
+                <div class="stat-label">运行中</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="memory-usage">-</div>
+                <div class="stat-label">内存 (MB)</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="cpu-usage">-</div>
+                <div class="stat-label">CPU (%)</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- 资源监控 -->
+        <div class="resource-panel">
+            <div class="resource-card">
+                <h3>🧠 内存使用</h3>
+                <div class="value" id="memory-value">0</div>
+                <div class="unit">MB / 500 MB</div>
+                <div class="progress">
+                    <div class="progress-bar" id="memory-progress" style="width: 0%"></div>
+                </div>
+            </div>
+            <div class="resource-card">
+                <h3>⚡ CPU 使用</h3>
+                <div class="value" id="cpu-value">0</div>
+                <div class="unit">%</div>
+                <div class="progress">
+                    <div class="progress-bar" id="cpu-progress" style="width: 0%"></div>
+                </div>
+            </div>
+            <div class="resource-card">
+                <h3>💾 磁盘使用</h3>
+                <div class="value" id="disk-value">0</div>
+                <div class="unit">GB</div>
+                <div class="progress">
+                    <div class="progress-bar" id="disk-progress" style="width: 0%"></div>
+                </div>
+            </div>
+            <div class="resource-card">
+                <h3>📊 实例状态</h3>
+                <div class="value" id="instance-status">0/0</div>
+                <div class="unit">运行/总数</div>
+            </div>
+        </div>
+
+        <!-- 操作按钮 -->
+        <div class="action-panel">
+            <button class="btn btn-success" onclick="backup()">
+                📦 备份
+            </button>
+            <button class="btn btn-warning" onclick="showRestoreModal()">
+                🔄 还原
+            </button>
+            <button class="btn btn-primary" onclick="showImportModal()">
+                📥 OpenClaw 导入
+            </button>
+            <button class="btn btn-primary" onclick="checkPicoClaw()">
+                🦞 PicoClaw 检查
+            </button>
+            <button class="btn btn-primary" onclick="startAll()">
+                ▶️ 全部启动
+            </button>
+            <button class="btn btn-danger" onclick="stopAll()">
+                ⏹️ 全部停止
+            </button>
+        </div>
+
+        <!-- 实例列表 -->
+        <div class="instances" id="instances-grid">
+            <div class="loading">
+                <div class="spinner"></div>
+                <div>🔄 加载中...</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 刷新按钮 -->
+    <button class="refresh-btn" onclick="loadInstances()" title="刷新">🔄</button>
+
+    <!-- 还原模态框 -->
+    <div class="modal" id="restore-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>🔄 恢复备份</h2>
+                <button class="modal-close" onclick="closeModal('restore-modal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label>选择备份</label>
+                    <select id="backup-select">
+                        <option value="">加载中...</option>
+                    </select>
+                </div>
+                <div class="log-output" id="restore-log"></div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" onclick="closeModal('restore-modal')">取消</button>
+                <button class="btn btn-warning" onclick="restore()">恢复</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- OpenClaw 导入模态框 -->
+    <div class="modal" id="import-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>📥 OpenClaw 导入</h2>
+                <button class="modal-close" onclick="closeModal('import-modal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label>导入类型</label>
+                    <select id="import-type">
+                        <option value="memory">仅记忆</option>
+                        <option value="knowledge">仅知识库</option>
+                        <option value="skills">仅技能</option>
+                        <option value="all">全部导入</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>导出文件路径</label>
+                    <input type="text" id="import-path" placeholder="data/exports/openclaw-YYYYMMDD_HHMMSS">
+                </div>
+                <div class="log-output" id="import-log"></div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" onclick="closeModal('import-modal')">取消</button>
+                <button class="btn btn-primary" onclick="importOpenClaw()">导入</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- PicoClaw 模态框 -->
+    <div class="modal" id="picoclaw-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>🦞 PicoClaw 状态</h2>
+                <button class="modal-close" onclick="closeModal('picoclaw-modal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="picoclaw-status">
+                    <div class="loading">🔄 检查中...</div>
+                </div>
+                <div class="log-output" id="picoclaw-log"></div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" onclick="closeModal('picoclaw-modal')">关闭</button>
+                <button class="btn btn-success" id="picoclaw-install-btn" onclick="installPicoClaw()" style="display:none;">🚀 安装</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = '/api/v1';
+
+        // 加载实例
+        async function loadInstances() {
+            try {
+                const [instancesRes, resourcesRes] = await Promise.all([
+                    fetch(`${API_BASE}/instances`),
+                    fetch(`${API_BASE}/resources`)
+                ]);
+                
+                const instancesData = await instancesRes.json();
+                const resourcesData = await resourcesRes.json();
+                
+                if (instancesData.success) {
+                    renderInstances(instancesData.instances);
+                    updateStats(instancesData.instances);
+                }
+                
+                if (resourcesData.success) {
+                    updateResources(resourcesData);
+                }
+            } catch (error) {
+                console.error('加载失败:', error);
+                document.getElementById('instances-grid').innerHTML = 
+                    '<div class="loading">❌ 加载失败，请刷新</div>';
+            }
+        }
+
+        // 更新统计
+        function updateStats(instances) {
+            const total = instances.length;
+            const running = instances.filter(i => i.status === 'running').length;
+            
+            document.getElementById('total-instances').textContent = total;
+            document.getElementById('running-instances').textContent = running;
+            document.getElementById('instance-status').textContent = `${running}/${total}`;
+        }
+
+        // 更新资源
+        function updateResources(resources) {
+            // 内存
+            const memory = resources.memory || 0;
+            document.getElementById('memory-value').textContent = memory.toFixed(1);
+            document.getElementById('memory-usage').textContent = memory.toFixed(0);
+            document.getElementById('memory-progress').style.width = `${(memory / 500) * 100}%`;
+            
+            // CPU
+            const cpu = resources.cpu || 0;
+            document.getElementById('cpu-value').textContent = cpu.toFixed(1);
+            document.getElementById('cpu-usage').textContent = cpu.toFixed(0);
+            document.getElementById('cpu-progress').style.width = `${cpu}%`;
+            
+            // 磁盘
+            const disk = resources.disk || 0;
+            document.getElementById('disk-value').textContent = disk.toFixed(1);
+            document.getElementById('disk-progress').style.width = `${(disk / 10) * 100}%`;
+        }
+
+        // 渲染实例
+        function renderInstances(instances) {
+            const grid = document.getElementById('instances-grid');
+            
+            if (instances.length === 0) {
+                grid.innerHTML = '<div class="loading">📭 暂无实例配置</div>';
+                return;
+            }
+
+            grid.innerHTML = instances.map(inst => `
+                <div class="instance-card ${inst.status}">
+                    <div class="instance-header">
+                        <span class="instance-name">${inst.name}</span>
+                        <span class="instance-status status-${inst.status}">${inst.status}</span>
+                    </div>
+                    <div class="instance-info">
+                        <div><span>🆔 ID:</span> <span>${inst.id}</span></div>
+                        <div><span>🌐 端口:</span> <span>${inst.port}</span></div>
+                        <div><span>📁 工作区:</span> <span>${inst.workspace}</span></div>
+                        <div><span>🔄 重启:</span> <span>${inst.restart_count || 0}</span></div>
+                        <div><span>⏱️ 运行:</span> <span>${formatUptime(inst.uptime_seconds)}</span></div>
+                    </div>
+                    <div class="instance-actions">
+                        ${inst.status === 'running' ? `
+                            <button class="btn btn-danger btn-small" onclick="stopInstance('${inst.id}')">⏹️ 停止</button>
+                            <button class="btn btn-primary btn-small" onclick="restartInstance('${inst.id}')">🔄 重启</button>
+                        ` : `
+                            <button class="btn btn-success btn-small" onclick="startInstance('${inst.id}')">▶️ 启动</button>
+                        `}
+                        <button class="btn btn-small" onclick="showInstanceLogs('${inst.id}')">📋 日志</button>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function formatUptime(seconds) {
+            if (!seconds) return '0s';
+            const h = Math.floor(seconds / 3600);
+            const m = Math.floor((seconds % 3600) / 60);
+            const s = Math.floor(seconds % 60);
+            if (h > 0) return `${h}h ${m}m`;
+            if (m > 0) return `${m}m ${s}s`;
+            return `${s}s`;
+        }
+
+        // 实例操作
+        async function startInstance(id) {
+            await fetch(`${API_BASE}/instances/${id}`, { method: 'POST' });
+            setTimeout(loadInstances, 1000);
+        }
+
+        async function stopInstance(id) {
+            await fetch(`${API_BASE}/instances/${id}`, { method: 'DELETE' });
+            setTimeout(loadInstances, 1000);
+        }
+
+        async function restartInstance(id) {
+            await stopInstance(id);
+            await startInstance(id);
+        }
+
+        async function startAll() {
+            const res = await fetch(`${API_BASE}/instances`);
+            const data = await res.json();
+            for (const inst of data.instances) {
+                if (inst.status !== 'running') {
+                    await startInstance(inst.id);
+                    await sleep(500);
+                }
+            }
+            loadInstances();
+        }
+
+        async function stopAll() {
+            const res = await fetch(`${API_BASE}/instances`);
+            const data = await res.json();
+            for (const inst of data.instances) {
+                if (inst.status === 'running') {
+                    await stopInstance(inst.id);
+                    await sleep(500);
+                }
+            }
+            loadInstances();
+        }
+
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
+        // 备份
+        async function backup() {
+            log('import-log', '📦 开始备份...', 'info');
+            try {
+                const res = await fetch(`${API_BASE}/backup`, { method: 'POST' });
+                const data = await res.json();
+                if (data.success) {
+                    log('import-log', `✅ 备份完成：${data.backup_name}`, 'success');
+                } else {
+                    log('import-log', `❌ 备份失败：${data.error}`, 'error');
+                }
+            } catch (error) {
+                log('import-log', `❌ 错误：${error.message}`, 'error');
+            }
+        }
+
+        // 显示还原模态框
+        async function showRestoreModal() {
+            document.getElementById('restore-modal').classList.add('show');
+            const select = document.getElementById('backup-select');
+            select.innerHTML = '<option>加载中...</option>';
+            
+            try {
+                const res = await fetch(`${API_BASE}/backups`);
+                const data = await res.json();
+                if (data.success) {
+                    select.innerHTML = data.backups.map(b => 
+                        `<option value="${b.name}">${b.name} (${b.size})</option>`
+                    ).join('');
+                }
+            } catch (error) {
+                select.innerHTML = '<option>加载失败</option>';
+            }
+        }
+
+        // 还原
+        async function restore() {
+            const backupName = document.getElementById('backup-select').value;
+            if (!backupName) {
+                alert('请选择备份');
+                return;
+            }
+            
+            log('restore-log', `🔄 开始恢复：${backupName}`, 'info');
+            try {
+                const res = await fetch(`${API_BASE}/restore`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ backup: backupName })
+                });
+                const data = await res.json();
+                if (data.success) {
+                    log('restore-log', `✅ 恢复完成`, 'success');
+                } else {
+                    log('restore-log', `❌ 恢复失败：${data.error}`, 'error');
+                }
+            } catch (error) {
+                log('restore-log', `❌ 错误：${error.message}`, 'error');
+            }
+        }
+
+        // 显示导入模态框
+        function showImportModal() {
+            document.getElementById('import-modal').classList.add('show');
+        }
+
+        // OpenClaw 导入
+        async function importOpenClaw() {
+            const importType = document.getElementById('import-type').value;
+            const importPath = document.getElementById('import-path').value;
+            
+            if (!importPath) {
+                alert('请输入导出文件路径');
+                return;
+            }
+            
+            log('import-log', `📥 开始导入：${importType}`, 'info');
+            try {
+                const res = await fetch(`${API_BASE}/import/openclaw`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ type: importType, path: importPath })
+                });
+                const data = await res.json();
+                if (data.success) {
+                    log('import-log', `✅ 导入完成`, 'success');
+                } else {
+                    log('import-log', `❌ 导入失败：${data.error}`, 'error');
+                }
+            } catch (error) {
+                log('import-log', `❌ 错误：${error.message}`, 'error');
+            }
+        }
+
+        // PicoClaw 检查
+        async function checkPicoClaw() {
+            document.getElementById('picoclaw-modal').classList.add('show');
+            const statusDiv = document.getElementById('picoclaw-status');
+            const installBtn = document.getElementById('picoclaw-install-btn');
+            
+            try {
+                const res = await fetch(`${API_BASE}/picoclaw/check`);
+                const data = await res.json();
+                
+                if (data.success) {
+                    const status = data.status;
+                    if (data.needs_install) {
+                        statusDiv.innerHTML = `
+                            <div style="padding: 20px; text-align: center;">
+                                <div style="font-size: 48px; margin-bottom: 10px;">🦞</div>
+                                <div style="font-size: 18px; margin-bottom: 10px;">PicoClaw 未安装</div>
+                                <div style="opacity: 0.7; margin-bottom: 20px;">需要安装 PicoClaw 才能运行实例</div>
+                            </div>
+                        `;
+                        installBtn.style.display = 'inline-block';
+                    } else {
+                        statusDiv.innerHTML = `
+                            <div style="padding: 20px;">
+                                <div style="color: #00c853; font-size: 18px; margin-bottom: 10px;">✅ PicoClaw 已安装</div>
+                                <div style="margin-bottom: 5px;"><strong>版本:</strong> ${status.version || 'unknown'}</div>
+                                <div style="margin-bottom: 5px;"><strong>路径:</strong> ${status.path || 'unknown'}</div>
+                                <div><strong>安装位置:</strong> ${status.install_path}</div>
+                            </div>
+                        `;
+                        installBtn.style.display = 'none';
+                    }
+                }
+            } catch (error) {
+                statusDiv.innerHTML = `<div style="color: #ff5252;">❌ 检查失败：${error.message}</div>`;
+            }
+        }
+
+        // 安装 PicoClaw
+        async function installPicoClaw() {
+            const logDiv = document.getElementById('picoclaw-log');
+            const installBtn = document.getElementById('picoclaw-install-btn');
+            
+            installBtn.disabled = true;
+            log(logDiv, '🚀 开始安装 PicoClaw...', 'info');
+            
+            try {
+                const res = await fetch(`${API_BASE}/picoclaw/install`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ version: 'latest' })
+                });
+                const data = await res.json();
+                
+                if (data.success) {
+                    log(logDiv, `✅ 安装完成`, 'success');
+                    log(logDiv, data.output, 'info');
+                    setTimeout(() => {
+                        checkPicoClaw();
+                    }, 2000);
+                } else {
+                    log(logDiv, `❌ 安装失败：${data.error}`, 'error');
+                    log(logDiv, data.output, 'error');
+                }
+            } catch (error) {
+                log(logDiv, `❌ 错误：${error.message}`, 'error');
+            }
+            
+            installBtn.disabled = false;
+        }
+
+        // 关闭模态框
+        function closeModal(id) {
+            document.getElementById(id).classList.remove('show');
+        }
+
+        // 日志输出
+        function log(elementId, message, type = 'info') {
+            const logEl = document.getElementById(elementId);
+            const line = document.createElement('div');
+            line.className = `log-line log-${type}`;
+            line.textContent = `[${new Date().toLocaleTimeString()}] ${message}`;
+            logEl.appendChild(line);
+            logEl.scrollTop = logEl.scrollHeight;
+        }
+
+        // 自动刷新
+        setInterval(loadInstances, 10000);
+        
+        // 初始加载
+        loadInstances();
+    </script>
+</body>
+</html>

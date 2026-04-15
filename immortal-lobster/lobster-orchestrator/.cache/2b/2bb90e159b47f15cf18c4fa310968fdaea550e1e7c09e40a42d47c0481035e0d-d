@@ -1,0 +1,5 @@
+./handlers.go
+./instance_backup.go
+./picoclaw.go
+./resources.go
+./version.go

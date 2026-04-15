@@ -154,7 +154,10 @@ class NotificationManager:
         
         lagging = []
         for domain_id, domain_data in domains.items():
-            domain_progress = domain_data.get("percentage", 0)
+            # V6.3.5: Handle None percentage (e.g., 23_articles_series with target=0)
+            domain_progress = domain_data.get("percentage")
+            if domain_progress is None:
+                continue  # Skip domains without percentage (target=0 or special cases)
             if domain_progress < lagging_threshold:
                 lagging.append({
                     "id": domain_id,

@@ -1,0 +1,1 @@
+# researchbot - AGENTS.md

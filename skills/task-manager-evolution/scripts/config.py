@@ -72,11 +72,17 @@ DOMAIN_TARGETS: Dict[str, int] = {
 
 def discover_domains(knowledge_base: Path = None) -> Dict[str, Dict[str, Any]]:
     """
-    V6.3.1 动态领域发现 - 自动扫描 knowledge_base 下所有领域目录
+    V6.3.4 动态领域发现 - 自动扫描 knowledge_base 下所有领域目录
     
     支持格式:
-    - XX-xxx (如 01-ai-agent)
-    - XX_xxx_xxx (如 23_articles_series)
+    - XX-xxx (如 01-ai-agent) - 标准领域
+    - XX_xxx_xxx (如 23_articles_series) - 标准领域
+    - ai-xxx (如 ai-agent, ai-ethics) - 扩展领域
+    - 其他有效目录 (external-trends, gap-reports, 等)
+    
+    过滤规则:
+    - 排除 shell 错误目录 ({xxx,yyy} 格式)
+    - 排除临时目录 (tmp, backup, 等)
     """
     if knowledge_base is None:
         knowledge_base = KNOWLEDGE_BASE
@@ -93,14 +99,29 @@ def discover_domains(knowledge_base: Path = None) -> Dict[str, Dict[str, Any]]:
     for item in knowledge_base.iterdir():
         if item.is_dir():
             name = item.name
-            # 匹配 XX-xxx 或 XX_xxx 格式 (前两位是数字)
+            
+            # V6.3.4: 过滤 shell 错误目录 ({xxx,yyy} 格式)
+            if name.startswith("{") and name.endswith("}"):
+                continue
+            
+            # V6.3.4: 过滤临时目录
+            if name.lower() in ["tmp", "temp", "backup", "backups", ".git", "__pycache__"]:
+                continue
+            
+            # 匹配 XX-xxx 或 XX_xxx 格式 (前两位是数字) - 标准领域
             name_normalized = name.replace("_", "-")
             prefix = name_normalized[:2] if len(name_normalized) >= 2 else ""
             
-            if prefix.isdigit() or "articles" in name.lower():
+            if prefix.isdigit():
                 target = DOMAIN_TARGETS.get(name, 500)  # 默认目标 500
                 display_name = name.replace("-", " ").replace("_", " ").title()
-                domains[name] = {"target": target, "name": display_name}
+                domains[name] = {"target": target, "name": display_name, "type": "standard"}
+            # V6.3.4: 匹配 ai-xxx 格式 - 扩展领域
+            elif name.startswith("ai-"):
+                domains[name] = {"target": 500, "name": name.replace("-", " ").title(), "type": "extension"}
+            # V6.3.4: 其他有效扩展领域
+            elif name in ["external-trends", "gap-reports", "product-strategy", "tech-society"]:
+                domains[name] = {"target": 500, "name": name.replace("-", " ").title(), "type": "extension"}
     
     # 如果没扫描到任何领域，回退到静态定义
     if not domains:
@@ -179,14 +200,18 @@ def save_config(config: dict, config_file: Path = None):
 
 def count_knowledge_points(filepath: Path) -> int:
     """
-    V6.3.1 知识点计数 - 解析文件中的元数据
+    V6.3.3 知识点计数 - 多策略智能计数 (元数据 + 实际内容)
     
-    支持格式:
-    - **数量**: 500 知识点
-    - **数量**: 500
-    - **目标**: 500 知识点
-    - **目标**: 500
-    - 无元数据时返回 1 (默认每个文件至少 1 个知识点)
+    计数策略 (优先级从高到低):
+    1. 元数据 `**数量**:` / `**知识点范围**: XXX-YYY (NNN 个)` - 显式声明
+    2. 内容计数 `### AXX-NNN:` / `### NNNN:` - 标题格式
+    3. 内容计数 `- NNNN:` - 列表格式
+    4. 默认值 1 (保守估计)
+    
+    性能优化:
+    - 只读前 5000 字符 (覆盖元数据 + 大部分内容)
+    - 编译正则表达式 (复用)
+    - 短路返回 (找到即返回)
     """
     import re
     
@@ -194,27 +219,59 @@ def count_knowledge_points(filepath: Path) -> int:
         return 0
     
     try:
-        # 只读前 2000 字符 (元数据通常在文件开头)
+        # 读取前 5000 字符 (覆盖元数据 + 内容头部)
         with open(filepath, 'r', encoding='utf-8') as f:
-            content = f.read(2000)
+            content = f.read(5000)
         
-        # 尝试匹配多种元数据格式
-        patterns = [
-            r'\*\*数量\*\*:\s*(\d+)',      # **数量**: 500
-            r'\*\*目标\*\*:\s*(\d+)',      # **目标**: 500
-            r'\*\*知识点\*\*:\s*(\d+)',    # **知识点**: 500
-            r'\*\*points\*\*:\s*(\d+)',    # **points**: 500
-        ]
+        # ========== 策略 1: 元数据解析 ==========
         
-        for pattern in patterns:
-            match = re.search(pattern, content, re.IGNORECASE)
-            if match:
-                return int(match.group(1))
+        # 优先匹配 `**数量**:` (实际数量) - 支持行首或行中
+        match = re.search(r'(?:^|\n)\*\*数量\*\*:\s*(\d+)', content)
+        if match:
+            return int(match.group(1))
         
-        # 无元数据时返回 1
+        # 匹配 `**知识点范围**: XXX-YYY (NNN 个)` (显式声明数量)
+        match = re.search(r'\*\*知识点范围\*\*:\s*\d+-\d+\s*\((\d+)\s*个\)', content)
+        if match:
+            return int(match.group(1))
+        
+        # 匹配 `**范围**:` (如 "A02-001 到 A02-800")
+        match = re.search(r'\*\*范围\*\*:\s*A?\d+-\d+\s+到\s+A?\d+-(\d+)', content)
+        if match:
+            return int(match.group(1))
+        
+        # ========== 策略 2: 内容计数 (标题格式) ==========
+        
+        # 计数 `### AXX-NNN:` 格式 (如 ### A01-001:)
+        kp_headers = len(re.findall(r'^### A\d+-\d+:', content, re.MULTILINE))
+        if kp_headers > 0:
+            return kp_headers
+        
+        # 计数 `### NNNN:` 格式 (如 ### 0201-0210:)
+        range_headers = re.findall(r'^### (\d+)-(\d+):', content, re.MULTILINE)
+        if range_headers:
+            total = sum(int(end) - int(start) + 1 for start, end in range_headers)
+            if total > 0:
+                return total
+        
+        # 计数普通 `### ` 标题 (每个标题算 1 点)
+        normal_headers = len(re.findall(r'^### ', content, re.MULTILINE))
+        if normal_headers > 10:  # 只有标题较多时才采用此策略
+            return normal_headers
+        
+        # ========== 策略 3: 内容计数 (列表格式) ==========
+        
+        # 计数 `- NNNN:` 格式 (如 - 0201:)
+        list_items = len(re.findall(r'^- \d+:', content, re.MULTILINE))
+        if list_items > 0:
+            return list_items
+        
+        # ========== 策略 4: 默认值 ==========
         return 1
-    except Exception:
-        return 1  # 出错时保守返回 1
+        
+    except Exception as e:
+        # 出错时保守返回 1
+        return 1
 
 # ============================================================================
 # 初始化
