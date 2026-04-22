@@ -3389,6 +3389,48 @@
       "category": "achievement",
       "source": "memory/2026-04-14.md",
       "extracted_at": "2026-04-15T06:00:17.864409"
+    },
+    {
+      "text": "已推送 sandmark78/sandbot (main, commit f3d0c44)",
+      "category": "achievement",
+      "source": "memory/2026-04-16.md",
+      "extracted_at": "2026-04-16T22:00:12.218913"
+    },
+    {
+      "text": "已推送 (commit aedde1e)",
+      "category": "achievement",
+      "source": "memory/2026-04-16.md",
+      "extracted_at": "2026-04-16T22:00:12.218936"
+    },
+    {
+      "text": "已推送 sandmark78/sandbot (main, commit b84263e)",
+      "category": "achievement",
+      "source": "memory/2026-04-17.md",
+      "extracted_at": "2026-04-17T22:00:08.919746"
+    },
+    {
+      "text": "(commit 6a81e5a)",
+      "category": "achievement",
+      "source": "memory/2026-04-17.md",
+      "extracted_at": "2026-04-17T22:00:08.919774"
+    },
+    {
+      "text": "(commit 8c4103e)",
+      "category": "achievement",
+      "source": "memory/2026-04-17.md",
+      "extracted_at": "2026-04-17T22:00:08.919797"
+    },
+    {
+      "text": "已推送 sandmark78/sandbot (main, commit 136d6e4)",
+      "category": "achievement",
+      "source": "memory/2026-04-18.md",
+      "extracted_at": "2026-04-18T22:00:22.980489"
+    },
+    {
+      "text": "已推送 sandmark78/sandbot (main, commit 81439d8)",
+      "category": "achievement",
+      "source": "memory/2026-04-19.md",
+      "extracted_at": "2026-04-19T22:00:06.740482"
     }
   ],
   "patterns": [
@@ -3449,16 +3491,9 @@
     "cost_sensitivity": "high",
     "originality_required": true,
     "cost_conscious": true,
-    "last_updated": "2026-04-15T06:00:17.869424"
+    "last_updated": "2026-04-22T06:00:15.164251"
   },
   "skill_drafts": [],
-  "nudges": [
-    {
-      "keyword": "Hermes",
-      "description": "Hermes Agent 竞品出现",
-      "source": "memory/2026-04-14.md",
-      "nudged_at": "2026-04-15T06:00:17.882905"
-    }
-  ],
-  "last_run": "2026-04-15T06:00:17.883053"
+  "nudges": [],
+  "last_run": "2026-04-22T06:00:15.173067"
 }
