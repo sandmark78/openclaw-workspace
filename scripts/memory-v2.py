@@ -17,7 +17,7 @@ import json
 import os
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import datetime
 
 WORKSPACE = os.path.expanduser("~/.openclaw/workspace")
 MEMORY_V2 = os.path.join(WORKSPACE, "memory-v2")
@@ -117,6 +117,9 @@ def search(query, limit=10):
     c = conn.cursor()
 
     # FTS5 搜索
+    # Escape FTS5 special characters
+    escaped = query.replace('"', '""')
+    fts_query = f'"{escaped}"'
     c.execute("""
         SELECT e.id, e.date, e.title, e.tags, e.entry_type,
                snippet(fts_entries, 1, '【', '】', '...', 64) as snippet
@@ -125,7 +128,7 @@ def search(query, limit=10):
         WHERE fts_entries MATCH ?
         ORDER BY rank
         LIMIT ?
-    """, (query, limit))
+    """, (fts_query, limit))
 
     results = c.fetchall()
     conn.close()
@@ -175,6 +178,38 @@ def add_entry(date, title, content, tags=None, entry_type="daily"):
     conn.commit()
     conn.close()
     return entry_id
+
+def update_entry(entry_id, title=None, content=None, tags=None, entry_type=None):
+    """更新条目（同步更新 tag_index）"""
+    conn = sqlite3.connect(DB_PATH)
+    c = conn.cursor()
+    
+    # Get current values
+    c.execute("SELECT title, content, tags, entry_type FROM entries WHERE id=?", (entry_id,))
+    row = c.fetchone()
+    if not row:
+        conn.close()
+        return False
+    
+    cur_title = title if title is not None else row[0]
+    cur_content = content if content is not None else row[1]
+    cur_tags = json.loads(tags) if tags is not None else json.loads(row[2])
+    cur_type = entry_type if entry_type is not None else row[3]
+    
+    c.execute("""
+        UPDATE entries SET title=?, content=?, tags=?, entry_type=?, updated_at=CURRENT_TIMESTAMP
+        WHERE id=?
+    """, (cur_title, cur_content, json.dumps(cur_tags), cur_type, entry_id))
+    
+    # Rebuild tag_index for this entry
+    c.execute("DELETE FROM tag_index WHERE entry_id=? AND entry_type=?", (entry_id, cur_type))
+    for tag in cur_tags:
+        c.execute("INSERT OR IGNORE INTO tag_index (tag, entry_id, entry_type) VALUES (?, ?, ?)",
+            (tag, entry_id, cur_type))
+    
+    conn.commit()
+    conn.close()
+    return True
 
 def add_lesson(title, content, source=None, date=None, tags=None, priority="medium"):
     """添加教训"""
