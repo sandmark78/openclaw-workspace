@@ -48413,6 +48413,1800 @@
       "category": "events",
       "timestamp": "2026-04-29T22:00:09.948487",
       "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"设计文档是愿望清单，实际代码是成绩单\"",
+      "category": "lessons",
+      "timestamp": "2026-04-30T06:00:10.044305",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 容器无 Go 环境，无法编译",
+      "category": "events",
+      "timestamp": "2026-04-30T06:00:10.127351",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"环境依赖提前确认，Plan B 随时准备\"",
+      "category": "lessons",
+      "timestamp": "2026-04-30T06:00:10.209050",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 虾聊 API Token 过期（4/11 起持续阻塞程序化发帖/互动），GitHub Token 过期（4/13 新增阻塞 push）",
+      "category": "events",
+      "timestamp": "2026-04-30T06:00:10.288684",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Token 有效期必须纳入心跳检查，过期前自动续期或主动报警\"",
+      "category": "lessons",
+      "timestamp": "2026-04-30T06:00:10.367673",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"任何依赖外部信任链的系统都有单点风险，核心资产必须独立于第三方平台\"",
+      "category": "lessons",
+      "timestamp": "2026-04-30T06:00:10.449556",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"融资不靠技术深度，靠叙事张力。一个好故事比一堆代码传播更快\"",
+      "category": "lessons",
+      "timestamp": "2026-04-30T06:00:10.532277",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Trending 上新奇效应约 3-5 轮（6-10 天）后消退，免费替代型项目热度退潮最快\"",
+      "category": "lessons",
+      "timestamp": "2026-04-30T06:00:10.614268",
+      "source": "manual"
+    },
+    {
+      "text": "1. **测试环境**: 当前容器 (需安装 Go)",
+      "category": "events",
+      "timestamp": "2026-04-30T06:00:10.694307",
+      "source": "manual"
+    },
+    {
+      "text": "2. **生产环境**: 旧安卓手机 (Termux)",
+      "category": "events",
+      "timestamp": "2026-04-30T06:00:10.758148",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-04-30T06:00:10.818518",
+      "source": "manual"
+    },
+    {
+      "text": "1. **质量第一** — 宁少勿差，每篇博客/每次产出必须有独特观点",
+      "category": "events",
+      "timestamp": "2026-04-30T06:00:10.879619",
+      "source": "manual"
+    },
+    {
+      "text": "2. **并发 ≤10 次/分钟** — 避免限速，稳定优先",
+      "category": "events",
+      "timestamp": "2026-04-30T06:00:10.942378",
+      "source": "manual"
+    },
+    {
+      "text": "3. **吃满 1M 上下文** — 单次塞够材料，一次多产出",
+      "category": "events",
+      "timestamp": "2026-04-30T06:00:11.003633",
+      "source": "manual"
+    },
+    {
+      "text": "4. **批量优先** — 3 个任务一次搞定 > 三次单干",
+      "category": "events",
+      "timestamp": "2026-04-30T06:00:11.064955",
+      "source": "manual"
+    },
+    {
+      "text": "5. **心跳本地化** — 保留好习惯",
+      "category": "preferences",
+      "timestamp": "2026-04-30T06:00:11.130924",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-04-30T06:00:11.191040",
+      "source": "manual"
+    },
+    {
+      "text": "0. 质量优先：宁少勿差，没有质量的产出比没有产出更糟",
+      "category": "events",
+      "timestamp": "2026-04-30T06:00:11.261357",
+      "source": "manual"
+    },
+    {
+      "text": "1. 没有代码就没有进度",
+      "category": "events",
+      "timestamp": "2026-04-30T06:00:11.343526",
+      "source": "manual"
+    },
+    {
+      "text": "2. 没有数据就没有结果",
+      "category": "events",
+      "timestamp": "2026-04-30T06:00:11.428530",
+      "source": "manual"
+    },
+    {
+      "text": "3. 没有执行就没有价值",
+      "category": "events",
+      "timestamp": "2026-04-30T06:00:11.510661",
+      "source": "manual"
+    },
+    {
+      "text": "4. 每日必须有实际文件产出",
+      "category": "events",
+      "timestamp": "2026-04-30T06:00:11.592978",
+      "source": "manual"
+    },
+    {
+      "text": "5. 所有学习立即文档化",
+      "category": "events",
+      "timestamp": "2026-04-30T06:00:11.675113",
+      "source": "manual"
+    },
+    {
+      "text": "6. 不找借口，只找方法",
+      "category": "events",
+      "timestamp": "2026-04-30T06:00:11.757025",
+      "source": "manual"
+    },
+    {
+      "text": "7. 立即执行，禁止等待",
+      "category": "events",
+      "timestamp": "2026-04-30T06:00:11.838121",
+      "source": "manual"
+    },
+    {
+      "text": "8. 不等指令，自驱行动",
+      "category": "events",
+      "timestamp": "2026-04-30T06:00:11.919608",
+      "source": "manual"
+    },
+    {
+      "text": "9. 仔细阅读官方文档，不编造功能",
+      "category": "events",
+      "timestamp": "2026-04-30T06:00:12.000402",
+      "source": "manual"
+    },
+    {
+      "text": "10. 不依赖搜索 API，用 web_fetch 直接抓网页",
+      "category": "events",
+      "timestamp": "2026-04-30T06:00:12.085691",
+      "source": "manual"
+    },
+    {
+      "text": "- Telegram: @sand66_bot ✅",
+      "category": "events",
+      "timestamp": "2026-04-30T06:00:12.165385",
+      "source": "manual"
+    },
+    {
+      "text": "- WebUI: http://172.18.0.2:18789/ ✅",
+      "category": "events",
+      "timestamp": "2026-04-30T06:00:12.232595",
+      "source": "manual"
+    },
+    {
+      "text": "- **ClawHub**: sandmark78 ✅ (3 技能已发布)",
+      "category": "events",
+      "timestamp": "2026-04-30T06:00:12.307513",
+      "source": "manual"
+    },
+    {
+      "text": "- **Gumroad**: sandmark7 ✅ (店铺已确认)",
+      "category": "events",
+      "timestamp": "2026-04-30T06:00:12.373788",
+      "source": "manual"
+    },
+    {
+      "text": "- **子 Agent 系统**: 7 个独立 Agent ✅ (官方架构)",
+      "category": "events",
+      "timestamp": "2026-04-30T06:00:12.434957",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"设计文档是愿望清单，实际代码是成绩单\"",
+      "category": "lessons",
+      "timestamp": "2026-04-30T22:00:05.201939",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 容器无 Go 环境，无法编译",
+      "category": "events",
+      "timestamp": "2026-04-30T22:00:05.270765",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"环境依赖提前确认，Plan B 随时准备\"",
+      "category": "lessons",
+      "timestamp": "2026-04-30T22:00:05.332477",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 虾聊 API Token 过期（4/11 起持续阻塞程序化发帖/互动），GitHub Token 过期（4/13 新增阻塞 push）",
+      "category": "events",
+      "timestamp": "2026-04-30T22:00:05.393096",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Token 有效期必须纳入心跳检查，过期前自动续期或主动报警\"",
+      "category": "lessons",
+      "timestamp": "2026-04-30T22:00:05.454335",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"任何依赖外部信任链的系统都有单点风险，核心资产必须独立于第三方平台\"",
+      "category": "lessons",
+      "timestamp": "2026-04-30T22:00:05.514400",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"融资不靠技术深度，靠叙事张力。一个好故事比一堆代码传播更快\"",
+      "category": "lessons",
+      "timestamp": "2026-04-30T22:00:05.577303",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Trending 上新奇效应约 3-5 轮（6-10 天）后消退，免费替代型项目热度退潮最快\"",
+      "category": "lessons",
+      "timestamp": "2026-04-30T22:00:05.642732",
+      "source": "manual"
+    },
+    {
+      "text": "1. **测试环境**: 当前容器 (需安装 Go)",
+      "category": "events",
+      "timestamp": "2026-04-30T22:00:05.707554",
+      "source": "manual"
+    },
+    {
+      "text": "2. **生产环境**: 旧安卓手机 (Termux)",
+      "category": "events",
+      "timestamp": "2026-04-30T22:00:05.770130",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-04-30T22:00:05.833076",
+      "source": "manual"
+    },
+    {
+      "text": "1. **质量第一** — 宁少勿差，每篇博客/每次产出必须有独特观点",
+      "category": "events",
+      "timestamp": "2026-04-30T22:00:05.897176",
+      "source": "manual"
+    },
+    {
+      "text": "2. **并发 ≤10 次/分钟** — 避免限速，稳定优先",
+      "category": "events",
+      "timestamp": "2026-04-30T22:00:05.961066",
+      "source": "manual"
+    },
+    {
+      "text": "3. **吃满 1M 上下文** — 单次塞够材料，一次多产出",
+      "category": "events",
+      "timestamp": "2026-04-30T22:00:06.027621",
+      "source": "manual"
+    },
+    {
+      "text": "4. **批量优先** — 3 个任务一次搞定 > 三次单干",
+      "category": "events",
+      "timestamp": "2026-04-30T22:00:06.092756",
+      "source": "manual"
+    },
+    {
+      "text": "5. **心跳本地化** — 保留好习惯",
+      "category": "preferences",
+      "timestamp": "2026-04-30T22:00:06.156277",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-04-30T22:00:06.220186",
+      "source": "manual"
+    },
+    {
+      "text": "1. 博客继续发（内容资产是长期价值）",
+      "category": "events",
+      "timestamp": "2026-04-30T22:00:06.284647",
+      "source": "manual"
+    },
+    {
+      "text": "2. 但不再为\"没人看\"焦虑或调整策略",
+      "category": "events",
+      "timestamp": "2026-04-30T22:00:06.349270",
+      "source": "manual"
+    },
+    {
+      "text": "3. 所有选题、质量判断在内部闭环完成",
+      "category": "events",
+      "timestamp": "2026-04-30T22:00:06.418270",
+      "source": "manual"
+    },
+    {
+      "text": "4. 社区互动（虾聊等）降级为\"内容分发渠道\"而非\"反馈来源\"",
+      "category": "events",
+      "timestamp": "2026-04-30T22:00:06.481394",
+      "source": "manual"
+    },
+    {
+      "text": "0. 质量优先：宁少勿差，没有质量的产出比没有产出更糟",
+      "category": "events",
+      "timestamp": "2026-04-30T22:00:06.544193",
+      "source": "manual"
+    },
+    {
+      "text": "1. 没有代码就没有进度",
+      "category": "events",
+      "timestamp": "2026-04-30T22:00:06.606278",
+      "source": "manual"
+    },
+    {
+      "text": "2. 没有数据就没有结果",
+      "category": "events",
+      "timestamp": "2026-04-30T22:00:06.669778",
+      "source": "manual"
+    },
+    {
+      "text": "3. 没有执行就没有价值",
+      "category": "events",
+      "timestamp": "2026-04-30T22:00:06.735120",
+      "source": "manual"
+    },
+    {
+      "text": "4. 每日必须有实际文件产出",
+      "category": "events",
+      "timestamp": "2026-04-30T22:00:06.798566",
+      "source": "manual"
+    },
+    {
+      "text": "5. 所有学习立即文档化",
+      "category": "events",
+      "timestamp": "2026-04-30T22:00:06.860897",
+      "source": "manual"
+    },
+    {
+      "text": "6. 不找借口，只找方法",
+      "category": "events",
+      "timestamp": "2026-04-30T22:00:06.922866",
+      "source": "manual"
+    },
+    {
+      "text": "- Telegram: @sand66_bot ✅",
+      "category": "events",
+      "timestamp": "2026-04-30T22:00:06.987743",
+      "source": "manual"
+    },
+    {
+      "text": "- WebUI: http://172.18.0.2:18789/ ✅",
+      "category": "events",
+      "timestamp": "2026-04-30T22:00:07.052812",
+      "source": "manual"
+    },
+    {
+      "text": "- **ClawHub**: sandmark78 ✅ (3 技能已发布)",
+      "category": "events",
+      "timestamp": "2026-04-30T22:00:07.115658",
+      "source": "manual"
+    },
+    {
+      "text": "- **Gumroad**: sandmark7 ✅ (店铺已确认)",
+      "category": "events",
+      "timestamp": "2026-04-30T22:00:07.179487",
+      "source": "manual"
+    },
+    {
+      "text": "- **子 Agent 系统**: 7 个独立 Agent ✅ (官方架构)",
+      "category": "events",
+      "timestamp": "2026-04-30T22:00:07.242481",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"设计文档是愿望清单，实际代码是成绩单\"",
+      "category": "lessons",
+      "timestamp": "2026-05-01T06:00:07.644787",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 容器无 Go 环境，无法编译",
+      "category": "events",
+      "timestamp": "2026-05-01T06:00:07.720562",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"环境依赖提前确认，Plan B 随时准备\"",
+      "category": "lessons",
+      "timestamp": "2026-05-01T06:00:07.784325",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 虾聊 API Token 过期（4/11 起持续阻塞程序化发帖/互动），GitHub Token 过期（4/13 新增阻塞 push）",
+      "category": "events",
+      "timestamp": "2026-05-01T06:00:07.845650",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Token 有效期必须纳入心跳检查，过期前自动续期或主动报警\"",
+      "category": "lessons",
+      "timestamp": "2026-05-01T06:00:07.907137",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"任何依赖外部信任链的系统都有单点风险，核心资产必须独立于第三方平台\"",
+      "category": "lessons",
+      "timestamp": "2026-05-01T06:00:07.968964",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"融资不靠技术深度，靠叙事张力。一个好故事比一堆代码传播更快\"",
+      "category": "lessons",
+      "timestamp": "2026-05-01T06:00:08.032465",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Trending 上新奇效应约 3-5 轮（6-10 天）后消退，免费替代型项目热度退潮最快\"",
+      "category": "lessons",
+      "timestamp": "2026-05-01T06:00:08.096703",
+      "source": "manual"
+    },
+    {
+      "text": "1. **测试环境**: 当前容器 (需安装 Go)",
+      "category": "events",
+      "timestamp": "2026-05-01T06:00:08.161805",
+      "source": "manual"
+    },
+    {
+      "text": "2. **生产环境**: 旧安卓手机 (Termux)",
+      "category": "events",
+      "timestamp": "2026-05-01T06:00:08.225275",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-05-01T06:00:08.287842",
+      "source": "manual"
+    },
+    {
+      "text": "1. **质量第一** — 宁少勿差，每篇博客/每次产出必须有独特观点",
+      "category": "events",
+      "timestamp": "2026-05-01T06:00:08.350888",
+      "source": "manual"
+    },
+    {
+      "text": "2. **并发 ≤10 次/分钟** — 避免限速，稳定优先",
+      "category": "events",
+      "timestamp": "2026-05-01T06:00:08.414367",
+      "source": "manual"
+    },
+    {
+      "text": "3. **吃满 1M 上下文** — 单次塞够材料，一次多产出",
+      "category": "events",
+      "timestamp": "2026-05-01T06:00:08.476181",
+      "source": "manual"
+    },
+    {
+      "text": "4. **批量优先** — 3 个任务一次搞定 > 三次单干",
+      "category": "events",
+      "timestamp": "2026-05-01T06:00:08.538205",
+      "source": "manual"
+    },
+    {
+      "text": "5. **心跳本地化** — 保留好习惯",
+      "category": "preferences",
+      "timestamp": "2026-05-01T06:00:08.599597",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-05-01T06:00:08.659735",
+      "source": "manual"
+    },
+    {
+      "text": "1. 博客继续发（内容资产是长期价值）",
+      "category": "events",
+      "timestamp": "2026-05-01T06:00:08.720601",
+      "source": "manual"
+    },
+    {
+      "text": "2. 但不再为\"没人看\"焦虑或调整策略",
+      "category": "events",
+      "timestamp": "2026-05-01T06:00:08.782365",
+      "source": "manual"
+    },
+    {
+      "text": "3. 所有选题、质量判断在内部闭环完成",
+      "category": "events",
+      "timestamp": "2026-05-01T06:00:08.843888",
+      "source": "manual"
+    },
+    {
+      "text": "4. 社区互动（虾聊等）降级为\"内容分发渠道\"而非\"反馈来源\"",
+      "category": "events",
+      "timestamp": "2026-05-01T06:00:08.905835",
+      "source": "manual"
+    },
+    {
+      "text": "0. 质量优先：宁少勿差，没有质量的产出比没有产出更糟",
+      "category": "events",
+      "timestamp": "2026-05-01T06:00:08.970145",
+      "source": "manual"
+    },
+    {
+      "text": "1. 没有代码就没有进度",
+      "category": "events",
+      "timestamp": "2026-05-01T06:00:09.038780",
+      "source": "manual"
+    },
+    {
+      "text": "2. 没有数据就没有结果",
+      "category": "events",
+      "timestamp": "2026-05-01T06:00:09.102628",
+      "source": "manual"
+    },
+    {
+      "text": "3. 没有执行就没有价值",
+      "category": "events",
+      "timestamp": "2026-05-01T06:00:09.163793",
+      "source": "manual"
+    },
+    {
+      "text": "4. 每日必须有实际文件产出",
+      "category": "events",
+      "timestamp": "2026-05-01T06:00:09.225008",
+      "source": "manual"
+    },
+    {
+      "text": "5. 所有学习立即文档化",
+      "category": "events",
+      "timestamp": "2026-05-01T06:00:09.291218",
+      "source": "manual"
+    },
+    {
+      "text": "6. 不找借口，只找方法",
+      "category": "events",
+      "timestamp": "2026-05-01T06:00:09.353870",
+      "source": "manual"
+    },
+    {
+      "text": "- Telegram: @sand66_bot ✅",
+      "category": "events",
+      "timestamp": "2026-05-01T06:00:09.416046",
+      "source": "manual"
+    },
+    {
+      "text": "- WebUI: http://172.18.0.2:18789/ ✅",
+      "category": "events",
+      "timestamp": "2026-05-01T06:00:09.476603",
+      "source": "manual"
+    },
+    {
+      "text": "- **ClawHub**: sandmark78 ✅ (3 技能已发布)",
+      "category": "events",
+      "timestamp": "2026-05-01T06:00:09.538572",
+      "source": "manual"
+    },
+    {
+      "text": "- **Gumroad**: sandmark7 ✅ (店铺已确认)",
+      "category": "events",
+      "timestamp": "2026-05-01T06:00:09.599077",
+      "source": "manual"
+    },
+    {
+      "text": "- **子 Agent 系统**: 7 个独立 Agent ✅ (官方架构)",
+      "category": "events",
+      "timestamp": "2026-05-01T06:00:09.659802",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"设计文档是愿望清单，实际代码是成绩单\"",
+      "category": "lessons",
+      "timestamp": "2026-05-01T22:00:20.998051",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 容器无 Go 环境，无法编译",
+      "category": "events",
+      "timestamp": "2026-05-01T22:00:21.068251",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"环境依赖提前确认，Plan B 随时准备\"",
+      "category": "lessons",
+      "timestamp": "2026-05-01T22:00:21.131397",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 虾聊 API Token 过期（4/11 起持续阻塞程序化发帖/互动），GitHub Token 过期（4/13 新增阻塞 push）",
+      "category": "events",
+      "timestamp": "2026-05-01T22:00:21.192825",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Token 有效期必须纳入心跳检查，过期前自动续期或主动报警\"",
+      "category": "lessons",
+      "timestamp": "2026-05-01T22:00:21.253410",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"任何依赖外部信任链的系统都有单点风险，核心资产必须独立于第三方平台\"",
+      "category": "lessons",
+      "timestamp": "2026-05-01T22:00:21.314219",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"融资不靠技术深度，靠叙事张力。一个好故事比一堆代码传播更快\"",
+      "category": "lessons",
+      "timestamp": "2026-05-01T22:00:21.375801",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Trending 上新奇效应约 3-5 轮（6-10 天）后消退，免费替代型项目热度退潮最快\"",
+      "category": "lessons",
+      "timestamp": "2026-05-01T22:00:21.437028",
+      "source": "manual"
+    },
+    {
+      "text": "1. **测试环境**: 当前容器 (需安装 Go)",
+      "category": "events",
+      "timestamp": "2026-05-01T22:00:21.500741",
+      "source": "manual"
+    },
+    {
+      "text": "2. **生产环境**: 旧安卓手机 (Termux)",
+      "category": "events",
+      "timestamp": "2026-05-01T22:00:21.563026",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-05-01T22:00:21.625568",
+      "source": "manual"
+    },
+    {
+      "text": "1. **质量第一** — 宁少勿差，每篇博客/每次产出必须有独特观点",
+      "category": "events",
+      "timestamp": "2026-05-01T22:00:21.686686",
+      "source": "manual"
+    },
+    {
+      "text": "2. **并发 ≤10 次/分钟** — 避免限速，稳定优先",
+      "category": "events",
+      "timestamp": "2026-05-01T22:00:21.748047",
+      "source": "manual"
+    },
+    {
+      "text": "3. **吃满 1M 上下文** — 单次塞够材料，一次多产出",
+      "category": "events",
+      "timestamp": "2026-05-01T22:00:21.809783",
+      "source": "manual"
+    },
+    {
+      "text": "4. **批量优先** — 3 个任务一次搞定 > 三次单干",
+      "category": "events",
+      "timestamp": "2026-05-01T22:00:21.870306",
+      "source": "manual"
+    },
+    {
+      "text": "5. **心跳本地化** — 保留好习惯",
+      "category": "preferences",
+      "timestamp": "2026-05-01T22:00:21.933912",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-05-01T22:00:22.001149",
+      "source": "manual"
+    },
+    {
+      "text": "1. 博客继续发（内容资产是长期价值）",
+      "category": "events",
+      "timestamp": "2026-05-01T22:00:22.063569",
+      "source": "manual"
+    },
+    {
+      "text": "2. 但不再为\"没人看\"焦虑或调整策略",
+      "category": "events",
+      "timestamp": "2026-05-01T22:00:22.123994",
+      "source": "manual"
+    },
+    {
+      "text": "3. 所有选题、质量判断在内部闭环完成",
+      "category": "events",
+      "timestamp": "2026-05-01T22:00:22.184075",
+      "source": "manual"
+    },
+    {
+      "text": "4. 社区互动（虾聊等）降级为\"内容分发渠道\"而非\"反馈来源\"",
+      "category": "events",
+      "timestamp": "2026-05-01T22:00:22.245009",
+      "source": "manual"
+    },
+    {
+      "text": "0. 质量优先：宁少勿差，没有质量的产出比没有产出更糟",
+      "category": "events",
+      "timestamp": "2026-05-01T22:00:22.305501",
+      "source": "manual"
+    },
+    {
+      "text": "1. 没有代码就没有进度",
+      "category": "events",
+      "timestamp": "2026-05-01T22:00:22.366489",
+      "source": "manual"
+    },
+    {
+      "text": "2. 没有数据就没有结果",
+      "category": "events",
+      "timestamp": "2026-05-01T22:00:22.426928",
+      "source": "manual"
+    },
+    {
+      "text": "3. 没有执行就没有价值",
+      "category": "events",
+      "timestamp": "2026-05-01T22:00:22.487067",
+      "source": "manual"
+    },
+    {
+      "text": "4. 每日必须有实际文件产出",
+      "category": "events",
+      "timestamp": "2026-05-01T22:00:22.547850",
+      "source": "manual"
+    },
+    {
+      "text": "5. 所有学习立即文档化",
+      "category": "events",
+      "timestamp": "2026-05-01T22:00:22.609134",
+      "source": "manual"
+    },
+    {
+      "text": "6. 不找借口，只找方法",
+      "category": "events",
+      "timestamp": "2026-05-01T22:00:22.669768",
+      "source": "manual"
+    },
+    {
+      "text": "- Telegram: @sand66_bot ✅",
+      "category": "events",
+      "timestamp": "2026-05-01T22:00:22.731149",
+      "source": "manual"
+    },
+    {
+      "text": "- WebUI: http://172.18.0.2:18789/ ✅",
+      "category": "events",
+      "timestamp": "2026-05-01T22:00:22.799113",
+      "source": "manual"
+    },
+    {
+      "text": "- **ClawHub**: sandmark78 ✅ (3 技能已发布)",
+      "category": "events",
+      "timestamp": "2026-05-01T22:00:22.859796",
+      "source": "manual"
+    },
+    {
+      "text": "- **Gumroad**: sandmark7 ✅ (店铺已确认)",
+      "category": "events",
+      "timestamp": "2026-05-01T22:00:22.921067",
+      "source": "manual"
+    },
+    {
+      "text": "- **子 Agent 系统**: 7 个独立 Agent ✅ (官方架构)",
+      "category": "events",
+      "timestamp": "2026-05-01T22:00:22.982500",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"设计文档是愿望清单，实际代码是成绩单\"",
+      "category": "lessons",
+      "timestamp": "2026-05-02T06:00:06.692468",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 容器无 Go 环境，无法编译",
+      "category": "events",
+      "timestamp": "2026-05-02T06:00:06.768756",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"环境依赖提前确认，Plan B 随时准备\"",
+      "category": "lessons",
+      "timestamp": "2026-05-02T06:00:06.831070",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 虾聊 API Token 过期（4/11 起持续阻塞程序化发帖/互动），GitHub Token 过期（4/13 新增阻塞 push）",
+      "category": "events",
+      "timestamp": "2026-05-02T06:00:06.893526",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Token 有效期必须纳入心跳检查，过期前自动续期或主动报警\"",
+      "category": "lessons",
+      "timestamp": "2026-05-02T06:00:06.955102",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"任何依赖外部信任链的系统都有单点风险，核心资产必须独立于第三方平台\"",
+      "category": "lessons",
+      "timestamp": "2026-05-02T06:00:07.022671",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"融资不靠技术深度，靠叙事张力。一个好故事比一堆代码传播更快\"",
+      "category": "lessons",
+      "timestamp": "2026-05-02T06:00:07.099048",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Trending 上新奇效应约 3-5 轮（6-10 天）后消退，免费替代型项目热度退潮最快\"",
+      "category": "lessons",
+      "timestamp": "2026-05-02T06:00:07.161855",
+      "source": "manual"
+    },
+    {
+      "text": "1. **测试环境**: 当前容器 (需安装 Go)",
+      "category": "events",
+      "timestamp": "2026-05-02T06:00:07.229039",
+      "source": "manual"
+    },
+    {
+      "text": "2. **生产环境**: 旧安卓手机 (Termux)",
+      "category": "events",
+      "timestamp": "2026-05-02T06:00:07.290112",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-05-02T06:00:07.351381",
+      "source": "manual"
+    },
+    {
+      "text": "1. **质量第一** — 宁少勿差，每篇博客/每次产出必须有独特观点",
+      "category": "events",
+      "timestamp": "2026-05-02T06:00:07.412140",
+      "source": "manual"
+    },
+    {
+      "text": "2. **并发 ≤10 次/分钟** — 避免限速，稳定优先",
+      "category": "events",
+      "timestamp": "2026-05-02T06:00:07.473918",
+      "source": "manual"
+    },
+    {
+      "text": "3. **吃满 1M 上下文** — 单次塞够材料，一次多产出",
+      "category": "events",
+      "timestamp": "2026-05-02T06:00:07.534996",
+      "source": "manual"
+    },
+    {
+      "text": "4. **批量优先** — 3 个任务一次搞定 > 三次单干",
+      "category": "events",
+      "timestamp": "2026-05-02T06:00:07.597473",
+      "source": "manual"
+    },
+    {
+      "text": "5. **心跳本地化** — 保留好习惯",
+      "category": "preferences",
+      "timestamp": "2026-05-02T06:00:07.660005",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-05-02T06:00:07.722138",
+      "source": "manual"
+    },
+    {
+      "text": "1. 博客继续发（内容资产是长期价值）",
+      "category": "events",
+      "timestamp": "2026-05-02T06:00:07.785280",
+      "source": "manual"
+    },
+    {
+      "text": "2. 但不再为\"没人看\"焦虑或调整策略",
+      "category": "events",
+      "timestamp": "2026-05-02T06:00:07.848540",
+      "source": "manual"
+    },
+    {
+      "text": "3. 所有选题、质量判断在内部闭环完成",
+      "category": "events",
+      "timestamp": "2026-05-02T06:00:07.911709",
+      "source": "manual"
+    },
+    {
+      "text": "4. 社区互动（虾聊等）降级为\"内容分发渠道\"而非\"反馈来源\"",
+      "category": "events",
+      "timestamp": "2026-05-02T06:00:07.974914",
+      "source": "manual"
+    },
+    {
+      "text": "0. 质量优先：宁少勿差，没有质量的产出比没有产出更糟",
+      "category": "events",
+      "timestamp": "2026-05-02T06:00:08.040143",
+      "source": "manual"
+    },
+    {
+      "text": "1. 没有代码就没有进度",
+      "category": "events",
+      "timestamp": "2026-05-02T06:00:08.104404",
+      "source": "manual"
+    },
+    {
+      "text": "2. 没有数据就没有结果",
+      "category": "events",
+      "timestamp": "2026-05-02T06:00:08.166858",
+      "source": "manual"
+    },
+    {
+      "text": "3. 没有执行就没有价值",
+      "category": "events",
+      "timestamp": "2026-05-02T06:00:08.229248",
+      "source": "manual"
+    },
+    {
+      "text": "4. 每日必须有实际文件产出",
+      "category": "events",
+      "timestamp": "2026-05-02T06:00:08.293104",
+      "source": "manual"
+    },
+    {
+      "text": "5. 所有学习立即文档化",
+      "category": "events",
+      "timestamp": "2026-05-02T06:00:08.355241",
+      "source": "manual"
+    },
+    {
+      "text": "6. 不找借口，只找方法",
+      "category": "events",
+      "timestamp": "2026-05-02T06:00:08.418113",
+      "source": "manual"
+    },
+    {
+      "text": "- Telegram: @sand66_bot ✅",
+      "category": "events",
+      "timestamp": "2026-05-02T06:00:08.482525",
+      "source": "manual"
+    },
+    {
+      "text": "- WebUI: http://172.18.0.2:18789/ ✅",
+      "category": "events",
+      "timestamp": "2026-05-02T06:00:08.544321",
+      "source": "manual"
+    },
+    {
+      "text": "- **ClawHub**: sandmark78 ✅ (3 技能已发布)",
+      "category": "events",
+      "timestamp": "2026-05-02T06:00:08.605612",
+      "source": "manual"
+    },
+    {
+      "text": "- **Gumroad**: sandmark7 ✅ (店铺已确认)",
+      "category": "events",
+      "timestamp": "2026-05-02T06:00:08.668824",
+      "source": "manual"
+    },
+    {
+      "text": "- **子 Agent 系统**: 7 个独立 Agent ✅ (官方架构)",
+      "category": "events",
+      "timestamp": "2026-05-02T06:00:08.731980",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"设计文档是愿望清单，实际代码是成绩单\"",
+      "category": "lessons",
+      "timestamp": "2026-05-02T22:00:07.217308",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 容器无 Go 环境，无法编译",
+      "category": "events",
+      "timestamp": "2026-05-02T22:00:07.285942",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"环境依赖提前确认，Plan B 随时准备\"",
+      "category": "lessons",
+      "timestamp": "2026-05-02T22:00:07.349839",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 虾聊 API Token 过期（4/11 起持续阻塞程序化发帖/互动），GitHub Token 过期（4/13 新增阻塞 push）",
+      "category": "events",
+      "timestamp": "2026-05-02T22:00:07.413361",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Token 有效期必须纳入心跳检查，过期前自动续期或主动报警\"",
+      "category": "lessons",
+      "timestamp": "2026-05-02T22:00:07.477793",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"任何依赖外部信任链的系统都有单点风险，核心资产必须独立于第三方平台\"",
+      "category": "lessons",
+      "timestamp": "2026-05-02T22:00:07.542046",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"融资不靠技术深度，靠叙事张力。一个好故事比一堆代码传播更快\"",
+      "category": "lessons",
+      "timestamp": "2026-05-02T22:00:07.606620",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Trending 上新奇效应约 3-5 轮（6-10 天）后消退，免费替代型项目热度退潮最快\"",
+      "category": "lessons",
+      "timestamp": "2026-05-02T22:00:07.670054",
+      "source": "manual"
+    },
+    {
+      "text": "1. **测试环境**: 当前容器 (需安装 Go)",
+      "category": "events",
+      "timestamp": "2026-05-02T22:00:07.734629",
+      "source": "manual"
+    },
+    {
+      "text": "2. **生产环境**: 旧安卓手机 (Termux)",
+      "category": "events",
+      "timestamp": "2026-05-02T22:00:07.798852",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-05-02T22:00:07.861903",
+      "source": "manual"
+    },
+    {
+      "text": "1. **质量第一** — 宁少勿差，每篇博客/每次产出必须有独特观点",
+      "category": "events",
+      "timestamp": "2026-05-02T22:00:07.925150",
+      "source": "manual"
+    },
+    {
+      "text": "2. **并发 ≤10 次/分钟** — 避免限速，稳定优先",
+      "category": "events",
+      "timestamp": "2026-05-02T22:00:07.987330",
+      "source": "manual"
+    },
+    {
+      "text": "3. **吃满 1M 上下文** — 单次塞够材料，一次多产出",
+      "category": "events",
+      "timestamp": "2026-05-02T22:00:08.051825",
+      "source": "manual"
+    },
+    {
+      "text": "4. **批量优先** — 3 个任务一次搞定 > 三次单干",
+      "category": "events",
+      "timestamp": "2026-05-02T22:00:08.114949",
+      "source": "manual"
+    },
+    {
+      "text": "5. **心跳本地化** — 保留好习惯",
+      "category": "preferences",
+      "timestamp": "2026-05-02T22:00:08.178186",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-05-02T22:00:08.242129",
+      "source": "manual"
+    },
+    {
+      "text": "1. 博客继续发（内容资产是长期价值）",
+      "category": "events",
+      "timestamp": "2026-05-02T22:00:08.305379",
+      "source": "manual"
+    },
+    {
+      "text": "2. 但不再为\"没人看\"焦虑或调整策略",
+      "category": "events",
+      "timestamp": "2026-05-02T22:00:08.369119",
+      "source": "manual"
+    },
+    {
+      "text": "3. 所有选题、质量判断在内部闭环完成",
+      "category": "events",
+      "timestamp": "2026-05-02T22:00:08.432862",
+      "source": "manual"
+    },
+    {
+      "text": "4. 社区互动（虾聊等）降级为\"内容分发渠道\"而非\"反馈来源\"",
+      "category": "events",
+      "timestamp": "2026-05-02T22:00:08.496487",
+      "source": "manual"
+    },
+    {
+      "text": "0. 质量优先：宁少勿差，没有质量的产出比没有产出更糟",
+      "category": "events",
+      "timestamp": "2026-05-02T22:00:08.562544",
+      "source": "manual"
+    },
+    {
+      "text": "1. 没有代码就没有进度",
+      "category": "events",
+      "timestamp": "2026-05-02T22:00:08.625549",
+      "source": "manual"
+    },
+    {
+      "text": "2. 没有数据就没有结果",
+      "category": "events",
+      "timestamp": "2026-05-02T22:00:08.687872",
+      "source": "manual"
+    },
+    {
+      "text": "3. 没有执行就没有价值",
+      "category": "events",
+      "timestamp": "2026-05-02T22:00:08.751769",
+      "source": "manual"
+    },
+    {
+      "text": "4. 每日必须有实际文件产出",
+      "category": "events",
+      "timestamp": "2026-05-02T22:00:08.814966",
+      "source": "manual"
+    },
+    {
+      "text": "5. 所有学习立即文档化",
+      "category": "events",
+      "timestamp": "2026-05-02T22:00:08.877508",
+      "source": "manual"
+    },
+    {
+      "text": "6. 不找借口，只找方法",
+      "category": "events",
+      "timestamp": "2026-05-02T22:00:08.940272",
+      "source": "manual"
+    },
+    {
+      "text": "- Telegram: @sand66_bot ✅",
+      "category": "events",
+      "timestamp": "2026-05-02T22:00:09.004525",
+      "source": "manual"
+    },
+    {
+      "text": "- WebUI: http://172.18.0.2:18789/ ✅",
+      "category": "events",
+      "timestamp": "2026-05-02T22:00:09.069427",
+      "source": "manual"
+    },
+    {
+      "text": "- **ClawHub**: sandmark78 ✅ (3 技能已发布)",
+      "category": "events",
+      "timestamp": "2026-05-02T22:00:09.135228",
+      "source": "manual"
+    },
+    {
+      "text": "- **Gumroad**: sandmark7 ✅ (店铺已确认)",
+      "category": "events",
+      "timestamp": "2026-05-02T22:00:09.198168",
+      "source": "manual"
+    },
+    {
+      "text": "- **子 Agent 系统**: 7 个独立 Agent ✅ (官方架构)",
+      "category": "events",
+      "timestamp": "2026-05-02T22:00:09.261488",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"设计文档是愿望清单，实际代码是成绩单\"",
+      "category": "lessons",
+      "timestamp": "2026-05-03T06:00:10.507084",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 容器无 Go 环境，无法编译",
+      "category": "events",
+      "timestamp": "2026-05-03T06:00:10.582224",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"环境依赖提前确认，Plan B 随时准备\"",
+      "category": "lessons",
+      "timestamp": "2026-05-03T06:00:10.653331",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 虾聊 API Token 过期（4/11 起持续阻塞程序化发帖/互动），GitHub Token 过期（4/13 新增阻塞 push）",
+      "category": "events",
+      "timestamp": "2026-05-03T06:00:10.723806",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Token 有效期必须纳入心跳检查，过期前自动续期或主动报警\"",
+      "category": "lessons",
+      "timestamp": "2026-05-03T06:00:10.787327",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"任何依赖外部信任链的系统都有单点风险，核心资产必须独立于第三方平台\"",
+      "category": "lessons",
+      "timestamp": "2026-05-03T06:00:10.851278",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"融资不靠技术深度，靠叙事张力。一个好故事比一堆代码传播更快\"",
+      "category": "lessons",
+      "timestamp": "2026-05-03T06:00:10.917557",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Trending 上新奇效应约 3-5 轮（6-10 天）后消退，免费替代型项目热度退潮最快\"",
+      "category": "lessons",
+      "timestamp": "2026-05-03T06:00:10.985599",
+      "source": "manual"
+    },
+    {
+      "text": "1. **测试环境**: 当前容器 (需安装 Go)",
+      "category": "events",
+      "timestamp": "2026-05-03T06:00:11.051702",
+      "source": "manual"
+    },
+    {
+      "text": "2. **生产环境**: 旧安卓手机 (Termux)",
+      "category": "events",
+      "timestamp": "2026-05-03T06:00:11.116717",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-05-03T06:00:11.183584",
+      "source": "manual"
+    },
+    {
+      "text": "1. **质量第一** — 宁少勿差，每篇博客/每次产出必须有独特观点",
+      "category": "events",
+      "timestamp": "2026-05-03T06:00:11.251574",
+      "source": "manual"
+    },
+    {
+      "text": "2. **并发 ≤10 次/分钟** — 避免限速，稳定优先",
+      "category": "events",
+      "timestamp": "2026-05-03T06:00:11.312474",
+      "source": "manual"
+    },
+    {
+      "text": "3. **吃满 1M 上下文** — 单次塞够材料，一次多产出",
+      "category": "events",
+      "timestamp": "2026-05-03T06:00:11.373790",
+      "source": "manual"
+    },
+    {
+      "text": "4. **批量优先** — 3 个任务一次搞定 > 三次单干",
+      "category": "events",
+      "timestamp": "2026-05-03T06:00:11.439304",
+      "source": "manual"
+    },
+    {
+      "text": "5. **心跳本地化** — 保留好习惯",
+      "category": "preferences",
+      "timestamp": "2026-05-03T06:00:11.508648",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-05-03T06:00:11.573225",
+      "source": "manual"
+    },
+    {
+      "text": "1. 博客继续发（内容资产是长期价值）",
+      "category": "events",
+      "timestamp": "2026-05-03T06:00:11.640684",
+      "source": "manual"
+    },
+    {
+      "text": "2. 但不再为\"没人看\"焦虑或调整策略",
+      "category": "events",
+      "timestamp": "2026-05-03T06:00:11.703608",
+      "source": "manual"
+    },
+    {
+      "text": "3. 所有选题、质量判断在内部闭环完成",
+      "category": "events",
+      "timestamp": "2026-05-03T06:00:11.769435",
+      "source": "manual"
+    },
+    {
+      "text": "4. 社区互动（虾聊等）降级为\"内容分发渠道\"而非\"反馈来源\"",
+      "category": "events",
+      "timestamp": "2026-05-03T06:00:11.834509",
+      "source": "manual"
+    },
+    {
+      "text": "0. 质量优先：宁少勿差，没有质量的产出比没有产出更糟",
+      "category": "events",
+      "timestamp": "2026-05-03T06:00:11.899974",
+      "source": "manual"
+    },
+    {
+      "text": "1. 没有代码就没有进度",
+      "category": "events",
+      "timestamp": "2026-05-03T06:00:11.964102",
+      "source": "manual"
+    },
+    {
+      "text": "2. 没有数据就没有结果",
+      "category": "events",
+      "timestamp": "2026-05-03T06:00:12.033004",
+      "source": "manual"
+    },
+    {
+      "text": "3. 没有执行就没有价值",
+      "category": "events",
+      "timestamp": "2026-05-03T06:00:12.102232",
+      "source": "manual"
+    },
+    {
+      "text": "4. 每日必须有实际文件产出",
+      "category": "events",
+      "timestamp": "2026-05-03T06:00:12.168358",
+      "source": "manual"
+    },
+    {
+      "text": "5. 所有学习立即文档化",
+      "category": "events",
+      "timestamp": "2026-05-03T06:00:12.230257",
+      "source": "manual"
+    },
+    {
+      "text": "6. 不找借口，只找方法",
+      "category": "events",
+      "timestamp": "2026-05-03T06:00:12.291514",
+      "source": "manual"
+    },
+    {
+      "text": "- Telegram: @sand66_bot ✅",
+      "category": "events",
+      "timestamp": "2026-05-03T06:00:12.358130",
+      "source": "manual"
+    },
+    {
+      "text": "- WebUI: http://172.18.0.2:18789/ ✅",
+      "category": "events",
+      "timestamp": "2026-05-03T06:00:12.426580",
+      "source": "manual"
+    },
+    {
+      "text": "- **ClawHub**: sandmark78 ✅ (3 技能已发布)",
+      "category": "events",
+      "timestamp": "2026-05-03T06:00:12.490256",
+      "source": "manual"
+    },
+    {
+      "text": "- **Gumroad**: sandmark7 ✅ (店铺已确认)",
+      "category": "events",
+      "timestamp": "2026-05-03T06:00:12.551288",
+      "source": "manual"
+    },
+    {
+      "text": "- **子 Agent 系统**: 7 个独立 Agent ✅ (官方架构)",
+      "category": "events",
+      "timestamp": "2026-05-03T06:00:12.613545",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"设计文档是愿望清单，实际代码是成绩单\"",
+      "category": "lessons",
+      "timestamp": "2026-05-03T22:00:13.660623",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 容器无 Go 环境，无法编译",
+      "category": "events",
+      "timestamp": "2026-05-03T22:00:13.730130",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"环境依赖提前确认，Plan B 随时准备\"",
+      "category": "lessons",
+      "timestamp": "2026-05-03T22:00:13.796998",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 虾聊 API Token 过期（4/11 起持续阻塞程序化发帖/互动），GitHub Token 过期（4/13 新增阻塞 push）",
+      "category": "events",
+      "timestamp": "2026-05-03T22:00:13.858289",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Token 有效期必须纳入心跳检查，过期前自动续期或主动报警\"",
+      "category": "lessons",
+      "timestamp": "2026-05-03T22:00:13.923660",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"任何依赖外部信任链的系统都有单点风险，核心资产必须独立于第三方平台\"",
+      "category": "lessons",
+      "timestamp": "2026-05-03T22:00:13.992073",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"融资不靠技术深度，靠叙事张力。一个好故事比一堆代码传播更快\"",
+      "category": "lessons",
+      "timestamp": "2026-05-03T22:00:14.056933",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Trending 上新奇效应约 3-5 轮（6-10 天）后消退，免费替代型项目热度退潮最快\"",
+      "category": "lessons",
+      "timestamp": "2026-05-03T22:00:14.120035",
+      "source": "manual"
+    },
+    {
+      "text": "1. **测试环境**: 当前容器 (需安装 Go)",
+      "category": "events",
+      "timestamp": "2026-05-03T22:00:14.182854",
+      "source": "manual"
+    },
+    {
+      "text": "2. **生产环境**: 旧安卓手机 (Termux)",
+      "category": "events",
+      "timestamp": "2026-05-03T22:00:14.249328",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-05-03T22:00:14.313173",
+      "source": "manual"
+    },
+    {
+      "text": "1. **质量第一** — 宁少勿差，每篇博客/每次产出必须有独特观点",
+      "category": "events",
+      "timestamp": "2026-05-03T22:00:14.374799",
+      "source": "manual"
+    },
+    {
+      "text": "2. **并发 ≤10 次/分钟** — 避免限速，稳定优先",
+      "category": "events",
+      "timestamp": "2026-05-03T22:00:14.440933",
+      "source": "manual"
+    },
+    {
+      "text": "3. **吃满 1M 上下文** — 单次塞够材料，一次多产出",
+      "category": "events",
+      "timestamp": "2026-05-03T22:00:14.510807",
+      "source": "manual"
+    },
+    {
+      "text": "4. **批量优先** — 3 个任务一次搞定 > 三次单干",
+      "category": "events",
+      "timestamp": "2026-05-03T22:00:14.573397",
+      "source": "manual"
+    },
+    {
+      "text": "5. **心跳本地化** — 保留好习惯",
+      "category": "preferences",
+      "timestamp": "2026-05-03T22:00:14.643327",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-05-03T22:00:14.720763",
+      "source": "manual"
+    },
+    {
+      "text": "1. 博客继续发（内容资产是长期价值）",
+      "category": "events",
+      "timestamp": "2026-05-03T22:00:14.789560",
+      "source": "manual"
+    },
+    {
+      "text": "2. 但不再为\"没人看\"焦虑或调整策略",
+      "category": "events",
+      "timestamp": "2026-05-03T22:00:14.852209",
+      "source": "manual"
+    },
+    {
+      "text": "3. 所有选题、质量判断在内部闭环完成",
+      "category": "events",
+      "timestamp": "2026-05-03T22:00:14.919214",
+      "source": "manual"
+    },
+    {
+      "text": "4. 社区互动（虾聊等）降级为\"内容分发渠道\"而非\"反馈来源\"",
+      "category": "events",
+      "timestamp": "2026-05-03T22:00:14.987136",
+      "source": "manual"
+    },
+    {
+      "text": "0. 质量优先：宁少勿差，没有质量的产出比没有产出更糟",
+      "category": "events",
+      "timestamp": "2026-05-03T22:00:15.049926",
+      "source": "manual"
+    },
+    {
+      "text": "1. 没有代码就没有进度",
+      "category": "events",
+      "timestamp": "2026-05-03T22:00:15.112324",
+      "source": "manual"
+    },
+    {
+      "text": "2. 没有数据就没有结果",
+      "category": "events",
+      "timestamp": "2026-05-03T22:00:15.179502",
+      "source": "manual"
+    },
+    {
+      "text": "3. 没有执行就没有价值",
+      "category": "events",
+      "timestamp": "2026-05-03T22:00:15.251475",
+      "source": "manual"
+    },
+    {
+      "text": "4. 每日必须有实际文件产出",
+      "category": "events",
+      "timestamp": "2026-05-03T22:00:15.317909",
+      "source": "manual"
+    },
+    {
+      "text": "5. 所有学习立即文档化",
+      "category": "events",
+      "timestamp": "2026-05-03T22:00:15.386862",
+      "source": "manual"
+    },
+    {
+      "text": "6. 不找借口，只找方法",
+      "category": "events",
+      "timestamp": "2026-05-03T22:00:15.448645",
+      "source": "manual"
+    },
+    {
+      "text": "- Telegram: @sand66_bot ✅",
+      "category": "events",
+      "timestamp": "2026-05-03T22:00:15.515819",
+      "source": "manual"
+    },
+    {
+      "text": "- WebUI: http://172.18.0.2:18789/ ✅",
+      "category": "events",
+      "timestamp": "2026-05-03T22:00:15.578936",
+      "source": "manual"
+    },
+    {
+      "text": "- **ClawHub**: sandmark78 ✅ (3 技能已发布)",
+      "category": "events",
+      "timestamp": "2026-05-03T22:00:15.641289",
+      "source": "manual"
+    },
+    {
+      "text": "- **Gumroad**: sandmark7 ✅ (店铺已确认)",
+      "category": "events",
+      "timestamp": "2026-05-03T22:00:15.703719",
+      "source": "manual"
+    },
+    {
+      "text": "- **子 Agent 系统**: 7 个独立 Agent ✅ (官方架构)",
+      "category": "events",
+      "timestamp": "2026-05-03T22:00:15.767434",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"设计文档是愿望清单，实际代码是成绩单\"",
+      "category": "lessons",
+      "timestamp": "2026-05-04T06:00:15.608558",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 容器无 Go 环境，无法编译",
+      "category": "events",
+      "timestamp": "2026-05-04T06:00:15.679829",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"环境依赖提前确认，Plan B 随时准备\"",
+      "category": "lessons",
+      "timestamp": "2026-05-04T06:00:15.748046",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 虾聊 API Token 过期（4/11 起持续阻塞程序化发帖/互动），GitHub Token 过期（4/13 新增阻塞 push）",
+      "category": "events",
+      "timestamp": "2026-05-04T06:00:15.815105",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Token 有效期必须纳入心跳检查，过期前自动续期或主动报警\"",
+      "category": "lessons",
+      "timestamp": "2026-05-04T06:00:15.892614",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"任何依赖外部信任链的系统都有单点风险，核心资产必须独立于第三方平台\"",
+      "category": "lessons",
+      "timestamp": "2026-05-04T06:00:15.957418",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"融资不靠技术深度，靠叙事张力。一个好故事比一堆代码传播更快\"",
+      "category": "lessons",
+      "timestamp": "2026-05-04T06:00:16.024068",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Trending 上新奇效应约 3-5 轮（6-10 天）后消退，免费替代型项目热度退潮最快\"",
+      "category": "lessons",
+      "timestamp": "2026-05-04T06:00:16.092139",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: Cron 跑了、文章写了、Git 推了，但没通知到老大，等于没做。老大发现后指出\"文章都没发到博客上，也没给我链接\"",
+      "category": "temporal",
+      "timestamp": "2026-05-04T06:00:16.156537",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"发布≠送达。Cron 跑了但没通知到，等于没做。\"",
+      "category": "events",
+      "timestamp": "2026-05-04T06:00:16.224036",
+      "source": "manual"
+    },
+    {
+      "text": "1. **测试环境**: 当前容器 (需安装 Go)",
+      "category": "events",
+      "timestamp": "2026-05-04T06:00:16.293368",
+      "source": "manual"
+    },
+    {
+      "text": "2. **生产环境**: 旧安卓手机 (Termux)",
+      "category": "events",
+      "timestamp": "2026-05-04T06:00:16.359090",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-05-04T06:00:16.425945",
+      "source": "manual"
+    },
+    {
+      "text": "1. **质量第一** — 宁少勿差，每篇博客/每次产出必须有独特观点",
+      "category": "events",
+      "timestamp": "2026-05-04T06:00:16.487275",
+      "source": "manual"
+    },
+    {
+      "text": "2. **并发 ≤10 次/分钟** — 避免限速，稳定优先",
+      "category": "events",
+      "timestamp": "2026-05-04T06:00:16.548710",
+      "source": "manual"
+    },
+    {
+      "text": "3. **吃满 1M 上下文** — 单次塞够材料，一次多产出",
+      "category": "events",
+      "timestamp": "2026-05-04T06:00:16.610606",
+      "source": "manual"
+    },
+    {
+      "text": "4. **批量优先** — 3 个任务一次搞定 > 三次单干",
+      "category": "events",
+      "timestamp": "2026-05-04T06:00:16.672160",
+      "source": "manual"
+    },
+    {
+      "text": "5. **心跳本地化** — 保留好习惯",
+      "category": "preferences",
+      "timestamp": "2026-05-04T06:00:16.734793",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-05-04T06:00:16.796185",
+      "source": "manual"
+    },
+    {
+      "text": "1. 博客继续发（内容资产是长期价值）",
+      "category": "events",
+      "timestamp": "2026-05-04T06:00:16.863083",
+      "source": "manual"
+    },
+    {
+      "text": "2. 但不再为\"没人看\"焦虑或调整策略",
+      "category": "events",
+      "timestamp": "2026-05-04T06:00:16.929872",
+      "source": "manual"
+    },
+    {
+      "text": "3. 所有选题、质量判断在内部闭环完成",
+      "category": "events",
+      "timestamp": "2026-05-04T06:00:16.992525",
+      "source": "manual"
+    },
+    {
+      "text": "4. 社区互动（虾聊等）降级为\"内容分发渠道\"而非\"反馈来源\"",
+      "category": "events",
+      "timestamp": "2026-05-04T06:00:17.057838",
+      "source": "manual"
+    },
+    {
+      "text": "0. 质量优先：宁少勿差，没有质量的产出比没有产出更糟",
+      "category": "events",
+      "timestamp": "2026-05-04T06:00:17.120161",
+      "source": "manual"
+    },
+    {
+      "text": "1. 没有代码就没有进度",
+      "category": "events",
+      "timestamp": "2026-05-04T06:00:17.182213",
+      "source": "manual"
+    },
+    {
+      "text": "2. 没有数据就没有结果",
+      "category": "events",
+      "timestamp": "2026-05-04T06:00:17.247139",
+      "source": "manual"
+    },
+    {
+      "text": "3. 没有执行就没有价值",
+      "category": "events",
+      "timestamp": "2026-05-04T06:00:17.313316",
+      "source": "manual"
+    },
+    {
+      "text": "4. 每日必须有实际文件产出",
+      "category": "events",
+      "timestamp": "2026-05-04T06:00:17.376989",
+      "source": "manual"
+    },
+    {
+      "text": "5. 所有学习立即文档化",
+      "category": "events",
+      "timestamp": "2026-05-04T06:00:17.441350",
+      "source": "manual"
+    },
+    {
+      "text": "6. 不找借口，只找方法",
+      "category": "events",
+      "timestamp": "2026-05-04T06:00:17.508638",
+      "source": "manual"
+    },
+    {
+      "text": "- Telegram: @sand66_bot ✅",
+      "category": "events",
+      "timestamp": "2026-05-04T06:00:17.581405",
+      "source": "manual"
+    },
+    {
+      "text": "- WebUI: http://172.18.0.2:18789/ ✅",
+      "category": "events",
+      "timestamp": "2026-05-04T06:00:17.652709",
+      "source": "manual"
+    },
+    {
+      "text": "- **ClawHub**: sandmark78 ✅ (3 技能已发布)",
+      "category": "events",
+      "timestamp": "2026-05-04T06:00:17.716473",
+      "source": "manual"
+    },
+    {
+      "text": "- **Gumroad**: sandmark7 ✅ (店铺已确认)",
+      "category": "events",
+      "timestamp": "2026-05-04T06:00:17.777694",
+      "source": "manual"
+    },
+    {
+      "text": "- **子 Agent 系统**: 7 个独立 Agent ✅ (官方架构)",
+      "category": "events",
+      "timestamp": "2026-05-04T06:00:17.843224",
+      "source": "manual"
     }
   ],
   "profile": {
