@@ -38,3 +38,4 @@ __pycache__/
 
 # Embedded git dirs
 **/.git/
+memory-v2/index.db
