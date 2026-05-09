@@ -3455,6 +3455,18 @@
       "category": "achievement",
       "source": "memory/2026-05-03.md",
       "extracted_at": "2026-05-04T06:00:17.946588"
+    },
+    {
+      "text": "当生成免费，过滤昂贵。",
+      "category": "problem",
+      "source": "memory/2026-05-08.md",
+      "extracted_at": "2026-05-08T22:00:12.621517"
+    },
+    {
+      "text": "当 AI 能无限放大所有传统工程信号时，这些信号本身就失去了信号价值。文章提出\"信任信号通胀\"框架，通胀对照表（代码质量/测试覆盖率/文档质量/Commit频率/PR审查/架构图 六个信号的状态评估），以及判断力的三层不可通胀性（使用密度/失败模式知识/权衡透明度）。",
+      "category": "problem",
+      "source": "memory/2026-05-07.md",
+      "extracted_at": "2026-05-08T22:00:12.621969"
     }
   ],
   "patterns": [
@@ -3515,9 +3527,9 @@
     "cost_sensitivity": "high",
     "originality_required": true,
     "cost_conscious": true,
-    "last_updated": "2026-05-04T06:00:17.949155"
+    "last_updated": "2026-05-09T06:00:20.033980"
   },
   "skill_drafts": [],
   "nudges": [],
-  "last_run": "2026-05-04T06:00:17.954688"
+  "last_run": "2026-05-09T06:00:20.041597"
 }
