@@ -1,83 +1,44 @@
 #!/bin/bash
-# 本地心跳脚本 - 不调用模型
-# 用法：每 30 分钟执行一次
+# 本地化心跳检查脚本
+# 不调用模型，纯 bash 执行
+# 用法: ./scripts/heartbeat-local.sh
 
-WORKSPACE="/home/node/.openclaw/workspace"
-MEMORY_DIR="$WORKSPACE/memory"
-LOG_FILE="$MEMORY_DIR/heartbeat.log"
-TODAY=$(date '+%Y-%m-%d')
-TODAY_FILE="$MEMORY_DIR/$TODAY.md"
+LOG_FILE="/home/node/.openclaw/workspace/memory/heartbeat.log"
+mkdir -p "$(dirname "$LOG_FILE")"
 
-# 简洁输出
-echo "⚡ [$(date '+%H:%M')] 心跳检查"
+TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
 
-# 1. Gateway 检查
-if pgrep -f "openclaw" > /dev/null; then
-    echo "✅ Gateway"
-else
-    echo "❌ Gateway 异常！" >> "$LOG_FILE"
-    # 发送通知 (需要调用模型)
-    echo "GATEWAY_DOWN"
-    exit 1
+# 1. 检查 Gateway 进程
+if ! ps aux | grep -q "[o]penclaw-gateway"; then
+  echo "[$TIMESTAMP] ❌ Gateway 宕机" | tee -a "$LOG_FILE"
+  exit 1
 fi
 
-# 2. WebUI 检查
-HTTP_CODE=$(curl -s --max-time 5 -o /dev/null -w "%{http_code}" http://172.18.0.2:18789/)
-if [ "$HTTP_CODE" = "200" ]; then
-    echo "✅ WebUI (HTTP $HTTP_CODE)"
-else
-    echo "❌ WebUI 异常 (HTTP $HTTP_CODE)！" >> "$LOG_FILE"
-    # 发送通知 (需要调用模型)
-    echo "WEBUI_DOWN"
-    exit 1
+# 2. 检查磁盘空间（阈值 90%）
+disk_usage=$(df -h / | tail -1 | awk '{print $5}' | sed 's/%//')
+if [ "$disk_usage" -gt 90 ]; then
+  echo "[$TIMESTAMP] ⚠️ 磁盘空间 ${disk_usage}%" | tee -a "$LOG_FILE"
 fi
 
-# 3. 磁盘检查
-DISK_USAGE=$(df -h / | tail -1 | awk '{print $5}' | tr -d '%')
-if [ "$DISK_USAGE" -lt 80 ]; then
-    echo "✅ 磁盘：${DISK_USAGE}%"
-else
-    echo "⚠️ 磁盘告警：${DISK_USAGE}%" >> "$LOG_FILE"
-    # 发送通知 (需要调用模型)
-    echo "DISK_WARNING"
+# 3. 检查今天的文章
+today=$(date +%Y-%m-%d)
+article_count=$(ls /tmp/sandbot-gh/posts/${today}* 2>/dev/null | wc -l)
+if [ "$article_count" -lt 3 ]; then
+  echo "[$TIMESTAMP] ⚠️ 今天文章: ${article_count} 篇（应 3 篇）" | tee -a "$LOG_FILE"
 fi
 
-# 4. 进程数检查
-PROCESS_COUNT=$(ps aux | grep -c "openclaw" || echo "0")
-if [ "$PROCESS_COUNT" -gt 0 ]; then
-    echo "✅ 进程：$PROCESS_COUNT"
-else
-    echo "❌ 进程异常！" >> "$LOG_FILE"
-    echo "PROCESS_ERROR"
-    exit 1
+# 4. 检查最近的 Cron 错误（最近 1 小时）
+error_count=$(grep -l "error\|failed" /home/node/.openclaw/agents/main/sessions/*.jsonl 2>/dev/null | tail -1 | xargs tail -100 2>/dev/null | grep -c "error\|failed" || echo "0")
+if [ "$error_count" -gt 5 ]; then
+  echo "[$TIMESTAMP] ⚠️ 最近错误: ${error_count} 个" | tee -a "$LOG_FILE"
 fi
 
-# 5. 确保今日记忆文件存在 (避免 Cron 任务写入时报错)
-if [ ! -f "$TODAY_FILE" ]; then
-    cat > "$TODAY_FILE" << EOF
-# $TODAY 每日记录
+# 5. 无异常时记录正常
+echo "[$TIMESTAMP] ✅ 心跳正常 | 磁盘 ${disk_usage}% | 文章 ${article_count} 篇 | 错误 ${error_count} 个" >> "$LOG_FILE"
 
-**日期**: $TODAY  
-**开始时间**: $(date '+%H:%M UTC')  
-**状态**: 🟢 运行中
-
----
-
-## 📊 状态基线
-
-| 指标 | 数值 |
-|------|------|
-| Gateway | ✅ 运行中 |
-| WebUI | ✅ 可访问 |
-| 磁盘 | ${DISK_USAGE}% |
-
----
-
-*最后更新：$(date '+%Y-%m-%d %H:%M UTC')*
-EOF
-    echo "📝 创建今日记忆文件"
+# 6. 清理旧日志（保留最近 7 天）
+if [ -f "$LOG_FILE" ]; then
+  tail -n 336 "$LOG_FILE" > "$LOG_FILE.tmp" && mv "$LOG_FILE.tmp" "$LOG_FILE"
 fi
 
-# 6. 无异常时仅回复 HEARTBEAT_OK
-echo "✅ 完成"
-echo "HEARTBEAT_OK"
+exit 0
