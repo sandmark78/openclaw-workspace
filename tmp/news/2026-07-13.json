@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Since Chromium 148, Math.tanh is now fingerprintable to link underlying OS",
+    "url": "https://scrapfly.dev/posts/browser-math-os-fingerprint/",
+    "score": 259,
+    "comments": 129,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=48884853"
+  },
+  {
+    "title": "Tiny Emulators",
+    "url": "https://floooh.github.io/tiny8bit-preview/index.html",
+    "score": 124,
+    "comments": 3,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=48884395"
+  },
+  {
+    "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
+    "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+    "score": 119,
+    "comments": 37,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=48882716"
+  },
+  {
+    "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+    "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+    "score": 445,
+    "comments": 247,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=48883275"
+  },
+  {
+    "title": "Old and new apps, via modern coding agents",
+    "url": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/",
+    "score": 406,
+    "comments": 117,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=48880170"
+  },
+  {
+    "title": "盘后总结",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]
