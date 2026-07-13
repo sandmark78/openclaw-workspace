@@ -1,0 +1,22 @@
+[
+  {
+    "timestamp": "2026-03-17T06:10:26.751026",
+    "overall_average_score": 57.91,
+    "overall_quality_percentage": {
+      "high": 7.9,
+      "medium": 4.7,
+      "low": 87.4
+    },
+    "files_scanned": 2283
+  },
+  {
+    "timestamp": "2026-03-18T06:17:10.788551",
+    "overall_average_score": 58.7,
+    "overall_quality_percentage": {
+      "high": 9.0,
+      "medium": 5.2,
+      "low": 85.7
+    },
+    "files_scanned": 2321
+  }
+]

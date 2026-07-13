@@ -1,0 +1,650 @@
+{
+  "date": "2026-06-09",
+  "scraped_at": "2026-06-09T05:00:08.298988+00:00",
+  "total_items": 40,
+  "items": [
+    {
+      "id": "cmq662pg105irsl5i1tkwikyf",
+      "title": "OmniGameArena：面向VLM游戏智能体的统一UE5基准与改善动态",
+      "link": "https://arxiv.org/abs/2606.09826",
+      "summary": "OmniGameArena是一个基于十二个Unreal Engine 5新构建游戏的实时基准，涵盖单人（7个）、PvP（3个）和合作（2个）模式，提供统一动作接口。除冷启动排行榜分数外，还引入Improvement Dynamics Curve (IDC)，一种智能体反射评估机制：通过工具调用反射大语言模型自动优化技能提示词，追踪多轮反射中的分数变化以及习得技能在任务变体上的泛化表现。论文报告了12个VLM智能体在冷启动排行榜上的表现，以及4个顶级智能体在IDC下的指标。",
+      "reason": "在 UE5 里直接测 agent 的自我改进，这个思路让游戏 benchmark 从一次性的刷榜变成动态成长观测，对做多模态 agent 的团队是个新标尺。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "多模态",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "12:55",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq63dzew04srsl5ix1r8n4ne",
+      "title": "小米 MiMo 与 TileRT 联合发布 UltraSpeed 模式，1T 模型输出突破 1000 tokens/s",
+      "link": "https://mp.weixin.qq.com/s/EZvmrx8xfM9MZNCMDwImFQ",
+      "summary": "小米 MiMo 与 TileRT 联合发布 MiMo-V2.5-Pro-UltraSpeed 模式，使 1T 参数旗舰模型输出速度首次突破 1000 tokens/s。模型侧采用 FP4 混合量化（仅量化 MoE Expert）与 DFlash 块级 masked 并行推测解码（coding 场景平均接受长度 6.30 tokens）；系统侧 TileRT 引入常驻内核引擎与异构流水线协作。API 限时开放（2026 年 6 月 9 日至 23 日），定价为 MiMo-V2.5-Pro 的 3 倍，速度提升约 10 倍。FP4 权重与 DFlash 模型 checkpoint 已开源至 HuggingFace。",
+      "reason": "万亿模型首次在通用GPU上突破1000 tokens/s，不是专用硬件的胜利而是模型与系统Codesign的胜利，做实时AI应用的都应该盯紧这一套方案。",
+      "score": 80,
+      "tags": [
+        "开源生态",
+        "推理",
+        "模型发布",
+        "部署/工程"
+      ],
+      "source": "公众号：小米 MiMo",
+      "time": "11:40",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq60kxqi042ksl5i30p1a5py",
+      "title": "OpenAI 秘密提交 IPO 申请，奥特曼旗下 Tools for Humanity 裁员",
+      "link": "https://www.ithome.com/0/961/792.htm",
+      "summary": "OpenAI 近日秘密提交 IPO 申请。其 CEO 山姆·奥特曼旗下的 Tools for Humanity 公司正裁员，该公司因虹膜扫描项目 World 及加密货币 Worldcoin 知名，投后估值 25 亿美元，获 Andreessen Horowitz 等投资。因营收困境，公司缩减规模。海外监管方面，肯尼亚以隐私和金融风险为由叫停运营，韩国因违反隐私法规罚款 83 万美元。",
+      "reason": "OpenAI 终于要上市了，但奥尔特曼的另一个明星项目 Worldcoin 却开始裁员，这反差比眼球扫描仪还刺眼，值得看看 AI 顶流的资本故事和副业困境。",
+      "score": 71,
+      "tags": [
+        "OpenAI",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "10:22",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq6090s803ymsl5i7zd3l79f",
+      "title": "Elon Musk 详解 SpaceX AI1 轨道 AI 数据中心卫星方案",
+      "link": "https://x.com/rohanpaul_ai/status/2064165951936094364",
+      "summary": "Elon Musk 首次详细解释 SpaceX 的 AI1 轨道 AI 数据中心卫星：峰值功率 150 kW，持续计算功率约 120 kW，相当于一个 NVIDIA GB300 机架；太阳能板效率 250 W/m²；双面散热器排热 1,400 W/m²。通过激光链路实现约 1 Tbps 互联，低轨 600–800 km 高度往返延迟 6–8 ms。由 Starship 发射，计划部署多达百万颗卫星，2027 年底前实现量产。近地目标为吉瓦级轨道 AI 算力，长期向太瓦级推进。",
+      "reason": "马斯克首次详细勾勒太空 AI 数据中心的路线图，从单颗卫星的 120kW 算力到百万颗组网的 terawatt 规模，把算力痛点从土地和电力拽到轨道上，基础设施的想象力得跟着刷新了。",
+      "score": 83,
+      "tags": [
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "time": "10:12",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5zxlug03vusl5ioevfmvk2",
+      "title": "开源工具 Tokei：在菜单栏实时监控 AI coding agent 的 token 用量与成本",
+      "link": "https://x.com/berryxia/status/2064155452934639718",
+      "summary": "Berry Xia 推荐开源工具 Tokei，这是一个 macOS 菜单栏小工具，只读本地日志、零网络调用，30 秒自动刷新，实时监控 Claude Code、Grok CLI、Aider、OpenCode 等 8 个主流 AI coding agent 的 token 用量、实时成本与性能数据，并附每日图表、周热力图和年度 Wrapped。支持私人 Git 多设备同步、价格表本地覆盖，闲置过久会提醒休息。引用推文指出，token 消耗情况可作为深度使用 AI 的面试亮点，数据全程私有，零侵入，无需任何认证。",
+      "reason": "Tokei把AI coding的成本黑洞撕开一个口子，本地零侵入，数据私有不联网，开源玩法实属良心。做开发者的，是时候正视自己烧了多少Token了。",
+      "score": 75,
+      "tags": [
+        "GitHub",
+        "MCP/工具调用",
+        "开源/仓库"
+      ],
+      "source": "X：Berry Xia (@berryxia)",
+      "time": "10:03",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5ynwlm03lhsl5i2p2cud2v",
+      "title": "FrontierCode 基准测试：AI 编程评估新标准——维护者审核通过率最高仅 13.4%",
+      "link": "https://x.com/AYi_AInotes/status/2064146694774595646",
+      "summary": "Cognition 发布 FrontierCode 基准测试，重新定义 AI 编程评估：由 20 多位顶级开源维护者手工制作 150 个任务（每个耗时 40+ 小时），依据 3000 多条规则判断维护者是否愿意合并代码。该基准指出 SWE-Bench 等超半数通过测试的代码实为不可维护的垃圾。结果中 Claude Opus 4.8 在最高难度档获 13.4%，GPT-5.5 为 6.3%，其余模型 1%–5%。这意味着即便最强模型，近九成代码仍无法通过有经验维护者审核。",
+      "reason": "Cognition 这个新基准把尺子从「代码能不能跑」换成了「维护者愿不愿意 merge」，直接戳破现有编码评测的泡沫。Opus 4.8 第一但只有 13.4%，真实世界的编程距离「能用」还有九成路要走，做 coding agent 的团队必读。",
+      "score": 77,
+      "tags": [
+        "Anthropic",
+        "OpenAI",
+        "编码",
+        "评测/基准"
+      ],
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "time": "09:28",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5yfk9603iosl5ir79yjdcq",
+      "title": "两部门：到2026年底人形机器人等重点产品完成应用验证并常态部署",
+      "link": "https://www.ithome.com/0/961/749.htm",
+      "summary": "工信部、国资委6月8日联合发布通知，目标到2026年底，人形机器人等重点产品在代表性场景完成应用验证并开启常态部署，形成百个以上高价值场景，万台级规模落地。要求各省级地区选取不少于20个场景单元（覆盖两类领域），央企不少于10个。围绕打造实景实训空间、组建创新应用联合体、攻关作业技能、加强验证部署、强化要素保障、凝练经验等六大任务展开，鼓励“人形机器人即服务”等商业创新。",
+      "reason": "工信部和国资委联合发文，目标2026年底人形机器人万台规模落地，这不是画饼，是实打实的场景清单和验证要求，做机器人的同行该逐条对照了。",
+      "score": 70,
+      "tags": [
+        "具身智能",
+        "政策/监管"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "09:21",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5x1u8w035ysl5i0ri9dysx",
+      "title": "GitHub 122K⭐的Skills推出新技能「Teach」：把工作目录变有状态学习空间",
+      "link": "https://x.com/shao__meng/status/2064144978792878348",
+      "summary": "GitHub 122K⭐的Skills仓库推出新技能Teach，可将当前工作目录变为有状态学习空间。设计理念从Knowledge（概念事实）→Skills（动手操作）→Wisdom（真实判断）。工作区以文件即学习状态：MISSION.md定目标、lessons/提供课程、learning-records/记录已会内容、reference/生成速查手册。五个关键机制：Mission定方向、ZPD根据记录调整难度、Lesson一课一事+即时反馈、Learning Record记“会了什么”而非“讲了什么”、Reference形成长期可回看手册。可通过npx skills add mattpocock/skills --skill teach安装，适用于从魔方到软件基础等学习场景。",
+      "reason": "mattpocock 这个 Teach Skill 把学东西从看文章变成写代码，用文件作为学习状态机，做开发者的可以立刻用起来，思想比同类教程工具高一个档次。",
+      "score": 75,
+      "tags": [
+        "GitHub",
+        "开源/仓库",
+        "部署/工程"
+      ],
+      "source": "X：邵猛 (@shao__meng)",
+      "time": "08:43",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5wmjtl032esl5izran9oz5",
+      "title": "Claude 东京站活动开放注册",
+      "link": "https://x.com/claudeai/status/2064139073590104402",
+      "summary": "最终站：东京。\n快来注册，直接聆听 Claude 团队分享：http://claude.com/code-with-claude/tokyo",
+      "reason": "Anthropic 把开发者大会带到东京，如果你在玩 Claude Code 或者想了解官方思路，这大概是近期最直接跟团队交流的机会，蹲一场比看十篇博文来得快。",
+      "score": 63,
+      "tags": [
+        "Anthropic",
+        "编码",
+        "行业动态"
+      ],
+      "source": "X：Claude (@claudeai)",
+      "time": "08:31",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5ujnt202iesl5ig6vg5i3r",
+      "title": "Apple Core AI 框架",
+      "link": "https://developer.apple.com/documentation/coreai",
+      "summary": "一篇关于 Apple Core AI 框架的 Hacker News 帖子获得 109 个点赞。帖子内容包含一张苹果开发者 OG 图片和一个指向 Apple Core AI Framework 官方文档的链接（developer.apple.com）。该帖子由 buzzing.cc 中文翻译，发布于 2026 年 6 月 8 日 02:47（UTC）。",
+      "reason": "Apple 终于给开发者一个统一的设备端 AI 框架，这对 iOS/macOS 应用的影响不亚于 Core ML，所有做 Apple 生态 AI 的都得看这个文档。",
+      "score": 77,
+      "tags": [
+        "产品更新",
+        "端侧",
+        "部署/工程"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "07:33",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5u4ypb02edsl5izrg3y8f9",
+      "title": "奥尔特曼宣布 OpenAI 进入第三发展阶段：让 AI 普及、易用且安全",
+      "link": "https://www.ithome.com/0/961/721.htm",
+      "summary": "本周一，OpenAI CEO 奥尔特曼与首席科学家帕霍茨基联合发文，宣布公司进入第三发展阶段，目标让 AI 普及、易用且安全。此前第一阶段聚焦通用人工智能技术研发，第二阶段面向全球推出产品。第三阶段三大核心目标是打造自动化人工智能研究员、推动经济提速、为每人配备专属通用人工智能。二人强调智能系统须坚守安全底线，呼吁成立国际机构应对 AI 风险，必要时可暂缓前沿模型研发。同日，OpenAI 秘密提交 IPO 申请，但上市仍需较长时间。上周 Anthropic 研究人员也建议适当放缓前沿 AI 研发。",
+      "reason": "奥尔特曼亲自给 OpenAI 定调进入第三阶段，同天还秘密提交了 IPO 申请，这篇博客比任何单款产品发布都更能看出他对 AI 经济终局的思考，关注行业走向的人必读。",
+      "score": 75,
+      "tags": [
+        "OpenAI",
+        "安全/对齐",
+        "现象/趋势",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "07:21",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5s35qm01vksl5i8iuvz0zv",
+      "title": "Claude 支持 Apple Foundation Models 框架，推出新 Swift 包",
+      "link": "https://claude.com/blog/claude-for-foundation-models",
+      "summary": "Anthropic 通过一个新 Swift 包，让 Apple 开发者能在 Foundation Models 框架中直接调用 Claude。开发者用 Apple 框架以原生 Swift 方式，仅需三行代码即可通过引导生成返回类型化 Swift 值。当请求涉及多步推理、代码生成、联网搜索或数据分析时，Claude 可接手处理，并将流式响应传回同一视图。该支持可在 iOS 27、iPadOS 27、macOS 27、visionOS 27 和 watchOS 27 上使用，开发者需添加包并配置 Anthropic API 密钥。",
+      "reason": "Apple开发者福音，现在能用Swift原生调用Claude了。端侧模型处理简单任务，复杂推理交给Claude，这才是苹果AI的正确打开方式。",
+      "score": 63,
+      "tags": [
+        "Anthropic",
+        "产品更新",
+        "搜索",
+        "编码"
+      ],
+      "source": "Claude：Blog（网页）",
+      "time": "06:24",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5qlr8e01gjsl5i2dzdysvx",
+      "title": "OpenAI计划到2028年由AI主导研究",
+      "link": "https://x.com/rohanpaul_ai/status/2064096574142390755",
+      "summary": "Sam Altman关于OpenAI未来路径的新博客称，到2028年3月，其大量研究将由AI完成。\n\n该路径主要有3个目标：构建自动AI研究员，利用它加速科学和生产，然后给每个人一个个人AGI，帮助处理工作、学习、编程、商业、健康文书和决策。",
+      "reason": "Sam Altman 首次把 OpenAI 的路线图讲得这么清楚，自动化 AI 研究员、加速科学、每个人一个 AGI，三条线直指 2028，比任何单个模型发布都更能定调行业节奏。",
+      "score": 79,
+      "tags": [
+        "OpenAI",
+        "大佬观点"
+      ],
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "time": "05:42",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5pocki017bsl5ikjj1dzhk",
+      "title": "OpenAI 向 SEC 机密提交 S-1 草案，上市时间未定",
+      "link": "https://openai.com/index/openai-submits-confidential-s-1",
+      "summary": "OpenAI 近日向 SEC 机密提交了 S-1 草案（即首次公开募股注册声明），目前尚未决定上市时间。",
+      "reason": "OpenAI 秘密提交 S-1 意味着 IPO 正式进入流程，即便没有公开时间表，这也是 AI 史上最大的上市动作之一，影响远超融资新闻。",
+      "score": 89,
+      "tags": [
+        "OpenAI",
+        "行业动态"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "05:16",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5pmqqc0166sl5icnriem6v",
+      "title": "苹果发布第三代 Apple Foundation Models（AFM）",
+      "link": "https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models",
+      "summary": "苹果推出第三代 Apple Foundation Models（AFM）基础模型家族，与 Google 合作定制，包含五个模型，覆盖从设备端到基于 Private Cloud Compute 的服务器端模型。这些模型旨在驱动 Apple Intelligence 功能，包括全新 Siri 和智能工具，以用户为中心深度融合操作系统，隐私为核心设计原则。",
+      "reason": "Apple与Google罕见联手推出的第三代基础模型，直接为下一代Siri和系统级AI功能铺路，标志着消费级AI的深度整合，产品经理和iOS开发者必须关注。",
+      "score": 79,
+      "tags": [
+        "Google",
+        "多模态",
+        "模型发布",
+        "端侧"
+      ],
+      "source": "Apple Machine Learning Research（RSS）",
+      "time": "05:15",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5p0eag0118sl5iydnwrhui",
+      "title": "Viggle API 上线：任意角色任意动作秒级生成",
+      "link": "https://x.com/ViggleAI/status/2064083087806390319",
+      "summary": "推出 Viggle API。\n\n给任意角色添加任意动作，一次 API 调用——数秒内即可激活。\n\n可接入 Claude、Codex 或你正在构建的任何智能体。起价 $0.01/秒。\n\n注册即获 100 次免费额度。\n\n转发 + 关注 + 评论，10 位中奖者再获 100 次！\n\n了解更多👇",
+      "reason": "给角色加动作的API降到$0.01/秒，还能直接接进Claude和Codex，做视频Agent的开发者可以试试。但纯API发布，普通用户不用激动。",
+      "score": 66,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "视频"
+      ],
+      "source": "X：Viggle AI (@ViggleAI)",
+      "time": "04:58",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5oofrd00x3sl5iadjbb59k",
+      "title": "EU AI Act 合规：面向 AI 智能体的人工监督",
+      "link": "https://openrouter.ai/blog/human-oversight-eu-ai-act-compliance-agent-sdk",
+      "summary": "使用智能体 SDK 的人机协作（HITL）工具，可满足 EU AI Act、Colorado AI Act 和 NIST AI RMF 对 AI 智能体的合规要求。",
+      "reason": "OpenRouter 在 Agent SDK 里内置了 HITL 审核，直击 EU AI Act 合规核心，受监管行业的产品经理和开发者可以看看接入成本，算是解决了一个真实的痛点。",
+      "score": 64,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "政策/监管"
+      ],
+      "source": "OpenRouter：Announcements（RSS）",
+      "time": "04:48",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5olpvf00wjsl5iw1vr85vy",
+      "title": "OpenAI 公布让 AGI 造福所有人的计划",
+      "link": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+      "summary": "OpenAI 发布计划，阐述让 AGI 造福所有人的愿景。该计划聚焦于 AI 的可及性、安全性和共享繁荣，确保技术进步惠及每个人。",
+      "reason": "这份计划是 OpenAI 对“AGI 公益”的例行布道，提供了解其高层思维的窗口，但建议别指望找到产品路线图。",
+      "score": 56,
+      "tags": [
+        "OpenAI",
+        "大佬观点",
+        "安全/对齐"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "04:46",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5lakyn00nesl38edfw2m19",
+      "title": "受 DMA 影响，Siri AI 在欧盟将随 iOS 27 和 iPadOS 27 延迟上线",
+      "link": "https://www.apple.com/newsroom/2026/06/due-to-dma-siri-ai-delayed-in-eu-for-ios-27-and-ipados-27",
+      "summary": "由于欧盟《数字市场法案》（DMA），Apple 无法在 iOS 27 和 iPadOS 27 发布时于欧盟地区推出 Siri AI。该功能在欧盟的上线时间将晚于其他地区，具体时间未公布。",
+      "reason": "虽然只是欧盟地区延迟，但Siri AI因DMA无法落地是个全行业信号——监管已经开始直接拦截AI功能，做全球产品的必须认真看政策风险了。",
+      "score": 65,
+      "tags": [
+        "政策/监管",
+        "语音"
+      ],
+      "source": "Apple：Newsroom（RSS）",
+      "time": "03:14",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5lakyn00nbsl3832izqutm",
+      "title": "Apple Intelligence 将强大 AI 能力融入日常体验",
+      "link": "https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences",
+      "summary": "Apple 发布下一代 Apple Intelligence，将 AI 能力集成到 iPhone、iPad 和 Mac 中，带来更个性化和有帮助的日常体验。",
+      "reason": "苹果这次把AI能力直接嵌进iPhone、iPad和Mac的核心体验，不是噱头而是日常能用上的东西，想知道你的设备接下来会变成什么样，这篇必看。",
+      "score": 72,
+      "tags": [
+        "产品更新",
+        "多模态"
+      ],
+      "source": "Apple：Newsroom（RSS）",
+      "time": "03:14",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5lakyn00nasl382lj0ka6f",
+      "title": "Apple发布新一代Apple Intelligence和Siri AI",
+      "link": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more",
+      "summary": "今天Apple预览了即将推出的软件版本，将带来新一代Apple Intelligence和Siri AI。",
+      "reason": "苹果AI的下一次迭代预览，虽然还只是预告，但Siri AI这个提法可能意味着更彻底的助手进化，iOS开发者该盯紧后续细节。",
+      "score": 56,
+      "tags": [
+        "产品更新",
+        "端侧",
+        "语音"
+      ],
+      "source": "Apple：Newsroom（RSS）",
+      "time": "03:14",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5kh5ui00ghsl3849i05qae",
+      "title": "Anthropic：AI编码快于生物学的缘由",
+      "link": "https://x.com/AnthropicAI/status/2064054837294354677",
+      "summary": "新的科学博客：为什么 AI 在编码方面的进步比在生物学方面更快？\n\n对智能体而言，生物数据库就像汽车发明前建造的城市——开进去会让人抓狂，因为它们是针对不同的交通流量设计的。  \n\n我们如何构建智能体可以使用的基础设施？  \nhttps://www.anthropic.com/research/agents-in-biology",
+      "reason": "Anthropic 官方下场解释为什么 AI 编程远超 AI 生物，直指生物数据库的糟糕基础设施，做生物信息的朋友会有共鸣。",
+      "score": 61,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "现象/趋势"
+      ],
+      "source": "X：Anthropic (@AnthropicAI)",
+      "time": "02:51",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5kh0q200g7sl38uoitn0e3",
+      "title": "Claude 为 Connector 开发者推出性能监控仪表盘",
+      "link": "https://claude.com/blog/observability-for-developers-building-connectors",
+      "summary": "Claude 为目录中已发布的 Connector 新增性能监控仪表盘（公开测试版）。所有者可追踪活跃用户、工具调用次数、目录排名、健康评分、错误率、延迟，并按工具细分错误归因；还能按 Claude、Claude Code、Cowork 等产品分解使用情况。访问需 Team 或 Enterprise 账号（Admin/Owner 权限或自定义角色）。基于 MCP 构建的 Connector 可直接在 Claude 应用内提交至目录，该目录已有超 300 个第三方 Connector，每日被数百万人使用。",
+      "reason": "Claude给connector开发者加了仪表板，能跟踪用量和错误，还能直接提交到目录，做MCP集成的省了监控的麻烦，即开即用。",
+      "score": 72,
+      "tags": [
+        "Anthropic",
+        "MCP/工具调用",
+        "产品更新"
+      ],
+      "source": "Claude：Blog（网页）",
+      "time": "02:50",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5js0wr009ksl38tvk1llo2",
+      "title": "苹果 WWDC 2026 直播",
+      "link": "https://www.apple.com/apple-events/event-stream",
+      "summary": "苹果 WWDC 2026 主题演讲通过官网进行直播，Hacker News 用户讨论热度达到 110 点。",
+      "reason": "苹果一年最重要的开发者大会，iOS 和 macOS 的新功能直接影响数亿用户，所有关于 Apple Intelligence 的传闻都会在这里揭晓，生态开发者必看。",
+      "score": 73,
+      "tags": [
+        "编码",
+        "行业动态"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "02:31",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5j7nkn002fsl385mhl7d2d",
+      "title": "样本效率黑洞：AI能力背后隐藏的数据需求深渊",
+      "link": "https://www.dwarkesh.com/p/the-sample-efficiency-black-hole",
+      "summary": "将AI比作一个闪耀着能力的星系，其核心存在一个肉眼不可见的巨大黑洞——数据。这个比喻揭示了AI模型惊人能力背后对海量数据的依赖，样本效率的瓶颈如同引力中心，将各色能力凝聚在一起。",
+      "reason": "「我们见到的 AI 如星河璀璨，但中心却是个看不见的、有着不可思议质量的样本效率黑洞」——这个比喻把 scaling law 背后被忽视的真相撕开给你看，做模型训练的人该读一读。",
+      "score": 69,
+      "tags": [
+        "大佬观点",
+        "数据/训练"
+      ],
+      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+      "time": "02:15",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5i5o4g0861slt2rprafeu2",
+      "title": "为生物学AI智能体铺路",
+      "link": "https://www.anthropic.com/research/agents-in-biology",
+      "summary": "一项实验让Claude、Biomni、Edison Analysis、GPT等科研智能体从病毒学数据库NCBI Virus中检索序列数据，即使最强模型也无法稳定达到可靠数据集构建所需的准确率。加入确定性检索层gget virus后，准确率接近100%。研究指出，当前生物学数据基础设施存在碎片化、格式特殊、接口不统一等问题，导致AI智能体难以像在软件领域那样高效工作。确定性检索工具是实现可靠智能体工作流的关键，生物学数据库需为智能体作为规模化用户而设计。",
+      "reason": "再强的模型在 NCBI Virus 上检索病毒序列都会翻车，Anthropic 加了个确定性检索层后准确率飙到近 100%。做 AI for science 的人该看看这个基础设施层的解法。",
+      "score": 77,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "论文/研究"
+      ],
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "time": "01:46",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5h53nq07w6slt2j3mljqg7",
+      "title": "Claude Code GA一周年回顾：验证与自动模式",
+      "link": "https://x.com/ClaudeDevs/status/2064032814392352816",
+      "summary": "Claude Code 的第一个演示收到了两个 Slack 反应。\n\nGA 一周年之际，@bcherny 和 @_catwu 回顾：验证最佳实践、为何构建自动模式、例程和循环，以及下一步计划。\n\nhttps://www.youtube.com/watch?v=Hth_tLaC2j8",
+      "reason": "Claude Code 一周年复盘，两位核心开发者把 auto mode 和 verification 的设计逻辑讲透了，比任何第三方教程都值得认真看。",
+      "score": 74,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "time": "01:17",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5gf74e07p1slt2ae83siz1",
+      "title": "Perplexity与哈佛：AI智能体提效87%降本94%",
+      "link": "https://x.com/perplexity_ai/status/2064023455453110286",
+      "summary": "我们与哈佛大学发表新研究，关于从聊天界面转向像Computer这样的自主智能体的转变。\n\n超过3个月的研究结果表明，使用Computer的工人在完成任务上比仅使用搜索快87%，成本低94%，且满意度更高。  \n\nhttps://research.perplexity.ai/articles/how-ai-agents-reshape-knowledge-work",
+      "reason": "Perplexity 和哈佛的联合研究，用三个月数据把“AI 代理取代聊天界面”从口号变成了硬数字——87% 时间缩减和 94% 成本下降，做企业决策的人该仔细读一下。",
+      "score": 76,
+      "tags": [
+        "Agent",
+        "论文/研究"
+      ],
+      "source": "X：Perplexity (@perplexity_ai)",
+      "time": "00:57",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5fu9vx07j4slt2xwo7tc0y",
+      "title": "AI 替代浪潮：三大力量重塑成本结构",
+      "link": "https://www.tomtunguz.com/inflation-deflation-ai",
+      "summary": "三大力量重塑 AI 成本：前沿闭源模型持续涨价，开源模型在多数场景已足够好，买家开始替代。Coinbase 将提示词路由至更便宜模型，成本持平但 token 用量指数增长。Lindy 全切至 DeepSeek v4，节省数百万美元且多项核心性能提升。Harvey 在 Legal Agent Benchmark 上通过 SFT 使 Kimi 2.6 all-pass 率达 15%，超越 Opus 的 14%，同一 100 任务成本 $84 vs $954（约 11 倍价差）。Cursor 后训练 Kimi K2.5 得到 Composer 2.5，称其“性能优异且效率高达同类模型 10 倍”。闭源越来越贵，开源平价且性能接近，选择决定企业单位经济学的斜率。",
+      "reason": "Tunguz 用 Coinbase、Lindy 等真实案例，把「用开源/便宜模型替代昂贵前沿模型」的趋势讲透了，做 AI 应用的人该重新算一下单位经济账。",
+      "score": 56,
+      "tags": [
+        "Anthropic",
+        "DeepSeek",
+        "开源生态",
+        "推理",
+        "现象/趋势"
+      ],
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "time": "00:41",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5f9hfb07e4slt2h4zsfqiu",
+      "title": "ChatGPT 新增数据图表生成功能",
+      "link": "https://x.com/ChatGPTapp/status/2064018770839113769",
+      "summary": "将数据和比较转化为图表，直接在 ChatGPT 中完成。\n\n现已支持移动端和网页端。",
+      "reason": "ChatGPT终于内置了图表生成，不用再复制数据到其他工具了。这个功能的真正价值是让分析更快闭环，做数据简报的人可以试试。",
+      "score": 67,
+      "tags": [
+        "OpenAI",
+        "产品更新",
+        "数据/训练"
+      ],
+      "source": "X：ChatGPT (@ChatGPTapp)",
+      "time": "00:25",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5f21ab07caslt24z471p91",
+      "title": "NotebookLM重大升级：智能体能力与高级推理",
+      "link": "https://x.com/NotebookLM/status/2064016460964585549",
+      "summary": "推出更强大的 NotebookLM 🚀\n\n重大升级带来了对话中的智能体能力、更高级的推理以及一系列新的输出格式。处理复杂的多步骤研究问题从未如此简单。\n\n现已面向 Google AI Ultra 订阅者推出。",
+      "reason": "NotebookLM 这次升级把 agent 能力塞进聊天框，从被动答案变成能拆解多步研究，对深度资料整理的人是真迭代，但仅限 Google AI Ultra 订阅，门槛不低。",
+      "score": 72,
+      "tags": [
+        "Google",
+        "产品更新",
+        "多模态",
+        "推理"
+      ],
+      "source": "X：NotebookLM (@NotebookLM)",
+      "time": "00:19",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5eo92f076uslt21k43rdpb",
+      "title": "Runway Aleph 2.0 编辑模型：一键适配任意视频格式",
+      "link": "https://x.com/runwayml/status/2064012425884569627",
+      "summary": "一个视频，现在可以为每个信息流和格式制作。上传你现有的视频，选择你想要的宽高比，然后观看我们的编辑模型 Aleph 2.0，填充场景的其余部分，就像你从一开始就这样制作一样。\n\n在我们的桌面 Web 应用上尝试，链接如下。",
+      "reason": "Runway 把视频重构图做成了上传即填充，Aleph 2.0 自动补全不同比例画面，对同时做横竖版内容的人太实用，省掉重新拍摄或手动裁剪的功夫。",
+      "score": 79,
+      "tags": [
+        "产品更新",
+        "图像生成",
+        "视频"
+      ],
+      "source": "X：Runway (@runwayml)",
+      "time": "00:08",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq5d3g7k06t5slt27nmi6rvh",
+      "title": "OpenRouter Advisor 助小模型问高级模型",
+      "link": "https://x.com/OpenRouter/status/2064004944613527730",
+      "summary": "新服务器工具：Advisor\n\n让较小的模型咨询一个更高智能的“顾问”模型。\n\n帮助它们逃出困境循环，并帮助你迁移到更便宜的模型！🧵",
+      "reason": "OpenRouter 这个 Advisor 工具，用大模型给小模型当顾问，专治死循环。想降本到小模型又怕质量跳水的团队，可以试试这个方案。",
+      "score": 72,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "产品更新"
+      ],
+      "source": "X：OpenRouter (@OpenRouter)",
+      "time": "23:24",
+      "date": "6月8日"
+    },
+    {
+      "id": "cmq5cna7k06nbslt2fvxds4v4",
+      "title": "Hivemind推出面向AI编程智能体的持续学习功能，即日起开放",
+      "link": "https://x.com/kimmonismus/status/2064001045391462907",
+      "summary": "Hivemind发布面向AI编程智能体的持续学习功能，即日起开放。该工具收集团队运行的每个智能体（Claude Code、Codex、Cursor、Hermes、Pi）的轨迹，转化为可复用技能并推送到所有智能体，数据存储在用户自己的云存储中。内置SkillOpt使技能持续训练：Claude Code准确率提升+19.1分，Codex提升+24.8分，在全部52个测试设置中最佳或持平。开源，一行命令安装。",
+      "reason": "Hivemind 让 Claude Code、Cursor 等不同 AI 编码助手互相学习，团队用得越多代理越准，开源一行安装，做工程管理的值得立刻试试。",
+      "score": 78,
+      "tags": [
+        "Agent",
+        "开源/仓库",
+        "编码"
+      ],
+      "source": "X：Kim (@kimmonismus)",
+      "time": "23:12",
+      "date": "6月8日"
+    },
+    {
+      "id": "cmq5bpym306fbslt2cnfcangy",
+      "title": "VoxCPM2 技术报告发布",
+      "link": "https://x.com/OpenBMB/status/2063991963133903317",
+      "summary": "面壁智能 OpenBMB 发布 VoxCPM2 技术报告。该模型为最新语音生成模型，拥有 2B 参数，基于超 200 万小时多语言语音数据训练，支持 30 种语言和 9 种中文方言。具备自然语言语音设计、可控及高保真延续性语音克隆能力。技术报告涵盖架构设计、统一序列公式、AudioVAE 高保真语音重建、大规模训练评估，以及零样本和指令跟随 TTS 基准结果。采用 16kHz 语义编码 + 48kHz 波形重建，在公开 TTS 基准上达到 SOTA 或极具竞争力。模型权重、微调代码和推理工具以 Apache 2.0 开源。",
+      "reason": "面壁把语音生成压进2B参数，支持30种语言加方言克隆，还附完整技术报告和Apache 2.0开源，做语音产品的可以直接拉代码跑起来了。",
+      "score": 75,
+      "tags": [
+        "多模态",
+        "开源/仓库",
+        "模型发布",
+        "语音"
+      ],
+      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+      "time": "22:46",
+      "date": "6月8日"
+    },
+    {
+      "id": "cmq5ae45j060nslt214k74uu3",
+      "title": "微软AI CEO：超级智能即将到来，但不会取代你的工作",
+      "link": "https://www.theverge.com/podcast/944138/microsoft-ai-ceo-mustafa-suleyman-superintelligence-agi-openai-automation",
+      "summary": "微软AI CEO Mustafa Suleyman在Decoder访谈中表示，超级智能即将到来，但不会导致大规模失业。他透露微软与OpenAI于去年10月签署新合同，巩固合作关系的同时，微软获准独立追求超级智能。微软已组建超级智能团队、训练前沿模型，并于本周Build大会上发布7个全模态新模型。他批评Anthropic将Claude描述为有意识的做法，认为消费者产品需要足够好才能克服公众对AI的负面情绪。",
+      "reason": "Mustafa 首次系统阐述微软的「自给自足」路线，一边甩开 OpenAI 一边定义「人文主义超级智能」，开发者和产品人都该听听这段博弈论。",
+      "score": 79,
+      "tags": [
+        "Microsoft",
+        "大佬观点"
+      ],
+      "source": "The Verge：AI（RSS）",
+      "time": "22:08",
+      "date": "6月8日"
+    },
+    {
+      "id": "cmq5a619j05ylslt2csujejwb",
+      "title": "Kimi Code 焕新升级（附视频教程）",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484250&idx=1&sn=d0a07f5358250f3a54df8fbabe61f09a",
+      "summary": "Kimi Code 开源 Coding Agent 迎来大版本升级：一行命令安装，毫秒级启动；新增视频理解能力，支持提取视频风格生成 LUT 文件、长视频切片、根据录屏生成代码；集成同花顺、天眼查等权威数据源，可查询股票价格、财报、学术论文；支持 ACP 协议，可在 JetBrains、Zed 中使用；丰富 hook 生态方便集成其他工具。底层视觉推理由 Kimi K2.6 模型提供。",
+      "reason": "Kimi Code 这次更新把安装和视频处理的门槛压到了最低，一行命令加拖拽视频就能用，开源 Agent 的体验终于开始反超商业版本。",
+      "score": 76,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "开源生态",
+        "编码"
+      ],
+      "source": "公众号：月之暗面（Kimi）",
+      "time": "22:02",
+      "date": "6月8日"
+    },
+    {
+      "id": "cmq59qphf05vuslt2zgw6ndy6",
+      "title": "开源社区支持 OpenEnv 用于智能体强化学习",
+      "link": "https://huggingface.co/blog/openenv-agentic-rl",
+      "summary": "今日，Hugging Face 宣布 OpenEnv 项目进一步开放，由 Meta-PyTorch、Reflection、Unsloth 等组成的委员会协调，并获得 PyTorch Foundation、vLLM、SkyRL（UCB）等机构支持。OpenEnv 是创建终端、浏览器等智能体执行环境的工具，定位为训练器与环境间的互操作层，标准化环境的发布、部署和消费，但不定义奖励或训练循环。它基于客户端/服务器架构提供 Gymnasium 风格 API（`reset()`、`step()`、`state()`），支持 HTTP、WebSocket、Docker 打包，并将 MCP 作为一等公民，使环境在模拟和生产模式下行为一致。未来将聚焦任务集对接数据集、外部奖励、Harness 集成及自动验证，以推动开源智能体 RL 基础建设。",
+      "reason": "开源社区在 agent RL 环境上终于开始合流，Meta、Nvidia、Hugging Face 等联合推动 OpenEnv 成为接口标准，不做奖励框架，只做插线板。搞开源 agent 训练的人，这是少有的统一基础设施的机会。",
+      "score": 62,
+      "tags": [
+        "Agent",
+        "Hugging Face",
+        "MCP/工具调用",
+        "Meta",
+        "开源/仓库",
+        "开源生态"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "21:50",
+      "date": "6月8日"
+    },
+    {
+      "id": "cmq59qphf05vtslt245kielax",
+      "title": "五个模型经济体中消失的崩溃：控制与涌现",
+      "link": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v3",
+      "summary": "用五个不同实验室的AI模型（OpenAI、NVIDIA、OpenBMB及一个自微调的5亿参数模型）各自驱动一个智能体构建经济市场，试图复现此前单一模型下出现的银行挤兑式价格崩溃。结果同一场景下模型不仅不抛售反而囤积，导致价格不跌反涨。通过纯谣言、库存泛滥、加大做空三种方式均无法重现崩溃。最终在结算环节直接覆盖价格，使崩溃成为设计事实。实验表明，AI智能体的涌现行为是偶然的而非稳健的，有效系统需在涌现纹理与确定性控制之间找到精确接缝。",
+      "reason": "做 agent 的人必读，自己动手构建一个多模型经济体后才发现，涌现行为脆弱，控制要卡在结算层而非输入层，廉价模拟器会给你虚假信心。这篇复盘比成功案例更值钱。",
+      "score": 57,
+      "tags": [
+        "Agent",
+        "大佬观点"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "21:50",
+      "date": "6月8日"
+    },
+    {
+      "id": "cmq597yqb05pzslt20f3ua8tc",
+      "title": "小互开源视频翻译工具：一句话自动下载、转写、翻译、烧字幕",
+      "link": "https://x.com/xiaohu/status/2063972223170556302",
+      "summary": "小互（@xiaohu）开源视频翻译工具（xiaohu-video-translate），只需说一句“把链接翻译成中文字幕视频”即可全自动完成下载、Whisper本地转写、AI翻译润色、烧字幕、出文稿。转写本地运行，不花API费。支持YouTube、Bilibili、抖音等链接及本地文件，英语、日语、韩语、法语、西班牙语等均可转成中文字幕。字幕精确到词级时间戳，按语义断句，每行不超过12字，双语模式下中文大英文小。提供纯中文与中英双语模式。工具由三个子技能组成，可单独或串联使用，适配Claude Code、Codex、OpenClaw等AI编程工具。已开源，附安装指南。",
+      "reason": "小互把自己用了半年的视频翻译工具开源了，本地Whisper转写加AI润色，下载、翻译、烧字幕一句话搞定，做海外视频搬运或想省时间的，装一下就能省掉大半天手工。",
+      "score": 79,
+      "tags": [
+        "GitHub",
+        "开源/仓库",
+        "视频",
+        "语音"
+      ],
+      "source": "X：小互 (@xiaohu)",
+      "time": "21:36",
+      "date": "6月8日"
+    }
+  ]
+}

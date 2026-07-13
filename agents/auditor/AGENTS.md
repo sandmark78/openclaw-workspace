@@ -1,0 +1,1 @@
+# auditor - AGENTS.md

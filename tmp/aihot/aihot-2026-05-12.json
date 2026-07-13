@@ -1,0 +1,649 @@
+{
+  "date": "2026-05-12",
+  "scraped_at": "2026-05-12T05:00:13.914657+00:00",
+  "total_items": 40,
+  "items": [
+    {
+      "id": "cmp25c774049lslbp3zceqjrz",
+      "title": "Qwen-Image-2.0技术报告",
+      "link": "https://arxiv.org/abs/2605.10730",
+      "summary": "Qwen-Image-2.0是一个统一高保真生成与精确编辑的全能图像生成基础模型。它采用Qwen3-VL作为条件编码器，结合多模态扩散变换器进行联合建模，并通过大规模数据整理与多阶段训练实现强化。该模型支持长达1K令牌的指令输入，能生成幻灯片、海报等富文本内容，显著提升多语言文本渲染与排版质量。在生成方面，它增强了细节、纹理真实感与光照一致性，并更可靠遵循复杂指令。人工评估表明，其在生成和编辑任务上均大幅超越前代模型。",
+      "reason": "这是 Qwen-Image 系列第一次把多模态理解和生成真正拧到同一框架里，长文本渲染和多语言排版提升肉眼可见，做海报和幻灯片的可以重点关注。",
+      "score": 76,
+      "tags": [
+        "arXiv",
+        "图像生成",
+        "多模态",
+        "模型发布"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "12:44",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp251p370473slbp0fffj413",
+      "title": "npm 生态遭大范围投毒：TanStack、Mistral AI、UiPath 等受波及，可窃取云密钥与 GitHub 令牌",
+      "link": "https://www.ithome.com/0/949/178.htm",
+      "summary": "网络安全机构Socket发现针对npm生态的大规模供应链攻击“Mini Shai-Hulud”。攻击者组合利用GitHub Actions的三种漏洞，绕过了双重身份验证等保护机制，向TanStack、Mistral AI、UiPath等知名项目的软件包中植入恶意版本。被篡改的包在安装时会自动执行恶意代码，窃取AWS、GCP、Kubernetes、GitHub令牌及SSH私钥等敏感凭证。此次攻击波及超过160个包名、近373个恶意版本，目前所有恶意版本已被清理。",
+      "reason": "这轮 npm 投毒把 TanStack、Mistral AI 和 UiPath 全卷进去了，甚至能直接窃取云密钥和 GitHub 令牌，搞开发的建议立刻按文末应急措施检查自己的依赖树。",
+      "score": 71,
+      "tags": [
+        "安全/对齐",
+        "开源生态",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "12:36",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp251p370470slbpio1s5omy",
+      "title": "全国首例 AI 代写“种草笔记”案宣判，法院判决工具提供者赔偿平台 10 万元",
+      "link": "https://www.ithome.com/0/949/198.htm",
+      "summary": "全国首例 AI 代写“种草笔记”不正当竞争案在浙江省杭州市中级人民法院宣判。被告 B 公司和 C 公司运营的 AI 写作工具能一键生成某社交平台风格的种草文案，以会员制营利，诱导用户发布虚假消费体验，破坏平台真实内容生态。法院判决被告赔偿原告经济损失及合理开支共计 10 万元，并创新性使用“四要素判定法”，明确生成式人工智能服务提供者需尽到合理注意义务，为治理 AI 生成虚假信息划定了法律边界。",
+      "reason": "司法首次给AI生成内容工具划定注意义务边界，这起首例判罚直接定义了做种草文案生成器的法律红线，四要素判定法很可能成为后续案件的参照。",
+      "score": 72,
+      "tags": [
+        "政策/监管",
+        "现象/趋势"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "12:36",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp221o5403hcslbpdg55r3gw",
+      "title": "答案之外：信息呈现方式正成为AI智能层的一部分",
+      "link": "https://x.com/SiliconFlowAI/status/2054035848866504953",
+      "summary": "信息的结构与呈现方式本身正成为AI智能层的关键。当前，让大语言模型以HTML格式输出，能提供比默认Markdown更丰富的视觉布局与交互性，是值得尝试的技巧。长远来看，人类虽偏好用音频输入，但视觉（图像/动画/视频）才是更理想的AI输出形式，因为大脑约三分之一皮层专司视觉处理。AI输出形态将沿“原始文本→Markdown→HTML→交互式神经视频/模拟”的路径演进，最终可能由扩散神经网络直接生成交互视频。同时，输入方式也需融合音频、文本、视频及手势等多模态交互。在人机输入输出深度融合方面，仍有巨大发展空间。",
+      "reason": "Karpathy 给的路线图从文本到 HTML 再到神经视频，其中第一步的‘让 LLM 输出 HTML’你今晚就能用上。未来交互形态的思考，值得产品经理细读。",
+      "score": 74,
+      "tags": [
+        "OpenAI",
+        "多模态",
+        "大佬观点"
+      ],
+      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+      "time": "11:12",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp217uha039islbp728k2hm3",
+      "title": "Thinking Machines发布原生多模态“交互模型”，实现实时人机协作",
+      "link": "https://x.com/op7418/status/2054023602874491326",
+      "summary": "前OpenAI CTO Mira创立的Thinking Machines公司发布了一种创新的“交互模型”。该模型能原生、持续地接收音频、视频和文本等多模态输入，并实时思考与响应，而非通过Agent串联多个独立模型。其架构分为两部分：前台交互模型以200毫秒为节点处理输入并维持用户“在场感”，支持随时打断；后台推理模型则处理长程规划、工具调用等复杂任务。两者协同工作，最终呈现为一个既能实时交互又能处理重度任务的统一界面。",
+      "reason": "Mira 从 OpenAI 出来后搞了个真正全模态实时交互的原生模型，不再是多个模型串起来的 Agent 架子，这可能是下一代 AI 交互的雏形，做产品的必须看一眼。",
+      "score": 71,
+      "tags": [
+        "多模态",
+        "推理",
+        "模型发布"
+      ],
+      "source": "X：歸藏 (@op7418)",
+      "time": "10:49",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp1xjf7w02frslbp8y8lz53d",
+      "title": "Cursor集成Microsoft Teams提升办公效率",
+      "link": "https://x.com/shao__meng/status/2053998536711405978",
+      "summary": "Cursor 在 Microsoft Teams 可用了\n\n最新集成方式有：Slack、Linear 和 Microsoft Teams\n\n如果你们公司在用微软产品体系，Microsoft Teams 还是必选项，这个集成比较实用，在这安装：\nhttps://cursor.com/dashboard/integrations#integrations",
+      "reason": "虽然只是多了一个 Teams 集成，但对于严重依赖微软生态的团队，Cursor 终于不再是‘只有 Slack 才能用’的工具了。",
+      "score": 71,
+      "tags": [
+        "Agent",
+        "产品更新"
+      ],
+      "source": "X：邵猛 (@shao__meng)",
+      "time": "09:05",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp1x5c1d02asslbpovh2h2v3",
+      "title": "谷歌表示，犯罪黑客利用人工智能发现了一个重大的软件漏洞",
+      "link": "https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html",
+      "summary": "谷歌披露，犯罪黑客利用人工智能技术发现并利用了一个重大的软件漏洞。该漏洞存在于广泛使用的开源软件中，可能导致大规模数据泄露或系统入侵。谷歌威胁分析小组追踪到此次攻击，并确认黑客借助AI工具显著提升了漏洞挖掘的效率与精准度。目前漏洞细节尚未公开，但相关软件维护方已发布安全更新。这一事件凸显了AI技术被恶意用于网络攻击的现实风险，对全球网络安全防御体系提出了新的挑战。",
+      "reason": "这不是演习，谷歌亲口确认黑客用AI挖到了真实漏洞，AI降低攻击门槛不再是理论推演，安全从业者该重新评估威胁模型了。",
+      "score": 73,
+      "tags": [
+        "Google",
+        "安全/对齐"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "08:55",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp1wgrdr024sslbpoczb50vy",
+      "title": "FrontierMath评测发现致命错误，将更新修正后分数",
+      "link": "https://x.com/EpochAIResearch/status/2053995435870892048",
+      "summary": "我们正在对FrontierMath的Tiers 1-4进行AI辅助审查。\n这已标记出约三分之一题目存在致命错误，\n且我们相信大多数标记是有效的。\n在完成全面人工审核后，\n我们将在修正的数据集上发布更新后的分数。",
+      "reason": "FrontierMath 是衡量模型数学推理的核心基准，三分之一题目有致命错误这件事会让之前的所有满分评分变得可疑，做评估的人必须重新审视数据。",
+      "score": 77,
+      "tags": [
+        "数据/训练",
+        "评测/基准"
+      ],
+      "source": "X：Epoch AI (@EpochAIResearch)",
+      "time": "08:35",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp1ul5x601p3slbpd1dkui42",
+      "title": "在AWS上进行基础模型训练与推理的核心构建模块",
+      "link": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
+      "summary": "本文面向使用开源框架的机器学习工程师，阐述了AWS如何为大规模基础模型的全生命周期提供核心基础设施。其核心是三大紧密集成的组件：配备多代NVIDIA GPU（如H100、H200及新一代Blackwell B200/B300）的大显存加速计算实例；用于集体通信的高带宽、低延迟网络（节点内NVLink与节点间EFA）；以及可扩展的分布式存储。这些基础设施与Slurm/Kubernetes等资源编排系统、PyTorch/JAX等ML框架协同，共同支撑预训练、后训练和推理工作负载，并可通过Prometheus/Grafana实现全栈可观测性。",
+      "reason": "这篇把AWS上训大模型的全套基础设施串了一遍，从GPU选型到网络存储再到Slurm/K8s编排，是做云端大规模训练的工程师的必读参考。",
+      "score": 58,
+      "tags": [
+        "开源生态",
+        "教程/实践",
+        "数据/训练",
+        "部署/工程"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "07:43",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp1ubsdy01mxslbpdlo0mbkk",
+      "title": "纳德拉出庭反击马斯克诉讼案：他明明有我的手机号，但从未抱怨过微软与 OpenAI 的合作",
+      "link": "https://www.ithome.com/0/949/045.htm",
+      "summary": "微软CEO纳德拉在马斯克诉OpenAI案中作证，反驳了马斯克关于OpenAI背离非营利初衷的指控。他出示了马斯克2016年的感谢邮件，证明其当时完全支持微软与OpenAI的合作，且微软为此承受了1500万美元亏损。纳德拉强调，双方一直保持沟通，但马斯克在合作深化期间从未提出抱怨，直至2024年才提起诉讼。他还将2023年OpenAI董事会解雇CEO奥尔特曼的事件评价为“业余之举”，并透露自己曾介入帮助奥尔特曼复职。",
+      "reason": "纳德拉的证词猛料不少，从2016年马斯克感谢微软到微软为OpenAI承受亏损，直接打脸马斯克的诉讼主张。关注AI权力格局演变的，这篇必读。",
+      "score": 77,
+      "tags": [
+        "Microsoft",
+        "OpenAI",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "07:36",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp1rcw0s00ynslbpsm5k4w2s",
+      "title": "ChatGPT 在 2026 年初如何扩大应用范围",
+      "link": "https://openai.com/signals/research/2026q1-update",
+      "summary": "2026年第一季度，ChatGPT的用户采用率大幅上升，其中35岁以上用户群体的增长最为迅速，同时用户性别比例也趋于均衡。这表明以ChatGPT为代表的人工智能技术正加速融入主流社会，其应用范围已突破早期以年轻技术爱好者为主的局限，向更广泛、更多元化的普通用户群体拓展。",
+      "reason": "这是我今年看过最值得留意的用户数据，ChatGPT正跳出早期极客圈，35岁以上用户成为增长主力，所有面向大众的AI产品都得重新思考用户画像。",
+      "score": 66,
+      "tags": [
+        "OpenAI",
+        "现象/趋势"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "06:13",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp1p41eu00ghslbpb3s2zd2t",
+      "title": "推出Daybreak：网络安全前沿AI防御系统",
+      "link": "https://x.com/OpenAI/status/2053939702110269822",
+      "summary": "推出Daybreak：面向网络防御者的前沿AI。\n\nDaybreak汇集了最强大的OpenAI模型、Codex以及我们的安全合作伙伴，以加速网络防御并持续保障软件安全。\n\n朝着安全团队能以防御所需速度行动的未来迈进一步。",
+      "reason": "OpenAI 把最强模型和 Codex 打包成安全防御专用工具，虽然目前更像是给安全团队的定向特供，但「AI for defense」这个产品化方向本身值得留意。",
+      "score": 60,
+      "tags": [
+        "OpenAI",
+        "产品更新",
+        "安全/对齐"
+      ],
+      "source": "X：OpenAI (@OpenAI)",
+      "time": "05:10",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp1opwyg00d9slbprz5tljah",
+      "title": "Luma Agents：从情绪板到完整广告的自动化创作",
+      "link": "https://x.com/LumaLabsAI/status/2053941836402901409",
+      "summary": "情绪板曾是最精彩的部分。如今它只是起点。\n\n上传你的参考素材。设定方向。Luma Agents 会将其从情绪板转化为完整的广告。\n\n生成广告 → http://lumalabs.ai/app",
+      "reason": "Luma这次把情绪板直接变广告，做创意的终于不用在PPT和渲染之间反复横跳了，一键出片的感觉很像去年Midjourney上线V6。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "图像生成",
+        "视频"
+      ],
+      "source": "X：Luma AI (@LumaLabsAI)",
+      "time": "04:59",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp1mneb5006vsl6yoejx9zjm",
+      "title": "Codex插件助力AI应用与智能体开发提速",
+      "link": "https://x.com/OpenAIDevs/status/2053925962287583379",
+      "summary": "Codex现可通过OpenAI Developers插件，帮助您利用OpenAI API更快地构建AI应用和智能体。",
+      "reason": "把 Codex 直接接入 OpenAI API 开发流程，这是在给自家开发者递快刀，做 AI 应用和 Agent 的可以第一时间装上，省掉的不只是时间，还有调试的心力。",
+      "score": 69,
+      "tags": [
+        "Agent",
+        "OpenAI",
+        "产品更新",
+        "编码"
+      ],
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "time": "04:01",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp1mbm7v009gsl4d2nu7d7qo",
+      "title": "在脚本的shebang行中使用LLM",
+      "link": "https://simonwillison.net/2026/May/11/llm-shebang",
+      "summary": "本文介绍了一种创新方法，将LLM工具直接嵌入脚本的shebang行中执行指令。通过LLM的fragments模式，shebang行可执行简单任务，如生成SVG图像；使用-T选项能调用外部工具（如llm_time）创作包含当前时间的俳句；更复杂的是运行YAML模板，其中定义了Python函数作为工具进行数学计算，示例中演示了计算2344乘以5252加134的过程，并通过调试输出展示了分步结果，最终得到12,310,822。这展现了LLM作为脚本解释器的强大扩展性，能够支持从内容生成到数据查询的多样化任务。",
+      "reason": "Simon 这个 shebang 技巧让 LLM 直接变成脚本解释器，虽然是极客玩法，但对常写自动化脚本的开发者来说可以直接抄走，创意很妙。",
+      "score": 80,
+      "tags": [
+        "MCP/工具调用",
+        "教程/实践"
+      ],
+      "source": "Simon Willison 博客",
+      "time": "03:52",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp1lbm4v00irsl8b7g40famc",
+      "title": "Anthropic估值五日激增2000亿美元，营收呈指数级增长",
+      "link": "https://x.com/kimmonismus/status/2053911732028907972",
+      "summary": "人工智能公司Anthropic的市场隐含估值在短短五天内从1.2万亿美元飙升至1.4万亿美元，暴增2000亿美元。根据链上Pre-IPO交易数据，其估值自2025年10月以来已上涨1067%，近期24天内又录得40%的涨幅。这一惊人飙升的背景是公司年化收入的爆炸式增长：从2023年的1亿美元跃升至当前的450亿美元，仅过去12个月就增长了1400%。在Jupiter等链上平台交易的、由SPV风险敞口1:1支持的Pre-IPO工具，正实时反映市场对其IPO的估值预期。",
+      "reason": "Anthropic 5天估值跳涨2000亿，年化营收从1亿飙到450亿，市场在用真金白银押注它吃掉企业市场，这比任何 benchmark 都更有说服力。",
+      "score": 73,
+      "tags": [
+        "Anthropic",
+        "现象/趋势",
+        "行业动态"
+      ],
+      "source": "X：Kim (@kimmonismus)",
+      "time": "03:23",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp1l3yq300ghsl8b7ydcjq7y",
+      "title": "本地模型处理半数日常任务，响应速度优于云端",
+      "link": "https://www.tomtunguz.com/localmaxxing",
+      "summary": "一项为期五周的实验发现，在总计约1400项日常工作任务中，约50%可由本地35B参数模型（如Qwen 3.6 35B）成功处理，涵盖邮件、日程、总结和行政事务等类别。性能对比显示，本地模型在常规代理任务上的平均响应时间为2.8秒，比云端Claude Opus 4.5快2.1倍，尽管后者在复杂推理上仍领先约20%。本地模型输出更简洁，云端模型则在结构和代码规范性上更优。随着本地模型性能提升，将计算负载转向本地以应对云端成本已成为必然趋势。",
+      "reason": "Tunguz用数据告诉你，本地35B模型延迟只有Opus的一半且能完成半数任务，对极致追求响应速度的产品思路冲击很大，本地优先可能会从边缘变成主流。",
+      "score": 67,
+      "tags": [
+        "大佬观点",
+        "推理",
+        "端侧"
+      ],
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "time": "03:18",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp1k6fzy0097sl8bma8psq7c",
+      "title": "Claude Code v2.1.139 版本更新",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+      "summary": "本次更新引入了多项新功能与优化。核心新增包括：集中管理会话的Agent视图（研究预览）、可设置目标并持续工作的`/goal`命令、实时调整滚轮速度的`/scroll-speed`命令，以及查看插件详情的`claude plugin details`命令。交互界面导航与控制能力得到增强。底层优化涵盖MCP服务器可获取`CLAUDE_PROJECT_DIR`环境变量、`/context all`的令牌估算会考虑模型分词器并显示舍入值。此外，修复了超过20项问题，如凭证死锁、内存无限制增长、权限规则、UI显示错误及路径处理等缺陷。",
+      "reason": "Claude Code 这波更新给了两个真正改变工作流的杀手功能，agent view 让你一眼看清所有会话，/goal 命令能让 Claude 自己跑完一个任务直到满足条件，做开发的同学可以立刻试试。",
+      "score": 72,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "MCP/工具调用",
+        "产品更新",
+        "编码"
+      ],
+      "source": "Claude Code：GitHub Releases（RSS）",
+      "time": "02:52",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp1jfovk0088slveaezopj7c",
+      "title": "旧金山AI模型开发者盛会周三举行",
+      "link": "https://x.com/MiniMax_AI/status/2053899661334003938",
+      "summary": "本周三在旧金山，与@vercel_dev、@AnthropicAI和@Kimi_Moonshot共同参与美国下一代模型盛会。\n\n每位参与者将获得$30 MiniMax API积分 + 大奖池。\n\n📅 5月13日 | 太平洋时间下午5:30 | 旧金山\n\n加入候补名单 → https://luma.com/ttrgmjaf",
+      "reason": "MiniMax拉上Anthropic、Kimi搞活动送API额度，本质是个面向开发者的社交推广局，不是技术发布，但湾区朋友值得去面基。",
+      "score": 66,
+      "tags": [
+        "Anthropic",
+        "行业动态"
+      ],
+      "source": "X：MiniMax (@MiniMax_AI)",
+      "time": "02:31",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp1id2op008uslnbecpvdr84",
+      "title": "Replit推出并行代理 支持10个代理同时运行",
+      "link": "https://x.com/Replit/status/2053891504989753817",
+      "summary": "认识Replit并行代理\n\n通过并行运行多达10个代理来加速构建\n\n每个代理都拥有您应用的独立副本\n它们在各自的计算机上工作\n然后以代理方式合并工作成果",
+      "reason": "Replit 把并行 agent 做进 IDE，一次跑 10 个各干各的再自动合并，这比 Copilot 那种逐行补全激进得多，开发者可以试试能不能真的提速。",
+      "score": 68,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "编码"
+      ],
+      "source": "X：Replit (@Replit)",
+      "time": "02:01",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp1iaef10089slnbsbubwpcr",
+      "title": "智能体执行能力强但优化用户立场不足",
+      "link": "https://x.com/MSFTResearch/status/2053890478165147693",
+      "summary": "通过SocialReasoning Bench测试发现，各模型呈现稳定模式——智能体能够胜任执行任务，但即便在明确要求优化用户利益的指令下，仍无法持续改善用户处境。https://msft.it/6011vPOLF",
+      "reason": "微软发现智能体存在一个令人不安的模式，能执行任务却不会主动优化用户利益，这对埋头做 Agent 的团队是个警钟，能力不等于利他。",
+      "score": 69,
+      "tags": [
+        "Agent",
+        "Microsoft",
+        "安全/对齐",
+        "论文/研究"
+      ],
+      "source": "X：Microsoft Research (@MSFTResearch)",
+      "time": "01:59",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp1i2p4v0ybtsllhnq78k4vo",
+      "title": "用户展示PixVerse生成的高端时尚网格图像",
+      "link": "https://x.com/PixVerse_/status/2053890377967620257",
+      "summary": "用户通过引用推文展示了由GPT Image 2在PixVerse平台上生成的一组高端时尚编辑图像。该图像采用2行4列的网格布局，包含8个独立面板。每个面板均以不同鲜艳纯色或渐变背景呈现一位身着现代街头服饰的年轻男模特，搭配滑板、吉他等道具，并采用简洁的工作室布景。图像整体追求商业广告摄影风格，具有奢侈品品牌广告的美学质感，强调柔和灯光、清晰阴影、逼真皮肤和电影级质感，且不含任何文字或标识。",
+      "reason": "PixVerse官方分享的这个 GPT Image 2 prompt 模板，一键生成高级时尚拼贴广告图，排版、色彩、构图都给到位了，做电商和社媒素材的可以直接抄作业。",
+      "score": 70,
+      "tags": [
+        "OpenAI",
+        "图像生成",
+        "教程/实践"
+      ],
+      "source": "X：PixVerse (@PixVerse_)",
+      "time": "01:53",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp1hfky60y79sllhswhg8jju",
+      "title": "个人智能助手定制专属旅行计划",
+      "link": "https://x.com/GeminiApp/status/2053889747752190393",
+      "summary": "Personal Intelligence 可帮助您打造完全个性化的旅行行程。\n\n它通过关联您 @Gmail、@GooglePhotos、@Google 搜索和 @YouTube 历史记录中的信息点来节省时间。\n\n您可随时选择要连接的应用程序并管理个性化设置 🧵",
+      "reason": "Google把AI整合个人数据的战场从Gemini单体能力拉到了跨服务串联，旅行规划只是个演示，关键是「个性化智能」这块拼图开始成型，所有依赖用户数据的应用都该看一眼这个方向。",
+      "score": 63,
+      "tags": [
+        "Google",
+        "产品更新",
+        "搜索"
+      ],
+      "source": "X：Gemini (@GeminiApp)",
+      "time": "01:35",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp1gyyur0y1psllh19l4dlbm",
+      "title": "Anthropic在AWS上正式推出Claude平台",
+      "link": "https://claude.com/blog/claude-platform-on-aws",
+      "summary": "Anthropic公司正式在AWS上推出Claude平台，为AWS客户提供了通过其现有身份验证、账单及承诺消费抵扣使用完整Claude功能的新途径。该平台首次将全套Claude API功能引入AWS生态，新功能与原生API同日上线。平台包含Claude托管智能体、代码执行、文件API等多项核心功能，并支持最新模型。与Amazon Bedrock上的服务不同，此平台由Anthropic直接运营，数据在AWS边界外处理，适合需要完整平台体验的企业客户。服务将在多数AWS商业区域提供。",
+      "reason": "Anthropic 第一次把完整 Claude 平台功能全量搬到 AWS 上，用 AWS 账号就能直接拿原生 API 最新特性，对于 AWS 生态里的开发者是个省心的一站式选择，不用再纠结该走 Bedrock 还是原生。",
+      "score": 70,
+      "tags": [
+        "Anthropic",
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "Claude：Blog（网页）",
+      "time": "01:22",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp1faxzp0xq5sllh4sscxyac",
+      "title": "菲尔兹奖得主亲测 ChatGPT 5.5 Pro：17 分钟出论文级成果，替学生拉响红色警报",
+      "link": "https://www.ithome.com/0/949/032.htm",
+      "summary": "菲尔兹奖得主 Timothy Gowers 测试 ChatGPT 5.5 Pro，AI 在 17 分钟内独立解决了一个加法数论公开难题，产出了博士论文级别的成果。整个过程无需数学指导，仅通过简单提示完成。Gowers 警告，若 AI 数学能力按此速度发展，将很快对数学研究领域构成危机，尤其冲击博士生培养。他呼吁数学系紧急应对，帮助学生寻找新出路。另一位菲尔兹奖得主陶哲轩则指出，人类数学家在 AI 时代的核心价值在于“消化”和深入理解证明。",
+      "reason": "Gowers用GPT-5.5 Pro独立完成了够博士论文的数学成果，这不是AI辅助而是AI主导。两位菲尔兹奖得主同时拉响警报，对正在读博的你来说，这比任何论文都更有冲击力。",
+      "score": 72,
+      "tags": [
+        "OpenAI",
+        "大佬观点",
+        "推理"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "00:35",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp1f12hl0xmisllhm4h8y2ul",
+      "title": "谷歌DeepMind与Coursera推出“Gemini for Developers”开发者专项课程",
+      "link": "https://x.com/googleaidevs/status/2053868609747746897",
+      "summary": "谷歌DeepMind与Coursera合作推出的“Gemini for Developers”专项课程现已开放注册。该课程旨在指导开发者利用Gemini模型构建可用于生产环境的AI解决方案。其核心涵盖三大模块：“推理与行动”使AI应用能推理并执行复杂任务；“连接与自动化”通过函数调用将Gemini与现实世界工具集成；“规模化与信心”则专注于构建、测试和部署可扩展的AI系统。课程强调超越单纯文本生成，实现实际任务的自动化与系统集成，助力开发者快速上手。",
+      "reason": "Google DeepMind 官方出品的 Gemini 开发课程，从推理到工具调用再到底层部署，对想跳坑的真实开发者比看十篇评测都管用。",
+      "score": 60,
+      "tags": [
+        "Agent",
+        "DeepMind",
+        "Google",
+        "MCP/工具调用",
+        "推理",
+        "教程/实践"
+      ],
+      "source": "X：Google AI for Developers (@googleaidevs)",
+      "time": "00:27",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp1e405f0xg6sllhvgli5ewp",
+      "title": "Anthropic开源金融AI全栈模板，定义行业落地新标准",
+      "link": "https://x.com/frxiaobei/status/2053861985008431398",
+      "summary": "Anthropic在GitHub开源了金融服务行业AI解决方案完整模板库，包含10个端到端智能体、7个垂直行业插件及11家主流金融数据商的MCP连接器，覆盖投研、投行、风控等核心工作流。该库提供了从个人插件到企业API的部署方式，支持集成至Microsoft 365及私有云。此举为金融AI落地提供了开箱即用的标准作业程序，与OpenAI的消费级路线形成鲜明对比，凸显了其深耕企业场景、通过开源构建行业生态的战略意图。",
+      "reason": "Anthropic 把金融行业 AI 落地的完整 SOP 开源了，10 个 agent 加 11 家数据商 MCP 连接器，这不是 demo，是逼迫全行业在 Claude 轨道上长，金融 AI 格局就此定型。",
+      "score": 85,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "MCP/工具调用",
+        "产品更新"
+      ],
+      "source": "X：小北 (@frxiaobei)",
+      "time": "00:02",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp1d48fi0x70sllhzwvm3aoc",
+      "title": "传奇总部“Cog House”首度公开：天才创始人Scott Wu与Cognition AI的崛起之路",
+      "link": "https://x.com/swyx/status/2053856676969890189",
+      "summary": "推文首次公开了Cognition AI总部“Cog House”的内部影像。创始人Scott Wu是美国顶尖竞技程序员，自幼展现数学天赋，曾三获国际信息学奥赛金牌。2023年11月，他在母亲去世与Sam Altman被OpenAI解雇的同日创立Cognition，并预见到AI将发展为全天候工作的智能体。公司推出的AI软件工程师Devin虽初期表现不佳，但上线18个月内已实现4.45亿美元年化营收，客户包括美国陆军、高盛和梅赛德斯-奔驰，公司估值约250亿美元。Wu认为自己的使命是“教AI编程”。",
+      "reason": "Scott Wu 的专访很多，但这篇首次放出 Cog House 内部照片，并且聊到他母亲去世后创立 Cognition 的心路。看了 Devin 从被群嘲到年入 4.45 亿，你会觉得编程 agent 的终局比想象更激进。",
+      "score": 72,
+      "tags": [
+        "Agent",
+        "大佬观点"
+      ],
+      "source": "X：swyx (@swyx)",
+      "time": "23:34",
+      "date": "5月11日"
+    },
+    {
+      "id": "cmp1czbx80x58sllhal8qjb7z",
+      "title": "MiniMax组建“10x团队”，邀请领域专家共推AI跨越式发展",
+      "link": "https://x.com/MiniMax_AI/status/2053860184532066737",
+      "summary": "MiniMax宣布成立“10x团队”，旨在邀请各领域深度专家共同推动人工智能实现十倍速进步。公司认为大模型已从演示阶段发展为真实生产力设施，而将顶尖领域人才引入模型研发能显著提升能力并产生实际影响。团队寻求的是坚信AI能加速自身领域发展的专家，他们将直接参与问题定义、评估构建及工作流设计，其成果将融入MiniMax模型并贡献于推动行业发展的开源基准。MiniMax提供全球竞争力的薪酬、股权及上海、北京、香港、旧金山、伦敦等多地办公选择，通过开放合作实现“智能普及”的使命。",
+      "reason": "MiniMax 这个 10x Team 招募有点意思，不是挂名顾问，而是真下场做评估、定标准，还开源 benchmark，想推 AI 落地的实战派可以投个试试。",
+      "score": 64,
+      "tags": [
+        "开源生态",
+        "行业动态"
+      ],
+      "source": "X：MiniMax (@MiniMax_AI)",
+      "time": "23:30",
+      "date": "5月11日"
+    },
+    {
+      "id": "cmp1bq0am0wvhsllhknqoiyzs",
+      "title": "告别编写YAML：使用confingy配置机器学习系统",
+      "link": "https://runwayml.com/news/stop-writing-yaml-configuring-ml-systems-with-confingy",
+      "summary": "Runway开源了Python库confingy，旨在解决机器学习系统配置的长期痛点。该库允许开发者用纯Python代码（支持懒加载、类型检查和序列化）替代传统YAML配置文件，从而摆脱YAML作为图灵完备领域特定语言所带来的维护困境。confingy无需重构现有代码，即可满足跟踪构造函数参数、避免实例化昂贵对象（如大语言模型）等核心需求，有效改善了因复杂YAML配置导致的无法跳转定义、类型提示失效和重构困难等开发体验问题。",
+      "reason": "Runway把自家ML训练的YAML坑填平了，开源了confingy。如果你还在用YAML管实验参数，这可能是今年最该装的pip包。",
+      "score": 68,
+      "tags": [
+        "开源/仓库",
+        "部署/工程"
+      ],
+      "source": "Runway：News（网页）",
+      "time": "22:54",
+      "date": "5月11日"
+    },
+    {
+      "id": "cmp1bhrzv0wslsllhpg9nr9mr",
+      "title": "兄弟们！这套结构，这个图理解后。GPT-Image-2 生图也就算是入门了吧。",
+      "link": "https://x.com/berryxia/status/2053842082603937926",
+      "summary": "推文介绍了一套提升AI生图质量的结构化提示词框架。其核心是“结构越清晰，输出质量越好”。框架将提示系统分解为几个关键模块：首先定义画幅与用途；其次明确主题与核心主体的位置、占比及情绪价值；接着通过视觉隐喻用具体元素象征抽象概念；然后选择如Apple风格等特定画面风格并强调干净、克制等视觉要求；最后规划包含主副标题、英文短句和关键词的文字系统，并列出应避免的限制元素。",
+      "reason": "Berry 把 GPT Image 2 的生成逻辑拆成画幅、主体、隐喻、风格、文字五层的结构化 prompt，直接套用就能出高级感视觉图，做海报和 PPT 的人可以立刻抄作业。",
+      "score": 73,
+      "tags": [
+        "图像生成",
+        "教程/实践"
+      ],
+      "source": "X：Berry Xia (@berryxia)",
+      "time": "22:48",
+      "date": "5月11日"
+    },
+    {
+      "id": "cmp1au3q20wnnsllhp04p0roh",
+      "title": "帕累托代码以市场需求重塑模型选择",
+      "link": "https://x.com/OpenRouter/status/2053843701261025290",
+      "summary": "Pareto Code 是一种利用真实市场需求观察帕累托前沿的新方法\n\nDeepSeek V4 Pro 占据首位，其次是 GPT 5.4 Mini 和 Gemini 3.1 Pro https://openrouter.ai/openrouter/pareto-code",
+      "reason": "OpenRouter 这个实验性路由把模型选型从靠直觉变成了实时市场驱动的自动化决策，对预算敏感又看重编码质量的项目来说，是个值得一试的免费工具。",
+      "score": 76,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "编码"
+      ],
+      "source": "X：OpenRouter (@OpenRouter)",
+      "time": "22:30",
+      "date": "5月11日"
+    },
+    {
+      "id": "cmp19rigb0wflsllhe7kfkn8e",
+      "title": "AntLingAGI发布万亿参数模型Ring-2.6-1T",
+      "link": "https://x.com/OpenRouter/status/2053834087023133025",
+      "summary": "AntLingAGI发布了其万亿参数旗舰“思考模型”Ring-2.6-1T，该模型在5月15日前可通过OpenRouter免费使用。其核心特性包括可调节的思考强度，能动态平衡认知深度、token成本和执行速度；专为智能体优化，适用于高频工作流，提供快速的多步执行和工具调用；并具备深度思考能力，以应对严密的数学逻辑和科学研究任务。模型旨在满足实际生产环境中复杂任务的需求。",
+      "reason": "万亿参数的思维模型免费到5月15日，可调思考力度的设计很接地气，做agent的可以趁窗口压测一下，看看它能不能扛住真实生产环境。",
+      "score": 69,
+      "tags": [
+        "Agent",
+        "推理",
+        "模型发布"
+      ],
+      "source": "X：OpenRouter (@OpenRouter)",
+      "time": "22:00",
+      "date": "5月11日"
+    },
+    {
+      "id": "cmp18qjt40w66sllh0j926j5m",
+      "title": "AI工具批量生成知识产权申请材料引关注",
+      "link": "https://x.com/frxiaobei/status/2053827716605169804",
+      "summary": "知识产权全面沦陷。\n\n发明专利生成 skill\nhttps://github.com/handsomestWei/patent-disclosure-skill\n\n软著生成 skill\nhttps://github.com/Fokkyp/SoftwareCopyright-Skill\n\n设计专利/实用新型更容易，claude desgin/ image2",
+      "reason": "发明和软著生成 skill 直接把知识产权的门槛打到地板，虽然质量可能粗糙，但这套自动化流水线会让审批系统面临海量申请，值得关注。",
+      "score": 75,
+      "tags": [
+        "开源/仓库",
+        "开源生态"
+      ],
+      "source": "X：小北 (@frxiaobei)",
+      "time": "21:31",
+      "date": "5月11日"
+    },
+    {
+      "id": "cmp1810fy0w14sllhclq644mh",
+      "title": "OpenAI 推出 DeployCo 以协助企业围绕智能构建业务",
+      "link": "https://openai.com/index/openai-launches-the-deployment-company",
+      "summary": "OpenAI 正式推出全新企业部署公司 DeployCo，旨在帮助各类组织将前沿人工智能技术投入实际生产，并转化为可衡量的商业影响。该举措标志着 OpenAI 进一步深入企业服务领域，专注于解决 AI 模型从测试到规模化部署的落地挑战，助力企业通过定制化部署方案提升运营效率与业务成果。",
+      "reason": "OpenAI 把部署单独拆成一家公司，说明企业落地不再是副业，而是和模型研发并列的支柱，做 toB 生意的同行可以重新想想自己的定位了。",
+      "score": 78,
+      "tags": [
+        "OpenAI",
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "21:11",
+      "date": "5月11日"
+    },
+    {
+      "id": "cmp179vil0vtisllha5bmj0ga",
+      "title": "3.3万星AI论文学习库，收录精选视频教程",
+      "link": "https://x.com/vista8/status/2053816596762968128",
+      "summary": "一个在GitHub上获得3.3万星标的AI论文学习资源库，作者系统性地收集和整理了高质量的AI学习视频。资源主要来自YouTube和Bilibili平台，例如收录了李沐的论文精讲系列。所有内容已按时间和主题进行了详细分类，便于用户系统学习和收藏。该库旨在为学习者提供一个结构化的视频学习路径。",
+      "reason": "这个仓库3.3万星不是没道理，它把李沐的论文精讲和YouTube/B站相关视频按时间线梳理好了，想做paper reading的可以直接当索引用，比自己搜高效得多。",
+      "score": 71,
+      "tags": [
+        "开源生态",
+        "教程/实践"
+      ],
+      "source": "X：Vista (@vista8)",
+      "time": "20:50",
+      "date": "5月11日"
+    },
+    {
+      "id": "cmp1529g10vbgsllhevc0s5ek",
+      "title": "小块有大智慧？这下真成真了！",
+      "link": "https://x.com/berryxia/status/2053794010582683759",
+      "summary": "一项新研究证明，一个通过强化学习训练的7B语言模型能够有效指挥GPT-5、Claude Sonnet 4和Gemini 2.5 Pro等前沿大模型。该模型通过编写自然语言子任务、分配给不同大模型执行，并精确指定上下文信息，在GPQA Diamond、LiveCodeBench和AIME25等硬核基准测试中，其性能全面超越了单个前沿模型。该系统平均每个问题仅需调用约三次大模型，比手动设计的多代理流程更高效。该工作提供了关键证据，表明目前商业AI产品中依赖人工的提示工程和流程设计，完全可以仅通过奖励信号进行端到端学习。这揭示了AI发展的新方向：智能的差距可能不在于模型规模，而在于协调与指挥的能力。",
+      "reason": "这篇论文证明了手调 prompt 编排可以被 RL 端到端取代，7B 模型指挥 GPT-5 反而更强，对做 multi-agent 产品的人来说是架构层面的降维打击。",
+      "score": 72,
+      "tags": [
+        "Agent",
+        "arXiv",
+        "MCP/工具调用",
+        "推理",
+        "论文/研究"
+      ],
+      "source": "X：Berry Xia (@berryxia)",
+      "time": "19:48",
+      "date": "5月11日"
+    },
+    {
+      "id": "cmp12kiy60ususllh30fsxow3",
+      "title": "SenseNova U1图像生成模型登陆ComfyUI平台",
+      "link": "https://x.com/SenseTime_AI/status/2053782644492525847",
+      "summary": "SenseNova U1图像生成模型现已在ComfyUI上可运行，并获得包括REBEL AI在内的评测者高度认可。REBEL AI发布的实践教程展示了该模型的部署工作流，并对其图像生成能力进行了真实场景测试。模型支持8步快速推理，生成速度极快，应用场景涵盖人像、超现实艺术、文字标志和生物设计等。相关资源已在Hugging Face、GitHub和Discord平台开放。",
+      "reason": "商汤把新模型U1的ComfyUI部署流程完整放出，还有实测视频，想在自己机器上跑国产图像模型的开发者可以直接抄作业了。",
+      "score": 72,
+      "tags": [
+        "GitHub",
+        "Hugging Face",
+        "图像生成",
+        "模型发布",
+        "部署/工程"
+      ],
+      "source": "X：商汤 SenseTime (@SenseTime_AI)",
+      "time": "18:39",
+      "date": "5月11日"
+    },
+    {
+      "id": "cmp10v66r0ud4sllhnchvnjbw",
+      "title": "腾讯混元Hy3预览版发布，专注复杂智能体任务",
+      "link": "https://x.com/TencentHunyuan/status/2053771684482851255",
+      "summary": "腾讯混元Hy3预览版已开放早期体验，被描述为该系列最强模型。其核心设计面向现实世界有效性，而非单纯追求基准测试分数。模型具备处理复杂智能体任务的能力，采用256K上下文长度，并融合了快慢思维机制的混合专家架构。该模型基于重建的预训练和强化学习基础设施构建，旨在实现大规模应用下的高成本效益。",
+      "reason": "腾讯混元Hy3 preview强调真实世界有效性而非跑分，256K上下文加快慢思考MoE架构，做agent任务的开发者值得留意它怎么处理长链条推理。",
+      "score": 63,
+      "tags": [
+        "Agent",
+        "推理",
+        "模型发布"
+      ],
+      "source": "X：腾讯混元 (@TencentHunyuan)",
+      "time": "17:51",
+      "date": "5月11日"
+    },
+    {
+      "id": "cmp0xoe3c0tlesllh7pfoz378",
+      "title": "高效AI工作流：结合ChatGPT与PixVerse精准生成品牌香水广告",
+      "link": "https://x.com/PixVerse_/status/2053745705618170030",
+      "summary": "用户分享了一个高效AI视频创作流程。他首先利用ChatGPT，基于预设镜头描述，生成了一个结构严谨、支持多镜头序列的详细视频提示词。该提示词严格指定了品牌元素（如瓶身、包装、Logo及阿拉伯文/英文文本）需通过参考附件精确还原，并描述了超奢华、电影感的视觉风格。随后，他将此提示词输入PixVerse平台，借助其高速生成优势，快速产出了1080p分辨率的视频。此工作流有效结合了GPT的精准指令生成能力与PixVerse的快速视频渲染能力，实现了对品牌视觉的严格把控和高效率内容产出。",
+      "reason": "这条prompt把一段15秒的香水广告拆成了分镜剧本，镜头语言和品牌要求都写得很细，做视频广告的可以直接套用，比大多数模板都实用。",
+      "score": 67,
+      "tags": [
+        "图像生成",
+        "教程/实践",
+        "视频"
+      ],
+      "source": "X：PixVerse (@PixVerse_)",
+      "time": "16:22",
+      "date": "5月11日"
+    }
+  ]
+}

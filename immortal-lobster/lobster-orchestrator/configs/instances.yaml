@@ -1,0 +1,45 @@
+# Lobster Orchestrator 配置文件
+# 不死龙虾编排器 - 手机运行 50 个 PicoClaw 实例
+#
+# ⚠️ 重要：workspace 使用相对路径，避免权限问题！
+# 错误：/data/workspaces/ (绝对路径，需要 root)
+# 正确：data/workspaces/ (相对路径，无需 root)
+
+instances:
+  # 示例实例 1
+  - id: "lobster-001"
+    name: "Sandbot #1"
+    workspace: "data/workspaces/lobster-001"
+    port: 18800
+    model: "qwen3.5-plus"
+    api_key_env: "BAILOU_API_KEY_1"
+    memory_limit_mb: 10
+    auto_start: true
+
+  # 示例实例 2
+  - id: "lobster-002"
+    name: "Sandbot #2"
+    workspace: "data/workspaces/lobster-002"
+    port: 18801
+    model: "qwen3.5-plus"
+    api_key_env: "BAILOU_API_KEY_2"
+    memory_limit_mb: 10
+    auto_start: true
+
+  # 复制更多实例... (最多 50 个)
+  # - id: "lobster-003"
+  #   name: "Sandbot #3"
+  #   workspace: "data/workspaces/lobster-003"
+  #   port: 18792
+  #   model: "qwen3.5-plus"
+  #   api_key_env: "BAILOU_API_KEY_3"
+  #   memory_limit_mb: 10
+  #   auto_start: true
+
+global:
+  orchestrator_port: 8080
+  health_check_interval_s: 30
+  log_level: "info"
+  max_instances: 50
+  # PicoClaw 路径 (可选，默认 /usr/local/bin/picoclaw)
+  picoclaw_path: "/home/node/.local/bin/picoclaw"

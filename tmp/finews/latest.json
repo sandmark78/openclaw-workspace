@@ -1,0 +1,117 @@
+{
+  "source": "FiNews 美股日报",
+  "url": "https://finews.elsetech.app/",
+  "scraped_at": "2026-06-28T15:35:15.950196+00:00",
+  "date": "2026-06-26",
+  "summary": [
+    "美股主要指数盘后偏弱：标普 500 跌 0.05%，纳指跌 0.24%，道指跌 0.09%，小盘罗素 2000 微涨 0.07%；VIX 回落 2.54%，显示恐慌有所降温但风险偏好仍分化。",
+    "科技与 AI 链条承压，芯片股、AI 融资叙事和大型科技股拖累纳指，市场从高估值成长板块转向防御与医疗保健。",
+    "宏观焦点集中在通胀、利率与美联储沟通：通胀压力仍高，部分官员预计今年可能加息，债券收益率在强硬表态下回落。",
+    "地缘风险仍是市场变量：美国与伊朗停火争议、霍尔木兹与航运保险风险、以色列和黎巴嫩框架协议共同影响油价和风险资产定价。",
+    "贸易政策风险升温，特朗普威胁对征收数字服务税的国家加征高额关税，可能重新冲击跨境科技与欧洲相关敞口。",
+    "公司层面，礼来和医疗保健股表现强势，苹果、微软、亚马逊等部分权重股上涨；英伟达、Alphabet、博通等 AI 相关股票承压。",
+    "行业方面，存储芯片短缺推高消费电子成本，AI 资本开支、OpenAI 上市节奏和企业 AI 预算效率成为投资者重新评估科技估值的核心问题。"
+  ],
+  "news": [
+    {
+      "title": "美股收低，科技股抛售与伊朗停火争议压制风险偏好",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/equity-markets-fall-trump-says-204521099.html?.tsrc=rss"
+    },
+    {
+      "title": "美国打击伊朗目标，霍尔木兹局势再度牵动能源与航运风险",
+      "url": "https://www.cnbc.com/2026/06/26/us-strikes-iran-strait-of-hormuz-ceasefire.html"
+    },
+    {
+      "title": "油价回到战前水平，但伊朗战争仍是全球经济实时温度计",
+      "url": "https://www.nytimes.com/2026/06/26/business/energy-environment/iran-war-oil-prices.html"
+    },
+    {
+      "title": "美联储强硬信号升温，通胀与加息预期成为市场核心变量",
+      "url": "https://www.marketwatch.com/story/feds-kashkari-projects-one-interest-rate-hike-this-year-heres-what-changed-his-mind-3a6b428c?mod=mw_rss_topstories"
+    },
+    {
+      "title": "特朗普威胁对征收数字服务税国家加征 100%关税",
+      "url": "https://www.cnbc.com/2026/06/26/trump-tariff-trade-tech-tax.html"
+    },
+    {
+      "title": "Oracle 创互联网泡沫以来最差单周表现，AI 融资担忧升温",
+      "url": "https://www.cnbc.com/2026/06/26/oracle-stock-ends-worst-week-since-2001-as-investors-dwell-on-finances.html"
+    },
+    {
+      "title": "Micron 下跌并结束剧烈一周，存储芯片成本压力扩散至消费电子",
+      "url": "https://www.cnbc.com/2026/06/26/micron-stock-earnings-tech-selloff-ai.html"
+    },
+    {
+      "title": "OpenAI 上市节奏未定，企业 AI 支出转向效率优先",
+      "url": "https://www.cnbc.com/2026/06/26/open-ai-ipo-timeline-investors.html"
+    },
+    {
+      "title": "OpenAI 应美国政府要求限制新模型接触范围",
+      "url": "https://www.cnbc.com/2026/06/26/openai-limits-new-ai-models-to-trusted-partners-request-us-government.html"
+    },
+    {
+      "title": "医疗保健股成为资金避风港，礼来等个股创出新高",
+      "url": "https://www.marketwatch.com/story/healthcare-stocks-have-become-a-haven-for-investors-ditching-tech-81c544d0?mod=mw_rss_topstories"
+    },
+    {
+      "title": "ON Semiconductor 收购 Synaptics 押注实体 AI，股价遭遇重挫",
+      "url": "https://www.cnbc.com/2026/06/26/on-semi-stock-synaptics-ceo-hassane-el-khoury.html"
+    },
+    {
+      "title": "英特尔芯片业务出现复苏迹象，但全面转型仍需时间",
+      "url": "https://www.nytimes.com/2026/06/26/technology/intel-turnaround.html"
+    },
+    {
+      "title": "大众汽车据报计划大幅裁员并关闭德国工厂",
+      "url": "https://www.cnbc.com/2026/06/26/volkswagen-vw-job-cuts-autos-germany.html"
+    },
+    {
+      "title": "欧洲特斯拉销量回升，降价与低息贷款抵消马斯克形象压力",
+      "url": "https://www.nytimes.com/2026/06/26/business/tesla-elon-musk-europe.html"
+    },
+    {
+      "title": "SpaceX 上市后波动加剧，新债券向 AI 狂热发出警示",
+      "url": "https://www.marketwatch.com/story/spacexs-new-bonds-are-flashing-a-warning-sign-as-investors-pump-the-brakes-on-ai-frenzy-752ad44b?mod=mw_rss_topstories"
+    },
+    {
+      "title": "美国消费者信心改善，能源成本回落提供支撑",
+      "url": "https://www.nytimes.com/2026/06/26/business/economy/consumer-sentiment.html"
+    },
+    {
+      "title": "耶伦之外的政策焦点转向住房法案，住房可负担性方案重回立法轨道",
+      "url": "https://www.marketwatch.com/story/the-housing-bills-back-on-track-to-becoming-law-heres-what-it-does-for-affordability-14f4c7ba?mod=mw_rss_topstories"
+    },
+    {
+      "title": "以色列与黎巴嫩达成框架协议，地区降温仍取决于真主党态度",
+      "url": "https://www.cnbc.com/2026/06/26/israel-lebanon-hezbollah-ceasefire-rubio.html"
+    },
+    {
+      "title": "Uber 收紧司机背景审查，回应安全与合规压力",
+      "url": "https://www.nytimes.com/2026/06/26/business/uber-background-checks.html"
+    },
+    {
+      "title": "Saks 走出破产并更名，聚焦高端百货业务",
+      "url": "https://www.nytimes.com/2026/06/26/business/saks-bankruptcy-exemplar-luxury-group.html"
+    },
+    {
+      "title": "预测市场平台增长提速，Polymarket 与 Kalshi 借世界杯扩大影响力",
+      "url": "https://www.cnbc.com/2026/06/26/polymarket-annualized-revenue-1-billion-us-exchange-.html"
+    },
+    {
+      "title": "Nasdaq 收盘交叉在罗素指数再平衡日创交易量纪录",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/record-trading-volume-nasdaq-closing-203600825.html?.tsrc=rss"
+    },
+    {
+      "title": "Jeremy Grantham 警告美股估值极端，并继续看空比特币",
+      "url": "https://www.cnbc.com/2026/06/26/jeremy-grantham-says-this-is-the-most-expensive-market-in-american-history.html"
+    },
+    {
+      "title": "TNL Mediagene 收到纳斯达克退市裁定并计划申请听证",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tnl-mediagene-receives-nasdaq-delisting-210000448.html?.tsrc=rss"
+    },
+    {
+      "title": "2025 年冒充类诈骗继续领跑 FTC 欺诈报告",
+      "url": "https://www.cnbc.com/2026/06/26/imposter-scams-led-fraud-reports-to-ftc-in-2025-3point5-billion-losses.html"
+    }
+  ]
+}

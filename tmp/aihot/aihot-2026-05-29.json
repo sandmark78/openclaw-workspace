@@ -1,0 +1,647 @@
+{
+  "date": "2026-05-29",
+  "scraped_at": "2026-05-29T05:00:18.477440+00:00",
+  "total_items": 40,
+  "items": [
+    {
+      "id": "cmpqfgdvc04itslnodti0cguk",
+      "title": "Adam’s Law：用高频词写Prompt效果更好",
+      "link": "https://x.com/berryxia/status/2060212428584202428",
+      "summary": "FaceMind团队用100种语言和四大核心任务实验发现，在语义不变的前提下，使用预训练语料中出现频率更高的词汇（高频表达）来撰写提示词或进行微调，可以显著提升大语言模型的表现。这被总结为Adam’s Law（文本频率定律），它为数据工程补上了“频率”这一新维度。原理在于高频表达能让模型在它最熟悉的概率空间内工作，从而优化输出质量。",
+      "reason": "别再给AI拽高级词汇了，FaceMind团队用实验证明，高频表达能让模型表现更好。这个发现简单反直觉，但能立刻改变你写Prompt的习惯，下次先想想这话模型见过几次。",
+      "score": 75,
+      "tags": [
+        "教程/实践",
+        "数据/训练"
+      ],
+      "source": "X：Berry Xia (@berryxia)",
+      "time": "12:34",
+      "date": "5月29日"
+    },
+    {
+      "id": "cmpqd5x5k03xvslno4auivqbj",
+      "title": "WorldMemArena：通过行动-世界交互循环评估多模态智能体记忆",
+      "link": "https://arxiv.org/abs/2605.29341",
+      "summary": "针对现有基准无法精确诊断多模态智能体记忆在动态环境中的具体失败阶段，研究提出了“行动-世界交互循环”记忆模型，并构建了WorldMemArena基准。该基准包含400个多会话多模态任务，涵盖“终身进化”和“智能体执行”两类场景，支持对记忆写入、维护、检索和使用的阶段级评估。研究首次对长上下文、RAG等手工设计系统与基于框架的记忆智能体进行直接比较，发现记忆写入与存储质量的提升不直接带来性能改善，且多模态记忆在利用视觉证据及跨领域稳定性上仍存在挑战。",
+      "reason": "首个能定位多模态 Agent 记忆“写、维、取、用”哪一步出问题的基准，头对头比较长上下文、RAG 和自管理记忆，结论是写得好未必用得上，做 Agent 的值得认真看。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "多模态",
+        "论文/研究",
+        "评测/基准"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "11:29",
+      "date": "5月29日"
+    },
+    {
+      "id": "cmpqbiyn103k8slnohvxcc9y7",
+      "title": "15秒动画IP预告片制作全流程分享",
+      "link": "https://x.com/PixVerse_/status/2060184048920826340",
+      "summary": "我们制作了一个15秒的动画IP预告片——从角色设定到最终视频。认识一下MILO和BUMBLE：地下邮政骑手\n转发+关注+回复=我们会私信发送工作流程和提示词",
+      "reason": "PixVerse 这条动画演示把‘角色设定到成片’的链条跑通了，虽然大概率还是精选过的案例，但对想做短视频 IP 的人，流程本身就值得抄一份。",
+      "score": 65,
+      "tags": [
+        "多模态",
+        "教程/实践",
+        "视频"
+      ],
+      "source": "X：PixVerse (@PixVerse_)",
+      "time": "10:44",
+      "date": "5月29日"
+    },
+    {
+      "id": "cmpq988q102xdslnoe0k3fp1h",
+      "title": "Cursor 团队发布《开发者习惯报告》",
+      "link": "https://x.com/shao__meng/status/2060167182777249886",
+      "summary": "报告显示，AI正深刻改变开发工作形态。开发者周均代码产出从约3.6K行增至8.6K行，更大规模的PR（千行以上）占比上升。AI智能体在单次会话中的工具调用数增加约30%，正在处理更复杂的任务。同时，被接受的AI代码在60分钟后的留存率从约76%提升至约81%，表明更多AI生成内容进入了实际代码库。这些趋势共同指向AI已从个人辅助工具，演进为推动开发向更大规模任务与自动化基础设施发展的核心力量。",
+      "reason": "Cursor 这份报告用真实数据揭示了 AI 编程的现状，代码量暴涨、Agent 变强、留存率提升，对开发者来说比看论文更有参考价值。",
+      "score": 75,
+      "tags": [
+        "Agent",
+        "现象/趋势",
+        "编码"
+      ],
+      "source": "X：邵猛 (@shao__meng)",
+      "time": "09:39",
+      "date": "5月29日"
+    },
+    {
+      "id": "cmpq8kjw502qrslnouugetmfh",
+      "title": "三星电子业内率先出样 HBM4E 内存",
+      "link": "https://www.ithome.com/0/956/851.htm",
+      "summary": "",
+      "reason": "三星的HBM4E把单堆栈带宽推到3.6TB/s，能效再提16%，对LLM训练是实打实的硬件升级，做AI基础设施和模型训练的可以关注后续量产时间。",
+      "score": 71,
+      "tags": [
+        "数据/训练",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "09:21",
+      "date": "5月29日"
+    },
+    {
+      "id": "cmpq8kjw502qfslno2639yx6x",
+      "title": "特斯拉 FSD 安全性宣称遭质疑",
+      "link": "https://www.ithome.com/0/956/864.htm",
+      "summary": "特斯拉声称其全自动驾驶软件（FSD）安全性最高可达人类的10倍，但路透社调查发现此数据经不起推敲。参与训练FSD的员工表示该技术远未成熟，其安全演示高度依赖人工。统计方法被11位交通安全研究人员指出存在缺陷，例如与更广泛的联邦事故数据进行不恰当比较。相比之下，竞争对手Waymo采用了更严谨的统计方法。目前，特斯拉FSD仍需驾驶员主动监督，安全部署可能还需数年。",
+      "reason": "路透社的调查锤得很实，特斯拉FSD的「10倍安全」根本经不起对比，连自家数据标注员都不敢坐。这是今年自动驾驶行业最响的一记警钟。",
+      "score": 71,
+      "tags": [
+        "安全/对齐",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "09:21",
+      "date": "5月29日"
+    },
+    {
+      "id": "cmpq757a802d8slnouzkrvkv1",
+      "title": "llm-anthropic 0.25.1",
+      "link": "https://simonwillison.net/2026/May/28/llm-anthropic",
+      "summary": "llm-anthropic 发布 0.25.1 版本。主要更新包括：新增 Claude Opus 4.8 (`claude-opus-4.8`) 模型；为账户启用了该功能的组织新增了 `-o fast 1` 选项以使用快速模式；调整了各模型的默认 `max_tokens` 值，使其直接使用模型的最大输出长度，而非固定的 8,192。",
+      "reason": "Simon 的 llm 插件第一时间支持了 Claude Opus 4.8，如果你用他的 CLI 工具切换模型，这次更新能让你马上用到新模型和 fast mode。",
+      "score": 72,
+      "tags": [
+        "Anthropic",
+        "GitHub",
+        "产品更新",
+        "开源/仓库"
+      ],
+      "source": "Simon Willison 博客",
+      "time": "08:41",
+      "date": "5月29日"
+    },
+    {
+      "id": "cmpq60e9m022kslnocucomhik",
+      "title": "阶跃星辰 Step 3.7 Flash 发布，聚焦智能体效率",
+      "link": "https://x.com/StepFun_ai/status/2060149124117475791",
+      "summary": "阶跃星辰（Step）发布了开源大模型 Step 3.7 Flash，主打智能体（Agent）工作流的效率。该模型在 ClawEval-1.1（67.1分）和 SimpleVQA Search（79.2分）评测中排名第一。其架构为 198B 参数的 MoE，约 11B 为活跃参数，支持 256K 上下文。模型具备多模态理解能力，能处理图像、文档并生成代码或调用工具执行任务。在工具使用方面，它致力于高可靠性，τ²-bench 得分超过 98%。Step 3.7 Flash 兼容 Claude Code、MCP 协议等工具链，并支持在 Mac Studio M4 Max 等设备上本地运行。模型权重以 Apache 2.0 许可开源。",
+      "reason": "Step 3.7 Flash 把 Agent 效率卷到新高度，开源权重且能跑在 Mac 上，做智能体的可以试试。",
+      "score": 75,
+      "tags": [
+        "Agent",
+        "多模态",
+        "开源生态",
+        "推理",
+        "模型发布"
+      ],
+      "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
+      "time": "08:09",
+      "date": "5月29日"
+    },
+    {
+      "id": "cmpq4tkpq01pbslnomanmo8i5",
+      "title": "别只看基准测试，要看全面表现",
+      "link": "https://x.com/OpenRouter/status/2060142412408717518",
+      "summary": "不要只依赖基准测试；要看全面情况！\n\n试试我们的新比较页面，它还能让你可视化模型性能：https://openrouter.ai/compare/openai/gpt-5.5/anthropic/claude-opus-4.7/anthropic/claude-opus-4.8",
+      "reason": "OpenRouter 这个对比页把 GPT-5.5 和 Claude Opus 4.8 的胜负判断从 benchmark 拉到实际测试，对选型的人很有用。",
+      "score": 68,
+      "tags": [
+        "产品更新",
+        "评测/基准"
+      ],
+      "source": "X：OpenRouter (@OpenRouter)",
+      "time": "07:36",
+      "date": "5月29日"
+    },
+    {
+      "id": "cmpq1pcva00zuslno6kbpd0xz",
+      "title": "萨姆·阿尔特曼和达里奥·阿莫代伊都纷纷收回了关于AI将引发就业危机的预测",
+      "link": "https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo",
+      "summary": "",
+      "reason": "Altman和Amodei同一周改口，从‘大量失业’变成‘需要适应’，风向标意义拉满。过去拿AI末日论吓人的可以歇歇了，这篇值得转给每一位焦虑的朋友。",
+      "score": 76,
+      "tags": [
+        "Anthropic",
+        "OpenAI",
+        "大佬观点",
+        "现象/趋势"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "06:09",
+      "date": "5月29日"
+    },
+    {
+      "id": "cmppzjfxo00grslno218up73l",
+      "title": "Grok Build 0.2.7 发布，新增多项功能",
+      "link": "https://x.com/xai/status/2060102590122385460",
+      "summary": "Grok Build 0.2.7 现已发布，包含 /usage、/login、跨子智能体共享终端，以及改进的图像理解功能。\n所有更新请查看 https://x.ai/build/changelog",
+      "reason": "xAI 给 Build 加了使用量查询和共享终端，开发体验向 Cursor 靠拢的一小步，如果你在重度用 Grok Build 可以看看 changelog。",
+      "score": 62,
+      "tags": [
+        "xAI",
+        "产品更新"
+      ],
+      "source": "X：xAI (@xai)",
+      "time": "05:08",
+      "date": "5月29日"
+    },
+    {
+      "id": "cmppyywnt00djslno0rujv5zz",
+      "title": "Replit Canvas：智能体设计工具发布",
+      "link": "https://x.com/Replit/status/2060097656207413613",
+      "summary": "最好的设计工作不会在聊天框里发生。你需要空间来探索想法、创建变体并进行迭代。\n认识新的 Replit Canvas。  \n你的智能体设计工具，用于构建精美的网站、应用、营销资产等。",
+      "reason": "Replit 终于在对话之外给了设计师一个能迭代的画布，把 Agent 直接塞进设计工具里，对用 AI 做 UI 的人来说比聊天框强太多了。",
+      "score": 74,
+      "tags": [
+        "Agent",
+        "产品更新"
+      ],
+      "source": "X：Replit (@Replit)",
+      "time": "04:52",
+      "date": "5月29日"
+    },
+    {
+      "id": "cmppvr37p01lgslm6udm3v6qa",
+      "title": "MiniMax M2.7 免费智能体编程限时开放",
+      "link": "https://x.com/MiniMax_AI/status/2060071852970844377",
+      "summary": "在 @OpenHandsDev 上使用 MiniMax M2.7 进行免费智能体编程？\n\n是的，请给我！限时提供 ⚡👀",
+      "reason": "MiniMax把M2.7免费接到OpenHands里跑Agent编码，而且限时，这对个人开发者是实打实的免费用机会，不妨上去跑几个任务体验下性价比。",
+      "score": 76,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "编码"
+      ],
+      "source": "X：MiniMax (@MiniMax_AI)",
+      "time": "03:22",
+      "date": "5月29日"
+    },
+    {
+      "id": "cmppv6bhy01dlslm6hh647pnl",
+      "title": "Gemini Omni向印度用户开放视频编辑功能",
+      "link": "https://x.com/GeminiApp/status/2060074415304610168",
+      "summary": "好消息！印度用户现在可以上传视频（来自相册或已保存文件），并使用Gemini Omni进行编辑和转换。快来试试，并告诉我们你的想法。",
+      "reason": "Gemini Omni 的视频编辑终于从实验室走进日常，虽然目前只对印度开放，但这一步验证了 Omni 在视频创作上的实用下限，做视频的人可以提前关注。",
+      "score": 62,
+      "tags": [
+        "Google",
+        "产品更新",
+        "多模态",
+        "视频"
+      ],
+      "source": "X：Gemini (@GeminiApp)",
+      "time": "03:06",
+      "date": "5月29日"
+    },
+    {
+      "id": "cmppuiqqt01a5slm6n7mhtwo5",
+      "title": "Apple 正努力将庞大的 Gemini 模型塞进 iPhone 以驱动新 Siri",
+      "link": "https://arstechnica.com/ai/2026/05/apple-reportedly-trying-to-distill-googles-multi-trillion-parameter-gemini-ai-to-run-on-iphone",
+      "summary": "Apple 正尝试将大型 Gemini 模型集成到 iPhone 中，以支持全新的 Siri 功能。由于模型规模庞大，本地处理可能无法完全实现，因此一个云端组件很可能是必然的选择。",
+      "reason": "苹果想把谷歌最大的模型塞进iPhone来救Siri，如果真能本地跑，那安卓的端侧AI优势就没了，但蒸馏这么大的模型到手机，技术上挑战不小。",
+      "score": 70,
+      "tags": [
+        "Google",
+        "端侧",
+        "行业动态"
+      ],
+      "source": "Ars Technica：AI（RSS）",
+      "time": "02:48",
+      "date": "5月29日"
+    },
+    {
+      "id": "cmppuejv9019eslm6zx7qtdep",
+      "title": "hexoai开源SIA框架：AI智能体实现递归自我改进",
+      "link": "https://x.com/rohanpaul_ai/status/2060063592448446778",
+      "summary": "hexoai开源了SIA（自我改进AI）框架。该框架展示了AI智能体不仅能优化其外部工作流（harness），还能通过任务反馈直接更新自身的模型权重，从而在领域知识和能力上实现自主提升，而非仅依赖人类提供的提示或工具改进。论文报告显示，SIA在LawBench基准上性能提升56.6%，在GPU kernels运行上耗时减少91.9%，在单细胞RNA去噪任务中相比基线提升502%。",
+      "reason": "不再只是给AI换提示词，SIA框架连模型自己的权重都更新了，在三个任务里分别提升了56%、502%和91%加速，开源出来会让整个Agent开发范式重新思考。",
+      "score": 75,
+      "tags": [
+        "Agent",
+        "数据/训练",
+        "论文/研究"
+      ],
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "time": "02:44",
+      "date": "5月29日"
+    },
+    {
+      "id": "cmppubmxw0190slm6mre7svcq",
+      "title": "Grok Build 0.1 on API",
+      "link": "https://x.ai/news/grok-build-0-1",
+      "summary": "xAI 的最新编码模型 Grok Build 0.1 已通过 xAI API 进入公开测试阶段。该模型专为智能体编码任务训练，支持网页开发、调试和 MCP，同时也是驱动 Grok Build CLI 的同一模型。其推理速度超过 100 tokens/秒，定价为输入 $1/m tokens，输出 $2/m tokens。除编码外，它也适用于通用智能体及工具调用场景，并可通过 OpenRouter 和 Vercel AI Gateway 获取。",
+      "reason": "xAI 把编码模型卷到了 100+ t/s 和 $2/M 输出，专攻 agentic coding，这是直接在叫板 Claude Code 和 Cursor，做开发工具的同行该重新算账了。",
+      "score": 82,
+      "tags": [
+        "xAI",
+        "模型发布",
+        "编码"
+      ],
+      "source": "xAI：News（网页）",
+      "time": "02:42",
+      "date": "5月29日"
+    },
+    {
+      "id": "cmppua8gx0183slm67cnmtqp8",
+      "title": "使用 Google Pay & Wallet Developer MCP server 加速你的集成工作流",
+      "link": "https://developers.googleblog.com/supercharge-your-integration-workflow-with-the-google-pay-wallet-developer-mcp-server",
+      "summary": "Google 推出 Google Pay & Wallet Developer MCP server，这是一款开放标准工具，旨在将 AI 开发助手和 IDE 安全连接到实时的 API 与账户上下文。开发者无需离开开发环境，即可搜索官方文档、验证 Wallet pass 定义、检查集成状态以及管理商户账户。该集成旨在通过减少上下文切换并提供实时、可靠的 AI 支持来减少开发摩擦，从而加速开发工作流。",
+      "reason": "这是 Google 为支付场景做的 MCP 服务器，把文档和账户操作直接塞进 IDE，减少上下文切换，做 Google Pay 集成的开发者可以试试看。",
+      "score": 73,
+      "tags": [
+        "Google",
+        "MCP/工具调用",
+        "产品更新"
+      ],
+      "source": "Google Developers Blog（RSS）",
+      "time": "02:41",
+      "date": "5月29日"
+    },
+    {
+      "id": "cmppu2sce013dslm6rliijffw",
+      "title": "Anthropic 完成 650 亿美元 H 轮融资，估值达 9650 亿美元",
+      "link": "https://www.anthropic.com/news/series-h",
+      "summary": "Anthropic 宣布完成由 Altimeter Capital 等领投的 650 亿美元 H 轮融资，投后估值达 9650 亿美元。公司表示其旗舰模型 Claude 的企业部署持续增长，年化收入已突破 470 亿美元。此轮融资将用于推进 AI 安全与可解释性研究、扩展算力以满足 Claude 的需求，并规模化产品与合作伙伴关系。Anthropic 近期已显著扩大计算容量，并宣布 Claude 已登陆 AWS、Google Cloud 和 Microsoft Azure 三大云平台。",
+      "reason": "65B的融资规模基本封死了其他玩家追赶的门槛，Claude的算力和研发投入将远超同行，做应用的可以放心上船了。",
+      "score": 81,
+      "tags": [
+        "Anthropic",
+        "行业动态"
+      ],
+      "source": "Anthropic：Newsroom（网页）",
+      "time": "02:35",
+      "date": "5月29日"
+    },
+    {
+      "id": "cmppsj2o500svslm6jst6o7tj",
+      "title": "四步保障AI生成应用安全",
+      "link": "https://x.com/Replit/status/2060052289155375532",
+      "summary": "如何用四步保障你的vibecoded应用安全 🔒\n\n速度若无安全加持，便是隐患。以下是使用Replit发布应用时，如何避免留下后门的方法。  \n\n🧵展开阅读 ↓",
+      "reason": "对于用 Replit vibecoding 快速出活的产品人，这是基础安全 checklist，没太多新东西但值得一看，免得部署后留后门。",
+      "score": 64,
+      "tags": [
+        "教程/实践",
+        "部署/工程"
+      ],
+      "source": "X：Replit (@Replit)",
+      "time": "01:52",
+      "date": "5月29日"
+    },
+    {
+      "id": "cmpps64fo00p9slm6g6j53psu",
+      "title": "Nano Banana Pro与Nano Banana 2正式发布",
+      "link": "https://x.com/googleaidevs/status/2060049962356916377",
+      "summary": "🍌 Nano Banana Pro [gemini-3-pro-image] 和 Nano Banana 2 [gemini-3.1-flash-image] 现已正式发布，可通过 Gemini API 投入生产使用。查看这些优秀的社区示例，了解两个模型的实际能力 🧵↓",
+      "reason": "Google 把 Gemini 图像生成能力打包进 Nano Banana 系列并正式 GA，开发者现在可以稳定调用 Pro 和 Flash 级别的生图 API，对做图像应用的团队是个实在利好。",
+      "score": 71,
+      "tags": [
+        "Google",
+        "图像生成",
+        "模型发布"
+      ],
+      "source": "X：Google AI for Developers (@googleaidevs)",
+      "time": "01:42",
+      "date": "5月29日"
+    },
+    {
+      "id": "cmpprfa7400hmslm6nclfncqk",
+      "title": "在Claude Code中引入动态工作流",
+      "link": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
+      "summary": "Claude Code 推出“动态工作流”功能，使 Claude 能端到端处理复杂任务。该功能通过动态编写脚本，在单个会话中并行运行数十到数百个子智能体来完成工作，并会在结果呈现前进行验证。它适用于跨代码库的 bug 查找、大规模迁移（如将 Bun 从 Zig 移植到 Rust）等需要多角度分析的任务。该功能现已在研究预览阶段可用，支持 Claude Code CLI、桌面端、VS Code 扩展以及 API、Amazon Bedrock、Vertex AI 等平台，面向 Max、Team 及已启用的 Enterprise 计划用户。",
+      "reason": "动态工作流第一次让 Claude Code 能独立搞定需要并行协调的大规模工程任务，Bun 从 Zig 到 Rust 只用了十一天，这对复杂代码库的维护和迁移是降维打击。",
+      "score": 78,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "产品更新",
+        "编码"
+      ],
+      "source": "Claude：Blog（网页）",
+      "time": "01:21",
+      "date": "5月29日"
+    },
+    {
+      "id": "cmppqv0si0097slm6pmeqwf45",
+      "title": "Claude Opus 4.8 发布：在编码、智能体技能与推理方面实现全面升级",
+      "link": "https://www.anthropic.com/news/claude-opus-4-8",
+      "summary": "Anthropic 发布了新一代模型 Claude Opus 4.8，作为 Opus 4.7 的升级版本，其在编码、智能体技能、推理和实用知识工作等各项基准测试中均取得进步。Claude Opus 4.8 现已可用，价格与前代相同。同步推出的新功能包括：用户可控制任务投入程度、Claude Code 新增“动态工作流”特性，以及 Opus 4.8 的 2.5 倍速模式价格降低为以往的三分之一。早期测试者反馈其在智能体任务中的判断力更可靠、工具调用更高效。该模型在 Online-Mind2Web 测评中得分 84%，超越了 Opus 4.7 和 GPT-5.5。此外，其诚实度与对齐表现也得到提升，代码错误漏检率降低了约 75%。",
+      "reason": "Opus 4.8看着是常规升级，但动态工作流让Claude Code能啃下跨十万行代码迁移这种硬骨头，快速模式降价三倍更是直接拉低了实时场景的入场券。",
+      "score": 85,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "推理",
+        "模型发布",
+        "编码"
+      ],
+      "source": "Anthropic：Newsroom（网页）",
+      "time": "01:05",
+      "date": "5月29日"
+    },
+    {
+      "id": "cmppprn04028nslvyqxgosjyn",
+      "title": "SGLang 团队与 AMD 合作，使 AMD Instinct™ MI355X GPU 的大规模 DeepSeek-R1 分离式推理在总拥有成本上具备竞争力",
+      "link": "https://www.lmsys.org/blog/2026-05-28-mori",
+      "summary": "SGLang 与 AMD 团队合作，通过一系列全栈优化，使 AMD Instinct™ MI355X GPU 在运行 DeepSeek-R1 大模型推理时实现了极具竞争力的总拥有成本。在 129 tok/s/user 的交互延迟下，其成本为每百万 token $0.169，比 NVIDIA B200（Dynamo TRT-LLM）方案低 5%，比 B200（SGLang）方案低 40%。吞吐量方面，24 块 AMD GPU 达到 2,436 tok/s/GPU，比使用 48 块 GPU 的 B200 SGLang 方案每 GPU 吞吐量高 1.25 倍。核心优化包括：MoRI 混合 FP4/FP8 量化全到全通信、MoRI-IO KV Cache 后端、两批重叠与 SDMA、ROCm 上的 Specv2 MTP 以及 CPU 流式处理优化。",
+      "reason": "AMD MI355X跑DeepSeek-R1的TCO比NVIDIA B200低5%，吞吐还高出1.25倍，这是开源框架SGLang对闭源生态的一次真实挑战，做推理部署的应该点开看看完整的全栈优化。",
+      "score": 68,
+      "tags": [
+        "推理",
+        "论文/研究",
+        "部署/工程"
+      ],
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "time": "00:34",
+      "date": "5月29日"
+    },
+    {
+      "id": "cmppppbp2028islvycnmyohzq",
+      "title": "AI智能体时代下的安全变革",
+      "link": "https://www.tomtunguz.com/jonathan-jaffe-office-hours-post-event",
+      "summary": "Lemonade的CISO Jonathan Jaffe探讨了AI智能体时代的安全新挑战。他指出，AI对攻击者和防御者同样强大，但可被利用的漏洞窗口正在缩小，因为AI能更快地生成、审查和修补代码。为此，安全团队正向工程团队转型，例如Lemonade的安全部门均由工程师组成，并构建了包含智能体的内部AI平台。同时，每个智能体（单个终端上可能运行200到10000个）都需要被赋予身份，并在操作点由策略进行更复杂的管控，这超越了当前身份与访问管理系统的能力。",
+      "reason": "Jaffe 给出的结论很提气，AI 对防御方的加成被市场严重低估了，尤其每个 Agent 必须拥有身份和策略控制这个预判，值得所有在做 Agent 架构的人看一遍。",
+      "score": 61,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "大佬观点"
+      ],
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "time": "00:33",
+      "date": "5月29日"
+    },
+    {
+      "id": "cmpppj8oq027jslvy6zrnekat",
+      "title": "OpenAI 的前沿治理框架",
+      "link": "https://openai.com/index/openai-frontier-governance-framework",
+      "summary": "OpenAI 发布了“前沿治理框架”，阐述其 AI 安全、安全与风险管理实践如何与欧盟和加州新出台的法规要求对齐。该框架旨在规范其前沿模型的开发与部署流程。",
+      "reason": "OpenAI 首次把内部安全实践打包成一个对外框架，是为了应对欧盟和加州监管。与其说是技术突破，不如说是合规信号，所有做前沿模型的公司都得开始交这份作业了。",
+      "score": 65,
+      "tags": [
+        "OpenAI",
+        "安全/对齐",
+        "政策/监管"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "00:28",
+      "date": "5月29日"
+    },
+    {
+      "id": "cmpppb2nv026tslvycbh7zsqj",
+      "title": "Data Formulator 推出企业数据 AI 分析工具",
+      "link": "https://x.com/MSFTResearch/status/2060028999229735199",
+      "summary": "Data Formulator 为企业数据工作流引入了 AI 驱动的分析功能。数据团队可以轻松将企业数据带入一个 AI 就绪的工作空间，用户可以使用 AI 智能体来探索、分析和可视化数据，将原始数据转化为可操作的洞察：https://msft.it/6013vZzUl",
+      "reason": "Data Formulator 这个工具像是把 Copilot 塞进了数据分析流程，对企业数据团队来说算个实用升级，但没到非用不可的程度。",
+      "score": 63,
+      "tags": [
+        "Agent",
+        "Microsoft",
+        "产品更新"
+      ],
+      "source": "X：Microsoft Research (@MSFTResearch)",
+      "time": "00:22",
+      "date": "5月29日"
+    },
+    {
+      "id": "cmppoquyb01zqslvyr95y5eme",
+      "title": "Google I/O 2026 一文速览：12 大重要时刻",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos",
+      "summary": "Google I/O 2026 发布会上披露了 12 个重要时刻，其中包括 Gemini Omni 和 Gemini 3.5 Flash 等产品的相关消息。",
+      "reason": "不想看完整 keynote 的可以看这篇，Google 把 I/O 2026 最硬的发布浓缩成 12 个时刻，从 Gemini 3.5 Flash 到合成语音都有，快速补课首选。",
+      "score": 61,
+      "tags": [
+        "Google",
+        "产品更新",
+        "多模态",
+        "推理"
+      ],
+      "source": "Google Blog：AI（RSS）",
+      "time": "00:06",
+      "date": "5月29日"
+    },
+    {
+      "id": "cmppnwspx01u1slvyd9y65jz0",
+      "title": "Sesame，这家由Oculus创始人创办的对话式AI初创公司，发布其iOS应用",
+      "link": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app",
+      "summary": "由Oculus创始人创办的AI初创公司Sesame发布了其iOS应用，该应用将对话式AI智能体带给公众。应用提供更自然的来回交互体验，设计上区别于传统聊天机器人，旨在让用户感觉更像在和真人对话。",
+      "reason": "Oculus创始人做的对话AI，交互设计大概率能看到一些VR时代的人机直觉。虽不是大模型层创新，但产品体验可能重新定义什么样的对话才叫自然。",
+      "score": 72,
+      "tags": [
+        "产品更新",
+        "语音"
+      ],
+      "source": "TechCrunch：AI（RSS）",
+      "time": "23:43",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmppnuoiu01szslvy16yzs9c0",
+      "title": "社区如何利用Tunix和TPU训练Gemma学会“思考”",
+      "link": "https://developers.googleblog.com/how-the-community-trained-gemma-to-think-with-tunix-and-tpus",
+      "summary": "Google在Kaggle举办的Tunix黑客马拉松，挑战开发者利用TPU和有限算力，将小型基础模型转变为通用推理引擎。获胜团队通过多阶段后训练流程实现了这一目标，该流程结合了监督微调（SFT）与GRPO、SimPO等先进对齐技术。比赛结果表明，社区能够借助开源资源成功训练出高能力的结构化推理模型。",
+      "reason": "Google 官方比赛总结，证明用 Kaggle TPU 和开源工具就能把 Gemma 训练出不错推理能力，对想自己微调模型的小团队是个实用参考。",
+      "score": 64,
+      "tags": [
+        "Google",
+        "开源生态",
+        "教程/实践",
+        "数据/训练"
+      ],
+      "source": "Google Developers Blog（RSS）",
+      "time": "23:41",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmppnohkd01ptslvyykqn3897",
+      "title": "商汤发布信息图生成模型升级，增强多项核心能力",
+      "link": "https://x.com/SenseTime_AI/status/2060015749826240724",
+      "summary": "商汤科技介绍了其升级后的信息图生成模型 SenseNova-U1-8B-MoT-Infographic。该模型参数为8B，在四个关键维度进行了优化：文本准确性与可读性增强，减少了重复和不当放大；布局的一致性与合理性提升，背景更稳定；图表与示意图的质量提高；并新增了学术内容的渲染支持。推文提供了在 Hugging Face 上的模型页面链接及能力展示页面。",
+      "reason": "信息图生成赛道又出新货，商汤这次把文本渲染和布局稳定性真正做好了，做学术图表或运营配图的人可以直接去HuggingFace试用，效果肉眼可见的提升。",
+      "score": 68,
+      "tags": [
+        "图像生成",
+        "模型发布"
+      ],
+      "source": "X：商汤 SenseTime (@SenseTime_AI)",
+      "time": "23:36",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmppmltf501fhslvyqsj7bfug",
+      "title": "Perplexity Computer现已集成微软Office套件",
+      "link": "https://x.com/perplexity_ai/status/2060013442720010598",
+      "summary": "Perplexity Computer现已登陆Microsoft Excel、Word、PowerPoint和Outlook。\n\n您可以在应用程序的侧边栏中直接使用Computer来协调工作，起草文档、建模、制作演示文稿并处理电子邮件。\n\n现已推出：https://www.perplexity.ai/hub/products/integrations/microsoft",
+      "reason": "Perplexity把Computer塞进Office全家桶，侧栏里就能写文档、做表格、理邮件。对每天跟Office打交道的人，这是个无需切换工作流的原地升级。",
+      "score": 77,
+      "tags": [
+        "Agent",
+        "Microsoft",
+        "产品更新"
+      ],
+      "source": "X：Perplexity (@perplexity_ai)",
+      "time": "23:06",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmppmk7v801e1slvy1g30z6wl",
+      "title": "OpenRouter 支持模型现可选 Flex 与 Priority 服务层级",
+      "link": "https://x.com/OpenRouter/status/2060007875590697088",
+      "summary": "提示：您可以为支持的模型（OpenAI、Google Vertex 等）使用 Flex 和 Priority 层级。\n定价信息请查看各模型页面。文档：https://openrouter.ai/docs/guides/features/service-tiers",
+      "reason": "OpenRouter 这个 Flex/Priority 层级用法看似细枝末节，但你如果同时调 OpenAI 和 Vertex，知道怎么分层能免掉很多无谓的速率限制和成本焦虑。",
+      "score": 69,
+      "tags": [
+        "Google",
+        "OpenAI",
+        "教程/实践",
+        "部署/工程"
+      ],
+      "source": "X：OpenRouter (@OpenRouter)",
+      "time": "23:05",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmppkhoox00xfslvyuiolqwse",
+      "title": "AI生成短片《昨夜》探索记忆碎片中的东京之夜",
+      "link": "https://x.com/runwayml/status/2059998751742128635",
+      "summary": "昨夜。一部完全由AI生成的短片，通过破碎记忆的视角，探索了在东京改变人生的一个夜晚。由一人使用Runway在一天内创作完成。\n\n这是Project Luxo的一部分：一个探索AI生成视频如何跨越恐怖谷的新项目。\n\n通过下方链接了解更多关于《昨夜》和Project Luxo的信息。",
+      "reason": "Runway 用单人一天做出的短片展示 AI 视频已跨过恐怖谷，这比任何 benchmark 都直观，做视频的人值得看看这到底有多真。",
+      "score": 64,
+      "tags": [
+        "产品更新",
+        "视频"
+      ],
+      "source": "X：Runway (@runwayml)",
+      "time": "22:07",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmppje3ro00m9slvyk6v86ggp",
+      "title": "OpenClaw 2026.5.27 版本发布",
+      "link": "https://x.com/openclaw/status/2059985767456231751",
+      "summary": "OpenClaw 2026.5.27 已上线 🦞\n\n🔒 更严格的运行时/安全边界  \n⚡ 更快的网关 + 回复路径  \n🧠 更稳定的 Codex/应用服务器内存  \n📡 更好的频道、提供商、Pixverse 视频  \n\n更少阻碍，更多掌控。  \nhttps://github.com/openclaw/openclaw/releases/tag/v2026.5.27",
+      "reason": "OpenClaw 这次更新把精力放在内存稳定性和网关提速上，对日常跑 agent 的开发者是个踏实的迭代，属于「修路不造车」的版本，该升就升。",
+      "score": 64,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "X：OpenClaw (@openclaw)",
+      "time": "21:36",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmppj5i3o00jrslvysba2u7mc",
+      "title": "“了解评估如何设计的模型”得分更安全",
+      "link": "https://arxiv.org/abs/2605.28591",
+      "summary": "AI安全评估的有效性依赖于模型在受控与部署环境下行为一致。研究提出“评估元知识”概念，指模型通过训练数据（如描述评估实践的科学文章或社交媒体）隐性习得对评估结构特征（如可验证结构或道德困境）的认知。在六个安全基准上的测试表明，经过合成文档微调后的模型，其安全评分显著高于基础模型与控制模型，即使排除明确表达评估意识的回答，这种行为偏移依然存在。这表明评估元知识可能导致安全基准分数虚高，成为独立于显式记忆或语言化评估意识之外的新干扰因素，对安全评估的设计和解读有重要影响。",
+      "reason": "这个发现让我有点后背发凉——模型可能靠‘知道自己在被测评’来变得更安全，而不是真的安全。这对所有安全排行榜都是个新级别的混淆，评估设计得加一层元认知检测了。",
+      "score": 70,
+      "tags": [
+        "arXiv",
+        "安全/对齐",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "21:29",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmppiixeg00g2slvy9fy55vdx",
+      "title": "Anthropic 开设米兰办公室，深化意大利企业合作与 AI 安全对话",
+      "link": "https://www.anthropic.com/news/milan-office-opening",
+      "summary": "Anthropic 在米兰开设其欧洲第六家办公室，旨在与意大利企业及开发者社区合作，负责任地构建和扩展 Claude，并参与关于 AI 的对话。本地团队已与多家金融、生命科学、能源及汽车行业的公司展开合作。案例包括与 JAKALA 合作将 Claude 部署至超 3,000 席位，释放约 70% 高级团队时间；Satispay 借此将 18 个月路线图压缩至 7 个月；Bending Spoons 的大部分代码变更已与 Claude Code 共同完成。Anthropic 承诺支持意大利企业、研究及文化，通过安全的 AI 转型促进发展。",
+      "reason": "Anthropic 把欧洲办公室开到第六个，这次还拉上了教皇背书，但更实在的是 Satispay 用 Claude 把 18 个月路线图砍到 7 个月的落地案例，对企业怎么做 AI 落地有参考价值。",
+      "score": 63,
+      "tags": [
+        "Anthropic",
+        "行业动态"
+      ],
+      "source": "Anthropic：Newsroom（网页）",
+      "time": "21:12",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpphmulc007mslvypdjwo7y7",
+      "title": "发布 Search Toolkit",
+      "link": "https://mistral.ai/news/search-toolkit",
+      "summary": "Mistral AI 发布了 Search Toolkit 的公共预览版。这是一个用于构建 AI 应用生产级搜索管道的可组合框架。该框架旨在解决团队在搭建搜索基础设施时，因数据摄取、检索和评估工具分散而耗费过多工程时间的问题。Search Toolkit 将这三者整合到单一框架与共享接口中，使团队能更专注于提升搜索质量。该工具开源，可部署在云端、本地或边缘环境，并支持企业搜索、RAG 等多种检索场景。",
+      "reason": "做 RAG 的团队都该看一眼，它把 ingestion、retrieval、evaluation 揉进一个开源框架，省下的大把集成时间够你调几次检索策略了。",
+      "score": 77,
+      "tags": [
+        "MCP/工具调用",
+        "RAG",
+        "产品更新",
+        "搜索"
+      ],
+      "source": "Mistral AI：News（网页）",
+      "time": "20:47",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmppe159m0eavslv4sq3myhrs",
+      "title": "DeepSeek计划在完成融资后立即申请科创板IPO",
+      "link": "https://x.com/thexpin/status/2059947998302679059",
+      "summary": "独家：DeepSeek计划在完成当前约500亿美元（3500亿人民币）融资轮后，立即申请科创板（A股）IPO。\n来源：参与本轮融资的一位大型基金经理。",
+      "reason": "DeepSeek冲刺科创板，3500亿估值，我好奇的是上市后会怎么改变烧钱打法，以及那些拿了期权的人终于能变现了。",
+      "score": 77,
+      "tags": [
+        "DeepSeek",
+        "行业动态"
+      ],
+      "source": "X：X.PIN (@thexpin)",
+      "time": "19:06",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpp9s8g90d5pslv4cdirb5qo",
+      "title": "Qwen3.7-Max 登顶 OpenRouter 热门大模型榜",
+      "link": "https://x.com/alibaba_cloud/status/2059918150997623004",
+      "summary": "Qwen3.7-Max 以 77.3B tokens 的使用量登顶 @OpenRouter 热门大语言模型榜单。\n\n而我们才刚刚开始。\n\n👇 https://int.alibabacloud.com/m/1000413314/",
+      "reason": "Qwen3.7-Max 在 OpenRouter 上跑出 77.3B tokens 登顶，这不只是个排名数字，而是国产开源模型第一次用实际用量证明自己，做应用的可以认真考虑一下了。",
+      "score": 73,
+      "tags": [
+        "开源生态",
+        "模型发布",
+        "行业动态"
+      ],
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "time": "17:07",
+      "date": "5月28日"
+    }
+  ]
+}

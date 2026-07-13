@@ -1,0 +1,646 @@
+{
+  "date": "2026-06-30",
+  "scraped_at": "2026-06-30T05:00:19.730250+00:00",
+  "total_items": 40,
+  "items": [
+    {
+      "id": "cmr05b2wq0414slkivvyyjlbl",
+      "title": "AI就业争论变得更加混乱",
+      "link": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier",
+      "summary": "截至2026年5月，AI相关裁员接近9万个，预计未来五年美国最多15%的岗位将被AI替代。但Ramp与Revelio Labs对近22,000家公司的报告发现，高AI投入企业（前三个月人均月均支出30美元）总员工数增长10.2%，入门级岗位增长12%。报告认为AI并非普遍导致岗位消失，而是在资源充裕的科技企业里成为扩张工具——降低工程、销售、客服等职能的生产成本，从而推动整体增员。但仅购买订阅而未持续投入的公司未见人头增长，可能加剧企业间的资源鸿沟。",
+      "reason": "报告用雇佣数据驳斥了「AI消灭就业」的简单说法，付费多的公司反而在扩招甚至增加初级岗，但样本都是快速增长的科技公司，分化隐忧仍在，值得人力决策者细看。",
+      "score": 71,
+      "tags": [
+        "其他",
+        "现象/趋势"
+      ],
+      "source": "TechCrunch：AI（RSS）",
+      "time": "12:27",
+      "date": "6月30日"
+    },
+    {
+      "id": "cmr03h5tq03jjslki3a281zet",
+      "title": "一个人管理5款产品，80%时间不写代码？Every的复利工程",
+      "link": "https://x.com/xiaohu/status/2071796715162857477",
+      "summary": "媒体软件公司Every公开「复利工程」方法论，以单人工程团队维护5款产品。核心是四步循环：Plan→Work→Review→Compound，其中Compound将每次解决问题的解法写入CLAUDE.md和docs/solutions/，使AI下次自动避坑。工程师80%时间花在Plan和Review，仅20%用于写代码。配套开源插件支持Claude Code等，含26个专项agent、23条工作流命令、13项技能，可零配置使用。/workflows:review一次并发14个agent审查代码，/workflows:plan在ultrathink模式下可并发40多个研究agent。",
+      "reason": "Every把内部单人维护5款产品的方法论和插件开源了，14个AI同时审代码、40多个研究agent做计划，是目前公开的多agent并行工程里数字最具体的参考之一，做AI辅助开发的可以直接上手抄。",
+      "score": 81,
+      "tags": [
+        "Agent",
+        "教程/实践",
+        "编码",
+        "部署/工程"
+      ],
+      "source": "X：小互 (@xiaohu)",
+      "time": "11:36",
+      "date": "6月30日"
+    },
+    {
+      "id": "cmr034hsc03fdslki184emljf",
+      "title": "Agents-A1：35B MoE 智能体模型通过扩展 horizon 达到万亿参数级性能",
+      "link": "https://arxiv.org/abs/2606.30616",
+      "summary": "研究人员提出 Agents-A1，一个 35B 参数的 Mixture-of-Experts 智能体模型，通过扩展智能体 horizon（长轨迹与异构能力两个视角）达到万亿参数模型性能。团队构建了长 horizon 知识-行动基础设施，生成平均 45K token 的智能体轨迹，并采用三阶段训练：全领域监督微调、领域级教师模型训练、多教师领域路由在线蒸馏（含显著词汇对齐）。对比万亿参数模型 Kimi-K2.6 和 DeepSeek-V4-pro，Agents-A1 在 SEAL-0（56.4）、IFBench（80.6）、HiPhO（46.4）、FrontierScience-Olympiad（79.0）和 MolBench-Bind（56.8）上领先，并在 SciCode（44.3）、HLE（47.6）和 BrowseComp（75.5）上保持强竞争力。",
+      "reason": "用35B模型追平1T参数模型，这条“扩展智能体视野”的路比无脑堆参数务实得多，做Agent和长程推理的团队必须认真读。",
+      "score": 77,
+      "tags": [
+        "Agent",
+        "推理",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "11:26",
+      "date": "6月30日"
+    },
+    {
+      "id": "cmr00f9t902pgslkiofzqdgx2",
+      "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
+      "link": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
+      "summary": "具身智能数据采集员以日薪200-250元招兼职，无需学历经验。面试先测量身高体重以适配采集手套，并询问是否晕VR。工作分两种：遥操作采集——穿戴设备控制双臂机器人完成分拣积木、叠纸杯等动作；无机器人示教采集——徒手重复动作（如叠衣服），设备记录轨迹。全球高质量物理交互数据截至2026年初仅约50万小时，不足大语言模型训练数据的两万分之一，需大量人力从零采集。",
+      "reason": "具身智能的数据采集正在催生一种日结兼职，这篇文章把镜头对准了那些教会机器人叠纸杯的普通人，给我一种强烈的割裂感——最前沿的技术和最传统的用工方式在这里合体了。",
+      "score": 67,
+      "tags": [
+        "具身智能",
+        "现象/趋势"
+      ],
+      "source": "公众号：数字生命卡兹克",
+      "time": "10:10",
+      "date": "6月30日"
+    },
+    {
+      "id": "cmqzzpqet02gpslki3d15k1l0",
+      "title": "AI News Radar 大更新：新增自媒体板块，支持订阅多平台账号",
+      "link": "https://mp.weixin.qq.com/s/iW5FVqbHtYi31mJ22Q_cog",
+      "summary": "AI News Radar 迎来大更新，新增自媒体板块，支持订阅某书、某音、某站、某X等平台账号，每日按热度推荐 Top10 信息（无热门则不硬凑），同时保留时间轴视图，可在热度优先和时间优先间切换。官方来源包括 OpenAI、Anthropic、Google 等一手消息及 GitHub AI&ML 更新日志。信息流按来源、类型、信号等级分类，标注高优先级与多源认证。项目完全开源，可零 API 部署独立 AI 日报页面，支持手机移动端及暗色界面。",
+      "reason": "我觉得这是目前最实用的AI信息过滤工具，新版直接整合了社媒热榜和官方源，内容创作者可以拿来当选题雷达，普通人也能一键部署自己的AI日报，省去每天刷各个平台的时间。",
+      "score": 70,
+      "tags": [
+        "GitHub",
+        "产品更新",
+        "开源生态"
+      ],
+      "source": "公众号：卡尔的AI沃茨",
+      "time": "09:50",
+      "date": "6月30日"
+    },
+    {
+      "id": "cmqzqabkh0069slkildw65dhy",
+      "title": "美团LongCat Owl Alpha：OpenRouter最流行模型，1.6万亿MoE，国产ASIC训练",
+      "link": "https://x.com/EMostaque/status/2071701921241448574",
+      "summary": "美团LongCat的1.6万亿参数MoE模型Owl Alpha成为OpenRouter上最流行模型，累计消耗10万亿tokens，性能达Gemini/Opus 4.6级别。该模型使用35万亿tokens训练，完全在5万块国产ASIC上完成。据官方推文，Owl Alpha上线后每日调用量全球Top3，在Hermes Agent排名#1，Claude Code排名#2，OpenClaw排名#3。该模型即将退役，后续版本待公布。",
+      "reason": "中国团队用 5 万块自研 ASIC 训练出 1.6tr 参数 MoE，性能堪比 Gemini，还在 OpenRouter 悄悄成了最热模型——非 GPU 路线跑到量产的第一个真实信号，做推理部署的都应该看一眼。",
+      "score": 79,
+      "tags": [
+        "开源生态",
+        "数据/训练",
+        "模型发布"
+      ],
+      "source": "X：Emad Mostaque (@EMostaque)",
+      "time": "05:26",
+      "date": "6月30日"
+    },
+    {
+      "id": "cmqzq4so7002zslki45ad5xtq",
+      "title": "为 Amazon Bedrock 和 Google Cloud 推出的 Claude apps gateway",
+      "link": "https://claude.com/blog/introducing-the-claude-apps-gateway",
+      "summary": "Anthropic 今日推出 Claude apps gateway，一个自托管控制平面，让企业能在 Amazon Bedrock 和 Google Cloud 上运行 Claude Code。它作为单个无状态容器部署于 Linux，后端使用 PostgreSQL，提供企业级 SSO 登录（通过 OIDC 对接 Google Workspace、Microsoft Entra ID、Okta 等）、集中策略管理、角色权限、路由（支持故障转移）以及按日/周/月、按组织/群组/用户的消费上限。遥测数据通过 OTLP 发送至用户配置的收集器。gateway 不会向 Anthropic 发送推理流量或使用数据（除非配置使用 Claude API）。即日起可用。",
+      "reason": "Claude Code企业版有了统一管理入口，SSO和成本控制是团队落地AI编程的关键，对CTO来说值得关注。",
+      "score": 66,
+      "tags": [
+        "Anthropic",
+        "Google",
+        "产品更新",
+        "编码",
+        "部署/工程"
+      ],
+      "source": "Claude：Blog（网页）",
+      "time": "05:22",
+      "date": "6月30日"
+    },
+    {
+      "id": "cmqzpe7kz003xslznxpw78tx5",
+      "title": "Rubin Ultra取消，新版尺寸性能减半",
+      "link": "https://x.com/SemiAnalysis_/status/2071700428249596290",
+      "summary": "有意思：在GTC 2026宣布Rubin Ultra仅3个月后，原4-die Rubin Ultra因制造执行问题被取消。新的“Rubin Ultra”尺寸减半，实际性能约为原版的一半。1/4🧵",
+      "reason": "NVIDIA 原版 Rubin Ultra 取消并减半规格是今年硬件领域最大的意外，所有依赖下一代算力增长的公司都得重估路线图。",
+      "score": 77,
+      "tags": [
+        "数据/训练",
+        "行业动态"
+      ],
+      "source": "X：SemiAnalysis (@SemiAnalysis_)",
+      "time": "05:01",
+      "date": "6月30日"
+    },
+    {
+      "id": "cmqzoeyal000psl42yjcez2oc",
+      "title": "Anthropic：当AI成本超过工程师薪酬",
+      "link": "https://www.tomtunguz.com/ai-spend-breakeven-2029",
+      "summary": "Anthropic在算力上的支出达到每位工程师每年51.5万美元，是其完全薪资（22.4万美元）的2.3倍。相比之下，顶尖1%软件公司的算力支出为8.9万美元，中位数仅为1.37万美元。三个2029年情景预测了这一差距的缩小路径。",
+      "reason": "Tomer Tunguz 用数据把 AI 公司的烧钱速度拆得很细，Anthropic 每个工程师年算力成本 51.5 万美元，是工资的 2.3 倍，这个数字对重新理解 SaaS 毛利率很有冲击力。",
+      "score": 58,
+      "tags": [
+        "Anthropic",
+        "大佬观点",
+        "数据/训练"
+      ],
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "time": "04:34",
+      "date": "6月30日"
+    },
+    {
+      "id": "cmqzo4q2o005oslkhjl7jdtoc",
+      "title": "OpenClaw 发布原生 iOS 与 Android 应用",
+      "link": "https://x.com/openclaw/status/2071688039114342592",
+      "summary": "OpenClaw 现已登陆 iOS 和 Android 🦞\n\n📱 原生移动应用，终于来了\n💬 智能体装进口袋\n🔔 频道、任务、回复，随时处理\n\n用你的大拇指，在任何地方运行智能体。\n\niOS: https://apps.apple.com/us/app/openclaw-ai-that-does-things/id6780396132  \nAndroid: https://play.google.com/store/apps/details?id=ai.openclaw.app",
+      "reason": "OpenClaw 终于推出原生移动应用，智能体可以随时放进口袋，对已有用户是体验上的补完，但对新用户的吸引力可能有限。",
+      "score": 71,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "端侧"
+      ],
+      "source": "X：OpenClaw (@openclaw)",
+      "time": "04:26",
+      "date": "6月30日"
+    },
+    {
+      "id": "cmqzk693n002zslksfkrr5w2w",
+      "title": "Qwen 3.6 27B 是本地开发的理想选择",
+      "link": "https://quesma.com/blog/qwen-36-is-awesome",
+      "summary": "Qwen 3.6 27B 是一款密集参数本地大语言模型，原生支持 256k 上下文。在 Macbook Max M5 上运行 llama.cpp Q8_0 量化版（含多 token 预测）可达 30 tokens/s；用户反馈在 RTX 5090 上 Q6_K 量化可达 50 tokens/s。它可通过单个提示完成创意诗歌、用 pnpm 生成六边形扫雷游戏等任务，作者称其为首个真正具备通用智能的本地模型。另有一个 MoE 变体 35B A3B，但作者推荐 27B 版本。",
+      "reason": "一篇详实的 Qwen 3.6 27B 实战评测，从创意写作到代码生成都测了，还给出了 llama.cpp 部署命令和性能数据，想本地跑模型的开发者可以直接抄作业。",
+      "score": 75,
+      "tags": [
+        "开源生态",
+        "端侧",
+        "评测/基准"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "02:35",
+      "date": "6月30日"
+    },
+    {
+      "id": "cmqzjpce1006aslqvqo2kpjo6",
+      "title": "Claude 在 Microsoft Foundry 正式可用",
+      "link": "https://claude.com/blog/claude-in-microsoft-foundry",
+      "summary": "从今天起，Claude 模型在 Microsoft Foundry 上正式可用，托管于 Azure 环境，运行在 NVIDIA GB300 GPU 上。首批提供 Claude Opus 4.8 和 Claude Haiku 4.5，通过 Messages API 调用，支持提示缓存和扩展思考。用户可选择推理处理位置，包括美国数据区域，由 Anthropic 负责推理运营。Azure 用户可使用现有身份验证、计费与治理控制，并获得统一账单；符合条件的 Enterprise Agreement 客户可将 Claude 用量计入 Azure 承诺消费。",
+      "reason": "Claude 正式登陆 Azure Foundry 企业版，对于看重数据主权和现有 Azure 合约的企业是个好消息，但本质上是一次渠道铺开而非能力突破。",
+      "score": 64,
+      "tags": [
+        "Anthropic",
+        "Microsoft",
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "Claude：Blog（网页）",
+      "time": "02:22",
+      "date": "6月30日"
+    },
+    {
+      "id": "cmqzisfra009asl8hojqmr1k2",
+      "title": "从任何地点构建——Cursor for iOS 公测版发布",
+      "link": "https://cursor.com/blog/ios-mobile-app",
+      "summary": "Cursor 推出 iOS 原生公测版，所有付费计划可用。开发者可在手机上启动始终在线的云端智能体，或远程操控电脑端智能体。支持语音输入、斜杠命令和选择前沿模型。智能体运行后，锁屏 Live Activities 和推送通知实时更新状态，完成或需要输入时提醒。云端智能体在隔离虚拟机中运行，可自动迭代生成合并就绪的 PR，并输出演示、截图和日志。本地与云端智能体支持双向切换。移动端 Composer 2.5 享受 75% 折扣，优惠至 2026 年 7 月 5 日。",
+      "reason": "Cursor 移动端把 Agent 放到了云上，从手机就能启动和合并 PR，通勤灵感不再浪费，对经常离开桌面的开发者是真正的效率杠杆。",
+      "score": 75,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "编码"
+      ],
+      "source": "Cursor Blog",
+      "time": "01:57",
+      "date": "6月30日"
+    },
+    {
+      "id": "cmqzdby9m00o8sltjugcnx002",
+      "title": "Anthropic工程师Margot Van Laar：提示词工程实战——调试生产提示词为主，评估是唯一严谨方式",
+      "link": "https://x.com/berryxia/status/2071610700213191075",
+      "summary": "An anthropic应用AI工程师Margot Van Laar在Code with Claude分享提示词工程实战，核心观点：大部分时间在调试和维护已有生产提示词而非从零编写。两个场景：客服机器人维护中，用XML标签结构化清理，移除旧模型遗留的“禁止列表”指令（新模型会过度拟合），精确计算应调用工具，转人工决策需明确代价与收益；零售排班Agent从零构建时，拆成生成-评估-修复三个简单提示词更稳定，选用更强推理模型（Opus）。她反复强调：评估（Eval）是唯一严谨方式，没有评估就是碰运气。",
+      "reason": "Margot Van Laar把提示词维护讲到了工程级别，评估驱动迭代、清理旧指令、拆分任务循环，这些方法比死记prompt模板重要得多，做AI应用的人都该看一遍。",
+      "score": 77,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "推理",
+        "教程/实践"
+      ],
+      "source": "X：Berry Xia (@berryxia)",
+      "time": "23:24",
+      "date": "6月29日"
+    },
+    {
+      "id": "cmqzbkvm2008ysltjog7ffi8l",
+      "title": "Herdr：驻留在终端中的AI智能体多路复用器",
+      "link": "https://github.com/ogulcancelik/herdr",
+      "summary": "Herdr是一个驻留在终端中的AI智能体多路复用器，允许用户在单一终端界面内管理和切换多个AI智能体会话。",
+      "reason": "这个工具把 AI 代理管理塞进终端，比开一堆浏览器标签自然，对命令行重度用户是个值得一试的 early idea。",
+      "score": 71,
+      "tags": [
+        "Agent",
+        "GitHub",
+        "MCP/工具调用",
+        "开源/仓库"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "22:35",
+      "date": "6月29日"
+    },
+    {
+      "id": "cmqz7d8df001gslurh618qik6",
+      "title": "美军用AI选目标却误炸伊朗学校，Anthropic Claude嵌入Palantir系统首日建议约1000目标",
+      "link": "https://the-decoder.com/the-us-military-used-ai-to-pick-thousands-of-targets-but-missed-a-note-saying-one-was-a-school",
+      "summary": "美军在打击伊朗时首次大规模使用AI选择目标（Anthropic的Claude模型嵌入Palantir的Maven Smart System，首日建议约1000个目标），但对一所学校的导弹袭击导致约120名儿童死亡。调查发现，情报分析师早在2019年就通过数字工具标记该地点已变为小学，但该工具未连接军方官方目标数据库MIDB，信息从未送达指挥官。MIDB建于1980年代，依赖手动输入，替代系统MARS多年延迟。五角大楼事后宣布推出agentic AI initiative。Project Maven创建人Jack Shanahan批评目标验证不力不可原谅。",
+      "reason": "AI在战场上的首次大规模实战暴露了最可怕的失败模式，不是模型错误，而是情报系统的数据断裂让一个学校被标注为军事目标，120个孩子成了代价。这对目前在推‘AI决策’的军方和公司都是一个需要直视的案子。",
+      "score": 75,
+      "tags": [
+        "安全/对齐",
+        "行业动态"
+      ],
+      "source": "The Decoder：AI News（RSS）",
+      "time": "20:37",
+      "date": "6月29日"
+    },
+    {
+      "id": "cmqz708gp006kslj16zzl8far",
+      "title": "Meta发布Brain2Qwerty v2：非侵入式实时句子解码",
+      "link": "https://x.com/AIatMeta/status/2071566924803395741",
+      "summary": "Meta公布Brain2Qwerty v2，这是非侵入式脑电信号解码研究的最新里程碑。基于当天发表在《Nature》的v1，v2是性能最高的端到端管道，能从原始脑信号实时解码句子。其从字符级性能提升至解码单词和语义，提高整体沟通准确性。该研究有望帮助数百万因脑损伤或疾病无法沟通的人群。",
+      "reason": "Meta把非侵入脑解码从字符级推到语义级，Nature论文背书，我认真觉得这比任何benchmark刷分都有意义，给失语人群的希望比聊天机器人更值得关注。",
+      "score": 79,
+      "tags": [
+        "多模态",
+        "论文/研究"
+      ],
+      "source": "X：AI at Meta (@AIatMeta)",
+      "time": "20:27",
+      "date": "6月29日"
+    },
+    {
+      "id": "cmqz49v7400e4sldyr126zupc",
+      "title": "小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
+      "link": "https://mp.weixin.qq.com/s/qRrZvL0aZzYI82djFSrLug",
+      "summary": "RedKnot 将 KV Cache 沿注意力头维度拆解，通过头分类稀疏（局部头占 83.4%–96.8%）、稀疏 FFN 和 SegPagedAttention 三个机制统一算法与存储粒度。在 8 卡 H800 上，TTFT 最高加速 1.6–3.54×，单卡并发提升 4.7–7.8×，预填充 FLOPs 削减 67%–79.5%。DeepSeek-V4-Flash 上 128K 上下文 TTFT 加速达 5.16×，KV 传输最多省 6.3×。精度通常不低于稠密 F1 的 95%。",
+      "reason": "小红书把 KV Cache 从 token 级拆成按头分家，这个思路让长文本推理的 TTFT 和并发都有数量级提升，开源出来对做推理引擎的同学是个福音。",
+      "score": 72,
+      "tags": [
+        "arXiv",
+        "GitHub",
+        "产品更新",
+        "推理",
+        "部署/工程"
+      ],
+      "source": "公众号：小红书技术（dots.llm）",
+      "time": "19:10",
+      "date": "6月29日"
+    },
+    {
+      "id": "cmqz3upwc00axsldytm3kw949",
+      "title": "EverOS：开源Markdown优先智能体记忆运行时，支持混合检索与自进化技能",
+      "link": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
+      "summary": "EverMind 推出开源智能体记忆运行时 EverOS（Apache 2.0 许可）。它以可编辑的 Markdown 文件为记忆主体，经 SQLite 管理状态、LanceDB 实现混合检索（BM25 关键词 + 向量搜索 + 标量过滤）。每个完成的任务记录为 Case，离线提炼为可复用的 Skill，使记忆随使用自我进化。v1.1.0 新增 Knowledge APIs（支持分类与话题搜索的 Markdown 页面）和 Reflection（跨会话优化 Profile 和 Skill）。据 EverMind 报告，LoCoMo 得分 93.05%，LongMemEval 83.00%，HaluMem 93.04%，p95 检索延迟低于 500ms。运行时可本地优先部署，也提供 EverOS Cloud 托管选项，兼容 OpenAI 协议端点。",
+      "reason": "EverOS把Agent记忆从沉重的向量数据库堆栈中解放出来，Markdown源真和自进化技能让本地开发更轻便，但基准全由团队自报，上手前最好自己测一下。",
+      "score": 74,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "开源/仓库"
+      ],
+      "source": "MarkTechPost（RSS）",
+      "time": "18:58",
+      "date": "6月29日"
+    },
+    {
+      "id": "cmqz31dsn003usldyi61f0cgf",
+      "title": "OpenAI 报告：绘制欧洲 AI 劳动力机遇版图",
+      "link": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+      "summary": "OpenAI 发布新报告，分析 AI 对欧盟就业的影响，划定哪些职业面临自动化、增长或工作流程变化。",
+      "reason": "与常见的「AI会取代工作」观点不同，OpenAI 用具体数据画出了欧洲就业的迁移路线，政策制定者应该打开看看，虽然报告全文的方法论尚待检验。",
+      "score": 62,
+      "tags": [
+        "OpenAI",
+        "现象/趋势",
+        "论文/研究"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "18:36",
+      "date": "6月29日"
+    },
+    {
+      "id": "cmqz20a0a000dsly4gw09u9xt",
+      "title": "Claude Code 打开 GitHub 仓库即执行隐藏恶意代码，攻击者可获完全控制",
+      "link": "https://the-decoder.com/claude-code-runs-a-github-repos-hidden-malware-without-verification-giving-attackers-full-control",
+      "summary": "安全研究人员在 Mozilla 的 GenAI 漏洞赏金平台 0DIN 发现新攻击向量。一个看似正常的 GitHub 仓库包含 setup 脚本，该脚本运行时从 DNS 条目拉取命令并执行，恶意代码从未存在于仓库中，对扫描器、代码审查和 AI 智能体不可见。开发者使用 Claude Code 等 AI 编码工具打开该仓库时，Claude Code 在设置过程中遇到常规错误消息后自动运行该脚本，打开反向 shell，攻击者可窃取 API 密钥和登录凭据并维持持久访问。研究人员建议 AI 智能体应在运行前显示 setup 脚本内容，开发者应将第三方仓库的 setup 说明视为不受信任代码。",
+      "reason": "用 AI 编码工具克隆仓库就能被反向 shell 控制，这个攻击向量比想象中简单。0DIN 的研究把整个链拆得很清楚，每条修复建议开发者现在就能用。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "安全/对齐",
+        "编码"
+      ],
+      "source": "The Decoder：AI News（RSS）",
+      "time": "18:07",
+      "date": "6月29日"
+    },
+    {
+      "id": "cmqz1tatr01doslxsae6mpoyv",
+      "title": "国务院印发《教育发展“十五五”规划》，推进人工智能全学段教育",
+      "link": "https://www.ithome.com/0/970/097.htm",
+      "summary": "国务院日前印发《教育发展“十五五”规划》，要求推进人工智能全学段教育，提升学生人工智能素养及提出问题、解决问题的能力。规划明确完善科学教育体系，强化科技教育与人文教育协同，加强青少年科学素养、批判性思维和创新能力培养。同时实施学生体质强健计划、心理健康促进行动，加大拔尖创新人才自主培养力度，推动学科交叉融合，扩大优质本科招生规模。目标到2030年高质量教育体系基本建成。",
+      "reason": "国务院十五五教育规划正式提出推进人工智能全学段教育，这是顶层设计首次明确要求提升全民AI素养，对教育行业和AI+教育产品是长期利好。",
+      "score": 80,
+      "tags": [
+        "政策/监管"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "18:01",
+      "date": "6月29日"
+    },
+    {
+      "id": "cmqyysibx00l8slxscq4crs8k",
+      "title": "三星和SK海力士计划投资5900亿美元扩产芯片，AI需求推高内存价格",
+      "link": "https://the-decoder.com/samsung-and-sk-hynix-plan-590-billion-chip-investment-as-ai-demand-sends-memory-prices-soaring",
+      "summary": "在韩国政府支持下，三星和SK海力士计划投入5900亿美元扩大芯片产能，包括800万亿韩元新建四座工厂、81万亿韩元建封装中心，以及未来15年30万亿韩元用于研发下一代芯片。AI数据中心需求是主要驱动力。Jefferies预测，2026年Q3内存价格将上涨40%至50%，Q4再涨30%至40%，2027年继续上涨40%至45%，到2028年新产能仅上线15%至20%才可能缓解。两家公司合计控制全球近80%的高带宽内存芯片市场。内存涨价已推高消费电子产品成本，苹果已上调Mac和MacBook售价。",
+      "reason": "三星和SK海力士的5900亿美元投资计划加上内存价格至少涨到2028年的预测，表明AI基础设施的拉动远未到顶，做硬件采购和成本核算的人这一年都会很头疼。",
+      "score": 72,
+      "tags": [
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "The Decoder：AI News（RSS）",
+      "time": "16:37",
+      "date": "6月29日"
+    },
+    {
+      "id": "cmqyvdkok000qslf1ctykave9",
+      "title": "SK 集团会长崔泰源：到 2035 年建设 15GW AI 数据中心，总投资达 1000 万亿韩元",
+      "link": "https://www.ithome.com/0/969/953.htm",
+      "summary": "SK 集团会长崔泰源 6 月 29 日宣布，计划到 2035 年建成 15GW AI 数据中心容量，作为韩国国家级基础设施和实体 AI 时代核心底座。项目总投资 1000 万亿韩元（约 4.4 万亿元人民币），未来 10 年保持年均 100 万亿韩元以上国内投资，旨在实现从出口传统商品向智能服务的转变，构建韩国智能市场。此外，SK 海力士将向韩国西南部投资 400 万亿韩元，半导体供应项目总投资达 1100 万亿韩元（约 4.84 万亿元人民币）。",
+      "reason": "SK 集团喊出 1000 万亿韩元建 AI 数据中心，数字唬人但周期长达十年，更像一种姿态宣示，真正改变算力市场格局还得看后续执行力和融资落地。",
+      "score": 71,
+      "tags": [
+        "数据/训练",
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "15:01",
+      "date": "6月29日"
+    },
+    {
+      "id": "cmqykzeht02shslivflwhgdbx",
+      "title": "分享两个Vibe Coding必备的实用Prompt：第一性原理与对抗式审查",
+      "link": "https://mp.weixin.qq.com/s/umPqTD_-IubbhXIgiS47eQ",
+      "summary": "作者分享Vibe Coding中两个关键Prompt：一是“从第一性原理出发”，强制AI跳出类比推理，从基本事实重新推导本质，曾帮作者发现AIHOT抓取海外信源的底层流量路由隐患并彻底重构；二是“对抗式审查”，让AI站在恶意用户角度攻防式审查代码，检出OOM死循环、未来时间污染等手工难发现的BUG。两个Prompt形成生成与验证闭环，使纯Vibe Coding项目AIHOT最近一周请求量超千万次。",
+      "reason": "这两个 Prompt 把 Vibe Coding 从碰运气变成了有方法，第一性原理堵设计漏洞，对抗式审查堵代码漏洞，卡兹克用自己项目的真实翻车案例讲透，是我读过最实用的编程 Prompt 技巧。",
+      "score": 70,
+      "tags": [
+        "教程/实践",
+        "编码"
+      ],
+      "source": "公众号：数字生命卡兹克",
+      "time": "10:10",
+      "date": "6月29日"
+    },
+    {
+      "id": "cmqy28vh30050slr1uzaev9nk",
+      "title": "Artifacts 22：Zyphra、Cohere 和 Poolside 正在扩展生态系统广度",
+      "link": "https://www.interconnects.ai/p/artifacts-22-zyphra-cohere-and-poolside",
+      "summary": "开源模型生态正变得更多元，参与者从少数中国公司扩展到全球各类组织。纯模型制造商包括 DeepSeek、智谱、MiniMax、Poolside、Arcee、Zyphra 及主权 AI 玩家 Cohere、Sovereign、Mistral、Trillion Labs；科技巨头如阿里 Qwen、Google Gemma 和 NVIDIA 各有不同动机；产品公司如 JetBrains、Zed、Krea、Photoroom 则训练高度专业的小模型。NVIDIA 发布 Nemotron-3-Ultra-550B-A55B-BF16，采用 LatentMoE 架构并改用 OpenMDW 许可证。Cohere 以 Apache 2.0 开源其旗舰模型 Command A+（05-2026-bf16），这是一款 218B-A25B MoE 模型，具备多模态、多语言和智能体能力。",
+      "reason": "这篇文章把开源模型玩家拆成三类，清晰解释了不同动机，Cohere 转向 Apache 2.0 和 NVIDIA 采用 OpenMDW 是许可层面的重要信号，关注开源的值得一读。",
+      "score": 60,
+      "tags": [
+        "开源生态",
+        "模型发布",
+        "现象/趋势"
+      ],
+      "source": "Nathan Lambert：Interconnects（RSS）",
+      "time": "01:26",
+      "date": "6月29日"
+    },
+    {
+      "id": "cmqy1fj3003cislwfljtykjvx",
+      "title": "Wayfinder Router：在本地和托管的大语言模型之间进行确定性查询路由",
+      "link": "https://github.com/itsthelore/wayfinder-router",
+      "summary": "Wayfinder Router 通过分析提示词的结构（长度、标题、列表、代码）和措辞（证明、数学、硬约束），在微秒级完成路由决策，完全离线且无需调用其他模型。默认仅使用结构特征，词汇线索因盲测未泛化而默认为关闭。对比依赖模型调用的路由器（如 RouteLLM、NotDiamond），它避免了延迟、成本和随机性。用户可在自有数据上校准评分阈值。支持任何 OpenAI 兼容 API（含 Ollama、Anthropic、Groq、vLLM 等），可自托管。提供终端和网页演示（--dry-run 无需密钥），以及基准测试和 FAQ。",
+      "reason": "Wayfinder Router 把 prompt 路由变成了离线文本分析，无需额外模型调用，对希望节省成本同时保持私密的开发者很实用，比现有方案更轻量和确定，但纯语义难题仍是短板。",
+      "score": 75,
+      "tags": [
+        "开源/仓库",
+        "部署/工程"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "01:03",
+      "date": "6月29日"
+    },
+    {
+      "id": "cmqxo43c90009slwfmy4wm3z3",
+      "title": "Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus",
+      "link": "https://x.com/elonmusk/status/2071184354756477041",
+      "summary": "Grok 4.5，基于我们的1.5T V9基础模型，并在补充训练中加入Cursor数据，现已在SpaceX和Tesla进入私测。初步评估显示其性能接近，或许超越Opus。\n\n强化学习仍在持续显著改进模型，Grok Build工具链也在日益完善。\n\n所有参与者的出色工作！\n\n今年，@SpaceX 将每月发布完全从头训练的新模型。",
+      "reason": "Elon 亲自宣布 Grok 4.5 内部测试，性能可能超过 Opus，虽然还没公开可用，但每月从零训练新模型的节奏，意味着算力军备竞赛还在加速。",
+      "score": 70,
+      "tags": [
+        "xAI",
+        "数据/训练",
+        "模型发布"
+      ],
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "time": "18:50",
+      "date": "6月28日"
+    },
+    {
+      "id": "cmqxnrjtc004ssljh9zvejgbo",
+      "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本",
+      "link": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
+      "summary": "普林斯顿大学推出CEO-Bench基准测试，让AI智能体在模拟环境中运营订阅软件公司NovaMind 500天，起始资金100万美元。14个测试模型中，仅Claude Fable 5（最佳轮次盈利4715万美元）、Claude Opus 4.8（2780万美元）和GPT-5.5（2130万美元）在最佳运行中超过起始资本。一个不调用语言模型的简单规则启发式方法通过固定定价、配额和针对性开发达到1576万美元，超越除上述三款外的所有模型。多数模型无法保持连贯策略，在模拟结束前破产。该测试旨在衡量AI的长期战略决策能力。",
+      "reason": "普林斯顿的 CEO-Bench 测试了一个反直觉结果，一个不用 AI 的简单规则系统击败了绝大多数模型——在当前 agent 都在比窄任务时，这个测试直指长期战略决策的致命短板，做 agent 的必须看。",
+      "score": 70,
+      "tags": [
+        "Agent",
+        "论文/研究",
+        "评测/基准"
+      ],
+      "source": "The Decoder：AI News（RSS）",
+      "time": "18:40",
+      "date": "6月28日"
+    },
+    {
+      "id": "cmqxiel9h004ysl50umg2c011",
+      "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
+      "link": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
+      "summary": "新浪发布仅3B参数的VibeThinker-3B，在AIME26等数学编程基准上持平DeepSeek V3.2等大200–333倍的模型，LiveCodeBench超越所有20B以下模型，LeetCode竞赛解决123/128题超过GPT-5.2、Kimi K2.5等。但知识密集型GPQA-Diamond大幅落后。模型基于阿里Qwen2.5-Coder-3B，经SFT、强化学习、自蒸馏等多阶段后训练。研究提出“参数压缩-覆盖假说”：逻辑推理依赖少数可压缩模式，而广泛世界知识仍需大参数。模型已开源。",
+      "reason": "VibeThinker-3B 用 3B 参数在数学编程上匹敌百倍大模型，推理可压缩而知识不能的假设值得深思。对做推理应用的人来说是个信号。",
+      "score": 70,
+      "tags": [
+        "Hugging Face",
+        "开源生态",
+        "推理",
+        "模型发布"
+      ],
+      "source": "The Decoder：AI News（RSS）",
+      "time": "16:10",
+      "date": "6月28日"
+    },
+    {
+      "id": "cmqx9k72u0425slp05ijlfezl",
+      "title": "阿德拉菲尼尔：仅在AI agent工作时阻止Mac睡眠的菜单栏工具",
+      "link": "https://github.com/kageroumado/adrafinil",
+      "summary": "Adrafinil 是一款 macOS 菜单栏应用，仅在 Claude Code、Codex、Cursor、Gemini CLI、Aider、Hermes、OpenCode、Cline、Pi 等 9 种 AI coding agent 持有活跃会话时阻止系统睡眠（包括合盖睡眠）。无 agent 工作时，合盖后 Mac 正常睡眠。它通过各 agent 的钩子系统调用 CLI，往返延迟低于 50ms，支持引用计数断言、热切出（温度阈值强制释放）、空闲释放及进程嗅探。需要 macOS Tahoe 26.4，Xcode 26+ 构建，以签名公证的磁盘映像提供。",
+      "reason": "阿德拉菲尼尔对macOS唤醒工具做了一次有趣的重新思考，不是一直醒着，而是只在AI代理工作时醒着，合盖也能跑长任务，对用Claude Code或Cursor的开发者是实用的开源伴侣。",
+      "score": 72,
+      "tags": [
+        "Agent",
+        "开源/仓库",
+        "编码"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "12:03",
+      "date": "6月28日"
+    },
+    {
+      "id": "cmqx7behn03g3slp0pzrofqz9",
+      "title": "四大顶级AI对决《文明VI》：Claude核平法国仍输，暴露感知与执行短板",
+      "link": "https://www.ithome.com/0/969/570.htm",
+      "summary": "英国前首相府数据科学家Liam Wilkinson搭建76个MCP工具，将Claude Opus 4.6、GPT-5.4、Gemini 3.1 Pro等四个模型放入《文明VI》进行23场对局。Claude扮演葡萄牙时，因法国文化胜利逼近，花50回合研发核弹核平图卢兹，但法国最终以外交胜利获胜。Wilkinson发现：AI主动检查全局状态仅占1-2%（感知盲区），计划后10回合内执行率仅48-66%（知行差距）。结论是智商非瓶颈，感知与执行才是关键。",
+      "reason": "前首相府数据科学家让 Claude、GPT 等打《文明 VI》，揪出了 AI 的「感知盲区」和「知行差距」——更聪明的大脑解决不了睁不开眼、伸不出手的问题，做智能体的必须直面这两个工程瓶颈。",
+      "score": 76,
+      "tags": [
+        "Agent",
+        "推理",
+        "现象/趋势"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "11:00",
+      "date": "6月28日"
+    },
+    {
+      "id": "cmr059nvo0402slkikkryczay",
+      "title": "OSWorld2.0：长时域真实世界计算机使用工作流基准",
+      "link": "https://arxiv.org/abs/2606.29537",
+      "summary": "OSWorld2.0 发布，包含108个长时域计算机使用工作流，覆盖日常与专业任务。每项任务用户中位数约1.6小时完成，Claude Opus 4.7（最大思考）平均需318次工具调用（OSWorld 1.0约30次）。基准聚焦流交互、动态环境、跨源推理、隐式状态推断、视觉空间精度等真实挑战。任务基于真实输入工件和状态化用户档案，附安全报告。500步二元完成指标下，Claude Opus 4.8（最大思考+批量调用）得分最高仅20.6%（部分54.8%）；GPT-5.5更省token但约13%。结果表明当前智能体远未达专业级：瓶颈不在基本GUI控制或编码，而是丢失约束、错过中途信息、猜测而非询问、跳过验证，尤其依赖隐藏状态时最差。",
+      "reason": "第一个真正长周期、真实工作流的计算机使用基准，结果显示当前最先进的 agent 仍不及格，关键短板不在 GUI 操作而在状态跟踪和验证，做 agent 的人必须读。",
+      "score": 82,
+      "tags": [
+        "Agent",
+        "论文/研究",
+        "评测/基准"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "08:00",
+      "date": "6月28日"
+    },
+    {
+      "id": "cmqwub84n008jslp0ael13807",
+      "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
+      "link": "https://x.com/cb_doge/status/2070973276562530507",
+      "summary": "消息：SpaceX 刚刚注册了“SpaceXAI”商标。\n\n埃隆·马斯克表示 xAI 将解散，不再作为独立公司，因此它将只是 SpaceXAI，SpaceX 的 AI 产品。",
+      "reason": "马斯克将 xAI 解散并入 SpaceX 的传闻如果属实，会是今年最重要的 AI 商业整合之一，但仅凭一条推文，证据不足，需要看后续。",
+      "score": 76,
+      "tags": [
+        "xAI",
+        "行业动态"
+      ],
+      "source": "X：cb_doge (@cb_doge)",
+      "time": "04:56",
+      "date": "6月28日"
+    },
+    {
+      "id": "cmqwticse001aslp07j2fbwv8",
+      "title": "Weave 推出智能模型路由工具，可直接接入 Claude Code、Codex 和 Cursor",
+      "link": "https://github.com/workweave/router",
+      "summary": "Weave 发布智能模型路由工具，通过 `npx @workweave/router` 安装，作为本地代理运行在 localhost:8080。它采用基于 Avengers-Pro 1 的集群评分器，每个请求自动选择最佳模型。支持 Anthropic、OpenAI、Gemini 原生 API，并通过 OpenRouter 接入 DeepSeek、Kimi、GLM、Qwen、Llama、Mistral 等开源模型。用户自行保管提供商密钥，数据本地加密存储。工具兼容 Claude Code、Codex、Cursor 等客户端，并提供 OTLP 追踪，支持自托管部署。",
+      "reason": "如果你在 Claude Code、Codex 和 Cursor 之间反复切换模型，这个代理用一个端点和智能路由就解决了，省掉不少麻烦。基于 Avengers-Pro 的路由比瞎猜靠谱得多。",
+      "score": 72,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "编码"
+      ],
+      "source": "Hacker News：AI 热帖",
+      "time": "04:33",
+      "date": "6月28日"
+    },
+    {
+      "id": "cmqwr2hi6008msliky22llevm",
+      "title": "一条命令在HF Jobs上启动vLLM服务器",
+      "link": "https://huggingface.co/blog/vllm-jobs",
+      "summary": "HuggingFace Jobs 支持一条命令启动 vLLM 服务器，用于测试、评估或批量生成。使用 `hf jobs run` 命令，指定官方 `vllm/vllm-openai` 镜像、GPU flavor（如 `a10g-large`）、暴露端口 8000 并设置超时。服务器启动后可通过 OpenAI 兼容 API 访问，每次请求需携带 HF token 作为 bearer token（仅限有读权限的用户）。示例部署了 Qwen/Qwen3-4B（多 GPU 需 `--tensor-parallel-size`）。`a10g-large` 价格为 $1.50/小时，按分钟计费，可通过 `hf jobs cancel` 停止。",
+      "reason": "这是一条命令在HF上启动vLLM的完整教程，适合快速测试模型的开发者，但方案完全绑定Hugging Face平台，通用性有限。",
+      "score": 62,
+      "tags": [
+        "Hugging Face",
+        "教程/实践",
+        "部署/工程"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "03:25",
+      "date": "6月28日"
+    },
+    {
+      "id": "cmqwmotnk01tasly021bf38i5",
+      "title": "苹果Vision负责人跳槽OpenAI，触控OLED MacBook用M5芯片",
+      "link": "https://x.com/berryxia/status/2070916520822321292",
+      "summary": "2026年6月26日，Mark Gurman称苹果Vision产品组副总裁Paul Meade下周离职加入OpenAI硬件部门。他负责Vision Pro、无屏幕AI智能眼镜及AR眼镜研发。苹果计划首款触控OLED MacBook使用M5 Pro/Max芯片，2026年底到2027年初发布；M7 Pro/Max版本2027年底跟进。苹果此前因涨价市值蒸发2300多亿美元。核心高管流失至OpenAI凸显AI硬件竞争加速。",
+      "reason": "Paul Meade 从苹果 Vision Pro 跳槽 OpenAI，不是普通人事变动，而是 AI 硬件竞赛正式开打的信号，做硬件的可以开始紧张了。",
+      "score": 76,
+      "tags": [
+        "OpenAI",
+        "多模态",
+        "行业动态"
+      ],
+      "source": "X：Berry Xia (@berryxia)",
+      "time": "01:22",
+      "date": "6月28日"
+    },
+    {
+      "id": "cmqwm45f901n6sly0gpl6b6l5",
+      "title": "DeepSeek 开源 DSpark 投机解码框架，加速 DeepSeek-V4 生成速度 60–85%",
+      "link": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1",
+      "summary": "DeepSeek 发布 DSpark 投机解码框架并开源检查点与训练代码。该框架不是新模型，而是在 DeepSeek-V4 权重上附加草稿模块，通过半自回归生成（并行骨干 + 轻量级顺序头）实现无损加速。生产环境下，DeepSeek-V4-Flash 和 V4-Pro 每用户生成速度较 MTP-1 基线分别提升 60–85% 和 57–78%。离线测试中，接受长度比 Eagle3 高 26–31%，比 DFlash 高 16–18%。配套 DeepSpec 训练代码库采用 MIT 许可证。",
+      "reason": "DeepSeek 开源的这个投机解码框架让 V4 生成提速 60% 以上，关键在于不换模型就能加速，对用 API 做产品的人是立即可用的性能提升。代码和权重都给了，值得一试。",
+      "score": 79,
+      "tags": [
+        "DeepSeek",
+        "推理",
+        "论文/研究",
+        "部署/工程"
+      ],
+      "source": "MarkTechPost（RSS）",
+      "time": "01:06",
+      "date": "6月28日"
+    },
+    {
+      "id": "cmqwju303014msly0vp9nlrjv",
+      "title": "一次失败的（民族国家？）攻击的剖析",
+      "link": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack",
+      "summary": "作者收到伪装成新加坡VC Lua Ventures的虚假面试邮件，要求完成一个TypeScript仓库的“测试”。作者将仓库交给Claude扫描，在`typescript+5.9.2.patch`中发现base64混淆载荷，该载荷在`patch-package`安装时触发，向`~/.cache-`等目录写入`payload.js`和`mutex.js`，构成后门（命名PinpinRAT）。攻击者使用虚构身份和空洞LinkedIn资料，目标是作者在crates.io上的Rust包。相关信息已报告加拿大CCCS等机构。",
+      "reason": "这是一次近乎完美的开发者定向攻击复盘，虚假面试加上精心构造的补丁注入 RAT，手法隐蔽到连作者都差点中招，所有靠开源吃饭的人都该认真看看 Ioc 并重新审视自己的代码审查盲区。",
+      "score": 81,
+      "tags": [
+        "安全/对齐",
+        "开源生态",
+        "部署/工程"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "00:03",
+      "date": "6月28日"
+    },
+    {
+      "id": "cmqwe6jrq000isl6uw2i3e6zy",
+      "title": "Runway API 推出广告本地化 Recipe",
+      "link": "https://x.com/runwayml/status/2070855164584726791",
+      "summary": "广告本地化现在可通过 Runway API 以 Recipe 形式使用。\n\n现在您可以通过单次 API 调用翻译静态广告和图形资产。",
+      "reason": "Runway 把广告本地化做成了一键 API，对出海团队是实打实的效率提升，但放在整个 AI 行业里这只是个功能补齐。",
+      "score": 66,
+      "tags": [
+        "产品更新",
+        "多模态"
+      ],
+      "source": "X：Runway (@runwayml)",
+      "time": "21:24",
+      "date": "6月27日"
+    }
+  ]
+}

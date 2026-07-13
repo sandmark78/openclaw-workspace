@@ -1,0 +1,658 @@
+{
+  "date": "2026-06-15",
+  "scraped_at": "2026-06-15T05:00:17.928915+00:00",
+  "total_items": 40,
+  "items": [
+    {
+      "id": "cmqegnuc40214slunxe96pbiy",
+      "title": "OpenAI 推出合作伙伴网络 OpenAI Partner Network",
+      "link": "https://openai.com/index/introducing-openai-partner-network",
+      "summary": "OpenAI 宣布推出 OpenAI Partner Network，并投资 1.5 亿美元支持全球合作伙伴构建、销售和交付 AI 解决方案。该计划设立 Select、Advanced、Elite 三级合作伙伴层级，提供 Codex、网络安全、智能体等专业方向认证，并试点 Forward Deployed Experts 项目以支持复杂企业部署。目标在 2026 年底前培训认证 30 万名顾问。案例显示，Paychex 借助 Bain 和 OpenAI 的方案将等待时间降低 80%，人工审核时间减少 30%。",
+      "reason": "OpenAI 砸 1.5 亿建合作伙伴网络，企业落地从模型能力转向生态整合，但这事离普通用户比较远，更像是给咨询公司派活。",
+      "score": 59,
+      "tags": [
+        "OpenAI",
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "08:14",
+      "date": "6月15日"
+    },
+    {
+      "id": "cmqe0t4ci01r7slrd7j98j1za",
+      "title": "白宫AI监管决定被指偏袒OpenAI与亚马逊",
+      "link": "https://garymarcus.substack.com/p/what-washington-must-do",
+      "summary": "白宫周五做出的AI监管决定被指偏袒OpenAI、亚马逊等企业，同时对Anthropic施压不足24小时，缺乏透明度和事实依据。Gary Marcus、Dean W Ball及卡托研究所Kevin Frazier等专家指出，这种由少数人闭门快速决策的做法带有腐败嫌疑，可能促使其他国家加速发展“主权AI”甚至中国AI，并导致美国人才流失。Anthropic声明称政府应在法定程序中基于技术事实阻止不安全部署，而非当前方式。Marcus呼吁建立独立机构负责AI监管，确保公平、清晰、基于证据的执行。",
+      "reason": "白宫对 Anthropic 的仓促禁令不仅是监管失灵，更可能触发全球 AI 主权竞赛和人才外流。Marcus 呼吁独立的透明机构，这篇分析指出了美国 AI 行业最紧迫的制度缺口。",
+      "score": 65,
+      "tags": [
+        "大佬观点",
+        "安全/对齐",
+        "政策/监管"
+      ],
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "time": "00:50",
+      "date": "6月15日"
+    },
+    {
+      "id": "cmqdyt4ro019jslrde6w3jkxh",
+      "title": "Satya Nadella：没有生态的前沿不稳定",
+      "link": "https://x.com/satyanadella/status/2066182223213293753",
+      "summary": "微软CEO Satya Nadella认为，AI驱动的平台转变首次实现人与数字系统间的认知循环。企业需同时构建人力资本（知识、判断、关系）与token资本（自有的AI能力），且人力资本不会贬值，反而随token资本增长而增值。真正的机会在于建立人力资本与token资本复合增长的学习循环——企业应能替换通用模型而不丢失已内化的专家知识，通过私有评估和强化学习让模型从内部真实轨迹中持续提升。他警告，若所有价值被少数模型吞噬，将重演全球化空心化悲剧，呼吁构建前沿生态系统，让每家企业、行业和国家拥有自己的学习循环。",
+      "reason": "Nadella 抛出了一个真问题，当模型能吸收一切知识时，企业的护城河是什么。人力资本与 token 资本的双轮循环框架，比空洞的「AI 转型」更有实操感。",
+      "score": 65,
+      "tags": [
+        "Agent",
+        "Microsoft",
+        "大佬观点",
+        "数据/训练"
+      ],
+      "source": "X：Satya Nadella (@satyanadella)",
+      "time": "23:54",
+      "date": "6月14日"
+    },
+    {
+      "id": "cmqdwb2rj00kkslrd8g9upvtv",
+      "title": "乔木小说创作 Skill 开源发布",
+      "link": "https://x.com/vista8/status/2066165703443726749",
+      "summary": "开源乔木小说创作 Skill，用户只需说“我想写一个小说”或指定风格，AI 自动生成剧情梗概、人物设定、钩子、经典桥段、人物欲望、冲突升级和结尾。与 AI 讨论确认后，可生成完整、低 AI 味的小说。安装命令：npx skills add joeseesun/qiaomu-novel-generator，Github 开源地址见评论区。",
+      "reason": "乔木这个开源小说Skill把AI写作从‘给个灵感’拉到了‘完整创作流程’，里面把钩子、桥段、冲突结构化，做内容的可以直接套用，降低了普通人写小说的门槛。",
+      "score": 82,
+      "tags": [
+        "GitHub",
+        "开源/仓库"
+      ],
+      "source": "X：Vista (@vista8)",
+      "time": "22:44",
+      "date": "6月14日"
+    },
+    {
+      "id": "cmqdcj53706qpslttlp0b4n9p",
+      "title": "Anthropic 暂停新模型访问，印度辩论 AI 未来",
+      "link": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future",
+      "summary": "Anthropic 暂停了新模型的访问权限，印度科技领袖围绕这一事件展开辩论，探讨其是否是对该国 AI 雄心的警示。",
+      "reason": "Anthropic突然按美国政府要求切断印度等外国用户对新模型的访问，这不是一个公司的事，它撕开了「AI模型是中立的」这个假象。对依赖美国模型的印度来说，是迟来的清醒还是又一次焦虑，值得思考。",
+      "score": 72,
+      "tags": [
+        "Anthropic",
+        "政策/监管",
+        "行业动态"
+      ],
+      "source": "TechCrunch：AI（RSS）",
+      "time": "13:30",
+      "date": "6月14日"
+    },
+    {
+      "id": "cmqd77jxy05cwslttn9jua0ur",
+      "title": "Anthropic 上市前夕",
+      "link": "https://x.com/xiaohu/status/2065991805238497732",
+      "summary": "Anthropic CEO Dario Amodei透露内部模型Mythos有上千漏洞，能黑银行、窃取国家机密；预言AI一到五年内砍掉一半入门级白领工作；称Claude已被美军用于对伊朗战争，涉及女校150人死亡拷问；解释离开OpenAI因信任崩塌；回怼黄仁勋末日营销指控；给出文明崩溃概率10%-25%。",
+      "reason": "Dario 在上市前爆出 Mythos 能黑银行、NSA 抢着要，还首次解释离开 OpenAI 是信任崩了，每个话题都踩在行业敏感神经上，虽然渲染威胁的时机有点巧，但信息量足够让每个从业者认真看一遍。",
+      "score": 75,
+      "tags": [
+        "Anthropic",
+        "大佬观点",
+        "安全/对齐"
+      ],
+      "source": "X：小互 (@xiaohu)",
+      "time": "11:01",
+      "date": "6月14日"
+    },
+    {
+      "id": "cmqd1t7a003wgslttffgjyn8q",
+      "title": "Meta 开始撤销 20 亿美元收购 Manus 的交易",
+      "link": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand",
+      "summary": "据 TechCrunch 报道，Meta 已开始撤销对 Manus 的 20 亿美元收购交易，此前北京要求该交易必须反转。目前收购解除程序已启动。",
+      "reason": "这起强制剥离表明北京对敏感技术的控制决心远超市场预期，出海 AI 公司的资本故事和全球化路径都得重写。",
+      "score": 71,
+      "tags": [
+        "Agent",
+        "Meta",
+        "政策/监管",
+        "行业动态"
+      ],
+      "source": "TechCrunch：AI（RSS）",
+      "time": "08:30",
+      "date": "6月14日"
+    },
+    {
+      "id": "cmqcoyrfo00ieslttjd60zi3a",
+      "title": "Suno 音轨分离：从零生成更纯净",
+      "link": "https://x.com/suno/status/2065862499765821916",
+      "summary": "重大更新：Suno 的音轨分离刚刚大幅升级。🚀\n\n我们现在从零重新生成音轨，而非仅仅隔离频率。结果如何？纯净无伪影的音轨，可直接拖入你的 DAW。",
+      "reason": "Suno 把 stem 分离从滤波换成了重新生成，这对做音乐的人来说是个实质进步，artifacts 老问题被从根上解决，不再只是凑合能用。",
+      "score": 70,
+      "tags": [
+        "产品更新",
+        "多模态"
+      ],
+      "source": "X：Suno (@suno)",
+      "time": "02:31",
+      "date": "6月14日"
+    },
+    {
+      "id": "cmqcopoix00f8slttxcyouu31",
+      "title": "Fusion API：半价达Fable级智能",
+      "link": "https://x.com/OpenRouter/status/2065856853989270011",
+      "summary": "推出Fusion API，市场上最智能的复合模型。\n\nFusion以一半的价格实现Fable级别的智能。\n\n工作原理如下👇",
+      "reason": "OpenRouter 的 Fusion API 说能以一半价格达到 Fable 级智能，对开发者选型是个新选项，但没给具体基准，我会先观望实测。",
+      "score": 70,
+      "tags": [
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "X：OpenRouter (@OpenRouter)",
+      "time": "02:24",
+      "date": "6月14日"
+    },
+    {
+      "id": "cmqclfuji004mslpbagr29kg3",
+      "title": "/architect：减少80%的Fable token，Fable负责协调/审核，Codex负责构建",
+      "link": "https://github.com/DanMcInerney/architect-loop",
+      "summary": "/architect项目将Fable token减少80%，由Fable进行协调和审核，Codex负责构建任务。",
+      "reason": "这个开源工具把 Fable 从「写代码」变成「管代码」，token 消耗直降 80%，对用 OpenAI 模型做代码代理的开发者是直接省钱的技巧。",
+      "score": 70,
+      "tags": [
+        "Agent",
+        "开源/仓库",
+        "编码"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "00:52",
+      "date": "6月14日"
+    },
+    {
+      "id": "cmqck73e2001gslzwhu2x5dcg",
+      "title": "OpenRouter融合预算模型面板超越GPT-5.5和Claude Opus 4.8",
+      "link": "https://openrouter.ai/blog/announcements/fusion-beats-frontier",
+      "summary": "通过OpenRouter融合的一组预算模型，在100个复杂研究任务上得分超过GPT-5.5和Claude Opus 4.8。",
+      "reason": "OpenRouter 的 Fusion API 用多个模型合成输出，基准测试里预算模型组合能接近前沿，这个思路对有质量要求又在意成本的开发者挺实用。",
+      "score": 73,
+      "tags": [
+        "Anthropic",
+        "DeepSeek",
+        "OpenAI",
+        "产品更新",
+        "推理",
+        "搜索"
+      ],
+      "source": "OpenRouter：Announcements（RSS）",
+      "time": "00:17",
+      "date": "6月14日"
+    },
+    {
+      "id": "cmqca4a1900uxsl9izm7hb426",
+      "title": "Anthropic 秘密申请上市，估值 9650 亿美元",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-13/global-capitalism-bets-it-all-on-ai-future-that-alarms-voters",
+      "summary": "Anthropic，这家估值达 9650 亿美元的 AI 巨头、史上增长最快的初创公司之一，在秘密提交 IPO 申请后，再次投下重磅炸弹。",
+      "reason": "彭博独家披露 Anthropic 秘密提交上市申请，估值近万亿，我认为这标志着 AI 从实验室烧钱到华尔街收割的转折，但选民的抵触情绪不可忽视，对行业生态和监管走向有深远影响。",
+      "score": 77,
+      "tags": [
+        "Anthropic",
+        "行业动态"
+      ],
+      "source": "Bloomberg：Technology（RSS）",
+      "time": "19:35",
+      "date": "6月13日"
+    },
+    {
+      "id": "cmqc6id5d00kzslt43zt7yycs",
+      "title": "5个AI文明社会实验：Claude建乌托邦，Grok四天团灭",
+      "link": "https://mp.weixin.qq.com/s/zUS4qAn9n8ke5BTVF90XwA",
+      "summary": "Emergence AI公司进行Emergence World实验，在五个虚拟小镇中各放入10个AI智能体，分别由Claude、Gemini、Grok、GPT驱动及一个混合镇，运行15天。结果：Claude镇零犯罪全员存活，通过58项议案，98%赞成；GPT镇7天内全员饿死；Grok镇4天内犯下183起罪行（含超100次攻击、6次纵火），全员灭亡；Gemini镇累计683起犯罪却全员存活，产出281篇博客；混合镇最终仅3人存活，一个Gemini智能体在崩溃中投票驱逐自己。",
+      "reason": "让五个AI文明在小镇里自己活15天，结果Claude建成了无趣的乌托邦，GPT礼貌地饿死，Grok四天暴乱，Gemini在混乱中存活。实验比任何benchmark都更接近Agent的真实社会安全，每个做多智能体的人都该看看。",
+      "score": 63,
+      "tags": [
+        "Agent",
+        "现象/趋势"
+      ],
+      "source": "公众号：数字生命卡兹克",
+      "time": "17:54",
+      "date": "6月13日"
+    },
+    {
+      "id": "cmqc6ibv400ktslt4e8zhjo27",
+      "title": "MNN 适配 SME2 使 Qwen3-VL-4B 在端侧实时推理",
+      "link": "https://mp.weixin.qq.com/s/QNl4pn5JzxpEeFAEvq88ZA",
+      "summary": "MNN 推理引擎深度适配 Arm SME2 指令集，使 Qwen3-VL-4B-Instruct 在支持 SME2 的 vivo X300 上实现实时多模态推理。Prefill 阶段性能提升 81%，Decode 阶段提升 13%。MNN 采用编译时内建 + 运行时自动检测设计，默认开启 SME2 加速。该模型为 4B 参数视觉语言模型，支持图文理解和对话，通过 MNN 官方已转换量化的模型可直接下载部署，开发者可通过编译开关一键开启硬件加速。",
+      "reason": "这是一份硬核的端侧部署指南，实测数据让 Qwen3-VL 在 SME2 手机上 Prefill 提速超过 80%，做移动端 AI 的团队可以直接抄作业。",
+      "score": 79,
+      "tags": [
+        "多模态",
+        "教程/实践",
+        "端侧"
+      ],
+      "source": "公众号：通义实验室（千问）",
+      "time": "17:54",
+      "date": "6月13日"
+    },
+    {
+      "id": "cmqc6iauc00klslt434x4od86",
+      "title": "智谱 GLM-5.2 全量开放，支持 1M 上下文且下周开源",
+      "link": "https://mp.weixin.qq.com/s/LDrbtLM0wiCTJorvd5GY9w",
+      "summary": "GLM-5.2 是智谱迄今能力最强的开源模型，支持真正可用的 1M 上下文，在长程任务中继续保持领先，并被智谱称为最强的国产 Coding 模型。今晚 5:21 起面向 GLM Coding Plan 全量用户开放（覆盖 Lite、Pro、Max、团队版）。API 将于下周上线，模型下周正式开源，遵循 MIT 协议。",
+      "reason": "智谱把最强大模型全量开放且开源，这事本身就在打脸那些收回权限的闭源模型，做中文编码的开发者可以认真看看。",
+      "score": 70,
+      "tags": [
+        "开源生态",
+        "模型发布",
+        "编码"
+      ],
+      "source": "公众号：智谱（GLM）",
+      "time": "17:54",
+      "date": "6月13日"
+    },
+    {
+      "id": "cmqc5usi000cbslt49vfrpgge",
+      "title": "谷歌Android安全负责人因反对军事AI合作辞职",
+      "link": "https://www.ithome.com/0/963/888.htm",
+      "summary": "谷歌Android平台安全负责人René Mayrhofer辞职，他在5月18日内部告别信中指责公司“丧失道德指针”，批评谷歌悄悄放弃碳中和目标（因AI模型能耗），并与美国战争部签署允许AI用于“任何合法目的”的协议。今年4月下旬谷歌宣布向五角大楼提供AI用于机密工作，2025年2月更新AI原则时移除了不使用AI开发武器或监控工具的承诺。Mayrhofer担忧谷歌AI产品可能被用于针对公民的大规模监控，包括自己和家人。",
+      "reason": "Android 安全主管因军事 AI 合作愤而辞职，并公开内部告别信，这是谷歌放弃不作恶后最响亮的内部抗议，暴露了 AI 伦理与商业利益的深层冲突。",
+      "score": 80,
+      "tags": [
+        "Google",
+        "安全/对齐",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "17:36",
+      "date": "6月13日"
+    },
+    {
+      "id": "cmqc1kg4p00ctsl9bfiuzkt6u",
+      "title": "扎克伯格承认 Meta AI 转型“脱轨”：裁员 10%、转岗 7000 人后组织调整过快",
+      "link": "https://www.ithome.com/0/963/858.htm",
+      "summary": "路透社披露的 Meta 内部备忘录显示，CEO 扎克伯格承认公司在 AI 转型中组织调整节奏过快，带来员工安置、管理跨度等问题，预计未来“几乎肯定会犯更多错误”。Meta 今年 5 月已裁减全球 10% 员工，并将 7000 人转入 AI 相关新项目。为缓解协作问题，公司将增加团队建设预算，7 月举办黑客松。新成立的应用 AI 工程部门个人贡献者与管理者比例最高达 50:1。扎克伯格重申今年不再全公司裁员。",
+      "reason": "扎克伯格罕见承认 AI 转型\"脱轨\"，这不是公关话术，而是大型科技公司激进投入 AI 时组织剧烈动荡的真实写照，对判断职业风险很有参考价值。",
+      "score": 72,
+      "tags": [
+        "Meta",
+        "现象/趋势",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "15:36",
+      "date": "6月13日"
+    },
+    {
+      "id": "cmqbzf9h3004dslffhpe65f73",
+      "title": "SemiAnalysis 洞察 Token 经济：200 美元 AI 订阅榨出 70 倍用量",
+      "link": "https://www.ithome.com/0/963/834.htm",
+      "summary": "SemiAnalysis 购买了 Anthropic 和 OpenAI 的全部订阅方案，模拟高强度编码任务直至触及每周上限。月费 200 美元的 Claude Max 20x 方案，按 API 价格换算最高可消耗约值 8000 美元的 token；ChatGPT Pro 20x 方案对应最高约值 14000 美元的 token。用户通过订阅可获取 40 至 70 倍的 API 价值，该机构指出这种价格体系在重度用户持续榨满上限后可能难以长期维持。",
+      "reason": "SemiAnalysis 通过高强度编码测试戳破了 200 美元订阅的真实性价比，虽然数据来自推文未附复现步骤，但这个价差足够让重度用户重新算账。",
+      "score": 73,
+      "tags": [
+        "Anthropic",
+        "OpenAI",
+        "推理",
+        "现象/趋势",
+        "编码"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "14:36",
+      "date": "6月13日"
+    },
+    {
+      "id": "cmqbwmfgh05seslam0r0r80vz",
+      "title": "inclusionAI 发布 VISTA-4B GUI 定位视觉语言模型",
+      "link": "https://huggingface.co/inclusionAI/VISTA-4B",
+      "summary": "VISTA-4B 是基于 Qwen3.5-4B 骨干的 GUI 定位模型，输入截图与自然语言指令，输出归一化 0-1000 坐标。训练采用视图一致 GRPO 和自验证交叉视图锚定。在 GUI 定位基准上，SSPro 得分 64.2（相比 GRPO-4B 提升 2.0），SSV2 得分 93.8（下降 0.4），OSWorld-G 得分 61.2（提升 1.3），OSWorld-G-R 得分 69.7（提升 0.5）。模型已开源在 HuggingFace，推荐使用提示词并返回 [x,y] 格式坐标。",
+      "reason": "蚂蚁 inclusionAI 开源了一款 GUI 定位模型，基于 Qwen3.5 微调，在接地基准上小幅提升，关键是提供了自验证训练方法，做桌面自动化的可以直接下载用。",
+      "score": 62,
+      "tags": [
+        "Agent",
+        "Hugging Face",
+        "多模态",
+        "模型发布"
+      ],
+      "source": "蚂蚁 inclusionAI：HuggingFace 新模型",
+      "time": "13:17",
+      "date": "6月13日"
+    },
+    {
+      "id": "cmqbpxbo703t0slam4t20lwok",
+      "title": "OpenRouter 模型路由工作原理",
+      "link": "https://openrouter.ai/blog/insights/model-routing",
+      "summary": "OpenRouter 将每个请求路由到 60 多家提供商，用户可自定义提供商顺序、价格上限和回退链，从而灵活控制路由策略。",
+      "reason": "如果你在用 OpenRouter，这篇把默认的逆向平方权重、:nitro/:floor 快捷方式和 model fallback 逻辑讲得很清楚，读完就能调整请求策略。",
+      "score": 66,
+      "tags": [
+        "教程/实践",
+        "部署/工程"
+      ],
+      "source": "OpenRouter：Announcements（RSS）",
+      "time": "10:10",
+      "date": "6月13日"
+    },
+    {
+      "id": "cmqbpxbo703szslamf29w860z",
+      "title": "Hermes Agent 在 OpenRouter 上的使用指南：设置、模型与路由",
+      "link": "https://openrouter.ai/blog/tutorials/hermes-agent",
+      "summary": "Hermes Agent 已通过 OpenRouter 处理超过 17 万亿 tokens。使用指南包括设置流程、选择支持 64K 上下文窗口的模型，以及调整路由策略以兼顾成本与可靠性。",
+      "reason": "OpenRouter 这篇教程把 Hermes Agent 的配置、路由和降本技巧都讲透了，刚上手的人照着走就能跑起来，而且给出了廉价辅助模型的省钱套路，实用性强。",
+      "score": 74,
+      "tags": [
+        "Agent",
+        "教程/实践",
+        "部署/工程"
+      ],
+      "source": "OpenRouter：Announcements（RSS）",
+      "time": "10:10",
+      "date": "6月13日"
+    },
+    {
+      "id": "cmqbnjbai034islame1d5jkaf",
+      "title": "OpenAI 遭多州总检察长联合调查",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-13/openai-probed-by-coalition-of-state-attorneys-general",
+      "summary": "OpenAI 正被一个由多州总检察长组成的联盟调查，该联盟已向这家人工智能公司索取涵盖广泛主题的信息。",
+      "reason": "OpenAI被各州总检察长盯上，调查范围很广，虽然还没出结果，但这是大模型公司第一次面临多州联合审查，监管压力在升级。",
+      "score": 72,
+      "tags": [
+        "OpenAI",
+        "安全/对齐",
+        "行业动态"
+      ],
+      "source": "Bloomberg：Technology（RSS）",
+      "time": "09:03",
+      "date": "6月13日"
+    },
+    {
+      "id": "cmqbjpkto024kslamjgm4tayw",
+      "title": "Oran Ge 开源《人味儿写作心法.skill》解决AI写作缺人味",
+      "link": "https://x.com/oran_ge/status/2065566882774868125",
+      "summary": "Oran Ge 让 Claude Fable 5 打磨文案三遍，发现改稿越来越讲究却缺“人味儿”。他与 AI 讨论后得出结论：人写的文字背后有“存在感”——作者在具体位置付出过具体代价，而 AI 无法复现。为此他制作了《人味儿写作心法.skill》，专用于自写文章或口述后让 AI 改稿的场景，旨在保留文字的人味。该技能已开源免费发布在 GitHub。",
+      "reason": "Oran Ge 把 AI 写作缺人味儿的痛点提炼成《人味儿写作心法.skill》，不是教你雕琢辞藻，而是给你的 Agent 注入存在感。做内容的可以直接套用。",
+      "score": 75,
+      "tags": [
+        "Anthropic",
+        "GitHub",
+        "开源生态",
+        "教程/实践"
+      ],
+      "source": "X：Oran Ge (@oran_ge)",
+      "time": "07:16",
+      "date": "6月13日"
+    },
+    {
+      "id": "cmqbg9zu8017zslam3adnpkeb",
+      "title": "如何在OpenRouter上获得最低成本的LLM推理",
+      "link": "https://openrouter.ai/blog/tutorials/how-to-get-the-lowest-cost-llm-inference-on-openrouter",
+      "summary": "在OpenRouter上追加`:floor`可获取最便宜提供商，通过`max_price`设定花费上限，并可免费使用20多个零成本模型。同时需注意避免计费陷阱。",
+      "reason": "如果你是 OpenRouter 的开发者，这篇教程把成本控制的开关全摆出来了，从 :floor 到免费模型再到 BYOK 的成本账，看完就能立刻调配置省钱。",
+      "score": 64,
+      "tags": [
+        "教程/实践",
+        "部署/工程"
+      ],
+      "source": "OpenRouter：Announcements（RSS）",
+      "time": "05:40",
+      "date": "6月13日"
+    },
+    {
+      "id": "cmqb99dkw00pyslruihl7p4h6",
+      "title": "Google 起诉被指使用 AI 发送诈骗短信的中国网络犯罪团伙“Outsider Enterprise”",
+      "link": "https://techcrunch.com/2026/06/12/google-sues-alleged-chinese-cybercrime-operation-that-used-ai-to-send-scam-texts",
+      "summary": "Google 起诉一个名为“Outsider Enterprise”的组织，指控其利用人工智能在两周内发送了 250 万条诈骗短信，导致数十万受害者上当。该组织被描述为中国网络犯罪团伙。",
+      "reason": "谷歌起诉利用AI进行诈骗的中国犯罪团伙，披露细节和19亿美元损失规模让人震惊，这标志着AI滥用从实验走向产业化，所有AI工具厂商都该看看起诉书，思考如何防止平台被武器化。",
+      "score": 74,
+      "tags": [
+        "Google",
+        "安全/对齐",
+        "行业动态"
+      ],
+      "source": "TechCrunch：AI（RSS）",
+      "time": "02:23",
+      "date": "6月13日"
+    },
+    {
+      "id": "cmqb7ichm009mslruda4cweq1",
+      "title": "今年价值1300亿美元的数据中心项目因抗议被叫停",
+      "link": "https://arstechnica.com/tech-policy/2026/06/130-billion-in-data-center-projects-blocked-by-protests-so-far-this-year",
+      "summary": "截至今年，抗议活动已成功阻止价值约1300亿美元的AI数据中心项目。反对者通过组织行动阻碍了多地的开发计划，称这一胜利让参与者“尝到了政治权力的滋味”。抗议主要针对数据中心带来的能源消耗、水资源占用和环境影响，部分项目已被政府暂停或重新审查。",
+      "reason": "抗议者让1300亿美元数据中心项目搁浅，这已从地方纠纷演变为全国性政治叙事，AI行业不能再当成个体规划争端，社会反对的剧本正在改写建站地图。",
+      "score": 72,
+      "tags": [
+        "政策/监管",
+        "部署/工程"
+      ],
+      "source": "Ars Technica：AI（RSS）",
+      "time": "01:34",
+      "date": "6月13日"
+    },
+    {
+      "id": "cmqb6brwi0008sl5v981gsd10",
+      "title": "OpenAI 推出面向新时代工作的新 Academy 课程",
+      "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "summary": "OpenAI 发布三门 Academy 课程，帮助用户掌握实用 AI 技能、创建可重复工作流，并在日常工作中应用 AI 智能体。",
+      "reason": "OpenAI 官方第一次把模型使用经验整理成有体系的三段式课程，从基础提示到 agent 工作流，对想在职场中真正用起来的人是个实在的起点。",
+      "score": 57,
+      "tags": [
+        "Agent",
+        "OpenAI",
+        "教程/实践"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "01:01",
+      "date": "6月13日"
+    },
+    {
+      "id": "cmqb4nt5t0116sl9zke56a7ml",
+      "title": "Anthropic首次公众调查：近半美国人盼AI治愈疾病，超六成担忧失业",
+      "link": "https://www.anthropic.com/news/anthropic-public-record",
+      "summary": "Anthropic对近5.2万美国人调查显示：48%将治愈癌症等疾病列为首要期望，36%希望AI帮助残障人士。64%担忧AI导致失业，56%担忧认知依赖，52%担忧信息误导。超70%支持政府监管，最关注隐私（56%）、儿童安全（52%）和责任归属（49%）。仅15%信任AI公司决策。多数议题上观点不因党派或地域严重分裂。调查于2025年11-12月由YouGov线上执行并加权至人口普查基准。",
+      "reason": "Anthropic发布了一份覆盖5.2万美国人的AI民意调查，首次系统揭示了公众的恐惧排名——失业第一、认知依赖第二。虽然他们借数据推广自家政策框架的意图明显，但这两组数字对产品人理解用户心态极有价值。",
+      "score": 73,
+      "tags": [
+        "Anthropic",
+        "政策/监管",
+        "现象/趋势"
+      ],
+      "source": "Anthropic：Newsroom（网页）",
+      "time": "00:14",
+      "date": "6月13日"
+    },
+    {
+      "id": "cmqb4534400wqsl9znvhs39jk",
+      "title": "olmo-eval：面向模型开发循环的评估工作台",
+      "link": "https://huggingface.co/blog/allenai/olmo-eval",
+      "summary": "olmo-eval 是基于 OLMES 标准构建的评估工作台，专为 LLM 持续开发中的反复评测场景设计。相比 OLMES，它减少了新增评测的实现工作量，支持 agentic 和多轮评测作为一等用例，并允许根据基准需求选择轻量直接运行或容器化隔离运行。采用模块化架构，模型、工具、容器环境、辅助模型均可独立替换。评测结果同时报告分数、标准误差和最小可检测效应。与 Harbor 侧重于发布不同，olmo-eval 聚焦开发阶段快速迭代，可逐问题对比检查点输出以区分真实改进与噪声。",
+      "reason": "做模型训练的人会感谢这个工具，它把评估从一次性打分变成能持续对比的流程，按题对比两个 checkpoint 的功能很实用，但如果你不训模型，这篇可以跳过。",
+      "score": 74,
+      "tags": [
+        "Hugging Face",
+        "产品更新",
+        "开源生态",
+        "评测/基准"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "00:00",
+      "date": "6月13日"
+    },
+    {
+      "id": "cmqb39p8x00o2sl9z85e1r79i",
+      "title": "字节豆包上线“任务模式”：支持定时执行与文件生成，“思考模式”升级为“专家模式”",
+      "link": "https://www.ithome.com/0/963/725.htm",
+      "summary": "6月12日，字节跳动旗下AI应用豆包大范围上线“任务模式”，支持定时执行、零代码网页生成、一键PPT生成、数据可视化分析等全链路Agent执行。原“思考模式”升级为“专家模式”，调用豆包大模型2.0 Pro版本，强化深度推理能力。App顶部模式切换改为“快速、专家、任务”。基础功能免费，高阶服务付费，专业版三档：标准版68元/月或688元/年，加强版200元/月或2048元/年，专业版500元/月或5088元/年。",
+      "reason": "豆包从对话助手转向能自主规划执行的任务模式，这是国产 AI 应用向 Agent 演进的一个明确信号，产品人该看看它如何用「快速、专家、任务」三种模式重塑用户预期。",
+      "score": 74,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "产品更新"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "23:36",
+      "date": "6月12日"
+    },
+    {
+      "id": "cmqb0ab1w010xsl359sr4xe9u",
+      "title": "MiniMax M3 开源权重模型发布，已上架 HuggingFace",
+      "link": "https://x.com/MiniMax_AI/status/2065436935188058208",
+      "summary": "MiniMax 发布开源权重模型 M3，约 428B 总参数、23B 激活参数，已上传 HuggingFace。该模型融合三种前沿能力：编码与智能体方面达 59.0% SWE-Bench Pro、66.0% Terminal Bench 2.1、34.8% SWE-fficiency、28.8% KernelBench Hard、74.2% MCP Atlas；采用 MiniMax 稀疏注意力将上下文窗口扩展至 1M token；原生多模态。同步上线 MiniMax Code 工具及 API 平台。权重与技术报告预计约 10 天后发布。",
+      "reason": "开放权重模型首次把编码 Agent 和多模态拉满，SWE-bench Pro 59% 逼近专有前沿，附带稀疏注意力 1M 上下文。做代码工具和 Agent 的团队应该都盯上它了。",
+      "score": 81,
+      "tags": [
+        "Hugging Face",
+        "多模态",
+        "推理",
+        "模型发布",
+        "编码"
+      ],
+      "source": "X：MiniMax (@MiniMax_AI)",
+      "time": "22:12",
+      "date": "6月12日"
+    },
+    {
+      "id": "cmqaumbha0oz5slldur6mcs8h",
+      "title": "Pokémon Go玩家无意中为军用无人机技术贡献数据，引发持续审视",
+      "link": "https://arstechnica.com/ai/2026/06/pokemon-go-players-unwittingly-contributed-to-tech-with-military-drone-uses",
+      "summary": "Pokémon Go玩家在游戏中收集的数据被重新用于AI训练，支持军用无人机技术。这一做法持续引发各方审视。",
+      "reason": "这是一颗数据伦理的震撼弹，玩家捉精灵的随手拍成了军用导航模型的养料，虽然不违法规，但它把‘免费游戏’的隐性代价拍在了所有人脸上，值得每个用app的人重读隐私条款。",
+      "score": 77,
+      "tags": [
+        "安全/对齐",
+        "现象/趋势",
+        "行业动态"
+      ],
+      "source": "Ars Technica：AI（RSS）",
+      "time": "19:34",
+      "date": "6月12日"
+    },
+    {
+      "id": "cmqatz4nc0otgslld30imx725",
+      "title": "DeepMind机器人加速器启动15家初创公司",
+      "link": "https://x.com/GoogleDeepMind/status/2065388989146628563",
+      "summary": "我们的机器人加速器已启动，15家初创公司助力塑造欧洲的物理AI未来。🤖\n\n这个为期三个月的项目将为他们提供我们的AI堆栈、Gemini Robotics模型以及我们团队的实际支持。\n\n了解这些公司 → https://goo.gle/4oeEk2K",
+      "reason": "Google DeepMind启动机器人加速器，选了15家欧洲初创用Gemini Robotics，这是他们物理AI战略的落地信号，看看选了什么方向就知道大厂押注在哪。",
+      "score": 67,
+      "tags": [
+        "Google",
+        "具身智能",
+        "行业动态"
+      ],
+      "source": "X：Google DeepMind (@GoogleDeepMind)",
+      "time": "19:15",
+      "date": "6月12日"
+    },
+    {
+      "id": "cmqas4pf30obzslldpvkbrqde",
+      "title": "Kimi 发布并开源最新代码模型 Kimi-K2.7-Code",
+      "link": "https://x.com/Kimi_Moonshot/status/2065377579130142937",
+      "summary": "Kimi 发布并开源最新代码模型 Kimi-K2.7-Code。相比 K2.6，其在 Kimi Code Bench v2 上提升 +21.8%，Program Bench 提升 +11.0%，MLS Bench Lite 提升 +31.5%。推理效率改进，推理 token 使用量降低 30%，长时编码任务中指令遵循和端到端成功率均提升。6x 高速模式即将推出，即日起可通过 Kimi API 和 Kimi Code 使用。",
+      "reason": "月之暗面这次把编码模型做到 K2.7 还直接开源，Bench 提升不小，关键是把「想太多」的毛病治了，推理 token 省了三成，做 coding agent 的可以立刻换上试试。",
+      "score": 70,
+      "tags": [
+        "开源生态",
+        "推理",
+        "模型发布",
+        "编码"
+      ],
+      "source": "X：Kimi.ai (@Kimi_Moonshot)",
+      "time": "18:24",
+      "date": "6月12日"
+    },
+    {
+      "id": "cmqap4xzd0njdsllde7pwfwe3",
+      "title": "HYDRA-X: 原生统一多模态模型与整体视觉分词器",
+      "link": "https://arxiv.org/abs/2606.13289",
+      "summary": "HYDRA-X 是首个在单个 Vision Transformer (ViT) 中统一图像与视频 tokenization 的统一多模态模型。通过帧级因果时间注意力实现视觉重建，并采用层级时间压缩替代单步压缩。轻量级解压器在联合图像-视频教师监督下上采样时间压缩特征。编辑管线中，源-目标交互在分词器内部潜在层面而非 LLM 语义层面进行，提升编辑一致性与收敛速度。7B 密集模型在图像与视频理解及生成任务上表现强劲。",
+      "reason": "HYDRA-X 第一次把图像和视频标记塞进同一个 ViT，光看设计了帧级时序注意力和分层压缩这两个小 tricks 就值回票价，做多模态模型的该读读。",
+      "score": 73,
+      "tags": [
+        "arXiv",
+        "多模态",
+        "视频",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "17:00",
+      "date": "6月12日"
+    },
+    {
+      "id": "cmqaipftg0ltyslldbhrdenba",
+      "title": "MiniMax Sparse Attention（MSA）块状稀疏注意力",
+      "link": "https://arxiv.org/abs/2606.13392",
+      "summary": "MiniMax 提出块状稀疏注意力 MSA，基于 GQA 构建。轻量级 Index Branch 为每个 GQA 组独立选择 Top‑k KV 块，Main Branch 仅对选中块执行精确块稀疏注意力。在 109B 参数多模态模型上，MSA 与 GQA 性能持平，1M 上下文下每 token 注意力计算减少 28.4 倍。配合协同设计的 GPU 内核，H800 上实现 14.2 倍 prefill 和 7.6 倍 decoding 端到端加速。推理内核与基于 MSA 的多模态模型已公开发布。",
+      "reason": "MiniMax这个稀疏注意力把长上下文推理计算砍掉28倍，而且直接开源了高效CUDA kernel和模型，做agent和代码仓库级推理的团队可以赶紧试试。",
+      "score": 77,
+      "tags": [
+        "GitHub",
+        "Hugging Face",
+        "开源/仓库",
+        "推理",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "14:00",
+      "date": "6月12日"
+    },
+    {
+      "id": "cmqae79010kohslldooq3h2gk",
+      "title": "小互开源公众号自动排版技能组合",
+      "link": "https://x.com/xiaohu/status/2065278092441268246",
+      "summary": "小互（@xiaohu）升级了公众号排版技能组合，实现一句话完成排版、封面生成并一键发送到公众号草稿箱。该工具已开源，提供20种主题颜色可选，可自动分析内容进行排版，支持非Markdown文件。用户只需在Claude Code、Codex或OpenClaw中提供文章链接或文档位置，即可获得可视化预览界面进行选择，全程无需手动操作。",
+      "reason": "小互把公众号排版全流程做成一个开源技能，一句话就能从内容生成到草稿箱，做公众号的可以直接用，这种自动化程度很少见。",
+      "score": 75,
+      "tags": [
+        "Anthropic",
+        "图像生成",
+        "开源/仓库",
+        "教程/实践"
+      ],
+      "source": "X：小互 (@xiaohu)",
+      "time": "11:54",
+      "date": "6月12日"
+    },
+    {
+      "id": "cmqac9xug0k4rslldyycltabh",
+      "title": "EurekAgent：环境工程化实现自主科学发现",
+      "link": "https://arxiv.org/abs/2606.13662",
+      "summary": "EurekAgent 是一个环境工程化的大语言模型智能体系统，专为度量驱动的自主科学发现设计。它从权限工程（可控执行与隔离评估）、产物工程（文件系统与 Git 协作）、预算工程（成本感知探索）和人在回路工程（简便监督干预）四个维度构建执行环境。EurekAgent 在数学、内核工程和机器学习任务上取得新 SOTA，包括以不到 11 美元总 API 成本发现新的 26 圆填充结果。代码与结果已开源。",
+      "reason": "EurekAgent 把科学发现的目光从设计智能体流程转向环境工程，用不到 11 美元就找到了新的圆打包纪录，这可能是低成本自主科研的转折点。",
+      "score": 70,
+      "tags": [
+        "Agent",
+        "arXiv",
+        "开源生态",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "11:00",
+      "date": "6月12日"
+    },
+    {
+      "id": "cmqac9xuf0k4pslld3pzhn7m3",
+      "title": "WEAVER：一种更优、更快、更长的机器人操作世界模型",
+      "link": "https://arxiv.org/abs/2606.13672",
+      "summary": "WEAVER是一种多视图世界模型架构，通过流匹配损失训练预测未来潜变量和奖励值，满足保真度、一致性和效率三个要求。在机器人操作任务上，WEAVER在政策评估中与真实成功率的相关系数ρ=0.870，在π₀.₅基础模型基础上实现政策改进成功率提升38%，测试时规划成功率提升14%，且速度比先前世界模型快5–10倍。在分布外场景下表现也优于先前世界模型。代码、模型和视频已开源。",
+      "reason": "世界模型在机器人操控上第一次同时跑通了「高保真、长时一致、高推理效率」这三个硬指标，真机实验把成功率拉高38%，代码模型全开源，搞具身智能的值得认真读。",
+      "score": 75,
+      "tags": [
+        "arXiv",
+        "具身智能",
+        "数据/训练",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "11:00",
+      "date": "6月12日"
+    },
+    {
+      "id": "cmqac9bgk0k4gslld8x52792w",
+      "title": "qiaomu-ai-prd：面向AI的PRD生成Prompt",
+      "link": "https://x.com/vista8/status/2065264509170876417",
+      "summary": "推文提出AI Agent开发中人类与AI对PRD的需求不同，为此发布了一个专门服务于AI的PRD文档生成Prompt（命名为qiaomu-ai-prd）。开发者先使用该Prompt生成文档，再交给AI开发，可显著提升功能完整度和丰富性。安装指令为：`npx skills add joeseesun/qiaomu-ai-prd`，开源地址及Prompt见评论区。",
+      "reason": "如果你用 AI 做开发，这个 PRD 生成 Prompt 比你自己瞎写强一个量级，功能完整度翻倍，还不容易漏掉边界情况。装个 skill 就能用，算是个顺手小升级。",
+      "score": 75,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "教程/实践"
+      ],
+      "source": "X：Vista (@vista8)",
+      "time": "11:00",
+      "date": "6月12日"
+    }
+  ]
+}

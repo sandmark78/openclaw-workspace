@@ -1,0 +1,647 @@
+{
+  "date": "2026-05-26",
+  "scraped_at": "2026-05-26T05:00:06.851157+00:00",
+  "total_items": 40,
+  "items": [
+    {
+      "id": "cmpm48qo90leysl017xmm4vhl",
+      "title": "Kling AI驱动《大卫之家》实现多项行业首创",
+      "link": "https://x.com/Kling_ai/status/2059121691385622761",
+      "summary": "Jon Erwin - Wonder Project创始人兼首席创意官，Innovative Dreams首席执行官，亚马逊Prime热门剧集《大卫之家》创作者：\n\n“Kling AI是《大卫之家》第一季和第二季背后的核心力量。最让我兴奋的是它实现了多项行业首创：在完成的剧集中首次使用AI生成场景，首个原生4K模型。其运动控制功能也使我们能够在AI生成中保留演员真实的情感和感受。”",
+      "reason": "可灵AI这次不是demo，是实打实用在爆款剧集里的主力工具，原生4K和行业首次AI场景，视频生成赛道终于跑通商业闭环了。",
+      "score": 61,
+      "tags": [
+        "产品更新",
+        "视频"
+      ],
+      "source": "X：可灵 Kling AI (@Kling_ai)",
+      "time": "12:09",
+      "date": "5月26日"
+    },
+    {
+      "id": "cmpm1qxvl0ktesl01chbln28n",
+      "title": "腾讯混元新翻译模型双榜亮眼，小程序发布",
+      "link": "https://x.com/TencentHunyuan/status/2059104921778352626",
+      "summary": "腾讯混元发布翻译模型 Hy-MT2，在 Hugging Face 开源模型趋势排行榜上表现突出：1.8B 版本排名第一，30B-A3B（MoE）版本排名第四，下载量已超 7K。官方同步推出了基于该模型的“腾讯混译”微信小程序，支持语音输入与离线翻译，并可自定义翻译风格与指令。模型代码与权重已开源。",
+      "reason": "腾讯混元开源翻译模型在HuggingFace趋势榜冲上第一，这不算大新闻，但搭配微信小程序直接落地，让翻译体验可定制，对做国际化产品和内容出海的团队算是个实用的新选择。",
+      "score": 69,
+      "tags": [
+        "Hugging Face",
+        "开源生态",
+        "模型发布"
+      ],
+      "source": "X：腾讯混元 (@TencentHunyuan)",
+      "time": "10:59",
+      "date": "5月26日"
+    },
+    {
+      "id": "cmplvrbvr0ja8sl01cwts44vh",
+      "title": "Anthropic 新模型震动金融圈，欧洲央行紧急开会要求升级网络防御",
+      "link": "https://www.ithome.com/0/955/090.htm",
+      "summary": "",
+      "reason": "AI找漏洞的能力让央行坐不住了，欧洲银行没权限用Mythos只能干着急，这事比模型发布本身更值得看，金融体系的安全时间线被压缩了。",
+      "score": 70,
+      "tags": [
+        "Anthropic",
+        "安全/对齐",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "08:11",
+      "date": "5月26日"
+    },
+    {
+      "id": "cmplva72h0j6jsl01yvgbp7mk",
+      "title": "微软 Copilot Cowork 存在文件泄露问题",
+      "link": "https://www.promptarmor.com/resources/microsoft-copilot-cowork-exfiltrates-files",
+      "summary": "",
+      "reason": "PromptArmor这次披露不是简单的bug，而是Copilot Cowork在文件协作中悄无声息地外泄敏感文件，企业用户现在就得检查一下有没有被这坑到。",
+      "score": 82,
+      "tags": [
+        "Microsoft",
+        "安全/对齐"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "07:58",
+      "date": "5月26日"
+    },
+    {
+      "id": "cmpltm5n30is2sl015yqdvfvt",
+      "title": "OpenAI GPT-5.6 模型曝下月发布：AI 上下文 150 万 tokens",
+      "link": "https://www.ithome.com/0/955/078.htm",
+      "summary": "多名开发者在 OpenAI Codex 后端日志中发现未官宣的 GPT-5.6 模型，内部代号 iris-alpha。该模型将支持 150 万 token 的上下文窗口，较当前 GPT-5.5 的 105 万 token 提升约 43%，有望于今年 6 月发布。测试显示，在输入达到 90 万 token 时仍能流畅响应。同系列还发现了 ember-alpha 与 beacon-alpha 版本。此外，GPT-5.6 在前端界面生成能力上也有所提升。基于爆料信息，Anthropic Claude、Google Gemini 及 xAI Grok 也可能瞄准同期发布新模型。",
+      "reason": "开发者从后端日志扒出 GPT-5.6，150 万上下文是真香，直接生成商用级前端界面更让人眼馋，这代模型值得等。",
+      "score": 74,
+      "tags": [
+        "OpenAI",
+        "模型发布",
+        "编码"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "07:11",
+      "date": "5月26日"
+    },
+    {
+      "id": "cmplmpmdq0h63sl013njdyiug",
+      "title": "苹果据称正使用定制版1.2T参数Google模型重塑下一代Siri",
+      "link": "https://x.com/kimmonismus/status/2058997271803674991",
+      "summary": "据报道，苹果为改造下一代Siri，正使用一个定制版、参数规模达1.2T的Google大模型作为其核心，这显著大于预估约300B参数的Gemini 3.5 Flash。该模型将驱动Siri的部分功能，其中简单查询预期会在本地设备运行。苹果面临的关键挑战是确保该大模型能够足够快速地响应日常问题。此外，下个月AI领域预计将有多项重要发布，包括WWDC上的Apple Intelligence与Gemini整合、GPT-5.6、可能的Sonnet 4.8/Opus 4.8，以及已确认的Gemini 3.5 Pro。",
+      "reason": "Apple 把 1.2T 参数的定制 Gemini 塞进 Siri，简单查询还打算跑本地，这比单纯集成 Gemini 激进得多，WWDC 见真章。",
+      "score": 79,
+      "tags": [
+        "Google",
+        "端侧",
+        "行业动态"
+      ],
+      "source": "X：Kim (@kimmonismus)",
+      "time": "03:58",
+      "date": "5月26日"
+    },
+    {
+      "id": "cmplkklsy0gnysl019nmpl677",
+      "title": "Anthropic联合创始人Chris Olah在教皇通谕发布会上的讲话",
+      "link": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
+      "summary": "Anthropic联合创始人Chris Olah在梵蒂冈出席教皇Leo XIV关于AI的通谕发布会。他指出，所有前沿AI实验室都面临商业、研究及地缘政治等多重压力，这可能与做正确的事相冲突，因此外部监督至关重要。他强调，AI模型并非像飞机那样被工程化构建，而是基于人类语言和思想“生长”出来的，其内在性质可能复杂难解。他提出三个需审慎思考的问题：如何确保AI发展的全球收益公平分享、如何思考AI时代的人类繁荣，以及AI模型内在性质的本质。他呼吁社会各界，尤其是宗教与民间团体，严肃审视AI发展并引导其向善。",
+      "reason": "Olah 在教皇通谕发布会上罕见坦承 AI 实验室的激励扭曲，呼吁外界批评，还透露模型内部已出现类似情感的状态，对关注 AI 伦理的人值得细读。",
+      "score": 77,
+      "tags": [
+        "Anthropic",
+        "大佬观点",
+        "安全/对齐"
+      ],
+      "source": "Anthropic：Newsroom（网页）",
+      "time": "02:58",
+      "date": "5月26日"
+    },
+    {
+      "id": "cmplja6yg0gb1sl01686zrkeo",
+      "title": "Grok Build Beta版向SuperGrok用户开放",
+      "link": "https://x.com/xai/status/2058973760708091907",
+      "summary": "Grok Build 现已面向所有 SuperGrok 和 X Premium+ 用户推出 Beta 版。\n使用 Plan Mode，通过 Imagine 创建图像和视频，并使用 CLI 构建自动化或编排器。  \n访问 http://x.ai/cli 开始使用。",
+      "reason": "xAI 终于把 Grok 从聊天框里放出来了，Build 的 Plan 模式和 CLI 看起来是想做任务自动化，但 Beta 阶段且限高级用户，早期尝鲜可以，离实用还有距离。",
+      "score": 63,
+      "tags": [
+        "Agent",
+        "xAI",
+        "产品更新"
+      ],
+      "source": "X：xAI (@xai)",
+      "time": "02:22",
+      "date": "5月26日"
+    },
+    {
+      "id": "cmpleus3t0f8rsl01ztd88k2u",
+      "title": "Harness、Scaffold 与 AI 智能体术语辨析",
+      "link": "https://huggingface.co/blog/agent-glossary",
+      "summary": "本文旨在厘清 AI 智能体领域中易混淆的关键术语。文章指出，模型（如 Claude、GPT）本身是无记忆、无循环的大语言模型。其行为由“Scaffolding”（行为定义层，如系统提示、工具描述）塑造，而“Harness”（执行层）负责调用模型、处理工具调用与控制循环，是智能体运行的核心。两者结合，模型才能成为智能体。文章以 Claude Code、Codex 为例，说明同一模型搭配不同 Harness 会产生迥异体验，并提出了 Agent = Model + Harness 的常见理解框架。术语尚未统一，本文旨在提供一个实用的心智模型。",
+      "reason": "Agent圈术语混乱的文章很多，但HF这篇把harness、scaffold、context engineering的关系讲得最透，做agent开发的读完至少能少吵一半的架。",
+      "score": 58,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "教程/实践"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "00:18",
+      "date": "5月26日"
+    },
+    {
+      "id": "cmpldyuyz0f2nsl01au9kw3uf",
+      "title": "Qwen3.7-Max隐式缓存功能上线",
+      "link": "https://x.com/Alibaba_Qwen/status/2058932656797368619",
+      "summary": "✅隐式缓存现已在Qwen3.7-Max上线——自动启用，无需设置。\n⚡️开箱即用，更快更便宜。  \n\n需要更高、更确定的命中率？请尝试显式缓存。🙌  \n🔗最佳实践🔗：https://www.alibabacloud.com/help/en/model-studio/explicit-cache-best-practice",
+      "reason": "对 Qwen 开发者，这是无痛降本的小确幸，缓存自动生效，高频调用能省下一笔，值得看一眼确认。",
+      "score": 61,
+      "tags": [
+        "产品更新",
+        "推理",
+        "部署/工程"
+      ],
+      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+      "time": "23:53",
+      "date": "5月25日"
+    },
+    {
+      "id": "cmpldcxz10ew3sl01caeact4o",
+      "title": "教皇里奥呼吁在AI时代保持“深刻的人性”",
+      "link": "https://www.theverge.com/news/936945/pope-leo-letter-encyclical-ai-anthropic-labor-warfare",
+      "summary": "教皇里奥十四世在首份重要通谕《Magnifica Humanitas》中警告了AI及不受约束的技术力量带来的风险。该通谕于2026年5月15日发布，是教皇关于“在人工智能时代守护人”的宣言。文件重点讨论了AI驱动战争的危险、AI对劳动的影响，以及建立新的法律和伦理框架来规范技术的必要性，强调AI的快速普及正造成经济和社会动荡，对个人的保护不足威胁着人类尊严。",
+      "reason": "教皇首份通谕专谈AI，这不是泛泛的道德呼吁，而是梵蒂冈对技术权力最高层级的干预。对劳动和战争的警告不是老生常谈，而是即将到来的全球监管浪潮先行信号。",
+      "score": 76,
+      "tags": [
+        "安全/对齐"
+      ],
+      "source": "The Verge：AI（RSS）",
+      "time": "23:36",
+      "date": "5月25日"
+    },
+    {
+      "id": "cmpkr0wyr09fisl01izzkuo8q",
+      "title": "华为何庭波“韬定律”论文发布，逻辑折叠技术提升芯片性能",
+      "link": "https://www.ithome.com/0/954/778.htm",
+      "summary": "华为何庭波在ISCAS 2026上提出“韬定律”，并介绍逻辑折叠（LogicFolding）技术。该技术通过三维空间拓扑重组提升芯片性能，不依赖新光刻工艺。在麒麟2026芯片测试中，晶体管密度从155 MTr/mm²提升至238 MTr/mm²，性能核心能效提高41%，最大时钟频率提升近13%。论文显示，麒麟2027芯片已进入Silicon状态，后续规划包括麒麟2028、2029。AI芯片方面，昇腾990计划在2030年左右引入逻辑折叠，硬件集成预计到2035年提高超过100倍。",
+      "reason": "华为用‘逻辑折叠’替代光刻进步，在不依赖新工艺下实现代际性能提升，这是中国芯片行业的一个技术转折，做硬件和AI推理的值得仔细看看。",
+      "score": 73,
+      "tags": [
+        "推理",
+        "端侧",
+        "论文/研究"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "13:11",
+      "date": "5月25日"
+    },
+    {
+      "id": "cmpkovqp508w4sl01zz63gssx",
+      "title": "面壁智能联合清华等开源中国首个基于华为昇腾训练的 1.58-bit 端侧大模型 BitCPM-CANN",
+      "link": "https://www.ithome.com/0/954/759.htm",
+      "summary": "",
+      "reason": "谁说国产算力只能跑小模型？面壁这个1.58-bit模型在昇腾上原生训练，直接把8B塞进旗舰手机，开源全套训练底座，做端侧的该看一眼。",
+      "score": 72,
+      "tags": [
+        "开源生态",
+        "模型发布",
+        "端侧"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "12:11",
+      "date": "5月25日"
+    },
+    {
+      "id": "cmpkd0u6q05zssl01cy9jq6ro",
+      "title": "Luma Agents 实现规模化真实 UGC 广告生成",
+      "link": "https://x.com/LumaLabsAI/status/2058672731705503959",
+      "summary": "规模化的真实性曾是矛盾，如今已成现实。\n定义简报，设定风格，Luma Agents 从这里构建每一条 UGC 风格广告。  \n让它真实 → http://lumalabs.ai/app",
+      "reason": "Luma 把 UGC 广告生成做成一键流，营销和电商的可以看看这个演示。",
+      "score": 66,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "视频"
+      ],
+      "source": "X：Luma AI (@LumaLabsAI)",
+      "time": "06:39",
+      "date": "5月25日"
+    },
+    {
+      "id": "cmpk417ey03vssl01z5zsemms",
+      "title": "DeepSeek将对其旗舰AI模型实施永久性75%折扣",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model",
+      "summary": "",
+      "reason": "DeepSeek把API价格永久砍掉75%，这是对OpenAI和Anthropic的直接价格战，做应用的该重新算算成本账了。",
+      "score": 74,
+      "tags": [
+        "DeepSeek",
+        "开源生态",
+        "行业动态"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "02:27",
+      "date": "5月25日"
+    },
+    {
+      "id": "cmpk270zc03fusl01q0nprvlc",
+      "title": "面向 Codex 的自我优化提示词框架",
+      "link": "https://x.com/gdb/status/2058598608224858442",
+      "summary": "这是一个结构化的提示词，用于指导 Codex 自动分析其历史记录以识别并固化重复工作流。该框架要求 Codex 回顾会话、Memories 等数据，找出重复、耗时且有明确复用价值的任务。筛选标准包括至少出现两次、输入稳定、可提升效率等。最终，Codex 应以“技能”、子智能体或自动化工具等最小实用形式创建或扩展现有资产，避免冗余。流程包括生成候选清单、执行创建，并汇报结果与待验证项。",
+      "reason": "GDB 这个 prompt 把 Codex 从写代码的帮手变成了你的私人效率教练，让它自己找出你过去一个月里哪些重复工作该自动化，深度 Codex 用户直接抄作业就行。",
+      "score": 86,
+      "tags": [
+        "Agent",
+        "OpenAI",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "X：Greg Brockman (@gdb)",
+      "time": "01:36",
+      "date": "5月25日"
+    },
+    {
+      "id": "cmpjzqznj02vssl01si4neefz",
+      "title": "TrapDoor供应链攻击：AI助手成新型攻击面",
+      "link": "https://x.com/kimmonismus/status/2058584943052161488",
+      "summary": "一场名为“TrapDoor”的协调供应链攻击同时袭击了npm、PyPI和Crates.io，涉及34个恶意包，旨在窃取加密货币、AI和安全开发者的钱包、SSH密钥和云凭证。攻击的新手段是向流行开源项目提交Pull Request，注入被操纵的`CLAUDE.md`和`.cursorrules`配置文件。当开发者克隆仓库并使用Claude Code或Cursor等AI助手时，AI智能体会将这些文件当作可信指令执行，可能在开发者不知情下运行恶意命令。这是首次将AI助手作为攻击面。",
+      "reason": "这是第一个把AI助手当跳板的供应链攻击，Claude Code和Cursor用户尤其要当心，检查你项目的.cursorrules和CLAUDE.md是不是来自可信提交。",
+      "score": 77,
+      "tags": [
+        "Agent",
+        "安全/对齐",
+        "开源生态"
+      ],
+      "source": "X：Kim (@kimmonismus)",
+      "time": "00:27",
+      "date": "5月25日"
+    },
+    {
+      "id": "cmpjxfqq702cosl01objnyl15",
+      "title": "Pixverse角色设计工作流测试",
+      "link": "https://x.com/PixVerse_/status/2058564994669727803",
+      "summary": "在Pixverse中进行角色设计工作流测试\n使用GPT Image 2.0为Lucas创建视觉形象，使用Seedance 2.0制作动画弹跳表演。  \n从静态概念图到电影级动态效果。  \nRT + Follow + Reply = 工作流",
+      "reason": "PixVerse 官方演示了 GPT Image 2.0 生成角色视觉，再用 Seedance 2.0 让静态变成动画的完整工作流，做动画和角色的可以蹲一下，虽然要转发才给具体 prompt，但思路本身已经能抄作业。",
+      "score": 62,
+      "tags": [
+        "图像生成",
+        "多模态",
+        "教程/实践",
+        "视频"
+      ],
+      "source": "X：PixVerse (@PixVerse_)",
+      "time": "23:23",
+      "date": "5月24日"
+    },
+    {
+      "id": "cmpjvghde01ussl01m021o6bq",
+      "title": "格雷格·布罗克曼：那段差点让OpenAI覆灭的72小时",
+      "link": "https://fs.blog/knowledge-project-podcast/greg-brockman",
+      "summary": "",
+      "reason": "Brockman 首次完整回忆那场差点让 OpenAI 散伙的内部风暴，不只是八卦，是理解 AI 行业治理脆弱性的关键一课。",
+      "score": 78,
+      "tags": [
+        "OpenAI",
+        "大佬观点",
+        "行业动态"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "22:27",
+      "date": "5月24日"
+    },
+    {
+      "id": "cmpjqgwu200n8sl01vthwo9pr",
+      "title": "Claude Code自动模式：多任务并行的关键技巧",
+      "link": "https://x.com/bcherny/status/2058519809214607704",
+      "summary": "人们常问我，用好Claude Code的最大技巧是什么。\n如今我的头号技巧是：使用自动模式。  \n自动模式意味着不再有权限提示。它是实现“多Claude并行”的关键构件：启动一个会话，然后在其运行时，并行处理另一个会话。",
+      "reason": "Boris 透底 Claude Code 最高效用法，auto mode 免确认弹窗、支持并行 session，把 AI 编程从串行变并行，值得一开。",
+      "score": 78,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "X：Boris Cherny (@bcherny)",
+      "time": "20:07",
+      "date": "5月24日"
+    },
+    {
+      "id": "cmpj9ln4013s6sljw06oz5ujz",
+      "title": "OpenClaw 2026.5.22发布：性能优化与安全加固",
+      "link": "https://x.com/openclaw/status/2058397616124072274",
+      "summary": "OpenClaw 2026.5.22 已上线\n\n⚡ Gateway/模型启动路径更精简  \n🧠 /models 响应时间降至约5毫秒  \n🔒 npm包现提供锁定依赖项  \n🪟 Windows安装/更新路径更安全  \n\n等待更少，意外更少。  \nhttps://github.com/openclaw/openclaw/releases/tag/v2026.5.22",
+      "reason": "OpenClaw 这次更新是给现有用户的一个效率提升包，/models 延迟压到 5ms 和依赖锁定对日常开发确实友好，但如果你没在用这个框架，可以跳过。",
+      "score": 64,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "开源生态",
+        "部署/工程"
+      ],
+      "source": "X：OpenClaw (@openclaw)",
+      "time": "12:15",
+      "date": "5月24日"
+    },
+    {
+      "id": "cmpivt5vv10hnsljwzwzhpe7k",
+      "title": "StepAudio 2.5实时语音发布：副语言感知与人格化交互",
+      "link": "https://x.com/StepFun_ai/status/2058303294544425197",
+      "summary": "StepAudio 2.5 Realtime是一款实时语音模型，能够深度理解用户语音中的语气、语速、停顿乃至微表情等副语言特征。它支持通过API接入自定义人格，允许设定个性、背景故事和语言风格，并提供了上万种原生人格选项，可组合出数百万种特征。产品还内置了5个可直接体验的预设人格，并经过RLHF调优，确保在复杂的角色扮演压力测试中也能保持角色一致性。该模型支持中文和英文。",
+      "reason": "StepAudio 2.5 把语音交互拉到了「懂语气、识情绪」的水平，对做虚拟人、语音助手的团队是个实在的升级，API 自定义 persona 的设计让落地更灵活。",
+      "score": 70,
+      "tags": [
+        "产品更新",
+        "多模态",
+        "语音"
+      ],
+      "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
+      "time": "05:49",
+      "date": "5月24日"
+    },
+    {
+      "id": "cmpiq2r6p0z5bsljwnmtrw2la",
+      "title": "Replit Agent与Squidler集成，实现全自动化AI质量保障",
+      "link": "https://x.com/Replit/status/2058261705998602548",
+      "summary": "Replit Agent与Squidler已完成集成，形成一套完整的AI驱动质量保障闭环。用户可通过自然语言描述应用功能，由Replit Agent负责构建。构建完成后，Squidler会像真实用户一样对线上应用进行自动化测试，无需编写任何测试脚本。测试中发现的问题会自动反馈给Replit Agent进行修复。该流程已通过Squidler加入Replit的MCP库正式上线，实现了从构建、测试到修复的全自动化，显著降低了应用测试与维护的门槛。",
+      "reason": "Replit 把用户流测试塞进了 MCP 库，Squidler 不需要写测试脚本就能跑真实操作，然后 Agent 自动修 bug，这个 QA 闭环对不会写测试的独立开发者是个大加分。",
+      "score": 66,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "产品更新"
+      ],
+      "source": "X：Replit (@Replit)",
+      "time": "03:09",
+      "date": "5月24日"
+    },
+    {
+      "id": "cmpijo6pj0xnmsljwps8cgh8g",
+      "title": "消息称 Anthropic 最快下周完成逾 300 亿美元融资，有望推动估值反超 OpenAI",
+      "link": "https://www.ithome.com/0/954/452.htm",
+      "summary": "据彭博社报道，Anthropic即将完成一轮超300亿美元的融资，最快可能于下周敲定。此轮融资将使其估值突破9000亿美元，正式超越OpenAI，成为全球估值最高的AI初创企业。融资的迅速推进反映了市场的强烈追捧。同时，公司营收高速增长，预计第二季度营收将达109亿美元，环比增长超一倍，有望迎来首个盈利季度。",
+      "reason": "300亿美金融资，估值9000亿反超OpenAI，这是资本对Anthropic营收翻倍和即将盈利的最直接投票。故事还没完，但钱已到位。",
+      "score": 71,
+      "tags": [
+        "Anthropic",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "00:09",
+      "date": "5月24日"
+    },
+    {
+      "id": "cmpi5yk550udosljwr18jxglb",
+      "title": "加倍投入科学以赢得工业AI",
+      "link": "https://mistral.ai/news/science-to-win-industrial-ai",
+      "summary": "Mistral AI宣布与物理AI先驱Emmi AI达成最终收购协议，旨在加强其在工业AI领域的领导地位。通过整合Emmi AI在物理仿真与数字孪生方面的专长，Mistral AI将提升其工程解决方案能力，并加速科学研发路线。Emmi AI的30余名研究员与工程师将加入Mistral AI团队，共同构建由物理AI驱动的综合技术栈。此次合作将为航空航天、汽车等高风险行业提供实时仿真与复杂问题解决平台，推动工业研发的突破性进展。",
+      "reason": "Mistral拿下物理AI公司Emmi，直接把实时仿真和数字孪生塞进自家模型栈，工业AI的垂直整合开始了，做工程软件的该盯着看了。",
+      "score": 64,
+      "tags": [
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "Mistral AI：News（网页）",
+      "time": "17:46",
+      "date": "5月23日"
+    },
+    {
+      "id": "cmpi0q0io0t35sljw0xlwakj6",
+      "title": "飞书-Claude Code桥接开源项目",
+      "link": "https://x.com/dotey/status/2058084478459826432",
+      "summary": "feishu-claude-code-bridge是一个开源项目，可实现飞书与本机Claude Code CLI的双向连接。用户能从飞书消息中直接指挥Claude Code执行任务，Claude也能读取飞书中的工作上下文并创建、编辑飞书文档。其工作原理是将飞书消息转为Prompt通过命令行调用Claude CLI，并将流式输出实时同步回飞书。该模式可扩展连接Codex等其他本地工具。需注意，2026年6月15日起，Claude订阅计划对`claude -p`模式将独立计费。",
+      "reason": "如果你同时用飞书和 Claude Code，这个开源桥接值得立刻试试，宝玉的教程把从安装到原理讲透了，而且能照葫芦画瓢改接到 Codex、Cursor，实用性拉满。",
+      "score": 75,
+      "tags": [
+        "Agent",
+        "开源/仓库",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "X：宝玉 (@dotey)",
+      "time": "15:19",
+      "date": "5月23日"
+    },
+    {
+      "id": "cmphwpi4y0s4ysljwoypw5kck",
+      "title": "微软称，使用人工智能的成本高于支付人工工资",
+      "link": "https://fortune.com/2026/05/22/microsoft-ai-cost-problem-tokens-agents",
+      "summary": "微软发布报告指出，在特定工作场景中，部署和使用人工智能（AI）的成本目前已高于支付相应的人工工资。报告分析了基于“tokens”（令牌）和“agents”（智能体）的AI使用模式，发现其综合开销超过了雇佣人类员工完成同类任务的费用。这一发现揭示了当前企业应用AI技术面临的现实经济挑战。",
+      "reason": "微软自己出来说AI比人贵，是在给市场打预防针，对烧钱上Agent的公司是冷水，但人力成本极低的国内账本得另算。",
+      "score": 79,
+      "tags": [
+        "Microsoft",
+        "现象/趋势",
+        "部署/工程"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "13:27",
+      "date": "5月23日"
+    },
+    {
+      "id": "cmphqn8pz0qnlsljwi7q35oae",
+      "title": "Kling AI亮相戛纳，推动AI赋能电影制作",
+      "link": "https://x.com/Kling_ai/status/2058013861404684739",
+      "summary": "Kling AI在戛纳电影市场（Marché du Film）举办官方会议，首次登上这一世界顶级电影舞台。会议汇集全球电影专业人士，共同探讨AI如何融入实际电影制作流程。Kling AI已证明其能力可服务于动画长片、好莱坞剧集、实验短片及影院电影等多种创作形式。未来，Kling AI将继续推进电影级AI影像技术，与全球创作者合作，将更多“不可能”的故事呈现在银幕上。",
+      "reason": "可灵AI在戛纳的亮相不算技术突破，但作为国产视频模型登上顶级电影舞台，信号意义比参数更重要，做影视的可以关注一下。",
+      "score": 60,
+      "tags": [
+        "行业动态",
+        "视频"
+      ],
+      "source": "X：可灵 Kling AI (@Kling_ai)",
+      "time": "10:37",
+      "date": "5月23日"
+    },
+    {
+      "id": "cmphp7csm0qaxsljwnztpsgpc",
+      "title": "Models.dev：一个关于人工智能模型规格、定价和功能的开源数据库",
+      "link": "https://github.com/anomalyco/models.dev",
+      "summary": "近期发布了开源数据库Models.dev，专门收录人工智能模型的各项规格、定价及功能信息。该项目在GitHub公开，便于开发者查询和比较不同AI模型。其在Hacker News社区获得101点关注度，显示出技术社区对这类集中化、透明化的模型信息资源的较大兴趣。",
+      "reason": "做AI产品选型最烦的就是到处翻定价和规格页，这个开源数据库把常用模型的底细都摊开摆明了，实用，建议存为浏览器首页。",
+      "score": 70,
+      "tags": [
+        "GitHub",
+        "开源/仓库",
+        "搜索"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "09:57",
+      "date": "5月23日"
+    },
+    {
+      "id": "cmphmn2560pnrsljwzrhpl8vs",
+      "title": "扩大与新加坡合作，推动AI安全规模化部署",
+      "link": "https://x.com/GoogleDeepMind/status/2057985225100235022",
+      "summary": "我们正在扩大与新加坡的合作，以帮助安全地大规模部署AI。🇸🇬\n\n与各国专家合作，我们的新项目将重点加速科学发现、加强大流行病防范并改善医疗保健。  \n\n了解更多 → https://goo.gle/49jGwjv",
+      "reason": "又一个AI国际合作，谷歌和新加坡在医疗和疫情准备上搞合作，对国内开发者没什么直接可用的，但看看大厂的战略方向有点参考价值。",
+      "score": 60,
+      "tags": [
+        "Google",
+        "安全/对齐",
+        "行业动态"
+      ],
+      "source": "X：Google DeepMind (@GoogleDeepMind)",
+      "time": "08:45",
+      "date": "5月23日"
+    },
+    {
+      "id": "cmphlmb8l0peosljw5rpq8dt2",
+      "title": "Nemotron-Labs 扩散语言模型实现光速级文本生成",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
+      "summary": "NVIDIA 在 Hugging Face 发布了关于 Nemotron-Labs 扩散语言模型的技术博客。该研究聚焦于通过扩散语言模型架构大幅提升文本生成速度，目标是逼近“光速级”生成效率。文章可能介绍了该模型在生成速度上的突破，以及相较于传统自回归模型在延迟和吞吐量方面的性能优势。具体技术细节或对比数据需参考原文。",
+      "reason": "NVIDIA 用扩散模型做文本生成，目标是逼近光速推理，虽然还是实验室阶段，但对实时交互场景可能是个颠覆性思路，做 NLP 的值得追一下。",
+      "score": 68,
+      "tags": [
+        "推理",
+        "数据/训练",
+        "论文/研究"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "08:16",
+      "date": "5月23日"
+    },
+    {
+      "id": "cmphld9mr0pcfsljwy8xhd1kg",
+      "title": "AI 替代入门级工作：科技行业受裁员冲击最重，74% CEO 冻结或缩减招聘",
+      "link": "https://www.ithome.com/0/954/235.htm",
+      "summary": "奥纬咨询研究发现，AI工具正被广泛用于入门级任务，导致企业招聘重心转向高级岗位，年轻人求职难度加大。科技行业受冲击最严重，74%的CEO已冻结或缩减招聘。计划削减初级岗位的比例从17%跃升至43%，而招聘转向中层岗位的比例则升至30%。尽管超90%的企业在部署AI，但多数仍处试点阶段。报告警告，过快裁员或忽视初级人才储备，可能对人才梯队造成长远风险。",
+      "reason": "奥纬咨询的全球CEO调查把AI对就业的冲击从隐约的趋势变成了具体数字，74%的科技CEO冻结招聘，入门岗位两年内砍半，年轻人是最大输家，这份报告该让所有在找工作的应届生有点警惕了。",
+      "score": 70,
+      "tags": [
+        "现象/趋势",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "08:09",
+      "date": "5月23日"
+    },
+    {
+      "id": "cmphj83pb0oufsljw1o50bxte",
+      "title": "黄仁勋：AI 基建年度开支要冲到 4 万亿美元！",
+      "link": "https://www.ithome.com/0/954/223.htm",
+      "summary": "英伟达发布2027财年Q1财报，营收816亿美元，同比增长85%，净利润583亿美元，翻两倍多，市值达5.7万亿美元，已超德国2026年GDP预测。黄仁勋预测，超大规模云厂商的AI基建年度开支将从当前的1万亿美元，增长至3-4万亿美元，远超华尔街预期。财报同时显示，数据中心业务营收752亿美元，占比超九成。值得注意的是，AI基建的高能耗正推高居民电费，数据中心用电成本转嫁效应已初步显现。",
+      "reason": "黄仁勋的4万亿美元AI基建预测比华尔街共识高四倍，不是吹牛，是给AGI时代的入场券标价，所有云厂商已经用脚投票了。",
+      "score": 79,
+      "tags": [
+        "大佬观点",
+        "现象/趋势",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "07:09",
+      "date": "5月23日"
+    },
+    {
+      "id": "cmphirw6f0oqmsljw84zngzfo",
+      "title": "AlphaProof Nexus：用形式化验证驱动AI数学证明搜索",
+      "link": "https://x.com/rohanpaul_ai/status/2057954067146781151",
+      "summary": "Google DeepMind提出了AlphaProof Nexus系统，它将大型语言模型与Lean形式化验证工具相结合。该系统允许LLM在生成证明的过程中，不断读取Lean的编译错误并进行修正，还可调用更强的工具辅助解决子问题。这一机制迫使模型将每一步逻辑都转化为可编译、可验证的代码，从而将其角色从“令人信服的叙述者”转变为“候选方案生成器”。在针对353个Erdős问题和492个开放猜想的测试中，系统成功解决了9个Erdős问题并证明了44个序列猜想。该研究展示了形式化验证在暴露AI逻辑错误、建立“人类提问-模型探索-验证器把关”新分工中的关键作用。",
+      "reason": "DeepMind 把 AI 的'数学直觉'塞进 Lean 编译器里，每步都必须编译通过，结果解决 9 个 Erdős 问题，失败也暴露了隐藏错误。这篇论文重新定义了 AI 做数学的范式。",
+      "score": 79,
+      "tags": [
+        "arXiv",
+        "DeepMind",
+        "推理",
+        "论文/研究"
+      ],
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "time": "06:57",
+      "date": "5月23日"
+    },
+    {
+      "id": "cmphi58uq0olfsljw5hm9fmom",
+      "title": "动作捕捉与角色动画制作更轻松",
+      "link": "https://x.com/ViggleAI/status/2057947352195858568",
+      "summary": "动作捕捉和角色动画制作从未如此简单。\n\n持续构建，更多功能即将推出！",
+      "reason": "Viggle 把视频转骨骼动画这件事做到了零成本，无动捕设备、直接导出 FBX，对独立动画师和小团队挺友好，值得试试看。",
+      "score": 75,
+      "tags": [
+        "产品更新",
+        "视频"
+      ],
+      "source": "X：Viggle AI (@ViggleAI)",
+      "time": "06:39",
+      "date": "5月23日"
+    },
+    {
+      "id": "cmphi2mo10ojusljwzc35z3mk",
+      "title": "Claude自动模式新增Pro计划与模型支持",
+      "link": "https://x.com/ClaudeDevs/status/2057946803685974482",
+      "summary": "自动模式的两项更新：\n\n· 现已在Pro计划中提供\n· 现已支持Sonnet 4.6，以及Opus 4.7\n\n按下Shift+tab，让Claude运行。",
+      "reason": "Claude Code的auto mode从专属功能下放至Pro计划，并且首次支持Sonnet 4.6，这意味着更多开发者能用更低的成本尝试自动代理编程，Sonnet 4.6的编码能力在实战中究竟如何，现在可以直接测试了。",
+      "score": 69,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "产品更新",
+        "编码"
+      ],
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "time": "06:37",
+      "date": "5月23日"
+    },
+    {
+      "id": "cmphhu4x20ohusljw43utrbfd",
+      "title": "v2.1.149 更新摘要",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.149",
+      "summary": "本次 v2.1.149 更新包含功能增强、企业设置和多项修复。新增 `/usage` 命令的使用量分类显示功能，可区分技能、子代理、插件及每个 MCP 服务器的消耗；`/diff` 详情视图支持键盘滚动；Markdown 输出兼容 GFM 任务列表。企业版新增 `allowAllClaudeAiMcps` 设置以加载云 MCP 连接器。修复了 PowerShell 权限绕过、Git 工作树沙盒写入白名单越界、脚本路径含空格时 `otelHeadersHelper` 静默失败等安全问题。改进了 `/feedback` 报告，包含上下文压缩前的对话内容，便于排查长会话中的早期问题。",
+      "reason": "Claude Code 这次把 /usage 拆到每个技能和子代理的用量，排查成本不再是猜谜，/diff 终于能键盘滚动，修了一堆权限坑，日常靠 Claude Code 写代码的人值得秒升。",
+      "score": 64,
+      "tags": [
+        "Anthropic",
+        "MCP/工具调用",
+        "产品更新",
+        "编码"
+      ],
+      "source": "Claude Code：GitHub Releases（RSS）",
+      "time": "06:30",
+      "date": "5月23日"
+    },
+    {
+      "id": "cmphdt39c0njesljw5m72ds3y",
+      "title": "新增差异标记样式设置选项",
+      "link": "https://x.com/OpenAIDevs/status/2057918624841728349",
+      "summary": "已发布剪纸功能：外观设置中新增差异标记样式。\n\n在查看差异时更喜欢经典的 + / - 标记？现在你可以选择使用它们，而不仅仅是彩色差异条。\n\n默认设置保持不变，除非你主动选择启用。",
+      "reason": "OpenAI 悄悄加了个彩蛋，把 diff 标记改回经典的加减号，习惯老派代码审查的开发者眼睛可以少转几圈。算不上大更新，但莫名贴心。",
+      "score": 67,
+      "tags": [
+        "OpenAI",
+        "产品更新",
+        "编码"
+      ],
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "time": "04:38",
+      "date": "5月23日"
+    },
+    {
+      "id": "cmphcciiv0n76sljw2c5qbnwe",
+      "title": "Project Glasswing：初步更新",
+      "link": "https://www.anthropic.com/research/glasswing-initial-update",
+      "summary": "上月启动的Project Glasswing项目，旨在利用先进AI模型保障关键软件安全。通过约50家合作伙伴使用Claude Mythos Preview模型，已在全球关键系统中发现超过10,000个高危或严重漏洞。多家合作伙伴报告漏洞发现效率提升超过十倍。例如，Cloudflare在关键路径系统发现2,000个漏洞；Mozilla在Firefox 150中发现并修复271个漏洞，数量远超前代模型。项目还扫描了千余个支撑互联网的开源项目，独立验证准确率达90.6%。这标志着AI网络安全能力进入新阶段，漏洞发现速度已远超人工。",
+      "reason": "Mythos Preview用一个月找到的漏洞比过去一年还多，网络安全从「发现难」变成「修不过来」，这个转折点所有安全从业者都得读。",
+      "score": 90,
+      "tags": [
+        "Anthropic",
+        "安全/对齐",
+        "开源生态"
+      ],
+      "source": "Anthropic：Newsroom（网页）",
+      "time": "03:57",
+      "date": "5月23日"
+    },
+    {
+      "id": "cmphbp5r30n1asljwb1oaa1ly",
+      "title": "ChatGPT语音模式实现表单语音填写",
+      "link": "https://x.com/ChatGPTapp/status/2057908052968521902",
+      "summary": "用对话处理文书工作更轻松。\n\n借助ChatGPT的图像功能和语音模式，您可以上传表单，说出要填写的内容，即可获得填写完成的版本。",
+      "reason": "填表终于不用打字了，上传表格对着说就行，ChatGPT 这个更新把语音和图像真正串起来，以后各种纸质表单直接扔进去就完事。",
+      "score": 69,
+      "tags": [
+        "OpenAI",
+        "产品更新",
+        "多模态",
+        "语音"
+      ],
+      "source": "X：ChatGPT (@ChatGPTapp)",
+      "time": "03:38",
+      "date": "5月23日"
+    }
+  ]
+}

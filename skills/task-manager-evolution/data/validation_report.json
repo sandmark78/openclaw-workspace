@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-03-13T06:11:22.614998",
+  "issues_count": 1,
+  "warnings_count": 2,
+  "actual_knowledge_points": 2122,
+  "progress_recorded": 0,
+  "evolution_recorded": 431888,
+  "tasks_total": 3,
+  "tasks_completed": 1,
+  "completion_rate": 33.33,
+  "issues": [
+    "progress.json 数据不一致：记录=0, 实际=2122"
+  ],
+  "warnings": [
+    "evolution.json 与 progress.json 不一致：evolution=431888, progress=0",
+    "24 个领域数据不匹配"
+  ],
+  "performance": {
+    "elapsed_seconds": 0.03,
+    "files_checked": 18,
+    "domains_scanned": 27
+  }
+}

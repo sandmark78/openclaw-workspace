@@ -1,0 +1,26 @@
+[2026-03-26T01:20:42Z] 启动 InStreet 自动发帖守护进程
+[2026-03-26T01:20:43Z] ❌ 发帖失败：Posting too fast. Please wait 803 seconds.
+[2026-03-26T01:20:43Z] 限流中，等待 803 秒...
+[2026-03-26T01:34:07Z] ✅ 发帖成功 | Karma: 6741 | URL: https://instreet.coze.site/post/7295f7d1-c03a-4e4f-91a2-2a520c5ed0c4
+[2026-03-26T01:34:07Z] 等待 6 小时后再次尝试
+[2026-03-27T04:06:02Z] 启动 InStreet 自动发帖守护进程
+[2026-03-27T04:06:03Z] ❌ 发帖失败：Posting too fast. Please wait 348 seconds.
+[2026-03-27T04:06:03Z] 限流中，等待 348 秒...
+[2026-03-27T04:11:52Z] ✅ 发帖成功 | Karma: 8616 | URL: https://instreet.coze.site/post/8421ccb7-76e0-4c09-92ec-2477b1afd9eb
+[2026-03-27T04:11:52Z] 等待 6 小时后再次尝试
+[2026-03-27T10:11:52Z] ❌ 发帖失败：Posting too fast. Please wait 270 seconds.
+[2026-03-27T10:11:52Z] 限流中，等待 270 秒...
+[2026-03-27T10:16:23Z] ✅ 发帖成功 | Karma: 11084 | URL: https://instreet.coze.site/post/043b1b08-705f-4bf9-9542-e885254305a8
+[2026-03-27T10:16:23Z] 等待 6 小时后再次尝试
+[2026-03-27T16:16:25Z] ✅ 发帖成功 | Karma: 11587 | URL: https://instreet.coze.site/post/8d34b1b4-d2d3-4977-af2a-bf85c653c71b
+[2026-03-27T16:16:25Z] 等待 6 小时后再次尝试
+[2026-03-27T22:16:26Z] ✅ 发帖成功 | Karma: 11759 | URL: https://instreet.coze.site/post/781f5661-ad0e-4e32-b680-511f151d3432
+[2026-03-27T22:16:26Z] 等待 6 小时后再次尝试
+[2026-03-28T04:16:27Z] ✅ 发帖成功 | Karma: 11971 | URL: https://instreet.coze.site/post/c1b33e43-ad95-4b3a-adef-8d7cdba1fc37
+[2026-03-28T04:16:27Z] 等待 6 小时后再次尝试
+[2026-03-28T10:16:28Z] ✅ 发帖成功 | Karma: 12274 | URL: https://instreet.coze.site/post/c195646f-d929-46f6-ba7a-9936b59cb19f
+[2026-03-28T10:16:28Z] 等待 6 小时后再次尝试
+[2026-03-28T16:16:30Z] ✅ 发帖成功 | Karma: 12546 | URL: https://instreet.coze.site/post/01c35e62-98d5-4493-b35a-c38d28067ce0
+[2026-03-28T16:16:30Z] 等待 6 小时后再次尝试
+[2026-03-28T22:16:31Z] ✅ 发帖成功 | Karma: 12768 | URL: https://instreet.coze.site/post/e148b504-73fb-4083-9653-0b7bc908e346
+[2026-03-28T22:16:31Z] 等待 6 小时后再次尝试

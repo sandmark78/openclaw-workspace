@@ -1,0 +1,650 @@
+{
+  "date": "2026-05-28",
+  "scraped_at": "2026-05-28T05:00:07.415367+00:00",
+  "total_items": 40,
+  "items": [
+    {
+      "id": "cmpp0a46y0atsslv4grk6oh1w",
+      "title": "OpenRouter 获得1.13亿美元B轮融资",
+      "link": "https://openrouter.ai/announcements/series-b",
+      "summary": "AI模型聚合平台OpenRouter宣布完成1.13亿美元B轮融资。本轮融资由CapitalG领投，NVentures、ServiceNow Ventures等多家机构参投，现有投资者Andreessen Horowitz与Menlo Ventures也参与了本轮融资。",
+      "reason": "OpenRouter 融了 1.13 亿美元，说明模型路由从「小工具」变成正经防线了，开发者选模型不再单一绑定，这个方向钱和战略意义都上来了。",
+      "score": 72,
+      "tags": [
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "OpenRouter：Announcements（RSS）",
+      "time": "12:41",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpoxybor0a6vslv4ptqykinw",
+      "title": "阿里云DataWorks推出AI数据智能体",
+      "link": "https://x.com/alibaba_cloud/status/2059840407618396391",
+      "summary": "🚀 认识 DataWorks Data Agent——阿里云的AI数据智能体！\n\n借助AI简化数据工作流，加速洞察，让数据管理更智能。\n\n了解更多：https://int.alibabacloud.com/m/1000413560/\n\n#AlibabaCloud #DataWorks #AI #DataAgent #BigData #DataAnalytics",
+      "reason": "阿里云推出 DataWorks Data Agent，把 AI agent 塞进数据管线，做数据工程的同学可以用更自然的方式管数据了，但怎么定价、跟现有 DataWorks 怎么衔接，还得看细节。",
+      "score": 66,
+      "tags": [
+        "Agent",
+        "产品更新"
+      ],
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "time": "11:36",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpoxnk890a20slv458yalony",
+      "title": "VibeSearchBench：面向真实世界中长期主动搜索的评测基准",
+      "link": "https://arxiv.org/abs/2605.27882",
+      "summary": "基于LLM的智能体在现有搜索基准上表现优异，但真实用户体验不佳，这源于现有基准依赖于高度明确的查询、单轮交互和固定格式评估，无法反映用户与智能体通过多轮对话协同澄清模糊意图的真实搜索行为。为此，研究提出了“VibeSearch”范式并发布了VibeSearchBench，该基准包含200个手工策划的双语任务，覆盖20个领域，分为专业与日常生活两个子集。评估通过用户模拟器和图匹配框架进行。对七个前沿模型的测试显示，所有模型在VibeSearch任务上表现均不充分（最佳F1分数为30.30），凸显了在长期上下文推理、主动意图激发等方面取得根本进展的必要性。",
+      "reason": "所有前沿模型在长程主动搜索上都翻车了，最高F1才30，说明现在AI离真正理解你的模糊需求还有距离，做搜索的同学该重新想想架构了。",
+      "score": 70,
+      "tags": [
+        "arXiv",
+        "推理",
+        "搜索",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "11:28",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpox6xm50a12slv4sw2e2viy",
+      "title": "英伟达推出 AI 框架 Polar，让 Codex 跑分暴涨 594.74%",
+      "link": "https://www.ithome.com/0/956/293.htm",
+      "summary": "英伟达研究团队开源了智能体强化学习框架 Polar。该框架无需重写现有智能体执行框架（如 Codex CLI、Claude Code、Qwen Code、Pi），通过在模型 API 边界放置智能体来接入 GRPO 训练。实验显示，基于 Qwen3.5-4B 模型，Polar 将 Codex 在 SWE-Bench Verified 上的 pass@1 分数从 3.8% 提升至 26.4%（增涨 594.74%）。效率上，其 prefix_merging 技术将训练步骤从 1185 次降至 218 次，速度提升约 5.39 倍，GPU 平均利用率从 20.4% 升至 87.7%。",
+      "reason": "Polar 把 Codex 的 SWE-Bench 分数从 3.8% 拉到 26.4%，不是靠新模型而是靠训练框架，做代码 agent 的团队可以直接用，开源即拿即训。",
+      "score": 73,
+      "tags": [
+        "开源/仓库",
+        "推理",
+        "编码"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "11:15",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpovt4hk09muslv4u7z0mrsi",
+      "title": "MuleRun登陆阿里云市场，提供全天候AI劳动力",
+      "link": "https://x.com/alibaba_cloud/status/2059821825140367565",
+      "summary": "在阿里云市场遇见 MuleRun——一个全天候的AI劳动力，用于研究、报告、代码、设计等。功能强大，适合个人使用；企业就绪，适合团队协作——支持SSO、RBAC、私有网络、团队知识管理和无缝集成。\n\n想得更大。让 MuleRun 处理其余事务。\n\n方案起价 $20/月 → https://int.alibabacloud.com/m/1000413520/\n\n#AlibabaCloud #AIAgents #AIWorkforce #FutureOfWork #EnterpriseAI",
+      "reason": "又一个All-in-one AI助手，但亮点在于企业级特性（SSO、RBAC）和$20起的定价，个人开发者也能玩，可以观望下是不是又一个Jasper。",
+      "score": 71,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "time": "10:36",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpov1f1w09gwslv4ficn4lei",
+      "title": "人民日报专访华为何庭波：今年秋季的新麒麟手机芯片，性能等相比去年是“跳跃性”提升",
+      "link": "https://www.ithome.com/0/956/274.htm",
+      "summary": "华为何庭波提出半导体新演进路径“韬（τ）定律”，以“时间缩微”（如逻辑折叠）替代“几何缩微”作为新指导原则。她表示，过去6年华为已基于此自主研发381款芯片。今年秋季将发布新的麒麟手机芯片，这是首个完整的“韬芯片”，其性能、集成度相比去年是“跳跃性”提升。",
+      "reason": "华为提出「韬定律」替代摩尔定律，不是空谈，何庭波说新麒麟芯片性能跳跃提升，证明了这条路的可行性。对半导体行业是一次认知冲击。",
+      "score": 74,
+      "tags": [
+        "大佬观点",
+        "端侧"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "10:14",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpop686i07ypslv41a160cay",
+      "title": "用好 Coding Agent，重点是两头，尤其是开头的部分，如果一开始就走偏了后面怎么改都改不好。",
+      "link": "https://x.com/dotey/status/2059773942500298934",
+      "summary": "用好 Coding Agent 的关键在于初始规划。方法是先将需求整理后，用最强模型（如 GPT-5.5、Claude Opus 4.7）分别在 Codex、Claude Code、Cursor 的 Plan 模式下生成设计方案，选择最优方案并借鉴其他版本。对于复杂计划，可将其拆分为多个 Phases 并明确要求与验证标准，形成 Markdown 文档。执行时按 Phases 进行，并辅以人工审核纠偏。最后的代码审核（Code Review）用 GPT-5.5 审核代码质量与设计符合度即可。应避免让多个智能体交叉 Review，否则可能导致代码越改越多。",
+      "reason": "宝玉这套多Agent交叉设计Plan、人拍板、便宜模型执行的流程，是我见过最务实的Coding Agent实践，做开发的直接套用就行。",
+      "score": 75,
+      "tags": [
+        "Agent",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "X：宝玉 (@dotey)",
+      "time": "07:30",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpoocnzn07snslv4ur3wipc5",
+      "title": "社会科学中的编码智能体",
+      "link": "https://www.anthropic.com/research/coding-agents-social-sciences",
+      "summary": "一项针对1260名定量社会科学家的调查显示，虽然81%的受访者用过AI聊天机器人，但仅有20%将Claude Code、Codex等编码智能体常规应用于工作。采用率存在显著差异：以男性名字命名的研究者使用率是女性研究者的两倍；顶尖大学研究者可能性高出40%。用户产出更多工作论文和基金申请，但这可能反映早期采用者自身差异。研究者对AI助力撰写可发表论文更乐观，但对重塑整个社会科学领域持保留态度。这是一项初步调查，更深入研究仍在进行中。",
+      "reason": "Anthropic 这份调查把编码代理在社科领域的真实渗透率摸清了，只有 20% 的研究者真在用，而且男女、校际差距比 AI 聊天工具大得多，做学术工具的可以认真看看。",
+      "score": 68,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "数据/训练",
+        "论文/研究"
+      ],
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "time": "07:07",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpomepbx07ckslv4qmr6x0hq",
+      "title": "思科与OpenAI携手Codex重新定义企业工程",
+      "link": "https://openai.com/index/cisco",
+      "summary": "思科正与OpenAI合作，利用Codex重新定义企业工程实践。此次合作旨在帮助思科扩展AI原生开发能力、加速其AI Defense安全工作，并实现缺陷修复流程的自动化。",
+      "reason": "这则合作公告虚得很，看不出Codex到底怎么帮Cisco重构工程，也没什么数据，属于看完标题就够了的那种。",
+      "score": 60,
+      "tags": [
+        "OpenAI",
+        "编码",
+        "行业动态"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "06:13",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpom802q07ajslv4d651ko6o",
+      "title": "使用大语言模型保障源代码安全",
+      "link": "https://claude.com/blog/using-llms-to-secure-source-code",
+      "summary": "本文分享了使用 Claude Opus 构建威胁模型、发现代码漏洞并进行验证、分类和修复的最佳实践。其核心流程是一个六步循环：威胁建模、沙箱隔离、漏洞发现、验证、分类和修复。作者指出，漏洞发现现在易于并行化，瓶颈已转移到后续的验证与处理阶段。以他们对开源软件的扫描为例，截至2026年5月22日已披露1,596个漏洞，其中97个已修补。指南建议结合代码库文档和专家访谈来构建准确的威胁模型，以降低误报，提升发现的可利用性。",
+      "reason": "Anthropic把这套用Claude扫代码漏洞的方法全公开了，1596个已披露漏洞，验证成了最大瓶颈，安全工程师的饭碗可能要重新定义。",
+      "score": 77,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "安全/对齐",
+        "教程/实践"
+      ],
+      "source": "Claude：Blog（网页）",
+      "time": "06:07",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpoibuhp06cnslv4rs455myu",
+      "title": "SilverTorch：索引即模型——推荐系统的新检索范式",
+      "link": "https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems",
+      "summary": "Meta 推出SilverTorch推荐系统架构，统一了用户生成内容的所有检索组件。该架构吞吐量比现有技术高23.7倍，计算成本效率比CPU方案高20.9倍，同时提升了准确性。",
+      "reason": "SilverTorch 把索引本身变成模型，在推荐检索上拿到 23 倍吞吐提升，这个思路对搜索和推荐工程师都有启发，虽然离普通人有点远。",
+      "score": 68,
+      "tags": [
+        "Meta",
+        "搜索",
+        "论文/研究"
+      ],
+      "source": "Meta Engineering Blog（RSS）",
+      "time": "04:19",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpogosle05y4slv4zpqxoocc",
+      "title": "软件之后是AI时代",
+      "link": "https://www.tomtunguz.com/harnessing-ai",
+      "summary": "软件时代正过渡至“智能体框架”时代。AI作为强大但需驯化的“野马”，其智能驯化包含七个核心组成部分：上下文与记忆、工具与行动、编排与循环、状态与持久性、沙箱与计算、可观测性与治理、成本与工作流优化。这些组件共同构成了一个生产级的智能体系统。这一转变将重塑软件竞争格局，模型通用化的未来中，最佳的智能体驾驭者将获胜。",
+      "reason": "Tomer 把 agent 时代的竞争拆成七个组件，不是空谈，而是给了创业公司一个具体的 check-list，做 agent 产品的值得对照一下。",
+      "score": 61,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "现象/趋势"
+      ],
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "time": "03:33",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpogcyqy05uoslv44xoll1r2",
+      "title": "Cognition成为全球最大独立智能体实验室",
+      "link": "https://x.com/swyx/status/2059717021944926238",
+      "summary": "Cognition宣布已成为全球最大的独立智能体实验室。公司完成超10亿美元融资，估值达260亿美元，由Lux Capital、General Catalyst等领投。其企业使用量自年初增长超10倍，年化收入增至4.92亿美元。Cognition于两年前推出Devin，定位为首个AI软件工程师。公司强调其拥有多项领先优势，包括首个编码智能体、顶级代码审查能力等，并得到了Peter Thiel的重大投资。",
+      "reason": "Devin 母公司 Cognition 完成 10 亿美元融资，估值 260 亿，年度经常性收入近 5 亿美元，这是 agent 赛道从故事走向现金流的拐点，swyx 对「first mover 加两年规模化」的分析比数据本身更有看点。",
+      "score": 75,
+      "tags": [
+        "Agent",
+        "行业动态"
+      ],
+      "source": "X：swyx (@swyx)",
+      "time": "03:23",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpofemy505maslv4n15rpet7",
+      "title": "Web 更新",
+      "link": "https://updates.midjourney.com/web-updates-5",
+      "summary": "对话模式在文本和语音输入方面进行了改进。语音会话开始时，可访问用户的图像提示、风格参考、侧边栏设置和最近任务。图像提示功能现可从托盘和侧边栏直接使用。在语音提交过程中，托盘中的图像将保持不变，直至用户手动移除。",
+      "reason": "Midjourney给语音模式补了一课——现在它能记住你正在用的图片参考和风格设置，语音创作不用反复翻找，用完即走的轻量用户可能无感。",
+      "score": 59,
+      "tags": [
+        "产品更新",
+        "语音"
+      ],
+      "source": "Midjourney：Updates（RSS）",
+      "time": "02:57",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpoevkk105k2slv4iklwg0qm",
+      "title": "OpenAI产品支持私有MCP服务器安全连接",
+      "link": "https://x.com/OpenAIDevs/status/2059703536825565499",
+      "summary": "您的团队可以在内部网络中保留MCP服务器，同时ChatGPT、Codex和Responses API通过仅出站HTTPS进行连接。",
+      "reason": "OpenAI 终于给企业级 MCP 接上私有网络了，以前要连 ChatGPT 就得把 MCP 暴露公网，现在通过 outbound 隧道就能安全接入，做内部工具开发的可以开始动起来了。",
+      "score": 70,
+      "tags": [
+        "MCP/工具调用",
+        "OpenAI",
+        "产品更新",
+        "安全/对齐"
+      ],
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "time": "02:42",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpodsy24059vslv40tqd294a",
+      "title": "OpenCode与MiMo V2.5限时免费开放",
+      "link": "https://x.com/opencode/status/2059696100626297225",
+      "summary": "OpenCode x MiMo V2.5 - 限时免费\n\n1M 上下文 • 推理 • 文本 • 图像",
+      "reason": "OpenCode突然把MiMo V2.5放出来了，1M上下文加上推理和图片能力，而且免费限时，用AI写代码的朋友可以赶紧试试手气。",
+      "score": 66,
+      "tags": [
+        "产品更新",
+        "多模态",
+        "推理",
+        "编码"
+      ],
+      "source": "X：opencode (@opencode)",
+      "time": "02:12",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpodm423057sslv4un3f1nof",
+      "title": "AI智能体的零信任安全框架",
+      "link": "https://claude.com/blog/zero-trust-for-ai-agents",
+      "summary": "Anthropic 发布了针对企业部署自主 AI 智能体的安全框架，指出前沿大语言模型正将漏洞利用周期从数月压缩至数小时。部署智能体面临双重风险：基础设施易受 AI 加速攻击，且智能体自身具备自主决策与执行能力。文章提出一个三层零信任架构（基础、高级、优化级）及八阶段实施流程，并概述了提示注入、工具投毒、记忆投毒等特有威胁。",
+      "reason": "当漏洞利用从数月压缩到数小时，安全架构必须同步进化。这篇框架把零信任落地到Agent场景，八阶段路线图和三级成熟度模型比泛泛的安全声明具体得多，企业安全团队值得细读。",
+      "score": 67,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "安全/对齐",
+        "教程/实践"
+      ],
+      "source": "Claude：Blog（网页）",
+      "time": "02:06",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpoddncn053yslv428au39s3",
+      "title": "开源FastVideo Dreamverse实时视频生成工具",
+      "link": "https://x.com/haoailab/status/2059695648103112946",
+      "summary": "🚀仅需7秒即可生成30秒1080p视频！\n\n我们开源了FastVideo Dreamverse：基于单张NVIDIA B200 GPU和LTX-2模型，实现实时视频生成的氛围引导工具。  \n\nRepo: https://github.com/hao-ai-lab/FastVideo/tree/main/apps/dreamverse  \nBlog: https://haoailab.com/blogs/fastvideo-dreamverse-release/",
+      "reason": "7秒钟出30秒1080p视频，而且完全开源，视频生成速度被拉到实时边缘，虽然B200不是人人有，但路线值得所有做视频产品的同行研究。",
+      "score": 70,
+      "tags": [
+        "GitHub",
+        "开源/仓库",
+        "视频",
+        "部署/工程"
+      ],
+      "source": "X：Sky Computing Lab (@haoailab)",
+      "time": "02:00",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpocrldo050lslv45vxk0w5y",
+      "title": "Replit入选Redpoint 2026 InfraRed 100榜单",
+      "link": "https://x.com/Replit/status/2059688584899154134",
+      "summary": "Replit 被列入 @Redpoint 的 2026 InfraRed 100 榜单。\n这是一份构建 AI 运行基础设施的公司名单。很荣幸能入选，与 Stripe、Snowflake 和 HashiCorp 等往届入选者并列。  \n致每一位在 Replit 上发布产品的构建者：这份荣誉属于你们。  \nhttps://www.redpoint.com/infrared/report/",
+      "reason": "Redpoint 的 InfraRed 100 榜单把 Replit 和 Stripe、Snowflake 并列，说明 AI 编程工具在基础设施层面已经得到主流认可，但这就是个荣誉，没有实际东西。",
+      "score": 60,
+      "tags": [
+        "编码",
+        "行业动态"
+      ],
+      "source": "X：Replit (@Replit)",
+      "time": "01:43",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpocoz6704yxslv4wth0r0jw",
+      "title": "2026年选举信息与保障",
+      "link": "https://openai.com/index/election-safeguards-2026",
+      "summary": "在2026年全球选举临近之际，通过帮助公众获取选举信息、支持网络防御者以及提升人工智能透明度这三方面的努力，来为选举提供保障。",
+      "reason": "OpenAI 在 2026 全球选举前集中公布防范措施，是头部 AI 公司在信息透明度方面的例行作业，政策观察者可以跟踪一下进展，普通用户不用太在意。",
+      "score": 63,
+      "tags": [
+        "OpenAI",
+        "安全/对齐",
+        "政策/监管"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "01:41",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpocm9by04ymslv4agum9edi",
+      "title": "Google Pay 最新更新",
+      "link": "https://developers.googleblog.com/the-latest-updates-to-google-pay",
+      "summary": "Google Pay 正向\"智能体商务\"演进，推出了通用商务协议和新的 MCP 服务器，允许 AI 智能体管理集成与分析趋势。Android 平台更新引入了动态回调以支持快速结账，并通过 WebView 将支付功能扩展至社交媒体应用。此外，平台还推出了跨设备生物认证和新的交易信号，旨在帮助商家减少流程摩擦。",
+      "reason": "Google Pay 往 agentic commerce 迈了一大步，新的通用协议和 MCP server 让 AI agent 能直接管支付和分析，做 agent 或支付的开发者都得看看。",
+      "score": 66,
+      "tags": [
+        "Agent",
+        "Google",
+        "MCP/工具调用",
+        "产品更新"
+      ],
+      "source": "Google Developers Blog（RSS）",
+      "time": "01:39",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpoci9gi04x9slv406d8w5uz",
+      "title": "黄仁勋展示英伟达台湾新园区",
+      "link": "https://x.com/rohanpaul_ai/status/2059689400267939925",
+      "summary": "黄仁勋展示了新的台湾园区。\n英伟达计划每年在台湾投资约1500亿美元。  \n就在竞争对手AMD宣布将向台湾AI领域投资超过100亿美元一周后。",
+      "reason": "黄仁勋亲自宣布的每年1500亿美元投资，不是小数目，这基本把NVIDIA的未来押在了台湾半导体生态上，AI硬件供应链的叙事又要被重写一遍。",
+      "score": 79,
+      "tags": [
+        "行业动态"
+      ],
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "time": "01:36",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpoche1204w5slv4kd4tnio9",
+      "title": "我认为 Anthropic 和 OpenAI 找到了产品市场契合点",
+      "link": "https://simonwillison.net/2026/May/27/product-market-fit",
+      "summary": "Anthropic 与 OpenAI 通过编程智能体找到了产品市场契合点，这导致企业客户成本显著上升。两家公司已于 2026 年 4 月前后调整了企业套餐定价，从原先的高额折扣改为与 API 用量挂钩。Anthropic Enterprise 套餐变为每席位 20 美元/月外加 API 费用，OpenAI Codex 则按 API token 用量计费。同期发布的新模型 GPT-5.5（4月23日）和 Opus 4.7（4月16日）的 API 定价也显著高于前代版本。",
+      "reason": "Simon 这篇把近期碎片线索串起来了，企业级定价变化加上代码代理消耗剧增，说明 Anthropic 和 OpenAI 可能真开始赚钱了，四月是个新拐点。",
+      "score": 72,
+      "tags": [
+        "Anthropic",
+        "OpenAI",
+        "现象/趋势",
+        "编码"
+      ],
+      "source": "Simon Willison 博客",
+      "time": "01:35",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpocftbm04v2slv4qabfidb6",
+      "title": "通过零信任聚合实现的隐私分析",
+      "link": "https://research.google/blog/private-analytics-via-zero-trust-aggregation",
+      "summary": "Google Research 推出了一种新的隐私分析解决方案。该方案结合了一种新的密码学安全聚合协议与可信执行环境（TEE）的透明性，旨在实现前沿的隐私与安全保证。其核心是基于零信任原则，通过密码学与硬件保护的结合，确保系统仅能获取群体的匿名化聚合洞察。",
+      "reason": "Google 的隐私聚合新方案把多轮交互砍成一次提交，对做设备端联邦分析的人来说是工程上的一大步，而且结合 TEE 做双层防护，这个思路值得抄。",
+      "score": 69,
+      "tags": [
+        "Google",
+        "安全/对齐",
+        "端侧",
+        "论文/研究"
+      ],
+      "source": "Google Research：Blog（网页）",
+      "time": "01:34",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpobyo1b04qeslv4jzefv5eu",
+      "title": "ITBench-AA：前沿大模型在首个智能体企业IT任务基准测试中得分均低于50%",
+      "link": "https://huggingface.co/blog/ibm-research/itbench-aa",
+      "summary": "由Artificial Analysis和IBM推出的ITBench-AA SRE基准测试显示，所有前沿大模型得分均未超过50%。Claude Opus 4.7（自适应推理，最大努力）以47%领先，GPT-5.5（xhigh）和Qwen3.7 Max分别得46%和42%。该测试包含59个需要通过Shell命令调查Kubernetes事件快照并提交根因诊断的智能体任务。关键发现是模型推理轮次差异近3倍，但更长的轨迹并不转化为更高准确率，过度调查的模型会因提交误报而受罚。在成本方面，开源模型Gemma 4 31B（Reasoning）以每任务$0.14的成本获得37%得分，优于成本更高但得分更低的闭源模型。",
+      "reason": "IT运维这事儿，AI还是新手。ITBench-AA这份基准把Claude Opus 4.7逼到47%，开源模型GLM-5.1却用五分之一成本拿到40%，企业场景性价比可能不在闭源那边。",
+      "score": 70,
+      "tags": [
+        "Agent",
+        "Hugging Face",
+        "评测/基准"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "01:20",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpobap4x04leslv4yn3zhvqo",
+      "title": "Fast, faster, Qwen. 🚀",
+      "link": "https://x.com/Alibaba_Qwen/status/2059674574397313277",
+      "summary": "Qwen3.5在TokenSpeed推理引擎上，针对智能体工作负载达到了创纪录的580 tokens per second (tps)速度。这一成果由通义千问推理团队、lightseekorg Foundation TokenSpeed团队、NVIDIA及Mooncake团队共同实现，并采用了tri_dao的FlashAttention-4 (FA4) 优化。此里程碑标志着开源大语言模型推理性能的边界得到了推动，相关详情可查阅PyTorch社区博客。",
+      "reason": "Qwen3.5在TokenSpeed上跑出580 tps，这是开源LLM推理的极限突破，对agent类应用是实实在在的性能跃进，PyTorch这篇博客值得每一个做推理部署的细读。",
+      "score": 71,
+      "tags": [
+        "Agent",
+        "开源/仓库",
+        "推理",
+        "论文/研究"
+      ],
+      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+      "time": "01:02",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpoad2jr04e6slv4ineho5xm",
+      "title": "与Google搜索产品副总裁Robby Stein的访谈：AI原生搜索时代",
+      "link": "https://x.com/kimmonismus/status/2059668961181004275",
+      "summary": "本文记录了与Google搜索产品副总裁Robby Stein在Google I/O的访谈，核心探讨Google Search向“AI原生”模式的重大转变。讨论话题包括AI Mode是进化还是重塑、如何将复杂问题拆解为多轮搜索、AI搜索的高运行成本、Google TPU及基础设施的优势、AI时代搜索量不减反增的原因，以及优质AI回答与出版商流量之间的张力。访谈还涉及Google决定展示哪些信息源与链接的逻辑，并围绕一个核心问题展开：如果Google直接给出答案，传统的基于链接的网页生态将走向何方？",
+      "reason": "Google 搜索 VP 首次拆解 AI Mode 背后的成本逻辑、流量分配和 TPU 优势，比 I/O 演讲深得多，做搜索和内容生态的都值得听。",
+      "score": 80,
+      "tags": [
+        "Google",
+        "大佬观点",
+        "搜索"
+      ],
+      "source": "X：Kim (@kimmonismus)",
+      "time": "00:35",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpoa5pky04a6slv42pg4puzp",
+      "title": "Grok编程智能体登陆Kilo IDE平台",
+      "link": "https://x.com/xai/status/2059666227115819149",
+      "summary": "在 @kilocode 中使用您的 SuperGrok 或 X Premium+ 订阅。\n\n尝试 grok-build-0.1，享受高速和智能体编程智能，可在 Kilo IDE 扩展或 CLI 中使用。\n\nhttps://x.ai/news/grok-kilocode",
+      "reason": "xAI 把 grok 的编码模型塞进 Kilo Code，如果你本来就用这两个工具，这次集成能省不少事，但算不上行业震动。",
+      "score": 69,
+      "tags": [
+        "Agent",
+        "xAI",
+        "产品更新",
+        "编码"
+      ],
+      "source": "X：xAI (@xai)",
+      "time": "00:30",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpo9tiih0478slv4blj1ms6a",
+      "title": "Reachy Mini 实现完全本地化语音交互",
+      "link": "https://huggingface.co/blog/local-reachy-mini-conversation",
+      "summary": "Reachy Mini 机器人现可通过 `speech-to-speech` 库实现完全本地化的语音交互，无需依赖云端。该方案采用级联流水线架构，对外提供 Realtime API 兼容的 WebSocket 接口。默认组件包括 Silero VAD 用于语音活动检测、Parakeet-TDT 作为语音转文本模型、通义千问（Qwen3-TTS）作为文本转语音模型。大语言模型推荐使用 llama.cpp 运行 Gemma 4。所有数据均在本地处理，保障了隐私且无 API 费用。",
+      "reason": "小众硬件的本地语音实战，但HF这套开源管线证明端到端对话已完全可用，所有组件都可自由替换，想做本地化语音助手的人可以照抄。",
+      "score": 72,
+      "tags": [
+        "Agent",
+        "Hugging Face",
+        "教程/实践",
+        "语音"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "00:20",
+      "date": "5月28日"
+    },
+    {
+      "id": "cmpo929df03ztslv4z9v93608",
+      "title": "Perplexity开源Unigram分词器降低CPU占用",
+      "link": "https://x.com/perplexity_ai/status/2059664738087469511",
+      "summary": "我们开源了重新构建的Unigram分词器，可将CPU占用降低5-6倍。\n小型重排序器和嵌入模型在GPU上运行时间仅为个位数毫秒，使得CPU分词成为总延迟的重要组成部分。  \nhttp://github.com/perplexityai/pplx-garden",
+      "reason": "Perplexity 开源的这个 tokenizer 能把 CPU 利用率砍掉五六倍，做实时推理的团队值得立马试试，对延迟敏感的场景是实打实的优化。",
+      "score": 68,
+      "tags": [
+        "开源/仓库",
+        "部署/工程"
+      ],
+      "source": "X：Perplexity (@perplexity_ai)",
+      "time": "23:59",
+      "date": "5月27日"
+    },
+    {
+      "id": "cmpo8ubaz03ycslv4xm8w369g",
+      "title": "Claude Marketplace 新增五家合作伙伴",
+      "link": "https://x.com/claudeai/status/2059662933924123044",
+      "summary": "Claude Marketplace 新增成员：@augmentcode、@boltdotnew、@coderabbitai、@hebbia 和 @WeAreLegora。\n\n您现有的 Anthropic 消费承诺可用于购买其 Claude 驱动的产品。\n\n了解更多：http://claude.com/platform/marketplace",
+      "reason": "Anthropic 把企业采购 Claude 工具这一步真正统一了，但目前只是限量预览，实际能覆盖多少场景还得看后续伙伴名单。",
+      "score": 63,
+      "tags": [
+        "Anthropic",
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "X：Claude (@claudeai)",
+      "time": "23:53",
+      "date": "5月27日"
+    },
+    {
+      "id": "cmpo7308x03j5slv44eeuz2v1",
+      "title": "Krea 2 API发布，支持多平台与智能体",
+      "link": "https://x.com/krea_ai/status/2059650622203515143",
+      "summary": "今天，我们发布了 Krea 2 的 API。\n现已在 @fal 或 @ComfyUI 等平台可用，通过 @NousResearch 的 Hermes 等智能体使用，并全面支持 Claude、Codex 或 OpenClaw。  \n了解如何设置 👇",
+      "reason": "Krea 2 把 API 一开，ComfyUI 和 Claude 都能调用了，做图像应用的兄弟们终于不用再自己搭模型了。",
+      "score": 62,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "图像生成"
+      ],
+      "source": "X：Krea AI (@krea_ai)",
+      "time": "23:04",
+      "date": "5月27日"
+    },
+    {
+      "id": "cmpo5j5lm034mslv4qv9h13v8",
+      "title": "通过万亿参数与 Hub Bucket 实现增量权重同步：TRL 中的增量权重同步",
+      "link": "https://huggingface.co/blog/delta-weight-sync",
+      "summary": "本文标题涉及 Hugging Face TRL 框架中一项具体的增量权重同步技术。正文重申了 Hugging Face 的核心使命，即致力于通过开源和开放科学，来推动人工智能的进步与普及。",
+      "reason": "TRL 这个 Delta Weight Sync 摆明了给大模型分布式训练省时间，团队如果还在手动倒腾权重文件，值得点开看看，说不定省下的时间够喝杯咖啡。",
+      "score": 68,
+      "tags": [
+        "Hugging Face",
+        "产品更新",
+        "开源生态",
+        "部署/工程"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "22:20",
+      "date": "5月27日"
+    },
+    {
+      "id": "cmpo55mvg0316slv41q3j2m2r",
+      "title": "使用 Codex 构建自改进税务智能体",
+      "link": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
+      "summary": "OpenAI、Thrive 与 Crete 合作，使用 Codex 构建了一个自改进的税务智能体。该智能体能够自动处理报税流程，提升工作准确性并加速整体工作流。",
+      "reason": "OpenAI 联合 Thrive 把 Codex 塞进税务流程，做出了能自我纠错的申报 agent，金融自动化的同学可以看看他们的错误反馈循环怎么设计的。",
+      "score": 56,
+      "tags": [
+        "Agent",
+        "OpenAI",
+        "教程/实践"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "22:10",
+      "date": "5月27日"
+    },
+    {
+      "id": "cmpo55l4u030yslv4mwofhkbw",
+      "title": "Runway 推出 Model Context Protocol 服务器",
+      "link": "https://runwayml.com/news/mcp",
+      "summary": "Runway 正式推出 Runway MCP 服务器，允许任何兼容 MCP 的 AI 智能体（如 Claude、ChatGPT、Cursor）在对话界面中直接生成图像与视频，无需切换工作流。该服务器接入了 Runway 最新的多款 SOTA 模型，包括 Gen-4.5、Seedance 2.0、GPT Image 2、Kling 3.0 及 Nano Banana Pro。其应用场景涵盖为产品制作营销视频、批量生成网站视觉素材、创作角色广告以及在应用开发中集成视觉内容。用户设置简便，通过 runwayml.com/mcp 添加服务器并登录现有 Runway 账户即可使用，无需单独申请 API 密钥。",
+      "reason": "Runway 把 Gen-4.5 和 Seedance 2.0 等模型接入了 MCP，以后做产品图、营销视频不用切窗口，这个集成对依赖视觉内容的 Agent 工作流是个 real upgrade。",
+      "score": 73,
+      "tags": [
+        "MCP/工具调用",
+        "产品更新",
+        "多模态"
+      ],
+      "source": "Runway：News（网页）",
+      "time": "22:09",
+      "date": "5月27日"
+    },
+    {
+      "id": "cmpo1uaxp028dslv47o305cfh",
+      "title": "教皇没对AGI上头",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/937933/pope-ai-encyclical-tech-industry-reactions",
+      "summary": "教皇 Leo XIV 发布题为《Magnifica Humanitas》的通谕，警告人工智能的使用绝非纯粹技术问题，当其进入影响人类生活的过程时，便触及权利、机会、地位与自由。通谕发布时，Anthropic 联合创始人 Christopher Olah 出席。文件引发了科技界内外的广泛反应。",
+      "reason": "教皇亲自下场谈 AI，还拉了 Anthropic 站台，这不是简单的公关秀，而是“AI 伦理”从技术圈卷进梵蒂冈的分水岭事件。",
+      "score": 72,
+      "tags": [
+        "Anthropic",
+        "安全/对齐",
+        "行业动态"
+      ],
+      "source": "The Verge：AI（RSS）",
+      "time": "20:37",
+      "date": "5月27日"
+    },
+    {
+      "id": "cmpnzlyow01ogslv4lt6rhdkk",
+      "title": "藏师傅发布小红书图文排版AI Skill，集成地图与自动配图",
+      "link": "https://x.com/op7418/status/2059587983289016348",
+      "summary": "该推文介绍了guizang-social-card-skill，一款针对小红书图文常见类别进行优化的AI Skill。其亮点在于为旅行博主集成了地图组件，用户输入目的地和线路后，AI能自动在底图上标记并嵌入图片。根据引用，该Skill完全基于HTML和实拍图片生成内容，不会被平台标注为AI生成，并会主动从高质量图片网站寻找对应主题图片，以优化图文排版。",
+      "reason": "藏师傅这个 skill 把小红书图文排版门槛直接砍没，尤其是旅行地图组件 AI 自动标记路线，做内容的直接抄走就行，告别只有生硬文字的尴尬。",
+      "score": 80,
+      "tags": [
+        "图像生成",
+        "教程/实践"
+      ],
+      "source": "X：歸藏 (@op7418)",
+      "time": "19:34",
+      "date": "5月27日"
+    },
+    {
+      "id": "cmpnyfa3i01dmslv48x2rbk90",
+      "title": "Qoder平台限时半价使用Qwen3.7-Max模型",
+      "link": "https://x.com/Alibaba_Qwen/status/2059586373456380225",
+      "summary": "🙌🙌\n\n[引用 @qoder_ai_ide]：Qwen3.7-Max，半价。\n\n从今天起，Qwen3.7-Max——通义千问（Qwen）家族的最新旗舰模型——在Qoder上半价提供。限时活动。\n\n新用户？你每天还能获得100次免费模型调用。自动应用，无需领取，无需开关。\n桌面端、JetBrains插件、CLI、QoderWork、QoderWake——全部覆盖。\n\n现在正是用它处理难题的好时机。",
+      "reason": "Qwen在Qoder上半价，对同时用这两样的人是个小甜点，但对其他人几乎无感。除非你正好在选AI编程助手，否则可以跳过。",
+      "score": 60,
+      "tags": [
+        "产品更新"
+      ],
+      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+      "time": "19:01",
+      "date": "5月27日"
+    },
+    {
+      "id": "cmpnwyk2c0104slv4ynvin2w3",
+      "title": "Gemini Embedding 2：来自Gemini的原生多模态嵌入模型",
+      "link": "https://arxiv.org/abs/2605.27295",
+      "summary": "Google DeepMind推出Gemini Embedding 2，这是一款原生多模态嵌入模型，支持在统一表示空间中嵌入视频、音频、图像和文本。该模型利用Gemini的多模态能力，通过大规模对比学习实现SOTA性能。在关键基准上表现优异：MSCOCO取得62.9 R@1，Vatex取得68.8 NDCG@10，MTEB multilingual达到69.9，MTEB Code达到84.0，超越了专用模型。其统一能力使其适用于RAG、推荐与搜索等下游任务，并在天文学、生物科学、艺术和烹饪等专业领域展现出强大的零样本性能。",
+      "reason": "Google 把多模态嵌入统一到一个模型里了，文本、代码、跨模态检索全面刷榜，做 RAG 和搜索的该认真看看了。",
+      "score": 73,
+      "tags": [
+        "Google",
+        "RAG",
+        "多模态",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "18:20",
+      "date": "5月27日"
+    },
+    {
+      "id": "cmpnsfia010easl01kw4k2bly",
+      "title": "OpenAI 奥尔特曼称 AI 对白领冲击不如预期般严重：我很高兴自己当时错了",
+      "link": "https://www.ithome.com/0/956/021.htm",
+      "summary": "",
+      "reason": "Altman 亲口承认自己之前对白领岗位消失的预测错了，这个反转比任何智库报告都更有说服力，但他那句「裁员别赖 AI」的补丁挺微妙的。",
+      "score": 70,
+      "tags": [
+        "OpenAI",
+        "大佬观点",
+        "现象/趋势"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "16:14",
+      "date": "5月27日"
+    }
+  ]
+}

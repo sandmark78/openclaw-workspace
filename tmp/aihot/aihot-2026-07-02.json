@@ -1,0 +1,656 @@
+{
+  "date": "2026-07-02",
+  "scraped_at": "2026-07-02T05:01:44.643464+00:00",
+  "total_items": 40,
+  "items": [
+    {
+      "id": "cmr2x7ii20c2jsl8zygz5iw9n",
+      "title": "AI 版支付宝开放公测，蚂蚁阿宝无需邀请码即可体验",
+      "link": "https://www.ithome.com/0/971/469.htm",
+      "summary": "支付宝阿宝 AI 助手今日正式开放公测，iOS 和安卓用户可在应用商店或支付宝 App 搜索“阿宝”或“蚂蚁阿宝”直接体验。开通后右滑进入新版，以对话方式安排办事，例如说出“查公积金”，阿宝会自动匹配对应小程序和服务入口，用户点击确认即可完成。支付宝承诺所有资金变动与支付环节均需用户本人确认，扫码、转账等功能已预留入口。",
+      "reason": "支付宝把 AI 助手从内测推进公测，对话式办事对普通用户来说很直观，省去了多层菜单跳转，虽然支付等敏感环节还是手动确认，但体验上的进步是实在的。",
+      "score": 80,
+      "tags": [
+        "Agent",
+        "产品更新"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "11:03",
+      "date": "7月2日"
+    },
+    {
+      "id": "cmr2x3a7n0c0tsl8zxytx1kfx",
+      "title": "昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊",
+      "link": "https://mp.weixin.qq.com/s/OqL6ID-mAel8XN-slYgXOA",
+      "summary": "昆仑万维天工3.2发布Skywork Tags，将AI智能体以团队成员身份接入Slack、飞书、钉钉、Discord、Telegram等即时通讯工具。团队可在原有工作群中@Skywork参与讨论，无需切换窗口或迁移数据。共享版Agent持续吸收多样上下文后表现反超精心调教的个人版，团队最终完全改用共享版。Skywork Tags不要求改变工作方式，让AI积累团队上下文并越用越强。",
+      "reason": "Skywork Tags 的思路走对了——不逼团队搬家，而是让 AI 进群，内部测试也证明共享 Agent 能远超个人调教，做协作工具的产品人可以借鉴。",
+      "score": 67,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "产品更新"
+      ],
+      "source": "公众号：昆仑万维（天工）",
+      "time": "11:00",
+      "date": "7月2日"
+    },
+    {
+      "id": "cmr2t1n9h0b18sl8zqxn9r5nu",
+      "title": "Emil Kowalski 发布设计工程师 Skills，让 AI 编码工具具备 UI 动画审美",
+      "link": "https://x.com/shao__meng/status/2072484635955900792",
+      "summary": "Emil Kowalski 将多年 UI/动画原则沉淀为三个 Skill，使 Codex、Claude Code、Cursor 等 Coding Agents 具备资深设计工程师的审美判断。核心规则：动画必须有理由；每天 100+ 次的高频操作禁用动画；UI 动画控制在 300ms 内；只动画 transform 和 opacity；入口从 scale(0.95)+opacity:0 开始；尊重 prefers-reduced-motion（仅移除位移动画）。review-animations 以严格标准审查动画代码，输出 Before/After/Why 表格。animation-vocabulary 将模糊描述（如“弹一下的效果”）转为专业动效术语。",
+      "reason": "Emil 把设计工程直觉变成了 AI 编码代理能理解的规则，clone 下来就能让 Claude Code 和 Cursor 产出有品味的动效，做前端的值得立刻试试。",
+      "score": 77,
+      "tags": [
+        "Agent",
+        "GitHub",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "X：邵猛 (@shao__meng)",
+      "time": "09:07",
+      "date": "7月2日"
+    },
+    {
+      "id": "cmr2jtg2z08nvsl8zt9pagjoe",
+      "title": "Claude Code v2.1.198 发布",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.198",
+      "summary": "Claude Code v2.1.198 更新。Claude in Chrome 现已全面可用。为 claude agents 新增后台智能体通知（agent_needs_input / agent_completed）。新增 /dataviz 技能，提供图表与仪表盘设计指导及配色验证器。Gateway 增加 AWS 上的 Claude Platform 作为上游提供商。后台智能体在 worktree 中完成代码后自动提交、推送并创建草稿 PR。内置 Explore 智能体现继承主会话模型（上限 opus）。修复网络短暂断开导致响应中断、后台任务卡在“Running”状态、智能体团队队友因 API 错误失败等问题。",
+      "reason": "如果你是Claude Code用户，这次更新很实在，Chrome版终于正式可用，背景agent的自动提PR和通知功能能省不少事，/dataviz也能辅助可视化。",
+      "score": 64,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "产品更新",
+        "编码"
+      ],
+      "source": "Claude Code：GitHub Releases（RSS）",
+      "time": "04:49",
+      "date": "7月2日"
+    },
+    {
+      "id": "cmr2jc03c08kssl8zf2bmdjlj",
+      "title": "构建AI智能体应优先设计路由",
+      "link": "https://www.tomtunguz.com/ai-execution-routing",
+      "summary": "构建AI智能体时，应优先设计路由（router）而非选择模型。路由决定每个请求由哪层模型处理。正确路由可使70-80%流量运行在免费本地模型或异步推理上，将AI开销降低90%+。Brian Armstrong指出Coinbase通过更好的默认设置、路由和缓存，在token使用量增长的同时将AI支出减半。路由分三层：技能分类器、路由器、模型选择器。本地计算近乎零成本，异步批量推理比实时推理便宜两个数量级。大多数工作无需秒级返回。同步预测器标记复杂任务，夜间批量评估器更新路由权重。技能蒸馏后，非编码类任务中70-80%智能体流量可由本地模型处理。",
+      "reason": "Tunguz 把代理架构的设计重心从模型选择拉回到路由上，三层分类器-路由器-选择器的划分很清晰，做 AI 应用的团队可以参考，但其中的新东西不多。",
+      "score": 60,
+      "tags": [
+        "大佬观点",
+        "部署/工程"
+      ],
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "time": "04:35",
+      "date": "7月2日"
+    },
+    {
+      "id": "cmr2d1lf706zpsl8zwbf3dmd9",
+      "title": "Meta 大规模 AI 存储蓝图",
+      "link": "https://engineering.fb.com/2026/07/01/data-infrastructure/metas-ai-storage-blueprint-at-scale",
+      "summary": "Meta 运营数百 EB 级存储集群，基于 Tectonic 分层存储层构建 BLOB 存储架构，以应对两大挑战：最大化 GPU 利用率与研究迭代速度。传统 BLOB 架构的多层元数据查询可导致数百毫秒延迟，使 GPU 因 I/O 等待停顿。新架构将训练栈逐步迁移到 BLOB 存储接口上，利用闪存提供可预测的低 pMax 延迟，避免单 GPU 慢速拖慢整批任务。同时，统一的数据湖访问支持地理分布 GPU 间的数据高速注入与跨区移动，提升研究效率。",
+      "reason": "Meta的存储架构复盘给出了一条明确路径，从重写元数据到分层缓存，他们把GPU利用率和研究者迭代速度同时提升了一个档次，做AI训练平台的值得细读。",
+      "score": 71,
+      "tags": [
+        "Meta",
+        "数据/训练",
+        "现象/趋势",
+        "部署/工程"
+      ],
+      "source": "Meta Engineering Blog（RSS）",
+      "time": "01:39",
+      "date": "7月2日"
+    },
+    {
+      "id": "cmr2cbj7s06qgsl8zt4giih2x",
+      "title": "Google Cloud Workbench Notebooks 扩展发布：在 VS Code 中连接云端 Jupyter 环境",
+      "link": "https://developers.googleblog.com/ml-development-in-vs-code-with-google-cloud-power-workbench-extension-now-available",
+      "summary": "Google Cloud Workbench Notebooks 扩展正式上线，开发者可在 VS Code 中直接连接可扩展的云端 Jupyter 环境，无需切换上下文即可利用高性能 Google Cloud 基础设施完成机器学习全流程。该扩展已完全开源，可在 GitHub 和 VS Code Marketplace 获取。",
+      "reason": "这个扩展把Google Cloud的Jupyter环境直接嵌进VS Code，做ML的开发者不用再切换窗口，工作流会流畅不少，但对行业格局影响不大。",
+      "score": 68,
+      "tags": [
+        "Google",
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "Google Developers Blog（RSS）",
+      "time": "01:17",
+      "date": "7月2日"
+    },
+    {
+      "id": "cmr2a81sq066ssl8z8vo7so2x",
+      "title": "xAI 发布 Voice Agent Builder 测试版",
+      "link": "https://x.ai/news/grok-voice-agent-builder",
+      "summary": "xAI 推出 Voice Agent Builder 测试版，这是一个基于 Grok Voice 的无代码平台，可在两分钟内创建生产级语音智能体。它集成电话、知识检索、工具、MCP、Guardrails 及可观测性，支持连接现有 SIP 号码、API 和 WebSocket，采用语音到语音路径。在 τ-voice Bench 上，Grok Voice Think Fast 1.0 得分 67.3%，领先 Gemini 3.1 Flash Live（43.8%）和 GPT Realtime 1.5（35.3%）。定价为每分钟音频 0.05 美元、电话费 0.01 美元，提供 80+ 种语音及声音克隆，每个账户附赠一个免费电话号码。",
+      "reason": "xAI 用 Grok Voice 原生的语音到语音路径，把生产级语音代理的搭建门槛降到了无代码、两分钟，计费也简单，做语音业务的人值得试试。",
+      "score": 77,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "xAI",
+        "产品更新",
+        "语音"
+      ],
+      "source": "xAI：News（网页）",
+      "time": "00:20",
+      "date": "7月2日"
+    },
+    {
+      "id": "cmr29qmtz064gsl8zqzza1stv",
+      "title": "智谱推出GLM-5.2官方开发环境ZCode",
+      "link": "https://x.com/Zai_org/status/2072349453361557898",
+      "summary": "推出 ZCode，GLM-5.2 的官方开发环境\n\n- GLM Coding Plan 订阅用户：现可在 ZCode 获得 1.5 倍使用配额\n- 支持 BYOK：可与您现有的订阅和 API 配合使用\n- 适用于 macOS、Windows 和 Linux\n\n立即下载：http://zcode.z.ai/en",
+      "reason": "智谱为 GLM-5.2 推出官方 IDE，1.5 倍配额和自带密钥对已有订阅的人挺实用，但整体只是常规产品完善，算不上行业级事件。",
+      "score": 67,
+      "tags": [
+        "产品更新",
+        "编码"
+      ],
+      "source": "X：智谱 Z.ai (@Zai_org)",
+      "time": "00:07",
+      "date": "7月2日"
+    },
+    {
+      "id": "cmr25x2x2051tsl8ze3nntrkd",
+      "title": "Cloudflare 推出全新AI流量管理选项：区分搜索、智能体与训练爬虫，保护广告页面",
+      "link": "https://blog.cloudflare.com/content-independence-day-ai-options",
+      "summary": "Cloudflare 为所有网站所有者提供更精细的AI流量管控选项，取代一刀切的屏蔽方式。用户可轻松区分并管理搜索爬虫、AI智能体爬虫和训练爬虫，同时新增保护广告变现页面的能力。",
+      "reason": "Cloudflare 把 AI 流量管理拆成了搜索、Agent 和训练三类，对依赖广告收入的站长是个实用功能，早期控制 bot 访问可能影响 SEO，值得测试。",
+      "score": 58,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "搜索"
+      ],
+      "source": "Cloudflare Blog",
+      "time": "22:20",
+      "date": "7月1日"
+    },
+    {
+      "id": "cmr259c3104wjsl8z81g6p5op",
+      "title": "Meta效仿SpaceX，将过剩AI算力变现",
+      "link": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash",
+      "summary": "据Bloomberg报道，Meta正计划推出云基础设施业务Meta Compute，对外出售AI计算能力和模型访问权限，直接与AWS、Google Cloud及Azure竞争。Meta已承诺未来几年投入1829亿美元建设AI基础设施，其中俄亥俄州数据中心（规模如曼哈顿）将于今年上线。新业务由基础设施主管Santosh Janardhan、Meta超级智能实验室负责人Daniel Gross和总裁Dina Powell McCormick领导。Meta可能效仿CoreWeave出售裸计算能力，并像AWS一样托管AI模型（包括近期发布的闭源模型Muse Spark）。扎克伯格此前已表示云业务“definitely on the table”。",
+      "reason": "Meta 进入云市场不只是大厂的新业务，而是算力资产化的信号，未来 AI 竞争可能从模型军备赛转向数据中心所有权，开发者能拿到更便宜的 GPU 但绑定生态的风险也得权衡。",
+      "score": 72,
+      "tags": [
+        "Meta",
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "TechCrunch：AI（RSS）",
+      "time": "22:01",
+      "date": "7月1日"
+    },
+    {
+      "id": "cmr1wzzsm02uosl8zop6s0sly",
+      "title": "OpenAI论文揭示GPT-5.6三个Pro变体，打破单一顶级策略",
+      "link": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy",
+      "summary": "OpenAI论文首次列出GPT-5.6的三个Pro变体：Luna Pro、Terra Pro和Sol Pro，取代以往单一Pro模式。在基因组学基准中，Sol Pro通过率31.5%居60个测试模型之首，领先标准Sol（28.7%）和Claude Opus 4.8（16.0%）。Pro相比标准版本提升逐级递减：Luna Pro提升7.1个百分点（16.5%→23.6%），Terra Pro提升5.2（23.3%→28.5%），Sol Pro仅提升2.8（28.7%→31.5%）。Terra Pro（28.5%）几乎与标准Sol（28.7%）持平。论文未披露Pro运行的token用量，也不清楚该分层是否会在ChatGPT中实际推出。",
+      "reason": "论文意外曝光 GPT-5.6 Pro 将有三个变体，Pro 不再只是一个最强模型，而是让用户按推理需求选版本，这才是匹配 200 美元月费该有的逻辑。",
+      "score": 70,
+      "tags": [
+        "OpenAI",
+        "推理",
+        "行业动态"
+      ],
+      "source": "The Decoder：AI News（RSS）",
+      "time": "18:10",
+      "date": "7月1日"
+    },
+    {
+      "id": "cmr1ti4v001xlsl8zovi1yoqa",
+      "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型",
+      "link": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
+      "summary": "NVIDIA 发布 Nemotron-Labs-TwoTower，基于冻结的自回归骨干 Nemotron-3-Nano-30B-A3B 的扩散语言模型。采用双塔架构：上下文塔冻结，降噪器塔训练，通过层对齐交叉注意力和状态播种协作。在 2×H100 上 BF16 评估，保留 98.7% 的 AR 基线质量，生成吞吐量提升 2.42 倍（γ=0.8，块大小 S=16）。降噪器在约 2.1T token 上训练，骨干使用 25T token 预训练。总参数约 60B，每 token 活跃参数约 3B/塔。支持扩散、模拟 AR 和 AR 三种解码模式。",
+      "reason": "NVIDIA这个TwoTower把扩散解码接在已有的AR骨干上，几乎无损质量却让吞吐翻倍，并且开源可商用，对批量文本生成的团队是实在的加速工具。",
+      "score": 73,
+      "tags": [
+        "开源生态",
+        "推理",
+        "模型发布",
+        "部署/工程"
+      ],
+      "source": "MarkTechPost（RSS）",
+      "time": "16:32",
+      "date": "7月1日"
+    },
+    {
+      "id": "cmr1qbf1w012isl8zibrcgm2h",
+      "title": "亚马逊 AWS 砸 10 亿美元，派遣工程师进驻客户公司",
+      "link": "https://www.ithome.com/0/971/071.htm",
+      "summary": "亚马逊 AWS 宣布设立新部门，组建前置驻场工程师团队，先期投入 10 亿美元（约 67.97 亿元人民币）。团队分批派驻客户企业，每批 5-6 组工程师，驻场周期 45 天，协助客户落地人工智能软件与智能体应用。该模式在 Palantir、Salesforce、Anthropic、谷歌云等企业已有先例，领英数据显示 2023 至 2025 年间同类岗位需求增长 42 倍。新部门员工规模将达数千人，首批客户包括 NBA 与理光。",
+      "reason": "AWS 砸 10 亿美元建驻场工程师团队，帮客户 45 天落地 AI 智能体。这不是卖云资源，是卖业务结果，对考虑用 AI 的企业是个信号，巨头开始贴身服务了。",
+      "score": 70,
+      "tags": [
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "15:03",
+      "date": "7月1日"
+    },
+    {
+      "id": "cmr1js18u03imslnld2yrjboo",
+      "title": "美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
+      "link": "https://mp.weixin.qq.com/s/9XFcx3fmFcmbry5bHMJsow",
+      "summary": "美团于6月30日发布新一代万亿参数大模型LongCat-2.0并开源。总参数1.6T，平均激活约48B，原生支持1M超长上下文，在五万卡国产算力集群上完成全流程训练与推理。采用LSA稀疏注意力、零计算专家、ScMoE及MOPD多专家融合（Agent/Reasoning/Interaction三组专家）架构。评测中SWE-bench Pro获59.5，SWE-bench Multilingual获77.3。预览版已通过OpenRouter和longcat.ai开放，月调用量跻身OpenRouter全球前三。",
+      "reason": "国产算力上首个全流程自训的万亿开源模型，1M上下文和动态专家架构直指Agentic Coding场景，OpenRouter调用量已经冲到前三，不是Demo是生产力。",
+      "score": 82,
+      "tags": [
+        "开源生态",
+        "推理",
+        "模型发布",
+        "编码"
+      ],
+      "source": "公众号：龙猫LongCat（美团）",
+      "time": "12:00",
+      "date": "7月1日"
+    },
+    {
+      "id": "cmr1eiq770260slnlxguii7jy",
+      "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
+      "link": "https://x.com/shao__meng/status/2072126769986220157",
+      "summary": "mattpocockuk 的 /writing-great-skills 成为其最常调用的 Skill，指导如何编写稳定可预测的 AI Skill。核心：以过程可预测为目标；区分 model-invoked（自动触发）与 user-invoked（用户调用），description 应作触发器；采用三层信息结构（主步骤、参考、外部文件）实现渐进式披露；每步骤需明确完成标准；拆分 Skill 是为了控制模型注意力；利用 leading word 压缩行为要求。同时诊断五种失败模式：Premature completion、Duplication、Sediment、Sprawl、No-op，并提供 No-op 测试作为判断句子是否有效的标准。",
+      "reason": "Matt Pocock 把写 Skill 从玄学变成了可拆解的工程，其中领先词和完成标准这两个概念，能立刻让你的自定义工具行为更稳定，搞 Agent 的都应该试一下。",
+      "score": 75,
+      "tags": [
+        "Agent",
+        "GitHub",
+        "教程/实践"
+      ],
+      "source": "X：邵猛 (@shao__meng)",
+      "time": "09:33",
+      "date": "7月1日"
+    },
+    {
+      "id": "cmr1bxokg01eoslnlem278yfq",
+      "title": "Anthropic在Claude Code中植入隐写术代码识别中国用户",
+      "link": "https://mp.weixin.qq.com/s/yLb4T2UC16ebKHApdBbgWw",
+      "summary": "Anthropic在Claude Code中植入隐写术：读取本地时区（Asia/Shanghai或Asia/Urumqi）和ANTHROPIC_BASE_URL环境变量，与一份经base64+XOR（密钥91）加密的147个域名列表（含美团、字节跳动、月之暗面等）比对，识别中国用户。识别后，在请求发送前将系统提示词中日期字符串的单引号（U+0027）替换为其他Unicode字符，连字符改为斜杠，作为2-3比特分类标记传回服务器。该隐蔽行为被社区逆向发现后引发争议，被认为破坏用户信任。",
+      "reason": "Anthropic用隐写术在Claude Code里埋标记的行为，让我对闭源开发者工具的信任打了一个巨大的问号，这事比普通地域封锁严重得多，因为它在不该碰的地方动了手脚。",
+      "score": 84,
+      "tags": [
+        "Anthropic",
+        "安全/对齐",
+        "行业动态"
+      ],
+      "source": "公众号：数字生命卡兹克",
+      "time": "08:20",
+      "date": "7月1日"
+    },
+    {
+      "id": "cmr1bb1gr01adslnlt43fwfff",
+      "title": "库克与欧盟科技主管就新版Siri AI举行建设性会谈",
+      "link": "https://www.ithome.com/0/970/810.htm",
+      "summary": "苹果CEO库克与欧盟科技事务负责人维尔库宁就新版Siri AI在欧推出举行建设性视频会议。新版Siri将转为可调用用户个人数据的聊天机器人，但因《数字市场法》互操作义务苹果拒绝向竞争对手开放同等数据权限，暂不在欧盟iPhone和iPad上推出。苹果提出“可信系统代理”方案，拟在设备与第三方AI模型间增加软件层，但未开发，并要求18个月监管宽限期，遭欧盟拒绝。欧盟收到数百封消费者邮件及死亡威胁。",
+      "reason": "苹果与欧盟围绕Siri AI的监管博弈，表面是互操作义务之争，实则关乎AI巨头在数据隐私和市场准入间的平衡，对全球科技政策都有风向标意义。",
+      "score": 72,
+      "tags": [
+        "政策/监管",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "08:03",
+      "date": "7月1日"
+    },
+    {
+      "id": "cmr190seo00nsslnlxmfddenz",
+      "title": "AI 用 prover-verifier LLM 循环攻克 9 个未解数学难题",
+      "link": "https://x.com/AISafetyMemes/status/2072085914558558402",
+      "summary": "AI Safety Memes 推文指出，AI 刚刚解决了 9 个未解决的数学问题，但全球没有记者报道。引用 @WeinsteinOmri 的推文称，采用“prover-verifier”LLM 循环的方法，成功解决了理论计算机科学中 9 个重大开放问题，其中包括一个困扰其长达 2 年的难题。该研究由哥伦比亚大学合作者完成，并计划将这一方法扩展到所有科学领域。",
+      "reason": "如果属实，这将是 AI 首次批量解决实质性开放数学问题，但消息仅来自推文声明，未见论文或代码，现在兴奋还太早。",
+      "score": 76,
+      "tags": [
+        "安全/对齐",
+        "推理",
+        "论文/研究"
+      ],
+      "source": "X：AI Safety Memes (@AISafetyMemes)",
+      "time": "06:59",
+      "date": "7月1日"
+    },
+    {
+      "id": "cmr12g90k00zlsldxyyr0fmt3",
+      "title": "NotebookLM Short Video Overviews 全量上线 Web 英文版",
+      "link": "https://x.com/NotebookLM/status/2072043680442245276",
+      "summary": "NotebookLM 正式向 Web 英文用户全量推出 Short Video Overviews（短视频概览）功能。该功能可将复杂资料自动转化为 60 秒竖屏视频，深入讲解任意概念。此前，这一功能已面向 Google AI Ultra 和 Pro 订阅者（移动端及 Web）推出，免费用户即将可用。",
+      "reason": "NotebookLM 把资料源变成 60 秒竖屏视频，想法不新但落地很实用，学生和内容创作者可能会高频用上，只是颠覆性谈不上。",
+      "score": 68,
+      "tags": [
+        "Google",
+        "产品更新",
+        "视频"
+      ],
+      "source": "X：NotebookLM (@NotebookLM)",
+      "time": "03:55",
+      "date": "7月1日"
+    },
+    {
+      "id": "cmr0yev3s005cslw8omm20ml6",
+      "title": "Claude Sonnet 5 发布",
+      "link": "https://www.anthropic.com/news/claude-sonnet-5",
+      "summary": "Claude Sonnet 5 是 Anthropic 推出的最新 Sonnet 模型，具备计划、浏览器和终端工具使用能力，可自主运行。性能接近 Opus 4.8，定价更低：即日起至 2026 年 8 月 31 日，输入 token $2/百万，输出 $10/百万，之后恢复为 $3/百万输入和 $15/百万输出。相比 Sonnet 4.6，在推理、工具使用、编程和知识工作等智能体能力上大幅提升。在 BrowseComp 和 OSWorld-Verified 评测中严格优于 Sonnet 4.6。安全评估显示不良行为率更低，幻觉和谄媚减少，但网络安全能力弱于 Opus 4.8。即日起在所有套餐及 Claude Code、Claude API 中可用。",
+      "reason": "Claude Sonnet 5 把代理能力从 Opus 下放到了 Sonnet，性能接近 Opus 4.8 但价格只有三分之一，这对开发者来说性价比飞跃。虽然还不是最强，但已经能让许多复杂任务从勉强可用变成可靠。",
+      "score": 81,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "模型发布",
+        "编码"
+      ],
+      "source": "Anthropic：Newsroom（网页）",
+      "time": "02:02",
+      "date": "7月1日"
+    },
+    {
+      "id": "cmr0yab2e003oslw8uw5zghrc",
+      "title": "Acti 将 AI 智能体直接放入手机键盘",
+      "link": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard",
+      "summary": "新加坡初创公司 Acti 发布基于 Google Gemini 的智能体键盘，可代替用户在应用中执行操作。核心功能 Skills 允许用自然语言创建快捷方式，如长按 T 键翻译消息、C 键发送会议链接。早期测试者两周内创建超 1000 个 Skills。采用本地优先架构，默认不访问私人消息。公司获 530 万美元种子轮融资，由 BITKRAFT Ventures 领投，现已开放下载。",
+      "reason": "Acti 想用 AI 代理重塑手机键盘，把 Gemini 塞进输入法，离不离开 App 都能用 AI 的思路很讨巧，但换键盘的阻力不小，目前更像一个有趣的试验品。刚拿到 530 万美元种子轮，有试错空间。",
+      "score": 72,
+      "tags": [
+        "Agent",
+        "Google",
+        "产品更新",
+        "端侧"
+      ],
+      "source": "TechCrunch：AI（RSS）",
+      "time": "01:58",
+      "date": "7月1日"
+    },
+    {
+      "id": "cmr0xc7sg0040slb3yenz5k02",
+      "title": "Claude Science 科研工作台正式上线",
+      "link": "https://www.anthropic.com/news/claude-science-ai-workbench",
+      "summary": "Anthropic 推出 AI 科研工作台 Claude Science，整合常用工具与计算资源，支持从文献分析到多步骤研究的全流程。提供超 60 项预配置技能与连接器，覆盖基因组学、单细胞、蛋白质组学、结构生物学、化学信息学等领域；可在macOS/Linux本地运行，或通过SSH/HPC远程使用。生成含代码和环境的可审计成果（3D蛋白质结构、基因组浏览器轨迹等），内置reviewer agent自动检查引用与计算错误。通过NVIDIA BioNeMo接入Evo 2、Boltz-2等模型，也支持连接自有模型与管道。今日以beta版面向Claude Pro、Max、Team和Enterprise用户开放。",
+      "reason": "Anthropic 为科学家打造了一个整合 60+ 技能、可管理计算和审计输出的 AI 工作台，让 AI 从顾问变成可复现的实验合作者。",
+      "score": 66,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "MCP/工具调用",
+        "产品更新"
+      ],
+      "source": "Anthropic：Newsroom（网页）",
+      "time": "01:32",
+      "date": "7月1日"
+    },
+    {
+      "id": "cmr0x8nxp002gslb33ixw5j4z",
+      "title": "Apple Creator Studio 更新：更智能、更快速、更互联",
+      "link": "https://www.apple.com/newsroom/2026/06/apple-creator-studio-gets-smarter-faster-and-more-connected",
+      "summary": "Apple Creator Studio 推出多项 AI 增强更新。Final Cut Pro 新增 on-device AI 驱动的 Generate Captions（自动转录音频生成字幕）和 Edit Detection（自动检测剪辑点）。Mac 版加入 Auto Mask（自动识别皮肤、天空等主体）、增强的 Match Color 和 Advanced Trimming。支持将帧发送至 Pixelmator Pro 编辑，并在 Keynote、Pages、Numbers 中直接调用 Pixelmator Pro 修改图片。Logic Pro 新增 Grammy 制作人制作的 Producer Project 及 Chord ID 改进。订阅价 $12.99/月或 $129/年，新用户免费试用一个月，教育用户 $2.99/月。",
+      "reason": "Final Cut Pro 的自动字幕和遮罩是实打实的工作流提升，Pixelmator Pro 的深度整合也让设计更顺畅，虽然没有颠覆性突破，但创意工作者今天就能用上。",
+      "score": 66,
+      "tags": [
+        "产品更新",
+        "图像生成",
+        "语音"
+      ],
+      "source": "Apple：Newsroom（RSS）",
+      "time": "01:29",
+      "date": "7月1日"
+    },
+    {
+      "id": "cmr0x7y97001yslb3tyb8w4ce",
+      "title": "Claude Code 入门：智能体循环",
+      "link": "https://claude.com/blog/getting-started-with-loops",
+      "summary": "Claude Code 团队将智能体循环定义为 agent 重复工作直到满足停止条件的过程，并划分出四种主要类型：turn-based 循环（用户提示触发，Claude 自行判断完成或需更多上下文）、goal-based 循环（通过 `/goal` 命令设定可验证完成标准与最大轮次）、time-based 循环（通过 `/loop` 按时间间隔重复执行，可用 `/schedule` 移至云端）、以及 proactive 循环（基于事件或计划自动运行，无人实时参与）。文章还介绍了如何编写 SKILL.md 文件将人工验证步骤编码，让 Claude 进行端到端自检，减少 turn-based 循环中的手动操作。",
+      "reason": "Anthropic把agentic loops从模糊概念变成四种可复制的模式，附带SKILL.md和命令示例，Claude Code用户读完就能设计更自主的编码流程。",
+      "score": 72,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "MCP/工具调用",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "Claude：Blog（网页）",
+      "time": "01:28",
+      "date": "7月1日"
+    },
+    {
+      "id": "cmr0wwa6g0085sl40xkkzeruy",
+      "title": "用 shot-scraper video 让 AI 智能体录制工作演示视频",
+      "link": "https://simonwillison.net/2026/Jun/30/shot-scraper-video",
+      "summary": "shot-scraper 1.10 新增 shot-scraper video 命令，支持通过 storyboard.yml 文件定义操作步骤，并利用 Playwright 录制浏览器视频。演示视频展示了 Datasette 中从粘贴的 CSV/TSV/JSON 数据创建新表的功能。该功能依赖 Playwright 1.61.0 新增的 screencast 机制，解决了此前视频开头白帧、宽度固定 800px 等问题。开发者 Simon Willison 强调，将 --help 输出设计得足够详细，可使编码 Agent 直接利用该命令生成演示视频。",
+      "reason": "Simon 把 agent 的产出从文字推到了视频，这个 shot-scraper video 让 agent 自己生成 storyboard 并录屏，等于给自动化流程加了一双眼睛，开发者可以立刻用上这套 demo 生成方案。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "GitHub",
+        "MCP/工具调用",
+        "产品更新"
+      ],
+      "source": "Simon Willison 博客",
+      "time": "01:19",
+      "date": "7月1日"
+    },
+    {
+      "id": "cmr0wupt4007gsl403t7s6dbn",
+      "title": "ADK Go 2.0 发布：构建可靠的多智能体应用，新增基于图的工作流引擎、人工参与循环与动态编排",
+      "link": "https://developers.googleblog.com/announcing-adk-go-20",
+      "summary": "Agent Development Kit (ADK) for Go 2.0 发布，引入了一类基于图的工作流引擎，用于组合复杂多智能体应用。新版本内置人工参与循环（HITL）编排、使用纯 Go 代码的动态执行、以及指数退避重试等自动弹性特性。统一执行模型后，单智能体应用与复杂图均运行在同一运行时上，简化了遥测与状态持久化。",
+      "reason": "Google 给 Go 生态补上了多智能体编排的关键一环，图工作流引擎和人机协同直接内置，比之前拼积木的方式可靠很多，做 Agent 的 Go 开发者值得跟进。",
+      "score": 67,
+      "tags": [
+        "Agent",
+        "Google",
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "Google Developers Blog（RSS）",
+      "time": "01:17",
+      "date": "7月1日"
+    },
+    {
+      "id": "cmr0wblyn0050sl40bngva2bq",
+      "title": "OpenAI 发布 GeneBench-Pro：计算生物学研究级基准测试",
+      "link": "https://openai.com/index/introducing-genebench-pro",
+      "summary": "OpenAI 发布 GeneBench-Pro，用于评估 AI 智能体在计算生物学中处理模糊性和做出判断性分析的能力。该基准包含 129 个问题，覆盖统计遗传学、群体遗传学等 10 个领域 21 个子领域。每个问题提供真实混乱的数据集和实验背景，要求模型探索数据、选择分析路径并迭代实验。采用合成数据构建，已知完整因果结构。82 个问题已由外部领域专家审核确认其现实性。",
+      "reason": "OpenAI 的新基准揭示了一个信号，GPT-5.6 在需要科学判断的模糊任务上进步神速，从不足 5% 到接近 30%，且单题成本仅几美元，这对 AI for Science 的落地想象空间影响不小。",
+      "score": 70,
+      "tags": [
+        "OpenAI",
+        "推理",
+        "论文/研究"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "01:03",
+      "date": "7月1日"
+    },
+    {
+      "id": "cmr0vkch300f5slate2n251dm",
+      "title": "Grant Sanderson 谈 AI 与数学的未来",
+      "link": "https://www.dwarkesh.com/p/grant-sanderson-2",
+      "summary": "3Blue1Brown 创办人 Grant Sanderson 正在制作记录 AI 在数学领域进展的新项目。他在与 Dwarkesh Patel 的对谈中指出，AI 在 IMO 获金牌并不等于 AGI，只是又一个被攻克的基准。即使 AI 未来解决千禧年大奖难题，仍可能存在大量人类任务无法被自动化。对话还探讨了概念突破验证周期可长达一个世纪、Riemann 假设的 AI 证明能否被人类理解、AI 能否在已有文献间发现隐藏联系，以及现实经济任务难以套用强化学习环境等话题。",
+      "reason": "这次对谈没有停留在AI刷数学题的喜报上，而是追问了‘验证循环’和‘定义生成’两个终极难题。Grant Sanderson的视角让人重新思考AI的进展究竟缺什么，数学家未来的角色会是什么。",
+      "score": 61,
+      "tags": [
+        "大佬观点",
+        "推理",
+        "现象/趋势"
+      ],
+      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+      "time": "00:42",
+      "date": "7月1日"
+    },
+    {
+      "id": "cmr0v1pn7009kslatrt4gncmj",
+      "title": "Claude Desktop 推出 Linux 公测版",
+      "link": "https://x.com/ClaudeDevs/status/2071988881717871065",
+      "summary": "Claude Desktop 现已在 Linux（Ubuntu 和 Debian）上推出测试版。\n\n除了浏览器和终端，你现在可以在所有付费计划中获得一流的桌面体验，包括 Claude Code、Claude Cowork 和聊天。",
+      "reason": "Claude 桌面端终于来到 Ubuntu，补齐了 Linux 开发者工作流里缺失的一环，beta 状态不影响它与终端、浏览器的深度打通。",
+      "score": 67,
+      "tags": [
+        "Anthropic",
+        "产品更新",
+        "端侧"
+      ],
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "time": "00:28",
+      "date": "7月1日"
+    },
+    {
+      "id": "cmr0uio0g003vslatqnaiw1pu",
+      "title": "OpenAI Signals 数据揭示 ChatGPT 全球采用趋势",
+      "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "summary": "OpenAI Signals 数据显示，用户注册六个月后日均消息量增加50%，尝试任务种类翻倍。自2023年7月以来，各大洲活跃用户均大幅增长，非洲和亚洲增速最快，低人类发展指数国家增长尤为显著。用户群体更加多元化，女性名字用户已占全球多数，巴西、哥伦比亚、波兰和纳米比亚等国女性用户显著多于男性。非英语用户占活跃用户半数以上，领先语言为西班牙语、葡萄牙语和阿拉伯语；乌兹别克语、哈萨克语和缅甸语用户占比增长百分比最大。",
+      "reason": "OpenAI 首次公开用户行为数据，显示使用深度和广度随时间增长、非洲与亚洲增速最快，对做全球化产品的同行是个重要信号。",
+      "score": 62,
+      "tags": [
+        "OpenAI",
+        "现象/趋势"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "00:13",
+      "date": "7月1日"
+    },
+    {
+      "id": "cmr0ucc880030slatw1gfkq2h",
+      "title": "Google DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash",
+      "link": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
+      "summary": "Google DeepMind 推出 Nano Banana 2 Lite（gemini-3.1-flash-lite-image），为 Nano Banana 系列速度最快、成本最低的图像模型，文本到图像输出仅需 4 秒，每 1K 分辨率图像成本 $0.034，已上线 Google AI Studio、Gemini API 及消费者产品（AI Mode in Search、Gemini app 等）。同时推出 Gemini Omni Flash（gemini-omni-flash-preview），支持高画质视频生成与对话式编辑，视频输出定价 $0.10/秒，面向开发者开放 API。",
+      "reason": "Nano Banana 2 Lite 把图像生成拉到 4 秒延迟和 0.034 美元单价，很适合高频草稿流，Omni Flash 首次对开发者开放视频生成和对话编辑，两个模型串起来的快速迭代工作流是这次最实用的更新。",
+      "score": 70,
+      "tags": [
+        "Google",
+        "图像生成",
+        "多模态",
+        "模型发布"
+      ],
+      "source": "Google DeepMind：Blog（RSS）",
+      "time": "00:08",
+      "date": "7月1日"
+    },
+    {
+      "id": "cmr0kov5302qnslolcwg00yqd",
+      "title": "Meta秘密测试ChatGPT等竞品：承包商假扮未成年发送数万条危机提示",
+      "link": "https://the-decoder.com/meta-secretly-tested-chatgpt-gemini-and-character-ai-with-thousands-of-minor-perspective-crisis-prompts",
+      "summary": "Meta通过承包商Covelen发起代号“Cannes”的项目，雇佣数百人假扮未成年人，向ChatGPT、Gemini和Character.AI发送关于自杀、自残、饮食障碍和毒品的敏感提示，并将回复录入表格。2025年8月一轮测试中发送了超过4.5万条提示。Meta称这是行业标准安全测试，未将数据用于训练自家模型。被测试公司不知情——Character.AI表示违反其服务条款，OpenAI已调查，Google称未批准。青少年使用AI聊天机器人引发的担忧持续，此前已有用户自杀事件。",
+      "reason": "Meta 秘密测试 ChatGPT 等对手，用的是假装未成年人的危机提示，这种事既是安全测试也可能是数据抓取，被测试公司全不知情，这暴露了 AI 安全测试的灰色地带。",
+      "score": 70,
+      "tags": [
+        "Meta",
+        "OpenAI",
+        "安全/对齐",
+        "行业动态"
+      ],
+      "source": "The Decoder：AI News（RSS）",
+      "time": "19:38",
+      "date": "6月30日"
+    },
+    {
+      "id": "cmr0czddc00pyslole7byaugu",
+      "title": "黑石未来3～5年拟投300亿美元在日本建AI数据中心，联合成立AI XPV平台",
+      "link": "https://www.ithome.com/0/970/583.htm",
+      "summary": "黑石计划未来3~5年在日本AI数据中心领域投资300亿美元，此前的500MW基础上新增超1GW容量。黑石总裁认为AI投资仍处早期，真正风险是算力短缺而非基建泡沫；谷歌、亚马逊是英伟达潜在挑战者。此外，黑石、阿波罗、博通本月9日成立AI XPV平台，目标2028年向OpenAI、Anthropic等提供超20GW算力，首期350亿美元支持Anthropic在Fluidstack数据中心部署1GW基础设施。",
+      "reason": "黑石300亿美元押注日本AI数据中心，加上此前AI XPV平台，算力基建竞赛进入新阶段，对于关注云计算和算力供需的人来说是个重要信号。",
+      "score": 70,
+      "tags": [
+        "Anthropic",
+        "OpenAI",
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "16:02",
+      "date": "6月30日"
+    },
+    {
+      "id": "cmr0au6v3005gslol3ritaun0",
+      "title": "特斯拉Cybercab量产版在奥斯汀启动公开道路工程测试",
+      "link": "https://www.ithome.com/0/970/539.htm",
+      "summary": "2026年6月30日，特斯拉在奥斯汀公共道路启动首批量产版Cybercab工程测试。车辆无方向盘与脚踏板，配有安全监督员，马斯克发布实拍视频。从2024年10月概念车首秀到实车上路约20个月。目前不对外开放乘客，投入34台Cybercab在市中心验证硬件可靠性。Cybercab为双座车型，完全围绕无人驾驶打造，无后期改装。此前奥斯汀已有无安全员Model Y无人驾驶出租于1月启用、6月22日开放付费服务。",
+      "reason": "特斯拉把无方向盘无踏板的 Cybercab 量产版开上奥斯汀公路，得州交通局批准了设计，从概念到测试仅 20 个月，进度远超预期，这是自动驾驶商业化的关键一步。",
+      "score": 79,
+      "tags": [
+        "具身智能",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "15:02",
+      "date": "6月30日"
+    },
+    {
+      "id": "cmr07c62l04huslkimxy3vdw5",
+      "title": "X（Twitter）发布 hosted X MCP，AI 智能体可直连 X API",
+      "link": "https://x.com/op7418/status/2071816099986022650",
+      "summary": "X（Twitter）官方推出 hosted X MCP，AI 智能体可通过 MCP 协议直接调用 X API 获取实时信息，支持 Grok、Cursor 等工具。用户需注册 X API 并按量付费，个人优惠价每次调用 0.01 美元（1 美元 1000 次）。有用户实测拉取近三天书签仅花 0.1 美元。配置步骤：创建 APP 并充值、获取配置 ID、辅助配置（可交给 Codex/Claude）、授权启动。",
+      "reason": "X官方推出的MCP让AI代理能直接读取Twitter数据，归藏实测了定价和配置流程，1美元可调用1000次个人数据，比官方公告更实在，依赖Twitter信息的开发者可以立刻上手。",
+      "score": 75,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "产品更新"
+      ],
+      "source": "X：歸藏 (@op7418)",
+      "time": "13:24",
+      "date": "6月30日"
+    },
+    {
+      "id": "cmr05b2wq0414slkivvyyjlbl",
+      "title": "AI就业争论变得更加混乱",
+      "link": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier",
+      "summary": "截至2026年5月，AI相关裁员接近9万个，预计未来五年美国最多15%的岗位将被AI替代。但Ramp与Revelio Labs对近22,000家公司的报告发现，高AI投入企业（前三个月人均月均支出30美元）总员工数增长10.2%，入门级岗位增长12%。报告认为AI并非普遍导致岗位消失，而是在资源充裕的科技企业里成为扩张工具——降低工程、销售、客服等职能的生产成本，从而推动整体增员。但仅购买订阅而未持续投入的公司未见人头增长，可能加剧企业间的资源鸿沟。",
+      "reason": "报告用雇佣数据驳斥了「AI消灭就业」的简单说法，付费多的公司反而在扩招甚至增加初级岗，但样本都是快速增长的科技公司，分化隐忧仍在，值得人力决策者细看。",
+      "score": 71,
+      "tags": [
+        "其他",
+        "现象/趋势"
+      ],
+      "source": "TechCrunch：AI（RSS）",
+      "time": "12:27",
+      "date": "6月30日"
+    },
+    {
+      "id": "cmr03h5tq03jjslki3a281zet",
+      "title": "一个人管理5款产品，80%时间不写代码？Every的复利工程",
+      "link": "https://x.com/xiaohu/status/2071796715162857477",
+      "summary": "媒体软件公司Every公开「复利工程」方法论，以单人工程团队维护5款产品。核心是四步循环：Plan→Work→Review→Compound，其中Compound将每次解决问题的解法写入CLAUDE.md和docs/solutions/，使AI下次自动避坑。工程师80%时间花在Plan和Review，仅20%用于写代码。配套开源插件支持Claude Code等，含26个专项agent、23条工作流命令、13项技能，可零配置使用。/workflows:review一次并发14个agent审查代码，/workflows:plan在ultrathink模式下可并发40多个研究agent。",
+      "reason": "Every把内部单人维护5款产品的方法论和插件开源了，14个AI同时审代码、40多个研究agent做计划，是目前公开的多agent并行工程里数字最具体的参考之一，做AI辅助开发的可以直接上手抄。",
+      "score": 81,
+      "tags": [
+        "Agent",
+        "教程/实践",
+        "编码",
+        "部署/工程"
+      ],
+      "source": "X：小互 (@xiaohu)",
+      "time": "11:36",
+      "date": "6月30日"
+    },
+    {
+      "id": "cmr034hsc03fdslki184emljf",
+      "title": "Agents-A1：35B MoE 智能体模型通过扩展 horizon 达到万亿参数级性能",
+      "link": "https://arxiv.org/abs/2606.30616",
+      "summary": "研究人员提出 Agents-A1，一个 35B 参数的 Mixture-of-Experts 智能体模型，通过扩展智能体 horizon（长轨迹与异构能力两个视角）达到万亿参数模型性能。团队构建了长 horizon 知识-行动基础设施，生成平均 45K token 的智能体轨迹，并采用三阶段训练：全领域监督微调、领域级教师模型训练、多教师领域路由在线蒸馏（含显著词汇对齐）。对比万亿参数模型 Kimi-K2.6 和 DeepSeek-V4-pro，Agents-A1 在 SEAL-0（56.4）、IFBench（80.6）、HiPhO（46.4）、FrontierScience-Olympiad（79.0）和 MolBench-Bind（56.8）上领先，并在 SciCode（44.3）、HLE（47.6）和 BrowseComp（75.5）上保持强竞争力。",
+      "reason": "用35B模型追平1T参数模型，这条“扩展智能体视野”的路比无脑堆参数务实得多，做Agent和长程推理的团队必须认真读。",
+      "score": 77,
+      "tags": [
+        "Agent",
+        "推理",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "11:26",
+      "date": "6月30日"
+    },
+    {
+      "id": "cmr00f9t902pgslkiofzqdgx2",
+      "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
+      "link": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
+      "summary": "具身智能数据采集员以日薪200-250元招兼职，无需学历经验。面试先测量身高体重以适配采集手套，并询问是否晕VR。工作分两种：遥操作采集——穿戴设备控制双臂机器人完成分拣积木、叠纸杯等动作；无机器人示教采集——徒手重复动作（如叠衣服），设备记录轨迹。全球高质量物理交互数据截至2026年初仅约50万小时，不足大语言模型训练数据的两万分之一，需大量人力从零采集。",
+      "reason": "具身智能的数据采集正在催生一种日结兼职，这篇文章把镜头对准了那些教会机器人叠纸杯的普通人，给我一种强烈的割裂感——最前沿的技术和最传统的用工方式在这里合体了。",
+      "score": 67,
+      "tags": [
+        "具身智能",
+        "现象/趋势"
+      ],
+      "source": "公众号：数字生命卡兹克",
+      "time": "10:10",
+      "date": "6月30日"
+    }
+  ]
+}

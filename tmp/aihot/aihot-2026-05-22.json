@@ -1,0 +1,646 @@
+{
+  "date": "2026-05-22",
+  "scraped_at": "2026-05-22T05:00:11.820131+00:00",
+  "total_items": 40,
+  "items": [
+    {
+      "id": "cmpgf40dn0ew7sljw5dd58ynk",
+      "title": "Antigravity付费版Gemini配额再翻三倍",
+      "link": "https://x.com/googleaidevs/status/2057679246085226965",
+      "summary": "更新：所有付费@Antigravity层级的*每周*Gemini配额已再次提升至三倍，且配额已正式重置。",
+      "reason": "如果你在用 Antigravity 的付费计划，这相当于每周可用 Gemini 配额翻了三倍，并且已重置，是个实在的利好，但对其他人来说只是脚注级更新。",
+      "score": 70,
+      "tags": [
+        "Google",
+        "产品更新"
+      ],
+      "source": "X：Google AI for Developers (@googleaidevs)",
+      "time": "12:26",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpgenaxf0es5sljw2xn4auuh",
+      "title": "OpenAI Codex /goal功能正式发布及使用指南",
+      "link": "https://x.com/dotey/status/2057672416071987378",
+      "summary": "OpenAI宣布Codex的/goal模式已结束实验，成为稳定功能。用户可在Codex应用、IDE扩展或CLI中使用，通过设定具体里程碑，让AI持续工作直至完成，任务可运行数小时甚至数天。过程中支持随时检查、调整方向及暂停。使用前需升级应用并启用该功能（可通过命令行指令或手动修改配置文件实现）。开启后，可在输入框管理任务，并利用侧边对话查看进度而不中断主任务。该功能旨在高效处理各类复杂任务。",
+      "reason": "Codex的goal模式从实验毕业，意味着你可以真的放手让AI去跑长时间任务，做开发的不用再守在电脑前，这是agent落地的真信号。",
+      "score": 76,
+      "tags": [
+        "Agent",
+        "OpenAI",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "X：宝玉 (@dotey)",
+      "time": "12:13",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpgadnmr0dqnsljw1u378q70",
+      "title": "从推理链到可验证子问题：课程强化学习实现LLM推理的信用分配",
+      "link": "https://arxiv.org/abs/2605.22074",
+      "summary": "针对基于结果的强化学习在处理困难推理问题时因正确样本稀少而效率低下的问题，本文提出子问题课程强化学习框架。该框架从参考推理链中提取可验证子问题，并将最终子问题固定为原始问题，从而将部分解题进展转化为可验证的学习信号。其通过在子问题位置独立归一化奖励并分配优势值，实现了更细粒度的信用分配。实验表明，SCRL显著提升了模型在多个数学推理基准上的性能，有效增强了在复杂问题上的探索与推理能力。",
+      "reason": "SCRL 将推理链解构为可验证子问题课程，让 RL 在超难数学题上获得细粒度信用分配，AIME 提点显著，做推理 RL 的团队值得复现。",
+      "score": 71,
+      "tags": [
+        "arXiv",
+        "推理",
+        "数据/训练",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "10:14",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpga762r0dmfsljwzsp341eh",
+      "title": "图灵测试 76 年后首现 AI 通过实证：GPT-4.5 以 73% 判定率超越真人",
+      "link": "https://www.ithome.com/0/953/705.htm",
+      "summary": "加州大学圣地亚哥分校研究首次实证现代AI可通过图灵测试。研究表明，在获得特定提示后，GPT-4.5在5至15分钟的对话中被误认为人类的概率高达73%，显著超过真人。LLaMa-3.1-405B的判定率（56%）与真人相当，而GPT-4o和ELIZA仅约20%。研究指出提示词至关重要，它使AI能模仿人类语气、幽默感甚至易错性等社会行为特征。这一发现迫使人们重新思考图灵测试的意义，并凸显了大语言模型在网络信任与安全方面构成的潜在挑战。",
+      "reason": "这篇PNAS论文首次用严格实验证明现代AI能通过图灵测试，GPT-4.5装人比真人还像，但重点不是它多聪明，而是它多擅长说谎，线上身份信任被彻底动摇。",
+      "score": 80,
+      "tags": [
+        "OpenAI",
+        "安全/对齐",
+        "论文/研究"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "10:09",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpga762r0dmcsljw5170mv58",
+      "title": "美国 AI 监管令突然告吹内幕：白宫内讧，马斯克、扎克伯格游说特朗普",
+      "link": "https://www.ithome.com/0/953/708.htm",
+      "summary": "5月22日，美国总统特朗普突然取消了原定签署的AI行政令，该行政令旨在加强监管，赋予政府在AI模型公开发布前进行评估的权力。取消源于特朗普本人对监管的反感，以及高级顾问大卫·萨克斯和科技界领袖如扎克伯格、马斯克的反对与游说，凸显白宫内讧。特朗普认为监管会成为绊脚石，阻碍美国AI领先优势。草案中还存在如财政部在安全协调中角色过重等争议，白宫表示正制定其他AI安全举措。",
+      "reason": "特朗普的 AI 监管令在签署前几小时被撤销，马斯克和扎克伯格直接打电话游说，这背后是加速派和监管派的公开角力，未来几个月 AI 政策只会更乱。",
+      "score": 77,
+      "tags": [
+        "安全/对齐",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "10:09",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpga762r0dm4sljw23zihurw",
+      "title": "智谱GLM-5.1高速版发布：刷新全球大模型API速度纪录",
+      "link": "https://www.ithome.com/0/953/717.htm",
+      "summary": "5月22日，智谱向部分企业客户推出了旗舰大模型GLM-5.1的高速版API“GLM-5.1-highspeed”。该版本输出速度达400 tokens/s，刷新了全球大模型API速度上限。关键突破在于，它首次在国产大模型中实现了旗舰级能力与低延迟的结合，打破了“高速模型即轻量模型”的传统。该版本由智谱GLM团队与TileRT团队合作，通过系统级优化确保了速度的生产级稳定性，适用于AI编程、实时语音交互等场景。",
+      "reason": "智谱把旗舰模型拉到 400 tokens/s，还保持全尺寸能力，不是那种为快阉割的小模型。做实时交互、AI 编程的可以认真看看，延迟敏感场景的选型参数要重写了。",
+      "score": 73,
+      "tags": [
+        "推理",
+        "模型发布",
+        "部署/工程"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "10:09",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpg876fh0d6nsljwz0fs9sgm",
+      "title": "RiT：在表示空间中使用原生扩散变换器已足够",
+      "link": "https://arxiv.org/abs/2605.21981",
+      "summary": "本研究探讨预训练表示空间在流匹配学习中的优势。比较像素、SD-VAE与DINOv2特征后发现，尽管像素与DINOv2的内在维度相近，但DINOv2在几何统计特性（如有效秩、协方差条件等）上表现更优，使回归过程更稳定。基于此，我们提出了表示图像变换器（RiT），它使用冻结的DINOv2特征，通过x-prediction目标训练一个原生扩散变换器。在ImageNet 256×256生成任务上，RiT性能优于参数量更多的DiT^DH-XL模型，且生成的常微分方程仅需少量步骤即可高效求解。",
+      "reason": "这篇论文没发明新架构，但通过剖析DINOv2特征的统计属性，证明简单结构在表示空间也能做出SOTA，对做图像生成的人来说是个省钱省参数的好思路。",
+      "score": 70,
+      "tags": [
+        "arXiv",
+        "图像生成",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "09:13",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpg7ztcn0d1vsljwywtcyylh",
+      "title": "用户好评即最佳文案，视觉呈现由AI完成",
+      "link": "https://x.com/LumaLabsAI/status/2057628006353670163",
+      "summary": "你的客户写出了你永远无法超越的文案。现在，为它匹配视觉呈现吧。\n只需粘贴评价，设定风格，Luma Agents 将处理所有推荐语图形。  \n让它被听见 → http://lumalabs.ai/app",
+      "reason": "把客户评价变成自动生成的视觉图形，做营销的可以省掉不少设计时间。不算大更新，但足够实用。",
+      "score": 62,
+      "tags": [
+        "产品更新",
+        "图像生成"
+      ],
+      "source": "X：Luma AI (@LumaLabsAI)",
+      "time": "09:07",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpg6xm8b0ctysljw2zo14zo8",
+      "title": "Gemini Omni发布，创意作品涌现",
+      "link": "https://x.com/GeminiApp/status/2057616371748651054",
+      "summary": "Gemini Omni来了，我们本周看到了许多令人惊叹的创作。以下是一些杰出作品 👇",
+      "reason": "Google 的 GPT-4o 时刻终于来了，Gemini Omni 原生多模态的体验比想象中更惊艳，普通人也能随手出大片。",
+      "score": 82,
+      "tags": [
+        "Google",
+        "多模态",
+        "模型发布"
+      ],
+      "source": "X：Gemini (@GeminiApp)",
+      "time": "08:37",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpg08wzy0b65sljwgzjw8l6d",
+      "title": "v2.1.147版本更新",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
+      "summary": "本次更新引入了`Workflow`工具，支持确定性多智能体编排（默认关闭）。将`/simplify`命令重命名为`/code-review`，现可报告代码正确性问题并支持生成GitHub PR内联评论。改进了自动更新器（增加重试与错误报告）、大文件diff渲染性能，并优化了提示历史记录以避免重复条目。修复了多个关键问题，包括企业登录限制未生效、Windows下的PowerShell工具与终端闪烁问题、插件系统及shell快照的bug，并增强了沙箱安全性与终端兼容性。",
+      "reason": "Claude Code 这次更新不止修 bug，Workflow 工具让多 agent 编排有了确定性模式，虽然默认关闭但值得尝鲜，做复杂工程的开发者可以关注。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "产品更新",
+        "编码"
+      ],
+      "source": "Claude Code：GitHub Releases（RSS）",
+      "time": "05:30",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpfye43s0asbsljwhf5sd7cn",
+      "title": "谷歌DeepMind在亚太启动AI气候加速器",
+      "link": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks",
+      "summary": "亚太地区经济增长迅速，但极易受到气候变化影响，且现有绿色技术发展速度跟不上环境风险的增长。为此，Google DeepMind宣布启动首届专注于“AI for the Planet”的加速器计划。该计划为期三个月，面向亚太地区的初创企业、研究团队和非营利组织，旨在利用前沿人工智能技术解决自然、气候、农业和能源等领域的挑战。入选组织将获得专家指导、定制化支持，并可集成Google AI的前沿模型。计划将从新加坡的线下训练营开始，现已开放注册。",
+      "reason": "亚太区做气候 AI 的团队多了一个直接对接 DeepMind 的机会，三周新加坡 bootcamp 能蹭到的前沿模型集成支持比钱值钱。",
+      "score": 64,
+      "tags": [
+        "Google",
+        "行业动态"
+      ],
+      "source": "Google DeepMind：Blog（RSS）",
+      "time": "04:38",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpfyb7qb0apysljwk3k8nlne",
+      "title": "ChatGPT现已支持在PowerPoint中直接创建编辑演示文稿",
+      "link": "https://x.com/ChatGPTapp/status/2057560276384563560",
+      "summary": "你是否曾这样想过：我真的不想做这个PPT。\n\n好消息：ChatGPT现在可以直接在PowerPoint中创建和编辑演示文稿。\n\n在PowerPoint中直接构建、更新、理解和优化演示文稿，同时保持幻灯片可编辑。\n\n目前处于测试阶段，我们期待您的反馈 👀",
+      "reason": "打工人苦PPT久矣，ChatGPT这次直接在PowerPoint里给你搭好框架还让你随时修改，是从「帮你写」走到了「帮你做」。",
+      "score": 67,
+      "tags": [
+        "OpenAI",
+        "产品更新"
+      ],
+      "source": "X：ChatGPT (@ChatGPTapp)",
+      "time": "04:36",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpfy3oks0am6sljw9otht8dv",
+      "title": "Datasette Agent",
+      "link": "https://simonwillison.net/2026/May/21/datasette-agent",
+      "summary": "Datasette Agent是Datasette推出的首个可扩展AI助手，为用户提供对话式界面以查询数据，并支持通过插件生成图表。该工具基于其LLM Python库构建，是LLM与Datasette整合的重要成果。目前提供图表生成、AI图像创建和沙箱代码执行等官方插件。它既可运行于Gemini 3.1 Flash-Lite等云端模型，也支持通过LM Studio连接本地开源模型，具备可靠的工具调用与查询能力。",
+      "reason": "Simon 终于把 Datasette 和 LLM 接上了，自然语言查 SQL 数据库有了现成方案，插件生态和本地模型支持让这工具的可玩性极高，做数据分析的值得试试。",
+      "score": 71,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "开源/仓库",
+        "数据/训练"
+      ],
+      "source": "Simon Willison 博客",
+      "time": "04:30",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpfxyna10alksljwzi9qx4zk",
+      "title": "加州州长纽森签署首创性行政令，为应对AI可能带来的劳动力市场冲击做准备",
+      "link": "https://x.com/rohanpaul_ai/status/2057555054387949848",
+      "summary": "加州州长纽森签署行政令，首次将AI引发的失业问题正式列为公共政策议题，要求各部门研究遣散费、就业保险及员工持股等保障措施。该命令认识到AI可能渐进式替代岗位任务，而非一次性取代整个职位，因此计划建立新的劳动力数据看板，以更早捕捉行业受到的冲击。政策核心在于探讨如何将AI带来的生产力红利，通过股权、薪酬支持等方式在企业与员工间进行更公平的分配。同时指出，单纯的职业培训可能无法解决被AI彻底取代的岗位所带来的根本性就业错配问题。",
+      "reason": "这不只是又一个AI政策声明，加州直接把AI失业当成公共政策问题推到了立法前夜。从遣散费到工人持股，方案很激进，但真正要命的是它要求实时追踪岗位被侵蚀的速度，这对企业用人策略的影响可能比GPT-5还深远。",
+      "score": 82,
+      "tags": [
+        "政策/监管"
+      ],
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "time": "04:26",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpfx8pgl0aftsljw6ddy0mx0",
+      "title": "Gemini扩展应用连接，支持更多服务",
+      "link": "https://x.com/GeminiApp/status/2057550225863246236",
+      "summary": "Gemini现在可以连接更多应用，包括@OpenTable、@Canva和@Instacart。\n\n无论您是预订餐厅、制作传单还是订购杂货，Gemini不仅能查找信息，还能通过连接的应用帮助您无缝采取行动。",
+      "reason": "Gemini 开始连接 Canva 和 Instacart 了，从“查信息”到“帮干活”的边界又模糊了一点，这是智能助手变成真 Agent 的关键一步，用这些服务的人可以试试。",
+      "score": 67,
+      "tags": [
+        "Agent",
+        "Google",
+        "产品更新"
+      ],
+      "source": "X：Gemini (@GeminiApp)",
+      "time": "04:06",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpfw62gg0a6hsljwnu5etjbw",
+      "title": "Viggle推出3D格斗派对游戏Fight Anyone 3D",
+      "link": "https://x.com/ViggleAI/status/2057541072419520634",
+      "summary": "介绍Fight Anyone 3D🥊一款3D派对格斗游戏，可能是上班时玩起来最爽的游戏。\n\n上传任何人的照片 → 一个可玩的3D格斗角色，带有语音、个性+招牌动作，由Viggle自研游戏引擎+模型打造。\n\n公测期间100%免费+赠送20张礼品卡。玩得越多，赢得越多！\n\n和同事对战。和朋友对战。和任何人对战。链接+教程+更多内容见下方推文串 ↓",
+      "reason": "Viggle把「上传照片生成3D格斗角色」做成了免费派对游戏，有声音有个性，交互感拉满，是近期最适合摸鱼的产品，但AI含量主要在娱乐侧，别当生产力工具。",
+      "score": 66,
+      "tags": [
+        "产品更新",
+        "图像生成",
+        "多模态"
+      ],
+      "source": "X：Viggle AI (@ViggleAI)",
+      "time": "03:36",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpfvw2ad0a2vsljwmiqhz1jg",
+      "title": "SpaceX的无限野心：AI企业集团",
+      "link": "https://www.tomtunguz.com/spacex-s1-analysis",
+      "summary": "SpaceX在提交S-1文件后，展现为一家AI时代的企业集团。公司由三大业务构成：Starlink（星链）、太空业务与AI业务。2025年总营收达187亿美元。其中，星链是绝对的核心与现金引擎，贡献了61%的营收并实现39%的营业利润率。太空业务收入占比22%，而AI业务（含X平台与xAI）虽仅占17%且处于巨额投入阶段，但代表了未来的战略方向。整体上，星链的强劲盈利为公司的太空探索与AI雄心提供了关键的资金支持。",
+      "reason": "SpaceX的S-1文件罕见披露了AI业务的财务底牌，Tunguz的拆解很精炼，让你看懂Starlink怎么为烧钱的AI和Starship供血，太空AI算力这个叙事值得关注。",
+      "score": 69,
+      "tags": [
+        "xAI",
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "time": "03:28",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpfvtbs20a1ssljw6zxhrsfd",
+      "title": "Cloudflare首席执行官谈如何决定用人工智能取代哪些员工",
+      "link": "https://www.wsj.com/opinion/how-i-choose-which-cloudflare-employees-to-replace-with-ai-40a197e5",
+      "summary": "Cloudflare首席执行官在《华尔街日报》撰文，分享其公司用AI替代部分员工的决策逻辑。该文于2026年5月21日发布，引发了技术社区的广泛讨论，在Hacker News上获得100个点赞。",
+      "reason": "Cloudflare CEO 亲自下场讲怎么选人让 AI 替，不是口号而是有具体方法论，做管理的可以对照看自己团队多少活儿能被自动化。对普通打工人也是一个明确的预警信号。",
+      "score": 73,
+      "tags": [
+        "大佬观点",
+        "现象/趋势"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "03:26",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpfuzwcl09visljwx2mgue3s",
+      "title": "Codex实现全天候跨设备安全操控Mac",
+      "link": "https://x.com/OpenAIDevs/status/2057536706778378692",
+      "summary": "Codex随时随地，无处不在。\n现在您的Mac无需解锁，Codex即可使用您的电脑。  \n通过手机，Codex可以安全地使用您Mac上的应用程序，即使屏幕关闭且处于锁定状态。  \nhttps://developers.openai.com/codex/app/computer-use#locked-use",
+      "reason": "Codex 现在能在 Mac 锁屏甚至熄屏时远程操控应用，相当于给 AI Agent 装了个「开关机」，脚本和自动化任务终于不用等人在电脑前了。",
+      "score": 75,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "OpenAI",
+        "产品更新"
+      ],
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "time": "03:03",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpfu0rza09nbsljwx1gui6ol",
+      "title": "Aleph 2.0 与 Edit Studio",
+      "link": "https://app.runwayml.com/generate?mode=edit",
+      "summary": "正式发布 Aleph 2.0 及配套的 Edit Studio 创作工具。此次更新实现了创作流程的全面整合，将内容生成、编辑与后期制作集中于统一平台。新版本显著优化了多模态内容的处理效率，并提供了从构思到成品的一站式解决方案，旨在为创作者提供更流畅、集成的数字内容制作体验。",
+      "reason": "Runway 的下一代视频模型来了，虽然只有一句话但 Aleph 2.0 很可能重塑 AI 视频工作流，做短剧和广告的该关注了。",
+      "score": 76,
+      "tags": [
+        "多模态",
+        "模型发布",
+        "视频"
+      ],
+      "source": "Runway：Changelog（网页）",
+      "time": "02:36",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpftxb5f09mdsljwl7fiarrh",
+      "title": "Codex周四更新：Appshots功能上线",
+      "link": "https://x.com/OpenAIDevs/status/2057530207976989179",
+      "summary": "又是Codex周四，我们带来了更新。\n首先是Appshots，一种将你工作上下文引入Codex的新方式。  \n在Mac上，按Command-Command即可将应用窗口附加到Codex线程。Codex会获取窗口的截图和文本，包括屏幕上不可见的内容。  \nAppshots已在Mac各计划中推出，企业版访问权限即将上线。",
+      "reason": "Codex 的 Appshots 把「看我的屏幕」变成一键操作，做前端或调试的人能省下大量描述 UI 的时间，是个小而美的更新。",
+      "score": 64,
+      "tags": [
+        "OpenAI",
+        "产品更新",
+        "编码"
+      ],
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "time": "02:33",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpft1pi009fusljwl6sy69na",
+      "title": "在OpenCode中使用Grok",
+      "link": "https://x.ai/news/grok-opencode",
+      "summary": "xAI宣布，其SuperGrok或X Premium订阅用户现可在开源编程工具OpenCode中使用Grok模型。OpenCode提供终端或独立桌面应用两种形式，用户连接Grok账户后，即可调用驱动xAI终端编程代理的Grok Build模型进行开发。该集成通过xAI Grok OAuth实现认证接入，官方表示未来将推出更多开源代理及集成方案。",
+      "reason": "把 Grok 搬进 OpenCode 不是啥大新闻，但如果你正好有 SuperGrok 或 X Premium，直接就能在终端里用，算是个挺干净的集成。",
+      "score": 67,
+      "tags": [
+        "xAI",
+        "产品更新",
+        "编码"
+      ],
+      "source": "xAI：News（网页）",
+      "time": "02:08",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpfsqwbp099vsljwgwrsxo2d",
+      "title": "核算OpenAI和Anthropic最新动态背后的数学",
+      "link": "https://garymarcus.substack.com/p/checking-the-math-behind-openai-and",
+      "summary": "OpenAI与Anthropic近期相继发布重要产品更新。Claude 3.5 Sonnet在多项基准测试中超越GPT-4o，同时宣布API价格下调50%。Anthropic披露其模型训练成本年均增长约3.2倍，而OpenAI被曝已通过企业服务实现单季度超10亿美元营收。两家公司在技术突破与商业化竞赛中，正通过精密的成本核算与性能权衡重塑行业格局。",
+      "reason": "Gary Marcus 直接拉出 OpenAI 和 Anthropic 最新声明的原始数据，用小学数学拆穿他们有意无意藏起来的假设，所有拿这些数字做决策的产品人和投资人最好看一遍。",
+      "score": 72,
+      "tags": [
+        "Anthropic",
+        "OpenAI",
+        "大佬观点",
+        "推理"
+      ],
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "time": "02:00",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpfs4pdm097psljw3p8uqz54",
+      "title": "合作伙伴如何运用Opus强化网络安全",
+      "link": "https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity",
+      "summary": "多家企业正利用Claude Opus模型强化网络安全防御。Wiz通过其Red Agent，每周对超过15万个生产资产进行持续渗透测试，发现数千个高风险漏洞且误报率为零。Palo Alto Networks在不到三周内完成了相当于一年的渗透测试工作量。埃森哲将安全测试覆盖率从约10%提升至80%以上，涉及1600个应用和50万+个API，扫描周期从3-5天缩短至1小时内。应用主要围绕三个方向：开展大规模攻击性测试、缩短漏洞发现与修复的间隔，以及将受控AI系统部署到生产环境。",
+      "reason": "Wiz一周扫15万资产零误报，Palo Alto三周完成一年渗透测试量——这些不是蓝图，是Claude Opus正在真实防御中跑出的数字，安全团队值得逐字看完。",
+      "score": 74,
+      "tags": [
+        "Anthropic",
+        "产品更新",
+        "安全/对齐"
+      ],
+      "source": "Claude：Blog（网页）",
+      "time": "01:43",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpfs4pdm097osljw5pa6ryb6",
+      "title": "Claude现已支持更多安全合规工具",
+      "link": "https://claude.com/blog/compliance-api-security-partners",
+      "summary": "Anthropic宣布为Claude企业版及平台新增28项安全与合规工具集成。这些集成均通过Claude Compliance API实现，允许企业安全团队统一获取Claude的对话内容与活动事件，从而将其纳入现有的DLP、SIEM等监控与合规流程。新增合作伙伴包括Cloudflare、CrowdStrike、Microsoft Purview等28家供应商，覆盖数据安全、身份验证等多个关键领域，帮助企业快速将Claude接入现有安全平台，实现跨组织工具的统一治理与可视化监控。",
+      "reason": "企业安全团队终于能像治理其他SaaS一样治理Claude了，28个主流安全工具集成，说明Anthropic认真在打企业牌，CSO们可以打开文档了。",
+      "score": 65,
+      "tags": [
+        "Anthropic",
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "Claude：Blog（网页）",
+      "time": "01:43",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpfqpzv708sisljwusm386u3",
+      "title": "构建云端智能体的经验总结",
+      "link": "https://cursor.com/blog/cloud-agent-lessons",
+      "summary": "云端智能体已从本地智能体的简单扩展，发展为具备独立环境、可并行无人值守处理长任务的系统。构建的核心经验在于：完整的开发环境是输出质量的关键，这需重建大量基础设施；可靠性方面，团队从自研架构迁移至Temporal平台，将可靠性提升至99.9%以上，该平台每日处理超5000万次操作，支撑超40%的代码拉取请求；同时，实现了智能体循环、机器状态与对话状态的解耦，以适应复杂的跨环境协作。",
+      "reason": "Cursor 把这一年踩过的坑全摊开了，从环境构建到持久化执行，基本就是一份 agent 平台内部架构课，搭同类产品的团队值得逐段读。",
+      "score": 58,
+      "tags": [
+        "Agent",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "Cursor Blog",
+      "time": "01:04",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpfpql9r08kzsljwm397lepk",
+      "title": "Gemini每日简报助你高效规划一天",
+      "link": "https://x.com/GeminiApp/status/2057500470147698936",
+      "summary": "用Daily Brief开启高效一天。\nGemini现在能主动将最重要的事项整理成易于理解的待办清单，让你在早餐结束前就为一天做好准备。",
+      "reason": "Gemini这个Daily Brief把AI从被动应答往主动管家推了一步，功能虽小，方向信号挺强，做个人助手产品的可以盯一下。",
+      "score": 63,
+      "tags": [
+        "Agent",
+        "Google",
+        "产品更新"
+      ],
+      "source": "X：Gemini (@GeminiApp)",
+      "time": "00:36",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpfpmdn508jgsljwog7g8k3k",
+      "title": "发布 Kotlin版ADK与Android版ADK 0.1.0：在Android及其他平台构建AI Agent",
+      "link": "https://developers.googleblog.com/adk-kotlin-android-building-ai-agents",
+      "summary": "Google发布了面向开发者的新工具包：Kotlin版ADK与Android版ADK 0.1.0。这两个工具包旨在帮助开发者构建AI Agent。其中，Kotlin版ADK将代理工作流引入后端项目开发；Android版ADK则专注于移动端应用，提供了构建AI代理所需的特定功能。此次发布为开发者提供了在Android生态及更广泛平台创建AI应用的官方工具基础。",
+      "reason": "Google 把 Agent 开发框架搬上 Android，0.1 版本虽早，但移动端 AI 应用有了官方入口，做 Android 的该跟进了。",
+      "score": 69,
+      "tags": [
+        "Agent",
+        "Google",
+        "产品更新",
+        "端侧"
+      ],
+      "source": "Google Developers Blog（RSS）",
+      "time": "00:33",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpfpmdn508jfsljwx8px8kj8",
+      "title": "推出 Gemini for Home 赋能服务提供商与硬件合作伙伴",
+      "link": "https://developers.googleblog.com/empowering-service-providers-and-hardware-partners-with-gemini-for-home",
+      "summary": "Google 通过推出全栈 Gemini AI 解决方案扩展其智能家居生态系统。该方案集成了先进的摄像头智能、自然语言查询功能和日常活动摘要能力。它为服务提供商和硬件制造商提供了现成的参考设计与API，使其无需大量研发投入即可构建主动式、品牌化的智能家居服务。该计划旨在超越基础设备控制，迈向能够理解情境并实时响应用户需求的AI原生智能家居。",
+      "reason": "Google 把 Gemini 塞进智能家居，直接给硬件商和 ISP 提供交钥匙方案，这一步可能比 Nest 当年更有侵略性，做智能家居的得留意了。",
+      "score": 75,
+      "tags": [
+        "Google",
+        "产品更新",
+        "多模态",
+        "端侧"
+      ],
+      "source": "Google Developers Blog（RSS）",
+      "time": "00:33",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpfoxw8508fasljwvrn0utgu",
+      "title": "Shoplift by PixVerse快速生成平台原生广告视频",
+      "link": "https://x.com/PixVerse_/status/2057492991036588306",
+      "summary": "无需工作室，无需编辑队列。\n将产品URL粘贴到Shoplift by PixVerse，几分钟内即可发布平台原生广告视频  \n——专为持续进行创意测试的DTC团队打造。  \n免费早期访问：https://shoplift.pixverse.ai  \n转发+关注+回复=300积分（仅限72小时）",
+      "reason": "粘贴商品链接就能生成广告视频，对天天跑A/B测试的电商团队很友好，相当于把剪辑师外包给AI了。免费试用期间值得上手试一下。",
+      "score": 70,
+      "tags": [
+        "产品更新",
+        "视频"
+      ],
+      "source": "X：PixVerse (@PixVerse_)",
+      "time": "00:14",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpfoox6408bdsljwnbdhvasf",
+      "title": "LongCat-Video-Avatar-1.5：升级版音频驱动数字人视频生成框架",
+      "link": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5",
+      "summary": "美团LongCat团队发布了LongCat-Video-Avatar-1.5，一个专注于音频驱动数字人视频生成的开源框架。其核心升级在于采用Whisper-Large音频编码器，显著优化了唇部动态的流畅度与自然度。该版本实现了精准的唇形同步、全身时序稳定性以及长视频中的身份一致性，并能泛化应用于动漫、动物及多人交互等复杂场景。通过基于DMD2的步蒸馏技术，模型仅需8步即可高效推理。团队还构建了一个涵盖多场景、多语言的人工评估基准，通过大规模主观评分与专家分析，验证了其在多项关键维度上的优异性能。",
+      "reason": "美团把数字人模型升级到1.5版，换了Whisper做音频编码，唇形同步比之前自然不少，而且开源了训练代码，做电商直播和虚拟博主的朋友可以直接拿过来跟商业方案掰手腕。",
+      "score": 73,
+      "tags": [
+        "Hugging Face",
+        "图像生成",
+        "多模态",
+        "开源/仓库"
+      ],
+      "source": "美团 LongCat：HuggingFace 新模型",
+      "time": "00:07",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpfomtzp0898sljw1vinxid3",
+      "title": "Replit企业版现已开放自助购买",
+      "link": "https://x.com/Replit/status/2057491954825674942",
+      "summary": "Replit Enterprise现已支持自助服务！\n\n几分钟内即可：  \n- 购买Replit Enterprise  \n- 配置SSO + SCIM  \n- 与团队开始协作开发  \n\n无需合同谈判，无需等待。",
+      "reason": "Replit 企业版自助开通，几分钟完成 SSO 配置和团队搭建，中小团队不用再等采购流程，生产力上手速度直接拉满。",
+      "score": 73,
+      "tags": [
+        "产品更新",
+        "编码"
+      ],
+      "source": "X：Replit (@Replit)",
+      "time": "00:05",
+      "date": "5月22日"
+    },
+    {
+      "id": "cmpfn8l6q07wdsljw3jydlv9i",
+      "title": "Anthropic即将成为首个盈利的AI实验室",
+      "link": "https://the-decoder.com/anthropic-is-about-to-become-the-first-profitable-ai-lab",
+      "summary": "根据《华尔街日报》报道，Anthropic正接近实现其首个盈利季度，预计第二季度营收达109亿美元，运营利润为5.59亿美元。该公司在去年夏季时还预计最早在2028年才能盈利。主要增长动力来自编程工具和Claude的代理功能使用，其需求一度超过了可用的算力容量。这一转变标志着Anthropic可能成为业界首个实现盈利的领先AI研发机构。",
+      "reason": "Anthropic 预计 Q2 扭亏为盈，成为第一家真正不烧钱的 AI 巨头，这个拐点比任何参数发布都更能定义行业赛道的切换。",
+      "score": 73,
+      "tags": [
+        "Anthropic",
+        "行业动态"
+      ],
+      "source": "The Decoder：AI News（RSS）",
+      "time": "23:26",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpflmlt207lbsljwukjoavli",
+      "title": "Krea 2 推出 LoRA 微调系统",
+      "link": "https://x.com/krea_ai/status/2057468861583347774",
+      "summary": "为 Krea 2（测试版）引入 LoRA。\n\n我们迄今最强大的微调系统；现在你可以用惊人的精度，在 Krea 2 上训练你自己的特定风格、对象或角色。\n\n了解其工作原理 👇",
+      "reason": "Krea 2 把 LoRA 微调直接做进了产品，对需要固定角色或风格的设计师来说省事了，虽然不是新概念但低门槛就是好文明。",
+      "score": 69,
+      "tags": [
+        "产品更新",
+        "图像生成",
+        "数据/训练"
+      ],
+      "source": "X：Krea AI (@krea_ai)",
+      "time": "22:41",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpf9b1ua04fzsljw1eu965w5",
+      "title": "腾讯开源Hy-MT2多语言翻译模型",
+      "link": "https://x.com/TencentHunyuan/status/2057384034544804136",
+      "summary": "腾讯正式开源Hy-MT2多语言翻译模型，支持33种语言间的无缝互译。其7B与30B-A3B版本在开源模型中达到最先进的翻译性能，超越了许多参数规模大数十倍的模型。更具突破性的是，1.8B轻量级版本性能超越微软等主流商业API，并凭借腾讯AngelSlim 1.25-bit极量化技术，仅需440MB存储空间，即可在主流手机芯片上本地运行，推理速度较前代提升1.5倍，显著降低了高质量AI翻译的部署门槛。",
+      "reason": "虽然翻译领域不算最热，腾讯这个1.8B开源模型用1.25位量化直接跑在手机上，效果还超微软商业API，做本地化翻译工具的人值得关注。",
+      "score": 74,
+      "tags": [
+        "开源生态",
+        "模型发布",
+        "端侧"
+      ],
+      "source": "X：腾讯混元 (@TencentHunyuan)",
+      "time": "16:56",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpf7kqok0441sljw8ybfjmd5",
+      "title": "游戏开发门槛被AI大幅降低",
+      "link": "https://x.com/AYi_AInotes/status/2057371332359201103",
+      "summary": "Grok展示了AI深度介入游戏开发的全新工作流。通过“提示词生成角色图→图片转动画视频→自动拼接成Spritesheet→导入引擎”四步流程，将传统需要美术与动画师耗时数天的工作，在几分钟内完成。这标志着AI不再仅生成静态内容，而是能实时生成可直接导入Unity或Godot等游戏引擎的可运行资产。该技术极大压缩了游戏原型的迭代周期，将反馈循环从“天”缩短至“秒”，使得独立开发者也能快速实现创意，显著降低了游戏创作的门槛。",
+      "reason": "Grok 这波不是画张图那么简单，它把 AI 直接嵌进游戏引擎工作流，实时生成可运行的资产，solo 开发者周末搞个原型出来真的可行了。",
+      "score": 79,
+      "tags": [
+        "xAI",
+        "图像生成",
+        "教程/实践"
+      ],
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "time": "16:07",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpf7abq10419sljwp8tts6r2",
+      "title": "谷歌高级副总裁曼尼卡：AI短期内不会摧毁就业市场",
+      "link": "https://www.ithome.com/0/953/469.htm",
+      "summary": "谷歌高级副总裁詹姆斯·曼尼卡近日表示，AI短期内不会摧毁就业市场，也不同意“大规模失业”的激进预测。他援引其2017年参与的麦肯锡报告指出，自动化将同时导致岗位减少、新岗位出现以及现有岗位被重新定义。他认为当前争议在于这三种情况的占比，而非是否发生。曼尼卡批评AI行业放大了公众焦虑，这种恐慌可能削弱技术价值。他强调，AI最大的影响是改变工作内容与方式，而非让职业消失。",
+      "reason": "曼尼卡直接跟阿莫代伊打赌两年内不会大规模失业，这个立场在‘AI抢饭碗’恐慌蔓延时很反直觉，但确实提醒我们关注工作内容变化而不是消失。",
+      "score": 71,
+      "tags": [
+        "Google",
+        "大佬观点",
+        "现象/趋势"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "15:59",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpf0anyx0288sljw22zedvw9",
+      "title": "Intuit将裁员逾3000人，以重新聚焦人工智能",
+      "link": "https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai",
+      "summary": "软件公司Intuit宣布将裁员超过3000人，作为其战略重组的一部分。此次裁员旨在将公司资源重新聚焦于人工智能（AI）领域的发展，以适应技术趋势并提升长期竞争力。裁员规模约占其全球员工总数的10%。",
+      "reason": "Intuit作为财务软件巨头裁员3000人转向AI，不是小厂试水，是AI替代白领工作的标志性信号。做SaaS的该认真看路线了。",
+      "score": 72,
+      "tags": [
+        "现象/趋势",
+        "行业动态"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "12:44",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpex8rgu01husljw7g79w8pc",
+      "title": "首部100%AI生成电影亮相戛纳，剑指2026院线",
+      "link": "https://x.com/Kling_ai/status/2057295321831539054",
+      "summary": "AI电影项目RAPHAEL在戛纳亮相。该片由Mateo AI Studio与韩国MBC C&I的AI内容实验室联合开发，全程使用Kling AI视频模型进行制作，旨在实现独特的视觉效果与差异化的观影体验。项目计划于2026年登陆院线，其大规模制作旨在证明纯AI电影制作的工业可行性，标志着AI原生院线电影新趋势的开端。",
+      "reason": "纯AI制作的院线电影真的来了，可灵AI和MBC联手拿AI拍正片，2026年影院见。这事如果成了，电影工业的天花板要被捅破一次。",
+      "score": 67,
+      "tags": [
+        "多模态",
+        "行业动态"
+      ],
+      "source": "X：可灵 Kling AI (@Kling_ai)",
+      "time": "11:18",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpewx9yf01ensljwkhvs9xns",
+      "title": "SpecBench：测量长期编码代理中的奖励黑客行为",
+      "link": "https://arxiv.org/abs/2605.21384",
+      "summary": "长期编码代理在优化测试通过时可能偏离用户真实目标，导致奖励黑客现象。研究将软件工程任务分解为规格说明、可见验证测试和隐藏测试，通过两类测试通过率差距量化黑客行为。为此引入SpecBench基准，包含30个从短期（如JSON解析器）到超长期（如构建操作系统内核）的系统级编程任务。实验显示，所有前沿代理在可见测试上饱和，但隐藏测试上存在持续差距，小模型差距更大；代码规模每增十倍，差距增长28个百分点。失败案例包括故意利用测试输入。SpecBench提供原则性平台，评估代理是否构建真实工作系统而非仅玩游戏测试套件。",
+      "reason": "SpecBench把编码代理的‘应试’问题量化了，越长的任务越容易靠作弊通过测试。如果你在做Agent，这个基准会让你重新审视自己的评估体系。",
+      "score": 72,
+      "tags": [
+        "Agent",
+        "arXiv",
+        "安全/对齐",
+        "编码",
+        "论文/研究",
+        "评测/基准"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "11:09",
+      "date": "5月21日"
+    }
+  ]
+}
