@@ -1,0 +1,645 @@
+{
+  "date": "2026-05-31",
+  "scraped_at": "2026-05-31T05:00:06.013636+00:00",
+  "total_items": 40,
+  "items": [
+    {
+      "id": "cmpt5p76d07g3sluzcbxft4f4",
+      "title": "6000 多公里全程零干预：特斯拉 FSD 完成全球首次横穿加拿大自动驾驶",
+      "link": "https://www.ithome.com/0/957/718.htm",
+      "summary": "一辆特斯拉汽车搭载 FSD V14.3.3 版本软件，完成了全球首次全程零人工干预、横穿加拿大的自动驾驶行程。车辆从温哥华出发，历时 4 天 21 小时，行驶 3760 英里（6051 公里）抵达哈利法克斯，全程所有驾驶操作（包括高速并线、应对复杂路况与自动泊车）均由系统自主完成，无任何系统退出或人工修正。该版本随 2026.14.6.6 更新推送，整合了春季软件功能。",
+      "reason": "车主自己跑的6千公里零干预记录，比任何官方demo都实在。零接管、过施工、全自动泊车，FSD这个能力信号，对自动驾驶行业是颗定心丸。",
+      "score": 72,
+      "tags": [
+        "端侧",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "10:24",
+      "date": "5月31日"
+    },
+    {
+      "id": "cmpsvokod04y4sluz4luwdj16",
+      "title": "在浏览器中通过 Pyodide 和 Service Worker 运行 Python ASGI 应用",
+      "link": "https://simonwillison.net/2026/May/30/pyodide-asgi-browser",
+      "summary": "作者展示了如何在浏览器中通过 Pyodide 和 Service Worker 运行 Python ASGI 应用。此前的 Datasette Lite 使用 Web Workers，但无法执行 `<script>` 标签中的 JavaScript。新方案由 Claude Opus 4.8 协助完成开发，解决了这一问题。作者已展示了基础的 ASGI FastCGI 演示和运行 Datasette 1.0a31 的演示，并计划后续将此方法应用于升级 Datasette Lite。",
+      "reason": "Simon Willison 用 Service Worker 让 Python ASGI 在浏览器里真正跑了起来，这个技巧补上了 Datasette Lite 长期缺的 JS 执行能力，搞 Pyodide 的值得看看。",
+      "score": 73,
+      "tags": [
+        "GitHub",
+        "教程/实践",
+        "端侧",
+        "部署/工程"
+      ],
+      "source": "Simon Willison 博客",
+      "time": "05:43",
+      "date": "5月31日"
+    },
+    {
+      "id": "cmpsqnar803r5sluzkn3gfps1",
+      "title": "据报道：软银将在法国投资750亿欧元用于AI",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-30/softbank-to-invest-some-75-billion-in-ai-in-france-reports-say",
+      "summary": "软银集团计划投资高达750亿欧元（约合870亿美元），用于在法国建设人工智能数据中心。该投资计划由《论坛报》与《金融时报》报道。",
+      "reason": "750亿欧元的投资规模，让法国一夜之间成为欧洲AI基建的核心，对算力格局影响深远，做AI基础设施的人该盯紧了。",
+      "score": 71,
+      "tags": [
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "Bloomberg：Technology（RSS）",
+      "time": "03:22",
+      "date": "5月31日"
+    },
+    {
+      "id": "cmpsoxlpf03azsluzqg5vwo8h",
+      "title": "NVIDIA 或将于六月发布整合 Blackwell GPU 与 AI 单元的 ARM 笔记本芯片 N1X",
+      "link": "https://x.com/AYi_AInotes/status/2060779431648547016",
+      "summary": "NVIDIA、微软与 Arm 同步发布指向台北音乐中心的坐标，暗示 6 月 1 日发布会将有重大动作。此举被认为是 NVIDIA 与联发科合作的 ARM 笔记本芯片 N1X 的预告。该芯片整合了 CPU、基于 Blackwell 架构的 GPU 及 AI 单元，目标是使轻薄本具备接近 RTX 4070 的图形性能。这标志着 NVIDIA 的战略转变：从显卡供应商，转型为定义整机核心方案的提供商，将直接冲击 Intel、AMD 和高通在 PC 市场的地位。",
+      "reason": "三家巨头同发三个词和一个坐标，这比芯片参数更值得嗅的信号是，NVIDIA要从装空调的变成盖房子的，Windows 阵营的 Intel inside 可能真要换标了。",
+      "score": 75,
+      "tags": [
+        "大佬观点",
+        "端侧"
+      ],
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "time": "02:34",
+      "date": "5月31日"
+    },
+    {
+      "id": "cmpsl2i5v02fpsluzlu1d98zl",
+      "title": "“开玩笑吧”：GitHub Copilot 新的基于 token 的计费模式引发开发者不满",
+      "link": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs",
+      "summary": "微软旗下 GitHub Copilot 的黄金时代似乎正在终结。其新推出的计费模式改为按 token 计量，这一变化引发了开发者的广泛担忧与不满。",
+      "reason": "Copilot 从固定订阅变成 token 计费，对重度用户来说就是变相涨价，做 coding 的该算算账了，微软这招挺损的。",
+      "score": 70,
+      "tags": [
+        "GitHub",
+        "Microsoft",
+        "编码",
+        "行业动态"
+      ],
+      "source": "TechCrunch：AI（RSS）",
+      "time": "00:46",
+      "date": "5月31日"
+    },
+    {
+      "id": "cmpsjtxfm022vsluz0pojemz9",
+      "title": "随着成本飙升，美国企业开始对人工智能实施配给",
+      "link": "https://www.wsj.com/tech/ai/corporate-america-is-starting-to-ration-ai-as-cost-skyrockets-1eb99d7a",
+      "summary": "由于运行和使用AI工具的成本持续飙升，美国企业正开始对人工智能的使用实施配给制。企业通过限制使用量、设置分层级审批流程等方式控制开支，以应对AI费用增长过快的问题。这种从广泛采用转向精细化管理的策略，标志着企业在AI应用上从追求速度转向注重成本效益。",
+      "reason": "成本飙升让大企业开始对AI‘配给’，这是面向企业的AI产品必须回答的ROI考题，以前铺量抢客户的玩法得切换成算清每一分钱的价值。",
+      "score": 71,
+      "tags": [
+        "数据/训练",
+        "现象/趋势",
+        "部署/工程"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "00:12",
+      "date": "5月31日"
+    },
+    {
+      "id": "cmpsii2qb01qhsluzzwifggo3",
+      "title": "免费领取6个月ChatGPT Pro及AI工具思考",
+      "link": "https://x.com/AYi_AInotes/status/2060740414273941874",
+      "summary": "OpenAI为开源项目维护者提供福利，可免费领取6个月ChatGPT Pro（价值$1200），申请无硬性Star数要求，有项目链接即可。同时，文章引用讨论了AI工具的分类：一类是“agent型”（如Claude Code、Codex），可自主运行；另一类是“实习生型”（如Cursor），需人工决策，有助于使用者以术入道、培养判断力，但受限于需人在场。作者推荐了网易的UU远程工具，称其免费两年，支持4K 144帧无延迟连接Mac并可使用原生终端，解决了“实习生型”工具的地点限制问题。",
+      "reason": "OpenAI 给开源维护者送 6 个月 Pro，没 Star 要求，有项目链接就行，我觉得这是今年最实在的开发者福利，手慢无。",
+      "score": 75,
+      "tags": [
+        "OpenAI",
+        "其他",
+        "开源生态"
+      ],
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "time": "23:34",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpsdkdec00j8sluzgrm37l7c",
+      "title": "AI 骗子正在创建虚假的黑人形象来销售 Shein 劣质商品",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/938844/ai-tiktok-shop-blackface-shein-dropshipping",
+      "summary": "有卖家利用 AI 生成虚假的黑人形象，在 TikTok、Facebook 和 Instagram 上扮演手工制品创作者进行销售。例如一个名为 Aliyah 的 AI 生成形象，以带泪诉说的方式售卖所谓手工皮带扣，但该形象及其产品均为虚构。此类 AI 虚拟网红被用于推广通过代发货模式销售的批量生产品。",
+      "reason": "AI生成的虚拟黑人卖家在TikTok上哭着卖假货，The Verge这篇调查把AI黑产里最脏的那面扒给你看，做社交电商的尤其该点开读。",
+      "score": 73,
+      "tags": [
+        "图像生成",
+        "多模态",
+        "现象/趋势"
+      ],
+      "source": "The Verge：AI（RSS）",
+      "time": "21:16",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpscn1r60074sluz9xgi8sxm",
+      "title": "新加坡防务论坛：AI 风险超过核武器",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-30/ai-dangers-eclipse-nuclear-weapons-at-singapore-defense-forum",
+      "summary": "在新加坡举行的防务论坛上，专家警告AI风险已超越核武器。面板讨论指出，AI可能大幅压缩反应时间，导致决策者做出草率决定，对战略稳定构成威胁。",
+      "reason": "国防圈第一次把AI危险摆到比核武更高的位置，这种定性一旦被政策圈采纳，全球监管的天平会剧烈倾斜。",
+      "score": 73,
+      "tags": [
+        "安全/对齐",
+        "政策/监管"
+      ],
+      "source": "Bloomberg：Technology（RSS）",
+      "time": "19:59",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpsabfou086xslljv0f88f1e",
+      "title": "Nano Banana Pro与Nano Banana 2正式发布",
+      "link": "https://x.com/googleaidevs/status/2060685345738375640",
+      "summary": "ICYMI：Nano Banana Pro [gemini-3-pro-image] 和 Nano Banana 2 [gemini-3.1-flash-image] 现已正式发布，可通过 Gemini API 投入生产使用。\n\n查看这些优秀的社区示例，了解两个模型的实际能力 🧵",
+      "reason": "Gemini 图像模型 GA 了，生成式视觉正式进入 Google 时间，做设计工具和内容生成的开发者可以直接接入测试，看看能不能成为下一个 Midjourney。",
+      "score": 71,
+      "tags": [
+        "Google",
+        "图像生成",
+        "模型发布"
+      ],
+      "source": "X：Google AI for Developers (@googleaidevs)",
+      "time": "19:45",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmps939np07v7slljd0bbkc91",
+      "title": "小即是美：开源多模态模型发布",
+      "link": "https://x.com/StepFun_ai/status/2060678753030947226",
+      "summary": "小即是美。😌",
+      "reason": "StepFun 赶在六月前发了一款小参数开源多模态模型，比 V4-Flash 还小还快，直接开源，做端侧和快速集成的值得立刻拉下来试试。",
+      "score": 62,
+      "tags": [
+        "多模态",
+        "开源/仓库",
+        "模型发布",
+        "端侧"
+      ],
+      "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
+      "time": "19:11",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmps1l0zg0605sllj8vf4wake",
+      "title": "最后一次技术面试",
+      "link": "https://steve-yegge.medium.com/the-last-technical-interview-bc13ddcf4564",
+      "summary": "Steve Yegge 在 Medium 发表观点文章《最后一次技术面试》，探讨 AI 时代传统技术面试的意义变化。文章在 Hacker News 社区获得 100 分关注。",
+      "reason": "Steve Yegge 用他一贯犀利的文笔预言技术面试的终结，这不是危言耸听，而是给所有还在刷 LeetCode 的开发者提前拉响的警报。",
+      "score": 71,
+      "tags": [
+        "大佬观点",
+        "编码"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "15:41",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpruchr0049uslljygmtsttx",
+      "title": "xAI放弃JAX GPU转向自研训练框架",
+      "link": "https://x.com/SemiAnalysis_/status/2060571944575963482",
+      "summary": "突发新闻：JAX NVIDIA GPU & XLA：GPU最大客户刚刚宣布已放弃JAX GPU，宁愿用Grok Build“氛围编程”一个C训练框架。据报道xAI的JAX堆栈MFU低于10%。NVIDIA JAX团队过去两年全部主力996专注于支持xAI却失败了，我想他们现在可以休息并兑现期权了。",
+      "reason": "xAI 这个 GPU 最大客户突然甩了 JAX，要自研 C 训练框架，理由是 JAX 利用率太低。如果连万亿参数集群都搞不定，JAX 的底层缺陷可能比想象的大，做大规模训练的团队得认真评估了。",
+      "score": 76,
+      "tags": [
+        "xAI",
+        "开源生态",
+        "行业动态"
+      ],
+      "source": "X：SemiAnalysis (@SemiAnalysis_)",
+      "time": "12:18",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmprt0b0303xesllj5i7bbs1z",
+      "title": "Show HN: Tiny-vLLM——基于 C 和 CUDA 的高性能大型语言模型推理引擎",
+      "link": "https://github.com/jmaczan/tiny-vllm",
+      "summary": "Tiny-vLLM 是一个用 C 和 CUDA 编写的高性能大语言模型推理引擎，项目代码已开源至 GitHub。",
+      "reason": "如果你觉得 vLLM 太重，这个用 C 和 CUDA 从头写的推理引擎简直是清流，部署成本骤降，做本地推理的可以马上 clone 试试。",
+      "score": 70,
+      "tags": [
+        "开源/仓库",
+        "推理",
+        "部署/工程"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "11:41",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmprmoxnt02e1slljz93fu7ni",
+      "title": "阿里云与Qwen成为UEFA多年全球AI合作伙伴",
+      "link": "https://x.com/alibaba_cloud/status/2060520586489770167",
+      "summary": "阿里云和Qwen成为UEFA官方独家AI、云计算与电子商务合作伙伴，合作期覆盖2027/2028赛季至2032/2033赛季的UEFA男子俱乐部赛事，以及UEFA EURO 2028。阿里巴巴集团主席蔡崇信表示，将投入云计算、全栈AI及全球电商平台能力，支持赛事运营。合作将利用Qwen大语言模型部署先进AI技术，增强球迷互动与媒体内容体验，并依托阿里云基础设施打造全球沉浸式观赛体验。",
+      "reason": "典型的体育赞助×AI合作，主要看点是阿里云拿下UEFA的长期独家，但AI部分更像PR包装，对技术圈来说可看可不看。",
+      "score": 64,
+      "tags": [
+        "行业动态"
+      ],
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "time": "08:44",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmprlcgbc0205sllj84qulx8l",
+      "title": "ComfyUI现已支持OpenRouter模型直接调用",
+      "link": "https://x.com/OpenRouter/status/2060511136932315259",
+      "summary": "现在你可以直接在ComfyUI工作流中使用你的OpenRouter模型了！\n\n[引用 @ComfyUI]：ComfyUI刚刚添加了@OpenRouter支持。\n\n你不再局限于单一的大语言模型，现在可以直接在Comfy中访问20多个模型。\n\n更多灵活性，更少摩擦，同样的工作流。\n\n工作流链接在下方👇",
+      "reason": "ComfyUI 首次直接集成 LLM 路由服务，等于给图像管线加了个「外挂大脑」，做自动化工作流的人可以直接在节点里调用 20+ 模型，省掉一堆 API tinker 环节。",
+      "score": 72,
+      "tags": [
+        "产品更新",
+        "多模态",
+        "开源生态"
+      ],
+      "source": "X：OpenRouter (@OpenRouter)",
+      "time": "08:06",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmprjnsl401moslljay7ixk7d",
+      "title": "Guardrails：保护你的智能体、数据与成本",
+      "link": "https://openrouter.ai/announcements/guardrails",
+      "summary": "Guardrails 是一套可配置的安全与治理工具，提供预算执行、零数据保留、模型与提供商限制、提示词注入防御及数据丢失预防等功能，旨在保护智能体（Agents）、数据与控制成本。",
+      "reason": "给 agent 加安全护栏这件事，OpenRouter 把它做进了控制台，预算限制、防注入、数据不落盘都能开箱即用，做生产级 agent 的可以少写一堆胶水代码。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "安全/对齐"
+      ],
+      "source": "OpenRouter：Announcements（RSS）",
+      "time": "07:19",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmprilbss01egsllj3maz5i8a",
+      "title": "Codex可自主管理对话线程与并行任务",
+      "link": "https://x.com/gdb/status/2060486309886443787",
+      "summary": "Codex用于管理Codex界面：\n\n[引用 @guinnesschen]：如果你厌倦了管理Codex对话线程，就让Codex自己管理自己吧！Codex现在可以创建对话线程、搜索它们、整理它们、固定重要的线程，并为并行任务启动工作树。",
+      "reason": "Codex 能自己管理线程、搜索、组织了，长期在终端里干活的开发者会明显减少上下文切换，这是把 AI 助手往主动管理推了一步。",
+      "score": 75,
+      "tags": [
+        "OpenAI",
+        "产品更新",
+        "编码"
+      ],
+      "source": "X：Greg Brockman (@gdb)",
+      "time": "06:49",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpribwbr01bnslljhk0pj682",
+      "title": "这个 skill 看着不错，可将文字、URL 或文章直接生成公众号首图、小红书图文卡、教程步骤卡等视觉物料，支持 28 种布局和 10 种主题。",
+      "link": "https://x.com/hongming731/status/2060487110906527820",
+      "summary": "claude-design-card 是一款专为中文内容创作者设计的 Skill。它能将文字、URL 或文章直接转化为可发布的视觉卡片，如公众号首图、小红书图文卡、教程步骤卡等，支持 28 种布局与 10 种主题。其核心价值在于自动化了“写完文章”后最繁琐的流程：自动提炼重点、选择版式、生成 HTML 并截图成 PNG，替代了以往手动使用 Figma 或 Canva 等工具的步骤。该工具开源，适合经常撰写相关内容的创作者尝试。",
+      "reason": "这个 Skill 把内容创作者最烦的「写文→排卡片→出图」流程直接打通了，28 种布局一键生成，做公众号和小红书的可以立刻收藏，关键不是好看是真省时间。",
+      "score": 78,
+      "tags": [
+        "GitHub",
+        "图像生成",
+        "开源/仓库"
+      ],
+      "source": "X：洪明 (@hongming731)",
+      "time": "06:42",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpscn37j008usluzex7fda1d",
+      "title": "DynoSim：模拟帕累托前沿",
+      "link": "https://developer.nvidia.com/blog/dynosim-simulating-the-pareto-frontier",
+      "summary": "现代大语言模型服务难以调优，因为每个部署都涉及模型后端、张量并行形状、预填充/解码分割、Worker数量、调度器设置、路由策略、KV缓存行为、自动扩展阈值和拓扑等相互关联的选择。这些选择在多个层级相互作用，局部优化可能导致瓶颈转移至其他环节。",
+      "reason": "LLM 部署调优一直靠玄学试错，NVIDIA 这个 DynoSim 总算把 Pareto 前沿模拟成了直观工具，做推理服务的工程师可以省下大量调参时间。",
+      "score": 63,
+      "tags": [
+        "推理",
+        "教程/实践",
+        "部署/工程"
+      ],
+      "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
+      "time": "06:31",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpreww0500fosllj22uja0ac",
+      "title": "ChatGPT对话目录功能现已上线",
+      "link": "https://x.com/ChatGPTapp/status/2060467129066070182",
+      "summary": "对于每个始于“就问一件事”却演变成完整长篇的ChatGPT对话：目录功能现已推出。\n适用于包含5条以上回复的对话。",
+      "reason": "ChatGPT 终于给长对话加了目录，这个功能早该有了。如果你经常跟 ChatGPT 拉扯几十轮，现在可以不用疯狂滚屏了，直接跳转关键节点。",
+      "score": 69,
+      "tags": [
+        "OpenAI",
+        "产品更新"
+      ],
+      "source": "X：ChatGPT (@ChatGPTapp)",
+      "time": "05:06",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpreiy8h00dwslljv0r8dmt7",
+      "title": "Luma Agents 自动生成宣传图，输入内容即可",
+      "link": "https://x.com/LumaLabsAI/status/2060461313713909783",
+      "summary": "博客文章完成了思考。现在让宣传来发挥作用。\n\n输入内容。定义钩子。Luma Agents 从那里构建每一张宣传图。\n\n投入使用 → http://lumalabs.ai/app",
+      "reason": "Luma AI 把博客内容自动转成推广视频片段，内容团队又多一个「一键懒人」选项，但成品够不够「可发」还得看实际测试。",
+      "score": 61,
+      "tags": [
+        "产品更新",
+        "图像生成",
+        "视频"
+      ],
+      "source": "X：Luma AI (@LumaLabsAI)",
+      "time": "04:55",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmprd8aty0d2jslnojk7ompp6",
+      "title": "OpenAI推出实时翻译模型，支持70+语言输入",
+      "link": "https://x.com/gdb/status/2060452095279415725",
+      "summary": "OpenAI 实时翻译功能——使用70多种输入语言说话，翻译成13种输出语言：\n\ngpt-realtime-translate 接收任意语言的语音输入，并输出目标语言的语音。\n\n大语言模型很棒，但特定用例需要专用模型。\n\n我们正在智能眼镜上运行此功能。",
+      "reason": "OpenAI悄悄推出一个专门做实时语音翻译的模型，不是通用LLM，而是专用模型。这标志着AI交互从文字转向语音的第一步，做翻译硬件或AR眼镜的团队要睡不着了。",
+      "score": 76,
+      "tags": [
+        "OpenAI",
+        "多模态",
+        "模型发布",
+        "语音"
+      ],
+      "source": "X：Greg Brockman (@gdb)",
+      "time": "04:19",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmprcx2os0czfslno0g5c7er5",
+      "title": "Runway API持续扩展模型与端点支持",
+      "link": "https://x.com/runwayml/status/2060453805519765548",
+      "summary": "我们持续为 Runway API 添加新模型和端点，以便您能将最佳生成能力直接集成到应用、产品和平台中。通过 Runway API，您可以在一个地方获得所需的所有模型，包括 Seedance 2.0、GPT Image 2、HappyHorse 1.0、Nano Banana Pro、Magnific Precision Upscaler V2 等更多内容。请通过下方链接开始使用。",
+      "reason": "Runway API 这次集中上新，Seedance 2.0 加入虽然方便了开发者，但没有模型能力的质变，更像是生态补全。",
+      "score": 72,
+      "tags": [
+        "产品更新",
+        "图像生成"
+      ],
+      "source": "X：Runway (@runwayml)",
+      "time": "04:10",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmprc0e680csdslnofhw8c29o",
+      "title": "LlamaIndex 团队基于 Google Agents API 构建 LlamaParse/LiteParse 智能体模板",
+      "link": "https://x.com/googleaidevs/status/2060439904929382700",
+      "summary": "LlamaIndex 团队基于 Google 新发布的 Agents API 构建了一个模板，使智能体能够访问 LlamaParse 和 LiteParse，从而自动处理非结构化文档。其工作流程为：配置数据与输出的 Git 仓库，将仓库克隆至智能体沙箱，安装 LiteParse CLI 与 LlamaParse SDK 及相关技能，最后通过提示词驱动智能体自主执行任务。该模板最终形成一个可直接使用 LlamaParse 和 LiteParse 处理真实世界文档的智能体。",
+      "reason": "Google 的 Agents API 才发布没多久，LlamaIndex 就火速提供了把 LlamaParse 接进去的完整模板，想尝试在沙箱里跑文档处理 agent 的开发者可以直接抄作业。",
+      "score": 63,
+      "tags": [
+        "Agent",
+        "Google",
+        "MCP/工具调用",
+        "教程/实践"
+      ],
+      "source": "X：Google AI for Developers (@googleaidevs)",
+      "time": "03:45",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmprapdjj0cdoslnomir3c2q7",
+      "title": "参与我们的 I/O 2026 测验：该测验由 Google AI Studio 氛围编程生成",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz",
+      "summary": "Google 使用其开发工具 Google AI Studio，通过氛围编程（vibe coding）方式，创建了一个关于 Google I/O 2026 主要公告的在线测验。",
+      "reason": "Google 用 AI Studio 自己 vibe code 了个 I/O 测验，是想展示普通人也玩得转，但 quiz 本身信息量不大，想体验 vibe coding 的可以顺手玩玩。",
+      "score": 55,
+      "tags": [
+        "Google",
+        "教程/实践"
+      ],
+      "source": "Google Blog：AI（RSS）",
+      "time": "03:08",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpramk160cceslno2f8eouqr",
+      "title": "Gemini Omni可将草图变为现实",
+      "link": "https://x.com/GeminiApp/status/2060435981946503243",
+      "summary": "Gemini Omni甚至能将简单的草图变为新的现实。\n\n在Gemini应用中亲自尝试。上传一段有人画圆的视频，然后输入这个提示词：当我画完这个圆时，它变成了___。",
+      "reason": "Google 把「画个圈然后说变什么」做成了真功能，创意交互的门槛又低了，普通用户随手就能玩，但本质是锦上添花，不是核心能力跃迁。",
+      "score": 74,
+      "tags": [
+        "Google",
+        "产品更新",
+        "多模态"
+      ],
+      "source": "X：Gemini (@GeminiApp)",
+      "time": "03:06",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpra49ml0c9vslnoye123aps",
+      "title": "Braintrust如何用Codex将客户请求转化为代码",
+      "link": "https://openai.com/index/braintrust",
+      "summary": "Braintrust的工程师正在使用Codex结合GPT-5.5模型，以加速其实验运行与代码编写的流程。",
+      "reason": "真正的工程团队实操，不是 PPT 演示，如果你想了解 Codex 在生产环境中的落地效果，这篇比任何评测都实在。",
+      "score": 64,
+      "tags": [
+        "Agent",
+        "OpenAI",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "02:52",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpr9mxrd0c40slnoz5qvsa20",
+      "title": "Codex现已支持Windows端计算机使用功能",
+      "link": "https://x.com/OpenAI/status/2060428604727771421",
+      "summary": "Windows用户，这条消息是给你的。\n\n计算机使用功能现已在Windows上可用，因此Codex可以在你的Windows电脑上执行操作。\n\n通过ChatGPT移动应用中Codex的Windows支持，你可以在工作继续在Windows电脑上进行时，随时随地启动、审查和引导任务。\n\n这是一项早期体验，但我们正在努力提供更多方式，让你的工作无论身在何处都能持续进行。",
+      "reason": "Windows 用户终于等到 Codex 能直接操控电脑了，配合手机端协同一气呵成，虽然还早期，但已经把 AI 真正带进日常工作流里。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "OpenAI",
+        "产品更新"
+      ],
+      "source": "X：OpenAI (@OpenAI)",
+      "time": "02:38",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpr8syeh0bxsslno0wmufg9r",
+      "title": "当公司过于\"AI上瘾\"时会发生什么？",
+      "link": "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled",
+      "summary": "Box创始人Aaron Levie指出，决定用AI替代员工的人往往最不了解工作的实际内容，他将此称为“AI psychosis”。ClickUp近期为部署AI智能体裁员22%即是一例。2026年的科技行业裁员规模已接近2025年全年。",
+      "reason": "Aaron Levie 造了个好词“AI psychosis”，用来形容那些并不懂你工作却要裁掉你的管理层，这两年科技公司裁员潮背后的荒诞逻辑被点透了。",
+      "score": 72,
+      "tags": [
+        "现象/趋势",
+        "行业动态"
+      ],
+      "source": "TechCrunch：AI（RSS）",
+      "time": "02:15",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpscn1r7007ksluzefjak77p",
+      "title": "Anthropic估值9650亿美元超越OpenAI",
+      "link": "https://www.bloomberg.com/news/videos/2026-05-29/anthropic-valuation-of-965-billion-passes-openai-video",
+      "summary": "Anthropic在最新融资轮中筹集了650亿美元，融资后公司估值达到9650亿美元，首次超越竞争对手OpenAI的估值水平。",
+      "reason": "Anthropic 估值首次反超 OpenAI，虽说是资本层面的里程碑，但别过度解读，产品端竞争还是看谁能先出 GPT-5 级模型。",
+      "score": 81,
+      "tags": [
+        "Anthropic",
+        "OpenAI",
+        "行业动态"
+      ],
+      "source": "Bloomberg：Technology（RSS）",
+      "time": "01:26",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpr6nk7c0bf4slnok93x9vov",
+      "title": "亲测为实：难以置信的推理速度",
+      "link": "https://x.com/rohanpaul_ai/status/2060409504693645440",
+      "summary": "Kog团队在标准数据中心GPU上实现了极高的单用户推理速度，在8× AMD MI300X GPUs上达到3,000 tokens/s，在8× NVIDIA H200上达到2,100 tokens/s。相比常规推理速度（约100-300 tokens/s），实现了10-30倍提升。其核心思路是将LLM解码视为内存流问题，通过协同设计monokernel、重建同步机制、针对性内存访问映射及采用延迟张量并行的Laneformer模型架构，消除了传统流程的阻塞点。",
+      "reason": "Rohan亲自测完Kog AI的3000 token/s，把单用户推理速度拉高了10-30倍，这套monokernel设计可能改写低延迟推理的玩法，做实时AI产品的团队必须盯紧。",
+      "score": 76,
+      "tags": [
+        "大佬观点",
+        "推理",
+        "部署/工程"
+      ],
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "time": "01:15",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpr6m8dg0be7slno4oc8myl7",
+      "title": "GPIC：大规模视觉生成基准数据集发布",
+      "link": "https://x.com/drfeifei/status/2060404846734512205",
+      "summary": "我对这个适用于大规模生成模型新时代的视觉生成基准数据集感到非常兴奋！🤩",
+      "reason": "李飞飞都来站台，这个数据集不简单。完全允许商业用途是关键，对做视觉生成的团队来说，终于有了一个不用再为版权头疼的超级训练库。",
+      "score": 79,
+      "tags": [
+        "Hugging Face",
+        "图像生成",
+        "数据/训练",
+        "论文/研究"
+      ],
+      "source": "X：Fei-Fei Li (@drfeifei, World Labs)",
+      "time": "01:14",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpr6d5xi0b9xslno22mpz3we",
+      "title": "可信第三方评估的共享操作手册",
+      "link": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
+      "summary": "OpenAI 发布了一份关于第三方 AI 评估的指导框架，内容涵盖如何评估前沿系统的能力、安全防护措施及评估本身的有效性。",
+      "reason": "OpenAI 首次把模型评估的方法论打包共享，这份指南是给第三方评估者的操作手册，比零散的论文更落地，做评测的团队可以直接抄作业。",
+      "score": 56,
+      "tags": [
+        "OpenAI",
+        "安全/对齐",
+        "教程/实践",
+        "评测/基准"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "01:07",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpr59n6i0azqslnoxcv1zsd8",
+      "title": "Gemini 本月更新：全新界面与智能体助手",
+      "link": "https://x.com/GeminiApp/status/2060389565052096911",
+      "summary": "从全新设计的 Gemini 界面，到 Gemini Spark 提供的全天候智能体辅助，以下是本月 Gemini 更新概览。🧵",
+      "reason": "Gemini这次月度更新不是小打小闹，重新设计的体验加上24/7的Spark助手，像是憋了个小改版，用Gemini的人都该看一眼官方到底拿出了什么。",
+      "score": 63,
+      "tags": [
+        "Agent",
+        "Google",
+        "产品更新"
+      ],
+      "source": "X：Gemini (@GeminiApp)",
+      "time": "00:36",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpr59l910azmslnomxmi83ec",
+      "title": "OpenRouter支持模型生成文件补丁",
+      "link": "https://x.com/OpenRouter/status/2060395056196936054",
+      "summary": "OpenRouter 现已支持 \"apply_patch\"，这是一个服务器工具，允许任何模型通过 Responses API 使用 V4A diffs 提出文件编辑建议。\n\n模型生成一个补丁（创建、更新或删除文件）。OpenRouter 在服务器端验证 diff 语法。",
+      "reason": "OpenRouter 这个 apply_patch 解决了多模型文件编辑的碎片化，任何模型接上就能出 diff，做 coding agent 的可以少写一堆适配代码。",
+      "score": 72,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "产品更新",
+        "编码"
+      ],
+      "source": "X：OpenRouter (@OpenRouter)",
+      "time": "00:36",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpr55azr0ayrslnoxcqpvc6w",
+      "title": "技能提炼",
+      "link": "https://www.tomtunguz.com/the-pi-agent-skill-distillation",
+      "summary": "“技能提炼”是一种知识转移方法，由前沿大模型（如 Opus 4.7、GPT-5.1、Gemini 3 Pro）负责撰写并优化标准化的 SKILL.md 流程文件。然后，本地运行的小模型（如 Qwen 35B、Gemma 26B）直接执行这些文件。此过程不同于压缩模型权重的知识蒸馏、训练权重的指令微调或检索事实的 RAG，其核心是提取并转移操作流程，让小模型按步骤执行，从而形成前沿模型作教师、小模型作执行者的循环。",
+      "reason": "Tomer 把个人代理的完整工作流摆了出来，用大模型写 skill 小模型执行，这条蒸馏思路比调 prompt 高级，想认真跑本地代理的人该盯一下。",
+      "score": 65,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "大佬观点"
+      ],
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "time": "00:33",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpr4wr050axrslno7hhf6kbg",
+      "title": "Canvas新功能与Clerk自定义登录介绍",
+      "link": "https://x.com/Replit/status/2060390354910859401",
+      "summary": "Canvas 新功能 + 使用 Clerk 自定义登录 https://x.com/i/broadcasts/1pJdRRzreMRKW",
+      "reason": "Canvas新功能对Replit用户是实打实的效率提升，但非开发者可以直接跳过，没有看完就用的工具或模型更新。",
+      "score": 62,
+      "tags": [
+        "产品更新",
+        "编码"
+      ],
+      "source": "X：Replit (@Replit)",
+      "time": "00:26",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpr4i9sf0auaslnom31aat3q",
+      "title": "Cognition的Scott Wu表示：AI编程智能体不应取代人类",
+      "link": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans",
+      "summary": "Cognition公司开发了Devvin，这是一个号称首个且最成功的AI编程智能体。其著名程序员创始人Scott Wu明确表示，该智能体并非旨在取代人类程序员。",
+      "reason": "Devin 创始人主动说 AI 编码代理不该取代人类，这个表态本身比技术有意思，做开发者工具的产品人该琢磨一下背后的潜台词。",
+      "score": 70,
+      "tags": [
+        "Agent",
+        "大佬观点",
+        "编码"
+      ],
+      "source": "TechCrunch：AI（RSS）",
+      "time": "00:15",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpr48rt40apuslno1yaez5g0",
+      "title": "Gemini架构师分享AI前沿探索幕后故事",
+      "link": "https://x.com/GoogleAI/status/2060392191508488493",
+      "summary": "聆听Gemini的架构师们回顾他们持续推动AI前沿的旅程，本期Release Notes节目。  \n\n@JeffDean、@koraykv、@OriolVinyalsML和@NoamShazeer一同出镜，分享模型背后团队的幕后故事，以及他们如何见证愿景的实现。",
+      "reason": "Gemini 四大核心人物首次同时出镜，Jeff Dean、Noam Shazeer 这些人平时单拎出来都罕见，一起坐下来聊幕后，是真正能感受这帮人怎么思考模型未来的机会。",
+      "score": 64,
+      "tags": [
+        "Google",
+        "多模态",
+        "大佬观点"
+      ],
+      "source": "X：Google AI (@GoogleAI)",
+      "time": "00:07",
+      "date": "5月30日"
+    }
+  ]
+}

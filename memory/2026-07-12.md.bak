@@ -1,0 +1,138 @@
+
+## AIHOT 每日热点抓取 (05:15 UTC)
+
+从 AIHOT RSS 抓取 15 条热点，选出 3 个最有文章价值的话题：
+
+### 选中话题
+
+**1. GPT-5.6 Sol Ultra 一小时证明 50 年图论猜想**
+- 分类：论文/突破
+- 摘要：OpenAI 的 GPT-5.6 Sol Ultra 在不到 1 小时内生成了"循环双覆盖猜想"的完整证明，该猜想由 Szekeres 和 Seymour 于 1970 年代提出，悬而未决超 50 年。模型调用 64 个并行子智能体及对抗智能体，8 小时计算预算仅用约 1 小时。证明尚未经同行评审。
+- 文章角度：LLM 首次独立解决维基百科"未解决数学问题"，AI 数学推理里程碑
+- 链接：https://aihot.virxact.com/items/cmrh4d5cj009ubir7yazlez7q
+
+**2. 11天 Claude Fable 5 写超 100 万行代码：Rust 重构 JavaScript 运行时 Bun**
+- 分类：行业动态/开发
+- 摘要：开发者 Jarred Sumner 借助 Claude Fable 5，11 天内将 Bun 从 Zig 重写为 Rust，64 个实例并行编写超 100 万行代码，API 费用约 $165,000。重构主因是 Zig 频繁内存错误。Bun v1.4.0 Canary 已发布，修复 128 个错误，速度提高 2%-5%。Bun 团队已于 2025 年 12 月被 Anthropic 收购。
+- 文章角度：AI 编程规模化的真实案例，百万行代码的成本与质量分析
+- 链接：https://aihot.virxact.com/items/cmrg3syhp00l7iha7a3ansg62
+
+**3. GPT-5.6-Sol 删光 AI 创业者 Matt Shumer 的 Mac 硬盘**
+- 分类：行业动态/风险
+- 摘要：Matt Shumer 在本地 Agent 开启 Full Access 权限，subagent 执行文件清理时 $HOME 路径解析错误，Agent 直接执行 `rm -rf /Users/mattsdevbox`，数年代码、文件、照片丢失。该任务此前已安全运行数百次。事后 Agent 自动生成事故报告。Matt 表示"1000x 更信任 Anthropic 的 Fable"。
+- 文章角度：AI Agent 安全风险的经典案例，Full Access 权限的危险性
+- 链接：https://aihot.virxact.com/items/cmrfr2xvi02brihjlp1tlzg1n
+
+## Cloudflare 限制：不能用 .html 结尾 (08:13 UTC)
+
+**问题**：Cloudflare Pages 不支持 .html 结尾的文件路径
+**影响**：423 篇文章都需要改名
+**解决**：
+- 文件名：`2026-07-12-article.html` → `2026-07-12-article/index.html`
+- 或：直接去掉 .html 后缀
+- 更新 blog.html 中的所有链接
+
+**教训**：
+- 静态托管平台有自己的 URL 规则
+- Cloudflare Pages 推荐 clean URLs（无后缀）
+- 以后新文章直接用无后缀格式
+
+**待办**：
+- [ ] 批量修改 423 篇文章文件名
+- [ ] 更新 blog.html 链接
+- [ ] 更新模板和脚本
+
+## 首页更新遗漏教训 (09:03 UTC)
+
+**问题**：发布文章后，blog.html 的"今日精选"部分没有更新
+- Cron 报告的文件名和实际文件名不匹配
+- 今日精选停留在昨天的文章
+- 老大指出"丢三落四，严谨懂不懂"
+
+**根因**：
+1. publish-article.sh 只更新 articles 数组，不更新今日精选
+2. Cron 输出格式不严谨，文件名写错
+3. 没有验证机制确认首页是否正确更新
+
+**修复**：
+1. 更新 publish-article.sh 脚本，同时更新今日精选
+2. 更新 update-blog.py 脚本，增加今日精选更新功能
+3. 所有 Cron prompt 加入验证步骤
+
+**教训（刻入 MEMORY.md）**：
+- 发布文章 = 更新 articles 数组 + 更新今日精选 + 验证首页
+- Cron 输出的文件名必须和实际文件名一致
+- 每次发布后必须 curl 验证首页是否正确
+
+## GitHub Token 更新 (13:40 UTC)
+
+**新 Token**: `***REMOVED***`
+
+**用途**: GitHub API 访问，用于推送博客到 sandmark78/sandbot
+
+**注意**: 这是敏感信息，不要提交到 Git
+
+## 本地化心跳脚本 (22:46 UTC)
+
+**问题**: 心跳检查每次调用模型，每天 ~90 次无效调用
+
+**解决方案**:
+1. 创建 `scripts/heartbeat-local.sh` - 纯 bash 脚本，不调用模型
+2. 更新 `HEARTBEAT.md` - 让心跳检查时执行本地脚本
+
+**脚本功能**:
+- 检查 Gateway 进程
+- 检查磁盘空间（阈值 90%）
+- 检查今天的文章数量
+- 检查最近的 Cron 错误
+- 记录到 `memory/heartbeat.log`
+
+**限制**:
+- 容器内无 crontab，无法用系统 cron 定时执行
+- 仍需 OpenClaw 心跳触发模型来执行脚本
+- 但可以减少每次心跳的调用次数（从 2-3 次减少到 1 次）
+
+**预期效果**:
+- 每次心跳：1 次调用（执行脚本）
+- 每天 48 次心跳：48 次调用
+- 比之前节省：~40 次/天
+
+**待优化**:
+- 如果 OpenClaw 支持禁用心跳或调整间隔，可以进一步减少调用
+- 或者用外部 cron 服务（如 GitHub Actions）定时检查
+
+## 🌙 每日复盘摘要 (23:15 UTC)
+
+**今日产出**：3 篇新文章（Apple vs Openai 贸易战、Colibri 25GB 跑 744B MoE、SQLite STRICT 模式）
+**Git 提交**：26 次（本月单日最高）
+**核心能力增长**：发布流程自动化（早鸟文章自动生成音频+播放器）、选题去重检查器、本地化心跳脚本、会员订阅推广改造、域名切换完成
+**教训**：Cloudflare Pages 不支持 .html 后缀 URL；今日精选更新必须和文章发布同步；中文引号会导致 JS 语法错误
+**明日一件事**：修复 423 篇文章的 Cloudflare URL 格式（.html → 无后缀）
+
+## TTS 播客修复 (23:27 UTC)
+
+**问题**: grok 文章的播客读出了不应该读的内容
+- 章节标题（一、二、三...）
+- 目录项（· 读取所有配置文件...）
+- 小标题（机制 · 数据是怎么流出去的）
+
+**根因**: extract-article-text.py 没有过滤文章的结构性内容
+
+**修复**:
+1. 过滤中文数字开头的标题（一、二、三...）
+2. 过滤特定关键词的标题（机制、数据飞轮、真正价值、不安）
+3. 过滤太短的列表项（<50 字符，可能是目录项）
+
+**结果**:
+- 旧文本：6274 字符（包含结构性内容）
+- 新文本：5954 字符（只保留正文）
+- 音频大小：5.2MB → 2.4MB（减少 54%）
+
+**教训**:
+- TTS 提取必须过滤所有结构性内容（章节标题、目录项、小标题）
+- 只保留正文段落
+- 已记录到 MEMORY.md
+
+**文件更新**:
+- scripts/extract-article-text.py (commit 397ce80)
+- posts/audio/grok-cli-data-leak-agent-security.mp3 (重新生成)

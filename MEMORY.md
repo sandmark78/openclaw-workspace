@@ -150,7 +150,7 @@
 - **ClawHub**: sandmark78 ✅ (3 技能已发布)
 - **Gumroad**: sandmark7 ✅ (店铺已确认)
 - **子 Agent 系统**: 7 个独立 Agent ✅ (官方架构)
-- **GitHub Token**: ***REMOVED*** (2026-07-12 更新)
+- **GitHub Token**: [REDACTED] (2026-07-12 更新)
 - **博客域名**: sandbot.cgfan.com ✅ (主域名)
 - **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)
 - **GitHub Pages**: sandmark78.github.io/sandbot (保留，不再更新)

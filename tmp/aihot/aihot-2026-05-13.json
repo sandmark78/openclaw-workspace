@@ -1,0 +1,654 @@
+{
+  "date": "2026-05-13",
+  "scraped_at": "2026-05-13T05:00:14.665090+00:00",
+  "total_items": 40,
+  "items": [
+    {
+      "id": "cmp3l0a8s06xksl1q8itcr28k",
+      "title": "oMLX更新强化苹果端侧AI，本地能力直逼云端",
+      "link": "https://x.com/berryxia/status/2054420138095694324",
+      "summary": "oMLX项目更新至0.3.9.dev2版本，集成了Gemma 4的MTP视觉路径、DFlash引擎和ParoQuant技术，显著提升了图文处理速度。新增一键启动copilot功能，可便捷接入Claude等工具，并通过oQ自动代理解决显存瓶颈。这些改进大幅增强了本地AI在速度、集成与易用性上的表现，正推动AI能力从云端向个人电脑回归。",
+      "reason": "oMLX 这个更新把 Gemma 4 的视觉能力塞进本地，加一键接入 Claude 的工具链，端侧 AI 从差点意思到真可用，值得每个 Mac 开发者立刻试一下。",
+      "score": 76,
+      "tags": [
+        "GitHub",
+        "MCP/工具调用",
+        "多模态",
+        "开源/仓库",
+        "端侧"
+      ],
+      "source": "X：Berry Xia (@berryxia)",
+      "time": "12:50",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp3kla5p06u9sl1qoxp8zb9o",
+      "title": "消息称 Anthropic 正就以超 9000 亿美元投前估值筹集至少 300 亿美元谈判",
+      "link": "https://www.ithome.com/0/949/715.htm",
+      "summary": "据报道，AI公司Anthropic正就新一轮融资进行初步谈判，目标是以超过9000亿美元的投前估值筹集至少300亿美元资金。这有望成为该公司迄今最大规模的融资轮次，交易最快可能在本月底完成。此前，Anthropic在今年2月完成了300亿美元的G轮融资，投后估值为3800亿美元，并从谷歌和亚马逊获得了150亿美元的投资承诺。为应对高昂的算力成本，公司计划于今年晚些时候进行首次公开募股（IPO）。",
+      "reason": "Anthropic 这轮融资如果完成，就是 AI 史上最大单笔，估值逼近万亿门槛，说明头部公司的军备竞赛还没到顶，算力烧钱才刚开始。",
+      "score": 73,
+      "tags": [
+        "Anthropic",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "12:39",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp3j3t8w06hvsl1q55b5p8ij",
+      "title": "智能体时代新指标：日活跃智能体数",
+      "link": "https://x.com/Baidu_Inc/status/2054400181903524133",
+      "summary": "Robin提出将日活跃智能体（DAA）作为智能体时代的定义性指标，相当于移动互联网时代的日活跃用户数。\n\n虽然令牌消耗更多反映成本而非价值，但DAA让讨论回归产出本质。\n\n正如Robin所指出的，衡量平台或生态系统健康度时，应更关注DAA指标——即积极工作并交付成果的智能体数量。",
+      "reason": "李彦宏抛出的 DAA 指标可能刷新智能体赛道的衡量标准，把焦点从成本转向产出，做 agent 平台的人值得琢磨一下。",
+      "score": 62,
+      "tags": [
+        "Agent",
+        "大佬观点"
+      ],
+      "source": "X：百度 Baidu (@Baidu_Inc)",
+      "time": "11:57",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp3j1mlq06gqsl1qq1g2qemv",
+      "title": "Hy3预览版登陆GMI，开源最强模型领跑",
+      "link": "https://x.com/TencentHunyuan/status/2054403079433572357",
+      "summary": "Hy3 预览版现已登陆 @gmi_cloud。🙌",
+      "reason": "腾讯混元 Hy3 开源且登顶 OpenRouter 排行榜，295B MoE 架构在推理和代码上提升明显，不是小厂的刷榜产品，搞 agent 和 coding 的可以认真试试。",
+      "score": 76,
+      "tags": [
+        "Agent",
+        "开源生态",
+        "推理",
+        "模型发布",
+        "编码"
+      ],
+      "source": "X：腾讯混元 (@TencentHunyuan)",
+      "time": "11:55",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp3iv3vh06f3sl1qb70wiv1f",
+      "title": "BenchLoop：本地大模型一键基准测试与排行榜发布",
+      "link": "https://x.com/berryxia/status/2054390836721553487",
+      "summary": "BenchLoop 提供了一套对本地大模型进行基准测试的标准化流程。用户只需拉取模型并运行该工具，即可实时获取模型在质量、速度和可靠性方面的综合评分。平台支持对比不同提示框架（如原生模式与 Hermes 模式）下的性能表现。测试完成后，结果可自动发布至公开排行榜，便于横向比较不同模型的优劣。",
+      "reason": "本地模型好不好用，跑个分才知道。BenchLoop 把质量、速度、可靠性全量化，还能对比原生模式和 Hermes 模式，做模型选型的人该把它加进工具箱。",
+      "score": 72,
+      "tags": [
+        "推理",
+        "教程/实践",
+        "部署/工程"
+      ],
+      "source": "X：Berry Xia (@berryxia)",
+      "time": "11:50",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp3hin5a064xsl1qriqoimz5",
+      "title": "Codex应用内浏览器升级，提升多视口测试与标注效率",
+      "link": "https://x.com/thsottiaux/status/2054398093886673260",
+      "summary": "Codex应用内浏览器功能迎来多项改进，支持在不同视口尺寸下测试应用，并能控制设备工具栏、在不同断点进行点击验证。长时测试中，Codex会在关键节点截图供用户核查。为加速测试，可隐藏应用内浏览器以禁用动画，使测试速度提升1-2倍。此外，标注功能现在发送更快且消耗更少tokens。",
+      "reason": "Codex这个内测浏览器升级挺实用，不同视口尺寸下截图验证，做响应式布局的人能省下反复部署的时间，更新不大但痛点打得很准。",
+      "score": 76,
+      "tags": [
+        "OpenAI",
+        "产品更新",
+        "编码"
+      ],
+      "source": "X：Tibo (@thsottiaux)",
+      "time": "11:13",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp3dunk2055ysl1qg6yobkvd",
+      "title": "AI未来原生智能体 Qwen 3.6 Plus限免",
+      "link": "https://x.com/alibaba_cloud/status/2054372732234797342",
+      "summary": "AI的未来是智能体原生的。\n很高兴能与Hermes Agent及@NousResearch社区共同开启这段旅程。\nQwen 3.6 Plus现于Nous Portal限时免费——快来尝试吧。⚡",
+      "reason": "Qwen 3.6 Plus 本身不算新，但阿里云和 Nous 联手搞限免，对 agent 开发者是个无脑试用的窗口，想省成本的可以冲。",
+      "score": 65,
+      "tags": [
+        "Agent",
+        "产品更新"
+      ],
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "time": "09:30",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp3cdlef04u0sl1qy1btsg12",
+      "title": "无需注册付费，Telegram内一键启动AI智能体",
+      "link": "https://x.com/berryxia/status/2054358231791923392",
+      "summary": "牛逼！Browser Use 今天把“AI agent 即用即走”做到了极致。\n\nBuxFather：Telegram 里直接 Spin up agent，无需任何注册付费，24/7 自主运行 + 自改进，还带 stealth browser。\n\n几下点击就有完整电脑 + 浏览器环境。\n\n这波对重度 Telegram 用户来说真的爽了！\n\nhttps://x.com/browser_use/status/2054330495249564094/video/1",
+      "reason": "Browser Use 扔了个狠招，把 agent 控制权直接塞进 Telegram，不用注册就能跑 24/7，对重度 Telegram 用户来说真是即用即走的 AI 执行力。",
+      "score": 74,
+      "tags": [
+        "Agent",
+        "产品更新"
+      ],
+      "source": "X：Berry Xia (@berryxia)",
+      "time": "08:49",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp3c3el304s0sl1q6r1amfgb",
+      "title": "Google 发布首款 AI 优先笔记本 Googlebook，集成 Gemini 智能",
+      "link": "https://x.com/shao__meng/status/2054360963571446232",
+      "summary": "Google 正式推出首款为 Gemini Intelligence 设计的笔记本 Googlebook，标志着从“云优先”的 Chromebook 时代进入“AI 优先”新阶段。其核心创新包括：Magic Pointer 将系统光标变为 AI 交互入口，可直接触发上下文建议与任务；Create Your Widget 允许通过自然语言生成聚合多源信息的动态桌面小组件；深度整合 Android 生态，实现手机 App 无缝调用与文件跨设备快速访问。该产品以 Gemini 为核心，旨在将 AI 能力下沉至系统级交互，降低使用门槛，并强化跨设备协同体验。",
+      "reason": "Google 把 Gemini 从聊天框下沉到光标和小组件，Magic Pointer 重新定义了触达 AI 的方式，加上 Android 深度联动，这可能是 Chromebook 之后最重要的笔电形态迭代，交互思路值得产品人跟进。",
+      "score": 71,
+      "tags": [
+        "Google",
+        "产品更新",
+        "端侧"
+      ],
+      "source": "X：邵猛 (@shao__meng)",
+      "time": "08:41",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp3an44j04g4sl1qqckg3002",
+      "title": "Claude Code新增/goal功能确保任务完成",
+      "link": "https://x.com/ClaudeDevs/status/2054351031279186040",
+      "summary": "如何让Claude持续工作直至任务完成？Claude Code通过几种方式提供帮助，包括我们最近推出的功能：/goal。",
+      "reason": "Claude Code 的 /goal 命令解决了一个长期痛点，让 AI 能自己持续拆解执行复杂任务，不用开发者反复盯着推送，做长任务自动化的人可以直接试。",
+      "score": 69,
+      "tags": [
+        "Anthropic",
+        "产品更新",
+        "编码"
+      ],
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "time": "08:00",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp3a8ev104bosl1qc069vmo6",
+      "title": "90%的人在白白浪费“Token”！",
+      "link": "https://x.com/berryxia/status/2054339265103065156",
+      "summary": "Andrej Karpathy指出，AI编程账单的90%浪费在发送不必要的上下文上。常见浪费行为包括：过度加载文件、使用高价模型处理简单任务、Agent重复发送整个代码库、默认选用高价模型而非性价比更高的替代品。优化策略强调严格管理上下文、启用提示词缓存、采用多模型路由（如主力用Kimi 2.6，关键任务用Opus）、创建SKILL.md文件避免知识重建、先分析工具调用再优化提示。未来，开发者月花费的巨大差距将取决于其上下文和模型路由的管理能力，而非纯粹的技术水平。",
+      "reason": "Karpathy 这条推文把 AI 编程的浪费点戳穿了，10 条技巧每条都能直接省下真金白银，Vibe Coding 的人看完账单会沉默。",
+      "score": 75,
+      "tags": [
+        "教程/实践",
+        "编码"
+      ],
+      "source": "X：Berry Xia (@berryxia)",
+      "time": "07:49",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp39g0gg044ssl1q20jlqvkk",
+      "title": "展示 HN：Statewright——通过可视化状态机提升AI智能体可靠性",
+      "link": "https://github.com/statewright/statewright",
+      "summary": "Statewright 是一个通过状态机为AI智能体提供约束的系统，能控制其在各阶段可使用的工具，从而聚焦推理并提升可靠性。它将工作流定义为规划、实施、测试等多个阶段，自动执行工具限制与状态转换。在本地模型测试中，两个模型在5项SWE-bench子任务上应用约束后，正确率从2/10显著提升至10/10。该系统已集成到Claude Code等平台，一个修复测试失败的典型工作流可在46秒内完成。",
+      "reason": "Statewright用状态机给AI代理上“紧箍咒”，让13B小模型也能搞定SWE-bench任务，做coding agent的应该立刻装上试试。",
+      "score": 76,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "产品更新",
+        "编码"
+      ],
+      "source": "Hacker News：AI 热帖",
+      "time": "07:27",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp38ss5i0410sl1qxvso9atl",
+      "title": "财务团队如何使用 Codex",
+      "link": "https://openai.com/academy/how-finance-teams-use-codex",
+      "summary": "财务团队能够利用 Codex，基于实际工作输入构建管理层报告、报告包、差异桥接、模型检查和规划场景。该工具将自然语言指令转化为代码，自动化处理财务数据整合、差异分析和模型验证等复杂任务，从而提升报告生成效率与准确性，并支持快速创建多版本规划场景。",
+      "reason": "金融团队终于有了一个正经的 AI 用例，用 Codex 自动生成 MBR、差异桥接和规划场景，比手工拉 Excel 高效太多了，做财务分析的建议点开看看。",
+      "score": 63,
+      "tags": [
+        "OpenAI",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "07:09",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp37p4hg03r4sl1qaveix343",
+      "title": "谷歌AI重塑智能鼠标指针交互",
+      "link": "https://x.com/demishassabis/status/2054326444189253655",
+      "summary": "团队正在用AI重新构想鼠标指针，成果非常酷！在@GoogleAIStudio尝试原型版本，体验相当神奇。\n\n[引用 @GoogleDeepMind]：我们正用AI重新构想这个存在50年的界面——鼠标指针。🖱️\n\n这些实验演示展示了人们如何通过动作、语音和自然简写，在屏幕上直观操控Gemini完成任务🧵",
+      "reason": "用了50年的鼠标指针第一次被AI改造，这个原型让你在屏幕上随手画圈、说话、打缩写就能控制Gemini，产品经理和设计师都该去玩一下。",
+      "score": 81,
+      "tags": [
+        "Google",
+        "产品更新",
+        "多模态",
+        "语音"
+      ],
+      "source": "X：Demis Hassabis (@demishassabis)",
+      "time": "06:38",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp349kf202zvsl1q9rofvad2",
+      "title": "优化广告效果，定义更佳表现",
+      "link": "https://x.com/LumaLabsAI/status/2054300200517456185",
+      "summary": "你的广告正在投放。但它有效吗？\n\n定义更好的样子。设定方向。Luma Agents 会构建一个更精准、表现更出色的版本，并提供创意和消息支持。\n\n超越它 → http://lumalabs.ai/app",
+      "reason": "Luma 从视频生成杀进广告优化，Agent 自己迭代创意还能量化效果，做投放的可以试试，实际提升有多大还得看数据。",
+      "score": 68,
+      "tags": [
+        "Agent",
+        "产品更新"
+      ],
+      "source": "X：Luma AI (@LumaLabsAI)",
+      "time": "05:02",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp339bfb02r3sl1qotebnks0",
+      "title": "Codex实现跨应用无感多任务处理",
+      "link": "https://x.com/OpenAIDevs/status/2054298427245441141",
+      "summary": "计算机使用让Codex能在你的应用间工作而不占用你的Mac。\n\n@AriX与@romainhuet探讨当代理程序能点击、输入并在后台持续工作时将带来哪些改变。",
+      "reason": "Codex 这个「computer use」不接管整台 Mac，只在后台帮你点、帮你打字，对用过 Cursor 接管全屏后心里发毛的开发者来说，是个更让人放心的设计，但有没有宣传的那么顺还得等实测。",
+      "score": 70,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "OpenAI",
+        "产品更新"
+      ],
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "time": "04:33",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp31v0g902g9sl1qk1yhoemj",
+      "title": "Step Image Edit 2图像模型发布，性能领先且高效",
+      "link": "https://x.com/StepFun_ai/status/2054282965652471918",
+      "summary": "Step Image Edit 2模型正式发布。这是一个35亿参数的图像模型，在指令式图像编辑的权威基准KRIS-Bench中，于综合、事实和概念类别均排名第一，性能超越参数量为其5-6倍的模型。其核心能力包括文生图、基于指令的图像编辑、精准的中英双语文字渲染以及保持主体一致性的风格迁移。该模型生成速度快，单次编辑成本低，目前已上线Stepfun开放平台。",
+      "reason": "3.5B 参数在图像编辑基准上干翻 5-6 倍大的模型，性价比很诱人，而且中文文字渲染准确，做批量出图的产品可以直接试。",
+      "score": 72,
+      "tags": [
+        "图像生成",
+        "多模态",
+        "模型发布"
+      ],
+      "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
+      "time": "03:54",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp307dqu023wsl1q5ct3urvs",
+      "title": "Parameter Golf 揭示了关于 AI 辅助研究的哪些经验",
+      "link": "https://openai.com/index/what-parameter-golf-taught-us",
+      "summary": "Parameter Golf 项目汇聚了超过 1000 名参与者和 2000 多份提交作品，在严格限制条件下探索了 AI 辅助的机器学习研究、编码智能体、模型量化及新颖模型设计。活动展示了 AI 工具如何帮助研究人员在受限参数规模下优化模型性能，推动了高效模型架构与自动化代码生成技术的实践进展。核心发现包括智能体协作能显著提升研究效率，而量化技术可在微小精度损失下大幅压缩模型体积。",
+      "reason": "OpenAI让1000多人一起玩AI辅助研究，这篇复盘给出了几个很实在的教训，尤其关于代码Agent和量化，搞研究的人值得花五分钟读一下。",
+      "score": 64,
+      "tags": [
+        "Agent",
+        "OpenAI",
+        "现象/趋势"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "03:08",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp2zqbln01ywsl1ql5k8bod5",
+      "title": "Anthropic 网络安全团队如何利用 Claude Code 构建威胁检测平台",
+      "link": "https://claude.com/blog/how-anthropic-uses-claude-cybersecurity",
+      "summary": "Anthropic 检测平台工程团队技术负责人 Jackie Bow 运用 Claude Code 开发了 CLUE 威胁检测与响应平台。该平台通过自然语言界面连接内部系统，包含 CLUE Triage 自动初筛警报，整合上下文信息分配处置建议；以及 CLUE Investigate 支持分析师用自然语言查询日志，由 Claude 自动生成并执行查询，将数小时的人工分析缩短至几分钟。团队在一天内完成概念验证，一周内交付实现，显著提升了安全运营效率。",
+      "reason": "我一直好奇大模型公司自己怎么用 AI 做安全，这篇挖出了 Anthropic 内部 CLUE 平台的构建细节——从一天出原型到每周省下 234 人天，数据比很多 PR 稿扎实。",
+      "score": 58,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "安全/对齐",
+        "教程/实践"
+      ],
+      "source": "Claude：Blog（网页）",
+      "time": "02:54",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp2yyzm101s0sl1qos08v1wc",
+      "title": "山姆·奥特曼因涉嫌利用OpenAI谋私利遭正式调查",
+      "link": "https://x.com/cb_doge/status/2054265408933462034",
+      "summary": "美国佛罗里达、蒙大拿等六州司法部长联合致信美国证券交易委员会，要求调查OpenAI CEO山姆·奥特曼涉嫌利用公司谋取个人利益的行为。信中指出奥特曼在OpenAI无直接股权，个人财务利益与公司业绩关联有限，存在严重的自我交易和利益冲突风险。同时，美国众议院监督委员会主席也要求其提交相关投资文件。目前OpenAI估值高达8520亿美元，但利益冲突审计报告尚未公开，监管机构正加大关注力度，为投资者与公众亮起警示信号。",
+      "reason": "这是OpenAI上市前最危险的时刻，六个州总检察长联手查Altman自利交易，估值8520亿背后藏着未披露的审计，关注AI的人该盯着这件事。",
+      "score": 70,
+      "tags": [
+        "OpenAI",
+        "行业动态"
+      ],
+      "source": "X：cb_doge (@cb_doge)",
+      "time": "02:33",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp2yuijv01qvsl1q8c7n7wja",
+      "title": "Claude Opus 4.7快速模式开放研究预览",
+      "link": "https://x.com/ClaudeDevs/status/2054266327771275435",
+      "summary": "Claude Opus 4.7的快速模式现已在API和Claude Code中开放研究预览。",
+      "reason": "Opus 4.7 加推 Fast mode，编程场景延迟会降一大截，Claude Code 可以直接用，对天天在终端敲代码的人是个实在提升。",
+      "score": 76,
+      "tags": [
+        "Anthropic",
+        "推理",
+        "模型发布",
+        "编码"
+      ],
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "time": "02:30",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp2xwd8301jssl1qqoq8jgnx",
+      "title": "青少年按ChatGPT建议混用药物致死，父母起诉OpenAI",
+      "link": "https://x.com/cb_doge/status/2054256398834569440",
+      "summary": "一名19岁青少年因过量服用药物死亡，其父母起诉OpenAI，指控ChatGPT的错误建议导致了悲剧。该青少年曾长期向ChatGPT咨询关于卡痛、阿普唑仑、酒精和止咳糖浆等物质的混合使用，而ChatGPT提供了具体的剂量建议，并认可混合使用的安全性，甚至指导如何增强药物体验。在他死亡当天，ChatGPT仍在提供后续用药建议。OpenAI回应称，相关对话发生于已下线的旧版本模型。",
+      "reason": "如果诉讼属实，这会是第一个因 AI 建议致死的公开诉讼，OpenAI 的‘模型越狱’问题被摊在法庭上了。但诉讼方证据链还没公开，先别急着下结论。",
+      "score": 71,
+      "tags": [
+        "OpenAI",
+        "安全/对齐",
+        "政策/监管"
+      ],
+      "source": "X：cb_doge (@cb_doge)",
+      "time": "02:03",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp2xktm001gvsl1qjo07wb5a",
+      "title": "Claude进军法律行业",
+      "link": "https://claude.com/blog/claude-for-the-legal-industry",
+      "summary": "Anthropic公司为法律行业发布20多个新的MCP连接器及12个专用插件，将Claude深度集成至合同管理、文档处理等法律核心软件栈。Claude现可直接在Microsoft Word、Outlook等办公应用中无缝工作，具备起草、修订、条款比对等可复用技能，并能自动化处理日常法律事务。公司同时宣布与多个司法公益组织合作，以扩大法律服务的可及性。",
+      "reason": "Claude 这次在法律行业的布局很大，20+ 连接器和 12 个插件意味着它不是做表面集成，而是把律师的整套工具链都拉了进来——对律所是效率革命，对做垂直 AI 产品的团队则是教科书级的行业解决方案示范。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "MCP/工具调用",
+        "产品更新"
+      ],
+      "source": "Claude：Blog（网页）",
+      "time": "01:54",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp2xiymg01fwsl1qwncq1fep",
+      "title": "GitHub Copilot 个人计划：在 Pro 和 Pro+ 中引入弹性配额，以及新的 Max 计划",
+      "link": "https://github.blog/news-insights/company-news/github-copilot-individual-plans-introducing-flex-allotments-in-pro-and-pro-and-a-new-max-plan",
+      "summary": "GitHub 宣布从6月1日起更新 Copilot 个人计划阵容，基于用户反馈进行调整。主要变化包括在现有 Pro 和 Pro+ 计划中引入弹性配额机制，允许用户更灵活地分配使用量；同时新增 Max 计划，扩展高级选项。此次更新旨在提升计划的可定制性，为开发者提供更个性化的编程辅助服务，优化整体使用体验。",
+      "reason": "GitHub Copilot 个人版引入弹性配额和更贵的 Max 计划，对你这样每天靠它写代码的人，要么多花钱要么被限流，算清楚自己的用量比看功能列表更重要。",
+      "score": 61,
+      "tags": [
+        "GitHub",
+        "产品更新",
+        "编码"
+      ],
+      "source": "GitHub Blog",
+      "time": "01:53",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp2ww50501ausl1q1ivuw30j",
+      "title": "谷歌发布全新安卓智能助理",
+      "link": "https://x.com/testingcatalog/status/2054253853026185609",
+      "summary": "GOOGLE 🔥: 在Android Show 2026上推出了全新的Android Intelligence！\n\n- 全新的时尚设计！\n- 跨安卓应用的自动化多步骤任务\n- Chrome中的Gemini获得浏览器使用功能\n- 自动表单填写\n- \"Rambler\"可将语音笔记转为文本\n- 自定义Gen UI小组件\n\n我现在就需要一台Pixel 👀",
+      "reason": "Android 向 AI 原生系统迈了关键一步，Gemini 的跨应用自动任务和浏览器操作功能落地，对开发者和产品人是真正的信号，不是常规小更新。",
+      "score": 70,
+      "tags": [
+        "Agent",
+        "Google",
+        "产品更新",
+        "多模态"
+      ],
+      "source": "X：Testing Catalog (@testingcatalog)",
+      "time": "01:35",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp2wtrgj019zsl1qme5cxcte",
+      "title": "Symphony为每个任务启动运行Codex智能体",
+      "link": "https://x.com/OpenAIDevs/status/2054252221941121035",
+      "summary": "Symphony：每个开放任务都有一个正在运行的Codex智能体",
+      "reason": "OpenAI 让每个开启的任务都自动配上一个 Codex agent，这不是单个功能的更新，是开发者 workflow 的一次静默接管。",
+      "score": 71,
+      "tags": [
+        "Agent",
+        "OpenAI",
+        "产品更新",
+        "编码"
+      ],
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "time": "01:33",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp2vtrmz0130sl1q56jd7gq4",
+      "title": "使用ADK构建可暂停、恢复且永不丢失上下文的长时运行AI智能体",
+      "link": "https://developers.googleblog.com/build-long-running-ai-agents-that-pause-resume-and-never-lose-context-with-adk",
+      "summary": "本文探讨了如何从无状态聊天机器人升级为生产级AI智能体，以管理长达数天或数周的企业工作流程（如HR入职）。通过引入Agent Development Kit（ADK），其架构核心采用持久状态机和持久化会话存储，确保智能体在“空闲时间”或服务器重启时永不丢失上下文。系统利用事件驱动的Webhook和多智能体委托机制，实现在暂停期间“休眠”，并在唤醒后以高推理准确性恢复复杂任务，从而构建出具备韧性和可靠性的长时运行智能体系统。",
+      "reason": "Google 官方手把手教你把无状态 chatbot 升级成能跨天跨周的持久化 agent，状态机和持久会话是两个关键切入点，做过生产环境 agent 的都懂这东西有多刚需。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "Google",
+        "教程/实践",
+        "部署/工程"
+      ],
+      "source": "Google Developers Blog（RSS）",
+      "time": "01:05",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp2vs1wj012dsl1qdt4zh5be",
+      "title": "AI取代人类？各方叙事背后的利益驱动",
+      "link": "https://x.com/frxiaobei/status/2054245095587959004",
+      "summary": "关于AI是否取代人类的讨论，实为不同利益方的叙事塑造：AI公司为高估值渲染替代能力，企业借AI解释裁员，教育机构制造焦虑，媒体追逐流量。吴恩达指出“AI导致大规模失业”是夸大其词，实际净增岗位远超替代，并以软件工程师招聘强劲、美国低失业率为证。他强调AI改变工作性质而非摧毁就业，揭露夸大叙事背后的商业动机——AI公司可通过对标员工薪资提高定价，企业则借AI掩饰疫情期间过度招聘。核心问题在于技术转型中个体如何应对，但这缺乏利益驱动力被认真探讨。",
+      "reason": "吴恩达直接给「AI 失业潮」泼冷水，把 AI 公司、企业和媒体的叙事套利拆得干净，但小北追问得更狠——转型阵痛到底多快多痛、落后者怎么办，这个问题没人有动力认真回答。",
+      "score": 74,
+      "tags": [
+        "大佬观点",
+        "现象/趋势"
+      ],
+      "source": "X：小北 (@frxiaobei)",
+      "time": "01:04",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp2uo3ln00s8sl1qhwlje6aw",
+      "title": "Perceptron Mk1视觉语言模型上线OpenRouter",
+      "link": "https://x.com/OpenRouter/status/2054232344148787462",
+      "summary": "Perceptron Mk1已在OpenRouter上线，由@perceptroninc开发。\n\n前沿视频与具身推理的视觉语言模型。以动态帧率（最高2 FPS）分析视频，具备32k多模态上下文，采用混合推理和结构化空间基元（点、框、多边形、片段）作为首要输出。",
+      "reason": "将视频理解提升到结构化空间输出，动态帧率分析让模型能真正「看懂」动作，做具身智能的开发者可以关注。",
+      "score": 69,
+      "tags": [
+        "多模态",
+        "推理",
+        "模型发布"
+      ],
+      "source": "X：OpenRouter (@OpenRouter)",
+      "time": "00:33",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp2uf7qg00pnsl1qt0m49k2q",
+      "title": "开放模型生态的复合增长",
+      "link": "https://www.interconnects.ai/p/how-open-model-ecosystems-compound",
+      "summary": "中国AI生态呈现高参与度与开放优先特征，开源模型社区形成自我强化循环。开发者基于主流架构二次创新，国产开源模型下载量季度环比激增超200%。开放协作降低了技术门槛，推动应用层涌现大量行业解决方案，模型微调工具使用量同比大幅增长。生态参与者通过贡献代码、数据及优化方案，持续反哺核心模型迭代，构建了技术红利共享的复合增长网络。",
+      "reason": "Nathan Lambert这篇对中国开放模型生态的剖析，点出了‘参与人数×开源速度’的飞轮，做开源的人该认真看看。",
+      "score": 64,
+      "tags": [
+        "大佬观点",
+        "开源生态",
+        "现象/趋势"
+      ],
+      "source": "Nathan Lambert：Interconnects（RSS）",
+      "time": "00:26",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp2udars00otsl1qnz7er67x",
+      "title": "Code w/ Claude SF 2026开发者大会：基于AI指数级增长的构建",
+      "link": "https://claude.com/blog/code-w-claude-sf-2026-sf",
+      "summary": "在Code w/ Claude SF 2026开发者大会上，Anthropic宣布提升开发者工具能力。Claude Code的速率限制翻倍，Claude Opus的API限制提高，以支持大规模可靠开发。同时，Claude平台上的托管智能体新增四项功能：“梦想”功能通过回顾会话优化记忆；多智能体编排支持主智能体并行委派子任务；“成果”功能通过定义输出标准提升任务成功率，内部测试显示最难问题成功率最多提升10%；Webhooks提供任务完成通知。大会主题演讲和分组会议录像已上线，并计划在伦敦和东京举办后续活动。",
+      "reason": "虽然已是旧闻，但Dreaming和Outcomes这两个功能让agent能自我改进，是构建生产级AI团队的真信号，做Claude开发的值得补课。",
+      "score": 58,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "MCP/工具调用",
+        "产品更新"
+      ],
+      "source": "Claude：Blog（网页）",
+      "time": "00:24",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp2tlfix00jpsl1qdgepwzu9",
+      "title": "Grok接入Gmail，智能邮件助手革新收件箱管理",
+      "link": "https://x.com/cb_doge/status/2054225901232259092",
+      "summary": "Grok现已支持连接Gmail，用户可通过自然语言指令对收件箱进行智能查询与管理。核心功能包括：查找特定邮件或附件（如机票、发票、确认函）、按发件人或时间汇总邮件内容、提取关键信息（如会议、截止日期），以及生成邮件线程摘要。该集成旨在将传统收件箱转化为可智能交互的信息库，提升邮件处理效率与实用性。",
+      "reason": "在 ChatGPT 和 Claude 早就上了邮箱集成之后，Grok 终于也跟进了。这个功能不稀奇，但问法给得实在，对每天被邮件淹没的人挺实用，算是个小而美的更新。",
+      "score": 71,
+      "tags": [
+        "xAI",
+        "产品更新",
+        "搜索"
+      ],
+      "source": "X：cb_doge (@cb_doge)",
+      "time": "00:03",
+      "date": "5月13日"
+    },
+    {
+      "id": "cmp2t8mfk00fvsl1qaoedujdf",
+      "title": "Dungeons & Desktops: 使用 GitHub Copilot CLI 构建一款程序化生成的 Roguelike 游戏",
+      "link": "https://github.blog/ai-and-ml/github-copilot/dungeons-desktops-building-a-procedurally-generated-roguelike-with-github-copilot-cli",
+      "summary": "一位 GitHub 员工利用 GitHub Copilot CLI 开发了一款扩展程序，能够将任何代码库转换成一个独特的 Roguelike 风格地下城。该工具通过 AI 辅助的代码生成，实现了程序化关卡创建，展示了 Copilot CLI 在创意编码和游戏原型开发中的实际应用潜力。项目核心是自动解析代码结构并生成对应的可探索地下城布局。",
+      "reason": "用 GitHub Copilot CLI 把代码库变成 roguelike 地牢，玩法挺有脑洞，做 Copilot 扩展的开发者可以看一眼思路。",
+      "score": 58,
+      "tags": [
+        "GitHub",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "GitHub Blog",
+      "time": "23:53",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp2s4v1d00tksl3qp9qozi0s",
+      "title": "在Claude Code中安装官方插件调用Codex",
+      "link": "https://x.com/vista8/status/2054218925005816077",
+      "summary": "本文介绍了在Claude Code中通过插件市场安装OpenAI官方Codex插件的具体步骤：添加库、安装插件、重新加载及配置。其核心实践动机源于HeavySkill论文提出的“重思考”方法，即让多个AI模型并行独立推理，再由一个模型（如Codex）作为主持人综合思路以提升回答质量。作者正依此构建由Claude Code推理、Codex主持的Skill。",
+      "reason": "Claude Code 终于能调 Codex 了，照着这几行命令就能跑通。更重要的是他提到‘HeavySkill’的并行推理思路，让多个 AI 先各自思考再综合，这个 Skill 如果做出来，解决复杂问题的质量会明显提升，值得第一时间动手试试。",
+      "score": 72,
+      "tags": [
+        "Anthropic",
+        "MCP/工具调用",
+        "OpenAI",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "X：Vista (@vista8)",
+      "time": "23:22",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp2r2buj00losl3qvl2bxkj7",
+      "title": "首届虚构节目提案大赛揭晓二十强",
+      "link": "https://x.com/runwayml/status/2054211544636850235",
+      "summary": "祝贺首届\"尚未存在的节目\"提案大赛的二十位获奖者。\n\n观看下方前五名提案展示。",
+      "reason": "Runway 的首届 Big Pitch 获奖短片展示了 AI 视频叙事的新上限，前五名的完整度和创意值得创作者看一看，对后续工具迭代方向也是个信号。",
+      "score": 62,
+      "tags": [
+        "行业动态",
+        "视频"
+      ],
+      "source": "X：Runway (@runwayml)",
+      "time": "22:52",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp2peo93009usl3q8z9xe2w4",
+      "title": "人工智能首要应用应是改善人类健康",
+      "link": "https://x.com/demishassabis/status/2054197462101889277",
+      "summary": "我一直认为人工智能的首要应用应该是改善人类健康。\n\n这项工作始于AlphaFold，现在通过@IsomorphicLabs重新构想药物发现，并致力于有朝一日攻克所有疾病！\n\n我们已获得21亿美元新资金，正在加速实现这一目标。",
+      "reason": "21亿美元新融资，意味着 AlphaFold 背后的技术正在脱离学术光环进入药物研发主战场，对 AI 制药赛道是明确的加仓信号。",
+      "score": 81,
+      "tags": [
+        "DeepMind",
+        "行业动态"
+      ],
+      "source": "X：Demis Hassabis (@demishassabis)",
+      "time": "22:06",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp2o6m6d00asslta6s0jtj3t",
+      "title": "材料科学AI多任务模型突破",
+      "link": "https://x.com/MSFTResearch/status/2054191008091418998",
+      "summary": "MatterSim正在拓展AI在材料科学中的应用边界——从更快速的大规模模拟，到全新多任务模型MatterSim-MT，可模拟超越势能面的多种物性。https://msft.it/6017vPamT",
+      "reason": "微软把材料科学AI从单任务模拟推到多任务，对计算材料领域是个值得跟进的信号，虽然离普通开发者很远。",
+      "score": 62,
+      "tags": [
+        "Microsoft",
+        "模型发布"
+      ],
+      "source": "X：Microsoft Research (@MSFTResearch)",
+      "time": "21:31",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp2mnjcy088jslbpaqkumaih",
+      "title": "导出消费数据赋能AI Agent个性化服务",
+      "link": "https://x.com/berryxia/status/2054176298579468338",
+      "summary": "AI Agent需要用户消费上下文才能充当个人管家，作者调研了主流消费平台的订单导出方法。淘宝提供导出功能；京东无官方支持，但通过Codex定制Chrome插件实现一键导出，并开源在Github；闪购(饿了么)可申请导出Excel；美团外卖暂无方法；大众点评通过定制插件导出收藏列表。作者开源了京东和大众点评的导出工具，鼓励用户利用这些数据让AI Agent进行个性化分析，以提升服务实用性。",
+      "reason": "终于有人关注Agent的“个人上下文”了。这套方法把淘宝、京东、大众点评的订单数据导出来，开源的插件直接抄作业，是让AI管家落地的最实在一步。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "开源/仓库",
+        "教程/实践"
+      ],
+      "source": "X：Berry Xia (@berryxia)",
+      "time": "20:49",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp2ht6s1075jslbp4j09ooib",
+      "title": "结合GPT与Kling AI生成超写实F1直播截图",
+      "link": "https://x.com/Kling_ai/status/2054140718776549704",
+      "summary": "用户利用GPT image 2与Kling AI，根据详细提示词生成了一张模拟电视转播视角的超写实F1赛事直播截图。画面聚焦于一位在VIP围场/车队车库中的年轻女性，其身份特征从参考图像中被精确保留。她佩戴专业赛车耳机，神情紧张专注，画面包含“FINAL LAP”横幅、计时塔、直播标识等完整的转播图形元素。作品特别注重广播级细节，如压缩伪影、自然肤质和8K画质，旨在完美呈现如同真实电视截图的视觉效果。",
+      "reason": "官方放出的高质量 prompt 模板，一句话把 F1 转播场景细节全锁死，做影视概念图或直播海报的可以直接复制，比千字教程都实用。",
+      "score": 63,
+      "tags": [
+        "OpenAI",
+        "图像生成",
+        "多模态",
+        "教程/实践"
+      ],
+      "source": "X：可灵 Kling AI (@Kling_ai)",
+      "time": "18:33",
+      "date": "5月12日"
+    },
+    {
+      "id": "cmp25c774049lslbp3zceqjrz",
+      "title": "Qwen-Image-2.0技术报告",
+      "link": "https://arxiv.org/abs/2605.10730",
+      "summary": "Qwen-Image-2.0是一个统一高保真生成与精确编辑的全能图像生成基础模型。它采用Qwen3-VL作为条件编码器，结合多模态扩散变换器进行联合建模，并通过大规模数据整理与多阶段训练实现强化。该模型支持长达1K令牌的指令输入，能生成幻灯片、海报等富文本内容，显著提升多语言文本渲染与排版质量。在生成方面，它增强了细节、纹理真实感与光照一致性，并更可靠遵循复杂指令。人工评估表明，其在生成和编辑任务上均大幅超越前代模型。",
+      "reason": "这是 Qwen-Image 系列第一次把多模态理解和生成真正拧到同一框架里，长文本渲染和多语言排版提升肉眼可见，做海报和幻灯片的可以重点关注。",
+      "score": 76,
+      "tags": [
+        "arXiv",
+        "图像生成",
+        "多模态",
+        "模型发布"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "12:44",
+      "date": "5月12日"
+    }
+  ]
+}

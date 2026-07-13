@@ -1,0 +1,642 @@
+{
+  "date": "2026-05-19",
+  "scraped_at": "2026-05-19T05:00:11.323509+00:00",
+  "total_items": 40,
+  "items": [
+    {
+      "id": "cmpc3irem1ck7slnzc2q3wcws",
+      "title": "训练后 MoE 可通过自蒸馏跳过一半专家",
+      "link": "https://arxiv.org/abs/2605.18643",
+      "summary": "本文提出零专家自蒸馏适应框架，将训练完成的静态混合专家模型转换为高效动态模型。该方法通过在每个混合专家层注入零输出专家，并利用原始模型作为冻结教师进行两阶段自蒸馏适应，以实现稳定的架构转换。在两个大型开源模型及11个基准测试上的实验表明，该方法能消除超过50%的专家计算量，同时仅带来极小的准确率损失，并显著提升端到端推理速度。",
+      "reason": "把训练好的MoE直接改成动态的，推理时跳过一半专家，速度提升20%而精度几乎没掉，做模型部署的值得认真看一下这个一行代码不改的蒸馏方案。",
+      "score": 71,
+      "tags": [
+        "推理",
+        "论文/研究",
+        "部署/工程"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "11:51",
+      "date": "5月19日"
+    },
+    {
+      "id": "cmpc22jka1c7wslnz3dwje1lt",
+      "title": "Qwen3.7预览版登陆竞技场，阿里视觉排名升至第五",
+      "link": "https://x.com/alibaba_cloud/status/2056570869548478592",
+      "summary": "🚀🚀Qwen3.7预览版登陆竞技场！\n\n⚡️⚡️Qwen3.7-Plus-Preview来了。阿里巴巴现在在视觉领域排名第五。🎨\n\n迫不及待要发布Qwen3.7系列模型了！敬请期待！@arena",
+      "reason": "Qwen3.7 预览版杀进视觉竞技场前五，阿里的多模态追得很快，虽然只是预览但给后续正式版留足了想象空间。",
+      "score": 60,
+      "tags": [
+        "多模态",
+        "模型发布",
+        "评测/基准"
+      ],
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "time": "11:10",
+      "date": "5月19日"
+    },
+    {
+      "id": "cmpc1uga61c67slnzs7cijp9e",
+      "title": "开源古代汉字视觉感知评估基准Chronicles-OCR",
+      "link": "https://x.com/TencentHunyuan/status/2056567125205270882",
+      "summary": "开源了评估视觉大语言模型（VLLM）对古代汉字视觉感知能力的基准测试Chronicles-OCR。该数据集覆盖了从甲骨文到草书的3000年演变历程，包含7种历史书体与2800张均衡图像。评估涵盖字形定位、细粒度识别、古代文本解析和字体分类四项核心任务，旨在探究视觉分布随时间的变化如何影响模型感知。相关论文与代码已开源。",
+      "reason": "腾讯混元开源的视觉感知基准，专攻古汉字识别，覆盖从甲骨文到草书的三千年演变，做 OCR 和视觉模型的可以拿来测测自家模型在历史文本上的感知退化。",
+      "score": 72,
+      "tags": [
+        "多模态",
+        "开源生态",
+        "论文/研究"
+      ],
+      "source": "X：腾讯混元 (@TencentHunyuan)",
+      "time": "11:04",
+      "date": "5月19日"
+    },
+    {
+      "id": "cmpc16sdn1bzoslnzdslc7e8f",
+      "title": "谷歌联手黑石组建 AI 云公司：50 亿美元起步，2027 年冲刺 500 兆瓦",
+      "link": "https://www.ithome.com/0/952/097.htm",
+      "summary": "谷歌与黑石集团宣布合作成立一家新的AI云服务公司，黑石率先投入50亿美元股权资本，结合后续杠杆，总投资规模预计约250亿美元。该公司计划依托谷歌自研的TPU芯片和云基础设施，与CoreWeave等算力服务商展开竞争，并争取在2027年上线容量达500兆瓦的数据中心，相当于一座中等城市的用电规模。此举标志着谷歌迄今最大规模的对外芯片商业化尝试，将加剧与英伟达等公司在AI算力市场的角逐。",
+      "reason": "谷歌第一次把TPU武装到对外市场，拉黑石砸250亿美元建云公司，要正面抢英伟达的算力饭碗，做AI基础设施生意的人必须盯着这件事。",
+      "score": 73,
+      "tags": [
+        "Google",
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "10:45",
+      "date": "5月19日"
+    },
+    {
+      "id": "cmpc0scwj1bvnslnztd2ti4im",
+      "title": "AI批量生成艺术风格，一键浏览380+大师作品",
+      "link": "https://x.com/vista8/status/2056558217774387439",
+      "summary": "作者利用GPT-Image-2模型，批量生成了超过380位艺术家的画风作品。为便于直观学习和借鉴（用于AI生图提示），他创建了一个可体验的网站，将蒙德里安、葛饰北斋等不同风格的创作并置展示，帮助用户快速建立对艺术风格的认知。该项目代码已在GitHub开源。",
+      "reason": "乔木用 GPT-Image-2 把 380+ 艺术家风格做成可视化图谱，每张图用同一个 prompt 生成，让你一眼看懂风格差异，做 AI 生图的可以直接借鉴，代码还开源了。",
+      "score": 74,
+      "tags": [
+        "GitHub",
+        "图像生成",
+        "开源/仓库"
+      ],
+      "source": "X：Vista (@vista8)",
+      "time": "10:34",
+      "date": "5月19日"
+    },
+    {
+      "id": "cmpc0rsyk1bv1slnzg9w4btuu",
+      "title": "Anthropic联合创始人将与教皇利奥十四世共同发布人工智能通谕",
+      "link": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
+      "summary": "Anthropic联合创始人将于2026年5月与教皇利奥十四世共同发布首个人工智能通谕“magnifica humanitas”。这是教皇利奥十四世的首次通谕，聚焦人工智能技术与伦理，标志着科技企业与宗教领袖在AI议题上的合作。通谕由梵蒂冈新闻发布，具体探讨人工智能对人类社会的影响，在Hacker News平台获得104点关注，反映了话题的广泛热度。",
+      "reason": "教皇与Anthropic联合创始人共同发布AI通谕，这是顶尖AI公司首次直接参与最高层级宗教文件，伦理讨论从学术界转向现实权力场，值得关注。",
+      "score": 77,
+      "tags": [
+        "Anthropic",
+        "行业动态"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "10:34",
+      "date": "5月19日"
+    },
+    {
+      "id": "cmpbzn92q1bmnslnzc0329it0",
+      "title": "Cursor新编码模型性能媲美Opus，价格低数十倍",
+      "link": "https://x.com/xiaohu/status/2056556014254825776",
+      "summary": "Cursor发布自研编码模型Composer 2.5，其性能与Opus 4.7相当，但在成本上具有显著优势。价格方面，Composer 2.5的输入成本比Opus 4.7低10倍，输出成本低约30倍。技术层面，该模型在智能和行为表现上较前代有明显提升，尤其擅长处理长时间、大上下文的复杂任务，指令遵循的可靠性与协作流畅度也得到增强。",
+      "reason": "Cursor 终于下场做模型了，Composer 2.5 性能和 Opus 4.7 咬得很紧但价格便宜了一个数量级，做 AI 编程的成本马上要洗牌。",
+      "score": 70,
+      "tags": [
+        "模型发布",
+        "编码"
+      ],
+      "source": "X：小互 (@xiaohu)",
+      "time": "10:02",
+      "date": "5月19日"
+    },
+    {
+      "id": "cmpbzez3z1bkhslnzwsppcvqn",
+      "title": "首个实时多agent世界模型发布，人类可与AI同屏互动",
+      "link": "https://x.com/berryxia/status/2056548546544124240",
+      "summary": "奥德赛实验室推出Agora-1，这是全球首个实时多agent世界模型，允许多人与AI同时在同一个模拟世界中实时互动并相互影响。该模型以经典游戏GoldenEye死亡竞赛为演示场景，提供可玩研究预览，用户现在即可体验与AI共同参与动态生成的模拟世界。这标志着从单人生成视频向多人共享“活世界”的转变，长期来看可能重塑游戏、模拟、教育、机器人及AI协作等领域，使人类从旁观者变为与AI共同生活的参与者。",
+      "reason": "Odyssey把世界模型推进到了多人实时交互，可玩的GoldenEye死亡竞赛预览比任何PPT都有说服力，做游戏和模拟的人得上去打两把。",
+      "score": 76,
+      "tags": [
+        "Agent",
+        "多模态",
+        "模型发布"
+      ],
+      "source": "X：Berry Xia (@berryxia)",
+      "time": "09:56",
+      "date": "5月19日"
+    },
+    {
+      "id": "cmpbzez3y1bkgslnzvnfmr71g",
+      "title": "Cursor发布Composer 2.5模型，号称目前最强",
+      "link": "https://x.com/berryxia/status/2056549740393947627",
+      "summary": "Cursor正式推出Composer 2.5模型，宣称其为当前最强大的AI模型。该模型在智能性、长任务持续执行及复杂指令遵循等方面均有显著提升，并声称在同等能力下效率提升10倍。此次升级主要基于扩大训练规模、构建更复杂的强化学习环境以及引入文本反馈机制。值得注意的是，Composer 2.5的底层架构与Moonshot的Kimi K2.5同源。同时，Cursor正与SpaceXAI合作，计划用十倍算力训练下一代更大模型。未来一周内，该模型的包含用量将翻倍。",
+      "reason": "Cursor把Composer 2.5标榜为最强模型，10倍效率加长任务不崩，底层是训练规模和RL的升级。对编码工具来说专治长上下文忘需求的毛病，下周双倍用量赶紧上手试。",
+      "score": 76,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "编码"
+      ],
+      "source": "X：Berry Xia (@berryxia)",
+      "time": "09:56",
+      "date": "5月19日"
+    },
+    {
+      "id": "cmpbz1obe1bhtslnzjctzfmzl",
+      "title": "GitHub爆火项目一键构建AI公司，集成Claude Code",
+      "link": "https://x.com/AYi_AInotes/status/2056541113800962415",
+      "summary": "一个GitHub项目引发关注，据称已获得10万星标并被称为2026年增长最快的AI项目。该项目的核心功能是模拟一整家AI公司，包含146个不同领域的AI专家角色和12个完整部门。用户可以通过一条命令，将这些“员工”全部集成到Claude Code中，从而免费获得涵盖前端开发、安全审计、产品管理、增长黑客等多方面的7x24小时AI支持。",
+      "reason": "一个仓库塞了146个AI专家，一条命令全装进Claude Code，产品、开发、安全、增长全齐，做项目时拉个虚拟团队试试，比雇人便宜多了。",
+      "score": 72,
+      "tags": [
+        "Agent",
+        "GitHub",
+        "开源/仓库",
+        "编码"
+      ],
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "time": "09:45",
+      "date": "5月19日"
+    },
+    {
+      "id": "cmpbfwy9n1713slnz2yhgwk5b",
+      "title": "Grok Build 实战受赞，马斯克呼吁优化反馈",
+      "link": "https://x.com/elonmusk/status/2056409870262268270",
+      "summary": "马斯克在推文中请求帮助提升 Grok Build。用户 @morganlinton 分享了使用 Grok Build 完成 PasteLocal 项目中 relay 功能开发的体验，称赞其全面性令人惊叹。该功能实现周期短，且包含了端到端加密、数据持久化、自动同步、双向命令行交互等关键技术特性，并经过了多轮严格的代码审查与修复。马斯克此举意在收集更广泛的反馈，以持续改进该开发工具。",
+      "reason": "Elon 亲自下场拉票的 Grok Build 新功能，端到端加密剪贴板同步这招挺实用，开发者可以直接跑起来，是 xAI 生态里少见的即插即用模块。",
+      "score": 71,
+      "tags": [
+        "xAI",
+        "产品更新",
+        "开源/仓库"
+      ],
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "time": "00:50",
+      "date": "5月19日"
+    },
+    {
+      "id": "cmpbel05j16rrslnzxfru4e28",
+      "title": "Claude Code大规模部署最佳实践指南",
+      "link": "https://x.com/ClaudeDevs/status/2056403446056784288",
+      "summary": "在大规模运行Claude Code有哪些最佳实践？  \n\n关于我们从团队在数百万行单体仓库、数十年历史的遗留系统和分布式微服务中运行的经验总结，新博客文章已发布：  \n\nhttps://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
+      "reason": "官方终于出了一份给百万行单仓库和遗留系统的实操指南，比社区零散经验靠谱得多，做工程团队的可以抄作业。",
+      "score": 73,
+      "tags": [
+        "Anthropic",
+        "教程/实践",
+        "编码",
+        "部署/工程"
+      ],
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "time": "00:13",
+      "date": "5月19日"
+    },
+    {
+      "id": "cmpbejjby16rhslnzlqpn1r32",
+      "title": "构建长期代理的基础要素",
+      "link": "https://x.com/OpenRouter/status/2056404687461519479",
+      "summary": "构建长期代理的一些基础要素：https://openrouter.ai/long-horizon",
+      "reason": "OpenRouter 把自己做长程 agent 踩过的坑总结成一组可复用的基础模式，做 agent 的开发者值得翻一遍，比读泛泛的架构文章接地气得多。",
+      "score": 60,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "教程/实践"
+      ],
+      "source": "X：OpenRouter (@OpenRouter)",
+      "time": "00:11",
+      "date": "5月19日"
+    },
+    {
+      "id": "cmpbdurfq16k7slnzyvoy9g0z",
+      "title": "PaddleOCR 3.5：使用Transformers后端运行OCR和文档解析任务",
+      "link": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
+      "summary": "PaddleOCR 发布 3.5 版本，正式将 Transformers 确立为运行 PP-OCRv5 及 PaddleOCR-VL 1.5 模型的可选推理后端之一。此次更新引入了更灵活的 `engine` 与 `engine_config` 参数，允许开发者自主选择后端并配置数据类型、设备等选项。其核心价值在于，显著降低了将文档处理能力集成至以 Transformers 为中心的主流开发栈（如 RAG、智能体、文档AI）的门槛，使开发者能更便捷地利用现有生态，减少集成阻力，从而专注于下游应用构建。",
+      "reason": "PaddleOCR 3.5 最大的变化不是新模型，而是终于能跑在 Transformers 上了，做 RAG 和文档智能的开发者可以少写一堆胶水代码。",
+      "score": 68,
+      "tags": [
+        "Hugging Face",
+        "RAG",
+        "产品更新",
+        "多模态"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "23:52",
+      "date": "5月18日"
+    },
+    {
+      "id": "cmpbb6gwv15x7slnzrgk1ok0g",
+      "title": "Krea 2全面开放，订阅用户享一周无限生成",
+      "link": "https://x.com/krea_ai/status/2056381933106651519",
+      "summary": "今天，Krea 2正式向所有人开放。\n为庆祝上线，我们将为所有订阅用户提供整整一周的无限次Krea 2生成服务。\n免费试用 👇",
+      "reason": "Krea 2 正式开放，新版本性能值得关注，尤其免费一周无限生成，做视觉设计的可以趁现在使劲造图，试试成片质量能不能撼动 Midjourney。",
+      "score": 78,
+      "tags": [
+        "产品更新",
+        "图像生成"
+      ],
+      "source": "X：Krea AI (@krea_ai)",
+      "time": "22:37",
+      "date": "5月18日"
+    },
+    {
+      "id": "cmpb9biuu15i1slnz4xmb2us9",
+      "title": "玻璃翼项目：Mythos向我们展示了什么",
+      "link": "https://blog.cloudflare.com/cyber-frontier-models",
+      "summary": "近期，团队将Mythos及其他聚焦安全的大语言模型应用于关键基础设施的实时代码测试。测试揭示了模型在识别漏洞和代码审计方面的优势，例如在复杂逻辑中发现潜在风险的能力，同时也暴露了其存在的局限性，包括产生误报以及对上下文理解的不稳定。文章指出，在将这些安全LLM的能力扩展到更大规模之前，必须围绕其建立一套可靠的工作流程，包括持续验证和人工复核机制。",
+      "reason": "Cloudflare 用安全 LLM 扫自家代码这事，比很多安全厂商的营销稿实在得多。虽然还没到能规模化的时候，但哪些模型好用、哪里会踩坑，做 DevSecOps 的可以直接抄作业。",
+      "score": 59,
+      "tags": [
+        "教程/实践",
+        "部署/工程"
+      ],
+      "source": "Cloudflare Blog",
+      "time": "21:45",
+      "date": "5月18日"
+    },
+    {
+      "id": "cmpb8m9ut15c7slnzeawda26r",
+      "title": "TRAE 团队分析了用户实际使用的 Agent Skills Top 10",
+      "link": "https://x.com/shao__meng/status/2056360476934853013",
+      "summary": "TRAE团队基于真实的用户技能调用数据（而非安装量），分析了用户实际高频使用的Agent Skills Top 10。这些技能覆盖了从UI设计、流程规划到测试调试的产品开发全链路，甚至包含一个带有反讽意味的“PUA”高压问责技能。其设计具有清晰的分层逻辑，从元层的技能检索与调度，到行为层的约束护栏，再到具体的执行与验证层，共同构成了一个“想清楚→拆细→做精→验透→担责”的结构化、负责任的闭环工作流。",
+      "reason": "TRAE 公开了用户真实调用的 Agent Skills 排行榜，不是安装量而是实际调用量，流程治理类 Skills 占一半，说明 Agent 编程的核心是规划不是代码生成，这十个 Skills 构成的闭环值得开发者抄作业。",
+      "score": 74,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "X：邵猛 (@shao__meng)",
+      "time": "21:26",
+      "date": "5月18日"
+    },
+    {
+      "id": "cmpalqqtx0zzgslnzclo2nrdv",
+      "title": "腾讯 AI 设计智能体 Ardot 公测：一句话生成可编辑设计稿，一键转代码",
+      "link": "https://www.ithome.com/0/951/677.htm",
+      "summary": "腾讯云正式公测自研AI设计智能体平台Ardot。该平台核心功能包括：用户通过一句话指令即可生成App页面、官网、海报等可编辑设计稿；支持调用团队自有组件库生成规范稿，并能直接导入Figma文件保留原有设计。同时，Ardot具备设计稿一键转换为代码的能力，可对接CodeBuddy等开发工具实现代码还原。平台还提供多人在线实时评论、标注反馈和版本对比等协作功能，其微信小程序即将上线。",
+      "reason": "一句话生成可编辑设计稿不稀奇，但一键转代码加兼容 Cursor 这套组合拳让 Ardot 成了产设研协作的一个新选项，做项目和产品的可以上手试试。",
+      "score": 70,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "产品更新"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "10:45",
+      "date": "5月18日"
+    },
+    {
+      "id": "cmpaldyju0zw4slnzdixa2cjx",
+      "title": "一键生成韩国棒球AI视频模板爆火",
+      "link": "https://x.com/PixVerse_/status/2056198882321904098",
+      "summary": "那个热狗需要自己的座位\n\n[引用 @MrDasOnX]：这可能是最简单的病毒式AI编辑。\n\nPixVerse → 上传自拍 → 即时生成韩国棒球镜头视频\n\n无需指令。无需编辑。\n只需一键点击。\n\n@PixVerse_ 上的K-Baseball Sprint模板太疯狂了。",
+      "reason": "PixVerse 这个 K-Baseball 模板把 AI 视频生成压缩到上传自拍就完事，零门槛的娱乐内容很容易在社交上裂变，做短视频的可以看一眼。",
+      "score": 60,
+      "tags": [
+        "产品更新",
+        "视频"
+      ],
+      "source": "X：PixVerse (@PixVerse_)",
+      "time": "10:35",
+      "date": "5月18日"
+    },
+    {
+      "id": "cmpajb29y0ze6slnz4qehfohy",
+      "title": "阿里云推出HappyHorse视频生成模型",
+      "link": "https://x.com/alibaba_cloud/status/2056182152681644176",
+      "summary": "电影级AI现已到来。🐎💨\n\nHappyHorse现已登陆Model Studio。从原始提示词到1080p多镜头现实感画面——在统一工作流中体验视频生成的未来。没有阻碍。只有纯粹性能。\n\n🔥 限时优惠：8折。观看演示并立即开始创作。\n\n立即访问：https://int.alibabacloud.com/m/1000412936/",
+      "reason": "阿里云把视频生成塞进 Model Studio，一键从 prompt 到 1080p 多镜头，对已在阿里云上的团队是个顺手工具，但没看出比竞品明显的差异化，限时 20% 折扣倒是能省点钱。",
+      "score": 74,
+      "tags": [
+        "产品更新",
+        "多模态",
+        "视频"
+      ],
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "time": "09:37",
+      "date": "5月18日"
+    },
+    {
+      "id": "cmpai1r620z49slnz1jl04t5y",
+      "title": "人机快递分拣对决直播",
+      "link": "https://x.com/xiaohu/status/2056172740873511139",
+      "summary": "Figure 直播机器人 VS 人类\n\n挑战\n\n快递分拣任务\n\n目前人类稍稍领先…😌",
+      "reason": "Figure 把机器人从实验室放到了更真实的快递分拣场景，虽然目前人类还领先，但这种直播对抗本身就是具身智能落地的信号，做物流自动化的应该看看。",
+      "score": 72,
+      "tags": [
+        "具身智能",
+        "行业动态"
+      ],
+      "source": "X：小互 (@xiaohu)",
+      "time": "09:02",
+      "date": "5月18日"
+    },
+    {
+      "id": "cmpahs8180z2pslnzsirydwc8",
+      "title": "开源工具揭露AI API中转站安全风险与检测差异",
+      "link": "https://x.com/berryxia/status/2056173473588994392",
+      "summary": "针对AI API中转站可能存在的“掺水”、“造假”等安全风险，开源项目api-relay-audit通过双论文锚定路线，对AC-1工具调用改写、AC-2错误响应泄漏、上下文截断等常见攻击进行可验证的三态判定，并提供透明日志。对比hvoy.ai和cctest.ai等工具，其透明度和可审计性更为可靠。项目作者已将完整方法论、对比结果和功能速查表公开，并开源了该检测工具。",
+      "reason": "中转站掺水这事儿终于有人做了可审计的开源检测，不光告诉你结果还能让你查每一步日志，用API的可以立刻装上测一测。",
+      "score": 73,
+      "tags": [
+        "开源/仓库",
+        "部署/工程"
+      ],
+      "source": "X：Berry Xia (@berryxia)",
+      "time": "08:54",
+      "date": "5月18日"
+    },
+    {
+      "id": "cmpagz33t0yu1slnznbzb3d48",
+      "title": "Hermes 可配置的国内外 AI 模型及使用方法",
+      "link": "https://x.com/vista8/status/2056170241147977741",
+      "summary": "Hermes 支持配置多种国内外主流 AI 模型，包括 OpenAI GPT-5.5、xAI Grok-4.3、谷歌 Gemini 系列、DeepSeek V4 系列、智谱 GLM-5 系列、Kimi K2.6 以及小米 Mimo V2.5-pro。用户需通过相应服务的订阅或 API 进行配置，完成后可使用 /model 指令指定模型及提供者来切换对话模型，例如输入“/model gpt-5.5 --provider openai-codex”即可切换至对应模型。该功能方便用户根据需求灵活调用不同模型的优势。",
+      "reason": "如果你在用 Hermes，这一张图就是当下的模型配置速查表，从 GPT-5.5 到 Grok-4.3 一条条指令都写好了，复制粘贴就能用，省掉到处找 provider 的麻烦。",
+      "score": 71,
+      "tags": [
+        "DeepSeek",
+        "MCP/工具调用",
+        "OpenAI",
+        "xAI",
+        "教程/实践"
+      ],
+      "source": "X：Vista (@vista8)",
+      "time": "08:32",
+      "date": "5月18日"
+    },
+    {
+      "id": "cmpa0uq8x0v9vslnznldkfbua",
+      "title": "开源微信读书数据可视化工具yao-weread-skill发布",
+      "link": "https://x.com/vista8/status/2056050473392902430",
+      "summary": "开发者姚老师开源了微信读书Skill——yao-weread-skill。该工具能将用户的微信读书数据生成本地可视化报告，核心功能包括分析近两年的阅读时长与节律、书架书籍构成、阅读分类与作者偏好，并对笔记和想法进行语义分析。报告最终通过词云、热力图、雷达图等26种图表形式呈现，所有代码已在GitHub公开。",
+      "reason": "姚老师这个开源的微信读书skill，能直接拉取你的阅读数据，生成热力图、词云等26张可视化图表，读完就能装，做个人报告的可以直接抄作业。",
+      "score": 80,
+      "tags": [
+        "GitHub",
+        "MCP/工具调用",
+        "开源/仓库",
+        "开源生态"
+      ],
+      "source": "X：Vista (@vista8)",
+      "time": "01:00",
+      "date": "5月18日"
+    },
+    {
+      "id": "cmpa0moej0v8mslnzs3ph0b54",
+      "title": "Anthropic Claude 5天攻破Apple M5 macOS内核漏洞：5年数十亿防线，被AI一举击穿",
+      "link": "https://x.com/berryxia/status/2056043674446995887",
+      "summary": "Anthropic的Claude Mythos Preview在5天内，协助安全团队Calif成功构建并演示了首个公开的、针对Apple M5芯片macOS内核的内存破坏提权利用链。该攻击绕过了苹果耗时5年、投入数十亿美元打造的MIE硬件级内存完整性防护，从普通用户权限通过纯数据操作即可获得root权限。苹果已在后续更新中修复漏洞并致谢。此事件标志着AI驱动的安全研究能力已能极速突破顶尖硬件防护，显著改变了攻防的速度与平衡。",
+      "reason": "苹果花五年数十亿打造的硬件内存防护，被 Claude Mythos Preview 五天就凿穿了，这份报告把完整利用链和 AI 辅助过程全公开了，安全圈和做模型的都该认真看一遍。",
+      "score": 71,
+      "tags": [
+        "Anthropic",
+        "安全/对齐",
+        "推理"
+      ],
+      "source": "X：Berry Xia (@berryxia)",
+      "time": "00:54",
+      "date": "5月18日"
+    },
+    {
+      "id": "cmp9winqz0u9tslnzqfp79jxl",
+      "title": "让 Codex 自己做了一条视频介绍了一下这个视频生成方案",
+      "link": "https://x.com/op7418/status/2056021133477163298",
+      "summary": "该方案整合了藏师傅的PPT Skill（视觉与动效）、HyperFrames（时间线与渲染）、Listenhub Skill（配音）以及即梦CLI（补充片段）。核心在于，用户可通过Codex直接基于文本提示生成带动效的解释视频，并能在聊天界面内预览，极大提升了制作效率，特别适合产品介绍等视频内容。",
+      "reason": "藏师傅这个方案把 Codex、PPT Skill 和 HyperFrames 串成一整条视频生产线，从文案到动效再到配音全自动，做产品介绍视频的人可以直接抄作业。",
+      "score": 74,
+      "tags": [
+        "Agent",
+        "教程/实践"
+      ],
+      "source": "X：歸藏 (@op7418)",
+      "time": "22:59",
+      "date": "5月17日"
+    },
+    {
+      "id": "cmp9nerrd0s89slnzijlhhl42",
+      "title": "Garry Tan发布的GBrain直接捅破个人AI天花板",
+      "link": "https://x.com/AYi_AInotes/status/2055954675526934642",
+      "summary": "Garry Tan开源的GBrain是一个知识系统，而非简单的RAG工具。它通过8层结构解决AI Agent的记忆缺陷：前4层升级基础检索，后4层实现终身记忆和自我进化，使如OpenClaw、Hermes等Agent能持续追踪用户的人际关系、决策轨迹和认知演化。该系统已在生产环境中处理大量数据，用户可通过安装链接或命令行快速集成，并以Markdown为最高优先级数据源，推动个人AI成为可能。",
+      "reason": "Garry Tan 把这个开源记忆系统直接干到了 8 层，不是 demo 级别的玩具，他已经在生产环境跑了上万页数据，做个人 agent 的该装上试试了。",
+      "score": 74,
+      "tags": [
+        "Agent",
+        "开源/仓库"
+      ],
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "time": "18:44",
+      "date": "5月17日"
+    },
+    {
+      "id": "cmp9n1c040s55slnzuroftb4b",
+      "title": "微软AI CEO预测18个月内AI自动化所有白领工作",
+      "link": "https://x.com/kimmonismus/status/2055952702908355012",
+      "summary": "微软AI CEO Mustafa Suleyman预测，AI将在18个月内实现人类水平的性能，自动化大多数专业任务，包括会计、法律、营销和项目管理。他在Fortune采访中指出，所有涉及“坐在电脑前”的白领工作都将被AI完全取代。Suleyman透露自己的使命是构建“超级智能”，并展望未来创建新AI模型将像制作播客或写博客一样便捷。",
+      "reason": "Microsoft AI 老大亲口说 18 个月内所有“坐电脑前的工作”都会被 AI 干掉，不是普通预测，是直接给全球白领贴了倒计时标签。虽然听着像吹牛，但他说这话的位置让我们不得不认真掂量。",
+      "score": 75,
+      "tags": [
+        "Microsoft",
+        "大佬观点",
+        "现象/趋势"
+      ],
+      "source": "X：Kim (@kimmonismus)",
+      "time": "18:34",
+      "date": "5月17日"
+    },
+    {
+      "id": "cmp9hwi0k0r0dslnzgpk9c6x0",
+      "title": "研究揭示LLM智能体记忆重写机制损害可靠性",
+      "link": "https://x.com/rohanpaul_ai/status/2055919204591902771",
+      "summary": "伊利诺伊大学与清华大学等机构的研究发现，LLM智能体虽能从经验中学习，但其通过LLM将原始经历压缩成书面教训的记忆重写机制会损害记忆可靠性。在网页购物、模拟世界及ARC风格谜题等任务测试中，反复重写记忆会导致错误分组、规则过度泛化或过拟合，使智能体遗忘细节或混淆任务类型。例如，GPT-4在无记忆时可100%解决小型ARC-AGI问题集，而建立记忆并流式更新后，性能降至约54%。研究主张智能体记忆系统应重视原始经历作为关键证据，而非自动将所有经验重写为摘要，保留原始证据并选择性摘要效果更佳。",
+      "reason": "发现即使基于正确答案记忆，持续重写也会把GPT-5.4的准确率从100%拉到54%，原来agent记忆不该盲目压缩，原始轨迹才是真资产。",
+      "score": 70,
+      "tags": [
+        "Agent",
+        "数据/训练",
+        "论文/研究"
+      ],
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "time": "16:10",
+      "date": "5月17日"
+    },
+    {
+      "id": "cmp9h2ow80qscslnz5vjoothc",
+      "title": "Grok Imagine图像生成功能正式发布",
+      "link": "https://x.com/elonmusk/status/2055912040481599793",
+      "summary": "Grok Imagine\n现已正式发布\n所有人都可使用\n\n基于我们最新的文本到图像模型\n能够生成逼真、高质量的图像\n支持多种宽高比\n\n现在可在 X 上使用",
+      "reason": "这是 Grok 补齐多模态的关键一步，从视频看生成质量不输 Midjourney，而且直接在 X 里就能用，零门槛对创作者是实打实的吸引力。",
+      "score": 84,
+      "tags": [
+        "xAI",
+        "产品更新",
+        "图像生成"
+      ],
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "time": "15:47",
+      "date": "5月17日"
+    },
+    {
+      "id": "cmp9cdzr80pp1slnzmqaq8vho",
+      "title": "手机端ChatGPT应用集成Codex构建功能",
+      "link": "https://x.com/gdb/status/2055882172884763012",
+      "summary": "你可以在手机端通过ChatGPT应用中的Codex直接构建项目",
+      "reason": "Greg Brockman亲自下场说你能用手机写代码了，Codex进ChatGPT app意味着编码场景从桌面彻底延伸到口袋，开发者随时可以动手了。",
+      "score": 74,
+      "tags": [
+        "OpenAI",
+        "产品更新",
+        "编码"
+      ],
+      "source": "X：Greg Brockman (@gdb)",
+      "time": "13:36",
+      "date": "5月17日"
+    },
+    {
+      "id": "cmp9awivj0pdnslnziwibp9yw",
+      "title": "微信读书Skill安装与使用指南",
+      "link": "https://x.com/berryxia/status/2055865005271314528",
+      "summary": "❤️\n\n[引用 @vista8]：微信读书Cli安装和配置教程。\n\n1. 官方指令，复制发给Codex或Claude Code\n\n下载 https://cdn.weread.qq.com/skills/weread-skills.zip 安装 skill\n\n2. 或者用 X 上网友 @eviljer 做的优化版Skill \n\nnpx skills add jerlinn/jerlin-weread\n\n3. 如果需要API key，访问微信官方这个页面获取\nhttps://weread.qq.com/r/weread-skills\n\n4. 使用案例\n\n直接跟AI说：“调用微信读书skill 查看被讨厌勇气的高亮划线”",
+      "reason": "点点手指就能让 AI 帮你整理《被讨厌的勇气》高亮，这个微信读书 skill 把读书笔记变成了可对话的资源，做读书类内容的人可以直接抄作业。",
+      "score": 71,
+      "tags": [
+        "MCP/工具调用",
+        "教程/实践"
+      ],
+      "source": "X：Berry Xia (@berryxia)",
+      "time": "12:54",
+      "date": "5月17日"
+    },
+    {
+      "id": "cmp976l4m0ojjslnzqoaxuhwd",
+      "title": "Anthropic CEO预言软件免费化与职业结构巨变",
+      "link": "https://x.com/rohanpaul_ai/status/2055841486714147177",
+      "summary": "Anthropic CEO Dario Amodei在《华尔街日报》YouTube频道采访中表示，软件成本将急剧下降，可能基本免费，传统软件需百万用户分摊成本的前提将不再成立。同时，数十年来建立的许多工作和职业可能消失。Amodei认为社会能够应对并适应这种变化，但他警告人们目前完全未意识到即将到来的变革及其巨大规模。",
+      "reason": "Dario 这段 WSJ 访谈把软件免费化说得明明白白，但真正值得警惕的是后半句——整个行业对即将到来的职业冲击几乎没有意识，这种认知差才是风险。",
+      "score": 77,
+      "tags": [
+        "Anthropic",
+        "大佬观点",
+        "现象/趋势"
+      ],
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "time": "11:10",
+      "date": "5月17日"
+    },
+    {
+      "id": "cmp92lm860ngjslnztudqvy21",
+      "title": "Zerostack——一款采用纯Rust语言编写、受Unix启发的编程代理",
+      "link": "https://crates.io/crates/zerostack/1.0.0",
+      "summary": "Zerostack是一款采用纯Rust语言编写、受Unix哲学启发的编程代理工具，已正式发布1.0.0版本并在Rust包管理平台crates.io上提供。该发布在技术社区Hacker News上获得115点关注，反映出开发者对其的高度兴趣。Rust语言以内存安全和性能见称，Unix设计强调简洁与模块化，Zerostack结合两者优势，旨在提升编程效率，为代码辅助领域带来新选择。",
+      "reason": "不走 IDE 插件的老路，Zerostack 把编程代理做成命令行管道，Rust 纯血、Unix 哲学，适合喜欢拼接工具的开发者尝鲜。",
+      "score": 74,
+      "tags": [
+        "Agent",
+        "开源/仓库",
+        "编码"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "09:02",
+      "date": "5月17日"
+    },
+    {
+      "id": "cmp906obn0mwislnzmnij5htg",
+      "title": "Figure人形机器人连续自主运行四天，迈向实用化关键一步",
+      "link": "https://x.com/berryxia/status/2055786570570137989",
+      "summary": "Figure公司的F.03人形机器人已进入第四天不间断自主运行测试，在真实仓库环境中24/7连续工作直至出现故障。测试核心在于评估机器人执行抓取、搬运、分拣等任务的长期耐力，并收集故障数据、维护需求及安全恢复机制等信息。这标志着人形机器人从展示单次动作的“能动”阶段，进入了考验持续工作能力的“能干”实用化关键阶段。",
+      "reason": "Figure 机器人连续 4 天不停歇抓取分拣，从单次演示到连续扛活的转变比任何 PPT 都有说服力，做仓储物流的该认真看看直播回放了。",
+      "score": 71,
+      "tags": [
+        "具身智能",
+        "行业动态"
+      ],
+      "source": "X：Berry Xia (@berryxia)",
+      "time": "07:54",
+      "date": "5月17日"
+    },
+    {
+      "id": "cmp8vwbg40lxdslnz2emsu11c",
+      "title": "MagicPath与Codex深度整合，设计开发流程合二为一",
+      "link": "https://x.com/berryxia/status/2055766210512560416",
+      "summary": "MagicPath AI CEO @skirano 演示了其产品与Codex的深度整合。用户现可将MagicPath作为原生画布直接在Codex中运行，通过拖拽设计UI，Codex能实时感知项目并自动生成、编辑代码，实现设计与开发的无缝衔接，无需在Figma和IDE间切换。安装简便，只需在Codex中粘贴一条命令即可完成配置。此举将“设计-开发-迭代”流程整合于单一窗口，显著缩短了从创意到可运行应用的距离。",
+      "reason": "把设计和前端开发揉进一个窗口，用一条命令就把 Codex 变成自带可视化画布的 IDE，做独立产品的可以立刻试试，能省掉大量来回切换的时间。",
+      "score": 74,
+      "tags": [
+        "MCP/工具调用",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "X：Berry Xia (@berryxia)",
+      "time": "05:54",
+      "date": "5月17日"
+    },
+    {
+      "id": "cmp8u9kfs0lkpslnzy51k1dhj",
+      "title": "工具使用代理认知与行动脱节机制研究",
+      "link": "https://x.com/omarsar0/status/2055750162526715926",
+      "summary": "该可解释性论文聚焦工具使用代理，通过探测隐藏状态发现模型常能识别应调用工具，但实际调用失败，不匹配率达26%-54%。问题完全集中于认知到行动的过渡阶段，而非认知本身。内部探测方向可解码，但后期层的最后令牌机制使信号旋转，几乎与产生的行动正交。研究旨在预测干预措施效果，指出常见归因如提示或训练不足可能忽略后期层几何结构，这为工具使用提示A/B测试中的性能上限提供了合理解释。",
+      "reason": "如果你在反复调 tool-use prompt 撞墙，这篇论文能解释你那个诡异的上限——模型早知道自己该调工具，但最后一层把信号转歪了。",
+      "score": 71,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "大佬观点"
+      ],
+      "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
+      "time": "05:08",
+      "date": "5月17日"
+    },
+    {
+      "id": "cmp8rvo9o0l0lslnz1fqjrx38",
+      "title": "美国开始出现人工智能相关岗位的大规模裁员",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-15/us-is-starting-to-see-heavy-job-losses-in-roles-exposed-to-ai",
+      "summary": "美国人工智能相关岗位正出现大规模裁员。根据彭博社报道，受AI影响的职位开始经历严重的就业岗位流失。这一趋势表明AI技术对劳动力市场的冲击已从理论讨论进入现实阶段，具体裁员数字和涉及的行业领域在进一步显现中。",
+      "reason": "Bloomberg拿真实裁员数据告诉你，AI导致的岗位流失已经从猜想变成事实，做产品和政策的都该正视这个信号。",
+      "score": 75,
+      "tags": [
+        "现象/趋势",
+        "行业动态"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "04:02",
+      "date": "5月17日"
+    },
+    {
+      "id": "cmp8rm20t0kylslnzevv1hezo",
+      "title": "RLVR 可能在科学领域格外糟糕",
+      "link": "https://www.dwarkesh.com/p/rlvr-might-be-disproportionately",
+      "summary": "RLVR（强化学习与验证）在科学理论验证中可能表现出不成比例的缺陷。科学理论的验证循环周期长达数十年甚至数个世纪，且当前被视为更优的理论实际上常会做出更差的预测。这一矛盾揭示了基于短期反馈的强化学习范式与科学探索长期性、复杂性之间的根本冲突，凸显了现有AI方法在应对科学发现这类超长反馈周期任务时存在的结构性局限。",
+      "reason": "Dwarkesh 这个判断很锋利，RLVR 在科学上的验证循环太长，可能是个结构性缺陷，做科学智能体的朋友值得冷静看看。",
+      "score": 57,
+      "tags": [
+        "大佬观点",
+        "推理",
+        "数据/训练"
+      ],
+      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+      "time": "03:54",
+      "date": "5月17日"
+    },
+    {
+      "id": "cmp8rm09c0kyaslnz4buzad07",
+      "title": "Eric Jang分享从零构建AlphaGo的经历与见解",
+      "link": "https://x.com/pmarca/status/2055723987850690927",
+      "summary": "Eric Jang在过去几个月从零开始实现AlphaGo，这是2016年激发他进入深度学习的AI突破。他最初理解AlphaGo为“通过自我对弈训练的搜索增强深度神经网络”，但通过亲手构建获得了更深层次的理解。他指出，前沿深度学习研究虽昂贵，但特定能力的实现成本下降迅速；在2026年，训练强大围棋AI仅需几千美元租赁算力，无需DeepMind级别的资源。他荣幸受邀在播客中分享这一过程，并提供了详细教程和代码，同时谦虚自称围棋与AlphaGo学徒，对任何事实错误负责。",
+      "reason": "2016年DeepMind烧数百万美元的事，Eric Jang用几千美元就做完了，代码和教程全在GitHub上，想搞懂AlphaGo的搜索加自我对弈，没有比这个更划算的入口。",
+      "score": 71,
+      "tags": [
+        "开源/仓库",
+        "推理",
+        "教程/实践"
+      ],
+      "source": "X：Marc Andreessen (@pmarca, a16z)",
+      "time": "03:54",
+      "date": "5月17日"
+    }
+  ]
+}

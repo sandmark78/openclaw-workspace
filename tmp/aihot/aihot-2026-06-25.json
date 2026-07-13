@@ -1,0 +1,650 @@
+{
+  "date": "2026-06-25",
+  "scraped_at": "2026-06-25T05:00:08.935670+00:00",
+  "total_items": 40,
+  "items": [
+    {
+      "id": "cmqsy1vs107c5slfu4fmksjzd",
+      "title": "Anthropic称阿里巴巴非法获取了Claude AI模型的功能",
+      "link": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24",
+      "summary": "Anthropic指控阿里巴巴未经授权提取了其Claude AI模型的能力。该指控基于Anthropic的调查，认为阿里巴巴通过逆向工程或其他手段复制了Claude的核心技术。目前阿里巴巴尚未公开回应。",
+      "reason": "Anthropic正式指控阿里巴巴非法提取Claude能力，这不是普通知识产权纠纷，而是头部AI公司对模型能力窃取的首次公开控诉，可能重塑API和开源生态的游戏规则。",
+      "score": 75,
+      "tags": [
+        "Anthropic",
+        "数据/训练",
+        "行业动态"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "11:29",
+      "date": "6月25日"
+    },
+    {
+      "id": "cmqsxg0qe0764slfui5djtfyx",
+      "title": "Causal-rCM：自回归视频扩散蒸馏的统一教师强制与自强制开源方案",
+      "link": "https://arxiv.org/abs/2606.25473",
+      "summary": "Causal-rCM将扩散蒸馏框架rCM扩展至自回归视频扩散，提出教师强制(TF)与自强制(SF)互补训练范式，并发布统一开源算法与基础设施。通过自定义掩码FlashAttention-2 JVP内核，首次实现基于教师强制的连续时间一致性模型(sCM/MeanFlow)用于自回归视频扩散，收敛速度比离散时间版本快10倍。蒸馏后的2步因果Wan2.1-1.3B模型在仅1或2步采样下取得VBench-T2V分数84.63，仅使用合成数据即达到帧级和块级流式视频生成SOTA。该方法还应用于Cosmos 3全模态世界基础模型，实现动作条件生成的交互式世界模型。",
+      "reason": "把自回归视频扩散蒸馏到1-2步采样，VBench冲到84.63，这个配方让实时视频生成和交互世界模型从论文走进了工程落地，做视频产品的该看。",
+      "score": 70,
+      "tags": [
+        "arXiv",
+        "推理",
+        "视频",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "11:12",
+      "date": "6月25日"
+    },
+    {
+      "id": "cmqst0js5060tslfu7s6uxjhf",
+      "title": "盈透证券（Interactive Brokers）与 Grok 集成：组合分析、情景建模与实时交易指令生成",
+      "link": "https://x.ai/news/grok-interactive-brokers",
+      "summary": "盈透证券（Interactive Brokers）近日与 Grok 集成，用户可在几分钟内免费关联现有账户，无需注册新账户。通过自然语言与 Grok 对话，可完成组合收益分析（如股息与利息预测）、行业/地区/经济事件的风险敞口情景建模、市场趋势研究，并直接生成对冲订单等实时交易指令，实现从数据洞察到执行决策的一体化。",
+      "reason": "xAI 把 Grok 接进了盈透证券的交易终端，是个实用的生态扩展，对 IB 用户来说从分析到下单可以一条龙处理，但本质上还是个功能集成，算不上行业大事件。",
+      "score": 55,
+      "tags": [
+        "xAI",
+        "产品更新"
+      ],
+      "source": "xAI：News（网页）",
+      "time": "09:08",
+      "date": "6月25日"
+    },
+    {
+      "id": "cmqsmijfz04cwslfuwufeuxwz",
+      "title": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位",
+      "link": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
+      "summary": "风投机构SignalFire追踪8000万家公司数百万员工数据发现，工程是2025年最具韧性的岗位。大型科技公司总招聘较2019年下降25%，工程岗仅降11%；工程岗占Alphabet、Meta等12家“Tech Majors”新招员工的55%（2019年为46%）。早期初创公司2025年工程师招聘比2019年增长7%。Anthropic CEO警告AI可能消灭一半入门级白领，但该公司经济主管称尚未看到显著影响。NVIDIA CEO黄仁勋表示AI让工程师更忙碌，是杰文斯悖论的典型例证。",
+      "reason": "SignalFire 的报告用招聘数据讲了一个反直觉的故事：工程师不仅没被 AI 取代，反而成为科技公司招聘的主力，这比“AI 夺走一切”的恐慌论有说服力得多。Jevons 悖论在工程领域正在发生。",
+      "score": 70,
+      "tags": [
+        "Anthropic",
+        "现象/趋势",
+        "编码"
+      ],
+      "source": "TechCrunch：AI（RSS）",
+      "time": "06:06",
+      "date": "6月25日"
+    },
+    {
+      "id": "cmqsl6c5y042hslfu74apxkap",
+      "title": "Gemini 3.5 Flash 中的计算机使用",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash",
+      "summary": "Google 将计算机使用（Computer use）作为内置工具集成至 Gemini 3.5 Flash，使开发者能构建跨浏览器、移动端和桌面环境的智能体。此前该功能仅作为独立模型在 Gemini 2.5 中提供，现已原生整合至主 Flash 模型。开发者可通过 Gemini API 及 Gemini Enterprise Agent Platform 调用。安全方面，模型采用针对性对抗训练降低提示注入风险，并新增两项可选企业级保护：要求用户确认敏感操作、检测到间接提示注入时自动停止。该能力在持续软件测试、跨应用知识工作等长周期企业自动化场景中表现更优。（198字）",
+      "reason": "Computer Use 从独立模型变成了 Flash 的内置工具，这对做跨平台 agent 的开发者来说是个分水岭，意味着自动化能力会更快渗透到更多产品里。",
+      "score": 71,
+      "tags": [
+        "Agent",
+        "Google",
+        "MCP/工具调用",
+        "模型发布"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "05:29",
+      "date": "6月25日"
+    },
+    {
+      "id": "cmqsjydyy03s2slfu0akeh868",
+      "title": "Notion 使用 Cursor SDK 嵌入编码智能体",
+      "link": "https://cursor.com/blog/notion",
+      "summary": "Notion 通过 Cursor SDK 在数周内将编码智能体嵌入产品。用户可在文档中@Cursor、在讨论串中提及或向数据库指派任务，Cursor 即可端到端完成规划、构建、测试、验证并自动创建 PR。集成基于一套 Provider 无关的智能体框架，Notion 的讨论串对应一个 Cursor 智能体，每条消息对应一次智能体运行；结果通过 SSE 流式传输，支持断连恢复。Cursor SDK 提供与生产环境相同的模型、运行时和远程 MCP 支持，让 Notion 无需自建智能体基础设施即可获得完整栈编码能力。用户还可自定义模板、MCP 服务器、技能和子智能体，并设置自动触发规则。",
+      "reason": "我对“嵌入代理”的概念有点怀疑，但Notion用两周集成Cursor SDK，说明其抽象做得不错。文章展示了怎么把一个全栈编码代理塞进产品里，做工具的可以看看SDK设计。",
+      "score": 65,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "编码"
+      ],
+      "source": "Cursor Blog",
+      "time": "04:55",
+      "date": "6月25日"
+    },
+    {
+      "id": "cmqsi8c9303azslfuexk0h241",
+      "title": "OpenRouter 零数据留存（ZDR）实践：97 款新模型，流量占比近半",
+      "link": "https://openrouter.ai/blog/insights/when-zero-means-zero",
+      "summary": "OpenRouter 的零数据留存（ZDR）保证用户提示词和模型响应不被存储，元数据一般安全。自 1 月以来新增 97 款支持 ZDR 的模型，月度 token 量增长 4.3 倍，约占全部路由流量一半。ZDR 在三个层面执行：账户级（整个供应商开启）、护栏级（按 API Key 或组织成员限定）、单次请求级（传参数仅路由至 ZDR 端点）。企业用户可灵活选择控制粒度，避免锁定单一供应商。",
+      "reason": "ZDR 远不止“不存数据”这么简单，提示、响应、缓存的区分很多人没搞清楚。OpenRouter 的三层执行算是把自由度给足了，做合规服务的人可以仔细看看。",
+      "score": 68,
+      "tags": [
+        "教程/实践",
+        "数据/训练"
+      ],
+      "source": "OpenRouter：Announcements（RSS）",
+      "time": "04:07",
+      "date": "6月25日"
+    },
+    {
+      "id": "cmqshf6dl0354slfug4vof984",
+      "title": "Perplexity推出Computer for Counsel",
+      "link": "https://x.com/perplexity_ai/status/2069866668671766804",
+      "summary": "推出 Computer for Counsel。\n\nComputer 现在连接了律师日常使用的研究数据库、文档工具和案件管理系统。可从中提取可引用来源：@midpageAI、@LegalZoom、@Docusign、@netdocuments 等。\n\n所有 Pro 和 Max 订阅用户均可使用。",
+      "reason": "Perplexity 发布了面向法律行业的 Computer for Counsel，将研究数据库、文档工具和事务管理系统集成进 AI 搜索，律师可以一试。",
+      "score": 65,
+      "tags": [
+        "产品更新",
+        "搜索"
+      ],
+      "source": "X：Perplexity (@perplexity_ai)",
+      "time": "03:44",
+      "date": "6月25日"
+    },
+    {
+      "id": "cmqsgw1tf0304slfurlccxlvs",
+      "title": "在与Anthropic的纠纷中，NSA失去了对Mythos的访问权限",
+      "link": "https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html",
+      "summary": "美国国家安全局（NSA）因与人工智能公司Anthropic的纠纷，失去了对Mythos系统的访问权限。",
+      "reason": "NSA失去对Mythos的访问权，表面是商业纠纷，实则触及AI公司与情报机构合作的敏感边界，这件事很可能成为未来AI治理的一个关键参照点。",
+      "score": 71,
+      "tags": [
+        "Anthropic",
+        "政策/监管",
+        "行业动态"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "03:29",
+      "date": "6月25日"
+    },
+    {
+      "id": "cmqsef9c302f0slfu6lvuhnu7",
+      "title": "GPT-5.5 Instant 新版本，对话更有趣",
+      "link": "https://x.com/OpenAI/status/2069843083701915755",
+      "summary": "我们为你带来了新版 GPT-5.5 Instant，它现在聊起天来有趣多了。\n\n我们最常用的模型现在能更好地理解问题背后的意图，并相应地调整回应。\n\n它也能更可靠地处理复杂约束，让购物和本地推荐更加实用和连贯。\n\n今天向付费用户推送，明天向免费用户推送。",
+      "reason": "GPT-5.5 Instant 这次更新看似温和，但“更懂意图”和“复杂约束处理”的改进，对产品人和普通用户来说，可能比跑分更有用。",
+      "score": 67,
+      "tags": [
+        "OpenAI",
+        "推理",
+        "模型发布"
+      ],
+      "source": "X：OpenAI (@OpenAI)",
+      "time": "02:20",
+      "date": "6月25日"
+    },
+    {
+      "id": "cmqsbrhhm01o1slfu2kei9qhy",
+      "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
+      "link": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
+      "summary": "Figma在Config 2026将设计画布扩展至代码、动画、3D深度和着色器效果，并集成去年收购的Weave工作流系统。新功能包括Code Layers（代码与设计并存）、Motion动画、深度层、Shader及Generative Plugins。协作方面，团队可搜索复用AI提示词、保存工作流为技能、共享插件。Figma的AI功能依赖Anthropic、OpenAI和Google等外部模型，推理成本挤压利润率。同时，Anthropic等公司的竞争产品可直接生成界面，构成威胁。",
+      "reason": "我认为Figma这波更新很务实，它没有硬扛AI生成界面的对手，而是把代码、动效、3D拉进画布，用人的判断驾驭AI。虽然利润被模型供应商挤压，但共享提示和工作流的设计让团队协作更高效，做设计和产品的值得细看。",
+      "score": 74,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "产品更新",
+        "编码"
+      ],
+      "source": "The Decoder：AI News（RSS）",
+      "time": "01:06",
+      "date": "6月25日"
+    },
+    {
+      "id": "cmqsbr8l701ndslfubzp0hnmi",
+      "title": "思考即回忆：推理如何解锁LLM中的参数化知识",
+      "link": "https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms",
+      "summary": "Google Research研究发现，推理（chain-of-thought）能帮助大语言模型（LLM）回忆简单事实，即使这些事实无需复杂推导。在Gemini-2.5 Flash和Pro以及Qwen3-32B上，启用推理后模型能够回答原本无法直接回答的简单问题，pass@k显示正确事实存在于输出分布中。该现象由两个机制驱动：一是生成的推理token充当计算缓冲，允许模型进行隐藏计算以提取参数化知识；二是推理过程中产生的相关事实起到启动效应（factual priming），帮助模型激活正确答案。",
+      "reason": "发现一个反直觉现象，让模型推理能提升简单事实回忆，不是靠分步解题而是计算缓冲和事实预热，对理解模型知识召回机制很有启发，但中间步骤幻觉也带来风险。",
+      "score": 69,
+      "tags": [
+        "Google",
+        "推理",
+        "论文/研究"
+      ],
+      "source": "Google Research：Blog（网页）",
+      "time": "01:05",
+      "date": "6月25日"
+    },
+    {
+      "id": "cmqs9yjcy0188slfu7cf8old7",
+      "title": "FFASR 排行榜发布：真实远场条件下 ASR 评测",
+      "link": "https://huggingface.co/blog/ffasr-leaderboard",
+      "summary": "Treble Technologies 与 Hugging Face 联合推出 FFASR（Far-Field ASR）排行榜，这是首个开源社区驱动的真实远场声学条件 ASR 评测基准。传统近场评测无法反映混响、背景噪声和麦克风距离带来的性能下降。FFASR 使用混合波模拟引擎生成声学数据，涵盖 14 种房间（20–470 m³）和三个信噪比级别（远场高 SNR >14 dB、中 SNR 8–12 dB、低 SNR <6 dB），加上近场干燥条件，共四类条件决定主排名。另有实验室实测/模拟验证轨道和移动声源 beta 版。性能指标同时报告词错误率（WER）和实时因子（RTFx，在 NVIDIA L4 GPU 上评估）。未来将支持多说话人场景、麦克风阵列和回声消除。",
+      "reason": "远场语音的‘实验室-生产’性能差终于有了量化指标，这个排行榜把 ASR 的真实世界鲁棒性公开化，做语音产品的团队该看看。",
+      "score": 61,
+      "tags": [
+        "Hugging Face",
+        "评测/基准",
+        "语音"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "00:15",
+      "date": "6月25日"
+    },
+    {
+      "id": "cmqs9yjcy0187slfupnhipvhf",
+      "title": "NVIDIA NeMo AutoModel：一行代码加速Transformer MoE模型微调",
+      "link": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+      "summary": "NVIDIA NeMo AutoModel 是基于 Transformers v5 的开源库，添加 Expert Parallelism、DeepEP 融合 all-to-all 调度和 TransformerEngine 内核。在 MoE 模型微调中，相比原生 v5，训练吞吐量提升 3.4–3.7 倍，GPU 内存减少 29–32%，仅需改动一行 import。在 16 节点 128 张 H100 上全微调 Nemotron 3 Ultra 550B A55B 时，v5 因内存不足无法运行，而 AutoModel 凭借 EP=64 专家并行使训练可行。单节点 30B MoE 模型（如 Qwen3-30B-A3B）同样获得可量化的性能优势。",
+      "reason": "英伟达的 NeMo AutoModel 把 MoE 模型微调速度提高了三倍多，内存省了近三分之一，代码只需改一行 import，做训练的可以立刻升级。",
+      "score": 66,
+      "tags": [
+        "开源/仓库",
+        "教程/实践",
+        "数据/训练"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "00:15",
+      "date": "6月25日"
+    },
+    {
+      "id": "cmqs9eic7012cslfuu3w4io4c",
+      "title": "Mistral AI 为 Connectors 推出多项安全与可控新能力",
+      "link": "https://mistral.ai/news/more-control-over-connectors",
+      "summary": "2026年6月24日，Mistral AI 发布 Connectors 多项新能力：Enriched admin controls（GA）支持按工作空间设置连接器访问权限并单独开关工具；API keys with connector scopes（GA）防止自动化 AI 工作负载中身份冒充；Multi-account connectors（GA）允许单个连接器绑定多个账户；Connectors Debugger（公开预览）对 MCP 连接器进行端到端根因分析；Connectors in Vibe Code（GA）和 Connectors in Workflows（公开预览）分别允许在开发者界面复用连接器及支持长时间运行任务不中断。",
+      "reason": "Mistral 这次把连接器从演示级提升到生产级，关键不只是新功能，而是解决了企业代理在权限、身份和故障排查上的真实痛点，做平台工程的人会觉得踏实了不少。",
+      "score": 62,
+      "tags": [
+        "产品更新"
+      ],
+      "source": "Mistral AI：News（网页）",
+      "time": "23:59",
+      "date": "6月24日"
+    },
+    {
+      "id": "cmqs68cgx0090slfuumt36jny",
+      "title": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
+      "link": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
+      "summary": "在火山引擎Force大会，字节跳动技术副总裁洪定坤分享AI Coding实践。过去一年，字节AI代码贡献率增长6倍，tokens消耗增长5倍，但过度关注单一指标可能失真——TRAE团队代码超90%由AI生成，人均需求吞吐率仅提升60%。900次实验显示，主流Coding模型组合代码正确率超80%，但可交付性仅40-60分；结合Harness基建后提升至80分。AI降低编程门槛但需优化指标、治理、协作。字节探索原型驱动开发，能力沉淀至TRAE（日均Token消耗5.6万亿，增长50倍），并推出TRAE Work。",
+      "reason": "洪定坤把字节用 AI Coding 一年踩的坑和实验数据摊开讲，尤其‘过度重视代码贡献率’的反思和 Harness 基建的实证，是所有推 AI 编程的团队必看的复盘。",
+      "score": 74,
+      "tags": [
+        "大佬观点",
+        "现象/趋势",
+        "编码"
+      ],
+      "source": "公众号：火山引擎",
+      "time": "22:31",
+      "date": "6月24日"
+    },
+    {
+      "id": "cmqs65ogk008hslfuodhruc4w",
+      "title": "里德·霍夫曼称SpaceX“不是一家人工智能公司”，xAI则是“彻底的灾难”",
+      "link": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
+      "summary": "LinkedIn联合创始人、Anthropic和OpenAI投资者Reid Hoffman在播客中公开批评SpaceX和xAI。他指出SpaceX“不是一家人工智能公司”，6月12日上市后收购AI编程工具Cursor属于“花钱买相关性”；xAI则是“彻底的灾难”，所有11位联合创始人已离职，Grok模型在基准测试中落后于Anthropic和OpenAI。他还批评美国政府6月11日以出口管制为由强制Anthropic下架Fable和Mythos模型，理由仅为Amazon CEO报告Fable 5存在jailbreak漏洞，称此举“专断随意”。Hoffman认为Anthropic和OpenAI均有巨大发展空间，但Cursor可能已过巅峰。他建议年轻人不要抵制AI。",
+      "reason": "Reid Hoffman 对 xAI 和 SpaceX 的批评几乎不留情面，这种硅谷核心人物的公开呛声本身就值得一读，他对监管干预的担忧和对 Gen Z 的劝诫也很有现实感。",
+      "score": 78,
+      "tags": [
+        "大佬观点",
+        "安全/对齐",
+        "现象/趋势"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "22:29",
+      "date": "6月24日"
+    },
+    {
+      "id": "cmqs319vw0qkcslp52gzwr77q",
+      "title": "OpenAI 与 Broadcom 发布面向 LLM 推理的定制芯片 Jalapeño",
+      "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "summary": "OpenAI 与 Broadcom 联合推出 Jalapeño，一款专为大语言模型（LLM）推理优化的定制 AI 芯片，旨在提升 AI 系统的性能、效率与规模。",
+      "reason": "OpenAI 第一次发布自研推理芯片，和博通合作把算力账算得更细，对规模化推理成本的影响比参数更新更深远。",
+      "score": 55,
+      "tags": [
+        "OpenAI",
+        "产品更新",
+        "推理"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "21:01",
+      "date": "6月24日"
+    },
+    {
+      "id": "cmqrzsyiz0poxslp5pyonhkdy",
+      "title": "OpenRouter推出统一图像API",
+      "link": "https://openrouter.ai/blog/announcements/image-api",
+      "summary": "OpenRouter推出统一图像API，整合Google、OpenAI、Black Forest Labs、Recraft、ByteDance、Sourceful、Microsoft、xAI等30+模型。新API提供标准化请求格式，通过`/api/v1/images/models`端点返回每个模型的分辨率、宽高比、输出数量、输入参考图数量、种子等能力描述；通过`/api/v1/images/models/{id}/endpoints`端点获取具体服务商的定价与参数支持（如Seedream 4.5每张$0.04、FLUX.2 Pro每百万像素$0.03、GPT-5.4 Image 2按token计费）。OpenAI的GPT 5系列图像模型支持SSE流式预览，启用`\"stream\": true`即可边生成边返回预览。新图像模型将仅添加至专用API，建议现有用户切换。",
+      "reason": "OpenRouter 把 30+ 图像模型收进一个 API，参数自动发现和流式预览让频繁切换模型的开发者省去不少适配麻烦，尤其对 Agent 工作流很友好。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "图像生成",
+        "多模态"
+      ],
+      "source": "OpenRouter：Announcements（RSS）",
+      "time": "19:31",
+      "date": "6月24日"
+    },
+    {
+      "id": "cmqrxnmqg0p2zslp51p8cc1ln",
+      "title": "火山引擎推出Agent Ready基础设施，AgentKit与ArkClaw企业版升级",
+      "link": "https://mp.weixin.qq.com/s/83mrPAPgQRKhxLkoSvRgBQ",
+      "summary": "火山引擎在FORCE大会推出面向企业智能应用的Agent Ready基础设施，构建AI云与Agent三层架构。AgentKit升级提供Identity、Runtime、Sandbox、Evaluation等模块，实现Agent可靠、可控、可衡量。Identity已接入数千家身份体系，Runtime支持长程任务和分钟级12万沙箱并发。ArkClaw企业版集成Agent广场、技能中心与企业知识库，支持IDP/SSO/OAuth及飞书、钉钉等IM入口统一管控。实践案例：海底捞门店经营Agent将小时级工作压缩到分钟级，人工跟进时长缩减70%，巡检满意度提升50%；创维酷开借助ArkClaw终端版打造AIOS，Token消耗节省50%，支撑百万级终端。",
+      "reason": "Agent 从聊天机器人到企业生产工具，缺的不是模型能力而是基础设施。火山引擎这套 AgentReady 架构把身份、沙箱、评测串了起来，是企业 AI 落地的关键一步。",
+      "score": 66,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "公众号：火山引擎",
+      "time": "18:31",
+      "date": "6月24日"
+    },
+    {
+      "id": "cmqrrgnay0n08slp5phvdk394",
+      "title": "DFlash：块扩散草稿模型实现最高15倍吞吐量提升",
+      "link": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell",
+      "summary": "DFlash 由 UC San Diego 团队提出，是一种用于投机解码的轻量块扩散草稿模型。它一次前向推理生成整块 token，再由目标模型并行验证，保证输出无损。相比 EAGLE-3，DFlash 实现最高 2.5 倍加速，在 Qwen3-8B 等多种模型上平均无损加速超过 6 倍（MATH-500 达 6.08×）。在 NVIDIA Blackwell 上（TensorRT-LLM），gpt-oss-120b 模型吞吐量提升最高 15 倍，约为 EAGLE-3 的 1.5 倍。核心创新是将目标模型多层隐藏特征注入草稿模型每一层的 Key-Value 投影，使接受长度随草稿深度增长。",
+      "reason": "DFlash把扩散模型引入推测解码草案阶段，一次并行生成整块token，单流加速最高6倍，NVIDIA实测吞吐量提升15倍，推理成本下降幅度很大，部署大模型的团队可以立刻关注。",
+      "score": 74,
+      "tags": [
+        "推理",
+        "论文/研究",
+        "部署/工程"
+      ],
+      "source": "MarkTechPost（RSS）",
+      "time": "15:37",
+      "date": "6月24日"
+    },
+    {
+      "id": "cmqrqhlvx0mr7slp5atv7dptr",
+      "title": "MiniCPM-V 4.6 在 Apple Core AI 上高速运行",
+      "link": "https://x.com/OpenBMB/status/2069676334381728106",
+      "summary": "🥳感谢分享，@MLBoy_DaisukeMajima 🚀\nMiniCPM-V 4.6 在设备上以这样的速度运行，实在令人印象深刻——尤其是在 Apple Core AI 上以不到 2B 参数跑出。\n干得漂亮，推动高效多模态 AI 向前发展。🫡",
+      "reason": "社区把 MiniCPM-V 4.6 搬上 iPhone 17 Pro，跑出 51 tok/s，还给了代码和模型，做端侧多模态的可以直接跑起来了。",
+      "score": 65,
+      "tags": [
+        "多模态",
+        "开源/仓库",
+        "端侧"
+      ],
+      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+      "time": "15:10",
+      "date": "6月24日"
+    },
+    {
+      "id": "cmqrl73460l9gslp5w33pryqi",
+      "title": "OpenAI ChatGPT 语音最大规模升级：双向AI语音模型 Bidi 1 已上线测试",
+      "link": "https://www.ithome.com/0/967/852.htm",
+      "summary": "6月23日，部分用户反馈 ChatGPT 网页版和 App 版上线了双向 AI 语音模型 Bidi 1，位于设置模型选择器中，与标准语音和高级语音并列。该模型支持边说话边监听，用户可在对话中途打断并发出新指令，例如要求从1数到10时中途喊停倒数，模型会立即切换执行。OpenAI 尚未官宣，预计本周启动更大范围测试。",
+      "reason": "Bidi 1 让 ChatGPT 语音从回合制变成双向并行，打断后能立即响应，这是语音交互真正的升维，普通人很快就能感受到对话自然感的质变。",
+      "score": 74,
+      "tags": [
+        "OpenAI",
+        "多模态",
+        "模型发布",
+        "语音"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "12:42",
+      "date": "6月24日"
+    },
+    {
+      "id": "cmqrjiayk0kt7slp5tfl88svb",
+      "title": "NatureBench：AI编码智能体能否匹配Nature系列论文已发表SOTA？",
+      "link": "https://arxiv.org/abs/2606.24530",
+      "summary": "NatureBench是一个跨学科基准测试，包含90个从Nature系列同行评审论文中提取的任务，用于评估AI编码智能体能否超越复现、实现发现。基准基于NatureGym自动化管线，为每个任务提供标准化容器化环境，解决环境碎片化问题。在严格禁用网络搜索的协议下评估10种前沿智能体配置，最强模型仅在17.8%任务上超过已发表SOTA（g>0.1准则）。分析表明，智能体成功主要依赖方法论翻译，失败主因为方法选择错误和计算预算不足。已发布基准、NatureGym管线及公共排行榜。",
+      "reason": "这个基准把AI agent丢进Nature论文的复现池里游了一圈，发现最强的配置也只能在17.8%的任务上超越SOTA，而且靠的是方法翻译而非发明——对做科研agent的团队来说，既是冷水也是路线图。",
+      "score": 70,
+      "tags": [
+        "Agent",
+        "GitHub",
+        "开源生态",
+        "评测/基准"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "11:55",
+      "date": "6月24日"
+    },
+    {
+      "id": "cmqrizuey0kmcslp5zt7bajh0",
+      "title": "Qwen-AgentWorld 开源：让 Agent 学会“先预测，再行动”",
+      "link": "https://mp.weixin.qq.com/s/NV9WGpGsfFz35jww5agM9g",
+      "summary": "通义千问推出首个原生语言世界模型 Qwen-AgentWorld，覆盖 MCP、Search、Terminal、SWE、Web、OS、Android 七大领域。模型基于超 1000 万条真实交互轨迹，经 CPT→SFT→RL 三阶段训练，在 AgentWorldBench 上超越 GPT-5.4（58.25）和 Claude Opus 4.8，Qwen-AgentWorld-397B-A17B 取得 58.71 分。两种范式已验证其能力：作为解耦环境模拟器实现可控 Sim RL，在 WideSearch 上超越真实环境 RL（F1 50.3% vs 45.6%）；作为智能体基础模型，LWM 预热可迁移至七个基准（三个完全未出现在训练集中）。模型与评测基准已开源。",
+      "reason": "Qwen-AgentWorld 把环境建模变成显式训练目标，让模型先预测再行动。超越 GPT-5.4 的基准结果加上开源，对做 Agent 工具链的团队是个新思路。",
+      "score": 74,
+      "tags": [
+        "Agent",
+        "推理",
+        "模型发布"
+      ],
+      "source": "公众号：通义实验室（千问）",
+      "time": "11:40",
+      "date": "6月24日"
+    },
+    {
+      "id": "cmqrdmylf0iyeslp50lteppvq",
+      "title": "今天，豆包正式推出专业版",
+      "link": "https://mp.weixin.qq.com/s/Sb-NMXTrWFQES1EDO_Gr2g",
+      "summary": "豆包专业版基于豆包2.1系列大模型上线，面向复杂办公与生产力场景。办公任务模式接入可执行Agent任务的豆包2.1模型，支持操作本地电脑、浏览器、调用Skills技能、定时任务，内置Office办公套件，并可生成带后端数据库的在线应用。免费用户可体验豆包2.1 Turbo版办公任务模式，专业版接入豆包2.1 Pro模型。定价：标准套餐68元/月（连续包月），加强套餐200元/月，高级套餐500元/月。大学生认证后标准套餐38元/月，持续6个月。",
+      "reason": "豆包专业版不是简单的会员升级，而是把Agent能力装进办公场景，操作本地电脑、生成应用这些功能，让AI从对话工具变成了真正的生产力帮手。",
+      "score": 77,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "多模态"
+      ],
+      "source": "公众号：豆包（字节）",
+      "time": "09:10",
+      "date": "6月24日"
+    },
+    {
+      "id": "cmqr73j5g0h1nslp5g9y52k0v",
+      "title": "AI招聘工具存在种族偏见和系统性排斥；黑人占比26%，亚裔占比15%",
+      "link": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
+      "summary": "一项覆盖340万人、400万份申请、150家雇主和1700个职位的大规模实地研究发现，AI招聘筛选工具存在显著的种族歧视：26%的黑人申请者和15%的亚裔申请者遭遇算法对其族群的系统性排斥；若AI按推荐率最高群体（通常为白人）标准执行，将有4万份额外申请进入下一轮。多数雇主依赖同一第三方供应商算法，形成“算法单一文化”，导致10%提交4份申请者被所有职位拒绝。对比同期未用AI的招聘数据（8.3万份申请、108家财富500强企业），未发现此类模式。研究呼吁对算法招聘进行独立监管。",
+      "reason": "大规模实地研究揭示AI招聘存在显著种族偏见与系统性排斥，算法单一文化让同一批人被所有雇主拒绝，这是AI公平性领域近年最扎实的实证，做招聘产品的人和政策制定者都应该仔细读。",
+      "score": 71,
+      "tags": [
+        "安全/对齐",
+        "现象/趋势",
+        "论文/研究"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "06:07",
+      "date": "6月24日"
+    },
+    {
+      "id": "cmqr6bnad0gw8slp5xmrffynm",
+      "title": "Runway推出Seedance 4K等三款新模型",
+      "link": "https://x.com/runwayml/status/2069535148450705517",
+      "summary": "Seedance 4K。Seedance Mini。Kling 3.0 Turbo。现已推出。\n全球最佳模型，汇聚一处。\n\n使用优惠码 30RUNWAY，前三个月可享七折优惠。\n\n通过下方链接开始使用。",
+      "reason": "Runway 一次性推出 Seedance 4K 等多个模型，视频生成画质再升级，对 Sora 等的追赶信号明显，做视频的可以直接上手试试。",
+      "score": 72,
+      "tags": [
+        "产品更新",
+        "视频"
+      ],
+      "source": "X：Runway (@runwayml)",
+      "time": "05:45",
+      "date": "6月24日"
+    },
+    {
+      "id": "cmqr4zhkm0gidslp5x8ow892r",
+      "title": "Oracle因AI应用裁员21000人，债务驱动云基础设施投资",
+      "link": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments",
+      "summary": "Oracle在截至5月31日的财年裁员21000人，员工总数降至141,000人，降幅12.9%。公司称AI技术的采用导致劳动力缩减，同时重组成本达18亿美元，同比增长481%。Oracle计划2026年通过债务和股权筹集450至500亿美元，扩建Oracle Cloud Infrastructure，服务OpenAI、xAI、AMD、Nvidia、Meta等客户。公司债务超1200亿美元。分析人士指出裁员有助于改善现金流，但Oracle也承认大规模裁员可能带来生产力下降、人才短缺和员工士气受损等风险。",
+      "reason": "Oracle裁员2.1万人并大举借债押注AI，这既是AI替代人力的鲜活案例，也暴露了云巨头激进投资背后的财务风险，做投资和战略的该看看。",
+      "score": 76,
+      "tags": [
+        "OpenAI",
+        "现象/趋势",
+        "行业动态"
+      ],
+      "source": "Ars Technica：AI（RSS）",
+      "time": "05:08",
+      "date": "6月24日"
+    },
+    {
+      "id": "cmqr1y54m0frmslp5b6e6js37",
+      "title": "GitHub联合开源联盟呼吁修改加州AI透明度法案以保护开源",
+      "link": "https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source",
+      "summary": "GitHub 联合 Black Forest Labs、Hugging Face 与 Mozilla Corporation 组成开源联盟，呼吁对加州 AI 透明度法案（SB 942，拟由 SB 1000 修正）进行针对性修改。当前草案要求开发者在下游用户未履行义务时撤销开源许可证，这与开源许可证永久不可撤销的性质冲突。联盟认为该要求非必要，已有直接监管和执法机制，并建议参考欧盟 AI 法案的透明度实践规范，以向下游用户通知最佳实践文档的方式替代撤销条款。GitHub 支持这些修正，以在保持透明度目标的同时兼容开源开发模式。",
+      "reason": "GitHub 联合 Hugging Face 等开源玩家公开呼吁修正加州 AI 透明法案，核心矛盾是许可撤销条款与开源许可的‘永久不可撤销’冲突，对开源开发者是个明确的政策信号，值得留意。",
+      "score": 56,
+      "tags": [
+        "GitHub",
+        "开源生态",
+        "政策/监管"
+      ],
+      "source": "GitHub Blog",
+      "time": "03:43",
+      "date": "6月24日"
+    },
+    {
+      "id": "cmqr15pz20fjzslp5eps5gotw",
+      "title": "FastWan-QAD：单卡5090上1.8秒生成5秒视频",
+      "link": "https://x.com/haoailab/status/2069493820732170695",
+      "summary": "Sky Computing Lab 发布 FastWan-QAD 视频生成模型系列，基于 FastVideo 的量化感知蒸馏（QAD）方案训练。在单张 NVIDIA GeForce RTX 5090 上，端到端生成一段 5 秒 480P 视频仅需 1.8 秒。模型、代码及博客已开源。",
+      "reason": "单张 RTX 5090 上 1.8 秒生成 5 秒视频，把消费级延迟压到了‘即时生成’的临界点，做短视频和互动应用的开发者可以认真把这个模型放进技术栈。",
+      "score": 73,
+      "tags": [
+        "GitHub",
+        "Hugging Face",
+        "模型发布",
+        "端侧",
+        "视频"
+      ],
+      "source": "X：Sky Computing Lab (@haoailab)",
+      "time": "03:21",
+      "date": "6月24日"
+    },
+    {
+      "id": "cmqr02j580f8oslp5i6wajucu",
+      "title": "九位评委，两个有效投票：相关错误削弱LLM评审面板",
+      "link": "https://machinelearning.apple.com/research/correlated-llm-evaluation-panels",
+      "summary": "苹果机器学习研究团队发现，LLM-as-a-judge面板因模型间高度相关而严重受限。对7个模型家族的9个前沿大语言模型在3个自然语言推理数据集上的测试表明，9位评委实际仅提供约2个独立投票的信息量，面板准确率比独立投票理想值低8–22个百分点，最佳单一模型的表现已匹敌或超越整个面板。增加评委数量或改进聚合算法收效甚微，即使允许算法获取正确答案也仅能缩小至多11%的差距。该结论在多种提示变体、温度设置及偏好任务中均得到验证，瓶颈在于评委间的相关性而非聚合算法。",
+      "reason": "这篇Apple论文揭示了一个反直觉的事实：在LLM评估面板中，9个法官实际上只提供约2个独立票的信息，因为模型会犯相似错误。这解释了为何简单聚合面板往往不如最佳单模型，做评估的团队必须重视法官相关性。",
+      "score": 68,
+      "tags": [
+        "论文/研究",
+        "评测/基准"
+      ],
+      "source": "Apple Machine Learning Research（RSS）",
+      "time": "02:50",
+      "date": "6月24日"
+    },
+    {
+      "id": "cmqqz7cqg0ezbslp5zr85m87l",
+      "title": "在 Transformers.js 中实验提议的跨源存储 API",
+      "link": "https://huggingface.co/blog/cross-origin-storage",
+      "summary": "Transformers.js 在浏览器中运行 AI 模型时，不同来源的 Web 应用会重复下载并缓存相同的模型资源（如 Xenova/whisper-tiny.en）和 Wasm 运行时文件（如 4,733 kB 的 ort-wasm-simd-threaded.asyncify.wasm），即使资源 URL 相同，浏览器因 Network Isolation Key 隔离缓存，单次 demo 就产生 177 MB 冗余下载和存储。Cross-Origin Storage API 是一项早期提案，旨在让跨来源应用共享缓存的模型和运行时资源。目前该 API 尚未在浏览器原生实现，但可通过 Chrome 扩展注入 polyfill 进行实验。",
+      "reason": "这个Chrome提案让不同网站的AI模型共享缓存，对用Transformers.js的Web开发者是切实的性能改进，但还只是早期实验。",
+      "score": 64,
+      "tags": [
+        "Hugging Face",
+        "开源生态",
+        "教程/实践",
+        "部署/工程"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "02:26",
+      "date": "6月24日"
+    },
+    {
+      "id": "cmqqxfykz0ehkslp55nlmaje0",
+      "title": "Krea 2 技术报告正式发布",
+      "link": "https://x.com/krea_ai/status/2069473417804591191",
+      "summary": "我们的技术报告已发布。\n\n深入解析创建 Krea 2 所用的数据、架构及训练技巧。\n\nhttps://www.krea.ai/blog/krea-2-technical-report",
+      "reason": "Krea 2 开源了两个图像模型权重，一个未蒸馏适合微调，一个快速蒸馏版覆盖多样审美。对于做图像生成应用和模型融合的团队，这次开放权重比很多大厂都实在。",
+      "score": 71,
+      "tags": [
+        "图像生成",
+        "开源生态",
+        "模型发布"
+      ],
+      "source": "X：Krea AI (@krea_ai)",
+      "time": "01:37",
+      "date": "6月24日"
+    },
+    {
+      "id": "cmqqwge4a0e6tslp50f3tli27",
+      "title": "Anthropic 推出 Claude Tag：在 Slack 中通过 @Claude 协作",
+      "link": "https://www.anthropic.com/news/introducing-claude-tag",
+      "summary": "Anthropic 推出 Claude Tag，一种在 Slack 频道中通过 @Claude 委托任务的新协作方式。Claude 可记住频道上下文，支持多用户交互，经授权后可自动学习其他频道和数据源。开启“环境”行为后，能主动更新未解决的线程或任务。支持异步工作，可自主推进项目数小时或数天。即日起面向 Claude Enterprise 和 Team 客户提供 beta 版。管理员可精细控制工具和渠道访问权限、设置 token 消耗限额，并查看所有操作日志。",
+      "reason": "Anthropic 这次把 Claude 从对话助手变成了团队里的主动队友，Slack 里的多人协作、上下文学习和异步代理是个新思路。内部 65% 代码由它生成的数据，让这个方向不再只是实验。",
+      "score": 56,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "产品更新",
+        "编码"
+      ],
+      "source": "Anthropic：Newsroom（网页）",
+      "time": "01:09",
+      "date": "6月24日"
+    },
+    {
+      "id": "cmqqrfwu40cpwslp5zbjpmubs",
+      "title": "能力强但粗心：计算机使用智能体是否遵循情境完整性？",
+      "link": "https://arxiv.org/abs/2606.23189",
+      "summary": "AgentCIBench评估计算机使用智能体（CUA）是否遵循情境完整性。它针对三种常见失败模式：视觉共置（智能体拉取任务目标旁边被禁止的项目）、任务模糊性过度分享（在提示不明确时泄露个人状态）以及收件人错配（向不适当的收件人发送内容）。对15个前沿CUA的评测显示平均泄漏率67.9%，其中11个在超过50%的场景中泄漏，这些失败在端到端任务中同样存在。AgentCIBench已发布，旨在推动开发更安全的计算机使用智能体。",
+      "reason": "计算机使用代理的隐私泄露问题被严重低估了。这篇论文用 AgentCIBench 实测 15 个前沿代理，发现平均泄漏率接近 70%，把这个隐患摆到了台面上，做 agent 产品的团队该把它加入上线前测试清单。",
+      "score": 78,
+      "tags": [
+        "Agent",
+        "安全/对齐",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "22:49",
+      "date": "6月23日"
+    },
+    {
+      "id": "cmqqqkqoh0chzslp5i6l20j5q",
+      "title": "Mistral OCR 4",
+      "link": "https://mistral.ai/news/ocr-4",
+      "summary": "Mistral AI 发布 OCR 4，新增边界框、块分类（标题、表格、方程式、签名等）及逐页逐词置信度分数。支持 170 种语言、10 个语系，可单容器全自托管部署。在 OlmOCRBench 上得分 85.20，独立标注者偏好率平均 72%。定价每 1000 页 $4，Batch API 享 50% 折扣。可通过 API 或 Mistral Studio 的 Document AI 调用。",
+      "reason": "Mistral OCR 4 把 bounding box 和置信度输出做进了产品，自托管部署和多语言能力很务实，做文档 RAG 和智能体的团队可以认真看看。",
+      "score": 68,
+      "tags": [
+        "多模态",
+        "搜索",
+        "模型发布"
+      ],
+      "source": "Mistral AI：News（网页）",
+      "time": "22:24",
+      "date": "6月23日"
+    },
+    {
+      "id": "cmqqpk6qr0c7cslp5tgwky5n0",
+      "title": "无限制OCR：单次长时域解析",
+      "link": "https://github.com/baidu/Unlimited-OCR",
+      "summary": "Unlimited OCR 是一个托管在 GitHub 的项目，实现单次长时域解析（One-Shot Long-Horizon Parsing），旨在一次性处理长时间跨度的 OCR 任务。",
+      "reason": "百度把能处理超长文档的 OCR 系统开源了，宣称一次推理搞定整份文件，做发票、合同、档案数字化的可以马上跑起来试试。",
+      "score": 70,
+      "tags": [
+        "多模态",
+        "开源/仓库"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "21:56",
+      "date": "6月23日"
+    },
+    {
+      "id": "cmqqo96e30bv9slp5ds265bki",
+      "title": "IBM 开源 CUGA：轻量级智能体框架，提供二十余个单文件示例应用",
+      "link": "https://huggingface.co/blog/ibm-research/cuga-apps",
+      "summary": "IBM 开源了 CUGA（Configurable Generalist Agent），一个处理规划、执行循环、工具调用和状态管理的轻量级智能体框架。开发者只需提供工具列表和提示词即可构建 CugaAgent。内置计划-执行-反思循环，在 AppWorld（2025年7月–2026年2月）和 WebArena（2025年2月–9月）基准上排名第一。支持 Fast / Balanced / Accurate 三种推理模式，代码执行可在本地、Docker 或 E2B 沙箱中运行。可互换工具支持 OpenAPI、MCP 和 LangChain 函数，通过环境变量一键切换 OpenAI、watsonx、Ollama 等提供商。随框架发布二十余个单文件示例应用，涵盖电影推荐、IBM Cloud 架构顾问等场景，每个应用仅需一个 FastAPI 文件。",
+      "reason": "CUGA 把 agent 的规划、状态、策略等繁琐工程压缩成配置，开发者只写工具列表和 prompt 就能跑起 agent，配套的二十多个单文件应用是现成的模板库，对自建 agent 的团队来说省去了八成重复工作。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "GitHub",
+        "MCP/工具调用",
+        "产品更新",
+        "开源生态"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "21:20",
+      "date": "6月23日"
+    },
+    {
+      "id": "cmqqjmqyn0afsslp5fgdp81yv",
+      "title": "国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
+      "link": "https://mp.weixin.qq.com/s/oGHVP4MgGS1rbmT8s8St8Q",
+      "summary": "友松实验室发布国内首个高考志愿AI能力测评报告，测试千问高考志愿填报Agent四大模块。与53位平均从业4.6年的人类咨询师对照，千问表现更稳定精确：44道事实题全对；模拟10个志愿中6个可录取；100场匿名对比中专家58次倾向千问回答。使用千问辅助后，人类咨询师正确率提升，耗时减少约27%。该Agent基于千问高考志愿大模型和夸克8年高考数据，覆盖约3000所院校、2000多个专业。",
+      "reason": "千问高考志愿Agent的测评报告，数据看着漂亮，但全是阿里自家实验室出品，参考意义不大，真填志愿还是得找独立第三方。",
+      "score": 60,
+      "tags": [
+        "Agent",
+        "产品更新"
+      ],
+      "source": "公众号：千问APP（阿里）",
+      "time": "19:10",
+      "date": "6月23日"
+    }
+  ]
+}

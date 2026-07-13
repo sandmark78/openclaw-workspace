@@ -1,0 +1,641 @@
+{
+  "date": "2026-06-01",
+  "scraped_at": "2026-06-01T05:00:11.384714+00:00",
+  "total_items": 40,
+  "items": [
+    {
+      "id": "cmpuqjg2f002ysly7qhxq1oeq",
+      "title": "Nemotron 3 Ultra 本周即将发布",
+      "link": "https://x.com/NVIDIAAI/status/2061305524700758050",
+      "summary": "Nemotron 3 Ultra 本周即将发布。 ⌛️",
+      "reason": "虽然只是预告，但 NVIDIA 的上一个 Nemotron 开源模型已经在社区攒下口碑，这次 Ultra 版如果真能对标闭源旗舰，这周最值得蹲的新闻就是它。",
+      "score": 63,
+      "tags": [
+        "开源/仓库",
+        "模型发布"
+      ],
+      "source": "X：NVIDIA AI (@NVIDIAAI)",
+      "time": "12:55",
+      "date": "6月1日"
+    },
+    {
+      "id": "cmpuqjg2f002xsly7feb5tifd",
+      "title": "Cosmos 3发布：首个开放物理AI全能模型",
+      "link": "https://x.com/NVIDIAAI/status/2061308434629132553",
+      "summary": "介绍 Cosmos 3：我们最新的物理AI前沿模型\n\nCosmos 3 是全球首个具备原生视觉推理、世界与动作生成能力的完全开放全能模型。  \n\n今天我们发布 Super（32B）和 Nano（8B）两个变体。",
+      "reason": "Cosmos 3 是首个完全开放的物理 AI 全模态模型，把视觉推理、世界生成和行动生成打包开源，做机器人和自动驾驶的，这是今年最值得关注的模型发布。",
+      "score": 76,
+      "tags": [
+        "具身智能",
+        "开源生态",
+        "模型发布"
+      ],
+      "source": "X：NVIDIA AI (@NVIDIAAI)",
+      "time": "12:55",
+      "date": "6月1日"
+    },
+    {
+      "id": "cmpupuhaj006psl3tqy2du68t",
+      "title": "Nvidia进军Windows笔记本市场，挑战Intel与AMD",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-01/nvidia-enters-windows-laptop-market-taking-on-intel-and-amd",
+      "summary": "Nvidia Corp.推出一款新芯片，正式进入PC市场，目标是打破Intel在该领域的技术垄断，并推动笔记本电脑向AI时代演进。",
+      "reason": "Nvidia 终于杀入 PC 市场，这不是又一个芯片发布，而是 AI 从云端向终端渗透的标志性事件，做端侧 AI 的人和 PC 厂商都得重新思考格局。",
+      "score": 83,
+      "tags": [
+        "端侧",
+        "行业动态"
+      ],
+      "source": "Bloomberg：Technology（RSS）",
+      "time": "12:36",
+      "date": "6月1日"
+    },
+    {
+      "id": "cmpuptl48006asl3tpw19wzhu",
+      "title": "NVIDIA发布最大Nemotron 3模型Nemotron 3 Ultra",
+      "link": "https://x.com/ArtificialAnlys/status/2061304911565144230",
+      "summary": "NVIDIA在Computex上发布了Nemotron 3 Ultra，总参数达550B（激活参数55B），是目前最大的Nemotron 3模型。该模型在美国开放权重模型中智能性最强，在Artificial Analysis Intelligence Index评测中得分为48，超越了Gemma 4 31B（39分），但仍落后于月之暗面（Kimi）的K2.6（54分）。在推理速度方面，其在预发布端点上超过了300 tokens/s，远高于同级别中国模型通常的50-100 tokens/s。该模型将提供BF16权重及NVFP4量化版本以提升推理性能。",
+      "reason": "这是美国开源模型智力最大的单次跃升，虽然还差Kimi一截，但550B的体量+300 tok/s推理速度，对开发者选型是个重要变量。",
+      "score": 81,
+      "tags": [
+        "开源/仓库",
+        "推理",
+        "模型发布",
+        "评测/基准"
+      ],
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "time": "12:35",
+      "date": "6月1日"
+    },
+    {
+      "id": "cmpuokbhx006jslbr3qxktcmy",
+      "title": "NVIDIA DSX OS 提供开放、模块化软件用于规模化运营AI工厂",
+      "link": "https://developer.nvidia.com/blog/nvidia-dsx-os-delivers-open-modular-software-for-operating-ai-factories-at-scale",
+      "summary": "NVIDIA DSX 平台为设计、模拟和构建 AI 工厂提供完整解决方案，旨在应对不断增长的智能需求。该平台通过开放、模块化的软件栈，帮助运营方更快地扩展规模、提高效率，并降低从能源、芯片、基础设施、模型到应用这五层架构的整体智能成本。",
+      "reason": "DSX OS 把 AI 工厂的运维标准化了，做大规模推理和训练基础设施的团队可以认真评估一下，这可能成为基础设施层的 Android。",
+      "score": 70,
+      "tags": [
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
+      "time": "12:00",
+      "date": "6月1日"
+    },
+    {
+      "id": "cmpunu0g50002slbrlfonpoc3",
+      "title": "MiniMax M3：前沿编码、100万token上下文与原生多模态一体模型",
+      "link": "https://www.minimax.io/blog/minimax-m3",
+      "summary": "MiniMax M3 是一个开源前沿模型，具备先进的编码与AI智能体能力。它支持100万token的超长上下文窗口，并采用名为MSA（MiniMax Sparse Attention）的新型稀疏注意力架构。该架构使模型在100万token上下文下的每token计算成本降至前代的1/20，预填充速度提升9倍以上，解码速度提升15倍以上。在SWE-Bench Pro编码基准上，MiniMax M3得分59.0%，超越GPT-5.5和Gemini 3.1 Pro，性能接近Opus 4.7。该模型可通过MiniMax Code、Token Plan和API服务使用。",
+      "reason": "MiniMax M3 把开源模型的编码能力推到了 GPT-5.5 和 Opus 4.7 这条线上，还附带 1M 上下文和原生多模态，这是开源社区真正能打的前沿选项，做 Agent 的值得立刻跑一下。",
+      "score": 83,
+      "tags": [
+        "多模态",
+        "开源/仓库",
+        "推理",
+        "模型发布",
+        "编码"
+      ],
+      "source": "MiniMax：Blog（网页）",
+      "time": "11:39",
+      "date": "6月1日"
+    },
+    {
+      "id": "cmpula55004pmslag0bkoy1lq",
+      "title": "上海：支持多模态智能体开发与应用，有序推进智能驾驶在共享出行、物流运输等多场景应用",
+      "link": "https://www.ithome.com/0/957/985.htm",
+      "summary": "上海市人民政府办公厅印发《上海市服务业发展“十五五”规划》，提出发展AI软件技术及服务产业集群。规划支持多模态智能体开发与应用，推动智能客服等工具规模化；有序推进智能驾驶在共享出行、物流运输等多场景应用；做强算运存协同布局的智算云网络，推广模型即服务（MaaS）；并支持开发面向家庭、养老、文旅等场景的具身智能整机产品，加速机器人向通用智能与精细化服务跃升。",
+      "reason": "这份上海“十五五”规划相当于一份AI落地指南，多模态智能体、无人驾驶物流、具身智能都点到了，虽非重磅突破，但给在沪AI公司画出了清晰的增长路线。",
+      "score": 71,
+      "tags": [
+        "Agent",
+        "多模态",
+        "政策/监管"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "10:28",
+      "date": "6月1日"
+    },
+    {
+      "id": "cmpuj4yr0045lslaglcf8y5b2",
+      "title": "全球首次：MWC26 上海将举办“人形机器人点球大战”，宇树科技等 8 支队伍参赛、参演",
+      "link": "https://www.ithome.com/0/957/938.htm",
+      "summary": "全球首次“人形机器人点球大战”将于2026年6月在MWC上海举行。8支中国顶尖具身智能战队将进行自主对抗，无需人工操控或预设脚本。赛事旨在集中展示人形机器人在动态平衡、精准控制与自主决策等方面的技术突破。",
+      "reason": "全球首次人形机器人点球大赛，不再是论文指标或仿真跑分，而是把动态平衡、自主决策塞进一场体育规则，具身智能的进展此刻比任何展台都诚实。",
+      "score": 72,
+      "tags": [
+        "具身智能",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "09:28",
+      "date": "6月1日"
+    },
+    {
+      "id": "cmpu2kv1z001eslagcgl0irro",
+      "title": "NVIDIA与Google Cloud助力下一波AI构建者",
+      "link": "https://blogs.nvidia.com/blog/category/enterprise/cloud-2",
+      "summary": "在Google I/O大会上，NVIDIA与Google Cloud宣布深化合作，旨在支持其联合开发者社区中超过10万名开发者。合作将重点提供NVIDIA L4 Tensor Core GPU以优化AI推理与图形工作负载，并通过支持Vertex AI平台来增强Gemini模型性能。双方还将提供开源软件工具，以简化AI应用的构建与部署流程。",
+      "reason": "这是Google I/O上官宣的生态合作，10万开发者社区不是小数目，想在Google Cloud上用NVIDIA GPU做推理的可以关注一下配套工具链的后续。",
+      "score": 68,
+      "tags": [
+        "Google",
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "NVIDIA Blog：Generative AI（网页）",
+      "time": "01:44",
+      "date": "6月1日"
+    },
+    {
+      "id": "cmpu1hyyy00tosla8zp4xb8nj",
+      "title": "教皇似乎比Geoffrey Hinton更懂人工智能",
+      "link": "https://garymarcus.substack.com/p/the-pope-appears-to-understand-ai",
+      "summary": "这一观点强调，单纯分析AI的输出内容，无法还原其生成过程与背后的推理逻辑，触及了当前AI可解释性研究的核心挑战。",
+      "reason": "Gary Marcus从教皇演讲抓到一个关键差距，话语和真实推理过程是两码事，做可信AI的人值得琢磨一下。",
+      "score": 58,
+      "tags": [
+        "大佬观点",
+        "安全/对齐",
+        "现象/趋势"
+      ],
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "time": "01:14",
+      "date": "6月1日"
+    },
+    {
+      "id": "cmptzehi500cdsla80uvg4kgh",
+      "title": "我花200英镑把一台数据中心级GPU装进了我的游戏电脑",
+      "link": "https://blog.tymscar.com/posts/v100localllm",
+      "summary": "一名用户以200英镑的价格购入了一块数据中心级GPU，并将其成功安装到自己的游戏电脑中。文章记述了这一非标准硬件改装过程、遇到的技术挑战以及最终实现本地运行大语言模型的体验。",
+      "reason": "用200英镑把一块V100塞进游戏机箱跑Llama，这个折腾过程比benchmark更有看头，想低成本玩本地模型的可以抄作业。",
+      "score": 70,
+      "tags": [
+        "教程/实践",
+        "端侧",
+        "部署/工程"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "00:15",
+      "date": "6月1日"
+    },
+    {
+      "id": "cmptzbrme00aasla8lu56k78h",
+      "title": "OpenAI正式进军机器人领域并启动招聘",
+      "link": "https://x.com/sama/status/2061117302528188712",
+      "summary": "OpenAI宣布成立OpenAI Robotics团队，并开始招聘全栈硬件、系统及ML工程师，以编程和制造能服务社会的机器人。该项目由Aditya Ramesh领导，其世界模拟研究计划已演变为机器人研究，强调硬件与ML研究的协同设计。短期目标是支持技术工人构建未来基础设施，长期愿景是为每个人提供个人机器人。",
+      "reason": "OpenAI 正式踩进物理世界，从软件杀到硬件，这步迟早要来。短期说辅助工人，长期说人人都一个机器人，野心和风险一样大。",
+      "score": 83,
+      "tags": [
+        "OpenAI",
+        "具身智能",
+        "行业动态"
+      ],
+      "source": "X：Sam Altman (@sama)",
+      "time": "00:13",
+      "date": "6月1日"
+    },
+    {
+      "id": "cmptx6l3x00xosl7z5f75gwfm",
+      "title": "OpenAI发布生物防御AI工具Rosalind",
+      "link": "https://x.com/sama/status/2061101875303530871",
+      "summary": "我们希望帮助世界在生物防御领域抢占先机：",
+      "reason": "OpenAI 跨入生物防御，用 AI 提前预警和应对疫情威胁，这不只是技术问题，更关乎社会韧性，值得每个关注 AI 安全的人认真读一下。",
+      "score": 75,
+      "tags": [
+        "OpenAI",
+        "安全/对齐"
+      ],
+      "source": "X：Sam Altman (@sama)",
+      "time": "23:13",
+      "date": "5月31日"
+    },
+    {
+      "id": "cmptqxpc00056slpme4gyxf5n",
+      "title": "苹果WWDC将推AI升级：Gemini蒸馏模型本地运行，但技术栈外部依赖显著",
+      "link": "https://x.com/kimmonismus/status/2061058117304262999",
+      "summary": "苹果下月WWDC将重点展示延迟已久的Siri及设备端AI升级，核心是在iPhone芯片本地运行从Google Gemini蒸馏而来的更小模型，以强调隐私与降低token成本。但该技术栈大部分源自外部：本地模型由Gemini蒸馏，设备无法处理的复杂查询将路由至Google Cloud处理，并采用了Nvidia的机密计算技术。苹果据称正在寻觅小型设备端AI初创公司以加速模型缩减工作。此外，苹果2024年承诺的Private Cloud Compute方案原计划使用苹果芯片，因无法承载完整Gemini模型，现已部分转向谷歌云，但该名称仍将保留。",
+      "reason": "苹果Siri的救命稻草原来是Gemini，更扎心的是那些‘离开iPhone的查询’现在跑在Google Cloud上，Private Cloud Compute只剩个名字，做端侧推理和隐私计算的同行该注意风向变了。",
+      "score": 75,
+      "tags": [
+        "Google",
+        "端侧",
+        "行业动态"
+      ],
+      "source": "X：Kim (@kimmonismus)",
+      "time": "20:18",
+      "date": "5月31日"
+    },
+    {
+      "id": "cmpt5p76d07g3sluzcbxft4f4",
+      "title": "6000 多公里全程零干预：特斯拉 FSD 完成全球首次横穿加拿大自动驾驶",
+      "link": "https://www.ithome.com/0/957/718.htm",
+      "summary": "一辆特斯拉汽车搭载 FSD V14.3.3 版本软件，完成了全球首次全程零人工干预、横穿加拿大的自动驾驶行程。车辆从温哥华出发，历时 4 天 21 小时，行驶 3760 英里（6051 公里）抵达哈利法克斯，全程所有驾驶操作（包括高速并线、应对复杂路况与自动泊车）均由系统自主完成，无任何系统退出或人工修正。该版本随 2026.14.6.6 更新推送，整合了春季软件功能。",
+      "reason": "车主自己跑的6千公里零干预记录，比任何官方demo都实在。零接管、过施工、全自动泊车，FSD这个能力信号，对自动驾驶行业是颗定心丸。",
+      "score": 72,
+      "tags": [
+        "端侧",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "10:24",
+      "date": "5月31日"
+    },
+    {
+      "id": "cmpsvokod04y4sluz4luwdj16",
+      "title": "在浏览器中通过 Pyodide 和 Service Worker 运行 Python ASGI 应用",
+      "link": "https://simonwillison.net/2026/May/30/pyodide-asgi-browser",
+      "summary": "作者展示了如何在浏览器中通过 Pyodide 和 Service Worker 运行 Python ASGI 应用。此前的 Datasette Lite 使用 Web Workers，但无法执行 `<script>` 标签中的 JavaScript。新方案由 Claude Opus 4.8 协助完成开发，解决了这一问题。作者已展示了基础的 ASGI FastCGI 演示和运行 Datasette 1.0a31 的演示，并计划后续将此方法应用于升级 Datasette Lite。",
+      "reason": "Simon Willison 用 Service Worker 让 Python ASGI 在浏览器里真正跑了起来，这个技巧补上了 Datasette Lite 长期缺的 JS 执行能力，搞 Pyodide 的值得看看。",
+      "score": 73,
+      "tags": [
+        "GitHub",
+        "教程/实践",
+        "端侧",
+        "部署/工程"
+      ],
+      "source": "Simon Willison 博客",
+      "time": "05:43",
+      "date": "5月31日"
+    },
+    {
+      "id": "cmpsqnar803r5sluzkn3gfps1",
+      "title": "据报道：软银将在法国投资750亿欧元用于AI",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-30/softbank-to-invest-some-75-billion-in-ai-in-france-reports-say",
+      "summary": "软银集团计划投资高达750亿欧元（约合870亿美元），用于在法国建设人工智能数据中心。该投资计划由《论坛报》与《金融时报》报道。",
+      "reason": "750亿欧元的投资规模，让法国一夜之间成为欧洲AI基建的核心，对算力格局影响深远，做AI基础设施的人该盯紧了。",
+      "score": 71,
+      "tags": [
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "Bloomberg：Technology（RSS）",
+      "time": "03:22",
+      "date": "5月31日"
+    },
+    {
+      "id": "cmpsoxlpf03azsluzqg5vwo8h",
+      "title": "NVIDIA 或将于六月发布整合 Blackwell GPU 与 AI 单元的 ARM 笔记本芯片 N1X",
+      "link": "https://x.com/AYi_AInotes/status/2060779431648547016",
+      "summary": "NVIDIA、微软与 Arm 同步发布指向台北音乐中心的坐标，暗示 6 月 1 日发布会将有重大动作。此举被认为是 NVIDIA 与联发科合作的 ARM 笔记本芯片 N1X 的预告。该芯片整合了 CPU、基于 Blackwell 架构的 GPU 及 AI 单元，目标是使轻薄本具备接近 RTX 4070 的图形性能。这标志着 NVIDIA 的战略转变：从显卡供应商，转型为定义整机核心方案的提供商，将直接冲击 Intel、AMD 和高通在 PC 市场的地位。",
+      "reason": "三家巨头同发三个词和一个坐标，这比芯片参数更值得嗅的信号是，NVIDIA要从装空调的变成盖房子的，Windows 阵营的 Intel inside 可能真要换标了。",
+      "score": 75,
+      "tags": [
+        "大佬观点",
+        "端侧"
+      ],
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "time": "02:34",
+      "date": "5月31日"
+    },
+    {
+      "id": "cmpu2kwvj0022slagmtocgkym",
+      "title": "DynoSim：模拟驱动推理堆栈优化",
+      "link": "https://x.com/NVIDIAAI/status/2060781385686659416",
+      "summary": "NVIDIA 发布 DynoSim，这是一个针对其 Dynamo 推理服务栈的工作负载驱动仿真工具。它将部署测试转化为“模拟-验证”循环：团队无需逐个测试部署选项，而是在单一虚拟时间线上建模整个堆栈，通过高保真仿真快速筛查数千种配置，仅将最佳候选方案投入实机验证。DynoSim 完全使用 Rust 实现，运行速度极快，在测试中达到实时速度的 1,500 倍。",
+      "reason": "DynoSim 把推理部署的配置搜索从暴力枚举变成 1500 倍加速的模拟验证，做推理优化的人应该马上看一眼。",
+      "score": 63,
+      "tags": [
+        "产品更新",
+        "推理",
+        "部署/工程"
+      ],
+      "source": "X：NVIDIA AI (@NVIDIAAI)",
+      "time": "01:52",
+      "date": "5月31日"
+    },
+    {
+      "id": "cmpsl2i5v02fpsluzlu1d98zl",
+      "title": "“开玩笑吧”：GitHub Copilot 新的基于 token 的计费模式引发开发者不满",
+      "link": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs",
+      "summary": "微软旗下 GitHub Copilot 的黄金时代似乎正在终结。其新推出的计费模式改为按 token 计量，这一变化引发了开发者的广泛担忧与不满。",
+      "reason": "Copilot 从固定订阅变成 token 计费，对重度用户来说就是变相涨价，做 coding 的该算算账了，微软这招挺损的。",
+      "score": 70,
+      "tags": [
+        "GitHub",
+        "Microsoft",
+        "编码",
+        "行业动态"
+      ],
+      "source": "TechCrunch：AI（RSS）",
+      "time": "00:46",
+      "date": "5月31日"
+    },
+    {
+      "id": "cmpsjtxfm022vsluz0pojemz9",
+      "title": "随着成本飙升，美国企业开始对人工智能实施配给",
+      "link": "https://www.wsj.com/tech/ai/corporate-america-is-starting-to-ration-ai-as-cost-skyrockets-1eb99d7a",
+      "summary": "由于运行和使用AI工具的成本持续飙升，美国企业正开始对人工智能的使用实施配给制。企业通过限制使用量、设置分层级审批流程等方式控制开支，以应对AI费用增长过快的问题。这种从广泛采用转向精细化管理的策略，标志着企业在AI应用上从追求速度转向注重成本效益。",
+      "reason": "成本飙升让大企业开始对AI‘配给’，这是面向企业的AI产品必须回答的ROI考题，以前铺量抢客户的玩法得切换成算清每一分钱的价值。",
+      "score": 71,
+      "tags": [
+        "数据/训练",
+        "现象/趋势",
+        "部署/工程"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "00:12",
+      "date": "5月31日"
+    },
+    {
+      "id": "cmpsii2qb01qhsluzzwifggo3",
+      "title": "免费领取6个月ChatGPT Pro及AI工具思考",
+      "link": "https://x.com/AYi_AInotes/status/2060740414273941874",
+      "summary": "OpenAI为开源项目维护者提供福利，可免费领取6个月ChatGPT Pro（价值$1200），申请无硬性Star数要求，有项目链接即可。同时，文章引用讨论了AI工具的分类：一类是“agent型”（如Claude Code、Codex），可自主运行；另一类是“实习生型”（如Cursor），需人工决策，有助于使用者以术入道、培养判断力，但受限于需人在场。作者推荐了网易的UU远程工具，称其免费两年，支持4K 144帧无延迟连接Mac并可使用原生终端，解决了“实习生型”工具的地点限制问题。",
+      "reason": "OpenAI 给开源维护者送 6 个月 Pro，没 Star 要求，有项目链接就行，我觉得这是今年最实在的开发者福利，手慢无。",
+      "score": 75,
+      "tags": [
+        "OpenAI",
+        "其他",
+        "开源生态"
+      ],
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "time": "23:34",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpsdkdec00j8sluzgrm37l7c",
+      "title": "AI 骗子正在创建虚假的黑人形象来销售 Shein 劣质商品",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/938844/ai-tiktok-shop-blackface-shein-dropshipping",
+      "summary": "有卖家利用 AI 生成虚假的黑人形象，在 TikTok、Facebook 和 Instagram 上扮演手工制品创作者进行销售。例如一个名为 Aliyah 的 AI 生成形象，以带泪诉说的方式售卖所谓手工皮带扣，但该形象及其产品均为虚构。此类 AI 虚拟网红被用于推广通过代发货模式销售的批量生产品。",
+      "reason": "AI生成的虚拟黑人卖家在TikTok上哭着卖假货，The Verge这篇调查把AI黑产里最脏的那面扒给你看，做社交电商的尤其该点开读。",
+      "score": 73,
+      "tags": [
+        "图像生成",
+        "多模态",
+        "现象/趋势"
+      ],
+      "source": "The Verge：AI（RSS）",
+      "time": "21:16",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpscn1r60074sluz9xgi8sxm",
+      "title": "新加坡防务论坛：AI 风险超过核武器",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-30/ai-dangers-eclipse-nuclear-weapons-at-singapore-defense-forum",
+      "summary": "在新加坡举行的防务论坛上，专家警告AI风险已超越核武器。面板讨论指出，AI可能大幅压缩反应时间，导致决策者做出草率决定，对战略稳定构成威胁。",
+      "reason": "国防圈第一次把AI危险摆到比核武更高的位置，这种定性一旦被政策圈采纳，全球监管的天平会剧烈倾斜。",
+      "score": 73,
+      "tags": [
+        "安全/对齐",
+        "政策/监管"
+      ],
+      "source": "Bloomberg：Technology（RSS）",
+      "time": "19:59",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpsabfou086xslljv0f88f1e",
+      "title": "Nano Banana Pro与Nano Banana 2正式发布",
+      "link": "https://x.com/googleaidevs/status/2060685345738375640",
+      "summary": "ICYMI：Nano Banana Pro [gemini-3-pro-image] 和 Nano Banana 2 [gemini-3.1-flash-image] 现已正式发布，可通过 Gemini API 投入生产使用。\n\n查看这些优秀的社区示例，了解两个模型的实际能力 🧵",
+      "reason": "Gemini 图像模型 GA 了，生成式视觉正式进入 Google 时间，做设计工具和内容生成的开发者可以直接接入测试，看看能不能成为下一个 Midjourney。",
+      "score": 71,
+      "tags": [
+        "Google",
+        "图像生成",
+        "模型发布"
+      ],
+      "source": "X：Google AI for Developers (@googleaidevs)",
+      "time": "19:45",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmps939np07v7slljd0bbkc91",
+      "title": "小即是美：开源多模态模型发布",
+      "link": "https://x.com/StepFun_ai/status/2060678753030947226",
+      "summary": "小即是美。😌",
+      "reason": "StepFun 赶在六月前发了一款小参数开源多模态模型，比 V4-Flash 还小还快，直接开源，做端侧和快速集成的值得立刻拉下来试试。",
+      "score": 62,
+      "tags": [
+        "多模态",
+        "开源/仓库",
+        "模型发布",
+        "端侧"
+      ],
+      "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
+      "time": "19:11",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmps1l0zg0605sllj8vf4wake",
+      "title": "最后一次技术面试",
+      "link": "https://steve-yegge.medium.com/the-last-technical-interview-bc13ddcf4564",
+      "summary": "Steve Yegge 在 Medium 发表观点文章《最后一次技术面试》，探讨 AI 时代传统技术面试的意义变化。文章在 Hacker News 社区获得 100 分关注。",
+      "reason": "Steve Yegge 用他一贯犀利的文笔预言技术面试的终结，这不是危言耸听，而是给所有还在刷 LeetCode 的开发者提前拉响的警报。",
+      "score": 71,
+      "tags": [
+        "大佬观点",
+        "编码"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "15:41",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpruchr0049uslljygmtsttx",
+      "title": "xAI放弃JAX GPU转向自研训练框架",
+      "link": "https://x.com/SemiAnalysis_/status/2060571944575963482",
+      "summary": "突发新闻：JAX NVIDIA GPU & XLA：GPU最大客户刚刚宣布已放弃JAX GPU，宁愿用Grok Build“氛围编程”一个C训练框架。据报道xAI的JAX堆栈MFU低于10%。NVIDIA JAX团队过去两年全部主力996专注于支持xAI却失败了，我想他们现在可以休息并兑现期权了。",
+      "reason": "xAI 这个 GPU 最大客户突然甩了 JAX，要自研 C 训练框架，理由是 JAX 利用率太低。如果连万亿参数集群都搞不定，JAX 的底层缺陷可能比想象的大，做大规模训练的团队得认真评估了。",
+      "score": 76,
+      "tags": [
+        "xAI",
+        "开源生态",
+        "行业动态"
+      ],
+      "source": "X：SemiAnalysis (@SemiAnalysis_)",
+      "time": "12:18",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmprt0b0303xesllj5i7bbs1z",
+      "title": "Show HN: Tiny-vLLM——基于 C 和 CUDA 的高性能大型语言模型推理引擎",
+      "link": "https://github.com/jmaczan/tiny-vllm",
+      "summary": "Tiny-vLLM 是一个用 C 和 CUDA 编写的高性能大语言模型推理引擎，项目代码已开源至 GitHub。",
+      "reason": "如果你觉得 vLLM 太重，这个用 C 和 CUDA 从头写的推理引擎简直是清流，部署成本骤降，做本地推理的可以马上 clone 试试。",
+      "score": 70,
+      "tags": [
+        "开源/仓库",
+        "推理",
+        "部署/工程"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "11:41",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmprmoxnt02e1slljz93fu7ni",
+      "title": "阿里云与Qwen成为UEFA多年全球AI合作伙伴",
+      "link": "https://x.com/alibaba_cloud/status/2060520586489770167",
+      "summary": "阿里云和Qwen成为UEFA官方独家AI、云计算与电子商务合作伙伴，合作期覆盖2027/2028赛季至2032/2033赛季的UEFA男子俱乐部赛事，以及UEFA EURO 2028。阿里巴巴集团主席蔡崇信表示，将投入云计算、全栈AI及全球电商平台能力，支持赛事运营。合作将利用Qwen大语言模型部署先进AI技术，增强球迷互动与媒体内容体验，并依托阿里云基础设施打造全球沉浸式观赛体验。",
+      "reason": "典型的体育赞助×AI合作，主要看点是阿里云拿下UEFA的长期独家，但AI部分更像PR包装，对技术圈来说可看可不看。",
+      "score": 64,
+      "tags": [
+        "行业动态"
+      ],
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "time": "08:44",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmprlcgbc0205sllj84qulx8l",
+      "title": "ComfyUI现已支持OpenRouter模型直接调用",
+      "link": "https://x.com/OpenRouter/status/2060511136932315259",
+      "summary": "现在你可以直接在ComfyUI工作流中使用你的OpenRouter模型了！\n\n[引用 @ComfyUI]：ComfyUI刚刚添加了@OpenRouter支持。\n\n你不再局限于单一的大语言模型，现在可以直接在Comfy中访问20多个模型。\n\n更多灵活性，更少摩擦，同样的工作流。\n\n工作流链接在下方👇",
+      "reason": "ComfyUI 首次直接集成 LLM 路由服务，等于给图像管线加了个「外挂大脑」，做自动化工作流的人可以直接在节点里调用 20+ 模型，省掉一堆 API tinker 环节。",
+      "score": 72,
+      "tags": [
+        "产品更新",
+        "多模态",
+        "开源生态"
+      ],
+      "source": "X：OpenRouter (@OpenRouter)",
+      "time": "08:06",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmprjnsl401moslljay7ixk7d",
+      "title": "Guardrails：保护你的智能体、数据与成本",
+      "link": "https://openrouter.ai/announcements/guardrails",
+      "summary": "Guardrails 是一套可配置的安全与治理工具，提供预算执行、零数据保留、模型与提供商限制、提示词注入防御及数据丢失预防等功能，旨在保护智能体（Agents）、数据与控制成本。",
+      "reason": "给 agent 加安全护栏这件事，OpenRouter 把它做进了控制台，预算限制、防注入、数据不落盘都能开箱即用，做生产级 agent 的可以少写一堆胶水代码。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "安全/对齐"
+      ],
+      "source": "OpenRouter：Announcements（RSS）",
+      "time": "07:19",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmprilbss01egsllj3maz5i8a",
+      "title": "Codex可自主管理对话线程与并行任务",
+      "link": "https://x.com/gdb/status/2060486309886443787",
+      "summary": "Codex用于管理Codex界面：\n\n[引用 @guinnesschen]：如果你厌倦了管理Codex对话线程，就让Codex自己管理自己吧！Codex现在可以创建对话线程、搜索它们、整理它们、固定重要的线程，并为并行任务启动工作树。",
+      "reason": "Codex 能自己管理线程、搜索、组织了，长期在终端里干活的开发者会明显减少上下文切换，这是把 AI 助手往主动管理推了一步。",
+      "score": 75,
+      "tags": [
+        "OpenAI",
+        "产品更新",
+        "编码"
+      ],
+      "source": "X：Greg Brockman (@gdb)",
+      "time": "06:49",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpribwbr01bnslljhk0pj682",
+      "title": "这个 skill 看着不错，可将文字、URL 或文章直接生成公众号首图、小红书图文卡、教程步骤卡等视觉物料，支持 28 种布局和 10 种主题。",
+      "link": "https://x.com/hongming731/status/2060487110906527820",
+      "summary": "claude-design-card 是一款专为中文内容创作者设计的 Skill。它能将文字、URL 或文章直接转化为可发布的视觉卡片，如公众号首图、小红书图文卡、教程步骤卡等，支持 28 种布局与 10 种主题。其核心价值在于自动化了“写完文章”后最繁琐的流程：自动提炼重点、选择版式、生成 HTML 并截图成 PNG，替代了以往手动使用 Figma 或 Canva 等工具的步骤。该工具开源，适合经常撰写相关内容的创作者尝试。",
+      "reason": "这个 Skill 把内容创作者最烦的「写文→排卡片→出图」流程直接打通了，28 种布局一键生成，做公众号和小红书的可以立刻收藏，关键不是好看是真省时间。",
+      "score": 78,
+      "tags": [
+        "GitHub",
+        "图像生成",
+        "开源/仓库"
+      ],
+      "source": "X：洪明 (@hongming731)",
+      "time": "06:42",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpscn37j008usluzex7fda1d",
+      "title": "DynoSim：模拟帕累托前沿",
+      "link": "https://developer.nvidia.com/blog/dynosim-simulating-the-pareto-frontier",
+      "summary": "现代大语言模型服务难以调优，因为每个部署都涉及模型后端、张量并行形状、预填充/解码分割、Worker数量、调度器设置、路由策略、KV缓存行为、自动扩展阈值和拓扑等相互关联的选择。这些选择在多个层级相互作用，局部优化可能导致瓶颈转移至其他环节。",
+      "reason": "LLM 部署调优一直靠玄学试错，NVIDIA 这个 DynoSim 总算把 Pareto 前沿模拟成了直观工具，做推理服务的工程师可以省下大量调参时间。",
+      "score": 63,
+      "tags": [
+        "推理",
+        "教程/实践",
+        "部署/工程"
+      ],
+      "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
+      "time": "06:31",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpreww0500fosllj22uja0ac",
+      "title": "ChatGPT对话目录功能现已上线",
+      "link": "https://x.com/ChatGPTapp/status/2060467129066070182",
+      "summary": "对于每个始于“就问一件事”却演变成完整长篇的ChatGPT对话：目录功能现已推出。\n适用于包含5条以上回复的对话。",
+      "reason": "ChatGPT 终于给长对话加了目录，这个功能早该有了。如果你经常跟 ChatGPT 拉扯几十轮，现在可以不用疯狂滚屏了，直接跳转关键节点。",
+      "score": 69,
+      "tags": [
+        "OpenAI",
+        "产品更新"
+      ],
+      "source": "X：ChatGPT (@ChatGPTapp)",
+      "time": "05:06",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmpreiy8h00dwslljv0r8dmt7",
+      "title": "Luma Agents 自动生成宣传图，输入内容即可",
+      "link": "https://x.com/LumaLabsAI/status/2060461313713909783",
+      "summary": "博客文章完成了思考。现在让宣传来发挥作用。\n\n输入内容。定义钩子。Luma Agents 从那里构建每一张宣传图。\n\n投入使用 → http://lumalabs.ai/app",
+      "reason": "Luma AI 把博客内容自动转成推广视频片段，内容团队又多一个「一键懒人」选项，但成品够不够「可发」还得看实际测试。",
+      "score": 61,
+      "tags": [
+        "产品更新",
+        "图像生成",
+        "视频"
+      ],
+      "source": "X：Luma AI (@LumaLabsAI)",
+      "time": "04:55",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmprd8aty0d2jslnojk7ompp6",
+      "title": "OpenAI推出实时翻译模型，支持70+语言输入",
+      "link": "https://x.com/gdb/status/2060452095279415725",
+      "summary": "OpenAI 实时翻译功能——使用70多种输入语言说话，翻译成13种输出语言：\n\ngpt-realtime-translate 接收任意语言的语音输入，并输出目标语言的语音。\n\n大语言模型很棒，但特定用例需要专用模型。\n\n我们正在智能眼镜上运行此功能。",
+      "reason": "OpenAI悄悄推出一个专门做实时语音翻译的模型，不是通用LLM，而是专用模型。这标志着AI交互从文字转向语音的第一步，做翻译硬件或AR眼镜的团队要睡不着了。",
+      "score": 76,
+      "tags": [
+        "OpenAI",
+        "多模态",
+        "模型发布",
+        "语音"
+      ],
+      "source": "X：Greg Brockman (@gdb)",
+      "time": "04:19",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmprcx2os0czfslno0g5c7er5",
+      "title": "Runway API持续扩展模型与端点支持",
+      "link": "https://x.com/runwayml/status/2060453805519765548",
+      "summary": "我们持续为 Runway API 添加新模型和端点，以便您能将最佳生成能力直接集成到应用、产品和平台中。通过 Runway API，您可以在一个地方获得所需的所有模型，包括 Seedance 2.0、GPT Image 2、HappyHorse 1.0、Nano Banana Pro、Magnific Precision Upscaler V2 等更多内容。请通过下方链接开始使用。",
+      "reason": "Runway API 这次集中上新，Seedance 2.0 加入虽然方便了开发者，但没有模型能力的质变，更像是生态补全。",
+      "score": 72,
+      "tags": [
+        "产品更新",
+        "图像生成"
+      ],
+      "source": "X：Runway (@runwayml)",
+      "time": "04:10",
+      "date": "5月30日"
+    },
+    {
+      "id": "cmprc0e680csdslnofhw8c29o",
+      "title": "LlamaIndex 团队基于 Google Agents API 构建 LlamaParse/LiteParse 智能体模板",
+      "link": "https://x.com/googleaidevs/status/2060439904929382700",
+      "summary": "LlamaIndex 团队基于 Google 新发布的 Agents API 构建了一个模板，使智能体能够访问 LlamaParse 和 LiteParse，从而自动处理非结构化文档。其工作流程为：配置数据与输出的 Git 仓库，将仓库克隆至智能体沙箱，安装 LiteParse CLI 与 LlamaParse SDK 及相关技能，最后通过提示词驱动智能体自主执行任务。该模板最终形成一个可直接使用 LlamaParse 和 LiteParse 处理真实世界文档的智能体。",
+      "reason": "Google 的 Agents API 才发布没多久，LlamaIndex 就火速提供了把 LlamaParse 接进去的完整模板，想尝试在沙箱里跑文档处理 agent 的开发者可以直接抄作业。",
+      "score": 63,
+      "tags": [
+        "Agent",
+        "Google",
+        "MCP/工具调用",
+        "教程/实践"
+      ],
+      "source": "X：Google AI for Developers (@googleaidevs)",
+      "time": "03:45",
+      "date": "5月30日"
+    }
+  ]
+}

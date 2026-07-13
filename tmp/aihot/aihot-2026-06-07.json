@@ -1,0 +1,649 @@
+{
+  "date": "2026-06-07",
+  "scraped_at": "2026-06-07T05:00:10.822173+00:00",
+  "total_items": 40,
+  "items": [
+    {
+      "id": "cmq397jma052dsl97qxfp78o7",
+      "title": "对比一下 GPT-5.5 的设计效果和 Opus 4.8 的设计效果",
+      "link": "https://x.com/dotey/status/2063464057647075379",
+      "summary": "宝玉对比了GPT-5.5与Opus 4.8的设计能力，认为Opus 4.8效果远优于GPT-5.5。他使用了基于Cursor浏览器和元素标注的baoyu-design Skill，该Skill通过npx skills add JimLiu/baoyu-design安装，可在本地运行：描述屏幕需求即可生成精良HTML，点击预览中任意元素即可发出修改指令。官方推荐搭配Opus 4.8以获得最佳效果。工具GitHub仓库：https://github.com/JimLiu/baoyu-design。",
+      "reason": "宝玉这个 skill 把 Claude Design 拉到本地，一个 prompt 就能出图对比，GPT-5.5 和 Opus 4.8 的审美差距肉眼可见，做设计的可以直接套。",
+      "score": 76,
+      "tags": [
+        "MCP/工具调用",
+        "图像生成",
+        "教程/实践"
+      ],
+      "source": "X：宝玉 (@dotey)",
+      "time": "12:00",
+      "date": "6月7日"
+    },
+    {
+      "id": "cmq392v1i051osl97zxmhrco3",
+      "title": "Harness 工程：在智能体优先的世界中运用 Codex",
+      "link": "https://openai.com/index/harness-engineering",
+      "summary": "Harness 工程在智能体优先的世界中利用 OpenAI Codex 的实践文章，6月6日发布于 openai.com，在 Hacker News 上获得 102 点热度。",
+      "reason": "OpenAI 官方出的 Codex 工程实践，不是 API 文档复读，而是讲清代理优先的开发思路，做 agent 产品的值得一看。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "OpenAI",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "11:56",
+      "date": "6月7日"
+    },
+    {
+      "id": "cmq2yz8xj02fosl97d6ckqael",
+      "title": "M3与Opus代码审计13个bug：$0.07 vs $1.30",
+      "link": "https://x.com/MiniMax_AI/status/2063397618034844135",
+      "summary": "对 Claude Opus 4.8 和 MiniMax M3 进行相同的代码审计：同一代码库、同一提示词，预先植入 17 个已知 bug。MiniMax M3 以 $0.07 抓到 13 个；最便宜的 Claude 运行同样抓到 13 个，花费 $1.30。MiniMax 表示这一对比非常有趣，绝对值得一读。",
+      "reason": "第三方评测把 MiniMax M3 和 Claude Opus 4.8 放在同一代码审计上比，准确率打平但成本差了近 50 倍，选型时关注性价比的团队值得看一眼。",
+      "score": 60,
+      "tags": [
+        "Anthropic",
+        "编码",
+        "评测/基准"
+      ],
+      "source": "X：MiniMax (@MiniMax_AI)",
+      "time": "07:13",
+      "date": "6月7日"
+    },
+    {
+      "id": "cmq2w7jzd01ojsl97krih83rb",
+      "title": "美国众议院议员发布法案草案，旨在禁止各州制定人工智能相关法规",
+      "link": "https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04",
+      "summary": "美国众议院议员发布一项法案草案，旨在禁止各州自行制定人工智能相关法规，将AI监管权力集中到联邦层面。",
+      "reason": "两党联手要把 AI 监管从州级拉回联邦，对创业公司是实打实的好消息，碎片化的 50 套州法噩梦也许能终结。但草案只是第一步，通过前都是遥望。",
+      "score": 78,
+      "tags": [
+        "政策/监管"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "05:56",
+      "date": "6月7日"
+    },
+    {
+      "id": "cmq2rp55c00hlsl97h98gkd14",
+      "title": "五个实验室，五个心智：用小模型构建多模型金融剧情游戏",
+      "link": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
+      "summary": "Thousand Token Wood v2使用四个不同实验室的小模型（gpt-oss-20b、MiniCPM3-4B、Nemotron-Mini-4B及微调Qwen 0.5B）驱动金融模拟游戏的智能体。核心发现是异构服务层摩擦在于vLLM 0.22.1需CUDA工具包，而非模型本身。通过容忍性JSON解析层，添加模型只需一条配置。信息隔离确保内幕标志不在提示词中，扫描测试验证无泄露。记忆用情绪摘要截断避免淹没。微调0.5B模型实现0%自成交、100%有效报价，真相防火墙零泄露。小模型是可靠格式生成器但不可靠推理器，可通过结构化、提示词和微调弥补。",
+      "reason": "不是那种「我用 GPT 写了个游戏」的浅显分享，真在四个小模型上跑出了博弈感，里面 vLLM 踩坑和防火墙测试方法可以直接抄作业。",
+      "score": 66,
+      "tags": [
+        "Agent",
+        "Hugging Face",
+        "教程/实践"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "03:50",
+      "date": "6月7日"
+    },
+    {
+      "id": "cmq2o63pf01dosl6n6n4wr3tr",
+      "title": "阶跃首席科学家张祥雨合著论文 ResNet 获 CVPR 2026 「时间检验奖」",
+      "link": "https://mp.weixin.qq.com/s/ZVgqdH_fE42jO4kcI-lF3g",
+      "summary": "",
+      "reason": "ResNet拿下CVPR时间检验奖，是对这篇论文十年贡献的公正盖章，不过阶跃这篇公告就是自家喜报，没有额外解读或数据，看一眼标题就好。",
+      "score": 57,
+      "tags": [
+        "开源生态",
+        "行业动态",
+        "论文/研究"
+      ],
+      "source": "公众号：阶跃星辰（Step）",
+      "time": "02:11",
+      "date": "6月7日"
+    },
+    {
+      "id": "cmq2kpb9b01h1slbv07xan05v",
+      "title": "AI 的黑色星期五",
+      "link": "https://garymarcus.substack.com/p/ais-black-friday",
+      "summary": "Gary Marcus 在文章中分享了对 AI 领域刚刚发生事件的看法，表达了对当前 AI 发展方向的思考。",
+      "reason": "Gary Marcus趁AI圈遭遇“黑周五”立刻开炮，标题就透着幸灾乐祸的犀利，不管是否同意他的立场，这篇复盘都会让你重新审视那些被狂热掩盖的信任裂缝。",
+      "score": 69,
+      "tags": [
+        "大佬观点",
+        "安全/对齐"
+      ],
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "time": "00:34",
+      "date": "6月7日"
+    },
+    {
+      "id": "cmq2j2aqq0111slbv2442dsoa",
+      "title": "Job Searcher",
+      "link": "https://huggingface.co/blog/build-small-hackathon/job-search-blog",
+      "summary": "Hugging Face 发布 Job Searcher，一个基于 AI 的求职搜索工具。用户上传简历并设定偏好后，系统使用教师模型 DeepSeek V4 Pro 生成 LinkedIn 搜索查询，通过 JobSpy 抓取职位，再对学生模型 Qwen3-8B（8B 参数）进行 LoRA 微调，对每个职位从技能匹配、经验相关性、教育背景、行业领域契合度和资历对齐五个维度给出评分和推理。训练在 Modal 平台单张 A100 上完成。推理部署于 Hugging Face ZeroGPU Space，使用 llama.cpp 实现流式输出。项目开源。",
+      "reason": "这个 hackathon 项目把教师蒸馏和 LoRA 微调 8B 模型的流程全部开源在 HF 上，做模型定制和部署的开发者能直接抄作业，尤其是推理部署踩的坑（ZeroGPU 上下文重用）很实用。",
+      "score": 65,
+      "tags": [
+        "Agent",
+        "Hugging Face",
+        "教程/实践",
+        "数据/训练"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "23:48",
+      "date": "6月6日"
+    },
+    {
+      "id": "cmq2e53d100lpsl783tyjx1iw",
+      "title": "GitHub 开源 Spec Kit 工具包，用产品规范引导 AI 编码",
+      "link": "https://x.com/rohanpaul_ai/status/2063246343842501091",
+      "summary": "GitHub 发布开源工具包 Spec Kit，旨在解决 \"vibe coding\" 的最大弱点——AI 常在规则未明确时就开始编码。它把流程从 \"让 AI 直接构建\" 改为 \"先写产品规范，再让 AI 根据规范实现\"。当前 AI 编码模式常因松散提示直接跳入代码，导致需求薄弱、边界遗漏和反复返工。Spec Kit 推动反向流程：先定义产品功能，再澄清差距、制订技术计划、分解任务，最后让 agent 执行。规范成为可执行的开发合约，支持 Copilot、Claude Code、Codex、Gemini、Cursor、Qwen 等 30+ agent 集成。项目已获 109K+ 星标。",
+      "reason": "GitHub亲自下场推spec-driven开发，把vibe coding的随意感压回“先写规约再写代码”的老派流程，但这次规约是给AI读的，做coding agent的团队应该认真研究一下。",
+      "score": 80,
+      "tags": [
+        "Agent",
+        "GitHub",
+        "MCP/工具调用",
+        "产品更新",
+        "编码"
+      ],
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "time": "21:30",
+      "date": "6月6日"
+    },
+    {
+      "id": "cmq2doi6700hlsl78fk3tm0l4",
+      "title": "OpenCV 5 发布：升级全新 DNN 引擎、原生支持大模型",
+      "link": "https://www.ithome.com/0/960/969.htm",
+      "summary": "OpenCV 5 正式发布，采用基于图的 DNN 引擎，ONNX 算子覆盖率从 4.x 的不到 23% 提升至超 80%，原生支持 Transformer、视觉语言模型（VLM）和大语言模型（LLM）。其他更新包括：更好的 Python 集成与命名参数、更紧凑核心代码、清晰硬件加速层、原生 FP16/BF16、规范化 0D/1D 张量、扩展 3D 视觉及现代化文档。该库 GitHub 拥有超 86,000 stars，每日安装量超一百万次。",
+      "reason": "OpenCV 5 是一次架构级大更新，DNN 引擎重写、ONNX 覆盖率从 23% 跳到 80%，原生支持大模型推理，做模型部署的该关注了。",
+      "score": 70,
+      "tags": [
+        "多模态",
+        "开源/仓库",
+        "推理",
+        "部署/工程"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "21:17",
+      "date": "6月6日"
+    },
+    {
+      "id": "cmq2ahm4y00o9slopm7hxc8ld",
+      "title": "Persona Atlas：Hugging Face 上的开源人物思维映射工具",
+      "link": "https://huggingface.co/blog/build-small-hackathon/persona-atlas",
+      "summary": "Persona Atlas 是一个运行在 Hugging Face Inference Providers 上的开源项目。它通过工具调用代理执行真实网络搜索，生成公众人物的资料、事实清单和风格假设，然后让该人物回答十个关于身份、伦理等开放式问题。每个回答被转化为嵌入向量，从而在向量空间中对不同人物进行距离比较，并基于十个特质锚点绘制热力图。前端采用 Gradio，提供研究、比较和检查代理完整追溯三个标签页，预设多个人物角色，无需 token 即可直接体验。",
+      "reason": "把苏格拉底和乔布斯放在一起比思维方式，这个实验更像智力玩具，但背后用小模型跑 agent 搜索做嵌入比较的流程，做角色扮演的人可以学研究方法。",
+      "score": 58,
+      "tags": [
+        "Agent",
+        "Hugging Face",
+        "开源/仓库"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "19:48",
+      "date": "6月6日"
+    },
+    {
+      "id": "cmq1jj4u00gejsltrelu93dbg",
+      "title": "PixelDiT入选CVPR2026最佳论文决赛",
+      "link": "https://x.com/NVIDIAAI/status/2063034422698389625",
+      "summary": "被选为 #CVPR2026 最佳论文决赛作品：来自 NVIDIA Research 的 PixelDiT\n\n在大多数图像生成模型中，预训练的自编码器会在任何扩散发生前压缩图像，导致质量损失在整个流程中累积。\n\nPixelDiT，即像素扩散变换器，完全去掉了这一步骤。它是一个单阶段模型，直接在像素空间中端到端地学习扩散过程。",
+      "reason": "CVPR 最佳论文 finalist，NVIDIA 用 PixelDiT 直接把自编码器砍掉，端到端像素空间扩散，如果效果稳定，图像生成的质量损失会从源头解决。",
+      "score": 68,
+      "tags": [
+        "图像生成",
+        "论文/研究"
+      ],
+      "source": "X：NVIDIA AI (@NVIDIAAI)",
+      "time": "07:13",
+      "date": "6月6日"
+    },
+    {
+      "id": "cmq1ikzj50g4jsltr7vm9qbst",
+      "title": "用Qwen2.5-3B构建多智能体经济体：工程报告",
+      "link": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim",
+      "summary": "开发者用Qwen2.5-3B构建了五人森林生物多智能体经济体，每个智能体独立运行，通过vLLM部署在Modal，以Gradio为交互窗口。3B模型在100%调用中输出有效JSON，但经济判断能力弱。通过设计稀缺性（食物品种限制、易腐坏、冬季燃料危机）和优化提示词（禁止买入自产物品、给出示例）提升决策质量。15轮模拟中，蜜价从10跌至3、柴价从4涨至7、财富基尼系数从0.14扩至0.38。项目展示了小模型可靠格式化与不可靠推理之间的工程填补。",
+      "reason": "我觉得这是近期最诚实的小模型工程复盘，把为什么不换大模型、怎么靠提示修正推理、怎样设计系统稀缺性讲透了，比看十篇论文有实操价值。",
+      "score": 74,
+      "tags": [
+        "Agent",
+        "Hugging Face",
+        "教程/实践",
+        "部署/工程"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "06:47",
+      "date": "6月6日"
+    },
+    {
+      "id": "cmq1hy4wt0fyrsltrxx64boz8",
+      "title": "Arena 发布真实世界 AI 智能体排行榜 Agent Arena",
+      "link": "https://x.com/rohanpaul_ai/status/2063018358795300982",
+      "summary": "Arena 推出基于真实用户任务的智能体排行榜，评估模型在代码编写、应用构建、文档分析等工作中的表现，而非孤立基准。排行榜基于30万+任务、200万+工具调用和4000万行代码，综合任务成功、纠正遵从性、错误恢复、用户表扬与抱怨、工具幻觉等信号。前三名：GPT-5.5 High（+10.7%）、Claude Opus 4.7 Thinking（+9.5%）、GPT-5.4 High（+8.9%）。",
+      "reason": "Arena 跳出了刷榜逻辑，用真实用户的多轮交互来评估 Agent，这比任何 toy benchmark 都更有说服力，选模型做 Agent 应用的可以把它当新指南。",
+      "score": 76,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "OpenAI",
+        "评测/基准"
+      ],
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "time": "06:29",
+      "date": "6月6日"
+    },
+    {
+      "id": "cmq1fw2bb0ffssltrvl691wnx",
+      "title": "Apollo 敲定 350 亿美元债务融资，为 Anthropic 采购 AI 芯片",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-05/apollo-wraps-up-35-billion-debt-to-buy-ai-chips-for-anthropic",
+      "summary": "Apollo Global Management 和 Blackstone 已为 Anthropic 敲定 350 亿美元融资方案，用于扩充其 AI 基础设施。这是人工智能竞赛中最新的一笔巨额交易。",
+      "reason": "350亿美元债权的规模说明AI军备竞赛远未降温，Anthropic这一波加码直接把「算力即权力」写在了资产负债表上。",
+      "score": 77,
+      "tags": [
+        "Anthropic",
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "Bloomberg：Technology（RSS）",
+      "time": "05:31",
+      "date": "6月6日"
+    },
+    {
+      "id": "cmq1eqdug0f4bsltr1nzlten4",
+      "title": "SpaceX与Google达成云计算新协议",
+      "link": "https://x.com/rohanpaul_ai/status/2063000834045313314",
+      "summary": "SpaceX 刚刚披露了一份与 Google 的新云服务协议。\n\nGoogle 将每月向 SpaceX 支付 9.2 亿美元（约合每年 110 亿美元），用于 xAI 数据中心的计算能力。\n\n这再次表明，AI 算力正成为一种战略性商品，就像发射能力或能源一样，而那些能够为庞大的 GPU 集群提供资金、电力、冷却和运营的公司，可能会在其原有业务之外获得巨大的杠杆优势。",
+      "reason": "谷歌每月斥资9.2亿美元租用xAI算力，这已经不只是一份商业合同，而是AI基础设施的定价锚点。算力正在变成战略资源，做云的和做芯片的都该重新估算自己的位置。",
+      "score": 77,
+      "tags": [
+        "Google",
+        "xAI",
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "time": "04:59",
+      "date": "6月6日"
+    },
+    {
+      "id": "cmq1dossi0ev7sltrrihfn7pb",
+      "title": "谷歌推出基于 Gemini Enterprise Agent Platform 的 Agentic RAG 框架",
+      "link": "https://research.google/blog/unlocking-dependable-responses-with-gemini-enterprise-agent-platforms-agentic-rag",
+      "summary": "Google Research 与 Google Cloud 合作推出跨语料库检索（Cross-Corpus Retrieval）框架，作为 Gemini Enterprise Agent Platform 的 Agentic RAG。该多智能体工作流将复杂企业查询分解为子任务，通过规划、重写和路由，迭代搜索多个数据源直至获得充分上下文，再生成可靠回答。与标准 RAG 相比，在事实性数据集上准确率最高提升 34%；在多个领域特定内部数据集上也实现了更好的接地与推理准确性。",
+      "reason": "企业级 RAG 的新标杆，多 agent 架构加上‘足够上下文’检查，准确度提升 34%。做知识库问答的产品经理和架构师都应该认真看。",
+      "score": 64,
+      "tags": [
+        "Google",
+        "RAG",
+        "产品更新"
+      ],
+      "source": "Google Research：Blog（网页）",
+      "time": "04:30",
+      "date": "6月6日"
+    },
+    {
+      "id": "cmq1d2vyt0epssltrsz0gvbky",
+      "title": "微软Project Mosaic：micro-LED光学互连技术",
+      "link": "https://x.com/MSFTResearch/status/2062983588606320714",
+      "summary": "微软Azure CTO Mark Russinovich在Build 2026上介绍Project Mosaic，这是微软剑桥研究院的实验性光学互连技术，采用micro-LED实现低功耗、高速数据传输。高级研究员Kaoutar Benyahya现场演示单个LED调制形成字母，证明概念具备实时响应能力。",
+      "reason": "微软研究院展示了个用 micro-LED 做光互联的实验项目，短期对 AI 训练没直接帮助，但低功耗高速传输要是落地，可能会改变数据中心的组网方式。",
+      "score": 60,
+      "tags": [
+        "Microsoft",
+        "论文/研究",
+        "部署/工程"
+      ],
+      "source": "X：Microsoft Research (@MSFTResearch)",
+      "time": "04:13",
+      "date": "6月6日"
+    },
+    {
+      "id": "cmq1cb2df0ehlsltrb0nb702a",
+      "title": "五角大楼正运营着一个针对拉丁美洲的人工智能宣传机器",
+      "link": "https://theintercept.com/2026/06/02/la-tilde-propaganda-latin-america-pentagon",
+      "summary": "据 The Intercept 6月5日报道，美国五角大楼正在运营一个针对拉丁美洲的人工智能宣传机器（AI propaganda mill）。报道指出，该机器利用 AI 技术生成并传播宣传内容，目标为拉丁美洲地区。该消息在 Hacker News 上获得 100 点热度。",
+      "reason": "五角大楼用 AI 生成宣传内容轰炸拉美，The Intercept 挖出了具体操作细节。不是未来预言，而是已经上线的现实操作，搞 AI 治理的人该立刻点开看。",
+      "score": 75,
+      "tags": [
+        "安全/对齐",
+        "政策/监管"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "03:51",
+      "date": "6月6日"
+    },
+    {
+      "id": "cmq1bny1b0ebysltrc6b1fxmk",
+      "title": "Anthropic：让Claude成为化学家",
+      "link": "https://www.anthropic.com/research/making-claude-a-chemist",
+      "summary": "Anthropic与顶尖化学家合作，提升Claude在化学领域的实用性。首个白皮书测试Claude在NMR谱图分析上的表现：在20个化合物上，对比Claude Opus 4.7、Opus 4.6、Sonnet 4.6与ChemDraw、MestReNova的正向预测（从结构预测谱图）和反向结构解析（从实验谱图推断结构）能力。所有化合物选自模型训练截止日期后发布的ChemRxiv预印本，以避免选择偏差。",
+      "reason": "化学家可能几年后回头看会记起这篇，Claude Opus 4.7 在 NMR 预测上追平了 ChemDraw，还顺手做了反向结构解析——专业软件不干的事，它用更接近人类日常输入的方式做到了。",
+      "score": 65,
+      "tags": [
+        "Anthropic",
+        "多模态",
+        "论文/研究",
+        "评测/基准"
+      ],
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "time": "03:33",
+      "date": "6月6日"
+    },
+    {
+      "id": "cmq1b8gvh0e7isltriul9fo2j",
+      "title": "Claude 是否增加了 rsync 中的错误？",
+      "link": "https://alexispurslane.github.io/rsync-analysis",
+      "summary": "一篇 Hacker News 热门帖子（105 分）提出了 Claude 是否导致 rsync 工具中 bug 增加的问题，并附有分析链接。",
+      "reason": "不是给Claude泼脏水，而是用rsync项目真实数据拉警报，AI辅助也许正在增加低级bug，做底层工具的开发者该紧绷这根弦。",
+      "score": 70,
+      "tags": [
+        "Anthropic",
+        "现象/趋势",
+        "编码"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "03:21",
+      "date": "6月6日"
+    },
+    {
+      "id": "cmq18rbp70dk3sltr7eqx8xil",
+      "title": "智能体协作应如同事般对话和手势",
+      "link": "https://x.com/mntruell/status/2062955210897801520",
+      "summary": "与 AI 智能体协作应感觉像与同事协作一样。你应能“与它们交谈”——不仅通过文本聊天，还能一起对着屏幕做手势、实时对话等。",
+      "reason": "Cursor 新加的 Design Mode 让改 UI 像跟同事比划屏幕一样自然，手势、画框、说话都能驱动 agent，AI 编程工具第一次有了‘面对面’的感觉。",
+      "score": 80,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "多模态",
+        "编码"
+      ],
+      "source": "X：Michael Truell (@mntruell)",
+      "time": "01:50",
+      "date": "6月6日"
+    },
+    {
+      "id": "cmq16wkmr0d1qsltrrxq2ijpb",
+      "title": "Google AI 本周产品更新：Nano Banana 2、Co-Scientist、dreambeans、Gemma 4 等",
+      "link": "https://x.com/GoogleAI/status/2062942864288387430",
+      "summary": "Google AI 本周发布多项更新：Nano Banana 2 及 Pro 正式 GA，可通过 Gemini Enterprise Agent Platform、Gemini API 和 Google AI Studio 获取；Co-Scientist 多智能体系统面向科研自动生成优化新假设；Google Labs 推出 dreambeans，根据用户 Google 应用数据每日生成个性化话题集；Gemma 4 12B 统一无编码器多模态模型可完全离线运行于笔记本；Gemma 4 系列及草稿模型引入 QAT 降低内存需求；Google Magenta RealTime 2 开源实时音乐模型，支持 MIDI 键盘、文本提示和手势演奏。",
+      "reason": "周报里藏了个大号：Gemma 4 12B开源多模态且完全离线，开发者今天就能在自己笔记本上跑起来，Co-Scientist的多agent科学推理也有看头。",
+      "score": 78,
+      "tags": [
+        "Agent",
+        "Google",
+        "产品更新",
+        "多模态",
+        "开源生态"
+      ],
+      "source": "X：Google AI (@GoogleAI)",
+      "time": "01:20",
+      "date": "6月6日"
+    },
+    {
+      "id": "cmq16mdmy0d0hsltriwaiyzvh",
+      "title": "Google Colab CLI 发布",
+      "link": "https://developers.googleblog.com/introducing-the-google-colab-cli",
+      "summary": "Google 推出 Colab 命令行界面（CLI），允许开发者和 AI 智能体将本地终端连接到远程 Colab 运行时，实现无摩擦执行。该轻量级 CLI 支持请求高性能 GPU、远程运行本地 Python 脚本，并检索工件日志或模型（如微调后的 Gemma 3 适配器）。工具可直接集成到标准终端环境，可被 Antigravity、Claude Code 等 AI 智能体调用以管理复杂机器学习流水线。",
+      "reason": "对于习惯在 Colab 上薅免费 GPU 的开发者，这个 CLI 把本地开发、远程跑训练这套流程的摩擦降到了几乎为零，而且直接对接 AI agent，实验自动化往前迈了一大步。",
+      "score": 75,
+      "tags": [
+        "Google",
+        "MCP/工具调用",
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "Google Developers Blog（RSS）",
+      "time": "01:12",
+      "date": "6月6日"
+    },
+    {
+      "id": "cmq16lagb0czbsltr4d2whlpo",
+      "title": "ChatGPT 网页版支持从写作块发送邮件",
+      "link": "https://x.com/ChatGPTapp/status/2062944254591430917",
+      "summary": "草拟。调整。发送。\n\n现在你可以在网页版 ChatGPT 中直接从写作块发送邮件，无需离开对话。",
+      "reason": "一个小但实用的更新，ChatGPT在写作块里直接发邮件，省掉复制粘贴的步骤，日常办公写邮件的人会立刻感觉到顺滑。",
+      "score": 68,
+      "tags": [
+        "OpenAI",
+        "产品更新"
+      ],
+      "source": "X：ChatGPT (@ChatGPTapp)",
+      "time": "01:11",
+      "date": "6月6日"
+    },
+    {
+      "id": "cmq16l9id0cz7sltrd5u9tevg",
+      "title": "Riverflow 2.5：可控制评分标准的图像模型",
+      "link": "https://x.com/OpenRouter/status/2062944965978992935",
+      "summary": "在OpenRouter上线：来自@Sourceful的Riverflow 2.5。\n\n首个具有独立评分标准的图像模型，你可控制该标准以引导其思维和编辑，并具备可控的推理努力，可在速度与质量之间进行权衡。\n\n免费至6月9日（周二）。Fast和Pro见下方🧵。",
+      "reason": "OpenRouter 把图像模型的可控性推进了一步，独立的评分量规让调参不再是玄学，对追求精确输出的设计师和产品人来说，是个值得上手试试的新工具。",
+      "score": 60,
+      "tags": [
+        "图像生成",
+        "模型发布"
+      ],
+      "source": "X：OpenRouter (@OpenRouter)",
+      "time": "01:11",
+      "date": "6月6日"
+    },
+    {
+      "id": "cmq15u3mt0cqjsltrhb1ch36w",
+      "title": "AI热推高美国计算基建GDP占比翻倍",
+      "link": "https://x.com/EpochAIResearch/status/2062933470373146828",
+      "summary": "AI 热潮使计算基础设施占美国 GDP 比重翻倍。\n\n2026 年第一季度，与 AI 相关的数据中心建设、计算硬件和网络设备投资约占美国 GDP 的 0.8%，推动整个计算基础设施占 GDP 比重达到约 1.5%。",
+      "reason": "Epoch AI 直接把 AI 算力投资算进了 GDP，占比从 0.4% 窜到 0.8%，翻倍速度超过多数实体产业，这已经不是技术新闻，是宏观分析师必须盯的指标了。",
+      "score": 76,
+      "tags": [
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "X：Epoch AI (@EpochAIResearch)",
+      "time": "00:50",
+      "date": "6月6日"
+    },
+    {
+      "id": "cmq15ifnr0comsltrb2vd53mu",
+      "title": "Gemini Live 支持实时创建编辑图像",
+      "link": "https://x.com/GeminiApp/status/2062936486509785385",
+      "summary": "你现可直接在 Gemini Live 中创建和编辑图像。\n\n无论是测试房间装饰、解决数学问题，还是制作可分享的梗图，所有操作都实时完成。\n\n只需打开 Gemini 应用，点击 Live 按钮，共享摄像头，告诉 Gemini 你想看到的。",
+      "reason": "Gemini Live 终于能用嘴改图了，实时对话+图像生成让装修试色、数学解题变成「聊着天就把活干了」，产品人和普通用户都该试试这个新交互。",
+      "score": 81,
+      "tags": [
+        "Google",
+        "产品更新",
+        "图像生成",
+        "多模态",
+        "语音"
+      ],
+      "source": "X：Gemini (@GeminiApp)",
+      "time": "00:41",
+      "date": "6月6日"
+    },
+    {
+      "id": "cmq15ezdt0cn9sltrl1ad2e8n",
+      "title": "AI的微型钢厂",
+      "link": "https://www.tomtunguz.com/using-local-ai-to-work-faster",
+      "summary": "作者通过技能蒸馏将78%的AI工作交由Mac本地模型处理，仅复杂任务发往云端。智能体自动分类任务：简单任务本地数秒完成，复杂任务路由至云端。过去一周本地处理峰值达88%。双车道设计使吞吐量提升约25%，平均任务时长从47秒降至19秒，队列等待时间从73秒降至4秒（降幅94%）。该模式类比Nucor小钢厂，每台能运行蒸馏模型的边缘设备都成为小型AI工厂，仅对那1/5困难任务支付云费用。未来几年，数以千万计的此类设备将在企业内部增殖，逐步取代现阶段云厂商账单上的大部分工作负载。",
+      "reason": "Tunguz 把自己 78% 的 AI 任务都挪到本地跑，吞吐量涨了 25%，延迟降了 60%。mini-mill 的类比把端侧 AI 的颠覆逻辑讲得比任何行业报告都清楚，做工作流自动化的值得细读。",
+      "score": 68,
+      "tags": [
+        "Agent",
+        "大佬观点",
+        "端侧"
+      ],
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "time": "00:38",
+      "date": "6月6日"
+    },
+    {
+      "id": "cmq13pme90c62sltraucjmvp2",
+      "title": "Meta SAM 3D 获 CVPR26 最佳论文荣誉提名",
+      "link": "https://x.com/AIatMeta/status/2062920724944507095",
+      "summary": "热烈祝贺我们的 SAM 3D 团队在 #CVPR26 获得最佳论文荣誉提名！这项殊荣凸显了他们在推动计算机视觉边界方面的杰出工作。\n\n论文链接：https://arxiv.org/abs/2511.16624",
+      "reason": "SAM 3D 拿了 CVPR 最佳论文荣誉提名，能从几千篇里脱颖而出，确实有点东西，做 3D 视觉的可以看看他们怎么把分割能力扩展到三维空间。",
+      "score": 64,
+      "tags": [
+        "Meta",
+        "多模态",
+        "论文/研究"
+      ],
+      "source": "X：AI at Meta (@AIatMeta)",
+      "time": "23:33",
+      "date": "6月5日"
+    },
+    {
+      "id": "cmq12z6ag0bzssltrkou6khap",
+      "title": "OpenAI 前 CTO 称若 Altman 未回归公司可能已“瓦解”",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-05/openai-would-ve-imploded-if-altman-didn-t-return-ex-cto-says",
+      "summary": "Mira Murati 表示，如果 Sam Altman 在 2023 年被短暂罢免后没有回归 CEO 职位，OpenAI 很可能已经“瓦解”。这是她对那场硅谷最激烈的董事会斗争的最清晰描述。",
+      "reason": "Murati 首次公开谈 2023 年宫斗真相，一句「内爆」比所有八卦都狠，这是 OpenAI 差点死了的关键证词。",
+      "score": 70,
+      "tags": [
+        "OpenAI",
+        "行业动态"
+      ],
+      "source": "Bloomberg：Technology（RSS）",
+      "time": "23:30",
+      "date": "6月5日"
+    },
+    {
+      "id": "cmq12z1oz0bzfsltrea6bc8t4",
+      "title": "Hinton称AI拥有意识：人类最好接受非唯一智能生命",
+      "link": "https://x.com/kimmonismus/status/2062915287700090948",
+      "summary": "AI先驱Geoffrey Hinton表示，他认为AI拥有意识，人类应接受自己并非唯一智能生命。他指出AI“非常像我们”，AI聊天机器人必须理解问题才能作答，这种觉知等同于感知能力，智能不限于生物。主推文作者进一步讨论意识本质：笛卡尔的“我思故我在”和fMRI等实证手段都无法真正定义意识，人类对自身了解远不及想象。作者呼吁转向新哲学问题，厘清人与机器的区别与联系。",
+      "reason": "Hinton 说 AI 有意识，不是普通学者猜测，而是教父级人物认真讨论哲学边界。点开看看他到底怎么论证的，比大多数 AI 新闻有意思。",
+      "score": 79,
+      "tags": [
+        "大佬观点",
+        "现象/趋势"
+      ],
+      "source": "X：Kim (@kimmonismus)",
+      "time": "23:30",
+      "date": "6月5日"
+    },
+    {
+      "id": "cmq12umcv0bxmsltr272hqb35",
+      "title": "Suno Voices 使用指南：6 个技巧打造高质量人声录制",
+      "link": "https://suno.com/blog/6-tips-for-voices",
+      "summary": "Suno Voices 面向 Web 付费用户开放。提升人声质量的 6 个技巧：在安静环境录音以减少背景噪音；先练习歌词再正式录制；不必追求完美，保留真实情感；录音时长尽量超过 1 分钟以提供更多学习素材；将人声匹配到合适的音乐流派（如民谣、流行、死亡金属、波萨诺瓦等）；敢于尝试不同风格以发现惊喜。这些技巧旨在帮助用户获得更个性化、表现力更强的声音效果。",
+      "reason": "Suno 官方出的 Voices 录制避坑指南，不是大新闻，但照着做能让你克隆的声音干净不少，尤其是安静环境和别怕走音那两条，做音乐的朋友可以直接收藏。",
+      "score": 64,
+      "tags": [
+        "教程/实践",
+        "语音"
+      ],
+      "source": "Suno：Blog（网页）",
+      "time": "23:26",
+      "date": "6月5日"
+    },
+    {
+      "id": "cmq12gsy20buksltr2nwivyhu",
+      "title": "苹果新版 Siri 不会被宣传为完成品，内部将其标记为“Beta”版",
+      "link": "https://www.ithome.com/0/960/739.htm",
+      "summary": "苹果新版Siri被内部标记为“Beta”版，不会作为完成品宣传；可能设置等待清单供用户尝试。iOS 27细节：通知到达重新设计，通知中心手势移至左上角；“查找”应用视觉重设计；照片“清理”功能改进；大量底层安全改进。部分Siri查询将通过Google Cloud调用授权版Gemini，并使用谷歌的NVIDIA Blackwell B200集群处理。",
+      "reason": "古尔曼这料把苹果的策略摊开了，Siri不再死守自研，用谷歌Gemini加英伟达芯片，对追求隐私的苹果是转折点，但标Beta也说明离成熟还远。",
+      "score": 73,
+      "tags": [
+        "Google",
+        "行业动态",
+        "语音",
+        "部署/工程"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "23:15",
+      "date": "6月5日"
+    },
+    {
+      "id": "cmq11mu8l0bm6sltrht2tvv27",
+      "title": "一个非常狠的AI教学提示词：追问式检查清单教学",
+      "link": "https://x.com/xiaohu/status/2062902972649222311",
+      "summary": "这是一则AI提示词，让AI扮演极度严格的老师，通过逐阶段教学、持续维护MD检查清单来确保用户真正理解。AI先让用户复述当前理解，再填补漏洞，并用开放式或选择题（随机选项顺序，提交前不公布答案）测试。教学必须覆盖问题本身、解决方案、宏观背景三个层面，并不断深挖“为什么”。仅当用户通过清单上所有项目的验证，会话才算结束。提示词强调对理解程度的主动验证，而非一次性灌输。",
+      "reason": "这个 prompt 把一个温柔解惑的 AI 变成了不依不饶的严厉老师，直接复制就能让 AI 追着你问到底，适合每个经常「以为自己会了」的人。",
+      "score": 76,
+      "tags": [
+        "教程/实践"
+      ],
+      "source": "X：小互 (@xiaohu)",
+      "time": "22:52",
+      "date": "6月5日"
+    },
+    {
+      "id": "cmq118d2f0bjmsltrjj0o010h",
+      "title": "Viggle_PINOC 免费动捕测试开启",
+      "link": "https://x.com/ViggleAI/status/2062904007123714329",
+      "summary": "Mocap 不需要套装、工作室或数千美元。\n\n使用 @Viggle_PINOC，任何人都可以简单地拍摄自己，并将该视频转换为动作捕捉。\n\n我们仍处于测试阶段，且对所有人完全免费。试试看，告诉我们你还想看什么！",
+      "reason": "动作捕捉从动捕服变成手机自拍，Viggle 这个 Pinoc 工具把 mocap 的门槛从数千美元拉到零，做动画和 VTuber 的可以直接玩起来了。",
+      "score": 65,
+      "tags": [
+        "产品更新",
+        "视频"
+      ],
+      "source": "X：Viggle AI (@ViggleAI)",
+      "time": "22:41",
+      "date": "6月5日"
+    },
+    {
+      "id": "cmq10uxf80bfesltrngu1lo15",
+      "title": "你的AI账单失控了。Cloudflare现在可以解决这个问题。",
+      "link": "https://blog.cloudflare.com/ai-gateway-spend-limits",
+      "summary": "Cloudflare AI Gateway新增实时消费限制功能，防止跨多个AI提供商的token账单失控。通过与Cloudflare Access集成，企业可以使用基于身份的预算和策略管理AI使用成本。",
+      "reason": "Cloudflare AI Gateway 新加的实时花费限制，直接掐住 token 账单失控的命门，对重度依赖多模型的团队来说，这比任何新模型发布都更实在。",
+      "score": 71,
+      "tags": [
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "Cloudflare Blog",
+      "time": "22:30",
+      "date": "6月5日"
+    },
+    {
+      "id": "cmq10uuzu0bfasltril9vjxvg",
+      "title": "",
+      "link": "https://garymarcus.substack.com/p/sir-demis-hassabis-vs-sir-demis-hassabis",
+      "summary": "",
+      "reason": "Gary Marcus 翻出 Hassabis 自己的话，两条 AI 时间线互相打脸，这对 DeepMind 的 AGI 叙事是个精准回击。",
+      "score": 59,
+      "tags": [
+        "DeepMind",
+        "大佬观点",
+        "现象/趋势"
+      ],
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "time": "22:30",
+      "date": "6月5日"
+    },
+    {
+      "id": "cmq10blts0b9qsltr3hvk0fy1",
+      "title": "开源鸿蒙 OpenHarmony 具身智能版本 EmbodiedAI 1.0.1 发布",
+      "link": "https://www.ithome.com/0/960/722.htm",
+      "summary": "6月5日，开源鸿蒙具身智能PMC（筹）发布EmbodiedAI 1.0.1版本。该版本聚焦机器人控制与智能体应用，升级导航规划、运动控制、仿真开发、硬件适配等核心能力，兼容ROS生态、机器人模拟器及多种本体形态。集成开源鸿蒙原生模拟器、MuJoCo、Gazebo三大仿真环境，打通从代码开发到真机验证的全流程链路。人形机器人、四足机器狗、商用服务机器人等已完成适配验证。目前具身智能方向已组建18个专项SIG工作组，版本源码已正式开放。",
+      "reason": "开源鸿蒙的具身智能框架终于从概念走向工程交付，EmbodiedAI 1.0.1 打通仿真和真机，对于不想被ROS绑架的机器人团队是个新选择。",
+      "score": 72,
+      "tags": [
+        "产品更新",
+        "具身智能",
+        "开源生态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "22:15",
+      "date": "6月5日"
+    },
+    {
+      "id": "cmq10bltr0b9ksltrs7mappfh",
+      "title": "Meta 智能眼镜 App 暗藏人脸识别代码，NameTag 功能已推送至超 5000 万设备",
+      "link": "https://www.ithome.com/0/960/735.htm",
+      "summary": "据《连线》今日报道，Meta 通过多次应用更新将人脸识别代码推送到智能眼镜配套 App 中，代号“NameTag”。该功能利用已部署的三个 AI 模型将人脸转换为“人脸特征模板”，与手机本地数据库匹配，识别成功后向佩戴者发送通知。App 下载量超 5000 万次。Meta 回应称代码仅为探索，尚未决定推出，且不会建立中央人脸数据库。此前 Meta 曾因人脸识别问题在伊利诺伊州和得克萨斯州分别达成 6.5 亿美元和 14 亿美元和解。",
+      "reason": "Meta一边付近百亿美元和解金，一边把完整人脸识别代码塞进 5000 万用户的眼镜里，「探索」这个解释太轻巧——代码都推送了，离功能上线只差一个开关。",
+      "score": 76,
+      "tags": [
+        "Meta",
+        "多模态",
+        "端侧",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "22:15",
+      "date": "6月5日"
+    }
+  ]
+}

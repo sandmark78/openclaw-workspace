@@ -1,0 +1,647 @@
+{
+  "date": "2026-06-22",
+  "scraped_at": "2026-06-22T05:00:05.014941+00:00",
+  "total_items": 40,
+  "items": [
+    {
+      "id": "cmqny6q7v0288slhkbzc8ob3u",
+      "title": "NSA局长：Mythos数小时内攻破其几乎所有机密系统",
+      "link": "https://x.com/AISafetyMemes/status/2068718552174252477",
+      "summary": "美国NSA局长称，Mythos在数小时内攻破了其几乎所有机密系统。此前Mythos已在5天内破解MacOS。而顶级漏洞团队Google Project Zero完成同等攻击需6个月，单个MacOS零日漏洞价值约200万美元。苹果原假设全球仅10-20个团队具备此能力，Mythos将使该数字增至数千。全球约20亿活跃苹果设备中，Mac用户多为记者、高管、政府官员等高价值目标，苹果曾是“最安全”的选择。",
+      "reason": "前NSA局长说Mythos几小时内攻破军方系统，5天破解MacOS，把零日漏洞发现速度从月压到天，安全行业的威胁模型要重写，而且背后是AI自动化攻击的可怕威力。",
+      "score": 80,
+      "tags": [
+        "安全/对齐",
+        "行业动态"
+      ],
+      "source": "X：AI Safety Memes (@AISafetyMemes)",
+      "time": "23:34",
+      "date": "6月21日"
+    },
+    {
+      "id": "cmqnokdyn007jsl4nxazzzxp1",
+      "title": "美团tabbit国际版免费接入GPT-5.5/Claude Opus 4.8等旗舰模型",
+      "link": "https://x.com/AYi_AInotes/status/2068637890247016607",
+      "summary": "美团近期上线tabbit国际版应用，免费集成多家顶级AI模型的最新旗舰版，包括GPT-5.5、Claude Opus 4.8、Gemini 3.5 Flash，以及国内Kimi-2.6、GLM-5.1、MiniMax-M3。用户无需单独订阅即可使用这些模型。需注意：只有国际版包含海外模型，国内版仅提供国内模型。该应用旨在抢占AI入口，目前处于免费推广阶段。",
+      "reason": "美团做AI入口的野心藏不住了，tabbit国际版一口吞下三家旗舰模型还全免费，对不想开多订阅的用户是实用降本方案，趁未收费值得试试。",
+      "score": 78,
+      "tags": [
+        "产品更新",
+        "推理"
+      ],
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "time": "19:05",
+      "date": "6月21日"
+    },
+    {
+      "id": "cmqnbj6i202ndsl8hb9fghqqf",
+      "title": "腾讯元宝父亲节活动：上传照片生成与年轻爸爸的合影",
+      "link": "https://mp.weixin.qq.com/s/xrTg2Bdy3FF3gn3C_gVBJQ",
+      "summary": "腾讯元宝推出父亲节主题活动，用户可选择爸爸年轻时照片与自己的照片，输入提示词（如“帮我生成一张和爸爸的合影，将图2的我融合到图1爸爸的照片中，我想穿越回__年前，和他一起_____；保留爸爸照片的背景、动作及五官；人物姿态自然协调，整体光线与色调保持一致”），元宝即可生成合影。活动旨在让用户“回到过去”看到爸爸的青春模样。",
+      "reason": "元宝的父亲节营销，但合影生成指令写得具体可复现，比普通AI写真教程更接地气，父亲节想整活的可以直接抄作业。",
+      "score": 64,
+      "tags": [
+        "图像生成",
+        "教程/实践"
+      ],
+      "source": "公众号：腾讯元宝",
+      "time": "13:00",
+      "date": "6月21日"
+    },
+    {
+      "id": "cmqmbymfe00zisl4f3pa6jwmz",
+      "title": "开源教程《Deep Agents 实战》发布",
+      "link": "https://x.com/shao__meng/status/2068306942184034471",
+      "summary": "LangChain 官方认证大使 @zhanghaili0610 推出开源教程《Deep Agents 实战》，基于 LangChain / LangGraph 生态，讲解如何用 Deep Agents Harness 框架构建真实 Agent 应用。核心是“三层架构”：Runtime（LangGraph）、Framework（LangChain）、Harness（Deep Agents）。技术内核为上下文工程，通过虚拟文件系统实现按需读取、中间结果落盘、大文件局部读取。教程共 8 章 + 2 准备篇，覆盖虚拟文件系统（六大工具）、任务规划、子 Agent 委派（异步并行）及 Skills 复用（可在 Claude Code、Cursor 等 30+ 工具中通用）。",
+      "reason": "海里的这份 Deep Agents 教程把 LangChain 生态下的 Agent 开发梳理成了清晰的三层架构，虚拟文件系统、子 Agent、Skills 这些实战点讲得透，正在做协作型 Agent 的开发者终于有个成体系的免费入门路径了。",
+      "score": 75,
+      "tags": [
+        "Agent",
+        "开源生态",
+        "教程/实践"
+      ],
+      "source": "X：邵猛 (@shao__meng)",
+      "time": "20:24",
+      "date": "6月20日"
+    },
+    {
+      "id": "cmqm0elho009fsliiybg230vu",
+      "title": "微软双向转售GPT与DeepSeek成全球最大AI中间商",
+      "link": "https://x.com/AYi_AInotes/status/2068218661710512231",
+      "summary": "彭博社报道，微软已成为全球最大AI模型中转站，既将ChatGPT卖给中国企业，也反向将DeepSeek模型卖给西方客户。报道称微软正在测试DeepSeek-R1和DeepSeek-V4，计划向西方客户提供这些中国模型。这一模式构建起跨中美AI模型的双向贸易网络。",
+      "reason": "微软做起了跨中美模型的双向经销商，这事比表面看起来意义大——它可能绕过限制，把最先进的模型分发到原本接触不到的市场，全球 AI 供应链要改写了。",
+      "score": 75,
+      "tags": [
+        "DeepSeek",
+        "Microsoft",
+        "开源生态",
+        "行业动态"
+      ],
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "time": "15:01",
+      "date": "6月20日"
+    },
+    {
+      "id": "cmqlj0jn600pdsljggy6btum5",
+      "title": "NVIDIA Research 发布 SpatialClaw：免训练空间推理框架",
+      "link": "https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning",
+      "summary": "NVIDIA Research 发布 SpatialClaw，一个免训练的空间推理框架。它通过将代码作为动作接口，让智能体调用感知工具（Depth Anything 3、SAM 3）并自由组合输出，解决视觉语言模型在 3D 空间判断上的弱点。在 20 项基准测试中平均准确率达 59.9%，比近期智能体 SpaceTools 高 11.2 个百分点，比无工具基线高 6.5 点，比结构化工具调用高 3.2 点。框架无需重新训练，同一提示词和工具集可跨所有基准和骨干网络运行，支持 Qwen3.5/3.6 及 Gemma4 等 26B 至 397B 参数的模型。",
+      "reason": "NVIDIA 把空间推理的动作接口从工具调用换成代码，这个思路很巧，20 个基准平均拉升到 59.9%，无训练即插即用，做机器人和视频理解的人该直接跑一下 repo。",
+      "score": 77,
+      "tags": [
+        "Agent",
+        "具身智能",
+        "开源/仓库",
+        "推理"
+      ],
+      "source": "MarkTechPost（RSS）",
+      "time": "06:54",
+      "date": "6月20日"
+    },
+    {
+      "id": "cmqlgwh3f006nsljg3exh1nge",
+      "title": "Figure机器人数首超人类员工",
+      "link": "https://x.com/rohanpaul_ai/status/2068089038213693800",
+      "summary": "我们已超越理论阶段。\n\n有史以来第一次，Figure的机器人数量超过了人类员工数量。",
+      "reason": "Figure 的机器人数量首次超过人类员工，这不是公关噱头，而是人形机器人从 demo 走向规模制造的真信号，做硬件的同行该认真关注了。",
+      "score": 78,
+      "tags": [
+        "具身智能",
+        "行业动态"
+      ],
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "time": "05:55",
+      "date": "6月20日"
+    },
+    {
+      "id": "cmqldpkuw0012slf9dif29msc",
+      "title": "OpenRouter vs LiteLLM：如何选择 LLM 网关",
+      "link": "https://openrouter.ai/blog/insights/openrouter-vs-litellm",
+      "summary": "OpenRouter 是托管在 Cloudflare 边缘的 LLM 网关，无需管理基础设施，收取 5.5% 平台费（前 100 万次请求免费），支持 70+ 提供商和自动故障转移。LiteLLM 是自部署代理（Docker/PostgreSQL/Redis），数据不离开内网，免费开源，但需承担基础设施成本（生产部署约数百美元/月）。当模型月支出超过约 $3,600（基础设施 $200/月）或 $9,100（基础设施 $500/月）时自托管更划算。LiteLLM 提供六种路由策略和自定义 Python 路由；OpenRouter 具备 SOC 2、GDPR 认证和零数据保留选项。两者可串联使用。",
+      "reason": "OpenRouter 这份官方对比很坦诚，把成本、延迟、合规的权衡掰开了讲，自建 LiteLLM 和托管谁更划算的算术也给清楚了，做 LLM 网关选型的直接看这篇就够了。",
+      "score": 68,
+      "tags": [
+        "开源生态",
+        "评测/基准",
+        "部署/工程"
+      ],
+      "source": "OpenRouter：Announcements（RSS）",
+      "time": "04:26",
+      "date": "6月20日"
+    },
+    {
+      "id": "cmqldpkuw0011slf9a7n9u4pa",
+      "title": "OpenRouter vs Portkey：你的团队该选哪个LLM网关？",
+      "link": "https://openrouter.ai/blog/insights/openrouter-vs-portkey",
+      "summary": "OpenRouter是托管路由网络，买credits后通过一个API路由至70+供应商，自动故障转移，无需自有密钥；覆盖300+模型（含20+免费），按用量收费（零加成+5.5%平台费，首100万免费），支持零数据保留和欧盟路由。Portkey是AI控制平面（2026年被Palo Alto收购），置于用户密钥之上，增加治理、提示管理、护栏和可观测性；提供1600+ LLM统一API，按日志计费（Developer免费，Production $49/月），支持HIPAA、SSO、私有部署。两者均可组合使用。",
+      "reason": "OpenRouter自己下场写对比，虽然立场明显，但对「路由网络 vs. 控制平面」的定位拆解很清晰，选网关的时候可以当决策清单看。",
+      "score": 59,
+      "tags": [
+        "教程/实践",
+        "部署/工程"
+      ],
+      "source": "OpenRouter：Announcements（RSS）",
+      "time": "04:26",
+      "date": "6月20日"
+    },
+    {
+      "id": "cmqlclrpp01h9sl2s1c94el8x",
+      "title": "JAWBONE Act：一项打击政府为压制合法网络言论而施压的新法案",
+      "link": "https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech",
+      "summary": "上周，参议员Ted Cruz和Ron Wyden提出两党法案JAWBONE Act，为受政府胁迫的广播商、互动计算机服务商及AI提供商创建针对政府官员的联邦诉讼权，并建立政府与中间方就用户表达问题沟通的透明度体系。法案旨在应对政府施压私营公司审查受第一修正案保护的言论。EFF支持该法案，并举证：2025年6月联邦高官威胁起诉ICEBlock创建者，同年10月司法部长要求苹果下架该应用。EFF还提起信息自由诉讼，要求披露政府与苹果、谷歌、Meta的沟通记录。",
+      "reason": "一项两党法案将允许起诉政府官员胁迫平台审查合法言论，并建立透明沟通记录制度，EFF 以 ICEBlock 被下架案为例说明其必要性，但平衡合法沟通与过度干预是关键，值得关注立法进程。",
+      "score": 75,
+      "tags": [
+        "政策/监管"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "03:55",
+      "date": "6月20日"
+    },
+    {
+      "id": "cmqlaf27b00wusl2sfbraxwid",
+      "title": "baoyu-design Skill迭代：修复导出样式与渐变丢失问题，支持AI配图导出PPTX",
+      "link": "https://x.com/dotey/status/2068042001895809420",
+      "summary": "宝玉分享 baoyu-design Skill 的迭代过程：用户测试发现导出问题（样式表未铺满整页、渐变色丢失），他在本地复现后让 Agent 分析原因、给出解决方案并添加测试覆盖，修复后效果改善。该 Skill 可在制作 PPT、动画视频或网站时调用 AI 生图配图，支持 Codex 内置画图或配合 baoyu-image-gen Skill 调用 Codex CLI 画图，并能连同图片一起导出为 PPTX，在 PowerPoint/Keynote 中二次编辑。迭代循环：自己用 → 发现问题 → 让 Agent 分析 → 出方案 → 确认 → 更新 Skill。",
+      "reason": "宝玉分享了一套用 Agent 自我诊断、自动修复 Skill 的迭代方法，从复现 bug 到让 AI 提出解决方案，开发者的打磨循环变成纯对话了，做 Agent 工具的人可以直接套用。",
+      "score": 75,
+      "tags": [
+        "Agent",
+        "教程/实践"
+      ],
+      "source": "X：宝玉 (@dotey)",
+      "time": "02:53",
+      "date": "6月20日"
+    },
+    {
+      "id": "cmql6vhtu01n0slluxpq3yvzh",
+      "title": "AI中心的数据黑洞",
+      "link": "https://www.dwarkesh.com/p/the-sample-efficiency-black-hole-2",
+      "summary": "智能的一种定义是样本效率，但近年AI进步主要靠扩充数据分布和增加算力。强化学习本质是合成数据生成——投入大量算力通过验证器筛选“好”数据，再训练模型预测正确输出。这一过程需要每个领域和技能的海量人类专家示例，数据行业年收入已达数十亿美元。近日Epoch报告，开源模型仅落后前沿闭源模型4个月，原因在于数据可从公开API蒸馏，而超参数等不易复制。人类一生接触约2亿token，前沿模型训练在数十到数百T token之间，相差近百万倍——机器人、自动驾驶等领域同样存在巨大效率差距。",
+      "reason": "Dwarkesh 把 AI 的‘笨’归因于数据效率远低于人类，计算虽简但直指要害，他给出的一个逆向洞察是开源模型四个月追上闭源，正是数据驱动进步的最好证据。",
+      "score": 60,
+      "tags": [
+        "大佬观点",
+        "数据/训练",
+        "现象/趋势"
+      ],
+      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+      "time": "01:14",
+      "date": "6月20日"
+    },
+    {
+      "id": "cmql4yj5e014zsllucl69g3l6",
+      "title": "AlphaFold 负责人 John Jumper 离职 Google DeepMind，加入 Anthropic",
+      "link": "https://x.com/demishassabis/status/2068002732250640603",
+      "summary": "AlphaFold 团队负责人 John Jumper 宣布，在 Google DeepMind 工作近 9 年后决定离职，将加入 Anthropic（先休整一段时间）。DeepMind CEO Demis Hassabis 表示，过去 9 年与 Jumper 的非凡合作改变了世界，AlphaFold 展示了 AI 在科学与医学领域的巨大潜力，并为 AI 造福人类指明了方向。Jumper 回忆，Hassabis 在他博士毕业仅 6 个月后就大胆让他领导 AlphaFold 团队，感谢团队教会他如何做伟大的科学。",
+      "reason": "John Jumper 是 AlphaFold 背后的关键科学家，他离开 DeepMind 转投 Anthropic，是个不大不小的信号，顶级 AI 人才正在重新站队，对安全和对齐的重视可能成为新一轮人才争夺的核心。",
+      "score": 72,
+      "tags": [
+        "Anthropic",
+        "Google",
+        "行业动态"
+      ],
+      "source": "X：Demis Hassabis (@demishassabis)",
+      "time": "00:21",
+      "date": "6月20日"
+    },
+    {
+      "id": "cmqkzxdp0009eslcw0jlr6pvl",
+      "title": "Cloudflare 为 AI 智能体推出临时账户",
+      "link": "https://blog.cloudflare.com/temporary-accounts",
+      "summary": "Cloudflare 在 Workers 上推出临时账户（Temporary Accounts），允许 AI 智能体直接运行 `wrangler deploy --temporary`，在数秒内获取一个可用的实时 Worker，无需绕开面向人类设计的部署流程。该功能旨在降低智能体部署门槛。",
+      "reason": "Cloudflare 给 agent 开临时账号这个功能很聪明，一步解决了身份验证和资源清理的麻烦，做智能体部署的可以认真试试。",
+      "score": 62,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "Cloudflare Blog",
+      "time": "22:00",
+      "date": "6月19日"
+    },
+    {
+      "id": "cmqkzwabf008islcwjpwe10ii",
+      "title": "禁止开源AI将是一个错误",
+      "link": "https://www.interconnects.ai/p/banning-open-source-ai-would-be-a",
+      "summary": "近期行政命令、国会提案及对Anthropic最先进模型的境外访问限制，可能开启新一轮AI监管。开源软件已支撑全球90%以上软件并创造8万亿美元经济价值，在教育、创新和竞争三方面持续赋能。Anthropic与OpenAI的封闭模型加剧市场集中，开源（尤其开放权重）是初创公司、教育机构和企业获得替代方案的唯一平衡力量。开源透明性使其更安全，更多工程师可剔除不需要的模型行为或修复漏洞。以中国竞争为由监管开源将适得其反，美国初创公司正依赖包括中国在内的开源模型提升效率。",
+      "reason": "在华盛顿弥漫监管 AI 空气的当下，这篇文章是对‘禁止开源 AI’冲动的清晰反驳。它系统梳理了开源在教育、创新和竞争中不可替代的价值，尤其适合对政策走向摇摆不定的人阅读。",
+      "score": 56,
+      "tags": [
+        "大佬观点",
+        "开源生态",
+        "政策/监管"
+      ],
+      "source": "Nathan Lambert：Interconnects（RSS）",
+      "time": "21:59",
+      "date": "6月19日"
+    },
+    {
+      "id": "cmqkxgxrb003oslu7irf0vf59",
+      "title": "/youtube-notetaker：YT 视频转 Artifacts",
+      "link": "https://x.com/omarsar0/status/2067952726282031411",
+      "summary": "YT 视频 -> Artifacts\n\n看看我如何使用新的 /youtube-notetaker 技能从 YT 视频生成 Artifacts。\n\n捕获幻灯片、笔记、转录内容……\n\n快去试试 ↓",
+      "reason": "Elvis 新做的 /youtube-notetaker skill 能直接从 YouTube 视频提取幻灯和笔记，学生和 UP 主会很受用，对业界整体没什么推动，但实用度很高。",
+      "score": 75,
+      "tags": [
+        "开源/仓库",
+        "教程/实践",
+        "视频"
+      ],
+      "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
+      "time": "20:51",
+      "date": "6月19日"
+    },
+    {
+      "id": "cmqkrei4r006ssl4zm2006sdt",
+      "title": "Humanize PPT v0.9：为演讲而生的开源PPT Skill",
+      "link": "https://mp.weixin.qq.com/s/rGoYnUcBRkfRKQPbIaawyg",
+      "summary": "Humanize PPT v0.9 是一款专为演讲场景设计的PPT Skill，核心通过AST（Audience, State, Transfer）逻辑重新编排大纲，将页面渲染外包给下游Skill。渲染前先输出4张真实预览页，并将图片、视频素材的占位与生成prompt写入大纲。新增质检环节自动修复常见渲染问题，并支持演讲模式：按S键在独立窗口显示演讲稿备注，按ESC键打开全局索引快速跳页。项目已开源至github.com/LearnPrompt/humanize-ppt，由卡尔 & yc星辰开发。",
+      "reason": "卡尔把 AI 做 PPT 的坑全趟了一遍，这套工具体系让页面从‘好看’变成‘能讲’，做演讲的人可以抄作业了。",
+      "score": 77,
+      "tags": [
+        "GitHub",
+        "MCP/工具调用",
+        "开源/仓库"
+      ],
+      "source": "公众号：卡尔的AI沃茨",
+      "time": "18:01",
+      "date": "6月19日"
+    },
+    {
+      "id": "cmqkmvyxz00hxslh6sv4zzxc7",
+      "title": "HumanScale：自我中心人类视频在具身预训练中可超越真实机器人数据",
+      "link": "https://arxiv.org/abs/2606.20521",
+      "summary": "HumanScale项目比较了自我中心人类视频与遥操作真实机器人轨迹作为具身基础模型预训练数据源。经精心设计的过滤与标注流程后，基于自我中心数据预训练的模型在真实机器人动作预测上验证损失降低24%，分布内任务成功率高52.5%，分布外任务成功率高90%。研究验证了一种可扩展范式：先以人类视频预训练学习多样世界表征，再以少量标注机器人数据微调对齐动作空间。",
+      "reason": "让机器人看人类干活视频，预训练效果居然比直接用真实机器人数据更好，这个反直觉发现可能彻底改变具身智能的数据策略，做机器人的值得认真读一读。",
+      "score": 75,
+      "tags": [
+        "具身智能",
+        "数据/训练",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "15:55",
+      "date": "6月19日"
+    },
+    {
+      "id": "cmqkhoy7906goslhiji2e8rc4",
+      "title": "我们在 Elasticsearch 上构建了一个持久化代理内存层，其召回率为0.89",
+      "link": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
+      "summary": "Agent Builder 正式上市（GA）。基于 Elasticsearch 的持久化内存层将记忆分为情景、语义、程序三类，分别存入独立索引，各设不同写速率与过期规则。召回采用 BM25 与 Jina v5 稠密向量的 RRF 融合，再经交叉编码器重排序。在 168 道 QA 题评估中，R@10 平均 0.89，零跨租户泄漏。该层可通过支持 MCP 协议的客户端访问，不绑定特定运行时，已开源至 GitHub。",
+      "reason": "Elastic 把这套代理记忆架构连同评估数据一次性放出来，三种记忆类型、混合召回、衰减和隔离全挤在一个查询里，做 Agent 持久记忆的开发者可以直接抄，召回 0.89 的工程决策讲得清楚。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "GitHub",
+        "MCP/工具调用",
+        "教程/实践"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "13:29",
+      "date": "6月19日"
+    },
+    {
+      "id": "cmqkhbjf5069eslhiepqm55gr",
+      "title": "阿里开源向量数据库Zvec，UCSD黄碧薇教授提出因果AI第四代范式",
+      "link": "https://x.com/AYi_AInotes/status/2067832098816250346",
+      "summary": "阿里开源内部向量数据库Zvec，pip install zvec免费使用，对标Pinecone每月70美元能力。支持十亿向量毫秒级检索，无需单独起服务，全平台兼容；v0.5.0新增原生全文混合搜索。UCSD黄碧薇教授（causal-learn作者）提出AI四代范式：相关性小模型→因果小模型→相关性大模型（LLM）→因果大模型，认为当前正站在第四代门口。其创立的Aether AI完成首轮融资，致力于从视频中自动抽取物理规律，探索下一代因果AI范式。",
+      "reason": "阿里把内部跑了多年的向量数据库开源了，pip一行直接跑，十亿级毫秒检索还不占额外服务，做RAG和搜索的不用再每月给Pinecone交钱，虽然刚起步，但免费生产级轮子值得一试。",
+      "score": 79,
+      "tags": [
+        "RAG",
+        "产品更新",
+        "开源生态",
+        "搜索"
+      ],
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "time": "13:19",
+      "date": "6月19日"
+    },
+    {
+      "id": "cmqkf6cny05q6slhidvc7xzf4",
+      "title": "DeepSeek研究员开源AutoResearch：AI自主跑通285B模型RL研究闭环",
+      "link": "https://x.com/AYi_AInotes/status/2067819352926150953",
+      "summary": "DeepSeek研究员Deli Chen将AutoResearch协议开源，并发布Self-play综述论文。其AI智能体首次完全自主地在DeepSeek 285B模型上完成完整RL研究闭环——从实验设计、写代码、提交GPU任务、debug到结论总结，全程零人工干预。系统调用了GRPO工具，被视为持续学习研究的开端。",
+      "reason": "Deli Chen 开源的不是模型，是能让 AI 自己跑通 RL 研究全流程的「后厨系统」，从实验设计到 debug 全自动，五个工程思路可以直接抄作业。",
+      "score": 76,
+      "tags": [
+        "Agent",
+        "DeepSeek",
+        "开源/仓库"
+      ],
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "time": "12:19",
+      "date": "6月19日"
+    },
+    {
+      "id": "cmqkc8a7h0515slhis4sq6oxb",
+      "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
+      "link": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
+      "summary": "本教程实现一个基于Salesforce CodeGen的端到端代码生成工作流。从HuggingFace加载CodeGen模型（支持350M、2B、codegen2-1B、codegen25-7b等版本），通过自然语言提示生成Python函数，随后进行函数提取、语法检查、静态安全检查、单元测试验证、best-of-N候选重排序、多步程序合成、提示词实验、基准可视化及导出。展示了CodeGen作为结构化代码生成流水线的能力，不仅完成代码补全，还能评估、筛选和组织生成结果。",
+      "reason": "这篇教程把CodeGen从单纯补全变成一个带安全检查、单元测试和候选重排序的工程化代码生成管道，读完能直接套用到日常写代码里，对想落地的开发者非常友好。",
+      "score": 75,
+      "tags": [
+        "Hugging Face",
+        "开源生态",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "MarkTechPost（RSS）",
+      "time": "10:56",
+      "date": "6月19日"
+    },
+    {
+      "id": "cmqk90yo9047fslhiqzp4ut7u",
+      "title": "如何将 SillyTavern 连接到 OpenRouter（2026 指南）",
+      "link": "https://openrouter.ai/blog/tutorials/sillytavern-openrouter",
+      "summary": "一个 OpenRouter API 密钥即可在 SillyTavern 的下拉菜单中解锁 300 多个模型，其中许多免费。指南包含五步连接流程、推荐尝试的角色扮演模型以及常见错误的修复方法。",
+      "reason": "如果你用 SillyTavern 玩角色扮演，这篇官方教程能让你五分钟接上 300+ 模型，但本身只是基础操作指南，没给出新认知。",
+      "score": 55,
+      "tags": [
+        "教程/实践"
+      ],
+      "source": "OpenRouter：Announcements（RSS）",
+      "time": "09:27",
+      "date": "6月19日"
+    },
+    {
+      "id": "cmqk90yo9047eslhiuppd7ed6",
+      "title": "OpenClaw 接入 OpenRouter",
+      "link": "https://openrouter.ai/blog/tutorials/openclaw-openrouter",
+      "summary": "OpenClaw 已内置 OpenRouter 支持，一条命令即可为 AI 智能体配置统一密钥、统一账单，并实现跨 300 多个模型的自动故障转移。同时提供具体设置步骤以及常见错误的修复方法。",
+      "reason": "给用 OpenClaw 搭 agent 的人一个直接可用的集成指南，还附带了常见报错修复，比零散摸索省时间。",
+      "score": 60,
+      "tags": [
+        "Agent",
+        "教程/实践",
+        "部署/工程"
+      ],
+      "source": "OpenRouter：Announcements（RSS）",
+      "time": "09:27",
+      "date": "6月19日"
+    },
+    {
+      "id": "cmqk6htvg03g1slhi1nagpabj",
+      "title": "八部门联合发文力推“人工智能 + 消费”，扩大 AI 手机电脑及智能网联汽车消费",
+      "link": "https://www.ithome.com/0/966/295.htm",
+      "summary": "商务部等8部门近日印发《关于加快“人工智能 + 消费”发展的实施意见》，从5方面提出17条举措。重点包括：扩大AI手机电脑、智能家居、智能网联汽车、智能穿戴、AI机器人等供给；推动AI与居家、养老、文旅、餐饮、教育等融合；促进AI在批发零售、电商、物流领域应用；建设集聚区和体验中心，开展产品租赁、共享、试用等模式创新；完善基础设施、标准体系和监管，推动互联互通。商务部将协同落实，促进AI进千家万户。",
+      "reason": "我认为这份文件把AI消费提到了国家层面，手机、汽车、零售都要智能化，产品经理应该盯住后续的补贴和标准细则。",
+      "score": 76,
+      "tags": [
+        "政策/监管",
+        "端侧"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "08:16",
+      "date": "6月19日"
+    },
+    {
+      "id": "cmqk5umoz03d0slhi4qnma1r3",
+      "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
+      "link": "https://x.com/rohanpaul_ai/status/2067755504613613699",
+      "summary": "AI 员工 Viktor 在 Slack 上实现 2000 万美元年化收入（无销售团队、未大规模推广），现已正式进驻 Microsoft Teams。Viktor 定位为零门槛 AI：用户无需学习、无需提示词，像 @同事 一样提及即可获得完整工作成果，甚至无需主动 @ 也能自动完成。产品面向 Teams 的 3.2 亿用户，助力企业内部运营和管理人员零学习成本使用 AI。即日起免费试用，含 100 美元信用额度，无需绑定信用卡。",
+      "reason": "Viktor 带着 $20M ARR 进入 Teams，把 AI 员工的门槛降到零，对于被困在审批流程里的前线员工是个真实解法。",
+      "score": 75,
+      "tags": [
+        "Agent",
+        "产品更新"
+      ],
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "time": "07:58",
+      "date": "6月19日"
+    },
+    {
+      "id": "cmqk1gfya0283slhilhufijtu",
+      "title": "OpenAI 强化学习实现广泛且持久的有益模型",
+      "link": "https://alignment.openai.com/beneficial-rl",
+      "summary": "OpenAI 通过强化学习在真实对话场景中训练模型，使其展现诚实、认知谦逊、元认知透明、可纠正性、普遍公平性和对人类福祉的关心等有益特质。训练数据涵盖健康、教育、科学、法律、工程等多个领域。训练后模型在数十项独立对齐评测（包括奖励黑客、欺骗、有害建议、规范遵从等）上均表现提升，且这种改善泛化到未参与训练的领域、任务和评分设定。在对抗性提示或微调下，模型仍难以被导向有害行为，表明有益特质强化学习可产生广泛且持久的对齐泛化。",
+      "reason": "OpenAI 这个对齐实验给出了一个反直觉发现，只在健康数据上训练有益行为竟然也能改善非健康领域的对齐，而且更难被攻破，虽然离落地还远但方向很关键。",
+      "score": 64,
+      "tags": [
+        "OpenAI",
+        "安全/对齐",
+        "论文/研究"
+      ],
+      "source": "OpenAI：Alignment 研究博客（RSS）",
+      "time": "05:55",
+      "date": "6月19日"
+    },
+    {
+      "id": "cmqjw516300uqslhirb12dvrf",
+      "title": "xAI 发布 Grok for Word 插件",
+      "link": "https://x.ai/news/introducing-word-addin",
+      "summary": "xAI 将 Grok 引入 Microsoft Word，推出免费 365 插件。用户可将笔记转为结构化文档、重写文本以提升清晰度与简洁性，也能通过插件搜索网页、X 平台或生成图表。插件支持连接 SharePoint 和 Google Drive 等外部来源，还可用于 PowerPoint 和 Excel。",
+      "reason": "Grok 正式进入 Office 生态，在 Word 里能直接整理笔记、搜索网页和生成图表，对日常办公用户是个顺手工具，但和微软 Copilot 的边界很模糊。",
+      "score": 61,
+      "tags": [
+        "xAI",
+        "产品更新",
+        "搜索"
+      ],
+      "source": "xAI：News（网页）",
+      "time": "03:26",
+      "date": "6月19日"
+    },
+    {
+      "id": "cmqjvhcit00lqslhiulrfivqk",
+      "title": "企业版新用量分析与更新的支出控制",
+      "link": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "summary": "OpenAI 为 ChatGPT Enterprise 推出信用额度用量分析与更新的支出控制功能。全局管理控制台（Global Admin Console）统一展示 ChatGPT 和 Codex 的信用消耗，支持按时间、用户、产品、模型追踪用量趋势。管理员可为整个工作区设置默认限额，按群组配置额度，并为个人设置叠加限制。员工可查看个人用量并申请增加额度（附工作上下文）。这些功能即日起可用。",
+      "reason": "仅面向ChatGPT Enterprise管理员的使用分析和预算控制更新，帮助企业追踪团队用量、控制成本，但并非行业级事件，管理者可当即启用。",
+      "score": 58,
+      "tags": [
+        "OpenAI",
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "03:08",
+      "date": "6月19日"
+    },
+    {
+      "id": "cmqjv0f7b00icslhi7qozgr78",
+      "title": "Claude Code 现已支持 artifacts",
+      "link": "https://claude.com/blog/artifacts-in-claude-code",
+      "summary": "从今日起，Claude Code 可将工作进度生成为 artifacts——实时、可分享的交互式网页，涵盖 PR 走查、系统说明、仪表盘、发布清单等。artifacts 基于会话完整上下文（代码库、连接器、对话）自动构建，更新时页面原地刷新，同事即时可见。默认仅作者可见，可分享给组织内成员，由管理员通过组织层级开关和角色权限管控。内部测试中最常见用例为调试：工程师调查事件，Claude Code 分析日志并发布包含时间线、嫌疑提交和错误率图表的 artifact，团队无需再“走过场式汇报”。",
+      "reason": "Artifacts 把 Claude Code 里的工作进展变成可分享、自动更新的活页面，等于给开发协作装了个实时投影仪，但仅限企业用户，个人开发者还得再等等。",
+      "score": 72,
+      "tags": [
+        "Anthropic",
+        "MCP/工具调用",
+        "产品更新",
+        "编码"
+      ],
+      "source": "Claude：Blog（网页）",
+      "time": "02:54",
+      "date": "6月19日"
+    },
+    {
+      "id": "cmqjur86800bvslhi6qv1647r",
+      "title": "MosaicLeaks: 你的研究智能体能保守秘密吗？",
+      "link": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "summary": "深度研究智能体在结合私有本地文档与外部网页检索时存在隐私泄露风险。MosaicLeaks 提出包含 1,001 条多跳研究链的新任务，每条链交错混合本地与公共子问题。测试发现智能体频繁泄露私有信息，单纯优化任务性能反而加剧泄露。基于此，研究提出隐私感知深度研究（PA-DR）强化学习训练方法，将严格链成功率从 48.7% 提升至 58.7%，同时将答案/全面信息泄露率从 34.0% 降至 9.9%。",
+      "reason": "这篇论文揭示了深度研究agent的多跳查询会像马赛克一样拼凑出私密信息，单纯提示减少泄露几乎没用，而隐私感知训练把泄露率从34%降到9.9%，且不损伤任务表现，做企业级agent产品的团队要重视。",
+      "score": 75,
+      "tags": [
+        "Agent",
+        "arXiv",
+        "安全/对齐",
+        "论文/研究"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "02:47",
+      "date": "6月19日"
+    },
+    {
+      "id": "cmqjtupux005wslhimmk1a4kw",
+      "title": "GPT-5.5 Instant提升ChatGPT健康智能",
+      "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "summary": "每周超2.3亿用户通过ChatGPT获取健康信息。GPT-5.5 Instant在健康评估中表现显著提升，最具挑战性评测上达到前沿Thinking模型水平，已面向所有免费用户开放。基于医生编写的HealthBench和HealthBench Professional评估，其回复在准确性、安全性和沟通质量上优于医生手写回复及早期模型，故障模式发生率更低。近两个月生产流量显示，健康类回复事实性问题率下降71%。",
+      "reason": "GPT-5.5 Instant把健康智能提升到接近前沿思考模型水平并免费提供，与医生对比的实验和71%的错误率下降让这次更新有切实证据。",
+      "score": 82,
+      "tags": [
+        "OpenAI",
+        "产品更新",
+        "评测/基准"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "02:22",
+      "date": "6月19日"
+    },
+    {
+      "id": "cmqjsqzm906hvslmhamqrju3u",
+      "title": "Claude Enterprise 推出企业托管 MCP 连接器授权管理",
+      "link": "https://claude.com/blog/enterprise-managed-auth",
+      "summary": "Claude Enterprise 推出企业托管授权功能，管理员可通过身份提供商（率先支持 Okta）为整个组织配置 MCP 连接器。用户首次登录 Claude 时自动获得授权，无需手动操作，实现零接触设置。该功能基于 Model Context Protocol 的 Enterprise-Managed Authorization 扩展构建，支持 Asana、Atlassian、Canva、Figma、Granola、Linear、Supabase 等 MCP 提供商，Slack 即将支持。授权管理集成到现有 IdP 工作流中，可按组限定范围、通过 IdP 快速撤销授权，并支持要求连接器仅通过 IdP 连接以隔离工作与个人使用。",
+      "reason": "企业 MCP 连接器不再需要每个用户手动授权，这是 MCP 生态从个人扩展到组织的关键一步，管理员终于可以像管理其他 SaaS 一样管理 Claude 的工具链。",
+      "score": 68,
+      "tags": [
+        "Anthropic",
+        "MCP/工具调用",
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "Claude：Blog（网页）",
+      "time": "01:51",
+      "date": "6月19日"
+    },
+    {
+      "id": "cmqjsqzm906huslmhlsasckqc",
+      "title": "驾驭 Claude Code：CLAUDE.md、技能、钩子、规则、子智能体等",
+      "link": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
+      "summary": "Claude Code 提供七种自定义指令方式：CLAUDE.md（根目录始终加载，子目录按需加载）、规则（无范围或路径范围）、技能（按需调用，共享 token 预算）、子智能体（隔离上下文运行并返回最终消息）、钩子（生命周期事件触发，绕过压缩）、输出样式（注入系统提示，永不压缩）和附加系统提示（CLI 标志，仅单次有效）。每种方式在加载时机、压缩行为、上下文成本和适用场景上各有不同，例如 CLAUDE.md 适合存放构建命令与编码规范，路径范围规则避免无关上下文消耗，子智能体用于并行隔离任务，钩子用于确定性自动化（如运行 linter 或备份聊天记录）。",
+      "reason": "如果你用Claude Code，这篇把定制化方法讲透了，从何时用技能到何时用钩子，比扒拉文档高效得多。",
+      "score": 72,
+      "tags": [
+        "Anthropic",
+        "MCP/工具调用",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "Claude：Blog（网页）",
+      "time": "01:51",
+      "date": "6月19日"
+    },
+    {
+      "id": "cmqjsoas006duslmh9878irin",
+      "title": "AI数据中心获政府强制电网快车道",
+      "link": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
+      "summary": "美国联邦能源监管委员会（FERC）命令六大电网运营商为数据中心等大型用户提供快速并网通道，数据中心需承担并网费用。FERC同时要求运营商考虑“替代输电技术”，并在30天内报告剩余发电容量、60天内审查本区域电价。指令并未解决发电容量短缺问题。数据中心电力需求预计到2035年增长近三倍，而电网运营商此前长期应对近乎零的需求增长。据Bloomberg，部分地区批发电价较五年前上涨了267%。",
+      "reason": "这个FERC指令给AI数据中心开了电网接入的快车道，但没解决发电容量短缺的根本问题，短期能推一批项目，长期还是缺电。",
+      "score": 70,
+      "tags": [
+        "政策/监管"
+      ],
+      "source": "TechCrunch：AI（RSS）",
+      "time": "01:49",
+      "date": "6月19日"
+    },
+    {
+      "id": "cmqjpkj4105oqslmh4rmirant",
+      "title": "Anthropic Project Fetch 第二阶段：Claude Opus 4.7 自主完成任务，速度比人类团队快约20倍",
+      "link": "https://www.anthropic.com/research/project-fetch-phase-two",
+      "summary": "Anthropic 发布 Project Fetch 实验第二阶段结果。在2024年8月原始实验中，配备 Claude Opus 4.1 的人类团队在操控四足机器人时显著超越无 AI 团队。新实验中，Claude Opus 4.7 无需人类协助即完成所有任务，速度比最快人类团队快约20倍，比无 Claude 团队快37倍以上，编码量减少近10倍。模型在传感器连接、路径规划等环节表现出色，但在精确移动沙滩球等闭环控制任务上仍存在困难。这些进展源于通用模型规模化，而非针对机器人领域的专项优化。",
+      "reason": "Anthropic 用 Claude Opus 4.7 自主操作机器狗，比当初的人类志愿者快 18-37 倍，代码量却少了十倍。这让「语言模型上手物理工具」从假想变成了可视的进度条，做具身智能和 agent 的人都该看一眼。",
+      "score": 77,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "具身智能",
+        "论文/研究"
+      ],
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "time": "00:22",
+      "date": "6月19日"
+    },
+    {
+      "id": "cmqjobpjz0578slmh79n3kqie",
+      "title": "超越 LoRA：如何选择最佳参数高效微调技术？",
+      "link": "https://huggingface.co/blog/peft-beyond-lora",
+      "summary": "参数高效微调（PEFT）技术中，LoRA 占据绝对主导：Hugging Face Hub 上 20,834 张提及单一 PEFT 技术的模型卡中 20,509 张指向 LoRA（98.4%）；外部站点 10,000 个检查点中 95.0% 是 LoRA；GitHub 搜索 `from peft import` 代码片段的 71.3% 结果为 LoRA。但研究者宣称其他技术超越 LoRA 的论文结果具备偏向性——调整学习率即可让 LoRA 匹配更优技术。Hugging Face 的 PEFT 库提供统一 API 实现 40 余种 PEFT 技术，并开始建立基准测试：在数学数据集上对 LLM 进行思维链推理微调，以帮助用户做出更优选择。",
+      "reason": "HuggingFace 的 PEFT 团队用公平基准把 LoRA 拉下神坛，图像生成任务上 OFT 表现更好，而且切换只需改一行配置。对微调选型有实打实的参考价值，但数据集有限，别全信。",
+      "score": 70,
+      "tags": [
+        "Hugging Face",
+        "教程/实践",
+        "数据/训练"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "23:47",
+      "date": "6月18日"
+    },
+    {
+      "id": "cmqjn5l3e04weslmhr1vnj797",
+      "title": "我国首部L3/L4自动驾驶强制性国标公示：2027年7月起实施",
+      "link": "https://www.ithome.com/0/966/272.htm",
+      "summary": "工信部6月16日就《智能网联汽车自动驾驶系统安全要求》等2项强制性国标公开征求意见，公示至6月24日，建议2027年7月1日起实施。该标准系我国首部针对L3/L4的强制性国标，要求系统安全水平至少达到“合格且专注驾驶人”，引入Safety Case机制。L3重点规范人机交接，L4强调自身风险处置、不得依赖远程协助。新申请车型实施日起执行，已获批车型有约一年过渡期。",
+      "reason": "首部 L3/L4 强制国标公示，意味着自动驾驶从推荐性标准升级为强制性安全底线，车企靠模糊宣传抢市场的阶段正式结束，行业竞争逻辑从此由功能展示转向安全实证。",
+      "score": 76,
+      "tags": [
+        "具身智能",
+        "政策/监管"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "23:14",
+      "date": "6月18日"
+    },
+    {
+      "id": "cmqjmtwvi04vqslmh55vbp7oh",
+      "title": "OpenAI与哈佛等合作研究：o3 Deep Research模型辅助诊断儿童罕见病，额外诊断率4.8%",
+      "link": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "summary": "波士顿儿童医院、哈佛大学与OpenAI合作，在《NEJM AI》发表研究。团队使用OpenAI o3 Deep Research推理模型重新分析376例此前未确诊的罕见病案例，产出基于证据的候选解释。经专家评审、额外检测和临床确认，医生在18例中建立诊断，额外诊断率达4.8%。研究显示，AI辅助工作流可帮助专家在未解病例中生成可检验假设，使定期再分析更具可扩展性。模型不直接诊断或做临床决策，仅提供证据链供专家审查。",
+      "reason": "这是AI辅助罕见病诊断的严肃实证，4.8%的新诊断率在专家反复分析过的病例里相当扎实。虽然离临床落地还很远，但证明推理模型能帮专家从旧数据里挖出新线索。",
+      "score": 72,
+      "tags": [
+        "OpenAI",
+        "推理",
+        "数据/训练",
+        "论文/研究"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "23:05",
+      "date": "6月18日"
+    },
+    {
+      "id": "cmqjmc80604sqslmhz4738b0k",
+      "title": "Nature两篇研究：MIRA和AMIE诊断与治疗计划媲美甚至超越医生",
+      "link": "https://the-decoder.com/ai-systems-rival-doctors-in-new-nature-studies-but-one-result-suggests-the-tech-wont-age-well",
+      "summary": "德国团队开发的MIRA智能体在模拟电子病历中操作85,000种选项，500余例急诊诊断准确率88.9%，对比测试（311例）得分87.8%，高于资深专科医生（78.1%）和混合团队（71.1%）。MIRA在阑尾炎（98.6%）和胰腺炎（92.3%）最佳，未发现危险药物交互或剂量错误，性能不受语言影响，代码已公开。谷歌AMIE采用双智能体架构，在100个多访视病例中治疗计划适切率95%（初级保健医生72%），并在药物知识基准RxQA上超过医生。两项研究均警告模拟环境与现实存在差距，实际性能可能更低。",
+      "reason": "两项 Nature 研究把 AI 诊断推到了和医生掰手腕的水平，但更值得关注的是那个被埋起来的实验：更强的模型一上来，精心搭建的 double-agent 架构几乎归零。医疗 AI 的护城河可能不是架构而是接入院内系统的能力。",
+      "score": 78,
+      "tags": [
+        "Agent",
+        "GitHub",
+        "Google",
+        "OpenAI",
+        "推理",
+        "论文/研究"
+      ],
+      "source": "The Decoder：AI News（RSS）",
+      "time": "22:52",
+      "date": "6月18日"
+    }
+  ]
+}

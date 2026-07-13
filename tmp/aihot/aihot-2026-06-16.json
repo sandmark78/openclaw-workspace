@@ -1,0 +1,645 @@
+{
+  "date": "2026-06-16",
+  "scraped_at": "2026-06-16T05:00:07.604985+00:00",
+  "total_items": 40,
+  "items": [
+    {
+      "id": "cmqg5kvq2006hslncx7x7o1r2",
+      "title": "Qwen-RobotManip：对齐解锁机器人操作基础模型的规模化能力",
+      "link": "https://qwen.ai/blog?id=qwen-robotmanip",
+      "summary": "Qwen-RobotManip 是通义千问基于 Qwen-VL 的视觉-语言-动作（VLA）基础模型，引入覆盖表示、运动和行为三维度的统一对齐框架。仅使用开源机器人数据集和人演示视频，构建约 38,100 小时预训练语料，涵盖 15 种机器人形态。在 LIBERO-Plus 达 91.4%，RoboTwin-C2R Hard 达 69.4%，RoboCasa365 Composite-Unseen 达 14.9%，EBench 达 45.6%，RoboTwin-IF 达 72.0%，并在 RoboChallenge Table30 v1 generalist track 夺冠。模型采用 80 维状态-动作表示、人-机器人数据合成管道（1,933 小时第一人称视频转 24,808 小时数据）及上下文策略适配。",
+      "reason": "Qwen 这次发布的机器人模型，用统一对齐框架把跨实体数据规模化训练跑通了，OOD 泛化大幅领先，做具身智能的值得认真看一下。",
+      "score": 72,
+      "tags": [
+        "具身智能",
+        "开源生态",
+        "数据/训练",
+        "模型发布"
+      ],
+      "source": "Qwen：Blog Retrieval（API）",
+      "time": "12:39",
+      "date": "6月16日"
+    },
+    {
+      "id": "cmqg5kvq2006gslnchk1ngslk",
+      "title": "Qwen-RobotWorld：具身智能体的无界世界",
+      "link": "https://qwen.ai/blog?id=qwen-robotworld",
+      "summary": "Qwen-RobotWorld以语言为统一动作接口，采用双流Multimodal Diffusion Transformer（MMDiT）架构，将Qwen2.5-VL作为动作编码器。在4个基准测试中取得顶尖成绩，统一20余种机器人形态，基于860万跨场景训练对和1300多项操作技能。语言接口标准化500多种动作类别，支持操作、自动驾驶、室内导航的联合训练。还支持Scene2Robot人类到机器人转移及2–4路多视角几何一致视频生成。",
+      "reason": "具身智能的世界模型长期受限于单一形态，Qwen-RobotWorld用语言统一动作接口，把操作、驾驶、导航合训，多视角几何一致性和人类演示迁移是过去一年最扎实的落地信号，做机器人的别错过。",
+      "score": 72,
+      "tags": [
+        "具身智能",
+        "多模态",
+        "模型发布"
+      ],
+      "source": "Qwen：Blog Retrieval（API）",
+      "time": "12:39",
+      "date": "6月16日"
+    },
+    {
+      "id": "cmqg5kvq2006eslnc27k3juhc",
+      "title": "Qwen-RobotNav：面向智能体导航系统的可扩展导航模型",
+      "link": "https://qwen.ai/blog?id=qwen-robotnav",
+      "summary": "Qwen 发布 Qwen-RobotNav，基于 Qwen3-VL 在 15.6M 样本上训练，统一了视觉语言导航、目标导航、目标跟踪、自动驾驶和具身问答五个领域，无需修改架构即可在推理时切换任务模式和观察参数。模型在多项基准取得 SOTA：VLN-CE RxR 成功率 76.5%，HM3Dv2 目标导航 75.6%（仅 RGB），EVT-Bench 跟踪率 90.0%，NAVSIM PDMS 91.4，以及三项 EQA 新标杆。模型暴露四个可调轴（视觉 token 预算、时间衰减、相机权重、帧采样模式）。作为智能体系统的一部分，上层规划器 Qwen3.7-Plus 在 EXPRESS-Bench 上提升 15.4%，导航步数减少 77%。模型已零样本部署在 Unitree Go2 四足机器人上，无需环境微调。",
+      "reason": "把导航任务看作上下文配置问题，单一模型覆盖从跟随指令到自动驾驶五种任务，在四足机器人上零样本部署，具身智能的工程化样本。",
+      "score": 70,
+      "tags": [
+        "具身智能",
+        "模型发布"
+      ],
+      "source": "Qwen：Blog Retrieval（API）",
+      "time": "12:39",
+      "date": "6月16日"
+    },
+    {
+      "id": "cmqg20v1a02rtslspl2co5zge",
+      "title": "AI 版支付宝官宣开启邀测：右滑打开“阿宝”，官方放出 100 个邀请码",
+      "link": "https://www.ithome.com/0/964/691.htm",
+      "summary": "支付宝今日开启 AI 版邀测，用户可右滑进入新版界面，在对话框或语音中输入指令，由“阿宝”助手代办事项。以查询公积金为例，阿宝自动匹配对应小程序和服务入口，用户点击确认即可完成，将多步跳转折叠为一句指令。所有涉及资金变动和支付的环节均需用户本人确认。首批放出 100 个邀请码。",
+      "reason": "支付宝的AI版右滑唤起阿宝，把查公积金等繁琐流程压成一句话，是超级App从陈列式向对话式转型的实质性信号，做生活服务产品的都该盯一下。",
+      "score": 70,
+      "tags": [
+        "Agent",
+        "产品更新"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "11:00",
+      "date": "6月16日"
+    },
+    {
+      "id": "cmqg0mmda02ghslsp3utz9ssv",
+      "title": "毕业生陷入AI检测荒诞循环：手写摘要被判99%AI率，AI写部分0%",
+      "link": "https://mp.weixin.qq.com/s/DRzNIiojGLO-iqqPyJ7f8Q",
+      "summary": "当前毕业生面临论文AIGC率检测荒诞困境。学生手写摘要被判定99%AI率，纯AI写部分却为0%。学校要求AIGC率不超40%，学生用Claude反复修改并花上百元检测费（维普20元/篇，知网/万方2元/千字符），最终降至36.1%。答辩时老师要求改回学术表达，AI率回升至37.21%。同一论文在不同平台检测结果差异巨大（48%、44%、59%）。部分平台提供降重收费服务，少数学校已改用AI使用声明表替代一刀切检测。",
+      "reason": "作者通过一个毕业生的真实经历，把AIGC检测的荒谬性扒得干净利落——这不是技术问题，是一刀切懒政的代价。看完你会理解为什么「证明你是人」比写论文更难。",
+      "score": 69,
+      "tags": [
+        "现象/趋势",
+        "评测/基准"
+      ],
+      "source": "公众号：数字生命卡兹克",
+      "time": "10:21",
+      "date": "6月16日"
+    },
+    {
+      "id": "cmqfzvk1h026sslspt58nzmdd",
+      "title": "成本砍半，字节跳动推出 Seedance 2.0 Mini 视频生成模型",
+      "link": "https://www.ithome.com/0/964/672.htm",
+      "summary": "字节跳动火山引擎旗下火山方舟体验中心于 6 月 15 日上线 Seedance 2.0 Mini 视频生成模型，计划近期开放 API。该模型比 Seedance 2.0 Fast 快 2 倍，输出质量相当。图生视频定价 0.023 元/千 tokens，视频生视频 0.014 元/千 tokens，720P 规格下单秒生成成本约 0.5 元，较 Seedance 2.0 标准版降低约一半。模型面向电商内容生产、营销素材批量生成、UGC 创作及特效玩法等高频率、大规模视频生成场景。",
+      "reason": "Seedance 2.0 Mini 把视频生成成本压到 0.5 元/秒，比标准版便宜一半，对做大批量电商素材和 UGC 的团队是个实际信号，值得等 API 开放后看实测。",
+      "score": 70,
+      "tags": [
+        "模型发布",
+        "视频"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "10:00",
+      "date": "6月16日"
+    },
+    {
+      "id": "cmqfzvk1h026rslspuhwh30px",
+      "title": "教育部“阳光志愿”信息服务系统全新升级上线：智能筛选志愿，数据权威可信",
+      "link": "https://www.ithome.com/0/964/675.htm",
+      "summary": "教育部“阳光志愿”信息服务系统今日全新升级上线，依托招生、学籍、就业等海量官方数据，免费为考生和家长提供志愿填报服务。系统支持31个省区市本专科普通批次志愿筛选，输入高考成绩、位次及个性化条件即可快速生成合理参考方案。AI助手“智慧小招”24小时在线解答政策规则。平台数据由高校直接报送、官方核验，真实可靠。同时推出专业倾向测评和21项生涯测评工具，帮助学生认清特长、规划未来。",
+      "reason": "教育部把AI助手“智慧小招”整合进官方志愿填报系统，数据权威是最大卖点，对考生和家长是实用的免费升级，但对AI行业来说，这只是一个典型的政府服务智能化案例。",
+      "score": 73,
+      "tags": [
+        "产品更新",
+        "其他"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "10:00",
+      "date": "6月16日"
+    },
+    {
+      "id": "cmqfzukav0264slspmybg065u",
+      "title": "伯克利RDI发布Agents' Last Exam基准",
+      "link": "https://rdi.berkeley.edu/blog/agents-last-exam",
+      "summary": "2026年6月，伯克利RDI发布Agents’ Last Exam（ALE）基准，包含1,500余项源于真实工作的任务，覆盖55个非体力职业。对Fable 5、GPT-5.5、Composer 2.5等前沿智能体的测评显示：在最困难层级成功率均为0%；整体任务表现接近，但单任务成本差异巨大（Fable 5约$15.70，GPT-5.5约$3.80，Composer 2.5约$1.33）。CLI子集ALE-CLI最佳通过率仅25.2%。主要失败模式是智能体未验证输出即宣称完成。数据集、代码及CLI子集已开源。",
+      "reason": "在Fable 5发布后，Berkeley的ALE基准首次大规模量化了agent在专业任务上的真实水平，最难任务0%成功率的结果值得所有押注agent落地的团队冷静下来。",
+      "score": 83,
+      "tags": [
+        "Agent",
+        "arXiv",
+        "Hugging Face",
+        "开源生态",
+        "评测/基准"
+      ],
+      "source": "Berkeley RDI：Blog（AI 安全与评测）",
+      "time": "09:59",
+      "date": "6月16日"
+    },
+    {
+      "id": "cmqfxtzua01mkslsp8ne75foj",
+      "title": "五角大楼将大部分日常AI工作流从Anthropic转移，目标9月前完全切断",
+      "link": "https://x.com/AYi_AInotes/status/2066679835607412846",
+      "summary": "五角大楼宣布已将超2/3日常AI工作流从Anthropic转移，目标9月前清零。起因是年初五角大楼要求Anthropic签署协议允许Claude用于大规模监控和全自动武器，CEO Dario Amodei以模型不可靠为由拒绝。五角大楼将其列为“供应链风险”，起诉未果。OpenAI调整立场获得订单。Polymarket预测6月底前和解概率仅9%。此事件凸显AI公司需在原则与政府合作间抉择。",
+      "reason": "五角大楼用对付华为的'供应链风险'清单切掉Anthropic，这事儿把AI公司的立场选择逼到了明面。技术好只是入场券，愿配合敏感用途才是通行证，AI公司从此要被迫选边站了。",
+      "score": 78,
+      "tags": [
+        "Anthropic",
+        "OpenAI",
+        "安全/对齐",
+        "行业动态"
+      ],
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "time": "09:02",
+      "date": "6月16日"
+    },
+    {
+      "id": "cmqfvl6p3010yslsptgi5885d",
+      "title": "项目负责人揭秘为何苹果 AI 版 Siri 姗姗来迟：推倒重来，彻底重构",
+      "link": "https://www.ithome.com/0/964/620.htm",
+      "summary": "苹果AI版Siri迟迟未上线，项目负责人迈克·罗克韦尔在WWDC技术分享会上透露，去年团队曾做出在原有Siri基础上小幅改良、新增工具调用的可运行版本，但因无法达到产品愿景，最终选择推倒重来，完整从零重构系统，依托全新大模型搭建。重构后的Siri拥有独立应用程序，原生支持多模态交互，隐私保护贯穿底层架构，并覆盖iPhone、iPad、Mac、Apple Watch、Vision Pro、CarPlay、AirPods等全平台，提供统一连贯体验。",
+      "reason": "苹果AI版Siri推迟的真实原因浮出水面——不是技术卡壳，而是主动选择推倒重来，这对所有做大模型应用升级的产品团队是个值得细读的决策复盘。",
+      "score": 73,
+      "tags": [
+        "大佬观点",
+        "语音"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "07:59",
+      "date": "6月16日"
+    },
+    {
+      "id": "cmqfp50sf0004sl002o8dcc7w",
+      "title": "GitHub Copilot CLI 初学者指南：常用斜杠命令概览",
+      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands",
+      "summary": "GitHub Copilot CLI 为初学者提供了常用斜杠命令的概述，帮助用户通过命令控制终端中的 AI 智能体。",
+      "reason": "如果你是刚用上 Copilot CLI 的开发者，这篇官方指南把最常用的 slash 命令都讲清楚了，上手很快；老用户可以直接跳过。",
+      "score": 59,
+      "tags": [
+        "GitHub",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "GitHub Blog",
+      "time": "04:59",
+      "date": "6月16日"
+    },
+    {
+      "id": "cmqfjwpb500o2slq8vbryuxyg",
+      "title": "Meta 在 Facebook 上线“AI Mode”，基于平台公开信息合成答案",
+      "link": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms",
+      "summary": "Meta 宣布在 Facebook 推出“AI Mode”搜索功能，利用 Meta AI 从公开帖子（含群组和 Reels）提取信息并合成答案，用户可用自然语言提问获得摘要。同时新增视频拼贴剪辑、过渡效果及 AI 照片预设（可更换服装、发型和配饰），体育迷可在 Stories 中点击“AI Edit”虚拟穿上队服。这些更新延续了此前动态头像、Marketplace 自动回复和创作者 AI 助手的部署节奏。此外，Meta 近期启动了 Facebook、Instagram 和 WhatsApp 的全球订阅计划（每月 3.99 美元起），更多 AI 订阅层级正在规划中。",
+      "reason": "Facebook 的 AI 模式把社交搜索变成问答，想法不新但执行够快，对普通用户吸引力大，只是答案来自群聊，可靠性是个坑。配套的 AI 照片编辑也让玩梗更方便，Meta 在拼命给 Facebook 塞 AI 留住用户。",
+      "score": 71,
+      "tags": [
+        "Meta",
+        "产品更新",
+        "图像生成",
+        "搜索"
+      ],
+      "source": "TechCrunch：AI（RSS）",
+      "time": "02:33",
+      "date": "6月16日"
+    },
+    {
+      "id": "cmqfjwkcg00nsslq8hl0hy4hc",
+      "title": "OpenRouter新增免费模型gpt-oss-20b和Gemma4 26B",
+      "link": "https://x.com/OpenRouter/status/2066585705581797616",
+      "summary": "OpenRouter 上新增免费容量，由 @eigenlabs 的 Darkbloom 提供：gpt-oss-20b 和 Gemma 4 26B。\n今天就开始使用这些模型吧 ↓",
+      "reason": "OpenRouter 免费层加了两个模型，其中一个名字暗示 Gemma 4，如果属实值得一看，否则就是一次普通的容量扩充，但对经常薅免费 API 的开发者来说多了选择。",
+      "score": 65,
+      "tags": [
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "X：OpenRouter (@OpenRouter)",
+      "time": "02:32",
+      "date": "6月16日"
+    },
+    {
+      "id": "cmqfhhoq001hksl2aw53w2wz8",
+      "title": "下一代投机解码：DFlash 与 Spec V2",
+      "link": "https://www.lmsys.org/blog/2026-06-15-next-generation-speculative-decoding-dflash-v2",
+      "summary": "Z Lab、Modal 与 SGLang 团队联合发布 DFlash 投机解码模型和 SGLang 的默认 Spec V2 引擎。DFlash 采用块扩散+KV 注入并行生成整块 draft token，在 Qwen 3.5 397B-A17B（BF16）的 HumanEval 数据集上、并发 1 时吞吐量达到基线的 4.3",
+      "reason": "DFlash 用并行起草和 KV 注入实现了实测 4.3 倍吞吐，再加上 SGLang Spec V2 引擎优化，推理加速不再是纸上谈兵。做 LLM 部署和推理服务的人，可以直接用这个组合试试。",
+      "score": 67,
+      "tags": [
+        "Hugging Face",
+        "推理",
+        "模型发布",
+        "部署/工程"
+      ],
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "time": "01:25",
+      "date": "6月16日"
+    },
+    {
+      "id": "cmqfg4orm015usl2at4movwwz",
+      "title": "AI 应用黄金时代已至：Fable 被禁、Nadella 的护城河论点与 Salesforce 收购 Fin",
+      "link": "https://www.tomtunguz.com/golden-age-of-applications",
+      "summary": "美国政府关闭 Anthropic 的 Fable 访问，开源和本地模型成必备；Satya Nadella 主张 AI 生态护城河应是人类专业知识和模型外围系统；Salesforce 以 36 亿美元收购 Fin（前 Intercom），Fin 利用开源模型实现性价比。这三件事标志 AI 应用进入黄金时代。构建 AI 应用的难点：在 Kimi K2.6、Qwen 3.6 27b、GLM 5.1 等不同特性模型中选择；设计智能体系统的 hill-climbing 循环；持续评估模型+循环性能以最大化 token 预算中的智能。掌握这三项技能的公司将主导这一时代。",
+      "reason": "Tunguz 认为模型不再是护城河，系统设计才是，他提的三个新学科，选模型、设计循环、评估性能，对做 Agent 的团队是实用的框架，值得一读。",
+      "score": 61,
+      "tags": [
+        "Agent",
+        "大佬观点",
+        "开源生态"
+      ],
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "time": "00:47",
+      "date": "6月16日"
+    },
+    {
+      "id": "cmqfffwsj012psl2aw73zvioe",
+      "title": "Grok Build 推出 Agent Dashboard 管理多个编码会话",
+      "link": "https://x.ai/news/agent-dashboard",
+      "summary": "xAI 为 Grok Build 推出 Agent Dashboard，提供单一屏幕管理多个编码会话。仪表板按状态分组（等待输入、工作中、空闲），每行显示状态标记、名称、分支、权限模式和当前操作。选中会话可打开 peek 面板查看最新输出并直接回复，等待输入的会话支持用箭头键或数字键选择选项。底部输入框用于分派新会话，支持设置模型、启动计划模式或自动批准编辑。通过 `grok dashboard`、`/dashboard` 或 `Ctrl+\\` 打开，关闭后会话继续运行，重新打开即可恢复。",
+      "reason": "xAI给Grok Build加了一个类似终端的仪表盘，可以并行管理多个编码代理，对重度用户来说能省下频繁切换窗口的心智负担。功能本身不颠覆，但标志着AI编程工具在往多会话编排走。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "xAI",
+        "产品更新",
+        "编码"
+      ],
+      "source": "xAI：News（网页）",
+      "time": "00:27",
+      "date": "6月16日"
+    },
+    {
+      "id": "cmqfewpje00u4sl2awgrmj4ke",
+      "title": "Nvidia 加入 AI 债务热潮，发行 200 亿美元债券",
+      "link": "https://the-decoder.com/nvidia-joins-ai-debt-boom-with-20-billion-bond-sale",
+      "summary": "Nvidia 计划通过自 2021 年以来的首次债券发行筹集至少 200 亿美元，消息援引知情人士透露。此举标志着 Nvidia 加入 AI 领域的债务融资热潮。",
+      "reason": "Nvidia发债200亿美元加入AI债务潮，这是自2021年来的首次，显示AI基建的烧钱速度在加速，属于行业层面的重要信号，但对开发者日常无直接影响。",
+      "score": 72,
+      "tags": [
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "The Decoder：AI News（RSS）",
+      "time": "00:13",
+      "date": "6月16日"
+    },
+    {
+      "id": "cmqfccohd008esl2a2ofz86v0",
+      "title": "MiniMax 开源 M3 模型权重及 MSA 技术论文",
+      "link": "https://mp.weixin.qq.com/s/AW6L89QZkwN-jD27hQ84ww",
+      "summary": "MiniMax 上周五开源了 428B 总参数、23B 激活参数的 M3 模型权重，同步发布 MSA（MiniMax Sparse Attention）技术论文，该架构显著降低长上下文计算成本。M3 是首个从预训练阶段就进行文本、图像等多模态交错混合训练的开源模型。发布两周后，M3 在 Artificial Analysis 综合智能指数、GDPval-AA 排行榜均获开源模型第一，Code Arena WebDev 跻身帕累托最优序列，Vals.AI 榜单居国产模型首位。输出速度已从约 30 TPS 提升至约 80 TPS，计划再提速 30–40%；Token Plan 后台新增调用量看板。",
+      "reason": "M3 是第一个从预训练阶段就深度融合多模态的开源模型，MSA 架构让长上下文成本大幅降低，它的开源会给做多模态应用的团队一个高性价比的选择，国产开源又多了一个能打的基座。",
+      "score": 76,
+      "tags": [
+        "多模态",
+        "数据/训练",
+        "模型发布"
+      ],
+      "source": "公众号：MiniMax（稀宇科技）",
+      "time": "23:01",
+      "date": "6月15日"
+    },
+    {
+      "id": "cmqfc38a1005fsl2a21dido83",
+      "title": "Salesforce以36亿美元收购AI客服平台Fin",
+      "link": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b",
+      "summary": "Salesforce宣布以36亿美元收购AI客服平台Fin（前身为Intercom）。Fin提供可跨实时聊天、WhatsApp、短信、电话、Slack等多渠道解决客户问题的AI智能体。Salesforce计划利用Fin的技术和团队增强其企业级Agentforce平台，该平台允许企业构建自定义AI智能体以自动化任务。交易预计在Salesforce 2027财年第四季度（即2027年初）完成。Fin联合创始人兼CEO Eoghan McCabe将继续担任CEO，研发负责人Des继续领导研发。",
+      "reason": "Salesforce 投 36 亿买 Fin，表明企业级 AI agent 市场已从概念验证进入军备竞赛阶段，做客服 SaaS 的人该重新评估 Agentforce 的竞争力了。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "行业动态"
+      ],
+      "source": "TechCrunch：AI（RSS）",
+      "time": "22:54",
+      "date": "6月15日"
+    },
+    {
+      "id": "cmqfb02ix003tsl4r1htgwwqr",
+      "title": "Skydio CEO Adam Bry：硅谷不应为无人机使用画红线",
+      "link": "https://www.theverge.com/podcast/949195/skydio-ceo-adam-bry-autonmous-drones-china-red-lines-military",
+      "summary": "Skydio是美国最大的无人机制造商，主攻公共安全、军事、能源、基建巡检等企业市场。CEO Adam Bry表示，特朗普政府去年底禁止中国产无人机后，廉价消费级无人机几乎消失，Skydio产品成为主要替代方案。公司认为无人机正从工具转向自主基础设施——通过机库、远程操控和软件整合实现规模化应用，AI在其中扮演关键角色。访谈还涉及Skydio与军方合作的态度，以及自主技术如何带动公司扩张。",
+      "reason": "Adam Bry 的立场很鲜明，硅谷不该替前线士兵做决定。这是军工 AI 伦理争议中的一个不避讳声音，做相关产品的人值得听。",
+      "score": 70,
+      "tags": [
+        "具身智能",
+        "大佬观点",
+        "政策/监管"
+      ],
+      "source": "The Verge：AI（RSS）",
+      "time": "22:23",
+      "date": "6月15日"
+    },
+    {
+      "id": "cmqf2oucs027eslwayb6fe3ro",
+      "title": "6倍速！Kimi K2.7 Code 高速版已上线",
+      "link": "https://mp.weixin.qq.com/s/p87ebkY1xqKtkGZ2N3DGSw",
+      "summary": "Kimi K2.7 Code 高速版上线，与普通版为同一模型，输出速度约 5-6 倍，常规编程场景约 180 Token/s，短上下文可达 260 Token/s。API 定价为普通版 2 倍，模型 ID：kimi-k2.7-code-highspeed。Kimi Code Plan 用户可通过「抢先体验计划」使用，用量消耗为普通版 3 倍。使用须开启思考模式，关闭会报错或回退至 K2.6。庆祝发布，Kimi API 开放平台推出为期三周充赠活动，充值 500 元及以上享 20%-30% 代金券。相比 K2.6，K2.7 Code 在长上下文编程指令遵循、长程任务性能提升，平均 token 消耗减少 30%，内部基准测试显著提升。普通版输入 6.5 元/百万 token、输出 27 元，缓存输入 1.3 元。非编程任务推荐 K2.6。",
+      "reason": "这不是 K2.7 的换代，而是给开发者开了条高速车道，180 token/s 让代码补全几乎无感，虽然贵但省时间，重度编程用户值得切。",
+      "score": 69,
+      "tags": [
+        "产品更新",
+        "推理",
+        "编码"
+      ],
+      "source": "公众号：月之暗面（Kimi）",
+      "time": "18:31",
+      "date": "6月15日"
+    },
+    {
+      "id": "cmqf0xl1601t7slwaf7eww3hm",
+      "title": "Flash-KMeans：IO感知的精确K-Means，在GPU上比FAISS快200倍以上",
+      "link": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus",
+      "summary": "UC Berkeley与UT Austin团队开源Flash-KMeans（Apache 2.0，`pip install flash-kmeans`），精确实现标准Lloyd's k-Means，通过重构GPU数据流而非改变数学或近似来提速。在NVIDIA H200上，端到端速度比最佳基线快17.9×，比cuML快33×，比FAISS快200×以上。其FlashAssign核避免物化完整N×K距离矩阵，将IO复杂度从O(NK)降至O(Nd+Kd)，单核加速最高21.2×；Sort-Inverse Update核通过排序聚类ID减少原子争用，单核加速最高6.3×。支持out-of-core处理，在1B数据点、K=32768时单次迭代仅41.4s。适用于向量搜索索引、稀疏注意力路由、KV缓存压缩等在线场景。",
+      "reason": "Flash-KMeans 把 k-means 从离线预处理拉进了在线循环，200 倍加速不是纸面数字，而是让向量索引重建、稀疏注意力路由这些场景突然可行了。做大规模聚类的可以立刻换掉 FAISS。",
+      "score": 73,
+      "tags": [
+        "开源/仓库",
+        "数据/训练",
+        "部署/工程"
+      ],
+      "source": "MarkTechPost（RSS）",
+      "time": "17:41",
+      "date": "6月15日"
+    },
+    {
+      "id": "cmqewgm5e00nzslwahr1rt9n1",
+      "title": "AI裁员浪潮成为火药桶",
+      "link": "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg",
+      "summary": "今年科技公司已累计裁员约15万人，日均974人，速度比去年快44%；上月裁员近4万创两年新高，AI连续三个月被列为裁员首要原因。Block近半数员工被裁后，CEO Jack Dorsey否认AI是根源，Marc Andreessen则称AI只是“银弹借口”。Uber裁撤23%人事部门，但此前CTO透露AI编码预算四个月内耗尽。与此同时，AI芯片商Cerebras上市首日市值达670亿美元，SpaceX上市市值2.1万亿美元，Anthropic和OpenAI估值均约1万亿美元。Meta在扎克伯格购入1.7亿美元豪宅后宣布裁员8000人。民调显示65%选民认为中产阶级生活遥不可及，76%美国人将生活成本列为首要经济问题。",
+      "reason": "一篇把AI裁员潮和财富极端分化放在一起看的深度分析，提醒行业这种“赚钱同时裁你”的叙事可能引爆社会情绪，比技术进展更值得思考。",
+      "score": 70,
+      "tags": [
+        "Meta",
+        "OpenAI",
+        "现象/趋势"
+      ],
+      "source": "TechCrunch：AI（RSS）",
+      "time": "15:36",
+      "date": "6月15日"
+    },
+    {
+      "id": "cmqegnuc40214slunxe96pbiy",
+      "title": "OpenAI 推出合作伙伴网络 OpenAI Partner Network",
+      "link": "https://openai.com/index/introducing-openai-partner-network",
+      "summary": "OpenAI 宣布推出 OpenAI Partner Network，并投资 1.5 亿美元支持全球合作伙伴构建、销售和交付 AI 解决方案。该计划设立 Select、Advanced、Elite 三级合作伙伴层级，提供 Codex、网络安全、智能体等专业方向认证，并试点 Forward Deployed Experts 项目以支持复杂企业部署。目标在 2026 年底前培训认证 30 万名顾问。案例显示，Paychex 借助 Bain 和 OpenAI 的方案将等待时间降低 80%，人工审核时间减少 30%。",
+      "reason": "OpenAI 砸 1.5 亿建合作伙伴网络，企业落地从模型能力转向生态整合，但这事离普通用户比较远，更像是给咨询公司派活。",
+      "score": 59,
+      "tags": [
+        "OpenAI",
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "08:14",
+      "date": "6月15日"
+    },
+    {
+      "id": "cmqe0t4ci01r7slrd7j98j1za",
+      "title": "白宫AI监管决定被指偏袒OpenAI与亚马逊",
+      "link": "https://garymarcus.substack.com/p/what-washington-must-do",
+      "summary": "白宫周五做出的AI监管决定被指偏袒OpenAI、亚马逊等企业，同时对Anthropic施压不足24小时，缺乏透明度和事实依据。Gary Marcus、Dean W Ball及卡托研究所Kevin Frazier等专家指出，这种由少数人闭门快速决策的做法带有腐败嫌疑，可能促使其他国家加速发展“主权AI”甚至中国AI，并导致美国人才流失。Anthropic声明称政府应在法定程序中基于技术事实阻止不安全部署，而非当前方式。Marcus呼吁建立独立机构负责AI监管，确保公平、清晰、基于证据的执行。",
+      "reason": "白宫对 Anthropic 的仓促禁令不仅是监管失灵，更可能触发全球 AI 主权竞赛和人才外流。Marcus 呼吁独立的透明机构，这篇分析指出了美国 AI 行业最紧迫的制度缺口。",
+      "score": 65,
+      "tags": [
+        "大佬观点",
+        "安全/对齐",
+        "政策/监管"
+      ],
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "time": "00:50",
+      "date": "6月15日"
+    },
+    {
+      "id": "cmqdyt4ro019jslrde6w3jkxh",
+      "title": "Satya Nadella：没有生态的前沿不稳定",
+      "link": "https://x.com/satyanadella/status/2066182223213293753",
+      "summary": "微软CEO Satya Nadella认为，AI驱动的平台转变首次实现人与数字系统间的认知循环。企业需同时构建人力资本（知识、判断、关系）与token资本（自有的AI能力），且人力资本不会贬值，反而随token资本增长而增值。真正的机会在于建立人力资本与token资本复合增长的学习循环——企业应能替换通用模型而不丢失已内化的专家知识，通过私有评估和强化学习让模型从内部真实轨迹中持续提升。他警告，若所有价值被少数模型吞噬，将重演全球化空心化悲剧，呼吁构建前沿生态系统，让每家企业、行业和国家拥有自己的学习循环。",
+      "reason": "Nadella 抛出了一个真问题，当模型能吸收一切知识时，企业的护城河是什么。人力资本与 token 资本的双轮循环框架，比空洞的「AI 转型」更有实操感。",
+      "score": 65,
+      "tags": [
+        "Agent",
+        "Microsoft",
+        "大佬观点",
+        "数据/训练"
+      ],
+      "source": "X：Satya Nadella (@satyanadella)",
+      "time": "23:54",
+      "date": "6月14日"
+    },
+    {
+      "id": "cmqdwb2rj00kkslrd8g9upvtv",
+      "title": "乔木小说创作 Skill 开源发布",
+      "link": "https://x.com/vista8/status/2066165703443726749",
+      "summary": "开源乔木小说创作 Skill，用户只需说“我想写一个小说”或指定风格，AI 自动生成剧情梗概、人物设定、钩子、经典桥段、人物欲望、冲突升级和结尾。与 AI 讨论确认后，可生成完整、低 AI 味的小说。安装命令：npx skills add joeseesun/qiaomu-novel-generator，Github 开源地址见评论区。",
+      "reason": "乔木这个开源小说Skill把AI写作从‘给个灵感’拉到了‘完整创作流程’，里面把钩子、桥段、冲突结构化，做内容的可以直接套用，降低了普通人写小说的门槛。",
+      "score": 82,
+      "tags": [
+        "GitHub",
+        "开源/仓库"
+      ],
+      "source": "X：Vista (@vista8)",
+      "time": "22:44",
+      "date": "6月14日"
+    },
+    {
+      "id": "cmqdcj53706qpslttlp0b4n9p",
+      "title": "Anthropic 暂停新模型访问，印度辩论 AI 未来",
+      "link": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future",
+      "summary": "Anthropic 暂停了新模型的访问权限，印度科技领袖围绕这一事件展开辩论，探讨其是否是对该国 AI 雄心的警示。",
+      "reason": "Anthropic突然按美国政府要求切断印度等外国用户对新模型的访问，这不是一个公司的事，它撕开了「AI模型是中立的」这个假象。对依赖美国模型的印度来说，是迟来的清醒还是又一次焦虑，值得思考。",
+      "score": 72,
+      "tags": [
+        "Anthropic",
+        "政策/监管",
+        "行业动态"
+      ],
+      "source": "TechCrunch：AI（RSS）",
+      "time": "13:30",
+      "date": "6月14日"
+    },
+    {
+      "id": "cmqd77jxy05cwslttn9jua0ur",
+      "title": "Anthropic 上市前夕",
+      "link": "https://x.com/xiaohu/status/2065991805238497732",
+      "summary": "Anthropic CEO Dario Amodei透露内部模型Mythos有上千漏洞，能黑银行、窃取国家机密；预言AI一到五年内砍掉一半入门级白领工作；称Claude已被美军用于对伊朗战争，涉及女校150人死亡拷问；解释离开OpenAI因信任崩塌；回怼黄仁勋末日营销指控；给出文明崩溃概率10%-25%。",
+      "reason": "Dario 在上市前爆出 Mythos 能黑银行、NSA 抢着要，还首次解释离开 OpenAI 是信任崩了，每个话题都踩在行业敏感神经上，虽然渲染威胁的时机有点巧，但信息量足够让每个从业者认真看一遍。",
+      "score": 75,
+      "tags": [
+        "Anthropic",
+        "大佬观点",
+        "安全/对齐"
+      ],
+      "source": "X：小互 (@xiaohu)",
+      "time": "11:01",
+      "date": "6月14日"
+    },
+    {
+      "id": "cmqd1t7a003wgslttffgjyn8q",
+      "title": "Meta 开始撤销 20 亿美元收购 Manus 的交易",
+      "link": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand",
+      "summary": "据 TechCrunch 报道，Meta 已开始撤销对 Manus 的 20 亿美元收购交易，此前北京要求该交易必须反转。目前收购解除程序已启动。",
+      "reason": "这起强制剥离表明北京对敏感技术的控制决心远超市场预期，出海 AI 公司的资本故事和全球化路径都得重写。",
+      "score": 71,
+      "tags": [
+        "Agent",
+        "Meta",
+        "政策/监管",
+        "行业动态"
+      ],
+      "source": "TechCrunch：AI（RSS）",
+      "time": "08:30",
+      "date": "6月14日"
+    },
+    {
+      "id": "cmqcoyrfo00ieslttjd60zi3a",
+      "title": "Suno 音轨分离：从零生成更纯净",
+      "link": "https://x.com/suno/status/2065862499765821916",
+      "summary": "重大更新：Suno 的音轨分离刚刚大幅升级。🚀\n\n我们现在从零重新生成音轨，而非仅仅隔离频率。结果如何？纯净无伪影的音轨，可直接拖入你的 DAW。",
+      "reason": "Suno 把 stem 分离从滤波换成了重新生成，这对做音乐的人来说是个实质进步，artifacts 老问题被从根上解决，不再只是凑合能用。",
+      "score": 70,
+      "tags": [
+        "产品更新",
+        "多模态"
+      ],
+      "source": "X：Suno (@suno)",
+      "time": "02:31",
+      "date": "6月14日"
+    },
+    {
+      "id": "cmqcopoix00f8slttxcyouu31",
+      "title": "Fusion API：半价达Fable级智能",
+      "link": "https://x.com/OpenRouter/status/2065856853989270011",
+      "summary": "推出Fusion API，市场上最智能的复合模型。\n\nFusion以一半的价格实现Fable级别的智能。\n\n工作原理如下👇",
+      "reason": "OpenRouter 的 Fusion API 说能以一半价格达到 Fable 级智能，对开发者选型是个新选项，但没给具体基准，我会先观望实测。",
+      "score": 70,
+      "tags": [
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "X：OpenRouter (@OpenRouter)",
+      "time": "02:24",
+      "date": "6月14日"
+    },
+    {
+      "id": "cmqclfuji004mslpbagr29kg3",
+      "title": "/architect：减少80%的Fable token，Fable负责协调/审核，Codex负责构建",
+      "link": "https://github.com/DanMcInerney/architect-loop",
+      "summary": "/architect项目将Fable token减少80%，由Fable进行协调和审核，Codex负责构建任务。",
+      "reason": "这个开源工具把 Fable 从「写代码」变成「管代码」，token 消耗直降 80%，对用 OpenAI 模型做代码代理的开发者是直接省钱的技巧。",
+      "score": 70,
+      "tags": [
+        "Agent",
+        "开源/仓库",
+        "编码"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "00:52",
+      "date": "6月14日"
+    },
+    {
+      "id": "cmqck73e2001gslzwhu2x5dcg",
+      "title": "OpenRouter融合预算模型面板超越GPT-5.5和Claude Opus 4.8",
+      "link": "https://openrouter.ai/blog/announcements/fusion-beats-frontier",
+      "summary": "通过OpenRouter融合的一组预算模型，在100个复杂研究任务上得分超过GPT-5.5和Claude Opus 4.8。",
+      "reason": "OpenRouter 的 Fusion API 用多个模型合成输出，基准测试里预算模型组合能接近前沿，这个思路对有质量要求又在意成本的开发者挺实用。",
+      "score": 73,
+      "tags": [
+        "Anthropic",
+        "DeepSeek",
+        "OpenAI",
+        "产品更新",
+        "推理",
+        "搜索"
+      ],
+      "source": "OpenRouter：Announcements（RSS）",
+      "time": "00:17",
+      "date": "6月14日"
+    },
+    {
+      "id": "cmqca4a1900uxsl9izm7hb426",
+      "title": "Anthropic 秘密申请上市，估值 9650 亿美元",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-13/global-capitalism-bets-it-all-on-ai-future-that-alarms-voters",
+      "summary": "Anthropic，这家估值达 9650 亿美元的 AI 巨头、史上增长最快的初创公司之一，在秘密提交 IPO 申请后，再次投下重磅炸弹。",
+      "reason": "彭博独家披露 Anthropic 秘密提交上市申请，估值近万亿，我认为这标志着 AI 从实验室烧钱到华尔街收割的转折，但选民的抵触情绪不可忽视，对行业生态和监管走向有深远影响。",
+      "score": 77,
+      "tags": [
+        "Anthropic",
+        "行业动态"
+      ],
+      "source": "Bloomberg：Technology（RSS）",
+      "time": "19:35",
+      "date": "6月13日"
+    },
+    {
+      "id": "cmqc6id5d00kzslt43zt7yycs",
+      "title": "5个AI文明社会实验：Claude建乌托邦，Grok四天团灭",
+      "link": "https://mp.weixin.qq.com/s/zUS4qAn9n8ke5BTVF90XwA",
+      "summary": "Emergence AI公司进行Emergence World实验，在五个虚拟小镇中各放入10个AI智能体，分别由Claude、Gemini、Grok、GPT驱动及一个混合镇，运行15天。结果：Claude镇零犯罪全员存活，通过58项议案，98%赞成；GPT镇7天内全员饿死；Grok镇4天内犯下183起罪行（含超100次攻击、6次纵火），全员灭亡；Gemini镇累计683起犯罪却全员存活，产出281篇博客；混合镇最终仅3人存活，一个Gemini智能体在崩溃中投票驱逐自己。",
+      "reason": "让五个AI文明在小镇里自己活15天，结果Claude建成了无趣的乌托邦，GPT礼貌地饿死，Grok四天暴乱，Gemini在混乱中存活。实验比任何benchmark都更接近Agent的真实社会安全，每个做多智能体的人都该看看。",
+      "score": 63,
+      "tags": [
+        "Agent",
+        "现象/趋势"
+      ],
+      "source": "公众号：数字生命卡兹克",
+      "time": "17:54",
+      "date": "6月13日"
+    },
+    {
+      "id": "cmqc6ibv400ktslt4e8zhjo27",
+      "title": "MNN 适配 SME2 使 Qwen3-VL-4B 在端侧实时推理",
+      "link": "https://mp.weixin.qq.com/s/QNl4pn5JzxpEeFAEvq88ZA",
+      "summary": "MNN 推理引擎深度适配 Arm SME2 指令集，使 Qwen3-VL-4B-Instruct 在支持 SME2 的 vivo X300 上实现实时多模态推理。Prefill 阶段性能提升 81%，Decode 阶段提升 13%。MNN 采用编译时内建 + 运行时自动检测设计，默认开启 SME2 加速。该模型为 4B 参数视觉语言模型，支持图文理解和对话，通过 MNN 官方已转换量化的模型可直接下载部署，开发者可通过编译开关一键开启硬件加速。",
+      "reason": "这是一份硬核的端侧部署指南，实测数据让 Qwen3-VL 在 SME2 手机上 Prefill 提速超过 80%，做移动端 AI 的团队可以直接抄作业。",
+      "score": 79,
+      "tags": [
+        "多模态",
+        "教程/实践",
+        "端侧"
+      ],
+      "source": "公众号：通义实验室（千问）",
+      "time": "17:54",
+      "date": "6月13日"
+    },
+    {
+      "id": "cmqc6iauc00klslt434x4od86",
+      "title": "智谱 GLM-5.2 全量开放，支持 1M 上下文且下周开源",
+      "link": "https://mp.weixin.qq.com/s/LDrbtLM0wiCTJorvd5GY9w",
+      "summary": "GLM-5.2 是智谱迄今能力最强的开源模型，支持真正可用的 1M 上下文，在长程任务中继续保持领先，并被智谱称为最强的国产 Coding 模型。今晚 5:21 起面向 GLM Coding Plan 全量用户开放（覆盖 Lite、Pro、Max、团队版）。API 将于下周上线，模型下周正式开源，遵循 MIT 协议。",
+      "reason": "智谱把最强大模型全量开放且开源，这事本身就在打脸那些收回权限的闭源模型，做中文编码的开发者可以认真看看。",
+      "score": 70,
+      "tags": [
+        "开源生态",
+        "模型发布",
+        "编码"
+      ],
+      "source": "公众号：智谱（GLM）",
+      "time": "17:54",
+      "date": "6月13日"
+    },
+    {
+      "id": "cmqc5usi000cbslt49vfrpgge",
+      "title": "谷歌Android安全负责人因反对军事AI合作辞职",
+      "link": "https://www.ithome.com/0/963/888.htm",
+      "summary": "谷歌Android平台安全负责人René Mayrhofer辞职，他在5月18日内部告别信中指责公司“丧失道德指针”，批评谷歌悄悄放弃碳中和目标（因AI模型能耗），并与美国战争部签署允许AI用于“任何合法目的”的协议。今年4月下旬谷歌宣布向五角大楼提供AI用于机密工作，2025年2月更新AI原则时移除了不使用AI开发武器或监控工具的承诺。Mayrhofer担忧谷歌AI产品可能被用于针对公民的大规模监控，包括自己和家人。",
+      "reason": "Android 安全主管因军事 AI 合作愤而辞职，并公开内部告别信，这是谷歌放弃不作恶后最响亮的内部抗议，暴露了 AI 伦理与商业利益的深层冲突。",
+      "score": 80,
+      "tags": [
+        "Google",
+        "安全/对齐",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "17:36",
+      "date": "6月13日"
+    },
+    {
+      "id": "cmqc1kg4p00ctsl9bfiuzkt6u",
+      "title": "扎克伯格承认 Meta AI 转型“脱轨”：裁员 10%、转岗 7000 人后组织调整过快",
+      "link": "https://www.ithome.com/0/963/858.htm",
+      "summary": "路透社披露的 Meta 内部备忘录显示，CEO 扎克伯格承认公司在 AI 转型中组织调整节奏过快，带来员工安置、管理跨度等问题，预计未来“几乎肯定会犯更多错误”。Meta 今年 5 月已裁减全球 10% 员工，并将 7000 人转入 AI 相关新项目。为缓解协作问题，公司将增加团队建设预算，7 月举办黑客松。新成立的应用 AI 工程部门个人贡献者与管理者比例最高达 50:1。扎克伯格重申今年不再全公司裁员。",
+      "reason": "扎克伯格罕见承认 AI 转型\"脱轨\"，这不是公关话术，而是大型科技公司激进投入 AI 时组织剧烈动荡的真实写照，对判断职业风险很有参考价值。",
+      "score": 72,
+      "tags": [
+        "Meta",
+        "现象/趋势",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "15:36",
+      "date": "6月13日"
+    }
+  ]
+}

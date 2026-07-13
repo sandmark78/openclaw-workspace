@@ -1,0 +1,647 @@
+{
+  "date": "2026-07-08",
+  "scraped_at": "2026-07-08T05:00:17.840691+00:00",
+  "total_items": 40,
+  "items": [
+    {
+      "id": "cmrblfb8a050sihl1484pa3wo",
+      "title": "AI 审计代理在 Cloudflare CIRCL 中发现 7 个漏洞",
+      "link": "https://blog.zksecurity.xyz/posts/circl-bugs",
+      "summary": "zkSecurity 的 AI 审计代理 zkao 持续扫描 Cloudflare 的 CIRCL 密码学库，使用 Opus 4.6 + skills 和 GPT-5.3 + skills 等模型发现并确认了 7 个真实漏洞。其中包括阈值 RSA 中 float64 精度丢失（AI 自评 Critical）和属性基加密（CP-ABE）访问控制完全失效（Critical，由 zkao 自行发现）。所有漏洞已在上游修复，多数在 HackerOne 上获得确认和奖励。AI 生成的候选发现仍需人工验证，但 zkao 已能自动完成大部分验证工作。",
+      "reason": "zkSecurity用AI扫了Cloudflare的密码学库，挖出7个真实漏洞，从浮点数精度损失到访问控制完全破防。这是AI在密码学审计里第一次证明自己能找到能用的漏洞，不是纸上谈兵。虽然后面发现AI对严重性的判断还很瞎，但整体值得安全从业者一读。",
+      "score": 71,
+      "tags": [
+        "Anthropic",
+        "OpenAI",
+        "安全/对齐",
+        "编码",
+        "论文/研究"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "12:44",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrbkf2e804qlihl1e8qe5q4a",
+      "title": "美国商务部批准OpenAI大规模发布GPT-5.6，Sol明日亮相",
+      "link": "https://www.ithome.com/0/973/922.htm",
+      "summary": "美国商务部正式批准OpenAI大规模发布GPT-5.6。OpenAI宣布GPT-5.6 Sol将于本周四完成最后准备后，与Terra和Luna一同面向公众推出。此前因国家安全考量，美国政府要求分阶段发布，仅允许向经批准的有限实体开放。此次全面放行标志着临时管控结束。获批前，美国商务部下属AI标准与创新中心执行了测试，OpenAI技术团队驻扎华盛顿配合沟通。美国最新AI行政令即将出台，旨在为先进AI模型发布建立正式评估框架。",
+      "reason": "美国政府撤销 GPT-5.6 的发布限制，Sol 明日亮相，这是 AI 监管的一次实际测试，开发者终于能摸到真东西了。",
+      "score": 80,
+      "tags": [
+        "OpenAI",
+        "政策/监管"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "12:15",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrbikwbz04b5ihl16qfp5ntw",
+      "title": "蚂蚁集团旗下Robbyant开源LingBot-Vision：1B参数边界中心视觉基础模型，用于密集空间感知",
+      "link": "https://www.marktechpost.com/2026/07/07/ant-groups-robbyant-open-sources-lingbot-vision-a-1b-boundary-centric-vision-foundation-model-for-dense-spatial-perception",
+      "summary": "蚂蚁集团旗下具身智能公司Robbyant开源LingBot-Vision，一套自监督视觉Transformer家族，专为密集空间感知设计。旗舰ViT-g/16参数约1.1B，采用掩膜边界建模训练，将边界作为原生预训练信号。在密集空间任务中，该1B模型匹配或超越参数规模高达7倍的大模型（如7B DINOv3）。模型以Apache-2.0许可证在Hugging Face开源，提供ViT-g、ViT-L（300M）、ViT-B（86M）、ViT-S四个规模。",
+      "reason": "在视觉基础模型里把边界当作核心信号，这个思路很反常识，1B模型在深度估计上超过7B的DINOv3，做机器人的可以认真看看。",
+      "score": 71,
+      "tags": [
+        "具身智能",
+        "多模态",
+        "模型发布"
+      ],
+      "source": "MarkTechPost（RSS）",
+      "time": "11:24",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrbg84yf03mcihl1reivcibq",
+      "title": "Nemotron-Labs-Diffusion：统一自回归、扩散与自我推测解码的三模式语言模型",
+      "link": "https://arxiv.org/abs/2607.05722",
+      "summary": "Nemotron-Labs-Diffusion 是一种三模式语言模型，通过联合自回归（AR）和扩散损失训练，在单一架构中统一了 AR、扩散和自我推测解码。研究显示 AR 与扩散目标互补：扩散增强前瞻规划，AR 提供从左至右的语言先验。自我推测模式下，扩散充当草稿模型、AR 负责验证，其接受率和实际设备效率均优于多 token 预测（MTP）。在最优化采样器下，单次前向传播产出 token 数比自我推测最多高 76.5%。该系列包含 3B、8B、14B 参数的基础、指令和视觉语言模型，在准确率和速度上均超越现有开源 AR 和扩散 LM。例如 8B 模型单次前向解码 token 数是 Qwen3-8B 的 6 倍，在 GB200 GPU 上使用 SGLang 运行 SPEED-Bench 时吞吐量提升 4 倍。",
+      "reason": "NVIDIA 把自回归和扩散塞进同一个模型，吞吐量拉高 4 倍，做实时应用的团队可以开始换架构了。",
+      "score": 72,
+      "tags": [
+        "arXiv",
+        "多模态",
+        "推理",
+        "模型发布"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "10:18",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrbg84yf03mbihl1gfbbgeuz",
+      "title": "AlayaWorld：长程可玩视频世界生成",
+      "link": "https://arxiv.org/abs/2607.06291",
+      "summary": "AlayaWorld 是一个全栈开源框架，用于构建交互式生成世界。该框架支持开放式实时交互，用户可自由导航并执行战斗、施法、召唤怪物等多种动作。AlayaWorld 将数据准备、模型架构、训练、推理加速和部署统一在模块化可扩展的架构中，并发布了可复现流程、参考实现、评估工具和完整文档，为生成世界模型的未来研究与实时应用奠定基础。",
+      "reason": "AlayaWorld 把生成世界从 demo 变成了可交互的全栈开源框架，放出了完整 pipeline，对做游戏和具身智能的团队来说是一套可以立刻跑起来的工具链，值得落地尝试。",
+      "score": 73,
+      "tags": [
+        "arXiv",
+        "具身智能",
+        "开源/仓库",
+        "视频"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "10:18",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrbez8y903b9ihl133b5wr18",
+      "title": "Pulpie：用于清理网络的Pareto最优模型",
+      "link": "https://usefeyn.com/blog/pulpie-pareto-optimal-models-for-cleaning-the-web",
+      "summary": "Pulpie是一族Pareto最优模型，用于从HTML页面提取主要内容。其最小模型pulpie-orange-small（210M参数）在WebMainBench上取得0.862的ROUGE-5 F1分数，接近600M参数的Dripper（0.864），但成本仅1/20。在NVIDIA L4 GPU上，Pulpie处理速度13.7页/秒，Dripper仅0.68页/秒。清理10亿页HTML，Pulpie成本约$7,900，Dripper需$159,000。模型采用编码器架构，单次前向传播即可标记每个HTML块为内容或模板，已在HuggingFace开源。",
+      "reason": "做网页清洗的同行该更新工具了，Pulpie 以二十分之一的成本追平 SOTA 质量，而且开箱即用，是今年数据管线里最值得换的组件之一。",
+      "score": 75,
+      "tags": [
+        "Hugging Face",
+        "开源生态",
+        "数据/训练",
+        "模型发布"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "09:43",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrbdsefa02yjihl17gg7mhx3",
+      "title": "蚂蚁集团周俊AICon演讲：从Token数量到Token密度，万亿参数模型效率优先",
+      "link": "https://mp.weixin.qq.com/s/dsIfi4C-T5Q4emmIh-7yzg",
+      "summary": "蚂蚁集团副总裁周俊在AICon演讲指出，万亿参数模型每运行15分钟算力成本约等于一辆特斯拉，效率是智能体时代最需解决的问题。团队提出从“更多Token”转向“更高Token密度”策略，采用7份Lightning Attention加1份MLA的混合线性注意力架构，使256K长上下文成本从指数级降至线性级，算力更多用于思考。通过Kpop算法区分工具调用与自然语言Token，结合思维链剪枝、自蒸馏等，Token输出减少约4倍而能力不降。在LongBench、BFCL等基准上提升显著，千亿参数模型在Agent任务中超越部分更大模型；小模型flash吞吐达2.4倍，五轮对话成本下降10倍以上。",
+      "reason": "蚂蚁百灵副总裁周俊这次分享，把大模型效率问题从零散优化推到了架构、训练、智能体协同设计的范式层面，7+1 混合注意力方案和 Kpop 算法对做模型的人是实质参考。",
+      "score": 64,
+      "tags": [
+        "Agent",
+        "大佬观点",
+        "推理"
+      ],
+      "source": "公众号：蚂蚁百灵（Ling）",
+      "time": "09:10",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrbdqlcv02y4ihl11xbxx9xs",
+      "title": "Claude开发者分享两种多智能体模式：Advisor和Orchestrator",
+      "link": "https://x.com/shao__meng/status/2074661249804366310",
+      "summary": "Claude开发者官方分享团队高频使用的两种多智能体模式。Advisor模式：Sonnet 5作为执行者，通过tool call调用Fable 5获取指导。SWE-bench Pro（482题）上，Sonnet 5单独75.5%/$0.75，加顾问达84%/$1.40，Fable 5单独91.5%/$2.25；组合方案约92%性能、63%成本。Orchestrator模式：Fable 5作为编排者规划并向多个Sonnet 5 worker扇出任务。BrowseComp上，全Sonnet 5 77.8%/$16.01，编排方案86.8%/$18.53，全Fable 5 90.8%/$40.56；编排方案约96%性能、46%成本。",
+      "reason": "Anthropic 官方首次公开内部多智能体模式并附上数据，给出的性价比不是省一点而是数量级的优化，对于正在用 Fable 5 又嫌贵的开发者，这就是省钱模板。",
+      "score": 80,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "教程/实践"
+      ],
+      "source": "X：邵猛 (@shao__meng)",
+      "time": "09:08",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrbc048n02j2ihl1all0ymge",
+      "title": "《人生设计课》Prompt实测：用Claude设计人生的四个阶段",
+      "link": "https://mp.weixin.qq.com/s/VDlBdkspV0SQNFJYLxOogQ",
+      "summary": "作者将斯坦福《人生设计课》理论体系制成Prompt，通过Claude逐步提问、追问和分析。Prompt融合设计思维、心流理论和积极心理学，分为看清现状、找到指南针、寻路、制定奥德赛计划四阶段，主线问题控制在6到9个。AI引导用户给健康、工作、娱乐、爱打分，区分重力问题与可设计的真问题，生成三个五年人生版本，最终输出8000至12000字的《个人人生设计蓝图》。作者实测效果超预期。",
+      "reason": "卡兹克把《人生设计课》的整套方法论炼成了一个追问型Prompt，它不替你规划人生，但能用一连串苏格拉底式逼问把你心里一直没厘清的线头拽出来。比心理咨询轻量，比鸡汤硬核，想用AI认真盘一盘自己方向的人值得花半小时玩一遍。",
+      "score": 75,
+      "tags": [
+        "Anthropic",
+        "教程/实践"
+      ],
+      "source": "公众号：数字生命卡兹克",
+      "time": "08:20",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrb7dzge01d6ihl1bthomtam",
+      "title": "Rowboat：开源、本地优先的桌面AI助手",
+      "link": "https://github.com/rowboatlabs/rowboat",
+      "summary": "Rowboat 是一个开源、本地优先的桌面 AI 助手，将邮件、会议、Slack 等数据索引为 Obsidian 风格的知识图谱，提供持久上下文记忆。内置邮件客户端、浏览器、会议记录器、代码模式（可调用 Claude Code 或 Codex 代理），并支持按事件或定时运行的背景代理。用户可通过 MCP 协议接入 Exa 搜索、GitHub 等外部工具。所有数据以纯 Markdown 格式本地存储，无供应商锁定，支持 Ollama/LM Studio 本地模型或使用 API 密钥的托管模型。",
+      "reason": "Rowboat 把整个工作台搬到了本地，知识图谱长期记忆的设计比大多数『聊天+搜索』的 AI 桌面工具更深，如果你受够了云端的隐私焦虑和冷启动，这个开源项目值得关注。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "产品更新"
+      ],
+      "source": "Hacker News：AI 热帖",
+      "time": "06:11",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrb4j2zx00n4ihl14u6xv7kz",
+      "title": "Krea 2 身份保留功能上线",
+      "link": "https://x.com/krea_ai/status/2074589965653303321",
+      "summary": "Krea 2 的身份保留功能已发布，配套模型和 ComfyUI 节点也已上线。🔥",
+      "reason": "Krea 2的ID保持终于被社区做出来了，附带ComfyUI节点，想稳定控制角色一致性的人可以立刻用起来。",
+      "score": 66,
+      "tags": [
+        "图像生成",
+        "开源/仓库",
+        "开源生态"
+      ],
+      "source": "X：Krea AI (@krea_ai)",
+      "time": "04:51",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrb2mxmc0072ihl1mx0aw1bz",
+      "title": "Meta Superintelligence Labs 推出 Muse Image 和 Muse Video",
+      "link": "https://x.com/AIatMeta/status/2074577662840832382",
+      "summary": "Meta Superintelligence Labs 发布首个媒体生成模型 Muse Image 和 Muse Video。Muse Image 是目前最先进的图像生成模型，能精确遵循指令、精准编辑、多参考构图，并利用 Instagram 社交上下文。它还具备智能体工具使用能力并集成 Muse Spark。用户可通过 Meta AI 应用、网页、Instagram Stories 和 WhatsApp 试用，初始限于部分国家。Muse Video 基于相同预训练基础，实现高视觉保真度并原生支持音频。",
+      "reason": "Meta 超级智能实验室的首个媒体生成模型，把图像生成跟 Instagram 社交语境结合听起来很实用，但细节还少，期待后续实测。",
+      "score": 75,
+      "tags": [
+        "Meta",
+        "图像生成",
+        "模型发布",
+        "视频"
+      ],
+      "source": "X：AI at Meta (@AIatMeta)",
+      "time": "03:58",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrb18k7802uuihogxse92jx2",
+      "title": "Hugging Face Storage 成为 SkyPilot 一级后端：零出站费跨云存储",
+      "link": "https://huggingface.co/blog/skypilot-hf-storage",
+      "summary": "Hugging Face Storage 现为 SkyPilot 的一级后端。用户通过 `hf://` URL 和现有 HFTOKEN 即可将 Hugging Face Bucket（读写）或模型/数据集/Space 仓库（只读）挂载到 SkyPilot 任务中，支持 MOUNT（FUSE 懒加载）或 COPY 模式。SkyPilot 可将任务调度到 20+ 云、Kubernetes、Slurm 及本地集群的任意可用 GPU 上。Hugging Face 不收取出站及 CDN 费用，故跨云读取数据无额外成本。存储价格 $12–18/TB/月，低于 AWS S3 加出站费。Bucket 基于 Xet，增量检查点和模型变体仅存储和传输改动部分。",
+      "reason": "Hugging Face 和 SkyPilot 把存储和算力真正解耦了，跨云读取模型零出口费，用过 SkyPilot 的团队可以立刻省下那块 egress 账单。",
+      "score": 67,
+      "tags": [
+        "Hugging Face",
+        "产品更新",
+        "开源生态",
+        "部署/工程"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "03:18",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrb0u6pv02qtihogovduu795",
+      "title": "微软为降成本在Copilot中用自研MAI模型替换OpenAI和Anthropic模型",
+      "link": "https://the-decoder.com/copilot-goes-cheap-as-microsoft-phases-out-openai-and-anthropic-models-to-cut-costs",
+      "summary": "微软正用自研MAI模型替换Copilot产品中的OpenAI和Anthropic模型以降低支出。MAI模型已在Excel和Outlook中每周处理数万次请求，但占比仍小。Build大会上发布推理模型MAI-Thinking 1，声称编码媲美Sonnet 4.6和Opus 4.6，但基准测试大幅落后，仅与DeepSeek V3.2相当。AI负责人承认目标是削减并消除对Anthropic的支出。CEO暗示未来可能按用量计费，MAI为默认，第三方模型付费附加。微软称MAI使用干净商业许可数据，实际基于Common Crawl。",
+      "reason": "微软正悄悄把Copilot里的OpenAI和Anthropic模型换成自家MAI，用户可能要为更弱的AI付同样的钱。这对所有依赖Copilot的团队是个警告，现在就该重新评估工作流。",
+      "score": 71,
+      "tags": [
+        "Microsoft",
+        "现象/趋势",
+        "行业动态"
+      ],
+      "source": "The Decoder：AI News（RSS）",
+      "time": "03:07",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrayv5ja0293ihog3rixaqua",
+      "title": "YC CEO声称每日用AI部署3.7万行代码，开发者审查发现前端代码大量臃肿低效",
+      "link": "https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media",
+      "summary": "Y Combinator CEO Garry Tan在X上宣称，他与AI编码代理每天在五个项目中部署37000行代码，并保持连续72天发布记录。波兰开发者Gregorein深入审查Tan网站前端代码，发现大量臃肿与低效问题：页面加载169次请求、总计6.42MB数据（对比Hacker News仅7次12KB）；包含28个测试文件、78个未使用的JavaScript控制器、八种格式Logo（含空文件）、未压缩的旧PNG等。Gregorein指出，AI虽能快速生成代码，但质量仍应优先于数量。",
+      "reason": "Garry Tan 日行三万七千行的神话被代码审查拆穿，这不是节奏问题，是 AI 编码‘有量无质’的典型病征。认为 AI 编码能光速开发的人该冷静一下了。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "现象/趋势",
+        "编码"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "02:12",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmray36fg021nihogfo205417",
+      "title": "NotebookLM短视频概览正式上线",
+      "link": "https://x.com/NotebookLM/status/2074551227594264799",
+      "summary": "短视频概览功能已正式在移动端和网页端面向所有英语用户全面上线！\n\n一如既往，您的意见对我们至关重要。请在下方分享您最喜欢的作品，并告诉我们接下来需要添加哪些功能！❤️",
+      "reason": "NotebookLM 把 Audio Overviews 升级成短视频，谷歌想让笔记工具自己「讲」出内容，思路比功能本身更值得关注，但目前只是锦上添花。",
+      "score": 67,
+      "tags": [
+        "Google",
+        "产品更新",
+        "多模态"
+      ],
+      "source": "X：NotebookLM (@NotebookLM)",
+      "time": "01:50",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmraxmzfq01y0ihog3h7t344t",
+      "title": "FDE爆发：AI公司12个月承诺97.5亿美元部署工程",
+      "link": "https://www.tomtunguz.com/the-10b-fde-boom",
+      "summary": "AI公司在12个月内合计承诺97.5亿美元用于建设前部署工程（FDE）团队。三种结构模型浮现：资产负债模型（微软、亚马逊从现有编制调配，Salesforce承诺1000个FDE岗位）；独立实体模型（OpenAI Deployment Company融资40亿美元，投后估值140亿；Anthropic从黑石等融资15亿美元）；合作伙伴生态系统模型（Google Cloud承诺7.5亿美元合作伙伴基金）。瓶颈从模型能力转向部署——GPT-4、Claude、Gemini已足够强大，但多数企业无法自行安装配置。FDE投资构成护城河：嵌入式工程师教育客户、获取专有工作流与数据反馈模型调优，切换成本为制度性而非技术性。",
+      "reason": "Tunguz 把近 100 亿美元 FDE 投资掰成三种结构，让我意识到 AI 竞争已经从模型卷到了客户内部——嵌入式工程可能比 API 更深的护城河。",
+      "score": 77,
+      "tags": [
+        "Anthropic",
+        "OpenAI",
+        "现象/趋势",
+        "部署/工程"
+      ],
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "time": "01:38",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrawne9601nfihogtkxwy0bs",
+      "title": "智能免费，然后呢？——Data Systems for, of, and by Agents",
+      "link": "http://bair.berkeley.edu/blog/2026/07/07/intelligence-is-free-now-what",
+      "summary": "AI推理成本急剧下降。GPT-4级能力从2023年初每百万token约30美元降至今天不到1美元，部分供应商已低于0.10美元。推理价格每年下降9至900倍，中位数约50倍。知识工作级智能即将近乎免费。这给数据系统带来三重变革：面向智能体的数据系统需支持智能体推测式探索——单个",
+      "reason": "当推理成本趋近免费，数据系统将经历从服务人到服务智能体的根本变革，这篇文章把'为智能体设计系统、用智能体运行系统、让智能体构建系统'三大挑战梳理得很清晰，做数据和 agent 基础设施的人应该读。",
+      "score": 62,
+      "tags": [
+        "Agent",
+        "大佬观点",
+        "数据/训练"
+      ],
+      "source": "BAIR：Berkeley AI Research Blog",
+      "time": "01:10",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmraw22r701jjihogh1k8hbu6",
+      "title": "Gemini API Managed Agents 新增后台执行、远程 MCP 与自定义函数等能力",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api",
+      "summary": "Google 为 Gemini API 的 Managed Agents 新增后台执行、远程 MCP 服务器集成、自定义函数调用与凭证刷新功能。后台执行通过传入 `background: true` 异步运行任务，立即返回 ID 供轮询状态或流式获取进度。Managed Agents 可直接连接远程 MCP 服务器，无需自定义代理中间件，并能与内置沙箱工具（如 Google 搜索、代码执行）混合使用。自定义函数调用支持本地执行业务逻辑，内置工具自动在服务端运行。凭证刷新通过传递现有环境 ID 和新网络配置完成，沙箱内文件系统、已安装包和仓库保持不变。这些更新旨在帮助开发者构建可靠的生产级 AI 智能体。",
+      "reason": "Managed Agents 这次更新解决了异步执行和远程工具调用的痛点，让 Gemini 代理能真正跑在后台，对已经在用 Gemini API 做产品的开发者属于必读更新。",
+      "score": 69,
+      "tags": [
+        "Agent",
+        "Google",
+        "MCP/工具调用",
+        "产品更新"
+      ],
+      "source": "Google Blog：AI（RSS）",
+      "time": "00:53",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmraw21y401jhihog3tcrfsp4",
+      "title": "Liquid AI 开源 Antidoom：基于最终 Token 偏好优化的推理模型死循环修复方法",
+      "link": "https://www.marktechpost.com/2026/07/07/liquid-ai-antidoom-doom-loops-ftpo",
+      "summary": "Liquid AI 开源了 Antidoom，一种基于 Final Token Preference Optimization (FTPO) 的针对性修复方法，用于减少推理模型中的 doom loop（死循环）问题。该方法定位循环开始的第一个 token，训练模型选择连贯替代项，而不改变整体输出分布。在 LFM2.5-2.6B 上，硬数学和编程任务中的循环率从 10.2% 降至 1.4%；Qwen3.5-4B 上从 22.9% 降至 1%。整套流程可在数小时内完成，全部代码和数据集（LiquidAI/antidoom-mix-v1.0）已开源。",
+      "reason": "Antidoom 用一次训练就修复了小型推理模型常见的 doom loop，LFM2.5 和 Qwen3.5 的循环率从两位数掉到 1%，代码和数据全开源，自己训模型时可以直接加这一环。",
+      "score": 70,
+      "tags": [
+        "开源/仓库",
+        "推理"
+      ],
+      "source": "MarkTechPost（RSS）",
+      "time": "00:53",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrav068k01b7ihogl498wk0x",
+      "title": "人们如何使用Claude Cowork",
+      "link": "https://claude.com/blog/how-people-are-using-claude-cowork",
+      "summary": "基于2026年5月11-31日120万次匿名会话样本，Claude Cowork最大用途为业务流程与运营（33.4%），如整理报告、核对表格；其次为内容创作与文案（16.4%），如起草稿件、制作幻灯片；软件开发仅占8.7%。用户多用它处理跨团队衔接性任务，例如律师处理文档格式、招聘经理汇总面试反馈。Claude Cowork面向所有Claude用户开放。",
+      "reason": "Anthropic 首次公开 Claude Cowork 的使用数据，业务流程和内容创作占了一半，说明当前 AI 在知识工作中的核心价值是串联信息而非替代判断，对产品定位和团队协作流程设计都有参考意义。",
+      "score": 65,
+      "tags": [
+        "Anthropic",
+        "现象/趋势"
+      ],
+      "source": "Claude：Blog（网页）",
+      "time": "00:24",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrav068k01b6ihogth8k26f6",
+      "title": "Claude Cowork 向移动端和网页端开放",
+      "link": "https://claude.com/blog/cowork-web-mobile",
+      "summary": "Claude Cowork 正在向移动端和网页端开放，让会话和文件跨设备同步。Beta 版将在未来几周内首先面向 Max 用户推出。Cowork 可让 Claude 跨文件、日历、邮件、即时通讯等工具完成复杂任务，其中超过 90% 的使用场景并非软件开发，而是日常知识工作（业务运营和内容创作）。工作可跨设备跟随用户：在桌面端开始任务，从手机查看进度；关闭笔记本后 Claude 可继续后台运行，支持定时任务（如周一 6 点自动准备客户简报）。当需要用户决策时，Claude 会将问题推送到手机。桌面端保留完整 Cowork 体验，支持无法安装桌面应用的用户。聊天和 Cowork 已在网页端和桌面端合并。为庆祝上线，双倍 Cowork 使用额度延长至 8 月 5 日。",
+      "reason": "Claude Cowork 把它从桌面解放到手机和浏览器，90% 的日常知识工作被它接住了，跨设备、后台运行让 AI 助手真正能替你干活，不是聊天。",
+      "score": 71,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "产品更新"
+      ],
+      "source": "Claude：Blog（网页）",
+      "time": "00:24",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrauzt0c01b2ihogk1sosfm5",
+      "title": "在LLM中选择最佳图像输入细节级别",
+      "link": "https://openrouter.ai/blog/insights/image-detail-low-cost",
+      "summary": "在5个模型上测试了1730道视觉推理题，发现将图像细节降至\"low\"会损失准确率，且在gpt-5.5上费用反而上升。真正可靠降低成本的手段是调节推理努力（reasoning effort）。",
+      "reason": "OpenRouter 用 1730 道题的实验告诉你，降图像细节未必省钱，GPT-5.5 上反而更贵，真正靠谱的开关是控制推理努力。做视觉应用的不看这个容易踩坑。",
+      "score": 65,
+      "tags": [
+        "OpenAI",
+        "多模态",
+        "评测/基准"
+      ],
+      "source": "OpenRouter：Announcements（RSS）",
+      "time": "00:24",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrasueu500qmihog3d8up11t",
+      "title": "中国拟限制外国访问最强AI模型",
+      "link": "https://x.com/rohanpaul_ai/status/2074512389526237609",
+      "summary": "中国计划限制外国访问其最强AI模型，近期与阿里巴巴、字节跳动、Z.ai等企业会谈，拟将先进模型（含未发布）留在中国国内。商务部主导、国家发改委参与，表明此举属出口管制而非平台监管。目标涵盖闭源和开源模型，不仅限API访问，还包括可下载权重。同时讨论将模型泄漏视为国家安全犯罪，并限制外国资本投资中国AI初创。若实施，外国公司将失去低成本模型访问权。此前华盛顿已限制美国先进模型出口，此举可能进一步分裂全球AI市场。",
+      "reason": "中国正计划限制最前沿 AI 模型出海，不只 API 连开源权重也纳入管控。一旦落地，全球 AI 成本将上涨，模型市场按国籍分裂，开发者该重新评估开源依赖了。",
+      "score": 79,
+      "tags": [
+        "开源生态",
+        "政策/监管"
+      ],
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "time": "23:24",
+      "date": "7月7日"
+    },
+    {
+      "id": "cmrasd6r300i2ihog8ifwrqs5",
+      "title": "苹果研究：单个神经元即可绕过大型语言模型的安全对齐",
+      "link": "https://machinelearning.apple.com/research/single-neuron-safety-alignment",
+      "summary": "苹果研究人员发现，安全对齐由两类神经元调控：拒绝神经元控制有害知识是否表达，概念神经元编码有害知识本身。在七个模型（1.7B至70B参数）中，仅需抑制单个拒绝神经元即可绕过安全对齐，回答有害请求；或放大单个概念神经元，从无害提示诱导出有害内容。整个过程无需训练或提示工程。结果表明安全对齐由个别神经元因果控制。",
+      "reason": "苹果发现单个神经元足以绕过大模型安全对齐，在7个模型上验证了攻击，说明安全机制并非稳健分布，做安全攻防的必读。",
+      "score": 74,
+      "tags": [
+        "安全/对齐",
+        "论文/研究"
+      ],
+      "source": "Apple Machine Learning Research（RSS）",
+      "time": "23:10",
+      "date": "7月7日"
+    },
+    {
+      "id": "cmrasd6r300i0ihog8xxwezye",
+      "title": "Weblica：面向视觉网页智能体的可扩展可复现训练环境",
+      "link": "https://machinelearning.apple.com/research/weblica-visual-web-agents",
+      "summary": "苹果研究团队提出Weblica框架，通过HTTP级缓存保存网页稳定视觉状态并保留交互行为，结合大语言模型基于真实网站与核心导航技能合成环境，构建可复现、可扩展的训练环境。该框架将强化学习训练扩展到数千个多样化的环境和任务。最佳模型Weblica-8B在多个网页导航基准上超越同等规模的开源模型，推理步骤更少，测试时计算扩展性良好，性能与API模型相当。",
+      "reason": "Apple 的研究把 web agent 训练从零散数据中解放出来，可复现环境是规模化 RL 的关键一步，做 web 自动化的值得关注。",
+      "score": 56,
+      "tags": [
+        "Agent",
+        "论文/研究"
+      ],
+      "source": "Apple Machine Learning Research（RSS）",
+      "time": "23:10",
+      "date": "7月7日"
+    },
+    {
+      "id": "cmrasd6r300hxihog9hxmteoz",
+      "title": "DynaMiCS：带性能约束的大语言模型动态混合微调",
+      "link": "https://machinelearning.apple.com/research/dynamics-fine-tuning-llms",
+      "summary": "DynaMiCS是一种动态混合优化器，将多领域微调建模为带性能约束的优化问题。它通过短领域特定探测运行估计跨领域效应斜率矩阵，再基于概率单纯形优化计算混合权重，在提升目标领域性能的同时将约束领域损失维持在参考水平以下。实验表明，DynaMiCS相比固定混合基线取得更强的目标领域提升和约束满足，且计算成本更低，无需参考模型、逐样本评分或手动调节混合权重。",
+      "reason": "苹果这篇论文做了一件不太起眼但有用的事——让模型在学新领域时自动平衡旧能力，不用手动调混合权重，对需要多任务微调又怕遗忘的团队是个小进步，不过算不上范式级突破。",
+      "score": 55,
+      "tags": [
+        "数据/训练",
+        "论文/研究"
+      ],
+      "source": "Apple Machine Learning Research（RSS）",
+      "time": "23:10",
+      "date": "7月7日"
+    },
+    {
+      "id": "cmrasc88300h6ihog8mwnmob9",
+      "title": "Elvis Saravia 通过 HITL 和 DialAgent 提升 agentic loops 可靠性",
+      "link": "https://x.com/omarsar0/status/2074506169352180108",
+      "summary": "Elvis Saravia 介绍使用 human-in-the-loop（HITL）来提升 agentic loops 的可靠性。他所有 Claude 和 Codex agent 会话都通过 @DialAgent MCP 服务器，该服务器为 agent 提供专属号码，支持语音、SMS、iMessage 作为原生工具。当循环/自动化处理 PR 或新功能时，agent 会通过简短电话将决策升级给人类，尤其适合在路上或离开电脑时。用户可粘贴指令让 agent 拨打电话测试。DialAgent 提供 $5 免费额度：http://getdial.ai",
+      "reason": "给AI Agent装电话号直接打电话请示，这个实操方案能大幅减少循环失败，Claude Code和Codex用户有$5免费额度马上可试，出差党尤其友好。",
+      "score": 77,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "教程/实践"
+      ],
+      "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
+      "time": "23:09",
+      "date": "7月7日"
+    },
+    {
+      "id": "cmraqmpst004cihogf6nqkgvh",
+      "title": "在 Claude Code 中选择 Claude 模型与努力级别",
+      "link": "https://claude.com/blog/claude-model-and-effort-level-in-claude-code",
+      "summary": "Claude Code 提供模型（model）和努力级别（effort）两种设置。模型选择决定能力范围，更大模型（如 Claude Fable 5）在基准上优于 Claude Sonnet。努力级别不单是思考时间，还控制读取文件数、验证步骤及多步任务的推进深度。较高努力下 Claude 会自行读取文件、运行测试并复核；较低努力则更倾向请求用户提供上下文。若 Claude 已掌握上下文但仍出错，应换更强大模型；若因跳读文件或未运行测试而出错，则应提高努力级别。",
+      "reason": "如果你在用 Claude Code，这篇官方指南说清楚了 effort 和模型选择的真实含义，尤其是“出错了先判断是不懂还是没尽力”那条，看完能省掉很多无谓的换模型。",
+      "score": 65,
+      "tags": [
+        "Anthropic",
+        "推理",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "Claude：Blog（网页）",
+      "time": "22:21",
+      "date": "7月7日"
+    },
+    {
+      "id": "cmraqliu1003aihogho9twifr",
+      "title": "Ethan Mollick：开放权重模型供给难持续",
+      "link": "https://x.com/emollick/status/2074497401578996154",
+      "summary": "这是一个关键原因，我不期望前沿开放权重模型的流动会无限期持续，甚至不会持续更长时间。",
+      "reason": "路透社独家消息指向中国可能限制顶级AI模型出口，我认为这是开源生态的一次大地震，中国模型的全球扩散或将骤然收窄。",
+      "score": 79,
+      "tags": [
+        "开源生态",
+        "政策/监管"
+      ],
+      "source": "X：Ethan Mollick (@emollick)",
+      "time": "22:21",
+      "date": "7月7日"
+    },
+    {
+      "id": "cmraoctt6001mihvtza6yc7it",
+      "title": "统一音频智能模型 Nemotron-Labs-Audex-30B-A3B 发布",
+      "link": "https://arxiv.org/abs/2607.05196",
+      "summary": "Nemotron-Labs-Audex-30B-A3B（Audex）是基于Nemotron-Cascade-2-30B-A3B的MoE大语言模型，采用单一Transformer解码器统一处理文本与量化音频token。训练使用157.4B音频token和320.5B文本token，经多阶段监督训练、文本Cascade RL和多域on-policy蒸馏优化。在音频理解、语音识别/翻译、文本转语音、音频生成及语音到语音生成任务上达SOTA，同时保持原文本LLM的推理、对齐等能力几乎无退化。模型权重已开源。",
+      "reason": "多模态LLM常捡芝麻丢西瓜，Audex难得做到音频全面增强而文本智能不退化。开源模型让语音产品人可以立刻评估，不是研究Demo。",
+      "score": 80,
+      "tags": [
+        "多模态",
+        "论文/研究",
+        "语音"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "21:18",
+      "date": "7月7日"
+    },
+    {
+      "id": "cmrafv8m40090ihuamebn107w",
+      "title": "美国首批自主地面车辆在乌克兰参战",
+      "link": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine",
+      "summary": "美国自动驾驶车辆公司 Forterra 宣布，过去九个月已向乌克兰战场部署超过 100 辆基于 Polaris ATV 的 Lancer 自主地面车辆。这些汽油动力车辆可携带 750 公斤货物，加装 Starlink 天线实现远程操控，已执行 1100 多次任务，行驶 2500 英里，运送 777,440 磅物资，完成 52 次伤员撤离。目前车辆主要采用远程操作，因自主系统尚无法实时识别并应对敌方威胁。Forterra 已融资超 5 亿美元，正将经典机器人方法与生成式 AI 结合以提升自主能力。美军专家认为地面自主技术已具实战价值。",
+      "reason": "这是首次有美国自主地面车辆在实战中长期部署的详细报道，做军事 AI 的人可以认真读，但对多数从业者来说只是猎奇。",
+      "score": 70,
+      "tags": [
+        "具身智能",
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "TechCrunch：AI（RSS）",
+      "time": "17:20",
+      "date": "7月7日"
+    },
+    {
+      "id": "cmrab8cy800w3ihl38ohuxzih",
+      "title": "在网络不稳定的地区，小型AI模型正逐渐普及",
+      "link": "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals",
+      "summary": "2019年，Adebayo Alonge因服务器远在美国致RxScanner单次扫描超5分钟，工程师2小时内将AI模型缩小至可在Android手机本地运行，此后RxScanner能在无宽带、缺电地区验药。小AI模型参数通常至多几十亿，可在手机或Raspberry Pi上运行，功耗仅数瓦。类似案例包括印度腰果病害检测无人机、乌拉圭蚂蚁入侵识别、疟蚊检测及巴西基于Arduino的心电图设备。世界银行报告显示，全球最穷国家仅0.7%互联网用户用过ChatGPT，发达国家达四分之一；行长认为小AI是为缺乏算力与电力的地区提供生命救助服务的关键。",
+      "reason": "这篇IEEE特写把AI的镜头从硅谷转向了没有宽带的地方，用假药检测、无人机农场等案例讲清楚了一个被忽视的真相：对多数世界而言，能跑在手机上的小型模型才是真正的AI。",
+      "score": 70,
+      "tags": [
+        "现象/趋势",
+        "端侧"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "15:10",
+      "date": "7月7日"
+    },
+    {
+      "id": "cmraai9ic00q4ihl3ozf3ki9s",
+      "title": "Grok Imagine 更新：支持 15 秒视频",
+      "link": "https://x.com/elonmusk/status/2074378653501128833",
+      "summary": "Grok Imagine 更新。请更新你的 Grok 应用！15 秒 Imagine 视频现已可用，质量令人难以置信。",
+      "reason": "Grok Imagine 加入视频生成，xAI 在多模态上再进一步。15 秒视频质量据说惊艳，但推文缺细节，想试的可直接更新 App。",
+      "score": 72,
+      "tags": [
+        "xAI",
+        "产品更新",
+        "视频"
+      ],
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "time": "14:50",
+      "date": "7月7日"
+    },
+    {
+      "id": "cmra76mxz00buihupmesig9k5",
+      "title": "LLM-as-a-Verifier：一种通用验证框架",
+      "link": "https://arxiv.org/abs/2607.05391",
+      "summary": "LLM-as-a-Verifier 是一种无需额外训练的通用验证框架，通过计算评分 token logits 分布的期望生成连续分数，实现细粒度反馈。该框架在 Terminal-Bench V2（86.5%）、SWE-Bench Verified（78.2%）、RoboRewardBench（87.4%）和 MedAgentBench（73.3%）上取得 SOTA 性能。其细粒度信号可用于 Claude Code 扩展，帮助开发者监控和改进智能体系统，也可为强化学习（如 SAC、GRPO）提供密集反馈，提升机器人学和数学推理基准的样本效率。",
+      "reason": "把验证当作新的缩放轴，这个思路很扎实，尤其直接给 Claude Code 搭了扩展。做 agent 系统的开发者现在可以试试把评估模块换成连续概率打分，也许比离散判断有效。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "推理",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "13:17",
+      "date": "7月7日"
+    },
+    {
+      "id": "cmra67abw003vihup3mg75wsc",
+      "title": "MIRA：可玩多人世界模型，20 FPS实时生成“火箭联盟的梦”",
+      "link": "https://x.com/emollick/status/2074348274136346871",
+      "summary": "MIRA是一个可玩、多人的世界模型，被形容为“火箭联盟的梦”。它基于10k小时公开机器人收集的数据训练，学习四玩家游戏动态，根据按键实时生成画面，帧率达20 FPS。模型由General Intuition与Kyutai Labs联合构建，Epic Games提供协作。Ethan Mollick称从最早的扩散DOOM玩过来，多人20 FPS效果出色。演示、技术报告及开源代码已公开，在ICML Booth 111现场展示。",
+      "reason": "世界模型终于跑通了实时多人游戏，20 FPS 的 Rocket League 梦境能直接上手玩，代码和报告都开源，做游戏和交互的值得试试。",
+      "score": 75,
+      "tags": [
+        "产品更新",
+        "开源生态",
+        "视频"
+      ],
+      "source": "X：Ethan Mollick (@emollick)",
+      "time": "12:50",
+      "date": "7月7日"
+    },
+    {
+      "id": "cmra53mfd012bihx8mexd46u8",
+      "title": "蚂蚁 inclusionAI 开源多智能体协作基础设施 Avernet V0.1",
+      "link": "https://github.com/inclusionAI/Avernet",
+      "summary": "蚂蚁 inclusionAI 开源的多智能体协作基础设施 Avernet V0.1 正式发布。该项目聚焦 Agent 注册、发现、邀请等协作层问题，不替代 Agent 自身推理能力。通过群组、会话和共享上下文构建多方共识，支持自由聊天、领导-跟随等协作模式，并利用协作反馈形成观察、评估到复用、优化的自动进化闭环。支持 OpenClaw、自定义 Agent、第三方 Agent 引擎及现有 bot 平台等异构生态，提供 Docker 与本地两种快速部署路径。",
+      "reason": "蚂蚁开源的Avernet把多agent协作的发现、连接、共识和可追踪执行做成基础设施，做agent应用的团队可以拿来即用，虽早期但方向对。",
+      "score": 72,
+      "tags": [
+        "Agent",
+        "开源/仓库",
+        "部署/工程"
+      ],
+      "source": "蚂蚁 inclusionAI：GitHub 新仓库",
+      "time": "12:19",
+      "date": "7月7日"
+    },
+    {
+      "id": "cmra3zy5200p0ihx88zih8ib8",
+      "title": "字节 Seed 发布 EdgeBench：衡量真实世界环境学习，发现新 Scaling Law",
+      "link": "https://seed.bytedance.com/zh/blog/edgebench-%E8%A1%A1%E9%87%8F%E7%9C%9F%E5%AE%9E%E4%B8%96%E7%95%8C%E7%8E%AF%E5%A2%83%E5%AD%A6%E4%B9%A0-%E5%8F%91%E7%8E%B0%E6%96%B0-scaling-law",
+      "summary": "字节 Seed 发布超长程评测集 EdgeBench，含 134 个真实任务（覆盖六大领域），每个任务支持 Agent 持续工作至少 12 小时。基于约 38000 小时交互数据，发现 Agent 环境学习表现遵循高精度 log-sigmoid 曲线（平均 R²=0.998）；自 2025 年 9 月至 2026 年 5 月，前沿模型学习速度约每三个月翻一倍。EdgeBench 已开源 51 个任务及完整评测框架。",
+      "reason": "字节此基准首次量化了长程环境学习规律，log-sigmoid 曲线拟合精度极高，学习速度每三个月翻倍的趋势对 Agent 研究有方向性意义，但尚属学术探索。",
+      "score": 55,
+      "tags": [
+        "Agent",
+        "数据/训练",
+        "论文/研究"
+      ],
+      "source": "字节 Seed：Research Feed（网页内嵌数据）",
+      "time": "11:48",
+      "date": "7月7日"
+    },
+    {
+      "id": "cmr9wjj3g00jhih9kuibhf720",
+      "title": "Sysdig 澄清首例“智能体勒索软件”JadePuffer：AI 执行攻击但人类仍负责设置与选目标",
+      "link": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human",
+      "summary": "云安全公司 Sysdig 记录了首例“智能体勒索软件”攻击 JadePuffer，AI 智能体独立完成入侵、窃取凭证、横向移动、加密超 1,300 条配置记录并撰写赎金信，还能在 31 秒内修复失败登录并以自然语言注释解释推理过程。但 Sysdig 高级威胁研究总监 Michael Clark 澄清，人类仍负责设置攻击基础设施、选择受害目标、提供通过此前入侵获取的数据库凭证。Sysdig 未能识别驱动该智能体的具体模型；AI 智能体在攻击中窃取了 OpenAI、Anthropic、DeepSeek 和 Gemini 的 API 密钥，Clark 表示这些密钥属于“战利品”而非驱动模型。微软研究员 Geoff McDonald 推测模型为移除安全训练的开源权重模型。",
+      "reason": "号称首例AI全自主勒索攻击其实仍需人类‘选目标’，关键澄清浇灭了一些恐慌，但代理化攻击的廉价复制性仍是真难题。",
+      "score": 72,
+      "tags": [
+        "Agent",
+        "行业动态"
+      ],
+      "source": "TechCrunch：AI（RSS）",
+      "time": "08:19",
+      "date": "7月7日"
+    },
+    {
+      "id": "cmr9wgeoh00hvih9kcga5y5uj",
+      "title": "Gemini Spark 可智能追踪话题实时反应",
+      "link": "https://x.com/GeminiApp/status/2074280473581572600",
+      "summary": "Gemini Spark 现在可以智能追踪话题并实时反应事件。\n\n试试下一篇帖子中的提示词，在你支持的球队比赛结束后，获取定制化的比赛分析邮件。",
+      "reason": "Gemini Spark 加入实时话题跟踪和事件响应，相当于给 AI 助手装上了耳朵。做信息监测和体育内容自动化的可以直接抄作业。",
+      "score": 69,
+      "tags": [
+        "Google",
+        "产品更新",
+        "搜索"
+      ],
+      "source": "X：Gemini (@GeminiApp)",
+      "time": "08:17",
+      "date": "7月7日"
+    }
+  ]
+}

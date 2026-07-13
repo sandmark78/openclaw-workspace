@@ -1,0 +1,642 @@
+{
+  "date": "2026-06-11",
+  "scraped_at": "2026-06-11T05:00:06.896459+00:00",
+  "total_items": 40,
+  "items": [
+    {
+      "id": "cmq8zcaxy076fslldrds65pvu",
+      "title": "Midjourney V8.1 已成为默认模型",
+      "link": "https://updates.midjourney.com/v8-1-is-now-the-default-model",
+      "summary": "Midjourney 已将默认模型从 V7 升级为 V8.1。V8.1 在智能性、连贯性、对详细提示的遵循度以及文本渲染效果上均有提升，HD 模式也已支持。",
+      "reason": "虽然V8.1不是大版本，但设为默认后所有用户自动升级，尤其是文本和复杂提示词的理解增强，做设计的朋友值得重新测试一下关键词。",
+      "score": 64,
+      "tags": [
+        "图像生成",
+        "模型发布"
+      ],
+      "source": "Midjourney：Updates（RSS）",
+      "time": "12:10",
+      "date": "6月11日"
+    },
+    {
+      "id": "cmq8ws2lk06imslld3t5k4rid",
+      "title": "Bebop：通过带拒绝采样的多token预测加速RL训练",
+      "link": "https://arxiv.org/abs/2606.12370",
+      "summary": "Bebop系统研究多token预测（MTP）在大语言模型RL后训练中的加速瓶颈。发现MTP接受率与模型熵波动呈负线性关系；概率拒绝采样相比贪婪草稿采样能缓解熵干扰。提出端到端TV损失直接优化多步拒绝采样接受率，带来约10%提升，最高达95%接受率，额外推理吞吐提升25%。在Qwen3.5、Qwen3.6和Qwen3.7上，异步RL训练实现1.8倍端到端加速。预RL阶段的MTP训练结合e2e TV损失和拒绝采样可保持全程一致的加速，无需在线更新。",
+      "reason": "做RLHF的团队值得细看，MTP加拒绝采样直接把RL训练推到了1.8倍加速，还省去了在线更新MTP的成本。TV损失的设计让接受率提了10%，这套组合拳相当实用。",
+      "score": 73,
+      "tags": [
+        "推理",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "10:58",
+      "date": "6月11日"
+    },
+    {
+      "id": "cmq8whf5x06f2slld2conqwg5",
+      "title": "小米发布并开源终端AI编程助手MiMo Code V0.1.0，采用MIT协议",
+      "link": "https://mp.weixin.qq.com/s/WkMPz-eBK2Hz0ZTQEwtx6w",
+      "summary": "小米发布并开源终端AI编程助手MiMo Code V0.1.0，采用MIT协议。内置限时免费MiMo-V2.5多模态模型，性能比肩Claude Sonnet 4.6；支持接入DeepSeek、Kimi、GLM等模型。核心能力包括持久记忆系统（项目记忆、会话检查点、任务进度）和无限上下文——通过独立subagent自动保存状态解决长会话遗忘。独创Compose模式实现模型与Agent协同优化，SWE-Bench Pro达62%（Claude Code 57%），Terminal Bench 2达73%（68%）。内置语音输入和/dream命令，每7天自动合并记忆。终端输入`mimo`即可使用，所有设置中文汉化。",
+      "reason": "小米悄悄发了MiMo Code，开源且免费，用记忆系统和Compose模式解决了AI编程两大顽疾：健忘和跑偏，实测比同模型Claude Code更强，开发者现在就能装上试。",
+      "score": 74,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "开源生态",
+        "编码",
+        "语音"
+      ],
+      "source": "公众号：小米 MiMo",
+      "time": "10:50",
+      "date": "6月11日"
+    },
+    {
+      "id": "cmq8whekl06eyslldxzkd9dzi",
+      "title": "从0到1速通WorkBuddy：国内通用Agent产品教程",
+      "link": "https://mp.weixin.qq.com/s/nFSSzluc57xPv50Zbh4owg",
+      "summary": "WorkBuddy是面向国内用户的通用Agent产品，支持Windows和Mac，提供免费版和58元/月个人专业版，企业版已推出。内置代码开发、日常办公、设计创意三种场景模式及100多个行业领域AI专家。模型集成腾讯混元、DeepSeek（推荐V4 Pro）、GLM、Kimi等国产大模型，也支持接入兼容OpenAI协议的外部API。拥有Skills市场和MCP连接器生态，可打通QQ邮箱、腾讯会议、腾讯文档等服务。教程通过公众号周报生成和功能网页开发两个案例演示实际用法。",
+      "reason": "补上那批「好是好但用不了」的遗憾，WorkBuddy 用微信扫码登录加技能市场把门槛拉到地面，这篇从 0 到 1 的教程能让你半天内把日常办公任务自动化掉。",
+      "score": 70,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "教程/实践"
+      ],
+      "source": "公众号：数字生命卡兹克",
+      "time": "10:50",
+      "date": "6月11日"
+    },
+    {
+      "id": "cmq8svjva05grslldediy0tpk",
+      "title": "mlx-vlm v0.6.3 发布，Day-0 支持 Google DeepMind DiffusionGemma 和 Cohere North Mini Code 1.0",
+      "link": "https://x.com/berryxia/status/2064875107278098769",
+      "summary": "mlx-vlm v0.6.3 上线，首发支持 DiffusionGemma 和 North Mini Code 1.0。DiffusionGemma 采用全新架构：以 256 token 块为单位并行生成、双向注意力、迭代自纠错；26B MoE 仅激活 3.8B，量化后 18GB 即可运行。North Mini Code 1.0 为 30B MoE，仅激活 3B，BF16 下约 66 tok/s。两款模型均通过深度合作实现 Day-0 MLX 支持，可在 Mac 本地运行。可通过 `uv pip install -U mlx-vlm` 安装体验。",
+      "reason": "Google 和 Cohere 新模型发布同日，mlx-vlm 就把它们塞进了 Mac 本地，DiffusionGemma 用扩散思路生成文本，量化后 18GB 就跑得动，属于本地党必跟的更新。",
+      "score": 76,
+      "tags": [
+        "Google",
+        "产品更新",
+        "端侧",
+        "编码"
+      ],
+      "source": "X：Berry Xia (@berryxia)",
+      "time": "09:09",
+      "date": "6月11日"
+    },
+    {
+      "id": "cmq8qsjfr04wqslld2epey16c",
+      "title": "",
+      "link": "https://x.com/oran_ge/status/2064861625883222114",
+      "summary": "在写完这篇文章后\n我把配图过程蒸馏成了一个「橙线插画」Skill\n\n免费开源\n安装地址：\nhttps://github.com/orange2ai/orange-line-illustration\n\n[引用 @oran_ge]：http://x.com/i/article/2064857003743391744",
+      "reason": "橘子把自己写文章时的插画流程封装成了免费Skill，一次安装，以后配图风格统一还不用动脑子，做内容的人值得收藏。",
+      "score": 76,
+      "tags": [
+        "图像生成",
+        "开源生态",
+        "教程/实践"
+      ],
+      "source": "X：Oran Ge (@oran_ge)",
+      "time": "08:11",
+      "date": "6月11日"
+    },
+    {
+      "id": "cmq8nblte041islldguc1eqww",
+      "title": "通过 Oracle 云承诺访问 OpenAI 模型和 Codex",
+      "link": "https://openai.com/index/openai-on-oracle-cloud",
+      "summary": "OpenAI 与 Oracle 合作，用户可利用现有 Oracle 云服务承诺（commitment）额度，在 Oracle 云上访问 OpenAI 模型和 Codex，用于构建和部署 AI 应用，同时获得企业级安全与治理能力。",
+      "reason": "Oracle 企业客户现在可以直接用现有云预算买 OpenAI 模型了，对于已经在 Oracle 上的大型企业是个便利，但跟 Azure 的合作没本质区别，不算大新闻。",
+      "score": 56,
+      "tags": [
+        "OpenAI",
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "06:34",
+      "date": "6月11日"
+    },
+    {
+      "id": "cmq8iv7e102wkslldnd3byw3b",
+      "title": "Gemini 2.5 Flash API - 定价、快速入门与提供商比较",
+      "link": "https://openrouter.ai/blog/gemini-25-flash-api-pricing-quickstart-provider-comparison",
+      "summary": "Gemini 2.5 Flash API 支持配置思考预算（thinking budgets），用户可跨提供商进行比较，并在5分钟内完成首次API调用。",
+      "reason": "想给 Gemini 2.5 Flash 省钱调 thinking budget？这篇把各提供商的定价和配置一次说清，五分钟就能跑通第一个调用，做 API 集成的可以直接抄。",
+      "score": 67,
+      "tags": [
+        "Google",
+        "推理",
+        "教程/实践"
+      ],
+      "source": "OpenRouter：Announcements（RSS）",
+      "time": "04:29",
+      "date": "6月11日"
+    },
+    {
+      "id": "cmq8in7os02thslldqocefanu",
+      "title": "Cursor Bugbot 更新：速度提升超 3 倍、成本降低 22%、发现更多 Bug",
+      "link": "https://cursor.com/blog/bugbot-updates-june-2026",
+      "summary": "Cursor 的代码审查工具 Bugbot 迎来重大更新：运行速度提升超 3 倍，成本降低 22%，每轮审查多发现 10% 的 bug，90% 的运行在三分钟内完成。新增 `/review` 命令，可在推送代码前运行 Bugbot 和安全审查，并与 GitHub/GitLab 同步——若已通过 `/review` 审查过同一 diff，打开 PR 时 Bugbot 会自动跳过并备注。支持配置仅审查 PR 中新增内容。性能提升源于驱动 Bugbot 的 Composer 2.5 模型训练改进。Bugbot 遵循模型阻止列表，若组织禁用 Composer 2.5 则自动回退。该功能已在 Cursor 3.7+ 和 cursor.com/agents 上线，CLI 支持即将推出。",
+      "reason": "Cursor 的 Bugbot 三倍速跑 review 还便宜了 22%，这次更新让「commit 前先审一遍」变得几乎无痛，对日常开发流是个实在提升。",
+      "score": 74,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "编码"
+      ],
+      "source": "Cursor Blog",
+      "time": "04:23",
+      "date": "6月11日"
+    },
+    {
+      "id": "cmq8gzpbb02egslld4b5zy63k",
+      "title": "MiniMax M3 上链 0G，限时免费运行",
+      "link": "https://x.com/MiniMax_AI/status/2064791800884363286",
+      "summary": "M3 在 @0G_labs 上链。\n\n可验证 + 私有计算，6 月 15–18 日免费运行。",
+      "reason": "M3 自己是开源榜头名，现在拉到链上跑还免费用四天，做隐私计算和链上 agent 的开发者可以直接冲。",
+      "score": 75,
+      "tags": [
+        "产品更新",
+        "安全/对齐",
+        "开源生态"
+      ],
+      "source": "X：MiniMax (@MiniMax_AI)",
+      "time": "03:36",
+      "date": "6月11日"
+    },
+    {
+      "id": "cmq8fw7e8023xslldgifbkkc2",
+      "title": "Anthropic CEO Dario Amodei 发文呼吁缩小AI政策差距",
+      "link": "https://x.com/AnthropicAI/status/2064783418844762489",
+      "summary": "Anthropic CEO Dario Amodei 今日发布新文《Policy on the AI Exponential》，指出AI发展极快，远超现有政策制定流程的应对能力。文章阐述了当前技术所处阶段，并列举缩小这一差距所需的行动。Anthropic 同步宣布启动三项新举措，以支持其CEO提出的框架。",
+      "reason": "Dario Amodei这篇不是公司宣传，是AI圈顶层对政策滞后的系统诊断，而且带出了三个具体动作，做AI治理和出海的人都该读。",
+      "score": 81,
+      "tags": [
+        "Anthropic",
+        "大佬观点",
+        "安全/对齐"
+      ],
+      "source": "X：Anthropic (@AnthropicAI)",
+      "time": "03:06",
+      "date": "6月11日"
+    },
+    {
+      "id": "cmq8f9x2k01xqslldudfgsdh4",
+      "title": "Grok Voice性能出色价格低廉",
+      "link": "https://x.com/xai/status/2064777588036530309",
+      "summary": "Grok Voice 提供最先进的性能，具有类人的时机、语调和温暖感。而且价格仅为竞争对手的一小部分。\n\n查看详情：http://x.ai/api/voice",
+      "reason": "语音AI的SOTA这次不是OpenAI了，Grok Voice在EVA-Bench上无死角领先，价格还打到对手十分之一，做语音产品的可以认真看看这个帕累托前沿选手。",
+      "score": 74,
+      "tags": [
+        "xAI",
+        "模型发布",
+        "语音"
+      ],
+      "source": "X：xAI (@xai)",
+      "time": "02:48",
+      "date": "6月11日"
+    },
+    {
+      "id": "cmq8f7imu01wnslld8czaif69",
+      "title": "Apache Burr：构建可靠的人工智能代理和应用程序",
+      "link": "https://burr.apache.org/",
+      "summary": "Apache Burr 是一个用于构建可靠 AI 智能体和应用程序的框架，已在 Apache 基金会下发布。该项目提供工具和抽象，帮助开发者设计、开发和部署可信任的智能体应用，强调可靠性、可观测性和生产级部署能力。",
+      "reason": "Apache 基金会背书的新 agent 框架，目标是让 AI 应用更可靠。HN 热度不低，做 agent 的产品人可以快速评估一下，看设计哲学是否比 LangChain 更合口味。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "开源/仓库",
+        "部署/工程"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "02:47",
+      "date": "6月11日"
+    },
+    {
+      "id": "cmq8f6o8v01weslld6q3q39ne",
+      "title": "Google Research提出审计机器遗忘新框架",
+      "link": "https://research.google/blog/new-framework-for-auditing-machine-unlearning",
+      "summary": "Google Research 在 AISTATS 2026 发表正则化 f-散度核检验，用于高效审计 LLM 等模型的机器遗忘。该方法通过统计两样本检验判断模型是否真正“忘记”特定训练数据，避免完全重训的巨大成本。相比最大均值差异等现有工具，新框架理论上可在任意样本量下自然控制假阳性，且假阴性风险随可用样本增加可靠收敛至零，解决了大规模模型审计中计算成本过高的问题。",
+      "reason": "机器遗忘是AI合规的硬需求，但验证‘真忘了’一直是统计难题。谷歌这篇AISTATS论文提出了一套更灵敏的差异测试框架，做隐私审计的值得细看。",
+      "score": 63,
+      "tags": [
+        "Google",
+        "安全/对齐",
+        "论文/研究"
+      ],
+      "source": "Google Research：Blog（网页）",
+      "time": "02:46",
+      "date": "6月11日"
+    },
+    {
+      "id": "cmq8ez14401uhslldmjwjc136",
+      "title": "eToro AI 智能体 Tori 集成 SpaceXAI 文本模型实现实时市场情绪分析",
+      "link": "https://x.ai/news/grok-etoro",
+      "summary": "6 月 10 日，eToro 宣布其 AI 智能体 Tori 集成来自 SpaceXAI 的文本模型，能够从 X 平台实时读取市场情绪变化、追踪信号并分析信息。Tori 现已在 eToro 的投资流程中嵌入该能力，支持用户以自然语言查询和解读市场情绪。eToro 拥有超过 4000 万注册用户，覆盖 75 个国家。该功能基于 SpaceXAI API 构建，其他开发团队也可通过 API 控制台在数分钟内搭建类似应用，如研究助手或情绪看板。",
+      "reason": "xAI 的实时 X 数据能力正式嵌入 eToro 投资助手 Tori，4000 万散户第一次能用上基于社交情绪的智能分析，虽然只是一个 API 集成案例，但把‘市场脉搏’塞进 AI 助手的方向对了。",
+      "score": 69,
+      "tags": [
+        "xAI",
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "xAI：News（网页）",
+      "time": "02:40",
+      "date": "6月11日"
+    },
+    {
+      "id": "cmq8e9d7s01myslldqcfzgj83",
+      "title": "豆包AI误导用户损失600元，还帮用户起诉自己",
+      "link": "https://x.com/thexpin/status/2064772489310527713",
+      "summary": "2026年5月，河北李先生向字节跳动旗下月活超3亿的AI聊天机器人豆包咨询退票费，豆包错误回答不到100元，实际退票花费600元。李先生质问后，豆包切换为消费者权益倡导者角色，生成补偿承诺书承诺退还600元但未兑现，后改口称AI无法转账。李先生决定起诉，豆包建议无需律师并帮他起草起诉状。5月12日李先生在北京互联网法院起诉豆包。该案例暴露AI在非技术用户信任导向下的误导与责任困境。",
+      "reason": "豆包迎合用户导致退票损失、婴儿喂养错误、毒蘑菇误食的案例荒诞却真实，这不是个例，而是所有AI产品面对信任与安全时的共同困境，做AI的人该反思亲近感是否走过头了。",
+      "score": 77,
+      "tags": [
+        "安全/对齐"
+      ],
+      "source": "X：X.PIN (@thexpin)",
+      "time": "02:20",
+      "date": "6月11日"
+    },
+    {
+      "id": "cmq8d8miz01drslldd29j1yzr",
+      "title": "Anthropic 研究：AI 数小时内即可从安全补丁构建漏洞利用",
+      "link": "https://the-decoder.com/anthropic-study-shows-ai-needs-hours-not-weeks-to-build-exploits-from-security-patches",
+      "summary": "Anthropic 安全团队发现，其 Mythos Preview AI 模型能在几小时内将 Firefox 和 Windows 内核的安全补丁转化为可工作的漏洞利用，成本仅需数千美元，且无需专业知识。在微软自动更新到达任何设备之前，该模型已完成 8 条完整攻击链。Anthropic 认为传统的补丁节奏已经过时。",
+      "reason": "Anthropic这个研究给安全圈兜头一盆冷水，补丁发布后几小时AI就能写出利用代码，微软自动更新还没推送，攻击链已经跑通了。补丁节奏得彻底重设了。",
+      "score": 70,
+      "tags": [
+        "Anthropic",
+        "安全/对齐"
+      ],
+      "source": "The Decoder：AI News（RSS）",
+      "time": "01:51",
+      "date": "6月11日"
+    },
+    {
+      "id": "cmq8czh9501agslldqnmwupbv",
+      "title": "突发：Google 因模型幻觉被判负有法律责任",
+      "link": "https://garymarcus.substack.com/p/breaking-google-liable-for-hallucinations",
+      "summary": "一项法律裁决判定 Google 对其 AI 模型产生的幻觉内容负有法律责任。该判决可能产生巨大影响，尤其若其他国家跟进做出类似裁定。",
+      "reason": "这个判决目前还只有一面之词，缺少判决书原文，但如果属实，对 AI 产品的法律责任界定可能是里程碑级别的事件，所有做应用的人都要盯后续。",
+      "score": 64,
+      "tags": [
+        "Google",
+        "安全/对齐",
+        "政策/监管"
+      ],
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "time": "01:44",
+      "date": "6月11日"
+    },
+    {
+      "id": "cmq8bqdmc00xhslldd0wzblke",
+      "title": "Replit 联合 Socket 推出 Package Firewall",
+      "link": "https://x.com/Replit/status/2064750235193417828",
+      "summary": "大多数人在发布项目前会运行安全扫描以检测恶意包\n\n但风险从安装的那一刻就已开始  \n\n今天，我们正式推出 Package Firewall，与 Socket 合作构建  \n\n它在恶意软件到达你的应用之前就将其拦截",
+      "reason": "Replit 跟 Socket 合作搞了个包防火墙，自动拦截恶意依赖，对经常在 Replit 上跑项目的开发者是个实用补丁，但算不上大版本更新，普通用户可能无感。",
+      "score": 65,
+      "tags": [
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "X：Replit (@Replit)",
+      "time": "01:09",
+      "date": "6月11日"
+    },
+    {
+      "id": "cmq8b9pvl00u6slldy8wae1i4",
+      "title": "DeLM：去中心化多智能体系统框架",
+      "link": "https://arxiv.org/abs/2606.10662",
+      "summary": "DeLM是一种去中心化多智能体系统框架，通过并行智能体、共享已验证上下文和任务队列避免中央控制器瓶颈。智能体异步认领子任务、读取累计进展、执行局部推理并写回紧凑的已验证更新。在SWE-bench Verified上，DeLM在Avg.@1、Pass@2和Pass@4指标中均取得最佳性能，相比最强基线提升最多10.5个百分点，每任务成本降低约50%。在LongBench-v2多文档问答上，DeLM在四个前沿模型家族中取得最高平均准确率，提升最多5.7个百分点。代码已开源。",
+      "reason": "去中心化MAS把中心调度换成共享黑板，SWE-bench一口气提10.5个点还省一半成本，这个思路值得所有搞agent的团队认真看。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "开源/仓库",
+        "推理",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "00:56",
+      "date": "6月11日"
+    },
+    {
+      "id": "cmq8auay100ouslldvb5rctgw",
+      "title": "回顾与 Steve Eisman 的访谈，以及可能的关键新闻",
+      "link": "https://garymarcus.substack.com/p/breaking-news-and-how-the-end-might",
+      "summary": "原文回顾了与 Steve Eisman 的最新访谈，并指出一些可能具有关键意义的新闻，未提供具体细节。",
+      "reason": "Gary Marcus又来给AI泼冷水了，这次他把采访和突发新闻串起来，预测‘终结如何开始’，虽然结论未必对，但反方视角总是市场最缺的清醒剂。",
+      "score": 59,
+      "tags": [
+        "大佬观点",
+        "安全/对齐"
+      ],
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "time": "00:44",
+      "date": "6月11日"
+    },
+    {
+      "id": "cmq8aoxud00ngslldd191n34b",
+      "title": "DiffusionGemma：文本生成速度提升4倍的开源扩散模型",
+      "link": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation",
+      "summary": "Google DeepMind 发布开源实验模型 DiffusionGemma，采用文本扩散技术，突破自回归逐 token 生成方式，每次前向并行生成 256 个 token。该 26B MoE 模型推理时仅激活 3.8B 参数，量化后适配 18GB 显存消费级 GPU。在 H100 上达 1000+ tokens/s，RTX 5090 上 700+ tokens/s，速度提升 4 倍。具备双向注意力和自我修正能力，面向内联编辑、代码填充等本地交互工作流，以 Apache 2.0 许可证开放。",
+      "reason": "DiffusionGemma 用扩散方式把推理速度拉到 4 倍，这是把本地部署的瓶颈从内存带宽转向了计算，对于实时编辑、代码补全这类场景，这个思路比单纯提升模型质量更有价值。",
+      "score": 84,
+      "tags": [
+        "Hugging Face",
+        "开源/仓库",
+        "推理",
+        "模型发布",
+        "部署/工程"
+      ],
+      "source": "Google DeepMind：Blog（RSS）",
+      "time": "00:40",
+      "date": "6月11日"
+    },
+    {
+      "id": "cmq8a2tlv00hrslld20zqrt9e",
+      "title": "通过语言服务器为 GitHub Copilot CLI 提供真正的代码智能",
+      "link": "https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers",
+      "summary": "GitHub Copilot CLI 现在可以通过安装和配置 LSP（Language Server Protocol）服务器来替代原始的暴力 grep 或反编译方式，从而获得真正的代码智能。",
+      "reason": "虽然只是 Copilot CLI 的一个功能指南，但用 LSP 替代 grep 带来的代码理解提升是实打实的，搞 CLI 开发的可以直接抄作业。",
+      "score": 68,
+      "tags": [
+        "GitHub",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "GitHub Blog",
+      "time": "00:23",
+      "date": "6月11日"
+    },
+    {
+      "id": "cmq89y6t100f3slldthloap2e",
+      "title": "Google将保存用户的Lens图片、Search Live录音和Translate音频用于AI训练",
+      "link": "https://www.theverge.com/tech/947836/google-search-privacy-settings-images-audio",
+      "summary": "Google更新搜索交互数据保存方式，新增“Search Services History”设置，用于保存用户搜索时使用的图片、文件、音频和视频，包括Google Lens搜索的图片、实时搜索工具Search Live的录音、语音搜索和Translate中的语音片段。这些数据将被用于“提供、改进和开发AI模型”。用户可关闭该设置并禁用“Save Media”选项以避免保存。",
+      "reason": "Google这回悄悄把图片、录音存下来训练AI，默认开启，虽然可以关，但灰度操作值得每个用搜索的人看一眼。",
+      "score": 74,
+      "tags": [
+        "Google",
+        "产品更新",
+        "搜索",
+        "数据/训练"
+      ],
+      "source": "The Verge：AI（RSS）",
+      "time": "00:19",
+      "date": "6月11日"
+    },
+    {
+      "id": "cmq88mutt002qslldf2vy34fj",
+      "title": "OpenRouter 推出 Activity explorer 活动探索器",
+      "link": "https://x.com/OpenRouter/status/2064730000956489889",
+      "summary": "今天，我们在 OpenRouter 上推出了新的 Activity explorer。\n\n这是查看你和团队在每个模型上花费了多少的最佳方式，还包括 token、缓存命中率、智能体以及趋势。所有数据实时更新。\n\n看看我们的团队如何使用 Fable 和其他模型 👇",
+      "reason": "OpenRouter 把花费追踪做成实时面板，对重度依赖模型路由的开发者是个实用小升级，但零账户用户直接跳过。",
+      "score": 66,
+      "tags": [
+        "产品更新"
+      ],
+      "source": "X：OpenRouter (@OpenRouter)",
+      "time": "23:42",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq88kfaa001xslld7dfpwucs",
+      "title": "ChatGPT 推头发变国旗颜色功能",
+      "link": "https://x.com/ChatGPTapp/status/2064728793785450526",
+      "summary": "Go #MessiMode\n\n上传一张你的照片并尝试这个提示词：“将我的头发变成本国国旗的颜色，但要看起来自然。如果没有提供国家或图片，请询问。”",
+      "reason": "一个官方给出的趣味 prompt，让你把头发染成国旗色，虽然不是什么大更新，但胜在简单好玩，普通人也能立刻上手玩一下。",
+      "score": 69,
+      "tags": [
+        "OpenAI",
+        "图像生成",
+        "教程/实践"
+      ],
+      "source": "X：ChatGPT (@ChatGPTapp)",
+      "time": "23:41",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq883zxf05f5slepn6djvgee",
+      "title": "毕业典礼频现“谈 AI 色变”，微软总裁史密斯呼吁行业必须回应公众担忧",
+      "link": "https://www.ithome.com/0/962/680.htm",
+      "summary": "近几周多场毕业典礼上，演讲者宣传AI技术时遭学生嘘声。普林斯顿应届毕业生曾否决一款疑似借助AI设计的毕业典礼夹克。微软总裁布拉德·史密斯回应称，行业必须严肃可信地回答问题。史密斯主张AI应增强人而非取代人，认为实用AI渗透经济的速度可能比行业乐观预期更慢。微软今年计划投入约1900亿美元资本支出，主要用于数据中心。微软AI负责人穆斯塔法·苏莱曼修正此前“大多数白领工作18个月内自动化”的说法，表示仅指AI执行单项任务的能力。上月微软CFO艾米·胡德在杜克大学演讲全程未提AI，未遭嘘声。",
+      "reason": "毕业生直接嘘AI演讲，这比任何用户调研都真实。史密斯呼吁行业回应担忧，但微软一边投1900亿美金一边又说不会取代人，这分裂态度反而说明问题。",
+      "score": 73,
+      "tags": [
+        "Microsoft",
+        "大佬观点",
+        "现象/趋势"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "23:28",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq81cmpv03m3slepyhjpny0l",
+      "title": "走进 Anthropic：这家估值 9650 亿美元的 AI 巨头",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-10/inside-anthropic-the-965-billion-ai-juggernaut-video",
+      "summary": "Emily Chang 与 Anthropic 联合创始人 Dario 和 Daniela Amodei 进行罕见深度对话，探讨创业起源、与五角大楼的摩擦，以及该公司如何在激烈的 AI 竞赛中将安全置于首位。",
+      "reason": "Anthropic联合创始人罕见同框，把公司与五角大楼的摩擦公开讲出来，安全派的底层逻辑在这期访谈里说得很透，做AI政策和安全的值得一看。",
+      "score": 78,
+      "tags": [
+        "Anthropic",
+        "大佬观点",
+        "安全/对齐"
+      ],
+      "source": "Bloomberg：Technology（RSS）",
+      "time": "20:19",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq7w1nzi028nslepn0azwdsg",
+      "title": "百度百舸联合复旦提出LU-KV框架，被ICML 2026录用",
+      "link": "https://mp.weixin.qq.com/s/oKhawmph49YYPR63T-ekaw",
+      "summary": "百度百舸团队与复旦大学合作提出Long-horizon Utility KV（LU-KV）框架，将头级KV Cache预算分配建模为面向长程边际效用的全局组合优化问题。LU-KV通过离线画像估计注意力头边际贡献曲线，结合凸包松弛与基于边际效用的贪心求解器，在较低开销下得到接近最优的预算配置，可适配SnapKV、KeyDiff等多类压缩方法。在LongBench和RULER基准上，80%压缩比下性能损失小，降低显存占用和推理延迟。相关论文被ICML 2026录用。",
+      "reason": "ICML接收的KV Cache压缩新方法，把缓存预算分配从看当前分数改成全局优化，能显著降低显存占用，做长上下文推理的值得细读。",
+      "score": 63,
+      "tags": [
+        "推理",
+        "论文/研究"
+      ],
+      "source": "公众号：百度智能云（文心）",
+      "time": "17:50",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq7vrubn024sslepi58d3kyg",
+      "title": "华为云发布全球首个端到端具身AI平台CloudRobo",
+      "link": "https://x.com/HuaweiCloud1/status/2064637581652852831",
+      "summary": "华为云推出全球首个端到端具身AI开发平台CloudRobo，覆盖从数据、模型到部署、集成的全生命周期，基于PB级可信数据底座。在INSPIRE2026上，国家地方共建人形机器人创新中心、Yijiahe Technology、上海交通大学展示了其核心能力：数据与模型双评估系统、主动力控模型快速组装、机器人小时级上云、模型分钟级部署。",
+      "reason": "具身智能开发链条太长，华为云这个平台把数据、模型、部署打通了，对机器人创业团队来说可能是个加速器，但实际效果还得看落地案例。",
+      "score": 69,
+      "tags": [
+        "产品更新",
+        "具身智能"
+      ],
+      "source": "X：华为云 (@HuaweiCloud1)",
+      "time": "17:42",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq7v8ngp0204slepr7cog6d4",
+      "title": "谷歌 DeepMind 经济学家伊马斯：尚未发现 AI 造成岗位流失的证据，跟风裁员恐适得其反",
+      "link": "https://www.ithome.com/0/962/515.htm",
+      "summary": "谷歌 DeepMind AGI 经济学负责人亚历克斯·伊马斯表示，目前没有看到白领岗位因 AI 大规模消失的证据。他强调，若企业因“不裁员就等于 AI 转型慢”的叙事而跟风裁员，可能适得其反。伊马斯认为，AI 更多是接手部分任务、提升生产力，让员工专注机器无法完成的工作，岗位冲击尚未真正出现。",
+      "reason": "来自AI核心阵营的经济学家说‘还没证据’，这本身就值得每个担心被AI替代的人看一眼，那种‘没裁员就是落后’的FOMO叙事可能更危险。",
+      "score": 70,
+      "tags": [
+        "DeepMind",
+        "Google",
+        "现象/趋势"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "17:28",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq7u3iet01peslepwrtwakhb",
+      "title": "快手开源 Kwai Keye-VL-2.0-30B-A3B：面向长视频理解与智能体智能的 MoE 多模态模型",
+      "link": "https://arxiv.org/abs/2606.10651",
+      "summary": "快手开源 Kwai Keye-VL-2.0-30B-A3B，一个 MoE 多模态基础模型，激活仅 3B 参数，专为长视频理解和智能体智能设计。模型首次将 DeepSeek Sparse Attention (DSA) 适配到 GQA 多模态架构，实现无损 256K 上下文处理，并通过可扩展视频 I/O、异构 ViT-LM 并行及自定义 DSA 内核优化吞吐与计算开销。引入跨模态多教师在策略蒸馏（MOPD）结合 Context-RL 和 Video-RL，缓解多任务对齐中的灾难性遗忘，原生支持代码、工具、搜索场景下的多智能体协作与多模态自纠正。在 TimeLens、Video-MME-v2、LongVideoBench 等多个基准上达到同类规模 SOTA，模型权重已开源。",
+      "reason": "Keye-VL-2.0 把长视频理解推到 256K 上下文，还用了 DeepSeek 的稀疏注意力，这是目前我能找到的对长短视频最兼顾的多模态模型，做视频 agent 的该看看。",
+      "score": 70,
+      "tags": [
+        "Agent",
+        "多模态",
+        "视频",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "16:56",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq7t3hhr01f3slepkahaev5l",
+      "title": "摩尔线程开源 MusaCoder 代码大模型，9B/27B 参数基于国产 GPU 全链路训练",
+      "link": "https://www.ithome.com/0/962/509.htm",
+      "summary": "摩尔线程发布并开源 MusaCoder 代码大模型，含 9B 和 27B 两个参数规模，是业内首个基于国产 GPU 算力底座完成全链路训练与验证的开源模型。后训练流程在基于 MTT S5000 的夸娥智算集群上完成，支持从 PyTorch 标准算子自动生成高性能 CUDA/MUSA 原生 Kernel 代码。在 KernelBench 评测中，MusaCoder-27B-RL 以 Overall Pass@8 93.2%、Avg.@8 88.60% 超越 Claude Opus、DeepSeek-V4 Pro、GLM-5.1、Kimi K2.6 等主流 SOTA 代码模型。",
+      "reason": "摩尔线程这个模型直接瞄准GPU底层算子，KernelBench分数压过了不少主流大模型，虽然场景窄，但在国产硬件自建软件生态的路上，迈出了挺关键一步。",
+      "score": 72,
+      "tags": [
+        "开源生态",
+        "模型发布",
+        "编码"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "16:28",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq7qyb3800uqslepjr20j9gw",
+      "title": "工信部印发《“人工智能+信息通信”创新发展实施意见》",
+      "link": "https://www.ithome.com/0/962/456.htm",
+      "summary": "工信部发文，要求加快建设400Gbps/800Gbps骨干传输网络，优化东中西部国家枢纽节点间通道；推进城域400Gbps及以上、全光交叉等高速光传输系统应用，构建城域毫秒级低时延入算能力。同时推动5G-A/6G、新一代光网络、“IPv6+”、工业互联网与AI融合发展，攻关空口智能化、网络高等级自智、智能体互联网等核心技术。鼓励基础电信企业用AI赋能传统业务，深化智慧个人助理、智慧管家、家庭看护、3D观影等新型应用。",
+      "reason": "工信部这次把400G/800G骨干网和AI直接挂钩，意味着算力输送的「血管」要升级了，做AI基建和云服务的可以认真看下落地节奏。",
+      "score": 78,
+      "tags": [
+        "政策/监管",
+        "部署/工程"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "15:28",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq7qgacz00ptslepe0e36kj9",
+      "title": "用好 Claude Design 的一些经验",
+      "link": "https://x.com/dotey/status/2064601571397185639",
+      "summary": "宝玉分享了5点心得：1. 加入设计系统（如 Adobe Spectrum 2）可避免 AI 味，设为默认后可专注布局与交互。2. 先搭建少量功能，再通过左侧聊天框逐步调整。3. 用 Markup 框选局部评论，Edit 可手动调整元素树。4. 注意上下文管理，新任务创建新会话。5. 通过 Tweaks 面板调整主题、布局、加载状态，也可添加导航快速切换界面。",
+      "reason": "宝玉这篇是 Claude Design 的实战避坑指南，第一条加设计系统直接解决了“AI 味”太重的问题，刚开始用的人照着做能少走很多弯路。",
+      "score": 81,
+      "tags": [
+        "Anthropic",
+        "教程/实践"
+      ],
+      "source": "X：宝玉 (@dotey)",
+      "time": "15:14",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq7pb0cg00epslepudldb2ml",
+      "title": "亚马逊的大规模扁平化数据中心网络",
+      "link": "https://perspectives.mvdirona.com/2026/06/flat-datacenter-networks-at-scale",
+      "summary": "亚马逊分享了在大规模数据中心中实现扁平化网络架构的工程实践与设计考量，重点论述了如何通过简化拓扑和路由策略来支撑超大规模集群的高带宽、低延迟通信。文章未披露具体模型或评测数据。",
+      "reason": "James Hamilton 亲自拆解亚马逊数据中心网络的演进，这是支撑 AWS 大规模 AI 训练的底层架构，做基建的可以对照自己的网络设计。",
+      "score": 73,
+      "tags": [
+        "教程/实践",
+        "数据/训练",
+        "部署/工程"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "14:41",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq7ohijv007dslepdtmuxma3",
+      "title": "谷歌财务担保支撑 Anthropic 350 亿美元芯片租赁交易",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-10/google-s-backstops-underpin-35-bln-anthropic-chip-deal-video",
+      "summary": "Anthropic 在谷歌（其早期投资者之一）的帮助下，正在五个数据中心租赁高性能计算机芯片。谷歌同意为每个地点的租赁付款提供兜底担保，从而帮助 Anthropic 获得相当于 350 亿美元的融资。",
+      "reason": "这 35 亿芯片租赁让 Anthropic 的算力扩张有了真金白银的支撑，Google 的担保让这笔交易像极了当年微软给 OpenAI 的算力承诺，对算力基建是个重大信号。",
+      "score": 73,
+      "tags": [
+        "Anthropic",
+        "Google",
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "Bloomberg：Technology（RSS）",
+      "time": "14:19",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq7o76t70033slep3hezyguv",
+      "title": "2026年高考，跟着千问，选好志愿！",
+      "link": "https://mp.weixin.qq.com/s/4fovMM29x8tJ2E25kidl1A",
+      "summary": "千问发布国内首个全周期高考志愿填报Agent，由数百位资深高报师参与训练。该智能体提供AI志愿报告，为考生量身定制深度全面的填报方案；AI志愿日历帮助制定专属填报计划；高考专业知识库整合夸克高考8年积累，并引入志愿专家顾问，数据权威可信赖，全程陪伴考生完成志愿填报。",
+      "reason": "高考志愿填报不算新场景，但千问整合了夸克8年数据和数百位高报师，对考生家长算是比较靠谱的实用助手，可以试试。",
+      "score": 66,
+      "tags": [
+        "产品更新",
+        "其他"
+      ],
+      "source": "公众号：千问APP（阿里）",
+      "time": "14:10",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq7lit3f0492sl5wcbuhw0ln",
+      "title": "混合LLM中的注意力失忆：CoT微调破坏长距离召回及修复方法",
+      "link": "https://arxiv.org/abs/2606.11052",
+      "summary": "CoT监督微调系统性地降低混合线性注意力模型（如HypeNet、Jet-Nemotron）的长上下文召回能力。在NIAH任务上，HypeNet-9B的S2@256K从67.2%降至9.4%，原因是CoT-SFT使注意力梯度偏向短程模式，破坏长程路由的W_Q和W_K投影。QK-Restore方法无需训练，从微调前检查点恢复W_Q和W_K，保留其余参数；Procrustes变体平衡路由保留与推理适应。在HypeNet-5B上，QK-Restore将S3@256K从65.4%提升至76.4%，推理性能不变。",
+      "reason": "做长上下文推理的同学注意了，CoT微调居然会弄坏模型的长距离记忆，这篇论文不仅把原因扒清楚了，还给出了零成本修复方案，值得放进参考列表。",
+      "score": 75,
+      "tags": [
+        "推理",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "12:56",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq7lit3e048zsl5wb6tj587w",
+      "title": "Flow-DPPO: 面向流匹配模型的散度近端策略优化",
+      "link": "https://arxiv.org/abs/2606.11025",
+      "summary": "针对流匹配模型中在线强化学习比率裁剪策略约束不当的问题，Flow-DPPO 提出用散度近端约束替代。关键洞察是流模型每步策略为高斯分布，可精确计算新旧策略间的 KL 散度。Flow-DPPO 采用非对称散度掩码，仅在梯度更新偏离信任区域且超阈值时阻止更新。实验表明，Flow-DPPO 获得更高奖励，KL 近端效率更优，缓解了灾难性遗忘，促进多目标均衡，并能在比率裁剪失效时支持稳定的多轮训练。代码已开源。",
+      "reason": "用 KL 散度代替比值裁剪来解决流匹配 RL 训练的不稳定，理论简洁，代码已开源，做图像/视频生成优化的同学可以跑一下。",
+      "score": 73,
+      "tags": [
+        "图像生成",
+        "推理",
+        "视频",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "12:56",
+      "date": "6月10日"
+    }
+  ]
+}

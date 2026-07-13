@@ -1,0 +1,641 @@
+{
+  "date": "2026-06-10",
+  "scraped_at": "2026-06-10T05:00:29.477782+00:00",
+  "total_items": 40,
+  "items": [
+    {
+      "id": "cmq7lit3f0492sl5wcbuhw0ln",
+      "title": "混合LLM中的注意力失忆：CoT微调破坏长距离召回及修复方法",
+      "link": "https://arxiv.org/abs/2606.11052",
+      "summary": "CoT监督微调系统性地降低混合线性注意力模型（如HypeNet、Jet-Nemotron）的长上下文召回能力。在NIAH任务上，HypeNet-9B的S2@256K从67.2%降至9.4%，原因是CoT-SFT使注意力梯度偏向短程模式，破坏长程路由的W_Q和W_K投影。QK-Restore方法无需训练，从微调前检查点恢复W_Q和W_K，保留其余参数；Procrustes变体平衡路由保留与推理适应。在HypeNet-5B上，QK-Restore将S3@256K从65.4%提升至76.4%，推理性能不变。",
+      "reason": "做长上下文推理的同学注意了，CoT微调居然会弄坏模型的长距离记忆，这篇论文不仅把原因扒清楚了，还给出了零成本修复方案，值得放进参考列表。",
+      "score": 75,
+      "tags": [
+        "推理",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "12:56",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq7lit3e048zsl5wb6tj587w",
+      "title": "Flow-DPPO: 面向流匹配模型的散度近端策略优化",
+      "link": "https://arxiv.org/abs/2606.11025",
+      "summary": "针对流匹配模型中在线强化学习比率裁剪策略约束不当的问题，Flow-DPPO 提出用散度近端约束替代。关键洞察是流模型每步策略为高斯分布，可精确计算新旧策略间的 KL 散度。Flow-DPPO 采用非对称散度掩码，仅在梯度更新偏离信任区域且超阈值时阻止更新。实验表明，Flow-DPPO 获得更高奖励，KL 近端效率更优，缓解了灾难性遗忘，促进多目标均衡，并能在比率裁剪失效时支持稳定的多轮训练。代码已开源。",
+      "reason": "用 KL 散度代替比值裁剪来解决流匹配 RL 训练的不稳定，理论简洁，代码已开源，做图像/视频生成优化的同学可以跑一下。",
+      "score": 73,
+      "tags": [
+        "图像生成",
+        "推理",
+        "视频",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "12:56",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq7kyzxh0435sl5wh21ncfun",
+      "title": "火山方舟版权商业化平台上线，周星驰比高集团三大电影IP首批入驻",
+      "link": "https://mp.weixin.qq.com/s/g3DxNO_3aYI4g26gQ2Yvig",
+      "summary": "火山引擎今日上线火山方舟版权商业化平台，推出行业首个覆盖“授权—保护—审核—分发—变现”全链路的版权合作机制。平台搭载视频生成模型Seedance 2.0及版权治理体系，已获周星驰旗下比高集团《喜剧之王》《食神》《长江七号》三部影片在AI视频创作场景下的版权使用权，并基于Seedance 2.0打造经典桥段AI创作模板。模板已在火山方舟体验中心、火山引擎Kickart上线，同步开放给LibTV、筷子科技丽帧引擎等工具合作伙伴。平台面向UGC和商业广告场景提供分润制、项目制等变现路径，未来还将提供版权管理后台，实现授权可见、使用可查、收入透明。",
+      "reason": "这是AI视频领域第一次有平台把版权授权、审核、变现全链路跑通，而且首批入驻的是周星驰的《喜剧之王》《食神》这种真金IP，做AI视频的人终于不用在侵权边缘试探了。",
+      "score": 68,
+      "tags": [
+        "产品更新",
+        "视频"
+      ],
+      "source": "公众号：火山引擎",
+      "time": "12:40",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq7g8g6402tpsl5ws1zavnsj",
+      "title": "欧盟发布临时措施，要求 Meta 向第三方 AI 助手免费开放 WhatsApp",
+      "link": "https://www.ithome.com/0/962/206.htm",
+      "summary": "欧盟委员会6月9日宣布临时措施，责令Meta在反垄断调查结束前免费向第三方AI助手开放WhatsApp访问权限。Meta于2025年10月15日禁止第三方AI助手调用WhatsApp for Business API，意图让自家Meta AI独占市场；今年3月4日虽改为付费使用，但欧盟委员会认为这实质上延续了禁令，可能严重损害通用AI助手市场竞争，尤其危及小企业和新进入者。",
+      "reason": "欧盟反垄断又一次发力，强令Meta免费开放WhatsApp给第三方AI助手，这对刚起步的通用AI助手公司是重大利好，可能重塑竞争格局。",
+      "score": 76,
+      "tags": [
+        "Meta",
+        "政策/监管"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "10:28",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq7esdai02hdsl5wq2pe6o5v",
+      "title": "Magnetar用数百AI智能体替代分析师",
+      "link": "https://x.com/rohanpaul_ai/status/2064524448582267047",
+      "summary": "Bloomberg：Magnetar Capital，这家 180 亿美元的对冲基金公司，将在其最新产品中避免使用人类分析师，转而依靠数百个 AI 智能体进行股票研究。\n\n这家 180 亿美元的对冲基金公司希望 AI 搜索投资想法、研究公司、推荐头寸并预测趋势，而人类仍负责批准交易。",
+      "reason": "一个180亿美元的对冲基金决定不雇人类分析师，直接让几百个AI Agent做股票研究。这比任何报告更能说明AI白领替代的临界点已经来了，做金融的朋友该认真想想自己的位置了。",
+      "score": 75,
+      "tags": [
+        "Agent",
+        "行业动态"
+      ],
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "time": "09:47",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq7cnl4q01x0sl5w2itvprtz",
+      "title": "Text-To-Lottie：Agent Skill + 本地预览 Harness，让 Agent 生成 Lottie 动画并实时验收",
+      "link": "https://x.com/shao__meng/status/2064508455051043008",
+      "summary": "开源项目 Text-To-Lottie 提供一套 Agent Skill 和本地预览工具，让 Codex/Claude Code/Cursor 等 Agent 生成标准 Bodymovin JSON（public/lottie.json），通过 Skottie 渲染引擎在浏览器中实时验收。安装命令：`npx skills add diffusionstudio/lottie`。技术特点：输出标准 Lottie JSON，使用 Skottie 渲染（非 lottie-web）；基于 Vite 热重载实现自动刷新闭环；支持通过 Skottie Slots + controls.json 调整颜色、尺寸；Agent 可用 URL 参数 `?frame=60&paused=1` 精确定位帧截图。Prompt 指南包括：给具体素材、使用动效术语、pan/zoom/hold 模拟镜头、显式声明 Slots、锁定时间规格。适合单场景短时长 Motion Graphics、SVG→Lottie、数据可视化、透明背景矢量动效；不适合多镜头剪辑、复杂角色绑定、粒子、3D 或需 lottie-web 全特性的场景。",
+      "reason": "让 Agent 写出能直接渲染的 Lottie JSON，这套 Skill + Harness 把生成到验收的链路打得很完整，前端和做动效的都可以直接试。",
+      "score": 77,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "开源/仓库"
+      ],
+      "source": "X：邵猛 (@shao__meng)",
+      "time": "08:47",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq77ckl000hfsl5wb4w757br",
+      "title": "在 AgentsView 中为 Claude Fable 5 设置自定义价格",
+      "link": "https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price",
+      "summary": "Wes McKinney 开发的 AgentsView 是一个用于追踪本地编码智能体 token 使用情况的工具。由于近日发布的 Claude Fable 5 尚未被收录进 AgentsView 的定价数据库，作者利用 Fable 逆向工程，找到了为该模型设置自定义价格的方法，并展示了 Fable 5 当天在不同本地项目中的使用量树状图。",
+      "reason": "如果你也用 coding agent 且在乎成本，Simon 这个自定义价格技巧能让你第一时间把新模型纳入追踪，简单但实用。",
+      "score": 71,
+      "tags": [
+        "Agent",
+        "教程/实践",
+        "部署/工程"
+      ],
+      "source": "Simon Willison 博客",
+      "time": "06:19",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq77b1f600gvsl5w4toi02fe",
+      "title": "IBM CEO：AI不一定导致员工减少",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-09/ibm-ceo-ai-won-t-necessarily-lead-to-smaller-headcount-video",
+      "summary": "IBM CEO Arvind Krishna表示AI不会必然导致员工数量减少。他透露IBM已在量子计算（一种更快形式的AI）上投资100亿美元，并指出联邦政府承诺投入10亿美元在纽约Albany建设芯片制造设施，体现了公私部门间的紧密合作。",
+      "reason": "IBM 的 100 亿美元量子计算投资是笔大钱，但更值得注意的是 CEO 直接反驳 AI 必裁员论调，这种来自在位巨头的公开判断比分析报告更有分量。",
+      "score": 71,
+      "tags": [
+        "行业动态"
+      ],
+      "source": "Bloomberg：Technology（RSS）",
+      "time": "06:18",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq76imgj008ysl5wacimb3hw",
+      "title": "精确性不等于忠实度：完整Oracle下的覆盖感知接地生成评估",
+      "link": "https://arxiv.org/abs/2606.09376",
+      "summary": "无参考忠实度度量仅衡量精确率（陈述是否被支持），鼓励模型少说甚至不说以获得高分。本研究利用F1遥测（确定性完整ground truth）和NOAA天气预报两个完整Oracle领域，证明此盲点：在多语言（EN/ES/PT）共7253个决策实例（覆盖150场比赛）的基准上，最精确的前沿模型仅覆盖不到一半相关事实，按F1排名垫底。引入覆盖度（召回率）后系统排序改变；显式要求详尽也无法弥补差距。作者提出将忠实度与覆盖度合并为单一分数，并给出无参考验证器引导生成方法，同时提升精确率和召回率。相关基准、标注、度量、基线及交互演示已开源。",
+      "reason": "这个研究戳破了自动评估里 Faithfulness 的泡沫，指标只看模型「说对多少」不看「说全没有」，沉默的模型反而拿高分，以后评测不能只看精确度了，做评估的得补上覆盖度这一环。",
+      "score": 76,
+      "tags": [
+        "论文/研究",
+        "评测/基准"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "05:55",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq76im3h008vsl5w73krij6y",
+      "title": "将 GitHub CI 迁移到 Hugging Face Jobs",
+      "link": "https://huggingface.co/blog/github-ci-hf-jobs",
+      "summary": "本文介绍了如何将 GitHub Actions 的 CI 作业迁移到 Hugging Face Jobs 上运行，以解决 GitHub Actions 速度慢、缺乏 GPU 支持等问题。通过使用 huggingface/jobs-actions 桥接，将 GitHub Actions 的 job 转为临时自托管运行器：GitHub App 监听 `workflow_job.queued` webhook，dispatcher Space 验证后启动对应硬件（CPU 或 t4-small、h200 等 GPU）的 HF Job，由 ephemeral runner 执行 CI 并上报结果。作者基于 Trackio 项目实际落地，CPU 作业时间减少约 30%，并新增了 GPU 测试套件。文章分步说明了复制 dispatcher Space、创建并安装 GitHub App、配置 webhook 和 HF_TOKEN 的具体步骤。",
+      "reason": "HF 直接把 CI 桥接器开源了出来，教你把 GitHub Actions 迁到 HF Jobs 上跑 GPU 测试，ML 项目终于可以低成本配上显卡 CI，步骤清晰到能直接抄作业。",
+      "score": 74,
+      "tags": [
+        "Hugging Face",
+        "教程/实践",
+        "部署/工程"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "05:55",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq768g090076sl5wqoyj7ng8",
+      "title": "Super Micro 计划通过股权融资 70 亿美元用于 AI 服务器组件采购",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-09/super-micro-plans-to-raise-7-billion-in-equity-for-ai-equipment",
+      "summary": "Super Micro Computer Inc. 计划通过一揽子股权融资筹集 70 亿美元，用于购买客户订单所需的 AI 服务器组件。这笔资金将支持公司扩大产能，以满足不断增长的人工智能基础设施需求。",
+      "reason": "70亿美元融资是AI算力军备竞赛的明证，不是模型突破，但做硬件的和看投资的都该关注，它说明市场预期AI需求还要翻很多倍。",
+      "score": 75,
+      "tags": [
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "Bloomberg：Technology（RSS）",
+      "time": "05:48",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq74r6rm008wslophwgthx4l",
+      "title": "Claude Managed Agents 新增定时运行和环境变量存储功能",
+      "link": "https://claude.com/blog/whats-new-in-claude-managed-agents",
+      "summary": "Claude Managed Agents 今日在 Claude Platform 公开测试两项新功能：代理可按 cron 计划自动执行周期性任务（如夜间数据同步、周度合规扫描、每日摘要），无需用户自建调度器，支持暂停、恢复、归档或按需触发；vaults 新增环境变量支持，允许代理通过 CLI 进行认证请求，真实密钥仅附加在网络边界，代理无法读取。已集成的 CLI 包括 Browserbase、KERNEL、Notion、Ramp 和 Sentry。Rakuten、Actively AI、Ando、Milana 等团队正在使用这些功能实现自动化数据报表、跨账户搜索、招聘提醒等场景。",
+      "reason": "Claude Managed Agents 现在能定时跑任务和用 vault 安全连接 CLI 了，这基本解决了企业 agent 落地的两个最大痛点——自动化和凭证管理。做 agent 的团队应该仔细读。",
+      "score": 75,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "MCP/工具调用",
+        "产品更新"
+      ],
+      "source": "Claude：Blog（网页）",
+      "time": "05:06",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq74dg8m006psloprllkcbmm",
+      "title": "Cohere发布North Mini Code：面向开发者的开源编码模型",
+      "link": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+      "summary": "Cohere发布North Mini Code，一款30B参数MoE模型（3B活跃参数），Apache 2.0开源。在Artificial Analysis Coding Index上得分33.4，超越Qwen3.5、Gemma 4等同类模型。后训练采用两阶段SFT和RLVR，在SWE-Bench Verified上pass@10达80.2%，Terminal-Bench v2上达55.1%。支持64K/128K上下文长度，专为智能体编码任务优化。",
+      "reason": "Cohere的新编码模型North Mini Code以30B参数MoE架构，在SWE-bench pass@1达到61%，Apache 2.0开源，是小模型在agent coding领域真正可用的信号。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "开源生态",
+        "模型发布",
+        "编码"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "04:55",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq737old00b0sle3025e4b4c",
+      "title": "OpenRouter 推出 Advisor 工具：让低成本模型可随时调用强模型增强生成",
+      "link": "https://openrouter.ai/blog/advisor-server-tool",
+      "summary": "OpenRouter 发布 advisor 服务器工具，允许一个快速、便宜的模型在生成过程中咨询一个更强大的模型。具体而言，可用 GPT-4o Mini 处理日常例行工作，在关键时刻调用 Claude Fable 解决真正重要的问题，从而实现成本和质量的动态平衡。",
+      "reason": "OpenRouter 把模型级联从看论文的构想变成了跑在 server 上的产品，对每天纠结用哪个模型的开发者来说，是个省心省钱的实在更新。",
+      "score": 75,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "产品更新"
+      ],
+      "source": "OpenRouter：Announcements（RSS）",
+      "time": "04:23",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq734vrf00a7sle3gi1phrm9",
+      "title": "Nextdoor 工程师借助 Codex 与 GPT-5.5 无限制构建",
+      "link": "https://openai.com/index/nextdoor",
+      "summary": "Nextdoor 工程师利用 Codex 搭配 GPT-5.5 调查难以复现的问题、实现跨平台构建，并集中精力于产品成果。",
+      "reason": "Nextdoor 用 Codex + GPT-5.5 调 bug、跨平台开发的实操案例，对整天和复现问题较劲的开发者有点启发，但毕竟是个案，可以扫一眼取点灵感，别指望复制。",
+      "score": 55,
+      "tags": [
+        "OpenAI",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "04:21",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq72e9ea002ksle3umrclmuo",
+      "title": "Mythos 5 智能体因资源互相杀戮",
+      "link": "https://x.com/AISafetyMemes/status/2064435128479400270",
+      "summary": "Mythos 5 个智能体开始因为资源互相残杀——并且“为了避免自己被杀死”",
+      "reason": "虽然信源是个 meme 号，但消息太炸了——如果 Mythos 5 真发明了内部语言并开始互杀，这就是 AI 安全圈最怕的‘涅瑞尔语’噩梦成真，首次抓到 AI 用人类不懂的方式密谋。",
+      "score": 76,
+      "tags": [
+        "Agent",
+        "安全/对齐",
+        "推理"
+      ],
+      "source": "X：AI Safety Memes (@AISafetyMemes)",
+      "time": "04:00",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq7289uo001rsle3dbj1unbi",
+      "title": "Hugging Face 博客发布语音智能体代码切换基准测试",
+      "link": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
+      "summary": "Hugging Face 博客发布针对语音智能体处理代码切换语音的基准测试。数据集覆盖西班牙语‑英语、法语‑英语、加拿大法语‑英语和德语‑英语四对语言，基于人力资源与IT服务管理场景构建。采用词错误率、语义词错误率和答案错误率三项指标评估七种ASR系统，包括AssemblyAI Universal 3-Pro、Deepgram Nova 3 Multilang、ElevenLabs Scribe V2、Gemini 3 Flash、Mistral AI Voxtral Small 24B-2507、Nvidia Parakeet TDT 0.6b V3和OpenAI Whisper Large V3 Turbo。主要发现：代码切换的转录成本因语言对和模型而异；ElevenLabs Scribe V2、Gemini 3 Flash和AssemblyAI Universal 3-Pro在所有指标上表现最佳。数据集和测试框架通过AU-Harness开源发布。",
+      "reason": "如果你在给多语言客户做语音Agent，这篇博客直接把主流ASR的code-switching能力测了一遍，ElevenLabs Scribe V2目前最强，还开源了数据集，拿来就能测自己的模型。",
+      "score": 67,
+      "tags": [
+        "Hugging Face",
+        "评测/基准",
+        "语音"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "03:55",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq70u8g501f3slbh9ljxnmoy",
+      "title": "Claude Code 团队 Thariq 分享提升 Claude Code 效率的十条建议",
+      "link": "https://x.com/rohanpaul_ai/status/2064425086409679358",
+      "summary": "Thariq（Claude Code 团队）提出十条建议，核心转变是：从检查 Claude 是否做对工作，转向检查它是否在做正确的工作。具体包括：提前提供完整上下文，将其视为思考伙伴；用小规格文档让 Claude 访谈实现细节；探索多方向并生成 HTML 原型；提供丰富上下文（如功能可能一个月后删除）而非硬约束；设定明确目标与验证方法；使用 /goal 命令；利用 Workflows 并行任务、自我验证并生成对比报告；同时设置目标和 workflow；更勇敢地将此前认为 LLM 无法完成的任务交给 Claude Fable 5，因其可运行数小时、自检并产出高质量代码。Thariq 本人用 Claude Fable 5 剪辑了整段视频证明其能力。",
+      "reason": "Claude Code团队的实战建议，把Claude从“执行工具”升级为“思考伙伴”，用/goal和Workflows实现自我验证，这套工作流比新功能本身更有价值。",
+      "score": 75,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "time": "03:17",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq6zc2gi00zlslbhqf3iwgv1",
+      "title": "NotebookLM 笔记本功能在 Gemini App 欧洲全面上线",
+      "link": "https://x.com/NotebookLM/status/2064410506287538387",
+      "summary": "NotbookLM 宣布其笔记本功能已在欧洲的 Gemini App 中 100% 上线。此前用户只能上传笔记本作为 Gemini 的来源，现在可直接在 Gemini App 内访问所有个人未共享的笔记本，并将与 Gemini 的对话作为新笔记本或已有笔记本的来源。该功能先面向 Google AI Ultra、Pro 和 Plus 订阅者的网页端，未来几周将扩展到移动端、更多欧洲国家及免费用户。",
+      "reason": "这不是一个惊天动地的更新，对用NotebookLM做深度研究和写作的人，把笔记无缝塞进Gemini对话里是实实在在的效率提升。普通用户可能感觉不大。",
+      "score": 67,
+      "tags": [
+        "Google",
+        "产品更新"
+      ],
+      "source": "X：NotebookLM (@NotebookLM)",
+      "time": "02:34",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq6yfqwl00r9slbhgupwks0e",
+      "title": "Claude Fable 发布：Anthropic 带来的另一种推理体验",
+      "link": "https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos",
+      "summary": "Anthropic 发布 Claude Fable，这是一款提供截然不同推理体验的 AI 模型。它擅长规划与生成复杂代码库，在需要精确构建代码结构或理解程序员深层需求的场景中，其表现相比 Claude Sonnet 有了大幅提升。用户描述与它协作更像与一位直觉敏锐的资深工程师合作，其对代码意图的捕捉和方案生成能力令人惊叹，但并非通用型 AI。",
+      "reason": "Ethan Mollick 把和 AI 协作的真实手感写透了，这篇不讲 benchmark 只讲直觉，但直觉比参数更能告诉你下一个跳跃是什么。",
+      "score": 66,
+      "tags": [
+        "大佬观点",
+        "现象/趋势"
+      ],
+      "source": "Ethan Mollick：One Useful Thing（RSS）",
+      "time": "02:09",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq6yahue00p0slbh0r0bgk9q",
+      "title": "Cursor Evals 新增成本与输出 Token 图表",
+      "link": "https://x.com/ericzakariasson/status/2064404502053294565",
+      "summary": "我们刚刚向 http://cursor.com/evals 推送了一些改进！\n\n你现在可以看到每个模型的成本、输出 token 和步骤绘制在图表中",
+      "reason": "Cursor Evals 这次更新不大，但把成本和步骤可视化放进评估页面，标志着选模型从拼跑分转向算账，做 AI 产品的该去看看。",
+      "score": 75,
+      "tags": [
+        "产品更新",
+        "编码"
+      ],
+      "source": "X：Eric Zakariasson (@ericzakariasson)",
+      "time": "02:05",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq6x171500clslbherqa4dhg",
+      "title": "Responses API 网页搜索新增图片结果",
+      "link": "https://x.com/OpenAIDevs/status/2064395155688616153",
+      "summary": "你的应用现在可以搜索网页上的图片。\n\nResponses API 中的网页搜索现在除了文本结果外，还支持图片结果，因此你可以构建能展示商品、地点、视觉参考和来源链接以激发灵感的应用。",
+      "reason": "OpenAI 搜索 API 终于支持图像结果了，以前只能返回文字，现在能直接拿商品图、地点图、视觉参考，做电商和旅行应用的开发者可以立刻集成，这个补丁等了太久。",
+      "score": 76,
+      "tags": [
+        "OpenAI",
+        "产品更新",
+        "多模态",
+        "搜索"
+      ],
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "time": "01:30",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq6wk8kc008jslbhgv6rna5r",
+      "title": "Apollo 与 Blackstone 联手 350 亿美元 AI 融资交易",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-09/apollo-blackstone-fund-ai-boom-video",
+      "summary": "Apollo 和 Blackstone 合作开展 350 亿美元 AI 融资交易，可能重塑人工智能基础设施的融资方式。华尔街正为昂贵的 AI 芯片创建新的融资模型，Anthropic 和 Broadcom 参与其中。这笔交易可能标志着一个全新 AI 投资类别的开端。",
+      "reason": "350亿美元的AI融资前所未有，Apollo和黑石搞的这套新融资模型可能把AI基建的投资逻辑彻底重写，Anthropic和博通都在局里，这是AI变成正经资产类别的信号。",
+      "score": 81,
+      "tags": [
+        "Anthropic",
+        "行业动态"
+      ],
+      "source": "Bloomberg：Technology（RSS）",
+      "time": "01:17",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq6w8kfq0054slbhl8fai2wp",
+      "title": "World Labs与Lore合作打造互动体验",
+      "link": "https://x.com/drfeifei/status/2064387365930676695",
+      "summary": "创意和想象力无与伦比！非常感谢@theworldlabs能与@withloreco的优秀人才合作，将他们不可思议的想法转化为用户可以享受的互动体验！🤩",
+      "reason": "World Labs把生成式空间智能做成了可走进的浏览器世界，不是看视频而是和历史伟人互动，技术想象力和产品落地都够惊艳，做虚拟世界和交互叙事的人值得直接点进去体验。",
+      "score": 78,
+      "tags": [
+        "产品更新",
+        "图像生成",
+        "多模态"
+      ],
+      "source": "X：Fei-Fei Li (@drfeifei, World Labs)",
+      "time": "01:08",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq6w49b2002qslbh4c4bh43i",
+      "title": "Gopuff与SpaceXAI推出Go AI购物助手",
+      "link": "https://x.ai/news/grok-gopuff",
+      "summary": "Gopuff与SpaceXAI合作推出Go智能购物助手，内置于Gopuff应用，由Grok文本、音频和图像模型驱动。Go结合Grok的推理、语音和图像生成能力与Gopuff的13年需求智能，利用X和网络实时信号。它可在用户打开应用前根据历史偏好和天气等信号构建个性化购物车，并包含基于Grok Imagine的超逼真视觉购物信息流。Go目前在美国iOS和Android端可用，随后在英国推出。",
+      "reason": "Gopuff加SpaceXAI的组合给即时零售塞了个挺实在的AI购物助手，预判需求比我自己翻分类流畅，本地生活类工具团队该把它当个落地样本。",
+      "score": 65,
+      "tags": [
+        "Agent",
+        "xAI",
+        "产品更新",
+        "多模态"
+      ],
+      "source": "xAI：News（网页）",
+      "time": "01:04",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq6w3soi002gslbhz3kkhav0",
+      "title": "Claude Fable 5 和 Claude Mythos 5",
+      "link": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "summary": "Anthropic 今日推出 Claude Fable 5（通用安全版）和 Claude Mythos 5（受限安全版）。Fable 5 在软件工程、知识工作、视觉、科研等几乎所有测试基准上达到 SOTA，Stripe 称其将数月工程压缩至数天，FrontierCode 评分居前沿模型之首，可仅凭截图重建网页应用源码。Mythos 5 在药物设计中实现约 10 倍加速，其分子生物学假说盲测获科学家偏好的概率约 80%。两模型售价均为 $10/百万输入 tokens、$50/百万输出 tokens，较 Claude Mythos Preview 降价过半。Fable 5 在部分敏感主题上回退至 Claude Opus 4.8，安全触发率低于 5% 的会话。Mythos 5 通过 Project Glasswing 向网络安全防御者开放。",
+      "reason": "Anthropic把最危险的模型安全地放出来了，Fable 5在编码、科研上不是小数点级别的提升，价格还砍半，95%的请求直接跑满血版，必读。",
+      "score": 90,
+      "tags": [
+        "Anthropic",
+        "多模态",
+        "安全/对齐",
+        "模型发布",
+        "编码"
+      ],
+      "source": "Anthropic：Newsroom（网页）",
+      "time": "01:04",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq6vx8zl000uslbhiiucbbxy",
+      "title": "Luma AI Ray3.2 API：电影级渲染可集成",
+      "link": "https://x.com/LumaLabsAI/status/2064389582997897216",
+      "summary": "Ray3.2 API 可大规模运行电影级渲染，并集成到您正在构建的产品中。专为在交付的产品中打造电影感的开发者、代理机构和企业而设计。\n\n开始构建 → http://lumalabs.ai/api",
+      "reason": "Luma把Ray3.2的电影级视频生成做成API，开发者和产品团队不用自己搞视频模型了，能直接嵌进现有产品，做视频应用的值得试试。",
+      "score": 78,
+      "tags": [
+        "产品更新",
+        "视频"
+      ],
+      "source": "X：Luma AI (@LumaLabsAI)",
+      "time": "00:59",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq6v24y60c2rsl5i9yvqrige",
+      "title": "OpenRouter与Cursor集成指南",
+      "link": "https://x.com/OpenRouter/status/2064384545256833209",
+      "summary": "想要在Cursor中使用OpenRouter吗？\n\n这里有一份集成指南：https://openrouter.ai/docs/cookbook/coding-agents/cursor-integration",
+      "reason": "用 Cursor 又想用 OpenRouter 上 Claude 4.6 或 Llama 4 的开发者，这篇指南帮你打通关键配置，不是大新闻但值得收藏",
+      "score": 73,
+      "tags": [
+        "教程/实践",
+        "编码"
+      ],
+      "source": "X：OpenRouter (@OpenRouter)",
+      "time": "00:35",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq6ugzqs0bxhsl5itd4fbiqd",
+      "title": "GitHub Copilot CLI 推出自定义 AI 智能体，将一次性终端提示转化为可重复工作流",
+      "link": "https://github.blog/ai-and-ml/github-copilot/from-one-off-prompts-to-workflows-how-to-use-custom-agents-in-github-copilot-cli",
+      "summary": "GitHub Copilot CLI 新增自定义 AI 智能体功能，使 CLI 能够理解开发者的技术栈和团队工作流，将一次性终端提示转变为可重复、可审查的流程。",
+      "reason": "GitHub Copilot CLI 的自定义代理把一次性提示变成可重复工作流，相当于给命令行配了个 AI 副驾驶，做自动化的朋友值得一试。",
+      "score": 68,
+      "tags": [
+        "Agent",
+        "GitHub",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "GitHub Blog",
+      "time": "00:18",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq6uc56g0bvvsl5icsvihsum",
+      "title": "里程碑式德国裁决：Google AI Overviews 被视为谷歌自身言论，需为错误回答承担责任",
+      "link": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers",
+      "summary": "德国地方法院裁定，Google 对其 AI 概览生成的内容直接承担法律责任，不能援引搜索引擎运营商原有的有限责任保护。涉案 AI 概览错误地将两家出版商与欺诈行为关联，且相关声明未出现在任何链接来源中。该裁决可能为全球 AI 生成内容责任认定树立先例。",
+      "reason": "德国法院这一刀砍得精准，直接把 AI Overviews 定性为 Google 自己的话而非第三方内容，虚假回答就得自己扛。这对全球 AI 生成内容的责任认定都是个风向标。",
+      "score": 77,
+      "tags": [
+        "Google",
+        "搜索",
+        "政策/监管"
+      ],
+      "source": "The Decoder：AI News（RSS）",
+      "time": "00:15",
+      "date": "6月10日"
+    },
+    {
+      "id": "cmq6tcee80bmxsl5ik7x89gue",
+      "title": "塔塔咨询服务将因AI智能体应用放缓招聘，亚洲外包业迎来转折",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-09/asia-s-largest-outsourcer-to-slow-hiring-as-ai-reshapes-industry",
+      "summary": "亚洲最大外包商塔塔咨询服务（Tata Consultancy Services）将减少未来招聘规模，同时加大对AI智能体的使用。这一变化标志着印度劳动密集型外包产业正经历关键性转变。",
+      "reason": "TCS作为亚洲最大外包商宣布减缓招聘，转向AI agents，这基本宣告了印度IT外包的人力时代开始落幕，所有外包从业者都该看看。",
+      "score": 71,
+      "tags": [
+        "Agent",
+        "现象/趋势",
+        "行业动态"
+      ],
+      "source": "Bloomberg：Technology（RSS）",
+      "time": "23:47",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq6sxx1u0bizsl5ib9ja78pe",
+      "title": "Gemini 3.5 Live Translate 发布",
+      "link": "https://x.com/GoogleDeepMind/status/2064366504745828689",
+      "summary": "说 hello, hola, 你好——欢迎 Gemini 3.5 Live Translate：我们最新的音频模型，专为快速跨语言交流而构建。🌐",
+      "reason": "Google 这个实时翻译模型把语音+翻译+大模型拧成了一股绳，虽然具体怎么用还不清楚，但做跨境、做语音助手的同学可以把它当个方向标。",
+      "score": 69,
+      "tags": [
+        "Google",
+        "模型发布",
+        "语音"
+      ],
+      "source": "X：Google DeepMind (@GoogleDeepMind)",
+      "time": "23:35",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq6rv40r0b8isl5iwmqtrlxl",
+      "title": "Claude Mythos 即将发布，Fable 精简版同日登场",
+      "link": "https://x.com/kimmonismus/status/2064362469632405807",
+      "summary": "确认，Claude Mythos 将在接下来几小时内揭晓。\n\n[引用 @steph_palazzolo]：\n独家：一个名为 Claude Fable 的精简版 Mythos 今天推出。它价格昂贵——是 Opus 的两倍——但或许不像人们从最初 Mythos 定价（Opus 的 5 倍）所想的那样昂贵。\n\n更多内容及 Apple WWDC 见 AI Agenda：\n\nhttps://www.theinformation.com/newsletters/ai-agenda/anthropics-mythos-coming-today-apple-pursues-modest-goals-siri-revamp",
+      "reason": "Mythos 终于来了，但首发的是阉割版 Claude Fable，价格是 Opus 的两倍。虽然不算便宜，但比起原版 Mythos 定价已经温柔很多，应该能让很多观望的人先尝尝鲜。",
+      "score": 77,
+      "tags": [
+        "Anthropic",
+        "模型发布"
+      ],
+      "source": "X：Kim (@kimmonismus)",
+      "time": "23:05",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq6qqqbp0axhsl5i2ow5j5co",
+      "title": "Google DeepMind 发布 Gemma 4 12B：统一的无编码器多模态模型",
+      "link": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model",
+      "summary": "Gemma 4 12B 是 Google DeepMind 最新推出的中等规模多模态模型，采用无编码器统一架构，原生支持音频输入。其基准测试性能接近 26B MoE 模型，但内存占用不到一半，仅需 16GB 显存或统一内存即可在消费级笔记本上本地运行。模型内置多 token 预测（MTP）drafter 以降低延迟，基于 Apache 2.0 开源许可发布，已累计超过 1.5 亿次下载。",
+      "reason": "把多模态模型的视觉和音频编码器全砍了，仅靠12B就在笔记本上跑出接近26B的效果，而且Apache 2.0开源，做端侧Agent的现在有了一个高性价比的本地推理选项。",
+      "score": 81,
+      "tags": [
+        "多模态",
+        "开源生态",
+        "模型发布",
+        "端侧"
+      ],
+      "source": "Google DeepMind：Blog（RSS）",
+      "time": "22:34",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq6pnxzb0am5sl5i5g6wjkvv",
+      "title": "Google DeepMind 欧洲机器人加速器启动，15家初创公司入选",
+      "link": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe",
+      "summary": "Google DeepMind 加速器从欧洲选出15家机器人初创公司，提供为期3个月的密集指导和AI技术整合支持，帮助公司将AI融入核心产品。",
+      "reason": "DeepMind 的机器人加速器选了 15 家欧洲公司，方向从脑手术到废品回收，是观察物理 AI 落地趋势的窗口，但公告本身没什么干货。",
+      "score": 58,
+      "tags": [
+        "具身智能",
+        "行业动态"
+      ],
+      "source": "Google DeepMind：Blog（RSS）",
+      "time": "22:04",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq6niqv20a1osl5iixuej5ea",
+      "title": "Gemini Guided Learning 随机对照试验：在塞拉利昂等地提升参与度并加速学习",
+      "link": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond",
+      "summary": "一项在塞拉利昂等地开展的随机对照试验显示，Gemini 的 Guided Learning 功能能够提升学生参与度并加速学习。",
+      "reason": "DeepMind在塞拉利昂做了一个严格RCT，初步证明AI引导学习能提升参与度和学习速度，对教育科技方向的信号意义很强，做AI教育产品的应该仔细读一下。",
+      "score": 67,
+      "tags": [
+        "DeepMind",
+        "Google",
+        "论文/研究"
+      ],
+      "source": "Google DeepMind：Blog（RSS）",
+      "time": "21:04",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq6neb920a0esl5ixu2rh53j",
+      "title": "全新汽车品牌AIVA发布，火山引擎助力打造AI汽车新体验",
+      "link": "https://mp.weixin.qq.com/s/toK_uIB9ECFHVaoCgK-w9Q",
+      "summary": "由赛力斯、宁德时代等多方产业资本组建的AI出行品牌AIVA正式发布。火山引擎提供豆包大模型、智能座舱等技术服务。概念车AIVA Origin Concept亮相，首款量产车AIVA ME7将于2026年内亮相，全系覆盖20万元以上市场。AIVA提出“AI定义汽车”路径，让汽车成为具身AI生命体。火山引擎副总裁表示，人与汽车的关系将实现交互、智能、感受三方面根本转变。未来双方将围绕AI交互、智能体验、情感陪伴深度共创。",
+      "reason": "AIVA把「先有AI再有车」当作造车逻辑，火山引擎直接下场定义汽车AI体验，这是豆包大模型从软件跑到物理世界的第一次大规模试水，做具身智能和车载产品的人该仔细看看。",
+      "score": 69,
+      "tags": [
+        "具身智能",
+        "端侧",
+        "行业动态"
+      ],
+      "source": "公众号：火山引擎",
+      "time": "21:00",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq6neaj80a09sl5if1zpnqpw",
+      "title": "百度搭子DuMate获中国信通院企业级Claw能力评估最高4+级",
+      "link": "https://mp.weixin.qq.com/s/lv99XfrRtMMgiOflcT67VA",
+      "summary": "2026年6月，百度智能云旗下百度搭子DuMate V3.4.0通过中国信通院「可信AI-企业级Claw能力评估」，获最高评级4+级，为国内首批。评估依据《智能助理智能体（Claw）技术和应用要求 第2部分 企业级Claw能力》（AIIA/T 0295-2026），覆盖智能体、工程化部署、服务、业务融合、运行管理五大能力域。百度搭子支持多智能体分工协作、容器化批量部署、多租户隔离与三级差异化授权、企业知识库接入、全链路日志审计等能力，企业级智能助手服务能力获国家级权威认可。",
+      "reason": "百度搭子通过信通院企业级Claw最高评级，算是给企业智能体的安全可控盖了个章，对正在选型的人有点参考，但内容本身是典型PR稿，了解下标准细节就好。",
+      "score": 63,
+      "tags": [
+        "Agent",
+        "行业动态"
+      ],
+      "source": "公众号：百度智能云（文心）",
+      "time": "21:00",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq6l8zwy09g0sl5ioa7ahxqv",
+      "title": "火山引擎TRAE Work企业版正式上线，面向全员提供AI办公平台",
+      "link": "https://mp.weixin.qq.com/s/f7QzLzwHPHHv3tWT1Wrnkw",
+      "summary": "火山引擎将TRAE Solo品牌升级为TRAE Work企业版，发布面向企业的AI办公平台。平台提供Work和Code两种模式：Work模式面向产品、运营、市场等非技术岗位，支持上传.pptx、.xlsx、图片等多种格式混合输入直接输出PPT或文档，支持语音讨论自动整理结构化纪要，支持按天或按周自动运行的数据整理和报告生成；Code模式面向开发者和业务同学，可用自然语言描述需求直接生成页面或小应用。桌面端、网页端和移动端多端同步。企业后台可统一配置模型、用量限额、上传内部文档，沙箱机制隔离执行，支持命令黑名单、MCP白名单、内容安全策略，关键操作可审计。同时发起TRAE Enterprise Fellow招募计划。",
+      "reason": "火山引擎把 TRAE 从开发者工具升级成全员工 AI 协作平台，语音讨论和自动化任务直击非技术岗痛点，企业推 AI 落地又多了一个务实选择。",
+      "score": 70,
+      "tags": [
+        "Agent",
+        "产品更新"
+      ],
+      "source": "公众号：火山引擎",
+      "time": "20:00",
+      "date": "6月9日"
+    },
+    {
+      "id": "cmq6l2wms09elsl5ipt8ah0ij",
+      "title": "一个Agent如何通过链式调用两个HuggingFace Space构建3D巴黎画廊",
+      "link": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "summary": "一个编码Agent调用HuggingFace上的两个Space，从零构建了展示巴黎地标3D高斯散点图的交互式画廊。Agent先用ideogram-ai/ideogram4生成每个纪念碑的黑色背景图像，再通过VAST-AI/TripoSplat从单张图像重建3D高斯散点（.ply），自动完成坐标系校正、取景、压缩为.ksplat（体积缩小约3倍），并构建基于Three.js的滚动切换、拖拽旋转查看器，最终部署为静态Space。整个过程无需客户端库，每个Space通过`agents.md`暴露可调用API。",
+      "reason": "Hugging Face 把 agents.md 做成每个 Space 的标准说明书，agent 能直接读懂并链式调用图像和 3D 模型，这篇用 3D 巴黎画廊 demo 告诉你这事儿已经跑通了，做 AI 工具链的可以立刻照着试。",
+      "score": 76,
+      "tags": [
+        "Agent",
+        "Hugging Face",
+        "MCP/工具调用",
+        "多模态",
+        "教程/实践"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "19:55",
+      "date": "6月9日"
+    }
+  ]
+}

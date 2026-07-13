@@ -1,0 +1,643 @@
+{
+  "date": "2026-05-16",
+  "scraped_at": "2026-05-16T05:00:09.737097+00:00",
+  "total_items": 40,
+  "items": [
+    {
+      "id": "cmp7r64470cn3slnzbumhcutg",
+      "title": "藏师傅PPT Skills更新，AI自动美化截图",
+      "link": "https://x.com/op7418/status/2055477163579891897",
+      "summary": "藏师傅PPT Skills产品更新，新增截图美化功能。该功能无需消耗GPT-Image 2.0资源，即可根据用户截图的大小、长宽比以及当前PPT的模板类型和颜色主题，自动匹配合适的背景图，实现类似CleanShot X等专业软件的截图美化效果。AI还能处理过长等有问题的图片，例如将其自动裁剪并排成两列展示。",
+      "reason": "藏师傅把截图美化做成了PPT Skills的标配功能，不再消耗GPT-Image，这种省成本的更新对高频做PPT的人是真香。",
+      "score": 79,
+      "tags": [
+        "产品更新",
+        "教程/实践"
+      ],
+      "source": "X：歸藏 (@op7418)",
+      "time": "10:54",
+      "date": "5月16日"
+    },
+    {
+      "id": "cmp7mvr030bmvslnzaxryw471",
+      "title": "智能体驱动系统Articraft实现3D资产生成自动化，开源万件数据集降低门槛",
+      "link": "https://x.com/berryxia/status/2055444087684407505",
+      "summary": "剑桥大学团队推出Articraft，这是一个由智能体驱动的编码系统，能全自动生成带关节、可运动的交互式3D资产。系统通过AI智能体自主编写代码、执行并接收物理反馈迭代优化，将以往需数日甚至数周的创作过程极大简化。团队同时开源了Articraft-10K数据集，包含超1万个物体，覆盖250个类别，所有资产均仿真就绪。此举显著降低了机器人训练和物理AI领域对高质量3D资产的数据门槛，为解决“数据饥渴”问题提供了高效的自动化方案。",
+      "reason": "这个开源直接把物理AI训练的资产瓶颈打掉了一大半，agent全自动生成带关节的可交互3D，做仿真和机器人的可以立刻拉代码试试，诚意很足。",
+      "score": 77,
+      "tags": [
+        "Agent",
+        "具身智能",
+        "开源生态",
+        "论文/研究"
+      ],
+      "source": "X：Berry Xia (@berryxia)",
+      "time": "08:54",
+      "date": "5月16日"
+    },
+    {
+      "id": "cmp7m1ggz0bf0slnzewan1t1n",
+      "title": "Databricks将GPT-5.5引入企业智能体工作流",
+      "link": "https://openai.com/index/databricks",
+      "summary": "Databricks宣布在企业智能体工作流中集成GPT-5.5模型。这一决策基于该模型在OfficeQA Pro专业基准测试中取得的突破性性能表现，创造了新的行业标杆。GPT-5.5的引入将提升企业自动化流程的准确性与效率。",
+      "reason": "Databricks用GPT-5.5跑企业代理，OfficeQA Pro刷榜，对数据平台是个信号，但这就是条合作新闻，没有可落地的细节。",
+      "score": 67,
+      "tags": [
+        "Agent",
+        "OpenAI",
+        "行业动态"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "08:30",
+      "date": "5月16日"
+    },
+    {
+      "id": "cmp7ip3e70anyslnzwh7n9yp0",
+      "title": "Claude Code v2.1.143 版本更新：插件管理与用户体验增强",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+      "summary": "Claude Code 发布 v2.1.143 版本，重点增强了插件管理功能，包括强制执行插件依赖关系，并新增了插件市场的预估上下文成本显示。为方便直接编辑工作副本，增加了 `worktree.bgIsolation: \"none\"` 设置。多项体验得到改进：后台会话唤醒后保留模型与努力级别设置；Windows PowerShell 工具默认绕过执行策略；`claude agents` 命令新增多个参数以配置默认会话。此外，本次更新修复了大量错误，包括修复损坏的 `.credentials.json` 文件导致 CLI 启动卡住、Windows Terminal 中的右键粘贴问题、后台会话错误捕获 IDE 文件引用，以及 macOS 上后台作业读取特定目录文件的权限错误等。",
+      "reason": "Claude Code 的 v2.1.143 是个纯修补版本，修了一大堆边缘 bug 外加几个小优化，对重度用户可能是救命稻草，其他人可以等下次大版本。",
+      "score": 61,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "产品更新",
+        "编码"
+      ],
+      "source": "Claude Code：GitHub Releases（RSS）",
+      "time": "06:57",
+      "date": "5月16日"
+    },
+    {
+      "id": "cmp7gzh5x0abkslnz3k1vgqjz",
+      "title": "无视令牌成本，用百个AI实例自动化驱动开源项目",
+      "link": "https://x.com/steipete/status/2055405041843052792",
+      "summary": "作者在OpenClaw项目中大规模运用AI，探索在“令牌成本无关紧要”的未来如何构建软件。团队持续运行约100个Codex实例，自动化处理多项核心工作：审查代码与安全问题、去重归类议题、自动重现复杂测试环境并录制验证视频、从会议讨论中主动创建任务、过滤垃圾评论以及监控性能回归。通过clawpatch.ai等工具将项目拆分为功能单元进行审查，并整合Vercel DeepSec等进行安全分析。整套自动化体系使得项目能够以极精简的团队高效运作。",
+      "reason": "Peter 这种「token 不要钱」的用法看似疯狂，但背后的自动化思路值得每个团队认真看看，尤其是 issue 自动闭环那一套，抄作业的门槛比想象中低。",
+      "score": 72,
+      "tags": [
+        "Agent",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "X：Peter Steinberger (@steipete)",
+      "time": "06:09",
+      "date": "5月16日"
+    },
+    {
+      "id": "cmp7gqr520a8sslnzyvbw2zpq",
+      "title": "英伟达CEO称技工前景优于计算机科学毕业生",
+      "link": "https://x.com/kimmonismus/status/2055403142913884288",
+      "summary": "英伟达CEO Jensen Huang在卡内基梅隆大学告诉2026届计算机科学毕业生，电工、水管工等技工比他们更有前景。数据支持这一观点：Randstad分析显示技工需求增长是白领职位的三倍，机器人技术员职位增长107%，而斯坦福研究发现AI相关职位早期就业下降16%。顶级电工年薪超10.6万美元，无需学位负债。科技公司今年投资7000亿美元建设数据中心，全球到2030年预计达7万亿美元，这些基础设施依赖人力完成，但制造业面临劳动力短缺，每100名新工人进入就有102人离开。AI时代最大赢家是能建设数据中心的技工，而非提示工程师。",
+      "reason": "Jensen Huang 的毕业演讲配上 Randstad 的数据，把 AI 时代的就业真相说透了——不是写 prompt 的，是拉电线的，这反转值得所有开发者关注。",
+      "score": 71,
+      "tags": [
+        "大佬观点",
+        "现象/趋势",
+        "行业动态"
+      ],
+      "source": "X：Kim (@kimmonismus)",
+      "time": "06:02",
+      "date": "5月16日"
+    },
+    {
+      "id": "cmp7els0209r2slnzcllv5y8e",
+      "title": "将Grok接入Hermes智能体",
+      "link": "https://x.ai/news/grok-hermes",
+      "summary": "xAI宣布，用户现可将Grok订阅账户接入Nous Research的开源自改进智能体Hermes Agent。该集成对所有订阅层级开放，允许用户在Hermes环境中直接使用Grok 4.3进行文本对话与高级推理、调用其文本转语音功能生成语音回复，并利用Grok Imagine创建图像与视频。Hermes Agent可持久运行于电脑、沙盒或VPS，具备跨会话长期记忆能力，并能连接WhatsApp、Discord等通讯平台。用户通过安装Hermes Agent并选择Grok提供商即可完成配置。",
+      "reason": "如果你已经在用或想尝试Nous Research的Hermes Agent，现在可以直接用Grok订阅，不必再多付一份模型API钱，而且Grok 4.3的推理和图像生成都能在agent里跑，对个人开发者挺友好。",
+      "score": 70,
+      "tags": [
+        "Agent",
+        "xAI",
+        "产品更新",
+        "开源生态"
+      ],
+      "source": "xAI：News（网页）",
+      "time": "05:02",
+      "date": "5月16日"
+    },
+    {
+      "id": "cmp7ck9n009a6slnzs9t4octw",
+      "title": "Krea 2正式上线面向专业用户",
+      "link": "https://x.com/krea_ai/status/2055371934452642107",
+      "summary": "从今天起，Krea 2 正式为 Pro 用户上线。",
+      "reason": "Krea 2 终于向 Pro 用户开放，虽然更新细节暂未披露，但版本号的跃迁加上 Krea 一贯的实时生成野心，做图像视频的值得第一时间上手试试。",
+      "score": 77,
+      "tags": [
+        "产品更新",
+        "图像生成"
+      ],
+      "source": "X：Krea AI (@krea_ai)",
+      "time": "04:05",
+      "date": "5月16日"
+    },
+    {
+      "id": "cmp7b8bdg08y8slnzf39s0jz4",
+      "title": "Runway Agent一键生成完整广告",
+      "link": "https://x.com/runwayml/status/2055364605979869229",
+      "summary": "Runway Agent 让你仅需一次会话，就能从产品照片和想法转变为完全制作完成的广告。\n立即通过下方链接开始体验。",
+      "reason": "Runway Agent把广告制作压到一张产品图加一句话的极简流程，做电商和创意的值得上手测一下是不是真省时间。",
+      "score": 78,
+      "tags": [
+        "产品更新",
+        "图像生成",
+        "视频"
+      ],
+      "source": "X：Runway (@runwayml)",
+      "time": "03:28",
+      "date": "5月16日"
+    },
+    {
+      "id": "cmp7awlbb08wuslnzuw1nv0oq",
+      "title": "推理的一阶导数：AI浪潮下的增长逻辑",
+      "link": "https://www.tomtunguz.com/first-derivative-of-inference",
+      "summary": "AI推理是当今规模最大、增长最快的技术市场，预计七年内将达到2500亿美元。直接销售或转售推理服务的公司增长迅猛，如Anthropic和谷歌云。在AI时代前的软件公司中，Datadog和Twilio作为“推理的一阶导数”脱颖而出：Datadog的LLM可观测产品数据量近一季增长近两倍，其约20%的AI客户贡献了约80%的年度经常性收入；Twilio则通过AI重构的语音服务吸引客户。当前周期呈现高度集中特点，少数客户能驱动巨大收益。对于非AI原生公司，核心战略在于如何转售推理服务或从其客户的大量采购中获益。",
+      "reason": "Tomer 用「推理的第一导数」这个框架讲透了一件事，Twilio 和 Datadog 的暴涨不是偶然，而是买推理的衍生需求，pre-AI 公司想活就得问自己怎么沾上推理的光。",
+      "score": 72,
+      "tags": [
+        "大佬观点",
+        "推理",
+        "现象/趋势"
+      ],
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "time": "03:19",
+      "date": "5月16日"
+    },
+    {
+      "id": "cmp7ajz1p08ucslnzqivkv5dv",
+      "title": "语义代码审查工具clawpatch发布",
+      "link": "https://x.com/steipete/status/2055364630709448970",
+      "summary": "🩹 clawpatch 0.1.0 已上线：\n\nClawpatch 将代码库映射成语义功能切片，审查其中的错误和质量问题，并记录经过验证的明确修复尝试。\n\n您会发现它能发现的问题之多令人惊讶。\nnpm install -g clawpatch\nhttps://clawpatch.ai",
+      "reason": "Peter Steinberger 开源的 clawpatch 能把代码库切片成语义特征，自动揪出 bug 并验证修复，对日常写代码的人来说是个很实用的 CLI 小工具，值得装上试试。",
+      "score": 75,
+      "tags": [
+        "产品更新",
+        "编码"
+      ],
+      "source": "X：Peter Steinberger (@steipete)",
+      "time": "03:09",
+      "date": "5月16日"
+    },
+    {
+      "id": "cmp798nad08i6slnzr5cbmstw",
+      "title": "AI助手Sai化身虚拟同事，自主完成深度研究",
+      "link": "https://x.com/kimmonismus/status/2055351198467911769",
+      "summary": "AI工具Sai被设计为拥有独立桌面的“虚拟同事”，而非仅提供聊天窗口。用户可向其下达“深度研究某主题”等指令后离线，Sai会在安全的工作空间内自主操作：打开标签页、点击应用、阅读并交叉引用资料、做笔记，其工作方式类似人类研究员。任务完成后，它会整理好引用来源，并在执行任何潜在风险操作前请求用户批准。这展示了“始终在线”的计算机使用代理的实际形态。",
+      "reason": "终于见到一个能在自己桌面默默干活的研究型 Agent，不是对话框，是同事。对于要做深度调研的人来说，这种“异步自主”才是 agent 该有的样子。",
+      "score": 70,
+      "tags": [
+        "Agent",
+        "搜索",
+        "教程/实践"
+      ],
+      "source": "X：Kim (@kimmonismus)",
+      "time": "02:32",
+      "date": "5月16日"
+    },
+    {
+      "id": "cmp780kw8087mslnzyamm5l6a",
+      "title": "杨立昆访谈：剖析LLM局限，畅谈AI未来与创业新途",
+      "link": "https://x.com/ylecun/status/2055346714039464373",
+      "summary": "在Unsupervised Learning播客中，AI先驱杨立昆阐述了其对大型语言模型局限性的反主流观点，并探讨了机器人技术的发展路径。他解释了离开Meta的原因，以及与Geoff Hinton、Yoshua Bengio在图灵奖观点上的重大分歧。访谈还涵盖了他对2027年的预测、新公司AMI对世界模型的押注，并将OpenAI和Anthropic比作Sun Microsystems。此外，他建议博士生停止研究LLM，并分享了对AI安全、突破性研究发生机制以及Meta FAIR得失的尖锐见解。",
+      "reason": "LeCun 这次播客几乎把近年的核心争议点全摊开了，从 LLM 局限性到 AMI 的世界模型赌注，还当面回应了与 Hinton、Bengio 的分歧，信息密度远超常规大佬推文。",
+      "score": 71,
+      "tags": [
+        "Meta",
+        "大佬观点",
+        "现象/趋势"
+      ],
+      "source": "X：Yann LeCun (@ylecun)",
+      "time": "01:58",
+      "date": "5月16日"
+    },
+    {
+      "id": "cmp7670my07u2slnzpgzvw1yy",
+      "title": "MiniMax M2.7模型上线OrcaRouter平台",
+      "link": "https://x.com/MiniMax_AI/status/2055331545402245246",
+      "summary": "M2.7已在@OrcaRouter上线——可通过单一OpenAI兼容API访问。\n\n今天就来试试吧！🐋",
+      "reason": "M2.7 是国产开源模型里的第一梯队，现在能在 OrcaRouter 用统一 API 调用，价格很透明，想试试又不想自己部署的开发者可以直接上手。",
+      "score": 66,
+      "tags": [
+        "开源生态",
+        "模型发布"
+      ],
+      "source": "X：MiniMax (@MiniMax_AI)",
+      "time": "01:07",
+      "date": "5月16日"
+    },
+    {
+      "id": "cmp75zm1007rjslnzdjq1p1za",
+      "title": "在法律行业全面部署Claude：产品指南与实施路线图",
+      "link": "https://claude.com/blog/deploying-claude-across-the-legal-industry",
+      "summary": "2026年报告显示，法律团队生成式AI使用率已从44%跃升至87%。为应对日益复杂的工作，法律行业正将Claude应用于合同审阅、并购尽调及诉讼准备等核心流程，并通过多款产品组合提升效率：Chat用于即时研究，Claude Cowork处理跨文件协作，Microsoft 365插件集成办公套件，Platform支持定制应用开发。Anthropic同步发布法律行业部署指南，涵盖产品矩阵、12个预设业务领域插件及三阶段实施路线图，并解答数据托管与权限保护等关键问题。",
+      "reason": "Anthropic法律团队亲自下场写路线图，从合同红笔到隐私评估，把Claude全家桶怎么用、什么时候用讲透了，律所和法务部可以直接照着推。",
+      "score": 67,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "教程/实践",
+        "部署/工程"
+      ],
+      "source": "Claude：Blog（网页）",
+      "time": "01:01",
+      "date": "5月16日"
+    },
+    {
+      "id": "cmp75qfv107p0slnza9wzcnmd",
+      "title": "Eric Jang – 从零开始构建 AlphaGo",
+      "link": "https://www.dwarkesh.com/p/eric-jang",
+      "summary": "文章以AlphaGo为例，阐述了智能的基本构成要素。AlphaGo至今仍是最清晰、最完整的范例，它融合了三大核心基础：搜索技术、从经验中学习以及自我对弈。这三大要素共同构成了其实现超越人类棋艺的关键路径。",
+      "reason": "从亲历者视角还原 AlphaGo 的架构决策，对做 RL 和搜索的人来说是教科书级的复盘点，比论文更生动。",
+      "score": 61,
+      "tags": [
+        "DeepMind",
+        "大佬观点",
+        "推理"
+      ],
+      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+      "time": "00:54",
+      "date": "5月16日"
+    },
+    {
+      "id": "cmp74kzdx07fhslnzgxi917g9",
+      "title": "SenseNova发布增强版信息图表生成模型SenseNova-U1-8B-MoT-Infographic",
+      "link": "https://x.com/SenseTime_AI/status/2055315819165597702",
+      "summary": "SenseNova近日推出专为信息图表生成设计的增强模型SenseNova-U1-8B-MoT-Infographic。该模型能够根据指令生成多种视觉格式内容，包括海报、图表、食谱卡、明信片以及学术风格的arXiv页面等。在性能方面，模型在BizGenEval（困难版）和IGenBench（Q-ACC）两项基准测试上表现突出，相比其基础U1模型分别提升了6.8分和18.2分。目前，该模型已在Hugging Face平台开源，并提供了超过100个多样化的生成示例，供开发者和研究者参考与试用。",
+      "reason": "商汤这个 8B 模型把信息图生成能力打包得很完整，海报、食谱卡、学术风格页面都能搞，做设计的可以试试看效果。",
+      "score": 62,
+      "tags": [
+        "Hugging Face",
+        "图像生成",
+        "模型发布"
+      ],
+      "source": "X：商汤 SenseTime (@SenseTime_AI)",
+      "time": "00:22",
+      "date": "5月16日"
+    },
+    {
+      "id": "cmp73t6dx078eslnzi1mmbcym",
+      "title": "ChatGPT 推出全新个人理财体验",
+      "link": "https://openai.com/index/personal-finance-chatgpt",
+      "summary": "OpenAI 为美国地区的 ChatGPT Pro 用户推出个人理财功能预览版。用户可安全连接个人金融账户，获取基于自身财务状况、目标和优先级生成的 AI 洞察与指导。该体验通过账户关联实现个性化分析，标志着 ChatGPT 正式向个人金融助手领域拓展。",
+      "reason": "ChatGPT 开始接银行账户给理财建议了，这个步子比我想的激进，虽然现在只面向美国 Pro 用户，但个人理财是高频刚需场景，后续铺开的可能性不小。",
+      "score": 63,
+      "tags": [
+        "OpenAI",
+        "产品更新"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "00:00",
+      "date": "5月16日"
+    },
+    {
+      "id": "cmp738tgu0738slnzxfplh82v",
+      "title": "Forward Deployed Engineer：AI 时代的新宠岗位，到底干什么？",
+      "link": "https://x.com/dotey/status/2055307775417139447",
+      "summary": "Forward Deployed Engineer（FDE）是AI落地应用的关键角色，负责在客户现场部署和集成AI系统。近期，OpenAI成立独立部署公司，Anthropic与华尔街巨头合作，Google也简化流程大力招聘，显示行业重心正从模型竞赛转向商业落地。FDE工作介于工程师与顾问之间，需写代码、调试并深度理解业务。此岗位为毕业生提供了接触企业级项目的机会，也帮助资深工程师贴近业务需求，成为推动AI创造实际价值的重要力量。",
+      "reason": "FDE这个岗位突然被OpenAI、Anthropic和Google砸几十亿赌上，说明AI公司的赚钱方式变了。这篇文章用大白话把它讲得明明白白，想知道AI落地趋势的人值得看。",
+      "score": 71,
+      "tags": [
+        "现象/趋势",
+        "部署/工程"
+      ],
+      "source": "X：宝玉 (@dotey)",
+      "time": "23:44",
+      "date": "5月15日"
+    },
+    {
+      "id": "cmp735uqj072oslnzjq1bedvf",
+      "title": "英国多部门联合警告：当前最先进 AI 模型网络攻击能力已远超专业人员，企业应做好防范措施",
+      "link": "https://www.ithome.com/0/951/144.htm",
+      "summary": "英国财政部、英格兰银行及金融行为监管局联合警告，当前最先进的AI模型已具备远超普通专业人员的网络攻击能力，其攻击速度更快、范围更广、成本更低。若被恶意利用，将严重威胁企业运营安全、客户数据、金融市场稳定性乃至整个金融体系。英格兰银行行长安德鲁·贝利此前已点名Anthropic的Mythos产品，网络安全专家亦警告此类AI可能强化复杂攻击，对银行业及金融技术体系构成新挑战。",
+      "reason": "英国财政部、央行和监管局联合发声，直接点名Mythos，警告AI网络攻击已超专业人员水平。这不是一般的安全报告，是金融系统对AI风险的正式‘吹哨’，做金融科技和安全的企业得认真看看。",
+      "score": 70,
+      "tags": [
+        "Anthropic",
+        "安全/对齐",
+        "政策/监管"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "23:42",
+      "date": "5月15日"
+    },
+    {
+      "id": "cmp72z8pw0715slnz6cpkuxls",
+      "title": "OpenRouter BYOK三大升级 支持多密钥轮换",
+      "link": "https://x.com/OpenRouter/status/2055305259287801865",
+      "summary": "OpenRouter BYOK 三项重大升级 🔑\n\n1/ 可在同一工作空间为同一服务商添加多个密钥，并设置调用顺序。\n\n便于在速率限制间轮换、区分开发与生产凭证，或在团队账户间分配使用量！",
+      "reason": "OpenRouter这次BYOK升级很实在，多了多密钥管理和顺序设置，做API分发的团队终于能告别手工切换凭证的痛了。",
+      "score": 74,
+      "tags": [
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "X：OpenRouter (@OpenRouter)",
+      "time": "23:37",
+      "date": "5月15日"
+    },
+    {
+      "id": "cmp72xh52070qslnz2cdl9apt",
+      "title": "微软研究院发布AI新工具与模型",
+      "link": "https://x.com/MSFTResearch/status/2055303919497089337",
+      "summary": "微软研究院的新工具、模型、代码库和论文现已发布。\n\n使用AI和智能体？值得关注：\n• MSR AI Frontiers的MagenticLite\n• 智能体化GitHub工作流\n• 验证优先智能体\n• 意义匹配微调\n• AI转型与经济发展",
+      "reason": "微软研究院这波把 agent 工具链摊开了，MagenticLite 轻量框架和 verification-first 思路值得跟，做智能体的可以去 GitHub 翻翻。",
+      "score": 67,
+      "tags": [
+        "Agent",
+        "Microsoft",
+        "开源/仓库",
+        "行业动态"
+      ],
+      "source": "X：Microsoft Research (@MSFTResearch)",
+      "time": "23:35",
+      "date": "5月15日"
+    },
+    {
+      "id": "cmp71za2106tqslnzc09muj8y",
+      "title": "戛纳倒计时 | Kling AI大会主讲阵容揭晓！",
+      "link": "https://x.com/Kling_ai/status/2055302191129473502",
+      "summary": "2026年戛纳电影节Kling AI大会将汇聚三位世界级电影制作人，展示他们运用Kling AI技术创作的标杆作品。中国动画导演魏立将分享AI生成动画《Born of the Tide》；Jon Erwin将解析为Amazon Prime制作的剧集《House of David》；Eekjun Yang则将介绍院线电影《RAPHAEL》的创作过程。三位讲者将深入探讨Kling AI在电影制作中的幕后应用，共同探索AI为影视创作带来的新可能性。活动定于2026年5月18日15:30至17:30，在戛纳影节宫主舞台举行。",
+      "reason": "三位好莱坞级导演站台，拿成品说话，对做AI影视的人是难得的实战拆解，但这就是个活动预告，想看真东西还得等现场。",
+      "score": 61,
+      "tags": [
+        "多模态",
+        "行业动态",
+        "视频"
+      ],
+      "source": "X：可灵 Kling AI (@Kling_ai)",
+      "time": "23:09",
+      "date": "5月15日"
+    },
+    {
+      "id": "cmp71k78q06p8slnzvgf8b9x8",
+      "title": "开源项目OpenSquilla：智能路由降低AI成本近十倍，兼容多平台与模型",
+      "link": "https://x.com/xiaohu/status/2055299820215300380",
+      "summary": "开源项目OpenSquilla通过智能路由架构，在保持与OpenClaw相近性能（0.9251分）的同时，将复杂AI任务处理成本从6美元大幅降至0.68美元。其核心是将简单任务分配给廉价模型，仅复杂任务调用Opus等顶级模型。系统具备四层记忆结构模拟人脑认知，支持按需加载16种工具，并设有三档代码沙箱安全防护。项目提供统一后端，支持网页、命令行及Slack、飞书等平台接入，兼容OpenAI、Claude、Gemini、DeepSeek等20余家主流模型。",
+      "reason": "虽然是个新开源项目，但用路由器把便宜模型和顶级模型混用的降本思路很接地气，成本从 6 美元砍到 6 毛 8，做 Agent 的值得点开源代码看看。",
+      "score": 74,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "开源/仓库"
+      ],
+      "source": "X：小互 (@xiaohu)",
+      "time": "22:57",
+      "date": "5月15日"
+    },
+    {
+      "id": "cmp710n5t06keslnzp1ln3f39",
+      "title": "美国人工智能政策一团糟，以下是应对之策",
+      "link": "https://garymarcus.substack.com/p/us-ai-policy-is-a-clumsy-mess-heres",
+      "summary": "美国各州和联邦层面已提出约1200项人工智能相关法案，但至今未能形成统一的国家政策框架。这种分散且矛盾的立法状态，可能导致监管冲突、创新受阻，并削弱美国在全球人工智能治理中的竞争力。当前亟需建立跨层级的协调机制，将零散的提案整合为连贯的战略，以平衡技术发展与风险管控。",
+      "reason": "Gary Marcus 痛批美国 AI 政策有 1200 个法案却没有框架，给出的修复建议很实在，关心 AI 监管走向的可以一读。",
+      "score": 62,
+      "tags": [
+        "大佬观点",
+        "政策/监管"
+      ],
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "time": "22:42",
+      "date": "5月15日"
+    },
+    {
+      "id": "cmp6yru3g061kslnzz7uthrl7",
+      "title": "X平台开源“For You”信息流推荐算法",
+      "link": "https://x.com/cb_doge/status/2055280665583898691",
+      "summary": "X平台在GitHub开源了其“For You”信息流的最新推荐算法。该算法融合来自已关注账号的内容和通过相似性搜索发现的网络外内容，并利用基于Grok架构的Phoenix Transformer模型进行统一评分。模型通过分析用户近期互动，同时预测点赞、回复、转发等多种互动概率，并综合成最终相关性分数。排序过程包括候选内容收集、上下文信息补充、AI模型评分、多样性调整及垃圾信息过滤等步骤。此次开源提供了完整的可运行管道、预训练模型、内容理解服务及内置广告混合模块，核心计算完全由Transformer模型驱动。",
+      "reason": "X 把推荐算法完整开源，带可跑的预训练 Phoenix 模型，这比任何论文都实在，做信息流产品的可以直接拉到本地研究。",
+      "score": 76,
+      "tags": [
+        "GitHub",
+        "产品更新",
+        "开源生态"
+      ],
+      "source": "X：cb_doge (@cb_doge)",
+      "time": "21:39",
+      "date": "5月15日"
+    },
+    {
+      "id": "cmp6y3j0c05voslnzmxq8stxq",
+      "title": "OpenClaw新版本速度提升约3.5倍",
+      "link": "https://x.com/openclaw/status/2055273947537490422",
+      "summary": "最新版OpenClaw速度提升约3.5倍 🦞\n\n我们每6小时通过真实消息渠道（此处使用Telegram，采用全新的机器人间通信）对所有已发布的npm版本进行端到端RTT测试。不再有静默回归。\n\n所有运行器均在@useblacksmith CI上运行。\n在您察觉之前捕捉减速问题。",
+      "reason": "OpenClaw 这次更新把端到端延迟压低了 3.5 倍，还引入了机器人对机器人通信的自动回归测试，对重度用户相当于免费性能升级，值得立即更新。",
+      "score": 60,
+      "tags": [
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "X：OpenClaw (@openclaw)",
+      "time": "21:20",
+      "date": "5月15日"
+    },
+    {
+      "id": "cmp6wqhi205ksslnz4abddcy6",
+      "title": "飞书开源CLI工具45天获万星，AI操作可见可控引关注",
+      "link": "https://x.com/AYi_AInotes/status/2055263164145504501",
+      "summary": "飞书开源命令行工具lark-cli在45天内获得超过1万GitHub star，成为国内首个破万星的办公套件开源项目。该工具允许AI通过命令行直接操作飞书，执行建群、建文档等任务，且每一步操作都可预览、可审查，与云端不可见的MCP模式形成对比。其主干代码已合并10位外部开发者的贡献，而同类产品钉钉和企业微信则为零。这种可见、可控的特性被视为开发者放心将任务交给AI Agent的前提，预示着一句话指令驱动完整项目流程成为可能。",
+      "reason": "飞书CLI把AI操作办公套件的每一步都摊在终端里，这种透明感是MCP黑箱给不了的，加上1万星和10个外部PR，这组数字比任何PR稿都诚实。",
+      "score": 76,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "开源生态",
+        "教程/实践"
+      ],
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "time": "20:42",
+      "date": "5月15日"
+    },
+    {
+      "id": "cmp6wbid805g6slnzngow8zgr",
+      "title": "Show HN: 根据基准测试排名，为您的硬件寻找最适合的本地 LLM",
+      "link": "https://github.com/Andyyyy64/whichllm",
+      "summary": "一个名为“WhichLLM”的开源工具已在GitHub发布，可根据用户硬件配置推荐最适合的本地大语言模型。该工具通过基准测试对各类模型进行排名，帮助用户依据自身设备的性能指标选择最优模型。项目在Hacker News上获得116点热度，显示出社区对本地化AI部署效率工具的积极关注。",
+      "reason": "选本地 LLM 不再靠猜，这个工具把基准测试和硬件匹配做得像查配置表，刚接触端侧的人也能立刻上手。",
+      "score": 78,
+      "tags": [
+        "开源/仓库",
+        "端侧",
+        "部署/工程"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "20:30",
+      "date": "5月15日"
+    },
+    {
+      "id": "cmp6u6cc404y7slnzz93y5rj9",
+      "title": "克劳德（法律事务）",
+      "link": "https://github.com/anthropics/claude-for-legal",
+      "summary": "Anthropic公司在GitHub上开源了专为法律领域优化的AI模型“Claude for Legal”。该模型能更准确地处理法律文本、合同及案例摘要，旨在提升法律从业者效率。此消息在Hacker News上获得105个投票点数，显示出技术社区对其在法律科技领域应用潜力的关注。",
+      "reason": "Anthropic 把 Claude 在法律场景的提示和工具打包成仓库，对法律人来说比 API 文档更直接可用，垂直落地信号明显。",
+      "score": 71,
+      "tags": [
+        "Anthropic",
+        "开源/仓库",
+        "推理"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "19:30",
+      "date": "5月15日"
+    },
+    {
+      "id": "cmp6u4ijo04xmslnze0r0uhb1",
+      "title": "Pixverse模板：让你成为全场焦点",
+      "link": "https://x.com/PixVerse_/status/2055245210184200497",
+      "summary": "Pixverse让你成为焦点～\n用Pixverse网页版的音乐会聚光灯模板制作吧！",
+      "reason": "Pixverse 的这个演唱会聚光灯模板把「当主角」的门槛压到一键生成，拍着玩挺有意思，但本质上只是模板上新，不构成重大更新。",
+      "score": 62,
+      "tags": [
+        "产品更新",
+        "视频"
+      ],
+      "source": "X：PixVerse (@PixVerse_)",
+      "time": "19:29",
+      "date": "5月15日"
+    },
+    {
+      "id": "cmp6r0wgm0497slnz10qneu54",
+      "title": "Anthropic估值与营收飙升",
+      "link": "https://x.com/kimmonismus/status/2055222524774846576",
+      "summary": "Anthropic简况：\n\n估值：\n2026年2月：3500亿美元\n2026年5月：9000亿美元\n\n三个月内增长近3倍。\n\n年度经常性收入：\n2025年底：90亿美元\n2026年5月底：450亿美元\n\n五个月内增长近5倍。\n\n天啊。 via FT",
+      "reason": "Anthropic三个月估值从350B冲到900B，ARR五个月翻五倍，这曲线比任何产品发布都更具信号意义，AI头部公司的资本定价正在脱离传统逻辑。",
+      "score": 73,
+      "tags": [
+        "Anthropic",
+        "行业动态"
+      ],
+      "source": "X：Kim (@kimmonismus)",
+      "time": "18:02",
+      "date": "5月15日"
+    },
+    {
+      "id": "cmp6dojkq011lslnz6pqfta9e",
+      "title": "MemLens：大型视觉语言模型多模态长时记忆基准测试",
+      "link": "https://arxiv.org/abs/2605.14906",
+      "summary": "研究团队推出MEMLENS基准，系统评估大型视觉语言模型在多模态多轮对话中的长时记忆能力。该基准包含789个问题，涵盖五大记忆能力，并在四种标准上下文长度下测试。评估27个长上下文模型和7个记忆增强代理后发现：长上下文模型在短对话中表现良好但随对话延长性能下降；记忆代理长度稳定性好但损失视觉保真度。多轮推理任务将多数系统性能限制在30%以下，表明需结合长上下文注意力与结构化多模态检索的混合架构。",
+      "reason": "第一个把长上下文和记忆增强放在同一套题目里横向比，而且用图像消融证明 80% 的题真需要视觉证据，做多模态记忆的研究者该拿来当标尺了。",
+      "score": 70,
+      "tags": [
+        "多模态",
+        "论文/研究",
+        "评测/基准"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "11:49",
+      "date": "5月15日"
+    },
+    {
+      "id": "cmp6c0i6i00nbslnzm1hefdiu",
+      "title": "inclusionAI/ARGenSeg-8B",
+      "link": "https://huggingface.co/inclusionAI/ARGenSeg-8B",
+      "summary": "包容性AI团队发布ARGenSeg-8B模型，致力于通过开源和开放科学推动人工智能的进步与普及。该举措强调技术民主化，使更广泛的社区能够参与AI研发与应用。开源策略将促进协作创新，加速AI工具在多元场景中的落地，降低技术门槛，推动产业生态的开放发展。",
+      "reason": "蚂蚁 inclusionAI 在 HuggingFace 上扔了个 ARGenSeg-8B 模型，8B 参数，连文档都没写，只喊了句‘开放科学’，分割方向的开发者可以自己扒下来试试，但别抱太高预期。",
+      "score": 55,
+      "tags": [
+        "Hugging Face",
+        "图像生成",
+        "模型发布"
+      ],
+      "source": "蚂蚁 inclusionAI：HuggingFace 新模型",
+      "time": "11:02",
+      "date": "5月15日"
+    },
+    {
+      "id": "cmp6ba93100fbslnzmec29858",
+      "title": "为 OpenAI 累计投入超 1000 亿美元，纳德拉称微软当年投资时“没人愿意下注”",
+      "link": "https://www.ithome.com/0/950/728.htm",
+      "summary": "在“马斯克诉奥尔特曼”庭审中，微软企业发展负责人确认，微软对OpenAI的累计投入已超过1000亿美元，其中包括130亿美元原始投资及大量Azure基础设施成本。此次合作已为微软带来约300亿美元营收。CEO纳德拉表示，微软是在“没人愿意下注”时承担了风险。双方已续签非独家协议，微软不再支付收入分成，并将OpenAI的分成上限设为到2030年累计380亿美元，此举较原协议节省约970亿美元。此外，微软正评估收购AI初创公司以补强人才，并调整资源投向自研模型与超级智能领域。",
+      "reason": "微软在 OpenAI 身上砸了 1000 亿，回报才 300 亿，这账算得清楚，但新协议直接省下 970 亿，而且微软已经在看别家了。",
+      "score": 71,
+      "tags": [
+        "Microsoft",
+        "OpenAI",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "10:41",
+      "date": "5月15日"
+    },
+    {
+      "id": "cmp69hjip009hslz8uc7tastq",
+      "title": "牛津大学博士后开源视频翻译工具Violin，支持多语言翻译与视频对话",
+      "link": "https://x.com/berryxia/status/2055093068085547507",
+      "summary": "牛津大学博士后Kevin Lin开源视频翻译工具Violin，旨在打破高质量视频内容的语言壁垒。该工具将语音识别、大语言模型翻译与语音合成整合为自动化流水线，支持多语言互译与个性化翻译风格调整，例如将学术报告转化为儿童易懂版本。用户还能直接与视频内容进行对话并获取相关答案。Violin提供Web应用、命令行界面和Agent Skill三种使用方式，所有功能基于MIT协议开源，由Together Compute提供技术支持，适用于内容创作、教育及多模态智能体开发等领域。",
+      "reason": "视频翻译过去得拼几个 API，Violin 一个开源 Skill 把 ASR、翻译、TTS 全通了，还加上视频对话和风格定制，做多语言内容传播的必须收藏。",
+      "score": 75,
+      "tags": [
+        "GitHub",
+        "多模态",
+        "开源/仓库",
+        "语音"
+      ],
+      "source": "X：Berry Xia (@berryxia)",
+      "time": "09:51",
+      "date": "5月15日"
+    },
+    {
+      "id": "cmp693o610kqosljxn35kaesm",
+      "title": "为什么资深开发者讲不清自己的专业能力",
+      "link": "https://x.com/dotey/status/2055097242755706984",
+      "summary": "资深开发者与业务团队存在根本认知差异。业务团队生活在“消除不确定性”的循环中，追求快速试错验证，核心是速度。而资深开发者身处“管理复杂性”的循环，核心职责是保障付费服务的长期稳定，因此对增加系统复杂性的行为极为警惕。沟通失败在于，开发者用“控制复杂性”的理由拒绝需求，却未回应业务端“消除不确定性”的迫切诉求。解决方案是，开发者应将其精简需求、复用代码等专业能力，包装成能帮助业务“更快获得答案”的方案，例如使用“我们能不能试个更快的办法？”这样的话术。尽管AI能快速生成代码，但资深开发者不可替代的价值在于为系统长期稳定“承担责任”。",
+      "reason": "原本写的是开发者沟通问题，但最后把AI时代资深开发者的价值讲透了——背锅，这才是人无法被取代的核心，看完你会重新理解什么叫「专业」。",
+      "score": 70,
+      "tags": [
+        "现象/趋势",
+        "编码"
+      ],
+      "source": "X：宝玉 (@dotey)",
+      "time": "09:40",
+      "date": "5月15日"
+    },
+    {
+      "id": "cmp68q4280kmwsljx5vvpdg5v",
+      "title": "普华永道全球部署Claude，助力客户构建技术、执行交易并重塑企业职能",
+      "link": "https://www.anthropic.com/news/pwc-expanded-partnership",
+      "summary": "普华永道与Anthropic宣布扩大战略联盟，将在全球数十万员工中部署Claude AI工具。双方将联合建立卓越中心，并培训认证3万名专业人员。合作聚焦三大高杠杆领域：智能体技术构建、AI原生交易执行以及企业职能重塑。普华永道已率先成立基于Claude的财务业务组。实际应用显示，Claude在保险承保、网络安全等多个领域能将交付时间缩短最高达70%，例如将保险承保周期从十周压缩至十天。",
+      "reason": "PwC要把Claude推到数十万员工手里，从保险核保到网络安全都在跑生产，企业级AI落地的硬骨头这次真被啃动了，金融医疗的合规高墙破了个大洞。",
+      "score": 75,
+      "tags": [
+        "Anthropic",
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "Anthropic：Newsroom（网页）",
+      "time": "09:30",
+      "date": "5月15日"
+    },
+    {
+      "id": "cmp67ce3h0kc7sljxmkmjng63",
+      "title": "Yetone发布Native Feel桌面应用开发Agent Skill",
+      "link": "https://x.com/berryxia/status/2055074211715301830",
+      "summary": "开发者Yetone将一篇关于桌面应用开发“最佳实践”的文章转化为一个名为“native-feel-skill”的Agent Skill。该Skill旨在帮助开发者利用Coding Agent，轻松地重构或开发跨平台桌面应用，并使其获得极其接近Native原生应用的性能体验。项目代码已开源在GitHub上。",
+      "reason": "把一篇写透跨平台桌面开发的文章变成 Coding Agent 能直接执行的 Skill，抄作业的姿势又进化了。做 Electron/Tauri 的可以省掉半天「最佳实践」搜索。",
+      "score": 74,
+      "tags": [
+        "Agent",
+        "GitHub",
+        "开源/仓库",
+        "编码"
+      ],
+      "source": "X：Berry Xia (@berryxia)",
+      "time": "08:51",
+      "date": "5月15日"
+    },
+    {
+      "id": "cmp67ce3h0kc6sljxivzzmvqx",
+      "title": "AI自主研究实现突破：智能体在nanoGPT优化赛道上超越人类基准",
+      "link": "https://x.com/berryxia/status/2055074608261578949",
+      "summary": "Prime Intellect 近期在AI研究自动化领域取得重要进展。他们让Claude Code与Codex智能体完全自主运行于nanoGPT速度挑战的优化器赛道，利用闲置算力完成了近万次实验，消耗约1.4万H200小时。最终，Claude Code将记录提升至2930步，超越了2990步的人类基准。实验显示，智能体在系统整合社区主流优化方法、进行超参数扫描和策略组合方面效率极高，但在要求真正创新的“新颖性检查”环节未能突破基线。该项目将所有实验记录、日志和代码开源，使得AI自主研究从概念转化为可复现的现实。",
+      "reason": "AI 自动化研究从概念落到现实，Claude Code 组合已知方法超越人类基线，但『创新天花板』同时暴露，做 Agent 和科学自动化的都该看下开源的完整实验记录。",
+      "score": 74,
+      "tags": [
+        "Agent",
+        "开源生态",
+        "论文/研究"
+      ],
+      "source": "X：Berry Xia (@berryxia)",
+      "time": "08:51",
+      "date": "5月15日"
+    }
+  ]
+}

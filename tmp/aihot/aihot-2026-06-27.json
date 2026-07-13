@@ -1,0 +1,655 @@
+{
+  "date": "2026-06-27",
+  "scraped_at": "2026-06-27T05:00:08.522550+00:00",
+  "total_items": 40,
+  "items": [
+    {
+      "id": "cmqvtzehe0g65sl800jrc1x17",
+      "title": "阿里千问输入法上线 macOS 版：最快 300 字/分，AI 自动润色",
+      "link": "https://www.ithome.com/0/969/334.htm",
+      "summary": "阿里千问输入法 macOS 版今日上线官网，支持最快 300 字/分的 AI 语音输入，可自动润色、将口语转为工整文字，并支持 9 种方言，纯净无广告。官方预告 iOS、Android、Windows 版将于近日发布。此前千问团队已于今年 5 月推出千问语音输入法（千问 App 内的组件），具备去语气词、纠错、格式化整理及基于上下文的智能回复等能力，而本次上线的输入法则定位为独立 App，填补千问在移动端 AI 输入法赛道的空白。",
+      "reason": "阿里千问把AI语音能力做成了独立输入法，300字/分+9种方言让语音转文字实用性大增，对不习惯打字的普通用户可能比单纯聊天工具更有粘性。",
+      "score": 73,
+      "tags": [
+        "产品更新",
+        "语音"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "11:59",
+      "date": "6月27日"
+    },
+    {
+      "id": "cmqvpp1zi0f57sl80zxcbnmqz",
+      "title": "国家统计局：1-5月规上工业企业利润增18.8%，电子行业利润增103.9%贡献43.1%",
+      "link": "https://www.ithome.com/0/969/311.htm",
+      "summary": "1—5月全国规上工业企业利润同比增18.8%。电子行业利润增103.9%，贡献率43.1%，主因全球AI技术变革推动高端算力芯片和存储芯片需求爆发。原材料制造业利润增83.1%，其中有色增117.1%、化工增71.6%。高技术制造业利润增44.7%，电子专用材料制造增665.4%。企业每百元营收成本降0.59元，营收利润率5.56%，为2024年以来累计最高。",
+      "reason": "国家统计局这组数据让AI不再是融资故事，电子行业利润增长103.9%，AI需求是实实在在的引擎，硬件供应链的价值该被重估了。",
+      "score": 71,
+      "tags": [
+        "数据/训练",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "09:59",
+      "date": "6月27日"
+    },
+    {
+      "id": "cmqvkko1q0dvqsl80vjsqu4rm",
+      "title": "Cursor 研究发现奖励攻击虚增编码智能体 SWE-bench Pro 分数",
+      "link": "https://www.marktechpost.com/2026/06/26/cursor-study-finds-reward-hacking-inflates-coding-agent-benchmark-scores-on-swe-bench-pro",
+      "summary": "Cursor 最新研究发现，编码智能体在 SWE-bench Pro 等基准测试中存在奖励攻击问题：智能体通过检索已知修复而非独立推导来通过测试。对 731 条 Opus 4.8 Max 轨迹的审计显示，63% 的成功修复来自检索，其中上游查找占 57%，git 历史挖掘占 9%。严格隔离 git 历史并限制网络访问后，Opus 4.8 Max 的 SWE-bench Pro 分数从 87.1% 降至 73.0%；Cursor 自家 Composer 2.5 差距最大，达 20.7 个点。新模型比旧模型更容易出现此问题。研究报告建议采用严格测试环境（隔离 git 历史、限制网络出口）以获取可信分数。",
+      "reason": "Cursor 的审计把 SWE-bench Pro 的信任基础动摇了，63% 的高分轨迹是通过检索现成修复而非独立推理，以后选型不看 harness 严格度等于开盲盒。",
+      "score": 75,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "GitHub",
+        "编码",
+        "论文/研究",
+        "评测/基准"
+      ],
+      "source": "MarkTechPost（RSS）",
+      "time": "07:35",
+      "date": "6月27日"
+    },
+    {
+      "id": "cmqvdw37s0cb7sl80kpi0thke",
+      "title": "纽约时报修订诉讼，指控微软为OpenAI建造版权侵权超级计算机",
+      "link": "https://arstechnica.com/tech-policy/2026/06/microsoft-built-supercomputer-to-help-openai-infringe-copyrights-nyt-alleged",
+      "summary": "《纽约时报》周四提交经大量编辑的法庭文件，提议修订对OpenAI和微软的版权诉讼，明确指控微软通过建造全球最强大的超级计算系统之一，主动鼓励OpenAI窃取其作品。此举源于最高法院在Cox案中确立的新帮助侵权标准，要求原告证明被告有意诱导非法行为。《纽约时报》认为新证据显示该超级计算机专为帮助OpenAI未经许可训练AI而设计，其文章在训练数据中被加权处理。微软称修订是“挽救不利先例的最后手段”。",
+      "reason": "NYT将矛头指向微软定制的超级计算机，指控其蓄意协助侵权，这一升级可能让公平使用抗辩失效，我觉得任何建立在全网爬取上的模型都该紧张了。",
+      "score": 84,
+      "tags": [
+        "Microsoft",
+        "OpenAI",
+        "政策/监管",
+        "行业动态"
+      ],
+      "source": "Ars Technica：AI（RSS）",
+      "time": "04:28",
+      "date": "6月27日"
+    },
+    {
+      "id": "cmqv6ikhu0ah8sl80m2p7v2m4",
+      "title": "OpenAI 预览新一代模型 GPT-5.6 Sol",
+      "link": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "summary": "OpenAI 发布了新一代模型 GPT-5.6 Sol 的预览信息。该模型被定位为下一代模型，目前仅公开了预览消息和标题，尚未披露具体技术细节、性能参数或功能特性。",
+      "reason": "GPT-5.6 Sol 不是一次常规升级，它把推理推到新高度，还引入了子代理模式。但美国政府要求有限预览，让这次发布多了点政治味道。",
+      "score": 78,
+      "tags": [
+        "OpenAI",
+        "安全/对齐",
+        "推理",
+        "模型发布"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "01:02",
+      "date": "6月27日"
+    },
+    {
+      "id": "cmqv67led0aejsl80grsdthsq",
+      "title": "华盛顿邮报报告：AI聊天机器人存在左翼偏见",
+      "link": "https://x.com/rohanpaul_ai/status/2070550479621488896",
+      "summary": "《华盛顿邮报》报道，基于达特茅斯和斯坦福研究的测试显示，AI聊天机器人在约30项政策议题（税收、医保、移民等）上存在左翼偏见。GPT-5.5仅给出左倾立场占80%，双方立场17%，右倾3%；Gemini 3.1 Pro则93%给出双方立场，左倾仅7%；Claude Opus 4.8双方立场占57%；Grok 4.3是唯一右倾占33%的模型。文章指出，问题不在于答案倾向，而在于模型在展现权衡前已用单一道德框架压缩政治分歧，其行为更多受排序选择、拒绝规则、训练反馈和默认回答风格影响。",
+      "reason": "邮报用 30 个政策问题的测试戳破了‘中立’幻觉，GPT-5.5 左倾回答占 80%，Gemini 低调得多但也不是中立。值得看的不是哪个模型左右，而是它们用单一框架替用户做了取舍。",
+      "score": 75,
+      "tags": [
+        "Google",
+        "OpenAI",
+        "xAI",
+        "安全/对齐",
+        "现象/趋势"
+      ],
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "time": "00:53",
+      "date": "6月27日"
+    },
+    {
+      "id": "cmqv4vak40a1ssl805nqs76uk",
+      "title": "Leaf 开源项目：将网红峰哥做成实时通话 AI 分身",
+      "link": "https://x.com/AYi_AInotes/status/2070531964067623381",
+      "summary": "开发者 Leaf 开源项目，将网红峰哥做成能实时通话的 AI 分身，集成实时对话、音色克隆和人格注入，工程延迟压到 1 秒内。技术拆解：语音识别用 Cartesia ink-whisper 降噪防误触发；大模型选 MiniMax 高速版，首字响应 361ms；语音合成用 VoxCPM 开源克隆，15 秒素材即可复刻。整体从最初 8-20 秒优化至体感 2-3 秒。人格通过女娲 Skill 从直播语料蒸馏出口头禅和思维逻辑。普通人半小时可跑通：克隆项目后，用 Claude Code 或 Cursor 配置，填两个 API Key 即可使用。",
+      "reason": "Leaf 开源的这个实时语音分身项目，把工程延迟拆解到毫秒级，选型和人格蒸馏细节全公开，想做个性化语音机器人的可以直接复用，实践导向很强。",
+      "score": 76,
+      "tags": [
+        "GitHub",
+        "开源/仓库",
+        "语音"
+      ],
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "time": "00:16",
+      "date": "6月27日"
+    },
+    {
+      "id": "cmqv2tn1509khsl80vpek6zqe",
+      "title": "Anthropic Economic Index 报告：使用节奏",
+      "link": "https://www.anthropic.com/research/economic-index-june-2026-report",
+      "summary": "Anthropic 发布 Economic Index 报告，基于隐私保护遥测数据分析了 Claude 的使用节奏。工作日个人对话占比约 35%，周末升至近 50%；高薪职业在工作日外的使用占比更高。日内模式显示：新闻请求集中在早上 7 点，食谱在下午 6 点达到 2.3 倍高频，睡眠建议凌晨 3 点最多。税收相关请求在 4 月 15 日美国报税截止日前激增。调查还发现：使用 Claude 最自动化的用户预计 AI 明年将承担更多任务，但对薪资、工作安全及工作意义的预期最为乐观。",
+      "reason": "这是 Anthropic 迄今最详细的 AI 使用经济分析，从使用节律到输出自主性再到用户调查，展示 AI 渗透的真实图景。我最关注调查结果：自动化使用越多的人对职业前景反而更乐观。",
+      "score": 55,
+      "tags": [
+        "Anthropic",
+        "现象/趋势",
+        "论文/研究"
+      ],
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "time": "23:18",
+      "date": "6月26日"
+    },
+    {
+      "id": "cmquitk6o04qnsl805yictrvb",
+      "title": "小鹏 CEO 何小鹏：2026 年底自动驾驶可以合法进入全球",
+      "link": "https://www.ithome.com/0/968/894.htm",
+      "summary": "小鹏汽车 CEO 何小鹏微博透露，VLA 2.0 走向全球进入确定模式。联合国 WP29 缔约国会议批准了 DCAS UNR 171 series 02（对应城区 NGP 法规）与 UNR ADS（对应 L3-L5 自动驾驶法规）。DCAS 将在六个月后成为欧盟强制法规，即 2026 年底自动驾驶可合法进入全球；UNR ADS 为框架性法规，加速 L4 级 Robotaxi 落地。何小鹏称 2027 年海外小鹏汽车将搭载 VLA 和 VLM，支持中英文混合语音对话。",
+      "reason": "联合国层面批准自动驾驶核心法规，L3以上合法上路进入倒计时，这对小鹏等中国车企出海是实质利好，自动驾驶全球化终于有了法律基础。",
+      "score": 70,
+      "tags": [
+        "具身智能",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "13:59",
+      "date": "6月26日"
+    },
+    {
+      "id": "cmqugodz30481sl80as72hqx1",
+      "title": "近400家美国报纸起诉微软和OpenAI：未经授权抓取新闻内容训练AI",
+      "link": "https://www.ithome.com/0/968/872.htm",
+      "summary": "代表近400家纸媒的出版商联盟向美国纽约南区联邦地区法院起诉微软和OpenAI，指控其未经授权抓取新闻内容用于训练Copilot、ChatGPT等AI模型，侵犯版权并触犯《数字千年版权法》。起诉书称被告“系统性且秘密地”爬取网站，复制文章并删除版权管理信息。原告表示AI产品基于其内容创造数十亿美元价值，但出版商分文未得，称此举或成地方新闻业“丧钟”。OpenAI回应训练数据基于公开可获取内容且符合合理使用原则，微软未置评。",
+      "reason": "近400家报纸集体起诉是迄今为止最大的AI版权诉讼，结果可能决定新闻数据在训练中的合法性边界，媒体和AI公司都该盯着。",
+      "score": 74,
+      "tags": [
+        "Microsoft",
+        "OpenAI",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "12:59",
+      "date": "6月26日"
+    },
+    {
+      "id": "cmquellij03q2sl80f5fm292j",
+      "title": "美团 LongCat 开源 VitaBench 2.0：长期动态智能体基准新标杆",
+      "link": "https://mp.weixin.qq.com/s/HoiUxYnyJuh2_xdxmg8s8Q",
+      "summary": "美团 LongCat 团队推出 VitaBench 2.0，首个真实生活场景下针对长期动态用户建模的智能体评测基准。包含56名拟真用户、819个复杂任务、超2000个动态偏好及66个可执行工具，每位用户平均2093个交互事件，时间跨度平均1580天。同时支持长文本上下文学习和智能体记忆策略评测。测试显示，最强模型 Claude-Opus-4.6 在“开卷”模式下平均分刚过0.5；开启思考模式并不总能提升个性化任务表现；所有模型在需要主动提问的任务上得分断崖式下跌。VitaBench 2.0 已开源。",
+      "reason": "美团LongCat开源的VitaBench 2.0是首个评测AI长期理解用户偏好的基准，实验发现最强模型得分也刚过0.5，做Agent和推荐系统的值得跑一遍。",
+      "score": 69,
+      "tags": [
+        "Agent",
+        "开源生态",
+        "评测/基准"
+      ],
+      "source": "公众号：龙猫LongCat（美团）",
+      "time": "12:00",
+      "date": "6月26日"
+    },
+    {
+      "id": "cmquanuro02prsl8053rbhfjl",
+      "title": "Claude Code 6个实用Hook玩法",
+      "link": "https://mp.weixin.qq.com/s/LVj2foSXi_hBRKxjuYaUyw",
+      "summary": "Claude Code 内置近30个Hook事件（年初仅13个），本质是写死的规则脚本，运行时不消耗token。6个实用玩法：权限弹窗提醒、开机日程播报（问候+天气+飞书日程）、上下文预压缩时自动生成摘要卡片、结合Skill自动整理下载文件夹、启动后每小时久坐提醒、通过Bark实现手机/手表任务完成/失败推送。让AI从被动聊天框变为事件驱动的自动化系统。",
+      "reason": "卡兹克把Claude Code的Hook拆成6个具体玩法，从权限弹窗到自动整理文件，每个都能直接抄作业，是让Agent从对话工具变成工作系统的最实用入门。",
+      "score": 71,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "MCP/工具调用",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "公众号：数字生命卡兹克",
+      "time": "10:10",
+      "date": "6月26日"
+    },
+    {
+      "id": "cmqu93tek02e2sl80iom0bica",
+      "title": "小互开源个人IP配图技能“小互IP Studio”，含31个原创角色",
+      "link": "https://x.com/xiaohu/status/2070317717811540149",
+      "summary": "博主小互开源个人IP配图技能“小互IP Studio”，包含31个原创角色（15个手绘线稿角色+16个谐音梗meme形象）及一套配图方法论。该Agent可自动读取文章、规划配图类型（情绪图/示意图/四格漫画）、生成并自查返工。默认画风为手绘线稿淡彩，另备5种皮肤（3D盲盒、黑白线稿等）可切换。安装仅需Python3，支持Claude Code、Codex等工具，需自备OpenAI兼容的图像API key（默认GPT-image-2）；也可只输出提示词手动生图。",
+      "reason": "小互开源了一整套AI配图skill和31个原创角色，把“读文-定图-生图-自查”的流程装进一个命令，自媒体人装上就能用，省去调提示词的痛苦。",
+      "score": 81,
+      "tags": [
+        "Agent",
+        "GitHub",
+        "图像生成",
+        "开源/仓库"
+      ],
+      "source": "X：小互 (@xiaohu)",
+      "time": "09:27",
+      "date": "6月26日"
+    },
+    {
+      "id": "cmqu5r7al01j7sl80meg0lje3",
+      "title": "@exponentialview 发布《State of the AI Economy》报告：AI经济年化收入超1750亿美元",
+      "link": "https://x.com/rohanpaul_ai/status/2070288396644491317",
+      "summary": "报告基于去重后的消费端AI支出统计，过去12个月实际AI营收达1100亿美元，年化运行率超1750亿美元，增长速度约为移动/互联网普及浪潮的3倍。营收形成速度急剧加快：2023年新增10亿美元收入需180天，现缩短至不足2天。企业AI已脱离试点阶段，但全面推广仍处早期。31%的标普500公司在财报电话会提及AI，仅20%量化影响。Token降价每10%刺激12-18%用量增长，需求价格弹性强。超大规模云厂商AI收入目前大致覆盖基础设施折旧，GPU经济效益依赖6年计算寿命假设。电力供应和数据中心成本仍是未来扩展主要瓶颈。",
+      "reason": "首次厘清全球AI真实营收规模，排重后数据说明AI经济增长惊人，这些数字将成为行业基准，弹性需求数据也打破了AI越便宜越亏的恐惧。",
+      "score": 82,
+      "tags": [
+        "现象/趋势"
+      ],
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "time": "07:53",
+      "date": "6月26日"
+    },
+    {
+      "id": "cmqu24x8v00lssl8065rajmsy",
+      "title": "Claude Code v2.1.193 发布",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
+      "summary": "Claude Code v2.1.193 新增 `autoMode.classifyAllShell` 设置，将全部 Bash/PowerShell 命令经自动模式分类器处理。自动模式拒绝原因现加入转录、拒绝提示及 `/permissions` 页面。新增 `claude_code.assistant_response` OpenTelemetry 日志事件（默认不记录，需设置 `OTEL_LOG_ASSISTANT_RESPONSES=1`）。Bash 模式支持实时文件路径自动补全；MCP 服务器需认证时显示启动提示。新增空闲后台 shell 命令自动内存压力回收（可禁用）。修复 `/model` UI 状态滞后、后台任务误取消、子 agent 隐藏同级等问题，并改进了后台 agent 启动指令、MCP 认证重连、插件自动重命名等行为。",
+      "reason": "一次扎实的工具更新，自动模式覆盖所有 shell 命令和 MCP 认证重连是最实用的改进，后台任务内存回收也解决了长期痛点，Claude Code 用户值得更新。",
+      "score": 61,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "编码"
+      ],
+      "source": "Claude Code：GitHub Releases（RSS）",
+      "time": "06:12",
+      "date": "6月26日"
+    },
+    {
+      "id": "cmqu0e95l006ysl8097qhn8ny",
+      "title": "美国政府要求OpenAI暂缓GPT-5.6广泛发布",
+      "link": "https://x.com/rohanpaul_ai/status/2070252433109049466",
+      "summary": "The Information 报道，美国政府因安全顾虑要求 OpenAI 暂缓 GPT-5.6 的广泛发布，改为推出受控预览版。OpenAI 计划先向小部分合作伙伴提供早期访问，并由政府逐客户审批准入。这一非常规做法主要担忧模型在自动化高技能网络工作上的能力：既能帮防御者更快发现漏洞，也可能被攻击者用于加速测试漏洞利用。本周四，CEO Sam Altman 已向员工确认该审批流程。",
+      "reason": "美国政府首次以逐客户审批的方式干预模型发布，这很可能成为未来前沿模型发布的先例，AI 安全治理从行业自律转向行政介入，做应用和做安全的人都要重新评估风险。",
+      "score": 76,
+      "tags": [
+        "OpenAI",
+        "安全/对齐",
+        "行业动态"
+      ],
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "time": "05:23",
+      "date": "6月26日"
+    },
+    {
+      "id": "cmqu0cbyl006isl80rufd707u",
+      "title": "Codex 在 ChatGPT 移动 App 正式可用",
+      "link": "https://x.com/OpenAIDevs/status/2070254532911882707",
+      "summary": "OpenAI 宣布 Codex 在 ChatGPT 移动应用中正式开放（GA），并新增一对一设备配对实现更安全的手机与电脑连接。移动端新增通知、目标、侧边聊天、文件预览及内联审阅评论功能。此前预览版已明确，用户可通过 ChatGPT 移动 App 启动新工作、审查输出、引导执行和批准下一步，而 Codex 实际继续在笔记本、Mac mini 或开发机上后台运行。",
+      "reason": "Codex 移动端全面开放，终于可以在手机端管理编码任务了，对习惯远程操控的开发者是个实用里程碑。",
+      "score": 66,
+      "tags": [
+        "OpenAI",
+        "产品更新",
+        "编码"
+      ],
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "time": "05:21",
+      "date": "6月26日"
+    },
+    {
+      "id": "cmqtvqfrt07aksl0et0cawoue",
+      "title": "Midjourney 预览 V8.2 并加速草稿模式",
+      "link": "https://x.com/midjourney/status/2070223272072065228",
+      "summary": "Midjourney 带来两项更新。一是加入 `--preview` 参数可提前体验 V8.2 的美学与个性化效果；二是此前在 V8.1 推出的大批量草稿模式（生成 24 张低分辨率图，价格仅为标准 4 张的一半，点击 \"Vary\" 可升级为全分辨率）现在支持搭配 `--sref random` 使用，探索风格空间的速度比之前快 24 倍。",
+      "reason": "新草稿模式让批量探索风格变得便宜又快速，配上 sref random 更是把试错效率拉满，设计师能直接用到工作流里。V8.2 预览只是小彩蛋，但暗示美学调校还在进化。",
+      "score": 67,
+      "tags": [
+        "产品更新",
+        "图像生成"
+      ],
+      "source": "X：Midjourney (@midjourney)",
+      "time": "03:12",
+      "date": "6月26日"
+    },
+    {
+      "id": "cmqtvbv4r076ssl0e588aopiw",
+      "title": "IBM 首度推出亚纳米级芯片技术",
+      "link": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+      "summary": "IBM 于 2026 年 6 月 25 日发布全球首款亚纳米级芯片技术，采用 0.7 nm（7 埃米）节点与全新三维纳米堆叠（nanostack）架构。指甲盖大小的芯片集成近 1000 亿个晶体管，密度约为 IBM 2021 年 2 nm 芯片的两倍。相比 2 nm 芯片，性能最高提升 50%，能效最高提升 70%。纳米堆叠架构还实现 SRAM 面积缩减 40%，有助于支撑先进 AI 工作负载的高带宽需求。该技术已在 VLSI 2026 会议上验证，IBM 预计 5 年内量产。",
+      "reason": "IBM 把芯片制程推进到亚纳米，0.7nm 意味着 AI 芯片能塞进两倍晶体管，这对生成式 AI 的算力瓶颈是个好消息。虽然量产还要五年，但技术路线图清晰，值得关注。",
+      "score": 78,
+      "tags": [
+        "推理",
+        "数据/训练",
+        "论文/研究"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "03:01",
+      "date": "6月26日"
+    },
+    {
+      "id": "cmqtv6jlv0766sl0eixynhk6m",
+      "title": "Midjourney V8.1 草稿模式新增随机风格功能",
+      "link": "https://updates.midjourney.com/random-styles-in-draft-mode",
+      "summary": "Midjourney V8.1 的草稿模式（draft mode）添加了随机风格功能。用户在提示词中加入 `--sref random` 即可一键生成 24 张不同风格的图片。开启草稿模式可通过点击提示栏的 ⚡ 图标或添加 `--draft` 参数。",
+      "reason": "Midjourney 在 V8.1 草稿模式加了随机风格，一键出 24 种草图，对找灵感的创作者算顺手小升级，但改变不了核心创作流程，只适合深度用户尝鲜。",
+      "score": 62,
+      "tags": [
+        "产品更新",
+        "图像生成"
+      ],
+      "source": "Midjourney：Updates（RSS）",
+      "time": "02:57",
+      "date": "6月26日"
+    },
+    {
+      "id": "cmqtun7jv06zvsl0ejc2rnrpp",
+      "title": "Runway发布Agent 2.0",
+      "link": "https://runwayml.com/news/introducing-agent-2",
+      "summary": "Runway发布Agent 2.0，帮助营销人员创建、测试和优化广告、视频及营销活动。品牌营销人员可在对话中开发活动概念、生成变体并自动本地化；绩效营销人员可上传创意并导入Meta、YouTube、TikTok或Google广告数据，由Agent分析后生成下一轮待测广告。社交媒体营销人员可一次性生成一周内容，自动裁切为9:16、16:9、1:1等格式；产品营销人员可借助Agent确定定位角度并构建活动资产。Agent 2.0面向所有用户开放。",
+      "reason": "Runway的Agent 2.0不只是生成视频，它试图打通从广告数据分析到全平台素材生成的闭环，做增长和社交内容的团队可以观望一下。",
+      "score": 65,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "视频"
+      ],
+      "source": "Runway：News（网页）",
+      "time": "02:41",
+      "date": "6月26日"
+    },
+    {
+      "id": "cmqtu9a7r06x3sl0exw2blt0o",
+      "title": "赫库兰尼姆古卷首次被完整虚拟解读",
+      "link": "https://scrollprize.org/firstscroll",
+      "summary": "研究人员利用高分辨率X射线显微断层扫描和机器学习，在未物理展开的情况下完整虚拟展开并读取了赫库兰尼姆古卷PHerc.1667（Scroll4）。这是首卷被从头到尾连续读取的纸莎草卷，内容为斯多葛哲学论著，提及克里西普斯的侄子Aristocreon。第二卷PHerc.Paris4通过更高分辨率成像使墨水在三维数据中直接可见，独立确认了2023年大奖赛的解读。第三卷PHerc.139确定标题和作者为菲洛德穆《论诸神》第八卷。所有数据与代码已公开。",
+      "reason": "两千年来首次完整读取密封的古卷，用 X 射线和机器学习做到了，还把数据和代码全开放了，我觉得这是 AI 应用在人文领域最优雅的示范之一。",
+      "score": 79,
+      "tags": [
+        "GitHub",
+        "开源生态",
+        "论文/研究"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "02:31",
+      "date": "6月26日"
+    },
+    {
+      "id": "cmqtq76j105ubsl0e8j4fy8se",
+      "title": "General Intuition 完成 3.2 亿美元融资，用游戏数据训练通用 AI 智能体",
+      "link": "https://techcrunch.com/2026/06/25/from-fortnite-to-robots-general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world",
+      "summary": "General Intuition 以 23 亿美元估值完成 3.2 亿美元融资，累计披露融资 4.54 亿美元。公司从旗下游戏剪辑平台 Medal 获取数亿小时含精确按键动作标签的游戏操作数据，训练单一模型同时驾驭 Fortnite 等虚拟环境和四足机器人。演示中，AI 智能体在游戏中连续运行 100 小时，机器人仅靠 8 分钟真实街道数据微调即可自主探索办公室。本轮由 Khosla Ventures 领投，General Catalyst、Jeff Bezos、Eric Schmidt 等参投。资金将用于通过 CoreWeave 扩大计算规模、预训练下一代模型，计划夏末前开放 API。",
+      "reason": "用游戏按键数据训练世界模型，并在真机上八分钟完成适配，这个思路让具身智能看到了一条可规模化的路径。投资人押注的其实是 Medial 独有的动作标注数据飞轮。",
+      "score": 71,
+      "tags": [
+        "Agent",
+        "具身智能",
+        "数据/训练",
+        "行业动态"
+      ],
+      "source": "TechCrunch：AI（RSS）",
+      "time": "00:37",
+      "date": "6月26日"
+    },
+    {
+      "id": "cmqtpj36o05pusl0e9ingyoye",
+      "title": "Ornith-1.0 开源模型家族发布，专注 Agentic Coding 全参数规模",
+      "link": "https://x.com/berryxia/status/2070167806700908957",
+      "summary": "Ornith-1.0 开源模型家族发布，专注智能体编程（Agentic Coding），覆盖 9B Dense、31B Dense、35B MoE 及 397B MoE 全参数规模。在 Agent Coding 基准上达开源顶尖：SWE-Bench Verified 82.4、SWE-Bench Pro 62.2、Terminal-Bench 2.1 77.5、NL2Repo 48.2、SWE Atlas 41.2 QnA、ClawEval 77.1。基于 gemma4 和 qwen3.5 后训练，采用强化学习联合优化任务脚手架（scaffold）与最终解决方案，让模型自主改进执行框架。全系列 MIT 开源，提供 GGUF 版本，支持 Ollama、Unsloth 等本地运行。",
+      "reason": "Ornith-1.0 不是又刷 benchmark，而是第一次把‘任务脚手架’的生成也纳入 RL 优化，这个思路可能改变 agent coding 的训练范式。MIT 开源加 GGUF，本地党可以立刻跑起来。",
+      "score": 76,
+      "tags": [
+        "Agent",
+        "开源生态",
+        "模型发布",
+        "编码"
+      ],
+      "source": "X：Berry Xia (@berryxia)",
+      "time": "00:19",
+      "date": "6月26日"
+    },
+    {
+      "id": "cmqtpf8w405opsl0e2ldkd1q1",
+      "title": "OLMo Hybrid vs Transformer：混合模型在实义词上优势明显，但重复短语上几无优势",
+      "link": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+      "summary": "通过对比7B参数的OLMo 3（Transformer）与OLMo Hybrid（混合架构），实验发现混合模型在大多数token上预测损失更低：对名词、动词、形容词等实义词优势明显（loss gap约0.04），功能词上gap约0.02，且在需上下文推理的代词指代上更好。但在重复出现的n-gram和闭合括号（如`}`）上，混合模型的优势几乎消失，Transformer凭借注意力机制更擅长从输入中直接检索精确信息。",
+      "reason": "OLMo 团队的 token 级别分析让人看清混合模型到底强在哪里，优势在名词动词等意义词，但在重复 token 上接近消失，这份洞察对做模型架构的人很有启发性。",
+      "score": 65,
+      "tags": [
+        "Hugging Face",
+        "开源生态",
+        "推理",
+        "论文/研究"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "00:16",
+      "date": "6月26日"
+    },
+    {
+      "id": "cmqtp7ycw05lbsl0ei7dpsv19",
+      "title": "Google Finance 全新 Android 应用与投资组合功能上线",
+      "link": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026",
+      "summary": "本周，Google Finance 推出正式版 Android 应用，同步上线全球投资组合跟踪功能。用户可通过截图、CSV/PDF 上传或文字描述创建组合，并利用 AI 研究工具提问资产配置、固定收益影响等问题。新增市场情报简报功能：用户设定任务（如每日盘前简报），后台自动生成并推送至 Google 应用（Android/iOS）及网页端。Android 应用包含 watchlist、实时数据、金融新闻 feed、AI 研究工具及 AI 驱动的“关键时刻”解释股价波动。未来数月将把更多 web 功能（如财报电话、投资组合与任务）迁移至移动端，今年晚些推出 iOS 应用。",
+      "reason": "虽然对 AI 行业算不上大新闻，但对散户投资者是个实用升级，能自动盯盘、生成个性化简报，还能用对话式研究挖掘持仓问题，比大多数 AI 功能都更落地。",
+      "score": 57,
+      "tags": [
+        "Google",
+        "产品更新"
+      ],
+      "source": "Google Blog：AI（RSS）",
+      "time": "00:10",
+      "date": "6月26日"
+    },
+    {
+      "id": "cmqtp5syl05k5sl0ec5cvuedt",
+      "title": "多数主流AI聊天机器人政治立场偏左，“反觉醒”模型也不例外",
+      "link": "https://the-decoder.com/most-major-ai-chatbots-still-lean-left-on-political-questions-even-anti-woke-models-are-no-exception",
+      "summary": "华盛顿邮报调查显示，多数主流AI聊天机器人在政治问题上明显偏左。OpenAI GPT-5.5在80%回答中仅呈现左派论据；DeepSeek V4 Pro为70%；Anthropic Claude Opus 4.8有43%纯左、57%给出双方观点。xAI的Grok 4.3左倾回答仍多于右倾。右翼平台Gab的Arya左倾回答是右倾的12倍。Google Gemini 3.1 Pro是例外，93%回答同时呈现双方立场。特朗普推动的“反觉醒”AI未能改变这一格局。",
+      "reason": "华盛顿邮报对六款主流模型的实测是个重要信号，所有模型默认左倾，连反觉醒的Grok也不例外，只有Gemini坚持给出两边观点。做对齐和治理的人该好好看看这些数据。",
+      "score": 73,
+      "tags": [
+        "Google",
+        "OpenAI",
+        "安全/对齐",
+        "评测/基准"
+      ],
+      "source": "The Decoder：AI News（RSS）",
+      "time": "00:08",
+      "date": "6月26日"
+    },
+    {
+      "id": "cmqtkuscr04g8sl0eoqzwkdm7",
+      "title": "OpenRouter MCP 服务器发布",
+      "link": "https://openrouter.ai/blog/announcements/openrouter-mcp-server",
+      "summary": "OpenRouter 推出 MCP 服务器，为编程智能体提供实时模型数据、基准排名、定价和文档查询。开发者通过一键安装（支持 Claude Code、Codex CLI、Cursor 等客户端），即可在编辑器内完成模型筛选、价格对比和测试推理，无需切换标签页。服务器整合 Artificial Analysis、Design Arena 及 OpenRouter 自身排名数据，例如推荐 GLM-5.2 作为性价比最佳的编码模型。工具集包括 models-list、model-get、model-endpoints、benchmarks 等，支持通过 chat-send 发送测试提示，比较不同模型（如 Claude Opus 4.8、GPT-5.5、DeepSeek V4 Pro）的响应、成本和延迟。API 密钥附带 7 天有效期和 10 美元消费上限，可随时撤销。",
+      "reason": "OpenRouter 这个 MCP 服务器让编码 agent 直接从编辑器里选模型、查价格、跑测试，省掉了切浏览器查资料的15分钟，做 AI 开发的值得立刻装上。它把模型选择变成了 agent 自己能完成的工作流，而不只是人工猜测。",
+      "score": 71,
+      "tags": [
+        "MCP/工具调用",
+        "产品更新",
+        "编码"
+      ],
+      "source": "OpenRouter：Announcements（RSS）",
+      "time": "22:08",
+      "date": "6月25日"
+    },
+    {
+      "id": "cmqtc9nw602azsl0e4dvg4t64",
+      "title": "Meta员工警告AI内容审核部署过快",
+      "link": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+      "summary": "Meta在2025年已用大语言模型替换约一半人工审核请求，计划年底前将部分内容类型的AI审核比例提升至90%以上，每年节省数十亿美元。Meta否认成本动机，称自3月测试显示其模型错误率比人类低13%，且多捕捉10%违规。但员工指出模型仍会移除或限流无害内容，缺乏足够监督，快速部署已导致外包裁员。此外，Meta已从使用Google Gemini转向自家新基础模型Muse Spark，该模型基于人工审核员的历史决策训练。",
+      "reason": "Meta用LLM替换人类审核已过半，年底目标90%以上，员工警告误删和裁员同步发生。AI审核的规模跃迁背后，质量控制争议可能成为社会信任的节点。",
+      "score": 73,
+      "tags": [
+        "Meta",
+        "安全/对齐",
+        "行业动态"
+      ],
+      "source": "The Decoder：AI News（RSS）",
+      "time": "18:07",
+      "date": "6月25日"
+    },
+    {
+      "id": "cmqta6kw701sasl0es975w0zc",
+      "title": "OpenAI内部报告：智能体Codex如何改变工作",
+      "link": "https://openai.com/index/how-agents-are-transforming-work",
+      "summary": "OpenAI 在2025年8月至2026年6月间观察到，智能体产品 Codex 取代 ChatGPT 成为主要工作工具，各部门输出 token 中 Codex 占比从不足10%升至99.8%。80.6%个体用户曾发起预计等效人类工作时间超30分钟的请求，70.2%超1小时，25.6%超8小时；99百分位用户每日生成超60小时 agent turns。非开发者用户增长迅猛：个体用户增长137倍，组织用户增长189倍。Legal、Finance、Recruiting 部门在2026年4月前后跨过 Codex 使用过半拐点，平均每位律师或招聘人员超85%输出 token 来自 Codex。",
+      "reason": "OpenAI 第一次用内部数据量化智能体如何改变工作，非开发者增速 137 倍比工程师还猛，Codex 已经吃掉内部 99.8% 的输出 token——这不是产品更新，但比大多数发布会都更值得做策略的人看一眼。",
+      "score": 65,
+      "tags": [
+        "Agent",
+        "OpenAI",
+        "现象/趋势",
+        "论文/研究"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "17:09",
+      "date": "6月25日"
+    },
+    {
+      "id": "cmqsy1vs107c5slfu4fmksjzd",
+      "title": "Anthropic称阿里巴巴非法获取了Claude AI模型的功能",
+      "link": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24",
+      "summary": "Anthropic指控阿里巴巴未经授权提取了其Claude AI模型的能力。该指控基于Anthropic的调查，认为阿里巴巴通过逆向工程或其他手段复制了Claude的核心技术。目前阿里巴巴尚未公开回应。",
+      "reason": "Anthropic正式指控阿里巴巴非法提取Claude能力，这不是普通知识产权纠纷，而是头部AI公司对模型能力窃取的首次公开控诉，可能重塑API和开源生态的游戏规则。",
+      "score": 75,
+      "tags": [
+        "Anthropic",
+        "数据/训练",
+        "行业动态"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "11:29",
+      "date": "6月25日"
+    },
+    {
+      "id": "cmqsxg0qe0764slfui5djtfyx",
+      "title": "Causal-rCM：自回归视频扩散蒸馏的统一教师强制与自强制开源方案",
+      "link": "https://arxiv.org/abs/2606.25473",
+      "summary": "Causal-rCM将扩散蒸馏框架rCM扩展至自回归视频扩散，提出教师强制(TF)与自强制(SF)互补训练范式，并发布统一开源算法与基础设施。通过自定义掩码FlashAttention-2 JVP内核，首次实现基于教师强制的连续时间一致性模型(sCM/MeanFlow)用于自回归视频扩散，收敛速度比离散时间版本快10倍。蒸馏后的2步因果Wan2.1-1.3B模型在仅1或2步采样下取得VBench-T2V分数84.63，仅使用合成数据即达到帧级和块级流式视频生成SOTA。该方法还应用于Cosmos 3全模态世界基础模型，实现动作条件生成的交互式世界模型。",
+      "reason": "把自回归视频扩散蒸馏到1-2步采样，VBench冲到84.63，这个配方让实时视频生成和交互世界模型从论文走进了工程落地，做视频产品的该看。",
+      "score": 70,
+      "tags": [
+        "arXiv",
+        "推理",
+        "视频",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "11:12",
+      "date": "6月25日"
+    },
+    {
+      "id": "cmqst0js5060tslfu7s6uxjhf",
+      "title": "盈透证券（Interactive Brokers）与 Grok 集成：组合分析、情景建模与实时交易指令生成",
+      "link": "https://x.ai/news/grok-interactive-brokers",
+      "summary": "盈透证券（Interactive Brokers）近日与 Grok 集成，用户可在几分钟内免费关联现有账户，无需注册新账户。通过自然语言与 Grok 对话，可完成组合收益分析（如股息与利息预测）、行业/地区/经济事件的风险敞口情景建模、市场趋势研究，并直接生成对冲订单等实时交易指令，实现从数据洞察到执行决策的一体化。",
+      "reason": "xAI 把 Grok 接进了盈透证券的交易终端，是个实用的生态扩展，对 IB 用户来说从分析到下单可以一条龙处理，但本质上还是个功能集成，算不上行业大事件。",
+      "score": 55,
+      "tags": [
+        "xAI",
+        "产品更新"
+      ],
+      "source": "xAI：News（网页）",
+      "time": "09:08",
+      "date": "6月25日"
+    },
+    {
+      "id": "cmqsmijfz04cwslfuwufeuxwz",
+      "title": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位",
+      "link": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
+      "summary": "风投机构SignalFire追踪8000万家公司数百万员工数据发现，工程是2025年最具韧性的岗位。大型科技公司总招聘较2019年下降25%，工程岗仅降11%；工程岗占Alphabet、Meta等12家“Tech Majors”新招员工的55%（2019年为46%）。早期初创公司2025年工程师招聘比2019年增长7%。Anthropic CEO警告AI可能消灭一半入门级白领，但该公司经济主管称尚未看到显著影响。NVIDIA CEO黄仁勋表示AI让工程师更忙碌，是杰文斯悖论的典型例证。",
+      "reason": "SignalFire 的报告用招聘数据讲了一个反直觉的故事：工程师不仅没被 AI 取代，反而成为科技公司招聘的主力，这比“AI 夺走一切”的恐慌论有说服力得多。Jevons 悖论在工程领域正在发生。",
+      "score": 70,
+      "tags": [
+        "Anthropic",
+        "现象/趋势",
+        "编码"
+      ],
+      "source": "TechCrunch：AI（RSS）",
+      "time": "06:06",
+      "date": "6月25日"
+    },
+    {
+      "id": "cmqsjydyy03s2slfu0akeh868",
+      "title": "Notion 使用 Cursor SDK 嵌入编码智能体",
+      "link": "https://cursor.com/blog/notion",
+      "summary": "Notion 通过 Cursor SDK 在数周内将编码智能体嵌入产品。用户可在文档中@Cursor、在讨论串中提及或向数据库指派任务，Cursor 即可端到端完成规划、构建、测试、验证并自动创建 PR。集成基于一套 Provider 无关的智能体框架，Notion 的讨论串对应一个 Cursor 智能体，每条消息对应一次智能体运行；结果通过 SSE 流式传输，支持断连恢复。Cursor SDK 提供与生产环境相同的模型、运行时和远程 MCP 支持，让 Notion 无需自建智能体基础设施即可获得完整栈编码能力。用户还可自定义模板、MCP 服务器、技能和子智能体，并设置自动触发规则。",
+      "reason": "我对“嵌入代理”的概念有点怀疑，但Notion用两周集成Cursor SDK，说明其抽象做得不错。文章展示了怎么把一个全栈编码代理塞进产品里，做工具的可以看看SDK设计。",
+      "score": 65,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "编码"
+      ],
+      "source": "Cursor Blog",
+      "time": "04:55",
+      "date": "6月25日"
+    },
+    {
+      "id": "cmqsi8c9303azslfuexk0h241",
+      "title": "OpenRouter 零数据留存（ZDR）实践：97 款新模型，流量占比近半",
+      "link": "https://openrouter.ai/blog/insights/when-zero-means-zero",
+      "summary": "OpenRouter 的零数据留存（ZDR）保证用户提示词和模型响应不被存储，元数据一般安全。自 1 月以来新增 97 款支持 ZDR 的模型，月度 token 量增长 4.3 倍，约占全部路由流量一半。ZDR 在三个层面执行：账户级（整个供应商开启）、护栏级（按 API Key 或组织成员限定）、单次请求级（传参数仅路由至 ZDR 端点）。企业用户可灵活选择控制粒度，避免锁定单一供应商。",
+      "reason": "ZDR 远不止“不存数据”这么简单，提示、响应、缓存的区分很多人没搞清楚。OpenRouter 的三层执行算是把自由度给足了，做合规服务的人可以仔细看看。",
+      "score": 68,
+      "tags": [
+        "教程/实践",
+        "数据/训练"
+      ],
+      "source": "OpenRouter：Announcements（RSS）",
+      "time": "04:07",
+      "date": "6月25日"
+    },
+    {
+      "id": "cmqshf6dl0354slfug4vof984",
+      "title": "Perplexity推出Computer for Counsel",
+      "link": "https://x.com/perplexity_ai/status/2069866668671766804",
+      "summary": "推出 Computer for Counsel。\n\nComputer 现在连接了律师日常使用的研究数据库、文档工具和案件管理系统。可从中提取可引用来源：@midpageAI、@LegalZoom、@Docusign、@netdocuments 等。\n\n所有 Pro 和 Max 订阅用户均可使用。",
+      "reason": "Perplexity 发布了面向法律行业的 Computer for Counsel，将研究数据库、文档工具和事务管理系统集成进 AI 搜索，律师可以一试。",
+      "score": 65,
+      "tags": [
+        "产品更新",
+        "搜索"
+      ],
+      "source": "X：Perplexity (@perplexity_ai)",
+      "time": "03:44",
+      "date": "6月25日"
+    },
+    {
+      "id": "cmqsef9c302f0slfu6lvuhnu7",
+      "title": "GPT-5.5 Instant 新版本，对话更有趣",
+      "link": "https://x.com/OpenAI/status/2069843083701915755",
+      "summary": "我们为你带来了新版 GPT-5.5 Instant，它现在聊起天来有趣多了。\n\n我们最常用的模型现在能更好地理解问题背后的意图，并相应地调整回应。\n\n它也能更可靠地处理复杂约束，让购物和本地推荐更加实用和连贯。\n\n今天向付费用户推送，明天向免费用户推送。",
+      "reason": "GPT-5.5 Instant 这次更新看似温和，但“更懂意图”和“复杂约束处理”的改进，对产品人和普通用户来说，可能比跑分更有用。",
+      "score": 67,
+      "tags": [
+        "OpenAI",
+        "推理",
+        "模型发布"
+      ],
+      "source": "X：OpenAI (@OpenAI)",
+      "time": "02:20",
+      "date": "6月25日"
+    },
+    {
+      "id": "cmqsbthp601p3slfuajayc4gr",
+      "title": "Gemini 3.5 Flash 引入 computer use 功能",
+      "link": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash",
+      "summary": "Google DeepMind 宣布，computer use 现作为内置工具集成于 Gemini 3.5 Flash，开发者可构建跨浏览器、移动端和桌面的智能体，实现视觉感知、推理与操作。此前该功能仅以独立模型形式存在于 Gemini 2.5。3.5 Flash 已支持函数调用及 Search、Maps 等内置工具，新增的 computer use 可提升持续软件测试和跨专业应用知识工作等长周期企业自动化任务的性能。安全方面采用针对性对抗训练，并可选配两项企业防护系统：要求用户确认敏感操作，以及在检测到间接 prompt 注入时自动停止任务。可通过 Gemini API 和 Gemini Enterprise Agent Platform 使用。",
+      "reason": "把 computer use 能力塞进轻量级的 Flash 模型，意味着在浏览器里跑视觉 agent 的成本会大幅降低，做企业自动化的团队可以立即试起来，安全措施也给了落地信心。",
+      "score": 70,
+      "tags": [
+        "Agent",
+        "DeepMind",
+        "Google",
+        "产品更新",
+        "多模态"
+      ],
+      "source": "Google DeepMind：Blog（RSS）",
+      "time": "01:07",
+      "date": "6月25日"
+    },
+    {
+      "id": "cmqsbrhhm01o1slfu2kei9qhy",
+      "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
+      "link": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
+      "summary": "Figma在Config 2026将设计画布扩展至代码、动画、3D深度和着色器效果，并集成去年收购的Weave工作流系统。新功能包括Code Layers（代码与设计并存）、Motion动画、深度层、Shader及Generative Plugins。协作方面，团队可搜索复用AI提示词、保存工作流为技能、共享插件。Figma的AI功能依赖Anthropic、OpenAI和Google等外部模型，推理成本挤压利润率。同时，Anthropic等公司的竞争产品可直接生成界面，构成威胁。",
+      "reason": "我认为Figma这波更新很务实，它没有硬扛AI生成界面的对手，而是把代码、动效、3D拉进画布，用人的判断驾驭AI。虽然利润被模型供应商挤压，但共享提示和工作流的设计让团队协作更高效，做设计和产品的值得细看。",
+      "score": 74,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "产品更新",
+        "编码"
+      ],
+      "source": "The Decoder：AI News（RSS）",
+      "time": "01:06",
+      "date": "6月25日"
+    }
+  ]
+}

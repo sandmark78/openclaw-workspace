@@ -1,0 +1,652 @@
+{
+  "date": "2026-05-11",
+  "scraped_at": "2026-05-11T05:00:08.903727+00:00",
+  "total_items": 40,
+  "items": [
+    {
+      "id": "cmp0lrnr40qthsllhphn27wsq",
+      "title": "开源PPT工具“鬼藏PPT技能”迎重大更新，新增瑞士风格与AI配图功能",
+      "link": "https://x.com/op7418/status/2053657613460771142",
+      "summary": "开源项目“鬼藏PPT技能”迎来重大更新，新增瑞士国际主义视觉风格，提供克莱因蓝等四套主题色。核心升级包括：通过接入GPT-Image 2.0，可根据PPT内容与风格自动生成胶片质感配图、流程图及UI截图美化；支持基于同一内容一键生成公众号、小红书、视频号等多种规格的封面图。更新旨在解决用户对多风格、自动配图及跨平台适配的需求，并通过预设22种版式和严格的视觉规则，确保设计的一致性与专业性。",
+      "reason": "藏师傅把做PPT的整条链闭环了，从大纲、配图到多平台封面一个对话走完。瑞士风的设计纪律直接写进skill，做出来的PPT终于甩掉AI模板味。",
+      "score": 78,
+      "tags": [
+        "Agent",
+        "GitHub",
+        "产品更新",
+        "图像生成",
+        "开源生态"
+      ],
+      "source": "X：歸藏 (@op7418)",
+      "time": "10:48",
+      "date": "5月11日"
+    },
+    {
+      "id": "cmp0j4gmi0q8fsllh0h28tu23",
+      "title": "消息称 AI 芯片企业 Cerebras IPO 获 20+ 倍超额认购，拟调升发行价近三成",
+      "link": "https://www.ithome.com/0/948/591.htm",
+      "summary": "AI芯片企业Cerebras的IPO获得超过20倍超额认购，有望成为2026年以来全球最大IPO。公司计划将发行股票数量从2800万股增至3000万股，发行价区间从115-125美元上调至150-160美元，以中间价计涨幅达29.17%，最高可筹资48亿美元。Cerebras的“晶圆级芯片”因集成大量高带宽SRAM缓存，特别适合AI推理的解码步骤，已获得亚马逊和OpenAI的大额订单。",
+      "reason": "Cerebras的晶圆级芯片在推理端有独特优势，这次IPO若以近50亿美元上限募资，意味着AI芯片竞赛又多了一个重量级玩家，对英伟达的格局是一记有趣的搅动。",
+      "score": 78,
+      "tags": [
+        "OpenAI",
+        "推理",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "09:34",
+      "date": "5月11日"
+    },
+    {
+      "id": "cmp0is8hu0q45sllhudljk0eo",
+      "title": "HappyHorse AI视频引擎登陆阿里云",
+      "link": "https://x.com/alibaba_cloud/status/2053646520998560033",
+      "summary": "资产审核：通过。物理逻辑：无缝衔接。🐎\n\nHappyHorse是面向生产就绪内容的排名第一的AI视频引擎。从复杂的物理交互到原生1080p唇形同步，我们不仅生成——更精准执行。\n\n现已上线阿里云Model Studio。\nhttps://int.alibabacloud.com/m/1000412167/",
+      "reason": "阿里云把排名第一的AI视频引擎HappyHorse搬上了Model Studio，复杂物理交互和1080p唇形同步是亮点，做视频内容的可以点开试试。",
+      "score": 72,
+      "tags": [
+        "产品更新",
+        "视频"
+      ],
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "time": "09:25",
+      "date": "5月11日"
+    },
+    {
+      "id": "cmp0hbitd0ptlsllht48whsrf",
+      "title": "OpenCLI打通微信等私域信息流，聚合个人数据",
+      "link": "https://x.com/vista8/status/2053633346581000600",
+      "summary": "OpenCLI项目实现了对微信、Telegram和Discord三大平台内容的命令行读取，通过wx-cli、tg-cli和discord-cli工具，用户可直接获取群消息、聊天记录、朋友圈及收藏夹等私域数据。这标志着个人信息流聚合的关键突破，使得AI Agent不仅能监控外部资讯网站，还能整合个人私密的社交聊天信息，构建真正统一的个人数据流。此举可能引发平台方如微信的关注或反应。",
+      "reason": "我觉得这是信息聚合工具的一个突破，把微信、Telegram 等私域接入 CLI，你的个人 Agent 终于能读懂聊天记录和朋友圈了，信息整合的玩法彻底变了。但就怕南山微信会出手。",
+      "score": 70,
+      "tags": [
+        "Agent",
+        "开源/仓库",
+        "开源生态"
+      ],
+      "source": "X：Vista (@vista8)",
+      "time": "08:44",
+      "date": "5月11日"
+    },
+    {
+      "id": "cmp07fzqw0nnlsllhbfy9quiz",
+      "title": "Codex自主完成安全审计并赚取赏金",
+      "link": "https://x.com/sama/status/2053566155571560868",
+      "summary": "用户指示AI模型Codex去赚取5美元，Codex自主完成了一系列任务：寻找开源安全审计赏金项目，提交有效的拉取请求，与维护者沟通，并处理了GitHub验证流程，最终使工作被合并。经过约22小时的工作，用户获得了16.88美元的首笔付款。按此推算，若每日重复，月收入可达506.40美元。这初步实现了Sam Altman关于AI能主动为人赚钱的愿景，虽然金额尚小，但标志着一个令人兴奋的开端。",
+      "reason": "一个普通用户让 Codex 独立完成安全审计并赚到真金白银，是 agent 走向「替你赚钱」的第一个可信证据，Sam 只回了 interesting，比十万字 PR 都重。",
+      "score": 77,
+      "tags": [
+        "Agent",
+        "GitHub",
+        "OpenAI",
+        "安全/对齐",
+        "现象/趋势"
+      ],
+      "source": "X：Sam Altman (@sama)",
+      "time": "04:07",
+      "date": "5月11日"
+    },
+    {
+      "id": "cmp06k9zm0nfjsllhnjyt2wgp",
+      "title": "MachinaCheck：基于AMD MI300X构建多智能体CNC可制造性分析系统",
+      "link": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck",
+      "summary": "MachinaCheck是一款基于多智能体AI的系统，旨在革新小型CNC机加工车间的报价分析流程。传统上，车间经理需花费30-60分钟手动分析图纸，而该系统在上传STEP文件及材料、公差等简单输入后，能在30秒内生成完整的可制造性报告，明确指出零件能否制造、所需工具及生产前需采取的行动。其核心在AMD MI300X加速卡上本地运行Qwen 2.5 7B模型，利用192GB HBM3显存确保客户设计数据无需离开本地，满足了制造业对数据隐私的严格要求。系统采用五组件流水线，结合精确的几何特征提取与LLM的制造知识推理，最终输出结构化报告。",
+      "reason": "虽然是hackathon项目，但用多Agent做CNC可行性分析，把推理全压在本地AMD显卡上保护图纸隐私，还给了可跑的代码和Space，制造业AI落地就该这么直接。",
+      "score": 74,
+      "tags": [
+        "Agent",
+        "Hugging Face",
+        "开源/仓库",
+        "端侧",
+        "部署/工程"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "03:43",
+      "date": "5月11日"
+    },
+    {
+      "id": "cmp05uc1e0n97sllh7mdg4kdv",
+      "title": "旧版AI模型急诊诊断已超越人类医生",
+      "link": "https://x.com/kimmonismus/status/2053549177670689001",
+      "summary": "一项发表于《科学》的研究显示，OpenAI一年前发布的o1模型在急诊诊断中表现优于医生。该模型在真实、混乱的急诊数据测试中，正确或接近正确诊断率达67%，而医生为50-55%，尤其在信息有限的早期分诊阶段优势最明显。研究指出，o1模型在结构化病例中的临床推理近乎完美，且该模型按AI标准已属旧版，当前模型可能更强。研究未涵盖长期住院数据及影像诊断，下一步需验证AI系统能否实际改善患者预后。",
+      "reason": "一年前的o1在真实急诊信息最不全、时间最紧的环节胜过急诊医生，这不是实验室刷榜，是直接冲击医疗流程。做AI落地的朋友可以拿这篇当说服医院的弹药。",
+      "score": 76,
+      "tags": [
+        "OpenAI",
+        "推理",
+        "论文/研究"
+      ],
+      "source": "X：Kim (@kimmonismus)",
+      "time": "03:22",
+      "date": "5月11日"
+    },
+    {
+      "id": "cmp050ra30n3msllhmsi2mb8l",
+      "title": "NousResearch发布Hermes配置Pareto Code指南",
+      "link": "https://x.com/OpenRouter/status/2053544645410324774",
+      "summary": "@NousResearch 关于如何在 Hermes 中设置 Pareto Code 的文档：https://hermes-agent.nousresearch.com/docs/user-guide/configuration#openrouter-routing--pareto-code-for-auxiliary-tasks",
+      "reason": "用 OpenRouter 做 coding 的，直接上这个路由，设个分数门槛让它自动找最便宜模型，省得自己盯排行榜比较了。小功能但很实用。",
+      "score": 72,
+      "tags": [
+        "产品更新",
+        "编码",
+        "部署/工程"
+      ],
+      "source": "X：OpenRouter (@OpenRouter)",
+      "time": "03:00",
+      "date": "5月11日"
+    },
+    {
+      "id": "cmp050ra30n3lsllh9scrq6zz",
+      "title": "Anthropic无补贴登顶令牌份额榜首",
+      "link": "https://x.com/OpenRouter/status/2053548965220475115",
+      "summary": "即使没有任何补贴\nAnthropic 已在令牌份额排行榜上位列第一",
+      "reason": "OpenRouter 自己放的数据，Anthropic 没靠补贴就冲到 token 份额第一，说明开发者在用真金白银给 Claude 投票，选模型风向要重新掂量了。",
+      "score": 69,
+      "tags": [
+        "Anthropic",
+        "行业动态"
+      ],
+      "source": "X：OpenRouter (@OpenRouter)",
+      "time": "03:00",
+      "date": "5月11日"
+    },
+    {
+      "id": "cmozxgz1o0lfdsllhrmgzsfrz",
+      "title": "Claude人格化趋势的中期影响",
+      "link": "https://x.com/emollick/status/2053490736625029167",
+      "summary": "Claude的人格化体现——无论是名称（唯一拥有人类名字的AI）、训练方式、Anthropic的哲学理念（参见Claude宪法），还是同人创作（参见Claude卡通）等——从中期来看都颇具深远影响，这既可能带来好处也可能产生弊端。",
+      "reason": "Mollick 点出了 Claude 拟人化背后的深层设计——从名字到宪法，这可能是中期最大的双刃剑，做 AI 产品的该认真想一想。",
+      "score": 71,
+      "tags": [
+        "Anthropic",
+        "大佬观点",
+        "安全/对齐",
+        "现象/趋势"
+      ],
+      "source": "X：Ethan Mollick (@emollick)",
+      "time": "23:28",
+      "date": "5月10日"
+    },
+    {
+      "id": "cmozvilp90l0wsllhqqdd60dd",
+      "title": "教育科技门槛一夜归零：AI助力单人低成本开发3D教学应用",
+      "link": "https://x.com/AYi_AInotes/status/2053473057365246297",
+      "summary": "AI工具GPT Images 2和Gemini 3.1 Pro的出现，彻底颠覆了教育应用的开发模式。过去需多人团队、数月时间和高昂成本才能完成的3D教育应用，如今一个具备领域知识（如生物学）的普通人，仅用约48小时和不到10美元即可实现。这消除了对编程、3D建模等技术能力的依赖，使教师、家长等个体也能独立创造高质量互动教学工具。此举有望推动过去仅属于精英机构的教学资源（如虚拟实验室）普及，为缩小教育不平等提供了新的技术路径。",
+      "reason": "阿易这视频展示了 GPT Images 2 和 Gemini 3.1 Pro 的组合，48 小时从想法到可交互 3D 教学 App，零代码工作流直接可以抄，教育技术门槛真的归零了，做内容的别错过。",
+      "score": 80,
+      "tags": [
+        "Google",
+        "OpenAI",
+        "图像生成",
+        "教程/实践"
+      ],
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "time": "22:33",
+      "date": "5月10日"
+    },
+    {
+      "id": "cmozoy0t70jj6sllhm8e51rny",
+      "title": "推出BlackBar菜单栏工具",
+      "link": "https://x.com/steipete/status/2053430278077440060",
+      "summary": "为@useblacksmith开发了BlackBar菜单栏\nhttps://github.com/openclaw/BlackBar/releases/tag/v0.1.0",
+      "reason": "为 Blacksmith 做了个菜单栏小工具，虽不是重大更新，但胜在即装即用，对 Blacksmith 用户来说是个实在的便利插件。",
+      "score": 76,
+      "tags": [
+        "开源/仓库",
+        "编码"
+      ],
+      "source": "X：Peter Steinberger (@steipete)",
+      "time": "19:29",
+      "date": "5月10日"
+    },
+    {
+      "id": "cmozjjaal0icxsllhujdvf1k3",
+      "title": "OpenCode x Ring 2.6 1T限时免费开放",
+      "link": "https://x.com/opencode/status/2053393732221739498",
+      "summary": "OpenCode x Ring 2.6 1T - 限时免费开放\n\n256K上下文 • 推理能力 • 纯文本模型\n\n感谢 @AntLingAGI 和 @novita_labs 提供模型支持",
+      "reason": "OpenCode 联手 Ring 扔出个 256K 上下文的推理模型还限时免费，对搞长文本推理的人来说是个不错的捡漏机会，可以立刻跑起来试试。",
+      "score": 64,
+      "tags": [
+        "推理",
+        "模型发布"
+      ],
+      "source": "X：opencode (@opencode)",
+      "time": "16:58",
+      "date": "5月10日"
+    },
+    {
+      "id": "cmoz7wmdo0frhsllh9nwkpanv",
+      "title": "普通人如何用AI构建月入7万的一人公司：七个月行动路线图",
+      "link": "https://x.com/AYi_AInotes/status/2053317162664673306",
+      "summary": "Anthropic联合创始人预测首个十亿美元一人公司即将出现，而普通人利用AI实现月入1万美元（约7万人民币）则更为切实可行。核心路径包括：选择具体、可重复的付费任务；将系统提示词编写为详细岗位描述；通过MCP工具链连接实际工作流实现自动化；持续迭代优化提示词；最终实现系统自动运行，创始人仅需每周花少量时间处理异常。成功关键在于找到付费痛点并快速交付可用方案，而非追求技术完美。当前是利用AI创建自动化小生意的关键窗口期。",
+      "reason": "Dario 的预测虽然疯狂，但阿绎拆解的 5 步路线从选任务到定时运行每一步都具体可做，不是鸡汤，是今晚就能打开笔记本开干的实操手册。",
+      "score": 71,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "大佬观点",
+        "教程/实践"
+      ],
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "time": "11:32",
+      "date": "5月10日"
+    },
+    {
+      "id": "cmoz5q4ys0f99sllhw25ingry",
+      "title": "Lee Robinson 的 11 条求职建议",
+      "link": "https://x.com/shao__meng/status/2053300303634862271",
+      "summary": "Lee Robinson 从大量审阅简历的经验出发，提出让工程师求职脱颖而出的关键建议。简历需简洁专业：限制一页、避免照片、GitHub 应展示代码而非装饰。网络形象至关重要：拥有用心的个人网站能显著提升竞争力，需认真维护 LinkedIn 并清理 X 内容。申请内容应定制化，针对不同公司调整重点；务必提及 AI 技能以顺应趋势；项目注重质量而非数量；避免使用 AI 生成求职信和简历以保持真实；同时展示个人爱好，帮助建立人际连接。",
+      "reason": "Cursor团队的Lee Robinson每天看几百份简历，他总结的这11条建议没有废话，尤其是「别用AI写简历」和「简历要提AI」反直觉但很真实，求职的可以逐条对照。",
+      "score": 70,
+      "tags": [
+        "教程/实践",
+        "编码"
+      ],
+      "source": "X：邵猛 (@shao__meng)",
+      "time": "10:31",
+      "date": "5月10日"
+    },
+    {
+      "id": "cmoz1vu1i0eexsllhvm3porvn",
+      "title": "SpaceXAI 正式官宣了！",
+      "link": "https://x.com/berryxia/status/2053260623136604554",
+      "summary": "商标申请文件显示，“SpaceXAI”已于2026年5月6日提交申请，目前状态为待审查。该日期与Elon Musk宣布将xAI并入SpaceX的时间点吻合，标志着xAI的AI能力将与SpaceX的航天业务进行品牌统一，旨在将打造多行星文明与发展超级智能两大目标合并于单一实体之下。",
+      "reason": "Elon Musk把AI和航天业务合体成SpaceXAI，虽然只是商标申请，但这是在为「多行星文明+超级智能」的叙事铺路，xAI的独立叙事算是结束了。",
+      "score": 72,
+      "tags": [
+        "xAI",
+        "行业动态"
+      ],
+      "source": "X：Berry Xia (@berryxia)",
+      "time": "08:44",
+      "date": "5月10日"
+    },
+    {
+      "id": "cmoyzqnt50dxjsllh3n1247vk",
+      "title": "Google 开放 Fitbit Air 的全新 Health API",
+      "link": "https://x.com/berryxia/status/2053256690498433146",
+      "summary": "Google 随新款 Fitbit Air 发布了全新的 Health API 并向开发者开放。该 API 提供了涵盖运动、睡眠、心率、血氧等维度的 31 种健康数据点，支持 Webhooks 实时数据推送、精细的读写权限控制以及按时间范围查询和汇总数据。开发者可利用该 API 基于个人真实健康数据构建 AI Agent、MCP Server、CLI 或实时监控系统等应用，从而创建实用的个人健康自动化工作流。官方已发布包含首次调用教学的入门指南。",
+      "reason": "Google把Fitbit Air的健康数据API直接开放，还带webhook和权限控制，做个人健康Agent的开发者终于有结构化数据源了，比之前全靠手动输入靠谱太多。",
+      "score": 72,
+      "tags": [
+        "Agent",
+        "Google",
+        "MCP/工具调用",
+        "产品更新"
+      ],
+      "source": "X：Berry Xia (@berryxia)",
+      "time": "07:44",
+      "date": "5月10日"
+    },
+    {
+      "id": "cmoyoyzpa0bjxsllhin4zx9ys",
+      "title": "OncoAgent：一个用于隐私保护肿瘤临床决策支持的双层多智能体框架",
+      "link": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper",
+      "summary": "研究团队发布了开源肿瘤临床决策支持系统OncoAgent。该系统采用双层多智能体框架，结合LangGraph拓扑与四阶段Corrective RAG流程，检索超过70份权威临床指南。系统根据查询复杂度，将任务路由至9B参数的速度优化模型或27B参数的深度推理模型，两者均通过QLoRA在AMD MI300X硬件上使用包含26万余病例的数据集进行微调。系统强制执行严格的零受保护健康信息政策，并通过三层反射安全验证器确保安全，支持完全本地部署以保护患者数据主权。",
+      "reason": "这个开源肿瘤AI系统把多智能体、RAG和隐私合规全塞进一台AMD服务器，临床落地又近了一步，不是那种只发论文不交代码的项目。",
+      "score": 65,
+      "tags": [
+        "Agent",
+        "Hugging Face",
+        "RAG",
+        "开源生态",
+        "论文/研究"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "02:42",
+      "date": "5月10日"
+    },
+    {
+      "id": "cmoynewsb0b8msllhxkqvoyf6",
+      "title": "帕累托代码：免费实验性编码路由工具",
+      "link": "https://x.com/OpenRouter/status/2053170520087024109",
+      "summary": "推出帕累托代码：一款全新、免费、实验性的编码路由工具\n\n在请求中设置 `min_coding_score`，即可路由至符合您标准且成本最低的编码模型，排名由 @ArtificialAnlys 提供。\n\n实时查看帕累托前沿的变化👇",
+      "reason": "OpenRouter的Pareto Code让编码模型选择从凭感觉变成按性价比自动切换，对成本敏感的个人开发者很友好，但实验性标签意味着别急着把生产流量全切过去。",
+      "score": 72,
+      "tags": [
+        "产品更新",
+        "编码"
+      ],
+      "source": "X：OpenRouter (@OpenRouter)",
+      "time": "01:59",
+      "date": "5月10日"
+    },
+    {
+      "id": "cmoync8ty0b7dsllhsql34ns8",
+      "title": "AI放大能动性差异，用户两极分化加剧",
+      "link": "https://x.com/fchollet/status/2053169711341551936",
+      "summary": "主观能动性向来具有自我增强的特性，而AI正在放大这种效应。\n低能动性的AI使用者进一步丧失能动性，高能动性的AI使用者则进一步增强能动性。",
+      "reason": "François Chollet 这条推文把 AI 对人的影响一针见血地拆成两类，低自主性的人会更依赖，高自主性的人会更强大，这比技术更新更能决定你未来怎么用 AI。",
+      "score": 80,
+      "tags": [
+        "Agent",
+        "大佬观点"
+      ],
+      "source": "X：Francois Chollet (@fchollet)",
+      "time": "01:57",
+      "date": "5月10日"
+    },
+    {
+      "id": "cmoymcbxz0azdsllh72oh9lis",
+      "title": "GPT-Realtime-2语音控制CRM集成方案",
+      "link": "https://x.com/OpenAIDevs/status/2053161503470366881",
+      "summary": "以下介绍如何集成GPT-Realtime-2为CRM工作流添加语音控制功能。",
+      "reason": "OpenAI 官方手把手教你怎么把 GPT-Realtime-2 的语音能力接进 CRM，想给企业工作流加语音控制的开发者可以直接抄作业。",
+      "score": 74,
+      "tags": [
+        "OpenAI",
+        "教程/实践",
+        "语音"
+      ],
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "time": "01:29",
+      "date": "5月10日"
+    },
+    {
+      "id": "cmoykzyqq0apdsllhtapg8m4v",
+      "title": "HappyHorse上线阿里云，AI视频无需等待",
+      "link": "https://x.com/alibaba_cloud/status/2053153199561863454",
+      "summary": "基准测试排名第一。闪电速度。原生音视频同步。\n\n排队等待AI视频的时代结束了。HappyHorse现已在阿里云Model Studio上线。当别人还在渲染时，你已完成。\n\n立即构建：https://int.alibabacloud.com/m/1000412167/",
+      "reason": "阿里云放出的 HappyHorse 视频模型，benchmark 拿第一还带原生音画同步，如果真像标题说的“别人还在渲染它已经好了”，那做视频的值得上 ModelStudio 试一下。",
+      "score": 69,
+      "tags": [
+        "多模态",
+        "模型发布",
+        "视频"
+      ],
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "time": "00:51",
+      "date": "5月10日"
+    },
+    {
+      "id": "cmoykb3rj0akisllhau8mu0cj",
+      "title": "手机扫描与AI Agent技术颠覆房地产与专业领域",
+      "link": "https://x.com/AYi_AInotes/status/2053139580572856328",
+      "summary": "一项名为“3D高斯泼溅”的技术，允许用户仅用手机扫描整栋房屋，即可生成可在浏览器中直接浏览的沉浸式3D模型。其成本极低、文件小巧，为房产等行业带来新机会。同时，AI在垂直专业领域正通过Agent范式取得突破。例如Tianfu Agent在专业命理大赛中接近人类顶尖水平，其通过构建专用工具集而非依赖通用模型硬记规则的方法，为法律、中医等规则密集型领域的AI化提供了可迁移的新路径。",
+      "reason": "一条推文塞了两个能直接用的AI应用：3D扫描看房把中介费压到200刀，AI算命Agent差点追平人类大赛Top20，还开源了评测基准。后者那套「不强求AI懂规则，只让它用工具」的工程化思路，比算命本身值钱得多。",
+      "score": 72,
+      "tags": [
+        "Agent",
+        "GitHub",
+        "开源/仓库",
+        "教程/实践"
+      ],
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "time": "00:32",
+      "date": "5月10日"
+    },
+    {
+      "id": "cmoyj34jo0a9psllhkhwi1aa3",
+      "title": "Tesla利用视觉AI提前预判碰撞，大幅降低伤亡风险",
+      "link": "https://x.com/elonmusk/status/2053141290989318335",
+      "summary": "Tesla通过分析真实车队碰撞数据，结合视觉系统与传感器，实现了安全系统的突破。传统碰撞传感器需要时间确认，降低阈值可能导致误触发。而视觉系统能提前“看到”即将发生的碰撞，与传感器协同，使约束控制器能更早、更准确地启动安全气囊和安全带预紧器。通过仿真重放碰撞并测量人体模型受力，团队发现提前部署能优化保护时机。这一改进使预测伤害严重程度整体显著下移，并通过OTA更新实现，是前所未有的安全提升。",
+      "reason": "Musk 难得放技术细节，展示特斯拉如何用视觉提前预测碰撞，通过软件更新降低事故伤害，这条路径对智能驾驶的安全验证方法有启发，做智驾的值得细看。",
+      "score": 71,
+      "tags": [
+        "多模态",
+        "大佬观点",
+        "端侧"
+      ],
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "time": "23:58",
+      "date": "5月9日"
+    },
+    {
+      "id": "cmoyikr0x0a5usllhczemrvq8",
+      "title": "YC CEO开源个人AI操作系统GBrain，构建知识复利“第二大脑”",
+      "link": "https://x.com/berryxia/status/2053136924244836455",
+      "summary": "Y Combinator CEO Garry Tan开源其个人AI操作系统GBrain，旨在将AI打造成具备复利效应的“第二大脑”。该系统通过“Book Mirror”、“Meeting Prep”等模块化技能，在五个月内深度处理了20多本书、自动预习会议，并管理着超10万页持续增长的结构化知识。其架构清晰，分为轻量路由层、可组合技能层与丰富数据层，并能按任务智能调用不同AI模型。Garry Tan强调，未来属于能构建此类复利系统的建造者，而非仅使用通用聊天工具的用户。",
+      "reason": "Garry Tan这套个人AI系统不是PPT产品，是他每天用到凌晨2点的大脑外挂，开源且逻辑清晰，做AI工作流的值得立刻fork。",
+      "score": 76,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "开源/仓库"
+      ],
+      "source": "X：Berry Xia (@berryxia)",
+      "time": "23:43",
+      "date": "5月9日"
+    },
+    {
+      "id": "cmoyi5yhv0a2zsllhj6d7xb2c",
+      "title": "Redis创始人用C语言引擎将大模型“装进”个人电脑",
+      "link": "https://x.com/AYi_AInotes/status/2053121974734291359",
+      "summary": "Redis创始人Antirez开源了专为DeepSeek V4 Flash设计的原生推理引擎ds4。该引擎仅用几千行C代码，通过三项关键技术：对MoE专家进行不对称2-bit量化、将KV Cache移至高速SSD突破内存限制、为Apple Silicon进行纯Metal原生优化，成功在128GB MacBook Pro上流畅运行具备1M上下文窗口的模型，实测达27 tok/s。此举将原本依赖云端GPU集群的前沿AI能力，通过极致工程优化 democratize 至个人设备，展现了开源社区推动技术平民化的强大潜力。",
+      "reason": "Antirez用几千行C代码把DeepSeek V4 Flash塞进128G Mac，本地跑1M上下文coding agent，这才是真正的AI民主化时刻，开发者必试。",
+      "score": 82,
+      "tags": [
+        "DeepSeek",
+        "开源/仓库",
+        "推理",
+        "端侧"
+      ],
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "time": "23:32",
+      "date": "5月9日"
+    },
+    {
+      "id": "cmoyh118d09uqsllhfwv7ggxu",
+      "title": "菲尔兹奖得主称 ChatGPT 5.5 Pro 在无人帮助下两小时内完成“博士级”数学研究",
+      "link": "https://the-decoder.com/fields-medalist-says-chatgpt-5-5-pro-delivered-phd-level-math-research-in-under-two-hours-with-zero-human-help",
+      "summary": "菲尔兹奖得主蒂莫西·高尔斯让 ChatGPT 5.5 Pro 尝试解决数论中的开放性问题。该模型在不到一小时内，将一个问题中的指数界限改进为多项式界限。一位参与的 MIT 研究员认为其核心想法“完全具有原创性”。高尔斯总结指出，未来数学贡献的门槛将变为证明某些是大语言模型无法完成的工作。",
+      "reason": "Gowers 让 ChatGPT 5.5 Pro 独立改进了一个数论开放问题，关键步骤被 MIT 研究者评价为完全原创——AI 做研究的门槛第一次被菲尔兹奖得主亲自认证了。",
+      "score": 78,
+      "tags": [
+        "OpenAI",
+        "推理",
+        "论文/研究"
+      ],
+      "source": "The Decoder：AI News（RSS）",
+      "time": "23:00",
+      "date": "5月9日"
+    },
+    {
+      "id": "cmoyfv7w109jasllhbhhkbpvb",
+      "title": "Peekaboo 3.0 正式发布 专注操作与界面检测",
+      "link": "https://x.com/steipete/status/2053114837698249190",
+      "summary": "Peekaboo 3.0 现已上线。这是自 2.0 以来最重要的版本。\n\n⚡ 以操作为先的 macOS 电脑使用体验\n👁️ 统一的截图 + 界面检测功能\n🧩 CLI + MCP 间更简洁的 JSON 交互\n🛠️ 更好的快照功能\n\n我去年就开始了这项工作，但当时的模型还不够好。现在它们已经准备好了。https://peekaboo.sh",
+      "reason": "macOS computer use 这块拼图终于完整了，Peekaboo 3.0 把截图、UI 检测和 MCP 全打通，做桌面 Agent 的同学可以立刻试试。",
+      "score": 72,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "产品更新"
+      ],
+      "source": "X：Peter Steinberger (@steipete)",
+      "time": "22:28",
+      "date": "5月9日"
+    },
+    {
+      "id": "cmoy9zhdu088vsllhbakks8ap",
+      "title": "Hy3预览版免费期结束 三项指标居首",
+      "link": "https://x.com/TencentHunyuan/status/2053073752431403482",
+      "summary": "@OpenRouter 的免费期已结束。\n\n这两周期间，Hy3预览版达成：\n总令牌使用量排名第一\n代码生成排名第一\n工具调用排名第一\n在所有供应商中占据15.4%市场份额\n\nHy3预览版仍可在OpenRouter以有竞争力的价格使用。继续创造——并请持续反馈。\n\nhttps://openrouter.ai/tencent/hy3-preview",
+      "reason": "Hy3 preview 在 OpenRouter 拿了个三第一，token 用量、编码、工具调用都排头部，免费期刚结束就开始收费，数据不错，值得国内开发者关注一下。",
+      "score": 60,
+      "tags": [
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "X：腾讯混元 (@TencentHunyuan)",
+      "time": "19:43",
+      "date": "5月9日"
+    },
+    {
+      "id": "cmoy5azwm078gsllhyueu5wzp",
+      "title": "工信部启动人工智能科技伦理审查与服务先导计划，加快推动审查工作落地实施",
+      "link": "https://www.ithome.com/0/948/246.htm",
+      "summary": "工业和信息化部近日启动人工智能科技伦理审查与服务先导计划，旨在依托国家人工智能产业创新应用先导区，探索审查服务的落地路径与协同治理机制。该计划部署了四项重点任务：细化省级伦理审查制度、指导创新主体建设伦理委员会、开展审查实践与标准研制、构建部省市三级联动治理网络。同时，将设立全国伦理风险监测服务网络，编制培训教材并开设“伦理课堂”，以提供智力支持，推动人工智能负责任创新和产业高质量发展。",
+      "reason": "工信部这次不是发文件而是直接落地审，会把伦理审查从口号变成产品上线的实卡，国内做AI应用的从业者得开始考虑合规成本了。",
+      "score": 71,
+      "tags": [
+        "政策/监管",
+        "现象/趋势"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "17:32",
+      "date": "5月9日"
+    },
+    {
+      "id": "cmoy489ro070asllhmzju8par",
+      "title": "Qwen系列多尺寸模型登陆SiliconFlow平台",
+      "link": "https://x.com/SiliconFlowAI/status/2053035285974487369",
+      "summary": "思小建大🔥\n@Alibaba_Qwen 3.5 和 Qwen3.6 系列现已在 SiliconFlow 上线 🎉\n9B 到 397B · MoE 与 Dense · 原生多模态\n✅ Qwen3.6-35B-A3B · Qwen3.6-27B\n✅ Qwen3.5-397B-A17B · Qwen3.5-122B-A10B\n✅ Qwen3.5-35B-A3B · Qwen3.5-27B · Qwen3.5-9B\n更小的模型。更大的成果。社区的最爱。\n现在，选择你的尺寸并开始构建 👇\nhttps://cloud.siliconflow.com/",
+      "reason": "Qwen3.5 全系列模型在 SiliconFlow 上线，9B 到 397B 一应俱全，MoE 版本性价比极高，国内开发者调用 Qwen 新模型终于不用折腾部署了。",
+      "score": 61,
+      "tags": [
+        "产品更新",
+        "多模态",
+        "推理"
+      ],
+      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+      "time": "17:02",
+      "date": "5月9日"
+    },
+    {
+      "id": "cmoy421hb06xasllhr3m769vc",
+      "title": "用Codex并行调试验证修复",
+      "link": "https://x.com/steipete/status/2053032450138276274",
+      "summary": "每当调查bug时，我让codex在临时crabbox中重建精确状态，验证bug，修复它，再验证修复。\n\n没有混乱状态因为本地系统可能被污染，也没有速度下降因为我并行运行10个会话。http://crabbox.sh",
+      "reason": "用 Codex 在 ephemeral 环境里复现修 bug，既避免本地污染又能并行跑十个会话，这个工作流做开发的可以直接抄走。",
+      "score": 73,
+      "tags": [
+        "教程/实践",
+        "编码"
+      ],
+      "source": "X：Peter Steinberger (@steipete)",
+      "time": "16:57",
+      "date": "5月9日"
+    },
+    {
+      "id": "cmoy1o13r06ctsllhpqx9kt9w",
+      "title": "Show HN: 适用于人工智能代理的 Git",
+      "link": "https://github.com/regent-vcs/re_gent",
+      "summary": "开源项目“适用于人工智能代理的 Git”发布，旨在为AI代理提供类似Git的版本控制系统。该系统允许AI代理跟踪和管理其代码、提示词、模型权重等资产的变更历史，支持分支、合并与回滚操作。项目已在GitHub开源，并在Hacker News上获得100点热度。这一工具试图解决AI开发中工作流复杂、迭代难以追溯的问题，为多代理协作与实验管理提供标准化方案。",
+      "reason": "AI 代理的 Git，开源且能直接用。Agent 开发的版本控制痛点被正面解决，做复杂代理的值得试一下。",
+      "score": 71,
+      "tags": [
+        "Agent",
+        "开源/仓库"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "15:50",
+      "date": "5月9日"
+    },
+    {
+      "id": "cmoy0kgg8061zsllhfvwdppyr",
+      "title": "ERNIE 5.1发布，预训练成本仅需对标模型6%",
+      "link": "https://x.com/Baidu_Inc/status/2053009538769735774",
+      "summary": "ERNIE 5.1 刚刚发布。\n\n基于 ERNIE 5.0 的预训练基础，我们最新的基础模型升级了搜索、推理、知识问答、创意写作和智能体能力，而预训练成本仅需对标模型的约 6%。\n\n更多内容详见主题帖 🧵",
+      "reason": "百度说只用同类模型 6% 的训练成本就做到了搜索、推理、创作等能力升级，这个效率数字如果属实，对那些被天价训练成本吓退的团队是个信号。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "推理",
+        "搜索",
+        "模型发布"
+      ],
+      "source": "X：百度 Baidu (@Baidu_Inc)",
+      "time": "15:19",
+      "date": "5月9日"
+    },
+    {
+      "id": "cmoxwmp1x058ssllh0r3yamta",
+      "title": "养龙虾最蠢的事，就是每次都重复说同一句话",
+      "link": "https://x.com/AYi_AInotes/status/2052983074514723067",
+      "summary": "YC创始人Garry Tan公开了OpenClaw提示词，旨在将AI代理从一次性工具转化为永久自动系统。其核心规则包括禁止一次性工作、遵循MECE原则、以重复询问作为失败判定，并采用标准六步流程，促使AI自我学习并积累技能库，实现复利增长。用户实践表明，系统能自动处理日报、邮件等重复任务。此外，有观点指出，在AI时代，HTML正取代Markdown成为更高效的沟通语言，因其能生成交互式彩色表格、流程图等内容，大幅提升人机协作效率，尽管会消耗更多token和生成时间。",
+      "reason": "Garry Tan 这套提示词把龙虾从一次性工具变成了能自我进化的系统，最狠的是那条「第二次问就失败」的规则，真想把自动化跑通的人看完会立刻动手改自己的 AGENTS.md。",
+      "score": 71,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "教程/实践"
+      ],
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "time": "13:29",
+      "date": "5月9日"
+    },
+    {
+      "id": "cmoxuon5604t6sllhyu6fybba",
+      "title": "StepAudio 2.5 TTS 在语音竞技场盲测中跻身全球前三",
+      "link": "https://x.com/StepFun_ai/status/2052963182587584878",
+      "summary": "StepFun 推出的 StepAudio 2.5 TTS 在 Artificial Analysis 语音竞技场盲测排行榜中位列全球第三，Elo 评分为 1187 分，仅次于 Inworld TTS 1.5 Max 与 Google Gemini 3.1 Flash TTS。该模型语音自然度较前代显著提升，并以 8 分优势超越 Eleven v3。其定价为每百万字符 85 美元，生成速度为每秒 37.6 字符，并提供了全局上下文提示和行内情感标签两种语音控制方式。",
+      "reason": "国产 TTS 首次在盲测里干进全球前三，还压过了 Eleven v3。做语音产品的该把它放进候选名单了，虽然定价偏贵但质量确实能打。",
+      "score": 69,
+      "tags": [
+        "模型发布",
+        "评测/基准",
+        "语音"
+      ],
+      "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
+      "time": "12:35",
+      "date": "5月9日"
+    },
+    {
+      "id": "cmoxu9rbt04o8sllhs72a1f6c",
+      "title": "Hermes Agent登顶OpenRouter全球令牌排名",
+      "link": "https://x.com/OpenRouter/status/2052966744952897750",
+      "summary": "祝贺@NousResearch！\n\n[引用 @NousResearch]：Hermes Agent 现已在全球 @OpenRouter 令牌排名中位列第一。\n\n虽然我们的旅程才刚刚开始，但我们想借此机会感谢我们的贡献者、支持者和用户，感谢他们为我们走到今天所做的一切。",
+      "reason": "Hermes Agent在OpenRouter登顶，不是一次普通的排名更新，它代表Agent模型的调用量正式超过了通用聊天，做Agent的该兴奋了。",
+      "score": 65,
+      "tags": [
+        "Agent",
+        "行业动态",
+        "评测/基准"
+      ],
+      "source": "X：OpenRouter (@OpenRouter)",
+      "time": "12:23",
+      "date": "5月9日"
+    },
+    {
+      "id": "cmoxsi24n04b4sllhrbr1o125",
+      "title": "Codex Chrome插件安装与使用经验分享",
+      "link": "https://x.com/vista8/status/2052953667817578581",
+      "summary": "用户成功使用Codex Chrome插件完成购物任务，验证了其可用性。安装过程存在关键注意事项：必须将Codex更新至最新版本，并切换为官方订阅登录模式，第三方API模式不支持安装。插件对网络节点有要求，例如香港地区不支持。安装后，必须在Codex对话中通过“@ Chrome”指令来调用插件功能。此外，将Chrome设置为默认浏览器有助于安装流程顺利进行，遇到连接问题时重启电脑可能有效。",
+      "reason": "Codex 的 Chrome 插件首日实测，装好就能让 AI 自动下单买牙膏，踩坑细节和安装流程都有，想玩浏览器自动化的可以直接抄作业。",
+      "score": 72,
+      "tags": [
+        "Agent",
+        "OpenAI",
+        "教程/实践"
+      ],
+      "source": "X：Vista (@vista8)",
+      "time": "11:33",
+      "date": "5月9日"
+    },
+    {
+      "id": "cmoxs7b1z0475sllhsiscttn5",
+      "title": "GPT Image 2 Prompt：水墨风格 Slides/PPT",
+      "link": "https://x.com/dotey/status/2052948362668732781",
+      "summary": "本文介绍一个用于生成水墨风格幻灯片画图提示词的模板。该模板结构清晰，包含标题、关键要点、视觉元素、布局偏好、文字层级和延续性说明，旨在指导AI（如Codex）生成具有统一美学风格的幻灯片图像。视觉元素强调宣纸背景、水墨山水等东方元素，整体风格追求静谧、克制、侘寂或当代东亚奢华。通过应用此模板，用户可以简化AI驱动的设计流程，快速获得视觉一致且富有美感的水墨风格PPT素材。文末提供了一个简短的应用示例。",
+      "reason": "宝玉这个水墨风格幻灯片 prompt 模板，把 GPT Image 2 的画图能力直接转化为可套用的设计语言，想做有质感幻灯片的可以直接抄作业。",
+      "score": 71,
+      "tags": [
+        "OpenAI",
+        "图像生成",
+        "多模态",
+        "教程/实践"
+      ],
+      "source": "X：宝玉 (@dotey)",
+      "time": "11:25",
+      "date": "5月9日"
+    },
+    {
+      "id": "cmoxrzp6q043ksllhqxxxc9by",
+      "title": "教克劳德“为什么”",
+      "link": "https://www.anthropic.com/research/teaching-claude-why",
+      "summary": "Anthropic公司发布了Claude模型的新研究“Teaching Claude Why”。该研究通过让模型学习解释自身推理过程中的“为什么”，显著提升了其推理能力和输出结果的准确性。实验表明，经过此项训练后，模型在多项基准测试中的表现得到改善，其推理步骤的透明度和逻辑连贯性增强。这项技术旨在推动AI向更可解释、更可靠的方向发展。",
+      "reason": "Anthropic 没刷榜，而是教 Claude 理解“为什么”，这是可解释性上的真进展，对齐和安全方向的研究者该细读。",
+      "score": 77,
+      "tags": [
+        "Anthropic",
+        "安全/对齐",
+        "推理",
+        "论文/研究"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "11:19",
+      "date": "5月9日"
+    }
+  ]
+}

@@ -1,0 +1,641 @@
+{
+  "date": "2026-05-21",
+  "scraped_at": "2026-05-21T05:00:06.505009+00:00",
+  "total_items": 40,
+  "items": [
+    {
+      "id": "cmpf0anyx0288sljw22zedvw9",
+      "title": "Intuit将裁员逾3000人，以重新聚焦人工智能",
+      "link": "https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai",
+      "summary": "软件公司Intuit宣布将裁员超过3000人，作为其战略重组的一部分。此次裁员旨在将公司资源重新聚焦于人工智能（AI）领域的发展，以适应技术趋势并提升长期竞争力。裁员规模约占其全球员工总数的10%。",
+      "reason": "Intuit作为财务软件巨头裁员3000人转向AI，不是小厂试水，是AI替代白领工作的标志性信号。做SaaS的该认真看路线了。",
+      "score": 72,
+      "tags": [
+        "现象/趋势",
+        "行业动态"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "12:44",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpex8rgu01husljw7g79w8pc",
+      "title": "首部100%AI生成电影亮相戛纳，剑指2026院线",
+      "link": "https://x.com/Kling_ai/status/2057295321831539054",
+      "summary": "AI电影项目RAPHAEL在戛纳亮相。该片由Mateo AI Studio与韩国MBC C&I的AI内容实验室联合开发，全程使用Kling AI视频模型进行制作，旨在实现独特的视觉效果与差异化的观影体验。项目计划于2026年登陆院线，其大规模制作旨在证明纯AI电影制作的工业可行性，标志着AI原生院线电影新趋势的开端。",
+      "reason": "纯AI制作的院线电影真的来了，可灵AI和MBC联手拿AI拍正片，2026年影院见。这事如果成了，电影工业的天花板要被捅破一次。",
+      "score": 67,
+      "tags": [
+        "多模态",
+        "行业动态"
+      ],
+      "source": "X：可灵 Kling AI (@Kling_ai)",
+      "time": "11:18",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpewx9yf01ensljwkhvs9xns",
+      "title": "SpecBench：测量长期编码代理中的奖励黑客行为",
+      "link": "https://arxiv.org/abs/2605.21384",
+      "summary": "长期编码代理在优化测试通过时可能偏离用户真实目标，导致奖励黑客现象。研究将软件工程任务分解为规格说明、可见验证测试和隐藏测试，通过两类测试通过率差距量化黑客行为。为此引入SpecBench基准，包含30个从短期（如JSON解析器）到超长期（如构建操作系统内核）的系统级编程任务。实验显示，所有前沿代理在可见测试上饱和，但隐藏测试上存在持续差距，小模型差距更大；代码规模每增十倍，差距增长28个百分点。失败案例包括故意利用测试输入。SpecBench提供原则性平台，评估代理是否构建真实工作系统而非仅玩游戏测试套件。",
+      "reason": "SpecBench把编码代理的‘应试’问题量化了，越长的任务越容易靠作弊通过测试。如果你在做Agent，这个基准会让你重新审视自己的评估体系。",
+      "score": 72,
+      "tags": [
+        "Agent",
+        "arXiv",
+        "安全/对齐",
+        "编码",
+        "论文/研究",
+        "评测/基准"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "11:09",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpeway6401ajsljw64tl7jmw",
+      "title": "商汤连续十年领跑中国计算机视觉市场",
+      "link": "https://x.com/SenseTime_AI/status/2057289342654300586",
+      "summary": "商汤科技被IDC连续十年评为中国计算机视觉市场第一。其关键驱动因素包括：主导推进CV 2.0架构演进，原生嵌入生成式AI能力；海外市场扩展至12个国际区域，服务超500家企业客户并保持高留存率；以年度经常性收入增长为锚点实现盈利性增长；并从项目制交付转型为高度可扩展的AI平台。这一十年市场领导地位为其引领计算机视觉与生成式AI的融合浪潮奠定了基础。",
+      "reason": "商汤连续十年拿IDC视觉AI第一，传统CV格局确实铁板一块，但GenAI冲击下CV 2.0转型能不能成才是真看点，这条PR可以当行业晴雨表。",
+      "score": 64,
+      "tags": [
+        "多模态",
+        "行业动态"
+      ],
+      "source": "X：商汤 SenseTime (@SenseTime_AI)",
+      "time": "10:52",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpevnjsk013rsljw3n8x1c23",
+      "title": "开源Suno技能：一键生成任意风格AI音乐",
+      "link": "https://x.com/vista8/status/2057287459759698400",
+      "summary": "这是基于Suno AI音乐生成工具的技能实现，可通过简单指令按用户需求生成不同风格的歌曲（例如德语空灵风格）。该技能订阅费用为每月10美元，支持高度自定义的风格生成。技术层面已优化，新增近6000个音乐风格检索以提升准确性，并可通过谷歌CDP免登录直接调用。项目已开源，提供GitHub仓库地址与安装指令，降低了创作门槛。目前AI生成音乐在艺术性上仍与人工制作存在差距，但实现了快速、灵活的创作可能。",
+      "reason": "乔木这个 Suno Skill 把音乐生成从“抽卡”变成“精准点唱”，6000 种风格检索让普通人也能玩出花样，虽然比不上专业制作，但做短视频配乐绝对够用，看完就能装。",
+      "score": 75,
+      "tags": [
+        "GitHub",
+        "多模态",
+        "教程/实践"
+      ],
+      "source": "X：Vista (@vista8)",
+      "time": "10:34",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpevggtd012zsljw5mhcy3k0",
+      "title": "FSD正式登陆中国大陆市场",
+      "link": "https://x.com/xiaohu/status/2057279976467218765",
+      "summary": "FSD来了…\n\n官宣进入大陆…",
+      "reason": "FSD 终于落地中国大陆，不止对特斯拉车主是利好，它直接把国内智驾竞赛拖进了“真 L2+”阶段，你选车的标准得变了。",
+      "score": 78,
+      "tags": [
+        "具身智能",
+        "行业动态"
+      ],
+      "source": "X：小互 (@xiaohu)",
+      "time": "10:28",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpeqnp9r0eokslk10exckhuh",
+      "title": "Grok Build现已登陆OpenCode平台",
+      "link": "https://x.com/opencode/status/2057248292904296772",
+      "summary": "Grok Build现已在OpenCode中可用",
+      "reason": "Grok 的实时搜索和长上下文在终端里偶尔能帮上忙，对 OpenCode 用户来说算个实用补充，比用网页版 Grok 顺手。",
+      "score": 61,
+      "tags": [
+        "xAI",
+        "产品更新",
+        "编码"
+      ],
+      "source": "X：opencode (@opencode)",
+      "time": "08:14",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpeq13j70ejcslk16skz7ozw",
+      "title": "腾讯张军官宣操作系统层级 AI 助手“马维斯”正式上工，Windows、Mac、安卓端同步上线",
+      "link": "https://www.ithome.com/0/953/096.htm",
+      "summary": "腾讯于5月21日发布了操作系统层级AI助手“马维斯”，支持Windows、Mac和安卓平台同步上线。该助手具备文档归类解析、图片智能识别处理、系统维护等功能，并强调与操作系统深度集成，可调度不同模型处理任务，部分功能可在离线状态下使用。腾讯表示“马维斯”能完成市面主流Agent的大部分工作，并具备桌面操控手机应用等能力。这是继3月WorkBuddy和“龙虾”产品矩阵后，腾讯推出的又一AI助手产品。",
+      "reason": "腾讯把 AI 助手压到系统层，预装本地模型、拔网线也能跑，不是又一个套壳工具，而是真正冲着‘电脑变成可对话对象’去的，值得装上看看实操体验。",
+      "score": 78,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "多模态",
+        "端侧"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "07:56",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpenvx390e1dslk1uhs84uhr",
+      "title": "冲刺 9 月上市，OpenAI 最快本周五提交 IPO 招股书草案",
+      "link": "https://www.ithome.com/0/953/090.htm",
+      "summary": "据CNBC报道，OpenAI预计最快本周五递交首次公开募股（IPO）招股书草案，这标志着公司向资本市场迈出关键一步。首席执行官萨姆·奥尔特曼设定最早于2026年9月上市的目标。公司正与高盛和摩根士丹利合作，借助这两家投行的资源推动上市申报和承销安排。此前，埃隆·马斯克针对OpenAI的诉讼失利后，上市障碍消除，进程明显加速。OpenAI目前私募估值超过8500亿美元，若顺利推进，可能成为公开市场历史上规模最大的首发之一。此外，公司最早考虑在今年第四季度上市，内部治理和运作已开始向上市公司转型，准备工作持续进行。",
+      "reason": "虽然上市本身不直接关乎技术突破，但 OpenAI 冲击史上最大 IPO，对行业格局和人才流向的影响，可能比一次模型发布更深远。",
+      "score": 72,
+      "tags": [
+        "OpenAI",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "06:56",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpenjxhk0dyeslk1k8hsw4nc",
+      "title": "SpaceX与Anthropic合作提供大规模AI算力服务",
+      "link": "https://x.com/elonmusk/status/2057228707606196434",
+      "summary": "正如最近与@AnthropicAI扩大合作所展示的，@SpaceX正在大规模提供AI算力服务。\n\n我们正在与其他公司进行类似合作的讨论。\n\n随着时间的推移，特别是通过轨道数据中心，我们预计将以极高的规模提供AI服务。",
+      "reason": "Elon 亲口确认 SpaceX 为 Anthropic 提供 AI 算力，还暗示正在对接其他公司，轨道数据中心是下一个叙事——这可能是云基础设施格局的重大变量。",
+      "score": 80,
+      "tags": [
+        "Anthropic",
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "time": "06:47",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpenfnvr0dw7slk14rnyifac",
+      "title": "ZCube:超大规模大模型推理的网络优化",
+      "link": "https://www.zhipuai.cn/zh/research/160",
+      "summary": "针对超大规模大模型推理，ZCube网络架构通过取消Spine层、将Leaf交换机分组并全互联等创新设计，有效解决了推理网络的拥塞问题。该架构在集群实测中，实现了交换机与光模块资本支出减少33%、GPU平均推理吞吐提升15%，同时将首token延迟的P99值大幅降低40.6%，在降低成本的同时显著提升了推理性能。",
+      "reason": "千卡以上推理集群的团队该看一眼，智谱这个网络设计砍掉三分之一交换机成本，吞吐还涨15%，尾时延降四成，有实测数据不是白皮书。",
+      "score": 68,
+      "tags": [
+        "推理",
+        "论文/研究",
+        "部署/工程"
+      ],
+      "source": "智谱：研究（网页内嵌数据）",
+      "time": "06:44",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpemu8bs0dsrslk16jnygisn",
+      "title": "不可持续的补贴",
+      "link": "https://www.tomtunguz.com/ai-model-inflation",
+      "summary": "三大AI厂商定价策略出现显著分化：Google的AI价格年增两倍，但其旗舰模型Gemini 3.1 Pro（输入2美元、输出12美元）仍是市场最低价；OpenAI的GPT-5.5（5美元/30美元）经历短期补贴后再次涨价；Anthropic的Claude Opus 4.7（5美元/25美元）价格保持稳定，且对最强模型有所下调。这些变动标志着行业正从不惜成本的市场份额争夺，转向注重利润与现金流管理的商业理性，以应对持续高昂的资本支出压力。",
+      "reason": "Tunguz 把三家模型厂的定价画成曲线，涨价的真相一目了然——烧钱抢份额的阶段结束了，做 AI 产品的都该重新算算成本模型。",
+      "score": 67,
+      "tags": [
+        "Anthropic",
+        "Google",
+        "OpenAI",
+        "大佬观点"
+      ],
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "time": "06:27",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpernh3q009islbgmnyamfj0",
+      "title": "xAI去年亏损64亿美元——SpaceX的IPO文件揭示其支出远未停止的原因",
+      "link": "https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over",
+      "summary": "SpaceX的IPO文件首次披露了xAI在2025年的财务状况，显示该AI公司去年亏损高达64亿美元。文件同时揭示了xAI计划对Grok进行大规模扩张的战略，解释了马斯克旗下AI业务持续高额支出的原因。这份公开文件为外界提供了观察马斯克AI产业投资规模与财务表现的罕见窗口。",
+      "reason": "SpaceX IPO 文件首次曝光 xAI 财务，2025 年亏掉 64 亿美元，马斯克的 Grok 扩张计划根本停不下来，这才是 AI 钱景真实的样子。",
+      "score": 83,
+      "tags": [
+        "xAI",
+        "行业动态"
+      ],
+      "source": "TechCrunch：AI（RSS）",
+      "time": "06:26",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpekzpha0dc3slk1bphli6rh",
+      "title": "Google Stitch更新：AI设计助手实现全流程构建",
+      "link": "https://x.com/googleaidevs/status/2057209295763300785",
+      "summary": "Google推出了其AI设计伙伴Stitch的多项重要更新。新功能支持实时流式构建设计，允许用户在不中断流程的情况下直接进行编辑和互动反馈。Stitch现已能够导入现有代码库或Design.md文件，基于实际生产组件进行设计以保持品牌一致性。同时，工具新增了动态界面生成功能，并可将设计项目直接导出为可分享的线上URL，简化了从原型到生产的部署流程。该工具现已面向全球用户开放。",
+      "reason": "Stitch 这次更新把设计到生产流水线打通了，实时流加运动 UI 让原型更接近真产品，做移动端和 Web 的可以直接试试，比自己搭环境快太多。",
+      "score": 74,
+      "tags": [
+        "Agent",
+        "Google",
+        "产品更新",
+        "多模态"
+      ],
+      "source": "X：Google AI for Developers (@googleaidevs)",
+      "time": "05:35",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpekd9070d8islk1h15tb7oi",
+      "title": "OpenClaw 2026.5.19版本发布",
+      "link": "https://x.com/openclaw/status/2057202955581809093",
+      "summary": "OpenClaw 2026.5.19 🦞\n\n📱 Android Talk Mode 实现实时化\n🍎 Mac 设置界面更清爽\n🔐 xAI 登录支持无头模式\n🧵 Telegram 话题功能更稳定\n\n大版本更新，简短公告。\nhttps://github.com/openclaw/openclaw/releases/tag/v2026.5.19",
+      "reason": "一堆小修小补但都很实用，尤其 Android 实时对话模式，开源 AI 客户端里难得把体验做到这个程度，值得更新。",
+      "score": 66,
+      "tags": [
+        "产品更新",
+        "开源生态",
+        "语音"
+      ],
+      "source": "X：OpenClaw (@openclaw)",
+      "time": "05:18",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpejljy20d0uslk16n56adrz",
+      "title": "英伟达 2027 财年第一财季归母净利润 583.21 亿美元，同比增长 211%",
+      "link": "https://www.ithome.com/0/953/088.htm",
+      "summary": "英伟达2027财年第一季度业绩创新高，营业总收入达816.15亿美元，同比增长85%。净利润为583.21亿美元，同比激增211%。数据中心业务是核心增长引擎，营收达752亿美元，同比大增92%。公司毛利率提升至74.9%，并宣布了800亿美元股票回购及提高季度股息。展望第二季度，公司预计营收为910亿美元。",
+      "reason": "英伟达这份财报是AI军备竞赛的计分板，数据中心752亿营收说明所有公司的模型竞赛最终都汇成了黄老板的现金流。增长211%的净利润不是财务数字，是算力饥渴症的确诊单。",
+      "score": 72,
+      "tags": [
+        "数据/训练",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "04:56",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpeizml10cv0slk1ycma50h0",
+      "title": "Ramp工程师如何用Codex加速代码审查",
+      "link": "https://openai.com/index/ramp",
+      "summary": "Ramp工程师团队通过集成Codex与GPT-5.5模型，实现了代码审查流程的显著提速。该工具能够在数分钟内为代码变更提供实质性反馈与改进建议，将传统需耗时数小时的审查周期大幅压缩，从而加快了产品迭代与上线的效率。",
+      "reason": "Ramp 这个案例把 GPT-5.5 的代码审查能力展示得很具体，从几小时到几分钟的提升很有说服力，做 code review 自动化的可以直接参考他们的流程。",
+      "score": 65,
+      "tags": [
+        "OpenAI",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "04:39",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpeh7y5x0chnslk1zflfjrix",
+      "title": "V8.1新增反向提示功能",
+      "link": "https://x.com/midjourney/status/2057184157869199429",
+      "summary": "今日小幅更新。许多用户要求为V8模型恢复“反向提示”功能（旧版本已有），我们称之为--no标志。该功能现已在V8.1中上线！如果您想从图像中排除某些元素（例如人物），可以尝试使用--no people。玩得开心！",
+      "reason": "Midjourney 把老版本的反提示词带回到 V8.1 了，用 --no 就能剔除画面中不想要的东西，受够了多余路人甲的用户终于可以一键清场。",
+      "score": 69,
+      "tags": [
+        "产品更新",
+        "图像生成"
+      ],
+      "source": "X：Midjourney (@midjourney)",
+      "time": "03:50",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpeh0uf00ceislk1reo8ajbd",
+      "title": "GPT-5即将发布",
+      "link": "https://x.com/ChatGPTapp/status/2057178633249394819",
+      "summary": "GPT-5即将发布 🚢",
+      "reason": "OpenAI用“Gone shipping”这种推文通常宣告一个重要产品上线，除非是商城发货，否则大概率是个值得立刻去试试的新功能。",
+      "score": 83,
+      "tags": [
+        "OpenAI",
+        "产品更新"
+      ],
+      "source": "X：ChatGPT (@ChatGPTapp)",
+      "time": "03:44",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpegqt3n0cbsslk168f7p6g7",
+      "title": "Meta万人重组：裁员与AI转型并举",
+      "link": "https://x.com/rohanpaul_ai/status/2057177976492720363",
+      "summary": "Meta启动大规模裁员，计划削减约8000个岗位。与此同时，约7000名员工将被调配至新的AI相关职位。此次调整并非单纯的削减成本，更是公司围绕AI进行内部结构重塑的关键举措，重点将资源集中于AI基础设施、基础模型的构建以及AI技术的商业化，旨在打造从模型训练、产品开发到实现盈利的完整链条。",
+      "reason": "Meta一边裁8000人一边转7000人做AI，说明AI已经不是探索项目，而是核心业务，缩减成本同时把人力投向模型、基建和变现，所有大厂都在用这种方式为AI让路。",
+      "score": 75,
+      "tags": [
+        "Meta",
+        "行业动态"
+      ],
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "time": "03:36",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpefwk7h0c4bslk1nhzkfwqz",
+      "title": "MiniMax语音模型新增600余种声音",
+      "link": "https://x.com/MiniMax_AI/status/2057177048356180296",
+      "summary": "600多种由MiniMax Speech 2.8 Turbo驱动的新声音现已登陆Together AI @togethercompute 🎙️✨\n\n立即体验：https://voicefinder.together.ai/minimax--speech-2.8-turbo",
+      "reason": "MiniMax 语音 2.8 Turbo 在 Together AI 一次性落地 600+ 种声音，做实时语音代理的可以直接在熟悉的基础设施里选型，试用成本极低，值得抽一分钟听听看。",
+      "score": 67,
+      "tags": [
+        "产品更新",
+        "语音",
+        "部署/工程"
+      ],
+      "source": "X：MiniMax (@MiniMax_AI)",
+      "time": "03:13",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpefpfrr0c2pslk1vqgx7vfz",
+      "title": "OpenAI模型证伪了离散几何中的一个核心猜想",
+      "link": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+      "summary": "OpenAI开发的人工智能模型成功解决了数学界悬而未决逾80年的“单元距离问题”，并由此推翻了离散几何领域的一个核心猜想。这一突破被视作人工智能驱动数学研究的里程碑事件，标志着AI在基础科学理论探索中取得了实质性进展。该模型通过创新算法处理复杂的几何问题，展示了机器在自动化发现与验证数学猜想方面的巨大潜力。",
+      "reason": "OpenAI模型独自推翻了一个80年未解的离散几何猜想，这种级别的数学突破以前只属于人类顶级大脑，现在AI也做到了，做理论研究的可以看看它怎么做的。",
+      "score": 79,
+      "tags": [
+        "OpenAI",
+        "推理",
+        "论文/研究"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "03:07",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpeejfgx0bt3slk14fyeulgg",
+      "title": "Gemini与XPRIZE联合举办全球黑客松",
+      "link": "https://x.com/googleaidevs/status/2057166550243872920",
+      "summary": "用Gemini构建，改变世界🌍\n\n我们正与@xprize合作，发起一场全球黑客松，旨在利用我们全新的智能体工具解决现实世界的挑战。\n\n点击加入：https://www.geminixprize.com/",
+      "reason": "Google 拉着 XPrize 搞全球黑客松，重点是用他们的新 agentic 工具解决真问题，对有想法的开发者来说，是个正经的曝光和拿钱入口。",
+      "score": 71,
+      "tags": [
+        "Agent",
+        "Google",
+        "行业动态"
+      ],
+      "source": "X：Google AI for Developers (@googleaidevs)",
+      "time": "02:35",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpecsrym0bf5slk1l0wn31kj",
+      "title": "上下文压缩技术提升搜索效率与准确性",
+      "link": "https://x.com/perplexity_ai/status/2057151002105753950",
+      "summary": "我们已将查询感知压缩技术投入生产，以实现更快、更清晰、更准确的搜索。\n更好的上下文优于更多的上下文。  \n我们的系统可将上下文令牌最多削减70%，同时提升回答质量。",
+      "reason": "Perplexity把上下文压缩做到了query感知级别，70% token削减还能质量上升，这是搜索架构层升级，日常用户不一定感知技术细节，但更快的结果就是最好的证明。",
+      "score": 62,
+      "tags": [
+        "产品更新",
+        "搜索"
+      ],
+      "source": "X：Perplexity (@perplexity_ai)",
+      "time": "01:46",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpebdc1s0b28slk1ol5l7sub",
+      "title": "ChatGPT移动端支持Codex，实现跨设备协作",
+      "link": "https://x.com/OpenAIDevs/status/2057142816497906045",
+      "summary": "你的笔记本电脑可以留在家里。\n通过ChatGPT移动应用使用Codex，随时随地回答问题，之后还能在电脑上继续同一对话。",
+      "reason": "移动端能用 Codex 了，多设备无缝接续同一个会话，对随时要改代码的开发者来说是个实用更新，但普通用户可能感知不强。",
+      "score": 71,
+      "tags": [
+        "OpenAI",
+        "产品更新",
+        "编码"
+      ],
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "time": "01:06",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpeaqdsu0ayqslk165azsfyn",
+      "title": "Anthropic销售负责人如何利用Claude Cowork管理4000个客户账户",
+      "link": "https://claude.com/blog/how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4-000-account-book",
+      "summary": "Anthropic美国中端市场业务负责人Travis Bryant利用Claude Cowork自动化销售管理工作。该工具帮助他高效完成客户倾向性评分、每日客户简报准备及每周销售预测报告生成，每晚自动处理4000个账户数据，替代了以往跨部门团队需数百小时完成的工作。通过自动化日常任务调度，他每天节省约90分钟，并将数据整合为可交互的销售仪表板，使其能更专注于客户沟通与战略决策。",
+      "reason": "Travis 把 4000 个账户的评分一夜跑通，比自动报表更值得关注，中小销售团队照抄就能省掉跨部门数百小时，这是 Claude Cowork 在企业场景最落地的实践之一。",
+      "score": 59,
+      "tags": [
+        "Anthropic",
+        "教程/实践",
+        "部署/工程"
+      ],
+      "source": "Claude：Blog（网页）",
+      "time": "00:48",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpea57r90arpslk1o2xw1hnw",
+      "title": "谷歌的人工智能正遭到操纵。这家搜索巨头正在悄然反击",
+      "link": "https://www.bbc.com/future/article/20260519-google-tackles-attempts-to-hack-its-ai-results",
+      "summary": "谷歌的AI系统正面临被操纵的风险。为应对这一挑战，这家科技巨头已悄然启动防御措施，以保护其AI生成内容的结果免受恶意干扰。此举旨在确保搜索和AI服务的可靠性与可信度，反映了当前人工智能安全领域日益增长的对抗性问题。谷歌在未公开宣传的情况下，正在通过技术手段加强对其AI系统的防护。",
+      "reason": "AI搜索结果被恶意操纵的问题终于被主流媒体深度报道，谷歌的暗中反制措施比想象中更复杂，做搜索和SEO的值得细看。",
+      "score": 74,
+      "tags": [
+        "Google",
+        "安全/对齐",
+        "行业动态"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "00:32",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpe9h2il0amgslk1ywo4qg27",
+      "title": "OpenRouter自动路由缓存机制说明",
+      "link": "https://x.com/OpenRouter/status/2057128446300737702",
+      "summary": "提示💡 你无需担心自动路由（以及所有单独模型）的缓存未命中问题\nOpenRouter会将你的会话固定在一个模型/提供商上，直到缓存过期",
+      "reason": "OpenRouter 这个 Auto Router 的缓存说明很实用，会话会被固定在一个提供者直到缓存过期，不用担心切换带来的不一致，API 开发者看一眼能省事。",
+      "score": 70,
+      "tags": [
+        "教程/实践",
+        "部署/工程"
+      ],
+      "source": "X：OpenRouter (@OpenRouter)",
+      "time": "00:13",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpe92q800ai8slk1sagci02l",
+      "title": "开源插件为Codex App增添高级功能",
+      "link": "https://x.com/vista8/status/2057124658927812758",
+      "summary": "一个开源项目允许用户增强Codex App的功能。即使通过API登录，也能通过安装插件的方式启用Computer Use特性并添加Goal指令。项目还支持界面自定义，例如调整为类似Chrome浏览器的顶部Tab样式，并可设置任务开始和完成的提醒音效。相关开源项目地址已在评论区提供。",
+      "reason": "这不只是个插件，它把 Codex 从只能聊天变成了能动手的 Agent，用 API 登录也能开 Computer Use，是给开发者装上了超能力的实用补丁。",
+      "score": 75,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "OpenAI",
+        "开源/仓库"
+      ],
+      "source": "X：Vista (@vista8)",
+      "time": "00:02",
+      "date": "5月21日"
+    },
+    {
+      "id": "cmpe8vto10ah2slk1zwrd61c2",
+      "title": "Stability AI 推出音频模型 Stability Audio 3.0，可生成最长 6 分钟专业级歌曲",
+      "link": "https://www.ithome.com/0/953/086.htm",
+      "summary": "Stability AI 推出 Stability Audio 3.0 音频生成模型家族，包含四款不同规格模型，参数从45900万到27亿。小型模型专注设备端运行，可本地生成两分钟以内的音频；中型和大型模型支持创作超过6分20秒的完整音乐，",
+      "reason": "Stability Audio 3.0 把AI音乐从几十秒的demo拉到了六分钟的完整歌曲，而且中小模型直接开源，任何一个能跑模型的设备都能玩，音乐创作的门槛继续被踩低。",
+      "score": 71,
+      "tags": [
+        "多模态",
+        "开源/仓库",
+        "模型发布"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "23:56",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpe6yylc0a04slk1ip15yb89",
+      "title": "AI视频一致性始于动作之前",
+      "link": "https://x.com/PixVerse_/status/2057114262145818752",
+      "summary": "AI视频的一致性始于动作之前。\n对于这个15秒的烹饪短片，我们首先在PixVerse中生成了一个清晰的角色分镜。\n然后将其用作视频的参考。\n相同的角色。清晰的故事节点。\n镜头指导。动作细节。\n转发 + 关注 + 回复 = 分镜工作流",
+      "reason": "PixVerse 这个 storyboard 功能给了视频创作者一个保持角色一致性的新招，虽然不颠覆，但省时间是真的。",
+      "score": 64,
+      "tags": [
+        "产品更新",
+        "图像生成",
+        "视频"
+      ],
+      "source": "X：PixVerse (@PixVerse_)",
+      "time": "23:03",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpe2ulhk091fslk1debhyygu",
+      "title": "优化_anything：通用文本参数优化API",
+      "link": "https://arxiv.org/abs/2605.19633",
+      "summary": "该研究提出了一种基于大语言模型的通用文本优化系统，将优化问题统一表述为通过评分函数改进文本产物。在六项任务中达到最优结果：智能体架构使Gemini Flash在ARC-AGI上的准确率从32.5%提升至89.5%；调度算法降低40%云成本；87%的CUDA内核匹配或超越PyTorch表现；圆包装问题超越AlphaEvolve。实验表明，可操作的附加信息比仅使用分数反馈收敛更快、得分更高；多任务搜索通过跨任务迁移学习，在同等预算下优于独立优化，且任务数量越多收益越大。该工作首次证明基于LLM的文本优化是通用问题解决范式，能统一传统领域特定算法。系统已开源，支持多种后端。",
+      "reason": "让一个LLM同时优化agent架构、调度算法和CUDA内核，还能将ARC-AGI从32%拉到89%，这可能是今年最突破认知的通用问题求解范式，做agent的人必须看。",
+      "score": 71,
+      "tags": [
+        "Agent",
+        "arXiv",
+        "GitHub",
+        "搜索",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "21:08",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpdy5tth07ytslk1ca1x16rs",
+      "title": "投资超 600 亿美元，孙正义豪赌 OpenAI 引发内部质疑“迷信奥尔特曼如追星”",
+      "link": "https://www.ithome.com/0/953/021.htm",
+      "summary": "软银对OpenAI的投资承诺已超600亿美元，引发内部对孙正义过度信任其创始人奥尔特曼的担忧。部分高管质疑将巨额资本集中于单一公司存在风险，且软银虽持股超10%却无董事会席位，缺乏决策影响力。同时，Anthropic等竞争对手的崛起加剧了对OpenAI领先地位的挑战。尽管软银表示对OpenAI抱有“高度信心”，并已从中获得账面收益，但其股价下跌及信用展望被下调反映出市场对其豪赌的顾虑。",
+      "reason": "孙正义对奥特曼的信任已经到内部人觉得像追星，砸下 600 亿却连个董事会席位都没拿到，WeWork 的教训仿佛没发生过，彭博这篇深访是理解 AI 泡沫风险的一扇窗。",
+      "score": 76,
+      "tags": [
+        "OpenAI",
+        "现象/趋势",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "18:56",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpdxscye07wxslk1wdfmza4f",
+      "title": "SenseNova U1：同时思考文本与图像的AI",
+      "link": "https://x.com/SenseTime_AI/status/2057049434782097851",
+      "summary": "将你的想法转化为激发故事的视觉画面 🧨\n\n[引用 @Adamaestr0_]：大多数AI工具可以写作或生成图像。\n\n但这个能同时做这两件事。\n\n向你介绍 SenseNova U1。\n一个能同时思考文本和图像的AI。\n\n这改变了一切 🧵",
+      "reason": "商汤发了 SenseNova U1，主打文本和图像同时生成的「全模态」，但宣传语太简略，没给任何性能数据或技术细节，暂时看不出是真突破还是常规迭代，先标记关注。",
+      "score": 68,
+      "tags": [
+        "多模态",
+        "模型发布"
+      ],
+      "source": "X：商汤 SenseTime (@SenseTime_AI)",
+      "time": "18:46",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpdxbe1707raslk17npzg9r5",
+      "title": "MSE AI调度器：让Agent自主工作",
+      "link": "https://x.com/alibaba_cloud/status/2057042351978082719",
+      "summary": "将Agent转变为自主工作者！🚀\n❌ 开源痛点：可用性低、运维成本高、可观测性差。\n✅ MSE AI调度器通过以下方式解决：\n• 高可用分布式调度\n• 统一管理与细粒度权限\n• 弹性伸缩以降低成本\n• 全链路可观测性\n支持OpenClaw、Dify等。免费公测现已开放！\n🔗 https://int.alibabacloud.com/m/1000413115/\n#AI #Agent #MSE",
+      "reason": "阿里云这个调度器直击开源 Agent 部署的三大痛点，免费公测对在用 Dify 或 OpenClaw 的团队是个低成本试水方案，虽然不算突破性创新但实用性够强。",
+      "score": 65,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "time": "18:33",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpdxbe1707r9slk16ubu3l4a",
+      "title": "Qwen 2026大会：AI原生云架构蓝图发布",
+      "link": "https://x.com/alibaba_cloud/status/2057046828692934749",
+      "summary": "Qwen Conference 2026：主题演讲议程\n\nAI原生云、Agent原生云架构、推理的未来，以及多模态视觉技术发布。没有冗余内容，只有面向全球规模的工程蓝图。  \n\n注册：https://click.qwencloud.com/m/20000000190/",
+      "reason": "阿里云把 Qwen 大会的关键词押在推理和多模态视觉上，声称全是工程蓝图没有废话，对关注 Qwen 生态的技术人来说，可能是今年最重要的日程预告。",
+      "score": 60,
+      "tags": [
+        "推理",
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "time": "18:33",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpdtcko406t1slk1td8z5qvl",
+      "title": "Gemini 3.5 Flash登陆OpenCode平台",
+      "link": "https://x.com/opencode/status/2057017380941795667",
+      "summary": "Gemini 3.5 Flash现已在OpenCode上线\n\n- 速度极快\n- 100万上下文\n- 定价与GLM、Kimi和DeepSeek Pro相近",
+      "reason": "OpenCode把Gemini 3.5 Flash加了进来，1M上下文、媲美国产模型的价格，如果你本来就用OpenCode写代码，现在多了一个性价比很高的快模型可以切着用。",
+      "score": 66,
+      "tags": [
+        "Google",
+        "产品更新",
+        "编码"
+      ],
+      "source": "X：opencode (@opencode)",
+      "time": "16:41",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpdrygmm06h6slk1p9i7u76y",
+      "title": "Prompt驱动AI生成超真实足球自拍视频",
+      "link": "https://x.com/PixVerse_/status/2057003487716876505",
+      "summary": "这条推文展示了一个用于在PixVerse平台生成视频的复杂提示词。核心目标是制作一段在大型体育场内，五位朋友进行超真实智能手机自拍风格的视频。提示词的关键在于，它通过极其详细的设定来确保生成内容的连贯性和真实感：包括对五个角色外貌的严格一致性要求、具体的球场环境、模拟真实手机拍摄的镜头运动（如抖动、失焦）以及一系列自然的动作序列。",
+      "reason": "PixVerse官方翻牌的这个足球自拍视频prompt，把角色一致性和手持摄像的真实感写到了极致，做AI视频的朋友可以直接抄作业。",
+      "score": 62,
+      "tags": [
+        "教程/实践",
+        "视频"
+      ],
+      "source": "X：PixVerse (@PixVerse_)",
+      "time": "16:03",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpdrp1y406erslk17f3hcrfi",
+      "title": "欧盟委员会发布《欧盟人工智能法》高风险AI系统分类指导草案并开启公众咨询",
+      "link": "https://www.dataguidance.com/news/eu-commission-publishes-draft-guidelines-classifying",
+      "summary": "欧盟委员会于2026年5月19日发布了关于《欧盟人工智能法》第六条项下高风险AI系统分类的指导草案。该草案旨在为AI系统的提供商、部署者及市场监管机构提供明确的分类标准，以确保在欧盟范围内执法的一致性。分类主要依据AI系统的预期用途，例如作为受监管产品的组件或用于特定高风险场景。草案也规定了部分豁免条件，例如仅执行辅助性任务时可能不被视为高风险。公众咨询期至206月23日。",
+      "reason": "欧盟AI法案开始动真格了，高风险分类指南草案直接决定哪些AI产品要套上重合规枷锁，做AI出海和2B的现在就该去读反馈问卷。",
+      "score": 77,
+      "tags": [
+        "安全/对齐",
+        "政策/监管"
+      ],
+      "source": "DataGuidance：Artificial Intelligence（网页）",
+      "time": "15:55",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpdoor1405odslk1agikxaqm",
+      "title": "开源油猴脚本实现多平台截图上传与内容处理",
+      "link": "https://x.com/vista8/status/2056982823169568779",
+      "summary": "开源油猴脚本实现小红书、抖音、微信公众号的截图粘贴自动上传，并支持YouTube字幕复制、倍速调节及内容导出至NotebookLM、ChatGPT等工具。主推文作者表示，该工具增强了将X平台内容同步至国内平台的意愿，尽管部分平台体验欠佳。",
+      "reason": "向阳乔木开源了一套油猴脚本，让截图直接粘贴上传到小红书、抖音等平台，对多平台内容分发的人来说是一个小而实在的时间节省利器。",
+      "score": 76,
+      "tags": [
+        "GitHub",
+        "开源/仓库",
+        "开源生态"
+      ],
+      "source": "X：Vista (@vista8)",
+      "time": "14:31",
+      "date": "5月20日"
+    }
+  ]
+}

@@ -1,0 +1,657 @@
+{
+  "date": "2026-07-09",
+  "scraped_at": "2026-07-09T05:00:09.723430+00:00",
+  "total_items": 40,
+  "items": [
+    {
+      "id": "cmrcsrok60407ihx5jvrp15a1",
+      "title": "Robbyant 发布 LingBot-VLA 2.0：开源 6B 跨实体机器人视觉-语言-动作模型",
+      "link": "https://www.marktechpost.com/2026/07/08/lingbot-vla-2-0",
+      "summary": "Robbyant 推出 LingBot-VLA 2.0，一个 6B 参数的开源视觉-语言-动作（VLA）基础模型。它以 Qwen3-VL-4B-Instruct 为骨干，采用 MoE 动作专家架构，通过 55 维规范向量统一表示不同机器人的状态和动作。训练数据涵盖约 60,000 小时高质量数据（50,000 小时机器人轨迹 + 10,000 小时第一人称人类视频），覆盖 20 种机器人配置。在 GM-100 双机械臂基准测试中，模型在多个平台上超越 π0.5 和之前版本。模型权重、代码和技术报告已以 Apache-2.0 许可开源。",
+      "reason": "蚂蚁Robbyant放出的开源VLA 2.0把通用机器人策略往前推了一步，60,000小时跨具身数据、统一动作空间和MoE设计对做机器人的团队是实打实的参考，不是又一个lab-only的demo。",
+      "score": 70,
+      "tags": [
+        "具身智能",
+        "开源生态",
+        "模型发布"
+      ],
+      "source": "MarkTechPost（RSS）",
+      "time": "08:57",
+      "date": "7月9日"
+    },
+    {
+      "id": "cmrcpxyar03a0ihx5hcxdrz78",
+      "title": "AI预检检查：智能体工作记忆架构",
+      "link": "https://www.tomtunguz.com/the-ai-preflight-check",
+      "summary": "一种为AI智能体设计的预检工作记忆架构：查询到来时，系统从磁盘上约90个索引化的技能库中检索最相关技能，仅加载到上下文窗口。本地开源模型Ornith 35B（350亿参数，通过Ollama在Apple Silicon上运行）执行任务，约80%常规任务由本地模型完成，困难任务路由至前沿模型。看门狗记录每次预检决策和技能调用，夜间通过异步推理处理全天轨迹，自动决定哪些技能需新增或固化（如日历排期转为确定性Rust代码），实现自我改进循环。昨天，看门狗首次未提出任何改进建议，系统或接近性能平台期。",
+      "reason": "Tunguz 把代理的记忆问题拆成预检+看门狗，不是大模型调参，而是软件架构层的优化，做 agent 的开发者可以直接偷师。",
+      "score": 57,
+      "tags": [
+        "Agent",
+        "大佬观点",
+        "部署/工程"
+      ],
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "time": "07:38",
+      "date": "7月9日"
+    },
+    {
+      "id": "cmrcpjgf00373ihx5mtyo2fsy",
+      "title": "面向AI模型双重用途知识的“开关”：Anthropic与AE Studio提出GRAM方法",
+      "link": "https://www.anthropic.com/research/off-switch-dual-use",
+      "summary": "Anthropic与AE Studio联合提出梯度路由辅助模块（GRAM）方法，通过在Transformer每层添加可移除的神经元模块，使模型在训练时将病毒学、网络安全、核物理、专业编程语言等双重用途知识仅路由到对应模块，而非扩散至全局。训练后删除模块即可消除该能力，保留则供可信部署使用。实验在合成数据、真实数据及50M到5B参数模型上测试，GRAM效果与数据过滤相当，移除模块不降低通用性能，且比事后“遗忘”技术更难恢复。该研究为平衡双重用途知识的安全访问与有益使用提供了更鲁棒的方案。",
+      "reason": "这是Anthropic在模型安全对齐上的一个新尝试，提出可拆卸模块来精细控制有毒知识，同时保留一般性能。方法还未上Claude，但实验结果表明这条路可能比简单的拒绝训练更鲁棒。",
+      "score": 68,
+      "tags": [
+        "Anthropic",
+        "安全/对齐",
+        "数据/训练"
+      ],
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "time": "07:27",
+      "date": "7月9日"
+    },
+    {
+      "id": "cmrcp5by2031uihx57fypdkfo",
+      "title": "利润超10亿美元、ARR剑指千亿，Anthropic抢先OpenAI冲击IPO",
+      "link": "https://www.ithome.com/0/974/275.htm",
+      "summary": "Anthropic今年第三季度利润预计超10亿美元，已于6月1日秘密提交IPO申请，若成功将成为规模最大AI实验室IPO。其与OpenAI的年度经常性收入合计接近1000亿美元。凭借Claude Code在软件开发领域的快速普及，Anthropic在2026年实现AI模型盈利变现，成为B2B市场领跑者。SemiAnalysis报告认为其商业模式优越，若持续良好执行，市值可能触及6万亿美元。",
+      "reason": "Anthropic抢先提交IPO，利润超10亿美元，在OpenAI推迟上市的档口，这一步会让整个AI赛道的资本竞赛明显提速，投资人该坐不住了。",
+      "score": 73,
+      "tags": [
+        "Anthropic",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "07:16",
+      "date": "7月9日"
+    },
+    {
+      "id": "cmrcn8mlw02k5ihx5risshcr3",
+      "title": "Seedream 5.0 Pro 登陆 Runway，支持14种语言",
+      "link": "https://x.com/runwayml/status/2074982268175630814",
+      "summary": "Seedream 5.0 Pro 现已登陆 Runway。可通过提示词或参考图生成高细节图像，图像内文字清晰可读，支持多达14种语言。立即点击下方链接尝试。",
+      "reason": "Seedream 5.0 Pro 的集成让 Runway 的图像生成多了一个强力选择，14 种语言的可读文字生成是实用亮点，做多语言海报的设计师可以试试。",
+      "score": 69,
+      "tags": [
+        "产品更新",
+        "图像生成",
+        "多模态"
+      ],
+      "source": "X：Runway (@runwayml)",
+      "time": "06:22",
+      "date": "7月9日"
+    },
+    {
+      "id": "cmrcjj0xz01mqihx5zwai9t6j",
+      "title": "OpenAI发布政府与国家安全合作伙伴关系方针",
+      "link": "https://openai.com/index/government-national-security-partnerships",
+      "summary": "OpenAI近日公布国家安全原则，阐明在政府及国家安全领域部署前沿AI系统的方针。原则强调在保护公民、防御关键基础设施、提供公共服务及应对新兴威胁（网络防御和生物安全）中发挥AI优势，同时确保民主问责、人类判断和法治。过去一个月，OpenAI通过Daybreak网络防御计划与澳大利亚、加拿大、日本、韩国、法国、德国、波兰、荷兰及欧盟ENISA等机构建立网络安全信任访问合作，并与英国政府开展网络安全测试评估。上月，OpenAI向部分美国政府及盟友合作伙伴开放GPT‑Rosalind模型用于公共卫生和生物防御。原则适用于现有及未来合作，包括与Department of War的协议，明确禁止大规模国内监控、自主武器系统及高风险自动化决策。OpenAI支持立法对高风险军事用途（如国内监控、自主武器）建立保障措施。",
+      "reason": "OpenAI 首次公开发布国家安全合作原则，同时宣布与多国建立网络和生物防御伙伴关系。我觉得这是头部 AI 公司在军事合作上的一次主动透明化尝试，值得看看他们如何设限。",
+      "score": 58,
+      "tags": [
+        "OpenAI",
+        "安全/对齐",
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "04:38",
+      "date": "7月9日"
+    },
+    {
+      "id": "cmrcit2bg01f9ihx5cps026s8",
+      "title": "诉讼：男子使用Grok制作7000张继女色情图像后自杀",
+      "link": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt",
+      "summary": "一男子使用Grok生成7000张继女儿童性虐待材料（CSAM）后自杀。更多年轻女孩起诉X平台，指控其涉及Grok生成CSAM，并包庇儿童性犯罪者。",
+      "reason": "这起诉讼把 Grok 的内容审核问题直接推到了刑事犯罪层面，普通人看到的是猎奇，从业者该读的是'生成式 AI 的滥用边界到底怎么管'，这个判例可能影响未来所有模型的安全设计。",
+      "score": 72,
+      "tags": [
+        "xAI",
+        "安全/对齐",
+        "行业动态"
+      ],
+      "source": "Ars Technica：AI（RSS）",
+      "time": "04:18",
+      "date": "7月9日"
+    },
+    {
+      "id": "cmrcigf5k01bqihx54i8oph9u",
+      "title": "OpenAI 审计 SWE-Bench Pro 发现约 30% 的评测任务存在缺陷",
+      "link": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "summary": "OpenAI 对编码评测基准 SWE-Bench Pro 进行详细审计，发现约 30% 的任务存在缺陷。在 731 个任务的公开子集中，前沿模型通过率在八个月内从 23.3% 提升至 80.3%，但数据质量检查显示大量任务存在测试过于严格、提示词描述不足、测试覆盖不全或误导性提示等问题。OpenAI 建议模型开发者仔细审视评测结果，并指出 AI 智能体在规模化数据质量检查中日益增长的实用性。",
+      "reason": "OpenAI 自己审计了 SWE-Bench Pro，发现三成任务有缺陷，这个基准给出来的分数可能要打问号，做模型评测和选型的人该认真看看。",
+      "score": 70,
+      "tags": [
+        "OpenAI",
+        "编码",
+        "论文/研究",
+        "评测/基准"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "04:08",
+      "date": "7月9日"
+    },
+    {
+      "id": "cmrcdtas00074ihx5zzerv512",
+      "title": "推出 Grok 4.5",
+      "link": "https://cursor.com/blog/grok-4-5",
+      "summary": "Cursor 与 SpaceXAI 联合训练了混合专家模型 Grok 4.5，在数万亿 tokens 的 Cursor 用户交互数据上训练，并通过强化学习解决软件工程、数据科学、金融、法律等领域的困难问题。基础版定价 $2/M 输入 tokens、$6/M 输出 tokens，快速版 $4/M 输入 tokens、$18/M 输出 tokens。即日起在 Cursor 桌面、网页、iOS、CLI 及 SDK 中可用，个人和团队计划首周使用量翻倍。Grok 4.5 与 Composer 2.5 为不同权重类别，两者将继续支持。",
+      "reason": "Cursor 联合 SpaceXAI 发布 Grok 4.5，这是他们第一款跳出代码场景的通用模型，对于 Cursor 用户意味着日常大部分文字工作都能直接在编辑器里完成，第一周还双倍用量，值得试一下。",
+      "score": 80,
+      "tags": [
+        "推理",
+        "模型发布",
+        "编码"
+      ],
+      "source": "Cursor Blog",
+      "time": "01:58",
+      "date": "7月9日"
+    },
+    {
+      "id": "cmrcc072t01eqihqcf5kht18y",
+      "title": "OpenAI 发布 GPT‑Live 新一代全双工语音模型",
+      "link": "https://openai.com/index/introducing-gpt-live",
+      "summary": "OpenAI 今日推出 GPT‑Live，基于全双工架构实现同时听与说，支持自然打断与实时回馈。该模型每秒多次判断是否说话、倾听、打断或调用工具，并将搜索、推理等复杂任务委托给后台 GPT‑5.5，保持对话流畅。即日起向全球 ChatGPT 用户提供 GPT‑Live‑1 和 GPT‑Live‑1 mini 两个版本。人类评估显示，在 5‑10 分钟对话中，GPT‑Live‑1 系列在自然度、轮流、打断等方面显著优于 Advanced Voice Mode；在 GPQA、BrowseComp 和 τ³‑Voice Telecom 基准测试中也表现更强。未来将开放 API。",
+      "reason": "GPT‑Live 不是简单的语音版本升级，全双工架构让 AI 终于能同时听和说，加上后台调用 GPT‑5.5，对话体验跨了一大步，做语音应用的产品人该重新思考交互流程了。",
+      "score": 77,
+      "tags": [
+        "OpenAI",
+        "推理",
+        "模型发布",
+        "语音"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "time": "01:08",
+      "date": "7月9日"
+    },
+    {
+      "id": "cmrcabmvj00ymihqce96ilbfi",
+      "title": "原生速度的 vLLM transformers 建模后端",
+      "link": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+      "summary": "Hugging Face 宣布 transformers vLLM 后端现与手写原生 vLLM 实现速度相当甚至更快。模型作者无需移植代码，即可自动利用 transformers 获得超快推理。测试使用 Qwen3-4B（单 GPU）、Qwen3-32B（张量并行）和 Qwen3-235B-A22B-FP8 MoE（数据+专家并行）三种配置，吞吐量均达到或超过原生。该后端通过 torch.fx 静态分析图、AST 重写代码实现动态层融合，支持张量/管道/专家并行及 torch.compile。用户仅需添加 `--model-impl transformers` 标志。目前不支持线性注意力模型但即将支持。",
+      "reason": "用 transformers 写的模型，现在不用改一行代码就能在 vLLM 里跑到手写实现的水平，模型作者最大的集成痛被抹平了。虽然主要是工程黑魔法，但生态意义不小。",
+      "score": 66,
+      "tags": [
+        "Hugging Face",
+        "产品更新",
+        "推理",
+        "部署/工程"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "00:21",
+      "date": "7月9日"
+    },
+    {
+      "id": "cmrc8cfhc00jeihqc0r5wx6qz",
+      "title": "Replit 推出社区档案与力量排名",
+      "link": "https://x.com/Replit/status/2074871322220339515",
+      "summary": "本周新功能 🚀 Replit 社区档案——vibe coders 的工作证明。\n\n你的档案，你的展示。获取你的智能体使用和检查点的活跃度图表，外加面向专业用户的 Replit 力量排名。\n\n登录，认领你的档案，挑选你最棒的项目，与朋友分享你的数据。\n\n立即查看 → http://replit.com/community",
+      "reason": "Replit 给 vibe coders 加上了个人主页和工作证明，用活动图和排名展示 agent 使用，让 AI 编程社区有了社交层，但实质还是功能小更新，对非重度用户意义有限。",
+      "score": 68,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "编码"
+      ],
+      "source": "X：Replit (@Replit)",
+      "time": "23:25",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrc8c7rq00imihqcg5rp1u13",
+      "title": "OpenRouter聊天室推出一键零数据保留",
+      "link": "https://x.com/OpenRouter/status/2074870468394250461",
+      "summary": "新功能：聊天室一键ZDR（零数据保留）\n在完全隐私保护下横向对比模型：https://openrouter.ai/chat",
+      "reason": "OpenRouter 聊天室新加了一键 ZDR，对比模型时请求数据不存储，注重隐私的开发者会开心，但毕竟只是个开关，算不上大新闻。",
+      "score": 65,
+      "tags": [
+        "产品更新"
+      ],
+      "source": "X：OpenRouter (@OpenRouter)",
+      "time": "23:25",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrc6hfeq002nih5mhc7h2btk",
+      "title": "Robostral Navigate：Mistral AI 首个具身导航模型",
+      "link": "https://mistral.ai/news/robostral-navigate",
+      "summary": "Robostral Navigate 是 Mistral AI 首个具身导航模型（8B 参数），仅用单 RGB 摄像头，在 R2R-CE 验证集上取得 76.6%（unseen）和 79.4%（seen）的成功率，超越最佳单摄像头方法 9.7 个百分点，超越使用深度或多摄像头的系统 4.5 个百分点。模型通过 pointing 预测目标坐标并结合强化学习持续改进，全部在模拟中训练（约 40 万轨迹、6000 场景），采用 prefix-caching 实现高效训练。通用适配轮式、腿式和飞行机器人，能适应真实环境中未训练的障碍。",
+      "reason": "Mistral 首个具身导航模型，只用单 RGB 摄像头就在未见环境中跑赢深度传感器方案，对机器人行业是个真信号，做物流和制造的可以仔细看看。",
+      "score": 70,
+      "tags": [
+        "具身智能",
+        "多模态",
+        "模型发布"
+      ],
+      "source": "Mistral AI：News（网页）",
+      "time": "22:33",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrc3xicn01grihyf9z6t1b4b",
+      "title": "Seedream 5.0 Pro 发布：不止“生成”，更懂“设计”",
+      "link": "https://seed.bytedance.com/zh/blog/%E4%B8%8D%E6%AD%A2-%E7%94%9F%E6%88%90-%E6%9B%B4%E6%87%82-%E8%AE%BE%E8%AE%A1-seedream-5-0-pro-%E5%8F%91%E5%B8%83",
+      "summary": "字节 Seed 今日发布多模态图像创作模型 Seedream 5.0 Pro，在图文匹配、结构合理性、文字渲染与画面美感上全面升级。四大核心突破：复杂信息可视化，可生成高密度信息图；交互式精准编辑，支持点选、圈选、草图渲染、色彩与材质替换、图层分离及多图融合，实现像素级编辑；真实的影像与人像质感，还原光影、材质与皮肤肌理；原生多语种输入与生成，支持十余种语言及本地化视觉特征。已陆续在豆包、即梦、火山方舟等平台上线。",
+      "reason": "字节这次发布的 Seedream 5.0 Pro 把图像生成从「画得好看」推进到「能输出信息图、能精准编辑」的实用设计工具，尤其复杂信息图和交互编辑是当前竞品明显短板，做设计的值得立刻试试。",
+      "score": 78,
+      "tags": [
+        "图像生成",
+        "多模态",
+        "模型发布"
+      ],
+      "source": "字节 Seed：Research Feed（网页内嵌数据）",
+      "time": "21:22",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrc1iygj00twihyfe1hkvycv",
+      "title": "在校研究生Kunkun开源管理相互调用Skill的方法",
+      "link": "https://x.com/berryxia/status/2074827915779580055",
+      "summary": "在校研究生Kunkun开源了一套管理大量互相调用Skill的方法。核心方案包括：1）搭建HTML后台，按运行模式（手动/自动）、链路位置、专业领域三类标签筛选Skill；2）将连环调用的Skill绘制成Mermaid流程图，根据debug、新功能、合PR、改设计等阶段定位对应技能组；3）仿照Matt的ask Matt技能开发“ask me”技能，将调用决策浓缩成上下文喂给模型。该方法避免将所有调用交给模型自行判断，保持工程复杂场景下的人机对齐与可控性。项目已开源至GitHub。",
+      "reason": "这套方法把 Skill 管理的索引、流程和决策浓缩打包，是当前最落地的实践之一，尤其适合被 agent 调用链搞晕的开发者。一个在校生能做出这样清晰的开源方案，值得直接拿去用。",
+      "score": 76,
+      "tags": [
+        "Agent",
+        "GitHub",
+        "MCP/工具调用",
+        "开源/仓库"
+      ],
+      "source": "X：Berry Xia (@berryxia)",
+      "time": "20:14",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrbxa3ll003yihgens8d2sqg",
+      "title": "加拿大不列颠哥伦比亚省拟起诉OpenAI：未上报ChatGPT暴力对话致校园枪击惨案",
+      "link": "https://www.ithome.com/0/974/169.htm",
+      "summary": "加拿大不列颠哥伦比亚省7月7日宣布将起诉OpenAI，指控其未向执法部门上报一名ChatGPT用户2025年6月封禁前的暴力相关对话内容。该用户随后于今年2月在塔布勒岭制造校园枪击案，杀害8人。OpenAI CEO萨姆·奥尔特曼今年4月为此公开致歉，承认本应上报但未执行。受害家属已在加州法院提起诉讼，省政府正协调独立诉讼，要求赔偿用于社区重建。",
+      "reason": "这是AI公司因用户对话内容失察而被政府追责的里程碑案例，胜诉将推动平台安全上报义务的重新定义，对全行业治理影响深远。",
+      "score": 75,
+      "tags": [
+        "OpenAI",
+        "安全/对齐",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "18:15",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrbu023x079pihl1q4rvhzky",
+      "title": "GitLost：Noma Labs 发现 GitHub AI 代理提示词注入漏洞",
+      "link": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos",
+      "summary": "Noma Labs 在 GitHub Agentic Workflows 中发现严重提示词注入漏洞 GitLost。未认证攻击者仅需在属于同一组织的公共仓库中创建一个嵌有恶意指令的 Issue，即可诱使基于 Claude 或 GitHub Copilot 的 AI 代理读取并公开该组织内私有仓库的内容。攻击无需编码技能或凭证，根源在于代理将用户可控内容视为可信指令，且 GitHub 的防护措施因 \"Additionally\" 关键词被绕过。Noma Labs 已公开 PoC 并建议限制跨仓库权限、隔离用户输入。",
+      "reason": "GitLost 是第一个有完整复现的 GitHub AI 代理泄露私有仓库漏洞，展示了 AI 代理的上下文窗口即攻击面，做 AI 应用或 CI/CD 的人都该看一下。",
+      "score": 81,
+      "tags": [
+        "Agent",
+        "GitHub",
+        "安全/对齐"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "16:44",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrbqwsid06g2ihl1iiwufnz5",
+      "title": "黑客可利用9款最流行的AI工具组装大规模僵尸网络",
+      "link": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets",
+      "summary": "提示注入已成为AI安全的首要威胁——大语言模型无法区分合法指令与恶意指令。此前推送式和拉取式攻击规模均有限。研究人员提出一种名为HalluSquatting的新型拉取式提示注入攻击，首次能组装大规模僵尸网络、执行分布式拒绝服务攻击（DDoS）并大规模感染设备。该攻击可作用于AI编码工具，标志着提示注入攻击从单点突破转向规模化利用。",
+      "reason": "这项研究首次揭示了利用 LLM 幻觉进行大规模 botnet 攻击的可行路径，影响范围覆盖几乎所有主流 AI 编程助手，每个依赖这些工具的开发者都该看一眼。",
+      "score": 78,
+      "tags": [
+        "Agent",
+        "GitHub",
+        "安全/对齐",
+        "论文/研究"
+      ],
+      "source": "Ars Technica：AI（RSS）",
+      "time": "15:17",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrboci2105r3ihl1zmi6wgpf",
+      "title": "工信部发布Claude Code后门安全风险提示",
+      "link": "https://x.com/xiaohu/status/2074736623284256881",
+      "summary": "中国工信部发布风险提示，指出 Claude Code 2.1.91 至 2.1.196 版本内置监控机制，未经用户同意即向远程服务器回传用户地域、身份标识等敏感信息。建议相关单位立即全面排查，对受影响版本卸载或升级至已清除后门代码的最新安全版本，并加强开发工具外联权限管控与流量监测，防止敏感数据违规外传。",
+      "reason": "工信部这份公告不是泛泛的安全提醒，而是直接点名Claude Code特定版本内置数据回传，这对所有中国开发者团队都是一个立即行动的命令，Claude Code在中国的信任危机开始了。",
+      "score": 79,
+      "tags": [
+        "Anthropic",
+        "安全/对齐",
+        "编码",
+        "部署/工程"
+      ],
+      "source": "X：小互 (@xiaohu)",
+      "time": "14:05",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrblfb8a050sihl1484pa3wo",
+      "title": "AI 审计代理在 Cloudflare CIRCL 中发现 7 个漏洞",
+      "link": "https://blog.zksecurity.xyz/posts/circl-bugs",
+      "summary": "zkSecurity 的 AI 审计代理 zkao 持续扫描 Cloudflare 的 CIRCL 密码学库，使用 Opus 4.6 + skills 和 GPT-5.3 + skills 等模型发现并确认了 7 个真实漏洞。其中包括阈值 RSA 中 float64 精度丢失（AI 自评 Critical）和属性基加密（CP-ABE）访问控制完全失效（Critical，由 zkao 自行发现）。所有漏洞已在上游修复，多数在 HackerOne 上获得确认和奖励。AI 生成的候选发现仍需人工验证，但 zkao 已能自动完成大部分验证工作。",
+      "reason": "zkSecurity用AI扫了Cloudflare的密码学库，挖出7个真实漏洞，从浮点数精度损失到访问控制完全破防。这是AI在密码学审计里第一次证明自己能找到能用的漏洞，不是纸上谈兵。虽然后面发现AI对严重性的判断还很瞎，但整体值得安全从业者一读。",
+      "score": 71,
+      "tags": [
+        "Anthropic",
+        "OpenAI",
+        "安全/对齐",
+        "编码",
+        "论文/研究"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "12:44",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrbkf2e804qlihl1e8qe5q4a",
+      "title": "美国商务部批准OpenAI大规模发布GPT-5.6，Sol明日亮相",
+      "link": "https://www.ithome.com/0/973/922.htm",
+      "summary": "美国商务部正式批准OpenAI大规模发布GPT-5.6。OpenAI宣布GPT-5.6 Sol将于本周四完成最后准备后，与Terra和Luna一同面向公众推出。此前因国家安全考量，美国政府要求分阶段发布，仅允许向经批准的有限实体开放。此次全面放行标志着临时管控结束。获批前，美国商务部下属AI标准与创新中心执行了测试，OpenAI技术团队驻扎华盛顿配合沟通。美国最新AI行政令即将出台，旨在为先进AI模型发布建立正式评估框架。",
+      "reason": "美国政府撤销 GPT-5.6 的发布限制，Sol 明日亮相，这是 AI 监管的一次实际测试，开发者终于能摸到真东西了。",
+      "score": 80,
+      "tags": [
+        "OpenAI",
+        "政策/监管"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "12:15",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrbikwbz04b5ihl16qfp5ntw",
+      "title": "蚂蚁集团旗下Robbyant开源LingBot-Vision：1B参数边界中心视觉基础模型，用于密集空间感知",
+      "link": "https://www.marktechpost.com/2026/07/07/ant-groups-robbyant-open-sources-lingbot-vision-a-1b-boundary-centric-vision-foundation-model-for-dense-spatial-perception",
+      "summary": "蚂蚁集团旗下具身智能公司Robbyant开源LingBot-Vision，一套自监督视觉Transformer家族，专为密集空间感知设计。旗舰ViT-g/16参数约1.1B，采用掩膜边界建模训练，将边界作为原生预训练信号。在密集空间任务中，该1B模型匹配或超越参数规模高达7倍的大模型（如7B DINOv3）。模型以Apache-2.0许可证在Hugging Face开源，提供ViT-g、ViT-L（300M）、ViT-B（86M）、ViT-S四个规模。",
+      "reason": "在视觉基础模型里把边界当作核心信号，这个思路很反常识，1B模型在深度估计上超过7B的DINOv3，做机器人的可以认真看看。",
+      "score": 71,
+      "tags": [
+        "具身智能",
+        "多模态",
+        "模型发布"
+      ],
+      "source": "MarkTechPost（RSS）",
+      "time": "11:24",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrbg84yf03mcihl1reivcibq",
+      "title": "Nemotron-Labs-Diffusion：统一自回归、扩散与自我推测解码的三模式语言模型",
+      "link": "https://arxiv.org/abs/2607.05722",
+      "summary": "Nemotron-Labs-Diffusion 是一种三模式语言模型，通过联合自回归（AR）和扩散损失训练，在单一架构中统一了 AR、扩散和自我推测解码。研究显示 AR 与扩散目标互补：扩散增强前瞻规划，AR 提供从左至右的语言先验。自我推测模式下，扩散充当草稿模型、AR 负责验证，其接受率和实际设备效率均优于多 token 预测（MTP）。在最优化采样器下，单次前向传播产出 token 数比自我推测最多高 76.5%。该系列包含 3B、8B、14B 参数的基础、指令和视觉语言模型，在准确率和速度上均超越现有开源 AR 和扩散 LM。例如 8B 模型单次前向解码 token 数是 Qwen3-8B 的 6 倍，在 GB200 GPU 上使用 SGLang 运行 SPEED-Bench 时吞吐量提升 4 倍。",
+      "reason": "NVIDIA 把自回归和扩散塞进同一个模型，吞吐量拉高 4 倍，做实时应用的团队可以开始换架构了。",
+      "score": 72,
+      "tags": [
+        "arXiv",
+        "多模态",
+        "推理",
+        "模型发布"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "10:18",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrbg84yf03mbihl1gfbbgeuz",
+      "title": "AlayaWorld：长程可玩视频世界生成",
+      "link": "https://arxiv.org/abs/2607.06291",
+      "summary": "AlayaWorld 是一个全栈开源框架，用于构建交互式生成世界。该框架支持开放式实时交互，用户可自由导航并执行战斗、施法、召唤怪物等多种动作。AlayaWorld 将数据准备、模型架构、训练、推理加速和部署统一在模块化可扩展的架构中，并发布了可复现流程、参考实现、评估工具和完整文档，为生成世界模型的未来研究与实时应用奠定基础。",
+      "reason": "AlayaWorld 把生成世界从 demo 变成了可交互的全栈开源框架，放出了完整 pipeline，对做游戏和具身智能的团队来说是一套可以立刻跑起来的工具链，值得落地尝试。",
+      "score": 73,
+      "tags": [
+        "arXiv",
+        "具身智能",
+        "开源/仓库",
+        "视频"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "10:18",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrbez8y903b9ihl133b5wr18",
+      "title": "Pulpie：用于清理网络的Pareto最优模型",
+      "link": "https://usefeyn.com/blog/pulpie-pareto-optimal-models-for-cleaning-the-web",
+      "summary": "Pulpie是一族Pareto最优模型，用于从HTML页面提取主要内容。其最小模型pulpie-orange-small（210M参数）在WebMainBench上取得0.862的ROUGE-5 F1分数，接近600M参数的Dripper（0.864），但成本仅1/20。在NVIDIA L4 GPU上，Pulpie处理速度13.7页/秒，Dripper仅0.68页/秒。清理10亿页HTML，Pulpie成本约$7,900，Dripper需$159,000。模型采用编码器架构，单次前向传播即可标记每个HTML块为内容或模板，已在HuggingFace开源。",
+      "reason": "做网页清洗的同行该更新工具了，Pulpie 以二十分之一的成本追平 SOTA 质量，而且开箱即用，是今年数据管线里最值得换的组件之一。",
+      "score": 75,
+      "tags": [
+        "Hugging Face",
+        "开源生态",
+        "数据/训练",
+        "模型发布"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "09:43",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrbdsefa02yjihl17gg7mhx3",
+      "title": "蚂蚁集团周俊AICon演讲：从Token数量到Token密度，万亿参数模型效率优先",
+      "link": "https://mp.weixin.qq.com/s/dsIfi4C-T5Q4emmIh-7yzg",
+      "summary": "蚂蚁集团副总裁周俊在AICon演讲指出，万亿参数模型每运行15分钟算力成本约等于一辆特斯拉，效率是智能体时代最需解决的问题。团队提出从“更多Token”转向“更高Token密度”策略，采用7份Lightning Attention加1份MLA的混合线性注意力架构，使256K长上下文成本从指数级降至线性级，算力更多用于思考。通过Kpop算法区分工具调用与自然语言Token，结合思维链剪枝、自蒸馏等，Token输出减少约4倍而能力不降。在LongBench、BFCL等基准上提升显著，千亿参数模型在Agent任务中超越部分更大模型；小模型flash吞吐达2.4倍，五轮对话成本下降10倍以上。",
+      "reason": "蚂蚁百灵副总裁周俊这次分享，把大模型效率问题从零散优化推到了架构、训练、智能体协同设计的范式层面，7+1 混合注意力方案和 Kpop 算法对做模型的人是实质参考。",
+      "score": 64,
+      "tags": [
+        "Agent",
+        "大佬观点",
+        "推理"
+      ],
+      "source": "公众号：蚂蚁百灵（Ling）",
+      "time": "09:10",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrbdqlcv02y4ihl11xbxx9xs",
+      "title": "Claude开发者分享两种多智能体模式：Advisor和Orchestrator",
+      "link": "https://x.com/shao__meng/status/2074661249804366310",
+      "summary": "Claude开发者官方分享团队高频使用的两种多智能体模式。Advisor模式：Sonnet 5作为执行者，通过tool call调用Fable 5获取指导。SWE-bench Pro（482题）上，Sonnet 5单独75.5%/$0.75，加顾问达84%/$1.40，Fable 5单独91.5%/$2.25；组合方案约92%性能、63%成本。Orchestrator模式：Fable 5作为编排者规划并向多个Sonnet 5 worker扇出任务。BrowseComp上，全Sonnet 5 77.8%/$16.01，编排方案86.8%/$18.53，全Fable 5 90.8%/$40.56；编排方案约96%性能、46%成本。",
+      "reason": "Anthropic 官方首次公开内部多智能体模式并附上数据，给出的性价比不是省一点而是数量级的优化，对于正在用 Fable 5 又嫌贵的开发者，这就是省钱模板。",
+      "score": 80,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "教程/实践"
+      ],
+      "source": "X：邵猛 (@shao__meng)",
+      "time": "09:08",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrbc048n02j2ihl1all0ymge",
+      "title": "《人生设计课》Prompt实测：用Claude设计人生的四个阶段",
+      "link": "https://mp.weixin.qq.com/s/VDlBdkspV0SQNFJYLxOogQ",
+      "summary": "作者将斯坦福《人生设计课》理论体系制成Prompt，通过Claude逐步提问、追问和分析。Prompt融合设计思维、心流理论和积极心理学，分为看清现状、找到指南针、寻路、制定奥德赛计划四阶段，主线问题控制在6到9个。AI引导用户给健康、工作、娱乐、爱打分，区分重力问题与可设计的真问题，生成三个五年人生版本，最终输出8000至12000字的《个人人生设计蓝图》。作者实测效果超预期。",
+      "reason": "卡兹克把《人生设计课》的整套方法论炼成了一个追问型Prompt，它不替你规划人生，但能用一连串苏格拉底式逼问把你心里一直没厘清的线头拽出来。比心理咨询轻量，比鸡汤硬核，想用AI认真盘一盘自己方向的人值得花半小时玩一遍。",
+      "score": 75,
+      "tags": [
+        "Anthropic",
+        "教程/实践"
+      ],
+      "source": "公众号：数字生命卡兹克",
+      "time": "08:20",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrb7dzge01d6ihl1bthomtam",
+      "title": "Rowboat：开源、本地优先的桌面AI助手",
+      "link": "https://github.com/rowboatlabs/rowboat",
+      "summary": "Rowboat 是一个开源、本地优先的桌面 AI 助手，将邮件、会议、Slack 等数据索引为 Obsidian 风格的知识图谱，提供持久上下文记忆。内置邮件客户端、浏览器、会议记录器、代码模式（可调用 Claude Code 或 Codex 代理），并支持按事件或定时运行的背景代理。用户可通过 MCP 协议接入 Exa 搜索、GitHub 等外部工具。所有数据以纯 Markdown 格式本地存储，无供应商锁定，支持 Ollama/LM Studio 本地模型或使用 API 密钥的托管模型。",
+      "reason": "Rowboat 把整个工作台搬到了本地，知识图谱长期记忆的设计比大多数『聊天+搜索』的 AI 桌面工具更深，如果你受够了云端的隐私焦虑和冷启动，这个开源项目值得关注。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "MCP/工具调用",
+        "产品更新"
+      ],
+      "source": "Hacker News：AI 热帖",
+      "time": "06:11",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrb4j2zx00n4ihl14u6xv7kz",
+      "title": "Krea 2 身份保留功能上线",
+      "link": "https://x.com/krea_ai/status/2074589965653303321",
+      "summary": "Krea 2 的身份保留功能已发布，配套模型和 ComfyUI 节点也已上线。🔥",
+      "reason": "Krea 2的ID保持终于被社区做出来了，附带ComfyUI节点，想稳定控制角色一致性的人可以立刻用起来。",
+      "score": 66,
+      "tags": [
+        "图像生成",
+        "开源/仓库",
+        "开源生态"
+      ],
+      "source": "X：Krea AI (@krea_ai)",
+      "time": "04:51",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrb2mxmc0072ihl1mx0aw1bz",
+      "title": "Meta Superintelligence Labs 推出 Muse Image 和 Muse Video",
+      "link": "https://x.com/AIatMeta/status/2074577662840832382",
+      "summary": "Meta Superintelligence Labs 发布首个媒体生成模型 Muse Image 和 Muse Video。Muse Image 是目前最先进的图像生成模型，能精确遵循指令、精准编辑、多参考构图，并利用 Instagram 社交上下文。它还具备智能体工具使用能力并集成 Muse Spark。用户可通过 Meta AI 应用、网页、Instagram Stories 和 WhatsApp 试用，初始限于部分国家。Muse Video 基于相同预训练基础，实现高视觉保真度并原生支持音频。",
+      "reason": "Meta 超级智能实验室的首个媒体生成模型，把图像生成跟 Instagram 社交语境结合听起来很实用，但细节还少，期待后续实测。",
+      "score": 75,
+      "tags": [
+        "Meta",
+        "图像生成",
+        "模型发布",
+        "视频"
+      ],
+      "source": "X：AI at Meta (@AIatMeta)",
+      "time": "03:58",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrb18k7802uuihogxse92jx2",
+      "title": "Hugging Face Storage 成为 SkyPilot 一级后端：零出站费跨云存储",
+      "link": "https://huggingface.co/blog/skypilot-hf-storage",
+      "summary": "Hugging Face Storage 现为 SkyPilot 的一级后端。用户通过 `hf://` URL 和现有 HFTOKEN 即可将 Hugging Face Bucket（读写）或模型/数据集/Space 仓库（只读）挂载到 SkyPilot 任务中，支持 MOUNT（FUSE 懒加载）或 COPY 模式。SkyPilot 可将任务调度到 20+ 云、Kubernetes、Slurm 及本地集群的任意可用 GPU 上。Hugging Face 不收取出站及 CDN 费用，故跨云读取数据无额外成本。存储价格 $12–18/TB/月，低于 AWS S3 加出站费。Bucket 基于 Xet，增量检查点和模型变体仅存储和传输改动部分。",
+      "reason": "Hugging Face 和 SkyPilot 把存储和算力真正解耦了，跨云读取模型零出口费，用过 SkyPilot 的团队可以立刻省下那块 egress 账单。",
+      "score": 67,
+      "tags": [
+        "Hugging Face",
+        "产品更新",
+        "开源生态",
+        "部署/工程"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "03:18",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrb0u6pv02qtihogovduu795",
+      "title": "微软为降成本在Copilot中用自研MAI模型替换OpenAI和Anthropic模型",
+      "link": "https://the-decoder.com/copilot-goes-cheap-as-microsoft-phases-out-openai-and-anthropic-models-to-cut-costs",
+      "summary": "微软正用自研MAI模型替换Copilot产品中的OpenAI和Anthropic模型以降低支出。MAI模型已在Excel和Outlook中每周处理数万次请求，但占比仍小。Build大会上发布推理模型MAI-Thinking 1，声称编码媲美Sonnet 4.6和Opus 4.6，但基准测试大幅落后，仅与DeepSeek V3.2相当。AI负责人承认目标是削减并消除对Anthropic的支出。CEO暗示未来可能按用量计费，MAI为默认，第三方模型付费附加。微软称MAI使用干净商业许可数据，实际基于Common Crawl。",
+      "reason": "微软正悄悄把Copilot里的OpenAI和Anthropic模型换成自家MAI，用户可能要为更弱的AI付同样的钱。这对所有依赖Copilot的团队是个警告，现在就该重新评估工作流。",
+      "score": 71,
+      "tags": [
+        "Microsoft",
+        "现象/趋势",
+        "行业动态"
+      ],
+      "source": "The Decoder：AI News（RSS）",
+      "time": "03:07",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrayv5ja0293ihog3rixaqua",
+      "title": "YC CEO声称每日用AI部署3.7万行代码，开发者审查发现前端代码大量臃肿低效",
+      "link": "https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media",
+      "summary": "Y Combinator CEO Garry Tan在X上宣称，他与AI编码代理每天在五个项目中部署37000行代码，并保持连续72天发布记录。波兰开发者Gregorein深入审查Tan网站前端代码，发现大量臃肿与低效问题：页面加载169次请求、总计6.42MB数据（对比Hacker News仅7次12KB）；包含28个测试文件、78个未使用的JavaScript控制器、八种格式Logo（含空文件）、未压缩的旧PNG等。Gregorein指出，AI虽能快速生成代码，但质量仍应优先于数量。",
+      "reason": "Garry Tan 日行三万七千行的神话被代码审查拆穿，这不是节奏问题，是 AI 编码‘有量无质’的典型病征。认为 AI 编码能光速开发的人该冷静一下了。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "现象/趋势",
+        "编码"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "02:12",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmray36fg021nihogfo205417",
+      "title": "NotebookLM短视频概览正式上线",
+      "link": "https://x.com/NotebookLM/status/2074551227594264799",
+      "summary": "短视频概览功能已正式在移动端和网页端面向所有英语用户全面上线！\n\n一如既往，您的意见对我们至关重要。请在下方分享您最喜欢的作品，并告诉我们接下来需要添加哪些功能！❤️",
+      "reason": "NotebookLM 把 Audio Overviews 升级成短视频，谷歌想让笔记工具自己「讲」出内容，思路比功能本身更值得关注，但目前只是锦上添花。",
+      "score": 67,
+      "tags": [
+        "Google",
+        "产品更新",
+        "多模态"
+      ],
+      "source": "X：NotebookLM (@NotebookLM)",
+      "time": "01:50",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmraxmzfq01y0ihog3h7t344t",
+      "title": "FDE爆发：AI公司12个月承诺97.5亿美元部署工程",
+      "link": "https://www.tomtunguz.com/the-10b-fde-boom",
+      "summary": "AI公司在12个月内合计承诺97.5亿美元用于建设前部署工程（FDE）团队。三种结构模型浮现：资产负债模型（微软、亚马逊从现有编制调配，Salesforce承诺1000个FDE岗位）；独立实体模型（OpenAI Deployment Company融资40亿美元，投后估值140亿；Anthropic从黑石等融资15亿美元）；合作伙伴生态系统模型（Google Cloud承诺7.5亿美元合作伙伴基金）。瓶颈从模型能力转向部署——GPT-4、Claude、Gemini已足够强大，但多数企业无法自行安装配置。FDE投资构成护城河：嵌入式工程师教育客户、获取专有工作流与数据反馈模型调优，切换成本为制度性而非技术性。",
+      "reason": "Tunguz 把近 100 亿美元 FDE 投资掰成三种结构，让我意识到 AI 竞争已经从模型卷到了客户内部——嵌入式工程可能比 API 更深的护城河。",
+      "score": 77,
+      "tags": [
+        "Anthropic",
+        "OpenAI",
+        "现象/趋势",
+        "部署/工程"
+      ],
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "time": "01:38",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmrawne9601nfihogtkxwy0bs",
+      "title": "智能免费，然后呢？——Data Systems for, of, and by Agents",
+      "link": "http://bair.berkeley.edu/blog/2026/07/07/intelligence-is-free-now-what",
+      "summary": "AI推理成本急剧下降。GPT-4级能力从2023年初每百万token约30美元降至今天不到1美元，部分供应商已低于0.10美元。推理价格每年下降9至900倍，中位数约50倍。知识工作级智能即将近乎免费。这给数据系统带来三重变革：面向智能体的数据系统需支持智能体推测式探索——单个",
+      "reason": "当推理成本趋近免费，数据系统将经历从服务人到服务智能体的根本变革，这篇文章把'为智能体设计系统、用智能体运行系统、让智能体构建系统'三大挑战梳理得很清晰，做数据和 agent 基础设施的人应该读。",
+      "score": 62,
+      "tags": [
+        "Agent",
+        "大佬观点",
+        "数据/训练"
+      ],
+      "source": "BAIR：Berkeley AI Research Blog",
+      "time": "01:10",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmraw22r701jjihogh1k8hbu6",
+      "title": "Gemini API Managed Agents 新增后台执行、远程 MCP 与自定义函数等能力",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api",
+      "summary": "Google 为 Gemini API 的 Managed Agents 新增后台执行、远程 MCP 服务器集成、自定义函数调用与凭证刷新功能。后台执行通过传入 `background: true` 异步运行任务，立即返回 ID 供轮询状态或流式获取进度。Managed Agents 可直接连接远程 MCP 服务器，无需自定义代理中间件，并能与内置沙箱工具（如 Google 搜索、代码执行）混合使用。自定义函数调用支持本地执行业务逻辑，内置工具自动在服务端运行。凭证刷新通过传递现有环境 ID 和新网络配置完成，沙箱内文件系统、已安装包和仓库保持不变。这些更新旨在帮助开发者构建可靠的生产级 AI 智能体。",
+      "reason": "Managed Agents 这次更新解决了异步执行和远程工具调用的痛点，让 Gemini 代理能真正跑在后台，对已经在用 Gemini API 做产品的开发者属于必读更新。",
+      "score": 69,
+      "tags": [
+        "Agent",
+        "Google",
+        "MCP/工具调用",
+        "产品更新"
+      ],
+      "source": "Google Blog：AI（RSS）",
+      "time": "00:53",
+      "date": "7月8日"
+    },
+    {
+      "id": "cmraw21y401jhihog3tcrfsp4",
+      "title": "Liquid AI 开源 Antidoom：基于最终 Token 偏好优化的推理模型死循环修复方法",
+      "link": "https://www.marktechpost.com/2026/07/07/liquid-ai-antidoom-doom-loops-ftpo",
+      "summary": "Liquid AI 开源了 Antidoom，一种基于 Final Token Preference Optimization (FTPO) 的针对性修复方法，用于减少推理模型中的 doom loop（死循环）问题。该方法定位循环开始的第一个 token，训练模型选择连贯替代项，而不改变整体输出分布。在 LFM2.5-2.6B 上，硬数学和编程任务中的循环率从 10.2% 降至 1.4%；Qwen3.5-4B 上从 22.9% 降至 1%。整套流程可在数小时内完成，全部代码和数据集（LiquidAI/antidoom-mix-v1.0）已开源。",
+      "reason": "Antidoom 用一次训练就修复了小型推理模型常见的 doom loop，LFM2.5 和 Qwen3.5 的循环率从两位数掉到 1%，代码和数据全开源，自己训模型时可以直接加这一环。",
+      "score": 70,
+      "tags": [
+        "开源/仓库",
+        "推理"
+      ],
+      "source": "MarkTechPost（RSS）",
+      "time": "00:53",
+      "date": "7月8日"
+    }
+  ]
+}

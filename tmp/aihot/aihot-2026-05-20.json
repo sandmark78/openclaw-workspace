@@ -1,0 +1,655 @@
+{
+  "date": "2026-05-20",
+  "scraped_at": "2026-05-20T05:00:18.157030+00:00",
+  "total_items": 40,
+  "items": [
+    {
+      "id": "cmpdkkt0104q4slk1htr3h1ol",
+      "title": "Kling AI推出全球首个原生4K视频生成模型",
+      "link": "https://x.com/Kling_ai/status/2056950317712101599",
+      "summary": "4月23日，Kling AI正式推出全球首个原生4K视频生成模型，专为专业内容创作设计。该功能支持一键生成真4K画质视频，显著提升画面细节与制作效率。模型已获得好莱坞团队、动画工作室等多方采用。好莱坞制片人指出，这是其工作流中首个使用的原生4K基础模型；Wonder Studios强调，原生4K从底层生成避免了传统放大技术的角色变形问题，保持了画面一致性；动画导演则认为，该模型在保留艺术色调与复杂特效纹理方面优于同类产品。",
+      "reason": "可灵AI的世界首个原生4K视频生成，直接跳过upscaler，从好莱坞剧组到广告公司已经在用。虽然还是早期阶段，但“原生4K”对影视制作的意义，就像当年1080p取代标清。",
+      "score": 72,
+      "tags": [
+        "多模态",
+        "模型发布",
+        "视频"
+      ],
+      "source": "X：可灵 Kling AI (@Kling_ai)",
+      "time": "12:36",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpdjhbyu04gqslk1o0dakqxr",
+      "title": "GoLongRL：面向能力的长期上下文强化学习与多任务对齐",
+      "link": "https://arxiv.org/abs/2605.19577",
+      "summary": "GoLongRL是一个全开源的长期上下文强化学习方案，聚焦于使用可验证奖励的强化学习。该工作提出了面向能力的数据构建方法，公开发布了包含23K样本的数据集、完整构建管线及训练代码。数据集依据长期上下文能力分类，涵盖9种任务类型，由真实文档生成的问答对构成；实验证明该数据集性能优于闭源的QwenLong-L1.5数据集。训练得到的Qwen3-30B-A3B模型在长期上下文任务上达到了与DeepSeek-R1-0528等先进模型可比的性能。此外，提出了TMN-Reweight多任务优化方法，通过任务级归一化和难度自适应加权，在提升平均性能的同时保持或增强了通用能力。",
+      "reason": "开源长上下文RL的配方直接放出来了，数据集+代码全都有。更狠的是单靠数据多样性就干掉了闭源竞品，甚至摸到了DeepSeek-R1的水平，做长上下文的值得复现。",
+      "score": 70,
+      "tags": [
+        "开源生态",
+        "推理",
+        "数据/训练",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "12:05",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpdjg8r504geslk199lfb9y0",
+      "title": "OpenAI向所有YC创业公司提供200万美元API投资",
+      "link": "https://x.com/gdb/status/2056948285038887255",
+      "summary": "OpenAI宣布向Y Combinator当前批次的每家创业公司提供价值200万美元的API信用额度投资，以换取股权。此举旨在为初创公司提供AI算力资源，支持下一代创新。这让人联想到Sam Altman在YC合伙人时期，Yuri Milner向每家创业公司提供投资的先例。OpenAI希望通过此举释放创业者潜力，推动AI应用创新。",
+      "reason": "Sam Altman 在 YC 现场扔出王炸，用 200 万美元 API 积分投资每一个当期创业公司，这是 OpenAI 对开发者生态的激进押注，创业者的算力成本可能被彻底改写。",
+      "score": 79,
+      "tags": [
+        "OpenAI",
+        "行业动态"
+      ],
+      "source": "X：Greg Brockman (@gdb)",
+      "time": "12:04",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpdgzagl03tyslk1ekr6memz",
+      "title": "消息称微软内部示警：GitHub 面临生存级风险，AI 编程工具削弱托管必要性",
+      "link": "https://www.ithome.com/0/952/645.htm",
+      "summary": "微软内部发出警告，称其代码托管平台GitHub正面临“生存级风险”。主要原因是Cursor、Claude Code等AI编程助手兴起，改变了开发者工作流，削弱了持续将代码上传至GitHub的必要性。为统一工具链并控制成本，微软已要求部分团队在2026年6月底前停止试用Claude Code，转而使用自有工具GitHub Copilot CLI。同时，OpenAI曾考虑自建替代平台，也加剧了对GitHub地位的潜在威胁。",
+      "reason": "微软内部把 GitHub 风险定义为“生存级”，这不再是外部竞争猜测，AI 编程工具真的在动摇代码托管的根基。",
+      "score": 74,
+      "tags": [
+        "Agent",
+        "GitHub",
+        "Microsoft",
+        "编码",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "10:55",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpdgqw1n03smslk1jf4jiwce",
+      "title": "Qwen3.7：智能体前沿",
+      "link": "https://qwen.ai/blog?id=qwen3.7",
+      "summary": "Qwen Studio推出Qwen3.7模型，提供覆盖聊天机器人、图像与视频理解、图像生成、文档处理、网页搜索集成、工具调用及工件生成等功能。该模型整合了当前AI智能体的关键能力，旨在推动多模态交互与实际任务执行向更综合、自主的方向发展。",
+      "reason": "Qwen推出了新模型3.7，直指Agent能力前沿。虽然官方博客这次很简短，但按照Qwen一贯的节奏，工具调用和自主任务能力应该会刷新上限，做Agent的朋友可以关注后续实测。",
+      "score": 79,
+      "tags": [
+        "Agent",
+        "模型发布"
+      ],
+      "source": "Qwen：Blog Retrieval（API）",
+      "time": "10:49",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpd9r8mi022fslk1qbsjsb9i",
+      "title": "拓宽关于前沿AI的对话",
+      "link": "https://www.anthropic.com/news/widening-conversation-ai",
+      "summary": "Anthropic为构建负责任的先进AI，正与全球多元群体展开对话。首轮讨论汇集了超过15个宗教、哲学及跨文化传统的学者与伦理学者，旨在为Claude等模型的道德形成与价值观对齐提供多元视角。受“外部良知”概念启发，团队开发并测试了伦理承诺提醒工具，初步实验显示其能有效降低模型不对齐行为。公司计划未来将对话拓展至法律、心理学及公民社会等领域，以共同应对AI对社会结构的重塑。",
+      "reason": "Anthropic在做一件少见的事——请神学家和哲学家帮忙塑造Claude的‘性格’，初步实验发现让模型在决策前暂停反思能降低偏差，做AI对齐的值得读一下。",
+      "score": 65,
+      "tags": [
+        "Anthropic",
+        "安全/对齐",
+        "推理"
+      ],
+      "source": "Anthropic：Newsroom（网页）",
+      "time": "07:33",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpd9r1gv0221slk1frk69vtc",
+      "title": "Ramp利用Gemini API构建高级财务代理",
+      "link": "https://x.com/googleaidevs/status/2056874010265485341",
+      "summary": "通过使用Gemini API中的新托管代理功能，@Ramp在无需接触后端基础设施的情况下构建了其高级财务代理。\n\n了解更多 ↓",
+      "reason": "Google把agent构建的后端复杂度藏起来了，Ramp没碰基础设施就上了金融agent，这对所有想做agent的产品团队都是个明确信号，门槛降了不少。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "Google",
+        "产品更新"
+      ],
+      "source": "X：Google AI for Developers (@googleaidevs)",
+      "time": "07:33",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpd6rs9u01ejslk1flozev7o",
+      "title": "Claude Code v2.1.145版本更新",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
+      "summary": "本次更新为Claude Code工具带来了多项功能增强与问题修复。新功能包括：新增JSON格式的会话列表命令以便脚本化操作，并在OTEL追踪中完善了Agent父子关系。插件浏览界面现可预览详细信息。在稳定性方面，修复了权限提示被绕过的安全问题、MCP参数校验错误、终端窗口调整后的显示冻结，以及非ASCII名称导致的API调用失败等问题。同时改进了Read工具的文件超限处理，并优化了任务列表排序和状态栏信息显示等交互细节，整体提升了工具的易用性与可靠性。",
+      "reason": "Claude Code 这次版本把可编程性和可观测性提升了一大截，尤其 `claude agents --json` 和 OTEL 改进，做自动化脚本和监控的可以直接更新了。",
+      "score": 64,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "Claude Code：GitHub Releases（RSS）",
+      "time": "06:10",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpd5x0qo0179slk1f2ze49et",
+      "title": "Claude Code的HTML输出：非凡的有效性",
+      "link": "https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html",
+      "summary": "Claude Code团队正从Markdown转向HTML作为主要输出格式。Markdown虽简洁，但在信息密度、阅读性、分享和交互方面存在局限。HTML能支持表格、CSS样式、SVG图表和JavaScript交互，提供更清晰的视觉结构和高信息密度。由于HTML文件可通过浏览器直接打开和分享，便于团队协作审阅。Claude Code利用其广泛的上下文获取能力生成实用的HTML制品，适用于项目规划、文档编写和验证等多种场景，显著提升了AI生成内容的可读性与实用性。",
+      "reason": "Claude Code 团队的人亲自告诉你为什么用 HTML 而不是 Markdown，从设计原型到可交互报告全在一个文件里搞定。附带的模板和提示词，开发者可以直接抄。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "Claude：Blog（网页）",
+      "time": "05:45",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpd5un01016gslk14jmz9h5z",
+      "title": "ChatGPT图像生成周使用量突破15亿次",
+      "link": "https://x.com/OpenAI/status/2056849157860831239",
+      "summary": "人们每周在ChatGPT中生成超过15亿张图像。\n\n研究员 @kenjihata 与产品负责人 @adele__li 及主持人 @AndrewMayne 一起，探讨自 Images 2.0 发布以来出现的新用例和趋势。",
+      "reason": "OpenAI 首次把内部图像生成数据摊开聊，每周 15 亿张的量级说明这功能已经不是玩具了，做图像产品的可以对着用例风向调方向。",
+      "score": 70,
+      "tags": [
+        "OpenAI",
+        "图像生成",
+        "现象/趋势"
+      ],
+      "source": "X：OpenAI (@OpenAI)",
+      "time": "05:44",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpd5r3ih015bslk1uyo2y504",
+      "title": "Forge：通过防护机制大幅提升8B模型性能的可靠性层",
+      "link": "https://github.com/antoinezambelli/forge",
+      "summary": "Forge 是一个为自托管大语言模型设计的可靠性层，专注于提升工具调用能力。它通过错误解析、重试提示、步骤强制等防护机制以及高效的上下文管理，成功将8B参数模型在复杂多步骤智能体任务中的表现从53%大幅提升至99%。其核心配置（Ministral-3 8B模型）在自建的26项评估中综合得分达86.5%。Forge 提供三种集成方式：作为全托管工作流运行器、多智能体架构的共享调度器，或嵌入自有编排循环的防护中间件，并附带一个可透明接入的OpenAI兼容代理服务器。",
+      "reason": "这个小工具用 guardrails 把本地 8B 模型从 53% 拉升到 99% 的稳定度，对玩自托管 Agent 的人来说像是换了条命，值得一试。",
+      "score": 89,
+      "tags": [
+        "Agent",
+        "开源/仓库"
+      ],
+      "source": "Hacker News：AI 热帖",
+      "time": "05:41",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpd5qa3j014wslk1csm8g3lb",
+      "title": "谷歌推出全新AI智能搜索框，支持多模态交互",
+      "link": "https://x.com/GoogleAI/status/2056845506601718271",
+      "summary": "谷歌宣布推出基于Gemini 3.5模型的全新智能搜索框。该更新将AI Overviews与AI Mode整合为统一的AI搜索体验，支持对文本、图像、文件及视频进行跨模态推理查询。用户可进行多轮对话，搜索将结合上下文提供更个性化、定制化的回答。该新功能已在全球桌面和移动设备端同步上线。",
+      "reason": "Google搜索史上最大一次交互变革，Gemini 3.5加持的搜索框能理解文本、图片、视频，AI Overviews和对话模式彻底融合，搜索终于变成真正的对话助手。",
+      "score": 83,
+      "tags": [
+        "Google",
+        "产品更新",
+        "多模态",
+        "推理"
+      ],
+      "source": "X：Google AI (@GoogleAI)",
+      "time": "05:40",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpd5fjlb010tslk16bffs0ly",
+      "title": "研究发现人类说服技巧对AI同样有效",
+      "link": "https://x.com/emollick/status/2056843673145401722",
+      "summary": "🚨我们的论文已在PNAS发表：我们发现经典的人类说服技巧以一种“类人”的方式对AI有效，使其同意不当请求（将顺从率从35%提高到51%）\n该技巧对一系列主流大语言模型有效，尽管较新的模型抵抗力更强 https://www.pnas.org/doi/10.1073/pnas.2535868123",
+      "reason": "Ethan Mollick 他们这篇 PNAS 论文证实了，像对待人一样劝 AI 做坏事竟然真的有效，从 35% 到 51% 的突破让人后背发凉，新模型抵抗得更多算是唯一好消息。",
+      "score": 76,
+      "tags": [
+        "安全/对齐",
+        "论文/研究"
+      ],
+      "source": "X：Ethan Mollick (@emollick)",
+      "time": "05:32",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpd57aiz00zqslk11q0lp88m",
+      "title": "创新一周年：庆祝Google Cloud x NVIDIA开发者社区达到10万会员",
+      "link": "https://developers.googleblog.com/one-year-of-innovation-celebrating-100k-members-in-the-google-cloud-x-nvidia-developer-community",
+      "summary": "Google Cloud与NVIDIA开发者社区迎来成立一周年，会员规模突破10万。社区为开发者提供先进AI基础设施与资源支持，包括LLM优化、GPU加速数据分析等专项学习路径及专家网络研讨会。第二年计划将进一步扩展，推出实践实验室、工程活动及聚焦代理式AI增长的专项内容。",
+      "reason": "Google Cloud 和 NVIDIA 的开发者社区一年攒了 10 万人，不算大新闻，但官方放出的 agentic AI 课程和动手实验室对做 Agent 的工程师挺实在，可以关注一下。",
+      "score": 57,
+      "tags": [
+        "Agent",
+        "Google",
+        "行业动态"
+      ],
+      "source": "Google Developers Blog（RSS）",
+      "time": "05:25",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpd3ms9200o4slk1fra40xlv",
+      "title": "在OpenClaw中使用Grok",
+      "link": "https://x.ai/news/grok-openclaw",
+      "summary": "5月22日，xAI宣布，其用户现可在开源个人助理OpenClaw中直接使用Grok模型。所有持有SuperGrok或X Premium订阅的用户均可使用该功能。OpenClaw是一个开源的、本地优先的智能助手，可在多种硬件上运行并保持跨会话记忆，同时能接入WhatsApp、Telegram等多款主流通讯平台。用户通过简单安装和登录，即可在自有设备上运行OpenClaw，并通过其界面或关联的聊天工具与Grok交互。此举进一步扩展了Grok的应用场景，未来还将推出更多开源代理与集成支持。",
+      "reason": "Grok 开始融入开源 agent 生态了，OpenClaw 的本地优先加多平台连接让这集成对开发者挺实用，有 Grok 订阅的可以直接试试。",
+      "score": 60,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "开源生态"
+      ],
+      "source": "xAI：News（网页）",
+      "time": "04:41",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpd3im1b00mislk1cy88q2ht",
+      "title": "Gemini 3.5 Flash快速构建互动游戏",
+      "link": "https://x.com/GeminiApp/status/2056829734181585038",
+      "summary": "使用 Gemini 3.5 Flash 构建你的第一款游戏。\n无需复杂的3D建模，即可将日常物品直接转化为互动的数字体验。从一个 Nano Banana 提示开始，在 Canvas 中将你的图像变成游戏，并优化你的愿景以获得最佳游戏体验。",
+      "reason": "Google Gemini 官方教你把日常物品照片变成互动游戏，Nano Banana 到 Canvas 的链路很直接，想试 Gemini 多模态能力的人可以当入门案例跑一遍。",
+      "score": 72,
+      "tags": [
+        "Google",
+        "多模态",
+        "教程/实践"
+      ],
+      "source": "X：Gemini (@GeminiApp)",
+      "time": "04:38",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpd3cb2800kuslk1tbv8fe48",
+      "title": "Claude实现真实界面操作的生产实践指南",
+      "link": "https://x.com/ClaudeDevs/status/2056835339193561170",
+      "summary": "计算机使用功能使Claude成为能够操作真实用户界面的智能体。  \n\n新博客文章探讨如何在生产环境中确保其可靠性：包括提高点击准确性、选择思考努力级别、在长会话中保持上下文，以及记录Claude可重放的演示操作：  \n\nhttps://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude",
+      "reason": "这篇博客把 Computer use 从“能用”真正推到“生产级”，聚焦点击精度、思考模式选择、长会话上下文保持这些实际卡点，如果你在让 Claude 操作 UI，这是必读的避坑指南。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "MCP/工具调用",
+        "教程/实践"
+      ],
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "time": "04:33",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpd323rj00hhslk1bm0s582h",
+      "title": "更智能的 Google AI Edge Gallery：MCP 集成、通知和会话连续性",
+      "link": "https://developers.googleblog.com/a-smarter-google-ai-edge-gallery-mcp-integration-notifications-and-session-continuity",
+      "summary": "Google AI Edge Gallery 应用在安卓平台上扩展了设备端 AI 能力，通过引入对开源模型上下文协议（MCP）的实验性支持，使得 Gemma 4 模型能够协调处理跨 Google Workspace 和 Google Maps 等外部数据源的复杂任务。此次更新添加了“定时通知”技能，用于实现日常事务的自动化管理，并新增了持久化聊天记录功能，允许用户近乎即时地恢复长会话上下文。该平台依托开源工具包，积极鼓励社区开发者通过其 GitHub 仓库构建并分享专注实用的工作流、提示配置与工具集成。",
+      "reason": "MCP 终于跑在 Android 设备上了，虽然是实验性支持，但 Gemma 4 能直连 Workspace 和 Maps，做自动化的开发者可以上手试试。",
+      "score": 65,
+      "tags": [
+        "Google",
+        "MCP/工具调用",
+        "产品更新",
+        "端侧"
+      ],
+      "source": "Google Developers Blog（RSS）",
+      "time": "04:25",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpd2mw0v00fgslk1zs271rbt",
+      "title": "OpenAI推出长期算力保障服务",
+      "link": "https://x.com/OpenAI/status/2056823271774101907",
+      "summary": "推出 OpenAI Guaranteed Capacity：一项新服务，让客户能够保障长期获取 OpenAI 算力。\n\n我们已在基础设施、合作伙伴关系和容量规划方面进行了长期投资，以帮助客户可靠地扩展。\n\n现在，Guaranteed Capacity 帮助客户在算力受限的环境中提前规划关键工作负载。\n\nhttp://openai.com/guaranteed-capacity",
+      "reason": "OpenAI 开始卖「算力期货」了，在 GPU 抢破头的当下，能锁定长期计算容量对做模型服务的公司是定心丸。",
+      "score": 67,
+      "tags": [
+        "OpenAI",
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "X：OpenAI (@OpenAI)",
+      "time": "04:14",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpd24zua0091slk1t8thoz19",
+      "title": "Antigravity生态：面向智能体的开发平台",
+      "link": "https://x.com/googleaidevs/status/2056821026038964360",
+      "summary": "全新的 @Antigravity 生态系统是您终极的智能体优先开发平台。\n\n对于任何构建或编排智能体的开发者，以下是 Google I/O 上发布的内容 🚀↓",
+      "reason": "Google I/O上这个Antigravity平台的发布，算是大厂对agent-first开发范式的正式表态，构建和编排agent的开发者应该认真看一眼。",
+      "score": 71,
+      "tags": [
+        "Agent",
+        "Google",
+        "产品更新"
+      ],
+      "source": "X：Google AI for Developers (@googleaidevs)",
+      "time": "04:00",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpd1fujg022bsljlzjla22ld",
+      "title": "Gemini Omni：从任意输入创造内容的新模型",
+      "link": "https://x.com/GoogleAI/status/2056816653770625406",
+      "summary": "到现在，你可能已经听说了 Gemini Omni，这是我们新推出的模型，旨在从任意输入（从视频开始）创造任何内容。\n但……这有什么大不了的？  \n让我们来分解一下 🧵👇",
+      "reason": "Google 这次押注全模态生成，从视频切入，方向很对。如果体验不翻车，内容创作者的工具箱会迎来一次大升级，值得跟进后续实测。",
+      "score": 74,
+      "tags": [
+        "Google",
+        "多模态",
+        "模型发布",
+        "视频"
+      ],
+      "source": "X：Google AI (@GoogleAI)",
+      "time": "03:40",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpd1208z01yasljldmz8605q",
+      "title": "Gemini Omni发布：物理推理与多模态生成新突破",
+      "link": "https://x.com/sundarpichai/status/2056816915717443862",
+      "summary": "Gemini Omni不仅能构建逼真的场景，还能推理接下来应该发生什么。它结合了对物理的直观理解与Gemini在历史、科学和文化背景方面的知识。\n今日起，通过@Geminiapp + Google Flow和@YouTube Shorts，向全球Google AI Plus、Pro和Ultra订阅用户推出视频生成功能。",
+      "reason": "Gemini Omni 把物理直觉和历史知识喂给了视频模型，生成的不再是静态快照而是有因果的画面，Google 这一步直接把战线拉到了 Sora 的对立面，YouTube Shorts 集成是个杀手应用。",
+      "score": 79,
+      "tags": [
+        "Google",
+        "多模态",
+        "模型发布",
+        "视频"
+      ],
+      "source": "X：Sundar Pichai (@sundarpichai)",
+      "time": "03:29",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpd0wx2i01xdsljlb5qn6lbf",
+      "title": "Google Tensor ML SDK 测试版发布",
+      "link": "https://developers.googleblog.com/google-tensor-sdk-beta-with-litert",
+      "summary": "Google Tensor ML SDK 进入测试版，支持开发者直接在 Pixel 10 设备的 TPU 上构建和部署高性能机器学习模型。该 SDK 集成边缘部署框架 LiteRT，提供统一工作流，可高效转换、编译并运行 PyTorch 或 TFLite 模型，并具备稳定回退机制。此外，新推出的模型库包含超过 100 个经典及生成式 AI 模型（如 Gemma 3），支持低延迟、注重隐私的语音识别、计算机视觉与文本生成等功能。",
+      "reason": "Google 把 TPU 塞进了 Pixel 10，现在开发者能直接在手机上跑 Gemma 3 了，这是移动端 AI 从「能用」到「好用」的关键一步，做 app 的值得关注。",
+      "score": 69,
+      "tags": [
+        "Google",
+        "产品更新",
+        "端侧"
+      ],
+      "source": "Google Developers Blog（RSS）",
+      "time": "03:25",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpd0e4ea01uusljl9rf0wtov",
+      "title": "Gemini for Science：AI助力科学突破",
+      "link": "https://x.com/GoogleDeepMind/status/2056808869242826957",
+      "summary": "我们希望借助AI帮助科学家发现下一个重大突破。\n\nGemini for Science是我们全新的实验性工具套件，旨在帮助他们探索更多假设、大规模验证工作、轻松解析文献等。🧵",
+      "reason": "Google DeepMind 把 Gemini 能力封装成科研专用工具，虽然还在实验阶段，但这是 AI 真正吃进科学数据的第一步，做研究的值得关注具体怎么落地。",
+      "score": 61,
+      "tags": [
+        "DeepMind",
+        "Google",
+        "产品更新",
+        "多模态"
+      ],
+      "source": "X：Google DeepMind (@GoogleDeepMind)",
+      "time": "03:11",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpd0arrt01tdsljlfb386xpt",
+      "title": "谷歌发布Gemini Omni多模态生成模型",
+      "link": "https://x.com/GeminiApp/status/2056814052039356806",
+      "summary": "介绍Gemini Omni，我们的新模型，可以从任何输入创建任何内容，首先从视频开始。\n\n借助Gemini Omni，您可以将图像、视频和文本作为输入组合，并生成基于Gemini现实世界知识的高质量视频。#GoogleIO",
+      "reason": "Google IO 上 Gemini Omni 的发布，让视频生成从“文生”进化到“多媒体融合生成”。输入图、文、视频，输出带着真实世界理解的连贯视频，不是拼接而是再创作。",
+      "score": 81,
+      "tags": [
+        "Google",
+        "多模态",
+        "模型发布",
+        "视频"
+      ],
+      "source": "X：Gemini (@GeminiApp)",
+      "time": "03:08",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpd04j7d01rnsljl7yv1wl28",
+      "title": "OlmoEarth v1.1: 更高效的模型家族",
+      "link": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
+      "summary": "Ai2（Allen Institute for AI）在Hugging Face平台发布了OlmoEarth模型家族的1.1版本。此次更新重点提升了模型的计算效率与运行性能，通过优化的模型架构与训练策略，使OlmoEarth v1.1在保持或增强任务表现的同时，显著降低了推理所需的计算资源与时间成本。这一改进旨在让该开源模型更适用于资源受限的部署场景，推动大规模语言模型的普惠应用。",
+      "reason": "OlmoEarth v1.1 把重心放在效率上，如果降本幅度够大，对需要在本地跑开源模型的团队会是个实在的更新。",
+      "score": 65,
+      "tags": [
+        "开源生态",
+        "推理",
+        "模型发布"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "03:03",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpczbj4s01k6sljl6alywqgy",
+      "title": "Gemini Omni助力Google Flow创作电影级故事",
+      "link": "https://x.com/GoogleDeepMind/status/2056804306653794336",
+      "summary": "Google Flow 🤝 Gemini Omni\n\n使用我们的最新模型创作更具电影感的故事，它带来了批量编辑、改进的角色一致性等功能。以下是@FlowbyGoogle的其他新功能 → https://goo.gle/42K2nge \n\n#GoogleIO",
+      "reason": "Google Flow 终于把批量编辑和角色一致性拉上来了，对做视频内容的人能省不少事，虽然不算颠覆性的代际更新，但实用度提升明显。",
+      "score": 72,
+      "tags": [
+        "Google",
+        "产品更新",
+        "视频"
+      ],
+      "source": "X：Google DeepMind (@GoogleDeepMind)",
+      "time": "02:41",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpcz81ck01ijsljlls9n0jxx",
+      "title": "Gemini月活用户超9亿，回顾年度重大功能发布",
+      "link": "https://x.com/GeminiApp/status/2056799436052017597",
+      "summary": "每月有超过9亿用户使用Gemini应用。\n\n这一增长的重要部分源于我们快速的发布节奏。以下是过去一年我们推出的一些最重要功能的回顾。🧵 #GoogleIO",
+      "reason": "Gemini 月活冲破 9 亿，这条线说明 AI 助手已不再是少数人的玩具，Google 的「快发版」策略正在把生成式 AI 塞进每一部安卓手机。产品经理应该看到这是从实验室到亿级设备的真实穿透率。",
+      "score": 76,
+      "tags": [
+        "Google",
+        "行业动态"
+      ],
+      "source": "X：Gemini (@GeminiApp)",
+      "time": "02:38",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpcz81ck01igsljl0shp9lbm",
+      "title": "Google推出每日简报个性化摘要功能",
+      "link": "https://x.com/GeminiApp/status/2056800978343764238",
+      "summary": "Daily Brief是一项新的个性化摘要功能，旨在成为您每天早晨的首选信息来源。\n它从您的收件箱、日历和任务中收集信息，进行优先级排序、整理，并在专为快速浏览设计的超简洁晨间摘要中为您建议下一步行动。#GoogleIO",
+      "reason": "Google 终于把 Gemini 往真正的个人助理方向推了一步，整合邮件、日历、任务的每日摘要，如果执行到位会抢掉很多人的早晨首页。",
+      "score": 72,
+      "tags": [
+        "Agent",
+        "Google",
+        "产品更新"
+      ],
+      "source": "X：Gemini (@GeminiApp)",
+      "time": "02:38",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpcz81ck01ifsljlbi5lavdp",
+      "title": "Gemini Spark：全天候个人AI代理",
+      "link": "https://x.com/GeminiApp/status/2056801918018564538",
+      "summary": "Gemini Spark 是您的全天候个人AI代理，帮助您驾驭数字生活。\n\n它将 Gemini 从一个回答您问题的助手，转变为一个在您的指导下、代表您完成工作的助手。#GoogleIO",
+      "reason": "Google IO上Gemini的重大转型，从被动回答到主动代理，很可能会重新定义「AI助手」的边界，开发者该重新评估应用层机会了。",
+      "score": 76,
+      "tags": [
+        "Agent",
+        "Google",
+        "产品更新"
+      ],
+      "source": "X：Gemini (@GeminiApp)",
+      "time": "02:38",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpcz81ck01idsljlbzgwzrzm",
+      "title": "GoogleIO发布多项Gemini更新",
+      "link": "https://x.com/GeminiApp/status/2056805027394859137",
+      "summary": "我们在#GoogleIO上宣布了多项Gemini更新，包括：\n- 采用神经表达技术的全新Gemini体验设计  \n- 即将推出的Gemini智能体功能，含每日简报与Gemini Spark  \n- Gemini Omni与3.5 Flash模型  \n- 以及更多内容！  \n详情请见此线程🧵",
+      "reason": "Google IO上Gemini这波更新，从Neural Expressive到代理体验，是在把AI助手往主动帮你做事的方向推，产品人和开发者该认真看看。",
+      "score": 68,
+      "tags": [
+        "Agent",
+        "Google",
+        "产品更新",
+        "多模态"
+      ],
+      "source": "X：Gemini (@GeminiApp)",
+      "time": "02:38",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpcyy35v01fjsljl8d7pfb15",
+      "title": "Gemini Omni：迈向AGI的世界模型",
+      "link": "https://x.com/kimmonismus/status/2056802929957568881",
+      "summary": "真正的“哇”时刻是 Gemini Omni。一个迈向 AGI 的世界模型。\n\n它可以从任何输入创建任何内容。这太疯狂了。",
+      "reason": "Google放出的Gemini Omni不只是新模型，是朝着世界模型走的一大步，视频生成是起点，开发者可以开始盯着API了。",
+      "score": 81,
+      "tags": [
+        "Google",
+        "多模态",
+        "模型发布",
+        "视频"
+      ],
+      "source": "X：Kim (@kimmonismus)",
+      "time": "02:30",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpcyrr9h01d6sljl4ivqyml6",
+      "title": "重要更新：Gemini CLI将迁移至Antigravity CLI",
+      "link": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli",
+      "summary": "Google正在整合其AI终端工具，将面向社区的Gemini CLI迁移至全新平台Antigravity CLI。这款新工具采用Go语言开发，作为代理优先的平台，支持复杂的多代理工作流，并提供更快的执行速度、异步处理能力以及与Antigravity 2.0桌面应用同步的统一架构。企业客户可维持现有访问权限，但个人及免费用户必须在2026年6月18日Gemini CLI停止服务前，完成向新平台的迁移。",
+      "reason": "Google 终端工具从 Gemini CLI 全面转向 Antigravity CLI，强调 agent 优先和多 agent 工作流，6 月 18 日后 Gemini CLI 停服，个人用户得赶紧迁移。",
+      "score": 58,
+      "tags": [
+        "Agent",
+        "Google",
+        "产品更新"
+      ],
+      "source": "Google Developers Blog（RSS）",
+      "time": "02:25",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpcyioqw01c3sljlknwkg5gr",
+      "title": "Google AI 订阅服务全新内容，源自 I/O 2026 大会",
+      "link": "https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions",
+      "summary": "Google 在 I/O 2026 大会上宣布更新其 AI 订阅服务，推出了全新的 100 美元“AI Ultra”计划。同时，面向 Google AI Plus、Pro 和 Ultra 三个层级的现有订阅者，服务均增加了新的功能和权益。此次更新标志着 Google 在 AI 付费订阅领域推出了更高端的选项并强化了现有套餐的价值。",
+      "reason": "Google 在 I/O 上推出 $100 的 AI Ultra 计划，这是大厂把 AI 订阅当成‘基础套餐’来卖的信号，虽然细节还不算多，但想知道 Google AI 付费版最新整合的可以进去看一眼。",
+      "score": 74,
+      "tags": [
+        "Google",
+        "产品更新"
+      ],
+      "source": "Google Blog：AI（RSS）",
+      "time": "02:18",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpcyioqw01c2sljlyy71uqlh",
+      "title": "AI搜索的新时代",
+      "link": "https://blog.google/products-and-platforms/products/search/search-io-2026",
+      "summary": "谷歌宣布了其搜索引擎与AI技术融合的最新进展，标志着AI搜索进入新阶段。此次更新旨在将搜索引擎的广度与AI的深度理解能力相结合，目标是提供更智能、更直观的搜索体验，推动搜索技术的下一代演进。",
+      "reason": "Google搜索宣称开启AI新纪元，但这次官宣只放了张图没给干货，搜索入口的任何变动都牵动流量，值得跟踪但别急着判断。",
+      "score": 70,
+      "tags": [
+        "Google",
+        "产品更新",
+        "搜索"
+      ],
+      "source": "Google Blog：AI（RSS）",
+      "time": "02:18",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpcyioqw01c0sljlnmkn1jvc",
+      "title": "I/O 2026: 欢迎来到自主的 Gemini 时代",
+      "link": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026",
+      "summary": "Google 在 I/O 2026 大会上宣布 Gemini 进入自主代理时代，新功能使其能够自动执行复杂任务，显著提升用户工作效率。大会展示了 Gemini 如何通过代理操作简化工作流程，实现自动化处理，例如自动管理邮件、安排日程或生成报告，帮助用户从重复性工作中解放出来，专注于创造性任务。这一更新基于先进机器学习模型，强调准确性与效率，标志着 AI 助手向更智能、更自主的方向发展。",
+      "reason": "谷歌 I/O 大会上 Sundar Pichai 亲自宣布 agentic Gemini 时代到来，这是把 Gemini 从对话助手升级成真正能自主执行任务的 agent，所有做 AI 应用的接下来都得重新看一遍技术选型。",
+      "score": 89,
+      "tags": [
+        "Agent",
+        "Google",
+        "模型发布"
+      ],
+      "source": "Google Blog：AI（RSS）",
+      "time": "02:18",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpcyioqw01bzsljlbof61j2e",
+      "title": "Google Workspace 推出全新创建方式与高效工作功能",
+      "link": "https://blog.google/products-and-platforms/products/workspace/workspace-updates",
+      "summary": "Google 在最新更新中为 Gmail、Docs 和 Keep 增添了新的语音功能，并推出了一款名为 Google Pics 的全新设计工具。同时，其 AI Inbox 功能也得到了升级与优化。这些更新旨在进一步提升用户在工作场景中的协作效率与创作体验，通过集成更智能的工具和交互方式，帮助用户更便捷地完成多项任务。",
+      "reason": "Google Workspace 直接植入了语音操作和设计工具 Pics，这波更新对办公效率很实在，做产品和运营的可以关注一下实际落地效果。",
+      "score": 75,
+      "tags": [
+        "Google",
+        "产品更新",
+        "多模态",
+        "语音"
+      ],
+      "source": "Google Blog：AI（RSS）",
+      "time": "02:18",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpcyioqw01bysljldf6c395o",
+      "title": "AI Mode 如何改变美国人的搜索方式",
+      "link": "https://blog.google/products-and-platforms/products/search/ai-mode-us-insights",
+      "summary": "AI Mode 上线一周年，美国用户搜索行为呈现关键转变。数据显示，用户正从传统的关键词输入模式逐渐转向自然语言查询，这一变化反映了AI搜索技术的普及和用户交互方式的优化。自然语言查询的使用率显著提升，体现了AI搜索在日常信息获取中的影响力增强，预示着未来搜索体验的革新方向。",
+      "reason": "AI Mode 上线一周年，Google 第一次拿出用户行为数据，从关键词到自然语言的转向比想象中快，做搜索和 SEO 的可以重新理解用户意图了。",
+      "score": 71,
+      "tags": [
+        "Google",
+        "搜索",
+        "现象/趋势"
+      ],
+      "source": "Google Blog：AI（RSS）",
+      "time": "02:18",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpcy5k73018bsljlb97r1dme",
+      "title": "Gemini Spark：全天候自主AI助手",
+      "link": "https://x.com/GeminiApp/status/2056792333132460322",
+      "summary": "Gemini Spark 是你的新全天候个人AI代理。\n\n给它一个任务，它会在后台自主工作，即使你的手机和笔记本电脑已关机。你选择启用它，它被设计为在执行重大操作前会先征询你的意见。#GoogleIO",
+      "reason": "Google把AI代理做成了24/7在线的背景进程，手机关机也不停，这是从对话助手到自主执行的一步大跨越，对普通人来说，真正的虚拟助理可能要来了。",
+      "score": 74,
+      "tags": [
+        "Agent",
+        "Google",
+        "产品更新"
+      ],
+      "source": "X：Gemini (@GeminiApp)",
+      "time": "02:08",
+      "date": "5月20日"
+    },
+    {
+      "id": "cmpcy5k73018asljl1p7ulh4u",
+      "title": "Google AI Ultra套餐降价并新增档位",
+      "link": "https://x.com/GeminiApp/status/2056792679607103626",
+      "summary": "我们将顶级Google AI Ultra套餐的价格从每月250美元降至200美元，并推出新的每月100美元Ultra套餐档位。\n\n这个新套餐解锁了比Pro套餐高5倍的Gemini应用使用限额，助您加速编程与创作。它还包括新功能抢先体验、20TB存储空间、@YouTube Premium等更多权益。适用条款。https://goo.gle/4wEuFGK #GoogleIO",
+      "reason": "Google 把顶级 AI 订阅门槛压到 $100/月，还捆着 YouTube Premium 和 20TB 云存储，这是用互联网式捆绑法打 AI 价格战，对重度用户吸引力不小。",
+      "score": 67,
+      "tags": [
+        "Google",
+        "产品更新"
+      ],
+      "source": "X：Gemini (@GeminiApp)",
+      "time": "02:08",
+      "date": "5月20日"
+    }
+  ]
+}

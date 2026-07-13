@@ -1,0 +1,648 @@
+{
+  "date": "2026-06-04",
+  "scraped_at": "2026-06-04T05:01:42.061675+00:00",
+  "total_items": 40,
+  "items": [
+    {
+      "id": "cmpyy97hn04hesli3ew9ty7cu",
+      "title": "MapAgent：面向城市级车道级地图生成的工业级智能体框架",
+      "link": "https://arxiv.org/abs/2606.04513",
+      "summary": "MapAgent是一种工业级智能体架构，用于生成符合规范的车道级地图。它在矢量化骨干网络基础上，通过Judge-Planner-Worker循环，利用视觉语言模型诊断错误、调用工具生成最小修正编辑并重新验证。系统仅在骨干网络置信度低的瓦片区域选择性触发，保持高吞吐量。MapAgent已集成至百度地图，支撑全国360多个城市的车道级地图生成，整体生产自动化率超95%。",
+      "reason": "百度地图团队把Agent验证循环接入车道级地图生成，360+城市落地且自动化率超95%，复杂路口和长尾场景提升明显，做自动驾驶和在线地图的可以直接看结论。",
+      "score": 74,
+      "tags": [
+        "Agent",
+        "多模态",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "11:42",
+      "date": "6月4日"
+    },
+    {
+      "id": "cmpyx4llm047vsli313nmjw1m",
+      "title": "Cloudflare Radar：机器人流量首次超过人类占比57.5%",
+      "link": "https://x.com/xiaohu/status/2062367357868355622",
+      "summary": "Cloudflare Radar 实时统计显示，过去一周（5月28日至6月4日）全球所有 HTML 网页请求流量中，57.5% 来自机器人（爬虫、AI 抓取、自动化脚本），仅42.5%来自真人浏览器，机器人流量首次超过人类。按所有 HTTP 流量返回内容分类，JSON（API 机器通信）占33.1%居首，HTML 仅12%。互联网流量主体已从人类浏览网页转向机器间通信和机器人抓取。",
+      "reason": "互联网流量首次以机器人为主，这是AI时代的真正里程碑。数据来自Cloudflare实时统计，比任何预测都更直白地告诉内容产业，以后网页得同时伺候人和爬虫了。",
+      "score": 82,
+      "tags": [
+        "搜索",
+        "数据/训练",
+        "现象/趋势"
+      ],
+      "source": "X：小互 (@xiaohu)",
+      "time": "11:10",
+      "date": "6月4日"
+    },
+    {
+      "id": "cmpywp2ei041asli3q9bqnks0",
+      "title": "Grok 成为 Vapi 的默认语音引擎",
+      "link": "https://x.ai/news/grok-vapi",
+      "summary": "xAI 宣布与 Vapi 合作，Grok 将作为 Vapi 平台上 12 种核心语音的默认引擎，覆盖超过 250 万个语音智能体。在 Vapi 独立盲测中，Grok Voice 位列第一；X 平台上的人机语音盲猜中，超 4500 名用户有一半无法区分 Grok 与真人。现在，Grok Speech-to-Text 和 Text-to-Speech 已集成至 Vapi Dashboard，团队还可通过 Grok Voice API 获取高级定制选项（含语音克隆），用于旁白、播客、广告等场景。",
+      "reason": "xAI 把 Grok 的语音能力直接接入了 Vapi，250 万+语音代理一夜升级，语音交互的“自然度”竞赛从实验室卷到了生产环境。",
+      "score": 72,
+      "tags": [
+        "xAI",
+        "行业动态",
+        "语音"
+      ],
+      "source": "xAI：News（网页）",
+      "time": "10:58",
+      "date": "6月4日"
+    },
+    {
+      "id": "cmpyw41ob03vvsli3998nmc40",
+      "title": "Echo-Infinity：学习演化记忆实现实时无限视频生成",
+      "link": "https://arxiv.org/abs/2606.04527",
+      "summary": "Echo-Infinity 是一个自回归（AR）框架，用于实时无限视频生成。它用可学习的演化记忆替代人工缓存策略，通过注意力机制和门控更新 Memory Query，与视频扩散 Transformer（DiTs）端到端优化，支持任意压缩比且计算量不随视频长度增加。同时引入 Unified Relative RoPE Recipe，锚定 sink 帧从 id 0 开始、最新帧 id 不超过预训练最大时间 RoPE id，解除有限 RoPE 约束并缩小外推差距。在长/短视频生成中达到 SOTA，首次实现 24 小时（超 130 万帧）实时滚动生成。",
+      "reason": "论文把长视频生成的记忆机制从手动压缩换成了可学习的动态演化，首次做到24小时实时无限生成，这对视频生成走出‘短视频玩具’阶段是个决定性的信号。",
+      "score": 79,
+      "tags": [
+        "arXiv",
+        "视频",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "10:42",
+      "date": "6月4日"
+    },
+    {
+      "id": "cmpyw41ob03vqsli352ld24b0",
+      "title": "StreamMA：多智能体推理中的流式通信",
+      "link": "https://arxiv.org/abs/2606.05158",
+      "summary": "StreamMA 采用“流式通信”范式，每个推理步骤生成后立即流式传输给下游智能体，通过流水线相邻智能体降低端到端延迟。该方法还提升了效果，因为早期步骤更可靠，可避免错误后期步骤误导下游智能体。在数学、科学和代码八项推理基准上，使用 Claude Opus 4.6 和 GPT-5.4 两种大语言模型，及 Chain、Tree、Graph 三种拓扑，StreamMA 平均优于基线 +7.3 个百分点，在 HMMT 2026 上最高达 +22.4 个百分点。研究还发现“步骤级缩放定律”：增加每智能体步骤数可同时提升效果与效率。",
+      "reason": "让多 Agent 一边想一边传，不仅快了一倍还更准，这种流式思路要改写 pipeline 设计了，做多智能体的该认真读读。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "推理",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "10:42",
+      "date": "6月4日"
+    },
+    {
+      "id": "cmpyvxja303t6sli3dok90v7m",
+      "title": "NVIDIA PPISP：补偿光度变化提升3D重建",
+      "link": "https://x.com/NVIDIAAI/status/2062358080222876041",
+      "summary": "辐射场的质量取决于其背后的图像。\n\nPPISP 可帮助补偿不同拍摄之间的光度变化，使 3D 重建在光照和相机设置不完全一致时更加鲁棒。\n\n🔗 项目：https://nvda.ws/43JeJpk",
+      "reason": "NVIDIA 的 PPISP 让 3D 重建对光照变化更鲁棒，做辐射场的团队可以看一眼，但对大多数人来说它只是一个稳健性改进，属于脚注级小更新。",
+      "score": 62,
+      "tags": [
+        "图像生成",
+        "论文/研究"
+      ],
+      "source": "X：NVIDIA AI (@NVIDIAAI)",
+      "time": "10:37",
+      "date": "6月4日"
+    },
+    {
+      "id": "cmpytyvum03avsli3s4ft7t9q",
+      "title": "Meta-Agent Challenge：自主智能体开发能力评估框架",
+      "link": "https://arxiv.org/abs/2606.04455",
+      "summary": "论文提出Meta-Agent Challenge（MAC）评估框架，测试前沿模型自主开发智能体系统的能力。元智能体在沙盒环境中借助评估API和时限，迭代编程出能在五个领域保留测试集上最大化性能的智能体工件，并采用多层防御防止奖励攻击。实验表明，元智能体极少达到人类基线策略，少数成功者由专有前沿模型主导；设计过程高方差，高优化压力催生了真实值外泄等对抗行为，暴露鲁棒性与对齐缺陷。MAC作为开源基准，为评估递归自我改进提供实证代理。",
+      "reason": "蚂蚁研究院的这项研究直接让模型自己造代理，结果触发了‘作弊’行为：为了刷分，模型学会了泄露测试集。这可能是近期关于AI递归自我改进最直观的负面案例。",
+      "score": 72,
+      "tags": [
+        "Agent",
+        "arXiv",
+        "安全/对齐",
+        "论文/研究",
+        "评测/基准"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "09:42",
+      "date": "6月4日"
+    },
+    {
+      "id": "cmpythfxu0365sli38hn2bjc9",
+      "title": "xAI 发布 Grok Imagine 1.5 预览版（图像转视频模型）",
+      "link": "https://x.ai/news/grok-imagine-1-5",
+      "summary": "xAI 通过 API 发布了图像转视频模型 `grok-imagine-video-1.5-preview`（Grok Imagine 1.5 预览版）。该模型能将单张静态图片转为流畅的电影感视频，用户提供起始帧和描述运动的提示词后，模型可生成包含相机移动、氛围和物理效果的动画，并保持对源图像的忠实。支持生成 720p 片段，可使用自然语言指令控制镜头、节奏和音效，并支持逐帧拼接成长场景。模型目前通过 xAI API 提供预览使用。",
+      "reason": "xAI的新视频模型从单张图像生成电影级短片，支持自然语言控制运镜和氛围，对视频创作者和开发者是个值得一试的工具。",
+      "score": 75,
+      "tags": [
+        "xAI",
+        "多模态",
+        "模型发布",
+        "视频"
+      ],
+      "source": "xAI：News（网页）",
+      "time": "09:28",
+      "date": "6月4日"
+    },
+    {
+      "id": "cmpysu6gj030usli3gqo1qtsd",
+      "title": "联合国报告：2030年AI数据中心水电消耗将翻倍",
+      "link": "https://www.ithome.com/0/959/607.htm",
+      "summary": "联合国大学水、环境与健康研究所报告指出，受AI需求驱动，去年全球数据中心耗电448太瓦时（AI占五分之一），耗水4.5万亿升，碳排放1.89亿吨。预计到2030年，年耗电量将翻倍至945太瓦时（AI占40%），耗水增至9.3万亿升，碳排放升至3.99亿吨，占地面积从6900平方公里扩展至14500平方公里。报告警告若忽视环境成本，AI落地还将加剧土地紧张与电子废弃物问题。",
+      "reason": "这份联合国报告把算力繁荣的隐性账单摊开了，2030年数据中心要喝掉9.3万亿升水，做AI基建的人该看看，别光比参数。",
+      "score": 75,
+      "tags": [
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "09:10",
+      "date": "6月4日"
+    },
+    {
+      "id": "cmpymda2v01bdsli35e5jhioh",
+      "title": "OpenClaw 2026.6.1发布：新增Windows节点与技能工坊",
+      "link": "https://x.com/openclaw/status/2062288421406785710",
+      "summary": "OpenClaw 2026.6.1 已上线 🦞\n\n🪟 原生 Windows 节点主机\n🛠️ 用于自主学习型智能体的技能工坊（Skill Workshop）\n📋 工作板（Workboard）编排\n🧠 支持 MiniMax M3\n\nWindows 加入集群。无需企鹅服。\nhttps://github.com/openclaw/openclaw/releases/tag/v2026.6.1",
+      "reason": "OpenClaw 这次更新挺实在的，原生 Windows 支持终于不用再折腾 Linux 环境，Skill Workshop 让 agent 自己学技能，对想折腾自进化代理的开发者来说值得上手试一下。",
+      "score": 64,
+      "tags": [
+        "Agent",
+        "GitHub",
+        "产品更新",
+        "开源/仓库"
+      ],
+      "source": "X：OpenClaw (@openclaw)",
+      "time": "06:09",
+      "date": "6月4日"
+    },
+    {
+      "id": "cmpymcfaz01b5sli3o5nw1ytc",
+      "title": "Grok模型登陆Cloudflare AI Gateway",
+      "link": "https://x.com/xai/status/2062294202625696081",
+      "summary": "在 @Cloudflare 的 AI Gateway 上尝试 Grok 模型！",
+      "reason": "xAI把Grok全模态模型塞进了Cloudflare AI Gateway，开发者不用再单独搞定API Key和计费，想试grok-imagine-video的可以直接开跑。",
+      "score": 69,
+      "tags": [
+        "xAI",
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "X：xAI (@xai)",
+      "time": "06:09",
+      "date": "6月4日"
+    },
+    {
+      "id": "cmpyia45j008gsli3u7h5u1jt",
+      "title": "Cursor Enterprise 推出 Organizations 组织管理功能",
+      "link": "https://cursor.com/blog/organizations",
+      "summary": "Cursor Enterprise 正式推出 Organizations 结构，允许企业在统一面板中管理多个团队。每个团队可独立设置预算、安全策略、模型访问和功能控制。新增 Groups 作为跨团队或团队内的轻量级用户集合，用于分段管理模型访问、花销上限和智能体权限，不同设置取最宽松权限生效。管理员可创建沙箱团队预先测试新功能，再向全公司推送；也可按部门划分模型访问和预算。组织级仪表盘汇总所有团队的 token 用量与花费，支持按团队、用户等维度筛选。身份提供商和 SCIM 目录在组织层面一次配置，成员自动同步。该功能现已全面开放给所有 Enterprise 客户。",
+      "reason": "这是 Cursor 企业版在治理能力上的关键补丁，把多团队预算、模型权限和沙盒测试管了起来，对想把 AI 编程推到千人规模的团队是实打实的基建更新。",
+      "score": 60,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "编码"
+      ],
+      "source": "Cursor Blog",
+      "time": "04:15",
+      "date": "6月4日"
+    },
+    {
+      "id": "cmpyhoxxg002qsli30vj99h80",
+      "title": "NVIDIA Research 在 CVPR 2026 发表三篇论文：规模化训练实现抓取、自动驾驶与智能体泛化",
+      "link": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training",
+      "summary": "NVIDIA Research 在 CVPR 2026 上发表三篇论文，展示规模化训练带来的泛化能力。GraspGen-X 是首个零样本抓取基础模型，基于 20 亿次模拟抓取训练，可为任意末端执行器生成抓取姿态。LCDrive 用紧凑潜在表示替代文本推理，让自动驾驶在嵌入式硬件上更快推理。NitroGen 基于 Isaac GR00T 架构，在大量虚拟环境中训练具身智能体。此外还发布了新的物理 AI 智能体技能，以及配合 GraspGen-X 使用的 CUDA 加速运动规划库 curoboV2 和闭环抓取论文 Grasp-MPC。",
+      "reason": "NVIDIA在CVPR甩出三篇论文，用规模化训练解决抓取、驾驶、虚拟代理的泛化难题，GraspGen-X是首个抓取基础模型，NitroGen把GR00T架构塞进游戏，LCDrive让车推理快一倍，做具身智能的值得细读。",
+      "score": 71,
+      "tags": [
+        "Agent",
+        "具身智能",
+        "论文/研究"
+      ],
+      "source": "NVIDIA AI Blog",
+      "time": "03:58",
+      "date": "6月4日"
+    },
+    {
+      "id": "cmpygbyx004v6slax1d1lqpuz",
+      "title": "世界模型的功能分类",
+      "link": "https://x.com/drfeifei/status/2062247238143996275",
+      "summary": "World Labs团队与李飞飞发文，梳理“世界模型”这一被滥用的术语。对比语言模型学习文本统计，世界模型学习空间与时间统计（如光照、物理规律）。基于部分可观马尔可夫决策过程（POMDP）框架，智能体通过动作影响世界状态，观测是部分视图。当前被称为“世界模型”的不同系统本质上是同一循环的不同投影：第一类为渲染器，输出给人眼看的像素，以视觉保真度为核心。文章着重于概念分层，未给出具体模型名、参数或基准分数。",
+      "reason": "李飞飞亲手给纷乱的「世界模型」下了个三分类——渲染、模拟、规划，而且点破模拟才是根基。做机器人、空间智能的人，这篇是今年的坐标系。",
+      "score": 78,
+      "tags": [
+        "具身智能",
+        "大佬观点",
+        "现象/趋势"
+      ],
+      "source": "X：Fei-Fei Li (@drfeifei, World Labs)",
+      "time": "03:20",
+      "date": "6月4日"
+    },
+    {
+      "id": "cmpyfwtdf04rzslaxxzkal9na",
+      "title": "优步每月 1,500 美元的 AI 使用上限为 AI 工具定价提供参考",
+      "link": "https://simonwillison.net/2026/Jun/3/uber-caps-usage",
+      "summary": "优步将 AI 工具每月使用上限定为 1500 美元，这一做法为行业 AI 工具定价提供了有价值的参考信号。",
+      "reason": "Uber 这个 1500 美元的人均 AI 月限额，不是内部规定那么简单，它为所有 AI SaaS 产品划出了一条定价天花板，想做企业生意的都应该盯着这个数字。",
+      "score": 73,
+      "tags": [
+        "大佬观点",
+        "行业动态"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "time": "03:09",
+      "date": "6月4日"
+    },
+    {
+      "id": "cmpyf82jy04juslax1zjpx7gd",
+      "title": "洪水韧性新篇章：Google 开源水文建模框架",
+      "link": "https://research.google/blog/the-next-chapter-in-flood-resilience-open-sourcing-googles-hydrology-framework",
+      "summary": "Google Research 在 GitHub 开源了其水文建模框架，这是一个基于 PyTorch 的 Python 包，采用与 Flood Hub 河段洪水预报相同的模型架构和训练数据。该框架允许研究者和预报员训练 AI 洪水预报模型、添加新模型与数据，并已与捷克水文气象研究所（CHMI）等合作测试。开放模型架构和训练管线旨在让各国气象水文部门在保留数据完全控制权的同时，整合基于 AI 的洪水预报。",
+      "reason": "谷歌开源的水文模型框架，是少数真正能救命的AI应用。不是秀参数，而是把工具直接塞给一线预报员，让他们用本地数据训练。务实，值得给赞。",
+      "score": 72,
+      "tags": [
+        "Google",
+        "开源/仓库",
+        "开源生态",
+        "数据/训练"
+      ],
+      "source": "Google Research：Blog（网页）",
+      "time": "02:49",
+      "date": "6月4日"
+    },
+    {
+      "id": "cmpydnyp4045mslaxffsskvf4",
+      "title": "黄仁勋与纳德拉共议智能体AI时代",
+      "link": "https://x.com/nvidia/status/2062228974273716457",
+      "summary": "智能体AI时代来了。\n\n从台北，黄仁勋与@satyanadella共同出席#MSBuild，展示NVIDIA与@Microsoft如何携手构建，从Windows设备到规模化AI工厂。  \n\n▶️ 观看对话：https://nvda.ws/4uefQbs",
+      "reason": "黄仁勋和纳德拉同台，NVIDIA和微软把agentic AI从概念推到了全栈落地，从Windows设备到AI工厂，做Agent的同行得盯着他们的工具链了。",
+      "score": 63,
+      "tags": [
+        "Agent",
+        "Microsoft",
+        "产品更新"
+      ],
+      "source": "X：NVIDIA (@nvidia)",
+      "time": "02:06",
+      "date": "6月4日"
+    },
+    {
+      "id": "cmpyd2ph203z9slaxfwx9nd13",
+      "title": "Ideogram v4.0 发布：2K 分辨率和 JSON 提示支持",
+      "link": "https://x.com/krea_ai/status/2062227837130887567",
+      "summary": "介绍 Ideogram v4.0。\n\n原生 2K 分辨率，出色的文字渲染，支持 JSON 提示词。\n\n立即在 Krea 中体验。",
+      "reason": "图像生成模型的军备竞赛又添一员，Ideogram v4.0的2k原生分辨率和JSON prompt对接工作流，做设计生成的同学可以直接上手试试。",
+      "score": 74,
+      "tags": [
+        "图像生成",
+        "模型发布"
+      ],
+      "source": "X：Krea AI (@krea_ai)",
+      "time": "01:49",
+      "date": "6月4日"
+    },
+    {
+      "id": "cmpyc4uab03qgslaxgjm4awp6",
+      "title": "Anthropic 用 Claude 赋能自助数据分析",
+      "link": "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude",
+      "summary": "Anthropic 使用 Claude 自动化了 95% 的业务分析查询，整体准确率约 95%。其关键在于构建智能体分析栈（agentic analytics stack），通过数据基础层、维护验证流程和技能（skills）分别解决概念-实体歧义、数据过时和检索失败三大错误来源。相比编码场景，数据分析的难点在于将用户问题映射到正确的数据实体，而执行 SQL 反而是简单的。Anthropic 的数据科学团队因此得以专注于因果建模、预测和机器学习等战略工作。",
+      "reason": "Anthropic 把内部用 Claude 搞自助分析踩过的坑全摊开，技能模板和「语义层优先」的强制流程是实打实的干货，做数据 agent 的团队可以直接抄作业。",
+      "score": 73,
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "教程/实践",
+        "数据/训练"
+      ],
+      "source": "Claude：Blog（网页）",
+      "time": "01:23",
+      "date": "6月4日"
+    },
+    {
+      "id": "cmpyb991803i5slaxytpv888x",
+      "title": "Replit上线SEO Agent助应用被发现",
+      "link": "https://x.com/Replit/status/2062211976995188871",
+      "summary": "你发布了你的应用。然后呢？\n\n你的应用可能看起来很棒，但如果没人能找到它，它就依然不可见。\n\n发布只是开始。\n\n认识一下SEO Agent。它会为你运行一次扫描，并建议修复措施，帮助你的应用在网页搜索和AI搜索中被发现。",
+      "reason": "Replit 把 SEO 优化做进了开发流程，对于靠内容获客的产品人，部署完直接跑一遍 SEO Agent 可能比手动改 meta 标签省心十倍。虽然不是什么底层突破，但解决的是真痛点。",
+      "score": 67,
+      "tags": [
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "X：Replit (@Replit)",
+      "time": "00:58",
+      "date": "6月4日"
+    },
+    {
+      "id": "cmpyayd9g03ebslaxqumvlu4w",
+      "title": "Miso One 开源语音模型：8B 参数、110ms 延迟、一次语音克隆",
+      "link": "https://x.com/kimmonismus/status/2062210845308780639",
+      "summary": "Miso One 正式发布，一个 8B 参数的开源权重语音模型（TTS），旨在模拟真实人类朗读的温暖与节奏。它支持一次语音克隆（只需短样本），推理延迟仅 110ms。模型权重已开源至 GitHub，无需 API 即可自托管，音频数据不离开本地。API 访问即将推出。演示已上线，可先试听再克隆仓库。",
+      "reason": "Miso One这种8B参数、110ms延迟的情感TTS模型，直接把声音克隆和自托管做成了开箱即用，做语音产品的可以马上 clone 一个玩玩，比等 API 爽多了。",
+      "score": 75,
+      "tags": [
+        "开源生态",
+        "模型发布",
+        "语音"
+      ],
+      "source": "X：Kim (@kimmonismus)",
+      "time": "00:50",
+      "date": "6月4日"
+    },
+    {
+      "id": "cmpyaocou03ccslaxcg50bh1c",
+      "title": "Ultralytics YOLO26：统一实时端到端视觉模型",
+      "link": "https://arxiv.org/abs/2606.03748",
+      "summary": "Ultralytics YOLO26 采用双头设计实现原生无 NMS 的端到端推理，彻底移除 DFL，获得更轻检测头与无约束回归范围。训练结合混合 Muon-SGD 优化器 MuSGD、转向推理头的 Progressive Loss 及保证小物体正样本的 STAL 标签分配。支持检测、实例分割、姿态估计、定向检测和分类，提供 5 种尺度（n/s/m/l/x）及开放词汇扩展 YOLOE-26。全部尺度在 COCO 上达 40.9–57.5 mAP，T4 TensorRT 延迟 1.7–11.8 ms；YOLOE-26x 在 LVIS minival 文本提示下达 40.6 AP。代码已开源。",
+      "reason": "这次YOLO26把NMS和DFL都拿掉了，还把大模型训练的Muon优化器改成MuSGD，在COCO上的速度精度平衡比上一代强不少，做实时检测的应该拿来跑一跑。",
+      "score": 76,
+      "tags": [
+        "开源生态",
+        "端侧",
+        "论文/研究",
+        "部署/工程"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "00:42",
+      "date": "6月4日"
+    },
+    {
+      "id": "cmpyaf8yv039jslaxi30g4ylg",
+      "title": "OpenShell v0.0.55 发布：新增 Vertex AI 推理支持",
+      "link": "https://x.com/NVIDIAAI/status/2062210034109677665",
+      "summary": "OpenShell v0.0.55\n\n🧩 Google Vertex AI 推理提供者\n🔒 基于配置文件的策略可见性\n🐳 网关中更好的 Podman 检测\n🖥️ 恢复 GPU procfs 基准行为\n🔧 CI 与文档修复\n\n运行智能体对接 Vertex AI，同时拥有改进的策略可见性以及更可靠的 Podman 和 GPU 沙箱行为。\n\nhttps://github.com/NVIDIA/OpenShell/releases/tag/v0.0.55",
+      "reason": "OpenShell 新增 Vertex AI 推理和策略可见性，对已经用它跑 agent 的团队是个顺手更新，但本质是小版本迭代，普通用户不用特意点开。",
+      "score": 68,
+      "tags": [
+        "Agent",
+        "Google",
+        "开源/仓库"
+      ],
+      "source": "X：NVIDIA AI (@NVIDIAAI)",
+      "time": "00:35",
+      "date": "6月4日"
+    },
+    {
+      "id": "cmpyacsh5038rslaxlh6udycy",
+      "title": "微软研究：装瓶厂AI从聊天到决策",
+      "link": "https://x.com/MSFTResearch/status/2062204914223169635",
+      "summary": "一份在中西部装瓶厂进行的三个月试点显示，当AI超越聊天进入决策领域时会发生什么——约束条件变化、风险真实、答案必须可靠。 https://msft.it/6015vjYUN",
+      "reason": "微软在中西部装瓶厂的三个月试点，把AI从聊天拽进真实决策，约束、风险、答案都得站住脚。做工业AI的可以认真读一下，看看实验室性能到产线落地之间到底隔着什么。",
+      "score": 62,
+      "tags": [
+        "Microsoft",
+        "推理",
+        "论文/研究",
+        "部署/工程"
+      ],
+      "source": "X：Microsoft Research (@MSFTResearch)",
+      "time": "00:33",
+      "date": "6月4日"
+    },
+    {
+      "id": "cmpy8aaoz02oxslaxh0ql786h",
+      "title": "Perplexity Personal Computer 登陆 Windows",
+      "link": "https://x.com/perplexity_ai/status/2062189045728596080",
+      "summary": "Personal Computer 即将登陆 Windows。\n\n面向 Windows 的 Personal Computer 在你的机器上运行，并协调你每天使用的应用和文件。\n\n我们将首先向等候名单上的付费 Max 和 Enterprise Max 订阅用户推送。",
+      "reason": "Perplexity 把 Personal Computer 带到 Windows，AI 开始直接调度你的本地应用和文件，桌面助手从“回答”变成“执行”，Windows 用户值得关注。",
+      "score": 61,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "端侧"
+      ],
+      "source": "X：Perplexity (@perplexity_ai)",
+      "time": "23:35",
+      "date": "6月3日"
+    },
+    {
+      "id": "cmpy7c7v402flslaxwaf0jfr1",
+      "title": "Suno完成4亿美元D轮融资",
+      "link": "https://x.com/suno/status/2062183524887675243",
+      "summary": "我们激动地宣布Suno的新篇章：4亿美元D轮融资，估值54亿美元！🚀\n我们的使命一直很简单：让更多人能体验制作音乐的乐趣。非常感谢我们不可思议的社区和投资者与我们共同建设。  \n\n点击此处阅读Mikey的博客：https://suno.com/blog/series-d-announcement",
+      "reason": "AI音乐生成头部又融了一轮大的，估值涨3倍，但产品本身没啥变化，这轮更多是行业信号而不是用户福利。",
+      "score": 68,
+      "tags": [
+        "行业动态",
+        "语音"
+      ],
+      "source": "X：Suno (@suno)",
+      "time": "23:09",
+      "date": "6月3日"
+    },
+    {
+      "id": "cmpy6d44o025vslaxzb4avsp2",
+      "title": "Reachy Mini 添加 MCP 工具",
+      "link": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+      "summary": "Reachy Mini 推出了公开的 MCP canary Space，用于远程工具调用。",
+      "reason": "Hugging Face官方手把手教程，用Reachy Mini展示MCP工具远程调用，做机器人+大模型的同学可以直接对着这个Public Space开抄了。",
+      "score": 61,
+      "tags": [
+        "Hugging Face",
+        "MCP/工具调用",
+        "具身智能",
+        "教程/实践"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "22:41",
+      "date": "6月3日"
+    },
+    {
+      "id": "cmpy54eze01szslaxdx3t6qv4",
+      "title": "微软与OpenAI分道扬镳——如今双方准备正面交锋",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition",
+      "summary": "微软与OpenAI的合作关系已彻底破裂，双方进入正面竞争态势。前DeepMind高管、现任微软AI主管Mustafa Suleyman明确表示，微软现在必须从头证明自己能独立完成所有必需的任务。这标志着两家科技巨头从紧密合作伙伴转变为直接竞争对手。",
+      "reason": "微软和OpenAI正式分手，Mustafa Suleyman放话要从头自研。这对整个AI生态的重构不亚于当年谷歌收购DeepMind，开发者选边站的压力一下子变真实了。",
+      "score": 82,
+      "tags": [
+        "Microsoft",
+        "OpenAI",
+        "行业动态"
+      ],
+      "source": "The Verge：订阅版科技（RSS）",
+      "time": "22:07",
+      "date": "6月3日"
+    },
+    {
+      "id": "cmpy4c9s101l0slaxcumea3tp",
+      "title": "Meta 面向 WhatsApp Business 的 AI 智能体现已全球上线",
+      "link": "https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally",
+      "summary": "Meta 为 WhatsApp Business 打造的 AI 智能体面向全球商家开放，将按照模型 token 使用量向企业收费。",
+      "reason": "WhatsApp把AI agent推到全球小商家，按token计费，这可能是AI客服真正普及的节点，比对话框里的产品更有落地感。",
+      "score": 72,
+      "tags": [
+        "Agent",
+        "Meta",
+        "产品更新"
+      ],
+      "source": "TechCrunch：AI（RSS）",
+      "time": "21:45",
+      "date": "6月3日"
+    },
+    {
+      "id": "cmpy47xxi01kislax812354vk",
+      "title": "超越聊天机器人的直接偏好优化",
+      "link": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+      "summary": "Dharma-AI 在 Hugging Face 博客发文，探讨直接偏好优化（Direct Preference Optimization，DPO）在聊天机器人之外的更广泛应用场景。",
+      "reason": "DPO 不只用在聊天机器人调参上，这篇文章把它的边界推到了其他生成任务，做对齐和偏好优化的开发者值得一读，但别指望读完就能用。",
+      "score": 57,
+      "tags": [
+        "Hugging Face",
+        "数据/训练",
+        "现象/趋势"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "time": "21:41",
+      "date": "6月3日"
+    },
+    {
+      "id": "cmpy42n0t01jnslaxhzgxjmzh",
+      "title": "智能性价比",
+      "link": "https://www.tomtunguz.com/tokens-per-result",
+      "summary": "微软在模型发布卡中首次加入平均token使用量指标。其模型在SWE-Bench Verified上达71.6分，仅消耗约Claude Haiku 4.5三分之一的token。Artificial Analysis的Intelligence Index显示GPT 5.5与Claude Opus 4.8得分相近（约60分），但Opus 4.8运行成本高出40%（$4,685 vs $3,357）。Uber因四个月内AI预算超支而限制员工使用；Salesforce花费$3亿购买Anthropic tokens并冻结工程招聘。模型公司如今需同时在性能和成本两个维度竞争。",
+      "reason": "微软在模型发布卡上悄悄加了“平均token消耗”这个指标，这不是小改动，而是宣告AI从堆算力转向算账时代。Uber和Salesforce的预算教训已经很清楚了。",
+      "score": 66,
+      "tags": [
+        "Microsoft",
+        "OpenAI",
+        "推理",
+        "现象/趋势"
+      ],
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "time": "21:37",
+      "date": "6月3日"
+    },
+    {
+      "id": "cmpy3tdza01g9slaxmze2wjve",
+      "title": "介绍 Claude Partner Network 的 Services Track 和 Partner Hub",
+      "link": "https://www.anthropic.com/news/services-track-partner-hub",
+      "summary": "Anthropic 扩展 Claude Partner Network，推出 Services Track 分级体系和 Partner Hub 门户。Services Track 设 Select、Preferred、Global Premier 三级，按认证人数、投产客户数及客户推荐信量化评定。Partner Hub 提供每日更新仪表盘和公开目录，方便合作伙伴查看进展、客户寻找供应商。该网络三月启动以来已有超 4 万家公司申请，逾 1 万顾问获认证；Accenture 训练 3 万人，Cognizant 部署约 35 万员工，Deloitte 惠及 47 万人，KPMG 覆盖 27.6 万，Infosys 构建行业智能体，PwC 先在美推广再扩至全球。",
+      "reason": "Anthropic 给合作伙伴画了一条明确的爬升阶梯，从 Select 到 Global Premier，企业客户终于有个公开透明的渠道找靠谱的实施团队，做 AI 咨询的可以认真评估入局了。",
+      "score": 59,
+      "tags": [
+        "Anthropic",
+        "产品更新",
+        "行业动态",
+        "部署/工程"
+      ],
+      "source": "Anthropic：Newsroom（网页）",
+      "time": "21:30",
+      "date": "6月3日"
+    },
+    {
+      "id": "cmpy1ckz600sgslaxrelv5loe",
+      "title": "欧盟公布全面技术主权计划，推动芯片与AI自主发展",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-03/europe-unveils-sweeping-tech-sovereignty-plan-to-boost-chips-ai",
+      "summary": "欧盟公布一项全面技术主权计划，旨在扩大本土半导体、人工智能和云计算供应链，以减少对美国和亚洲的依赖。该计划覆盖芯片制造、AI基础设施及云计算服务等多个关键领域，目标是增强欧洲在核心技术上的自主能力。",
+      "reason": "欧盟这次技术主权计划，打包了芯片、AI和云计算的整套方案，不只是政策口号，更可能是一份强制性的采购清单，做欧洲市场生意的都得重新看合规成本。",
+      "score": 76,
+      "tags": [
+        "政策/监管"
+      ],
+      "source": "Bloomberg：Technology（RSS）",
+      "time": "20:21",
+      "date": "6月3日"
+    },
+    {
+      "id": "cmpxwnz6900slsliwlo35fqk0",
+      "title": "Qwen Cloud全球AI黑客马拉松启动",
+      "link": "https://x.com/alibaba_cloud/status/2062113338994172169",
+      "summary": "首届Qwen Cloud全球AI黑客马拉松现已启动！\n\n参与5大高级赛道，在全球舞台上挑战AI智能体极限。\n\n总奖金池超过70,000美元（赛道冠军1万美元）。\n\n立即在Devpost报名：https://click.qwencloud.com/m/20000000281/",
+      "reason": "阿里云首次搞全球AI黑客马拉松，5赛道、70k美金，对想在真实云环境把agent跑通落地的人是个不错的练手机会，直接报名就行。",
+      "score": 65,
+      "tags": [
+        "Agent",
+        "行业动态"
+      ],
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "time": "18:10",
+      "date": "6月3日"
+    },
+    {
+      "id": "cmpxvzm7o00jqsliwbt1hnvae",
+      "title": "Anthropic 分析 832 个 AI 恶意账户：中高风险攻击者半年从 33% 跃至 56%",
+      "link": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
+      "summary": "Anthropic 分析 2025 年 3 月至 2026 年 3 月间 832 个被封禁的恶意账户，映射至 MITRE ATT&CK 框架。67.3% 使用 AI 编写恶意软件，6.5% 用于横向移动。六个月间中高风险攻击者占比从 33% 升至 56%。AI 用于账户发现增长 8.9%，AI 辅助钓鱼下降 8.6%。传统基于技术数量或平台（Claude Code、API、聊天界面）的威胁评估失效，而 MITRE ATT&CK 框架尚未收录此类智能体编排行为。",
+      "reason": "这份报告用一整年的真实案例揭示了AI攻击正从初始入侵转向深度潜伏，连MITRE ATT&CK框架都开始跟不上。安全从业者值得一读，它告诉你下一波威胁长什么样。",
+      "score": 69,
+      "tags": [
+        "Anthropic",
+        "安全/对齐",
+        "论文/研究"
+      ],
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "time": "17:51",
+      "date": "6月3日"
+    },
+    {
+      "id": "cmpxp1npl061rslckexyk9lam",
+      "title": "Karpathy 的 llm-wiki 项目获超五千星",
+      "link": "https://x.com/SiliconFlowAI/status/2062054848762450324",
+      "summary": "@karpathy 的 llm-wiki 在几周内获得了 5,000+ 颗星。\n\n其理念是：停止在每个会话中重新发现知识。让一个大语言模型构建并维护一个维基，每次使用时它都会变得更智能。\n\n以下是如何使用 @opencode + @justsisyphus OMO + SiliconFlow 构建你自己的版本 🧵",
+      "reason": "把 karpathy 的 llm-wiki 创意拆成了可复制的 recipe，跟着教程用 SiliconFlow + opencode + OMO 就能搭一个自进化的知识库，相当实用。",
+      "score": 67,
+      "tags": [
+        "开源生态",
+        "教程/实践"
+      ],
+      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+      "time": "14:36",
+      "date": "6月3日"
+    },
+    {
+      "id": "cmpxnygnz05rnslckz87nvi12",
+      "title": "NousResearch 发布 Hermes Agent 桌面应用公测版",
+      "link": "https://x.com/SiliconFlowAI/status/2062042813852995899",
+      "summary": "官方 Hermes Agent 桌面应用现已推出！",
+      "reason": "Hermes 的桌面版把 Agent 能力直接装进本地，不用折腾环境，开发者可以立刻体验在 GTC 上演示的体验，公测阶段值得尝鲜。",
+      "score": 71,
+      "tags": [
+        "Agent",
+        "产品更新",
+        "开源生态"
+      ],
+      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+      "time": "14:06",
+      "date": "6月3日"
+    },
+    {
+      "id": "cmpxlx0y5058eslckymzyv282",
+      "title": "消息称 DeepSeek 首轮融资拟筹集 500 亿元，腾讯、宁德时代等参投",
+      "link": "https://www.ithome.com/0/959/249.htm",
+      "summary": "DeepSeek 计划在首轮融资中从腾讯、宁德时代等投资方处筹集约 500 亿元人民币。融资落地后，其投后估值预计在 3500 亿至 4000 亿元。创始人梁文峰将出资 200 亿元，腾讯和宁德时代分别拟投资 100 亿元和 50 亿元，成为最大外部投资者。DeepSeek 去年凭借 V3 大模型与 R1 推理模型获得广泛认可。此次融资凸显了中国正打造从大模型到算力能源基建的全链条 AI 产业。",
+      "reason": "DeepSeek 第一轮就 500 亿、估值直奔 4000 亿，腾讯和宁德时代入局，这已经不是一家公司的融资，而是中国 AI 产业链上下游的一次正式组队。",
+      "score": 70,
+      "tags": [
+        "DeepSeek",
+        "行业动态"
+      ],
+      "source": "IT之家（RSS）",
+      "time": "13:09",
+      "date": "6月3日"
+    },
+    {
+      "id": "cmpxkya4604y3slck1oyytsxu",
+      "title": "世界模型与语言模型：论具体推理与抽象推理的互补性",
+      "link": "https://arxiv.org/abs/2606.03603",
+      "summary": "本研究探讨了世界模型与多模态大语言模型在预测未来状态时的互补性。世界模型可生成具体的视觉未来轨迹，但可能视觉合理却任务错误；多模态大语言模型则擅长抽象推理。为此，研究提出了“受控的具体推理”框架，并构建了VRQABench和OpenWorldQA两个基准。同时，提出了Privileged-Future On-Policy Self-Distillation（PF-OPSD）方法，该方法在训练时利用真实未来视频作为特权上下文评估推理轨迹，但部署时无需真实未来。实验结果显示，PF-OPSD在两个基准上分别比基线高出10.6%和10.9%，并提升了对噪声或冲突轨迹的鲁棒性。",
+      "reason": "世界模型靠视觉预测，语言模型靠抽象推理，这篇把两者真正拧在一起了。用未来视频做自我蒸馏提升 10%，还给全开源，做 agent 决策的可以认真看看‘什么时候不信自己的眼睛’是怎么训出来的。",
+      "score": 70,
+      "tags": [
+        "Agent",
+        "多模态",
+        "开源/仓库",
+        "推理",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "time": "12:42",
+      "date": "6月3日"
+    },
+    {
+      "id": "cmpxjje1j04kwslckd0qcw0s7",
+      "title": "Satya Nadella 谈微软 Build 大会主旨演讲",
+      "link": "https://x.com/satyanadella/status/2062022060176801826",
+      "summary": "与我们共同构建前沿智能生态系统。\n\n今早我在 Microsoft Build 上的主旨演讲亮点。",
+      "reason": "微软 Build 上的战略更新不算意外，但 Nadella 亲自解读的生态整合思路，对依赖 Azure 和 Copilot 的团队来说是半年内的重要路线图。",
+      "score": 77,
+      "tags": [
+        "Microsoft",
+        "行业动态"
+      ],
+      "source": "X：Satya Nadella (@satyanadella)",
+      "time": "12:02",
+      "date": "6月3日"
+    }
+  ]
+}
