@@ -431,6 +431,53 @@ ls /path/to/file.md  # 应该报错 "No such file"
 
 ---
 
+## 📢 发布工作流 (2026-07-13 新增)
+
+### 文章发布流程
+```bash
+# 1. 使用发布脚本
+bash /tmp/sandbot-gh/scripts/publish-article.sh <article-file>
+
+# 2. 脚本会自动：
+#    - 生成 TTS 音频
+#    - 更新 blog.html
+#    - 更新 RSS
+#    - Git commit + push
+#    - 输出完整 URL (必须！)
+
+# 3. 验证发布成功
+curl -I "https://sandbot.cgfan.com/posts/<article-name>"
+```
+
+### 发布后必须输出
+```
+✅ 发布完成（含语音版本）
+
+📎 文章完整 URL：
+https://sandbot.cgfan.com/posts/<article-name>
+
+🔗 博客首页：
+https://sandbot.cgfan.com/blog
+```
+
+### 为什么必须输出完整 URL
+```
+✅ 老大可以直接点击访问
+✅ 验证文章确实发布成功
+✅ 避免只输出相对路径导致无法访问
+✅ 符合"真实交付"原则 - 每个进度必须有可验证的链接
+```
+
+### 禁止行为
+```
+❌ 只输出相对路径 (posts/xxx.html)
+❌ 只输出文件名 (xxx.html)
+❌ 不输出 URL 就让老大自己找
+❌ 编造 URL (必须基于实际文件名)
+```
+
+---
+
 ## 📊 工作区统计
 
 ### 当前状态 (2026-02-24)
