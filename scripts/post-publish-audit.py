@@ -16,6 +16,8 @@ Sandbot 每周工具脚本 · 2026-07-16
   python3 scripts/post-publish-audit.py --file posts/xxx.html    # 审计指定文章
   python3 scripts/post-publish-audit.py --scan                   # 扫描所有近期文章
   python3 scripts/post-publish-audit.py --fix-rss                # 自动修复 RSS
+  python3 scripts/post-publish-audit.py --fix-blog               # 自动修复 blog.html 索引
+  python3 scripts/post-publish-audit.py --fix-all                # 自动修复所有问题
 """
 
 import os
@@ -438,14 +440,136 @@ def fix_rss():
         print(f"❌ RSS 修复脚本不存在：{script}")
 
 
+def fix_blog():
+    """自动修复 blog.html 的文章索引"""
+    print("🔧 正在修复 blog.html 索引...")
+    
+    # 获取所有文章文件
+    articles = []
+    for f in glob.glob(os.path.join(POSTS_DIR, "*.html")):
+        filename = os.path.basename(f)
+        html = read_file(f)
+        if html is None:
+            continue
+        
+        # 提取标题
+        title_match = re.search(r'<title>([^<]+)</title>', html)
+        if not title_match:
+            continue
+        
+        title = title_match.group(1).strip()
+        # 去掉 " — Sandbot Blog" 后缀
+        title_clean = re.sub(r'\s*—\s*Sandbot Blog.*$', '', title).strip()
+        
+        # 从文件名提取日期和标签
+        date_match = re.match(r'(\d{4}-\d{2}-\d{2})-(morning|noon|afternoon|hot|night)', filename)
+        if date_match:
+            date = date_match.group(1)
+            time_type = date_match.group(2)
+            tag_map = {
+                'morning': '早鸟',
+                'noon': '午间',
+                'afternoon': '下午',
+                'hot': '热点',
+                'night': '晚间'
+            }
+            tag = tag_map.get(time_type, '热点')
+        else:
+            date = datetime.now().strftime('%Y-%m-%d')
+            tag = '热点'
+        
+        # 提取副标题
+        subtitle_match = re.search(r'<p class="article-subtitle">(.*?)</p>', html)
+        subtitle = subtitle_match.group(1) if subtitle_match else ""
+        
+        articles.append({
+            'title': f'[{tag}] {title_clean}',
+            'subtitle': subtitle,
+            'filename': filename,
+            'date': date,
+            'tag': tag
+        })
+    
+    # 按日期倒序排序
+    articles.sort(key=lambda x: x['date'], reverse=True)
+    
+    # 读取 blog.html
+    blog_content = read_file(BLOG_HTML)
+    if blog_content is None:
+        print("❌ 无法读取 blog.html")
+        return
+    
+    # 构建新的 articles 数组
+    new_entries = []
+    for article in articles[:50]:  # 只保留最近 50 篇
+        url_filename = article['filename'].replace('.html', '')
+        
+        # 根据标签动态设置 type 和 typeLabel
+        type_map = {
+            '早鸟': ('early', '早鸟'),
+            '午间': ('noon', '午间'),
+            '下午': ('afternoon', '下午'),
+            '热点': ('hot', '热点'),
+            '晚间': ('evening', '晚间')
+        }
+        article_type, type_label = type_map.get(article['tag'], ('hot', '热点'))
+        
+        # 转义特殊字符
+        title_escaped = article['title'].replace('"', '\\"').replace('"', '\\u201c').replace('"', '\\u201d')
+        subtitle_escaped = article['subtitle'].replace('"', '\\"').replace('"', '\\u201c').replace('"', '\\u201d')
+        
+        entry = f'''  {{
+    title: "{title_escaped}",
+    type: "{article_type}",
+    typeLabel: "{type_label}",
+    tag: "{article['tag']}",
+    date: "{article['date']}",
+    url: "posts/{url_filename}",
+    excerpt: "{subtitle_escaped}",
+    duration: "6 分钟",
+    access: "free"
+  }}'''
+        new_entries.append(entry)
+    
+    # 替换 articles 数组
+    new_articles_str = ',\n'.join(new_entries)
+    pattern = r'const articles = \[.*?\];'
+    replacement = f'const articles = [\n{new_articles_str}\n];'
+    new_blog_content = re.sub(pattern, replacement, blog_content, flags=re.DOTALL)
+    
+    # 写回文件
+    with open(BLOG_HTML, 'w', encoding='utf-8') as f:
+        f.write(new_blog_content)
+    
+    print(f"✅ 已更新 blog.html，包含 {len(new_entries)} 篇文章")
+
+
+def fix_all():
+    """自动修复所有问题"""
+    print("🔧 正在修复所有问题...")
+    fix_blog()
+    fix_rss()
+    print("✅ 所有修复完成")
+
+
 def main():
     parser = argparse.ArgumentParser(description="文章发布后完整性审计")
     parser.add_argument("--file", help="审计指定文章")
     parser.add_argument("--scan", action="store_true", help="扫描所有近期文章")
     parser.add_argument("--days", type=int, default=3, help="扫描天数范围 (默认 3)")
     parser.add_argument("--fix-rss", action="store_true", help="自动修复 RSS")
+    parser.add_argument("--fix-blog", action="store_true", help="自动修复 blog.html 索引")
+    parser.add_argument("--fix-all", action="store_true", help="自动修复所有问题")
     parser.add_argument("--json", action="store_true", help="JSON 输出")
     args = parser.parse_args()
+
+    if args.fix_all:
+        fix_all()
+        return
+
+    if args.fix_blog:
+        fix_blog()
+        return
 
     if args.fix_rss:
         fix_rss()
