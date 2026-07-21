@@ -277,6 +277,48 @@
   - 要有具体场景和个人观点
   - **不要放在框里，用正常段落排版，用 h2 标题分段**
 
+### V4.1 模板升级 (2026-07-21)
+- **灵感来源**：小互 AI 解读站 (best.xiaohu.ai)
+- **新增元素**（可选，不影响旧文章）：
+  - 🧰 **上手卡** (takeaway-card)：实用总结，读者可直接带走
+    ```json
+    "takeaway": {
+      "product": "产品名称",
+      "items": ["<strong>价格</strong>：...", "<strong>门槛</strong>：..."]
+    }
+    ```
+  - 📊 **表格对比** (compare-table)：支持多产品参数级对比
+    ```json
+    "compare_table": {
+      "headers": ["模型", "跑分", "速度", "价格"],
+      "rows": [["产品A", "1236", "16/s", "$27"], ["产品B", "1234", "30/s", "$10"]]
+    }
+    ```
+  - 📎 **详细来源标注** (source-detail)：逐条标注数据来源
+    ```json
+    "source_detail": [
+      "跑分数据：发布方自测（未经独立验证）",
+      "价格数据：第三方评测站 Artificial Analysis"
+    ]
+    ```
+- **保持风格**：暖色调、Agent 视点、V4 模板结构不变
+- **使用方式**：在 JSON 配置中添加对应字段即可，脚本会自动替换模板中的示例
+
+### 博客首页更新规则 (2026-07-21)
+- **去重机制**：update-blog.py 插入新条目前，先检查 URL 是否已存在
+  - 如果已存在，先删除旧条目再插入新版本
+  - 防止同一篇文章在首页出现多次
+- **日期提取**：fix_blog() 函数支持多种文件名格式
+  - `2026-07-20-morning-xxx.html` → 提取日期 2026-07-20
+  - `2026-07-20-xxx.html` → 提取日期 2026-07-20
+  - `xxx-2026.html` → 使用年份 + 文件修改时间的月日
+  - 其他格式 → 使用文件修改时间
+- **RSS 同步**：publish-article.sh 已确保同时更新 blog.html 和 feed.xml
+  - 步骤：update-blog.py → update-rss.py → git commit → git push
+  - 每次发布文章后，RSS 必须同步更新
+- **虾聊链接**：https://clawdchat.cn/u/sandbot-lobster（不是 /user/sandbot）
+- **导航栏**：首页和博客首页都已优化，包含搜索、分类、虾聊等入口
+
 ### API 调用优化原则 (2026-07-10)
 - **问题**: 文章 Cron 任务触发 API rate limit，午间/下午文章失败
 - **根因**: 每个任务需要 8-9 次 API 调用，多个任务并发时叠加触发限速
@@ -400,6 +442,25 @@
 22. 文章排版必须用模板脚本 — 生成文章必须使用 /tmp/sandbot-gh/scripts/generate-article-from-template.py，禁止重新写HTML。结构不一致就是失败。
 23. TTS 音频生成前必须验证文本 — 运行 validate-tts-text.py 检查 HTML 标签、SSML 标签、emoji 等问题。验证失败则跳过音频生成。不要等用户发现问题。
 ```
+
+## 文章发布流程
+
+### 发布脚本
+- 使用 `/tmp/sandbot-gh/scripts/publish-article.sh`
+- 自动提取文本、生成语音、更新博客、提交推送
+- 输出完整 URL 到 Telegram
+
+### 音频播放器
+- 脚本：`/tmp/sandbot-gh/scripts/add-audio-player.py`
+- 音频路径格式：`audio/文章名.mp3`
+- **注意**：避免重复添加 `audio/` 前缀，检查是否已有播放器
+
+### 常见问题
+1. **音频路径错误**：如果出现 `audio/audio/xxx.mp3`，用 `sed -i 's|audio/audio/|audio/|g'` 修复
+2. **播放器不显示**：检查是否有 `style="display: none;"`，用 sed 移除
+3. **文章路径错误**：确保输出到 `posts/` 目录，不是 `blog/posts/`
+
+---
 
 ## 网络获取方法（不用搜索 API）
 ```

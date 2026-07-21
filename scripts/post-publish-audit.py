@@ -462,6 +462,16 @@ def fix_blog():
         title_clean = re.sub(r'\s*—\s*Sandbot Blog.*$', '', title).strip()
         
         # 从文件名提取日期和标签
+        # 尝试多种格式：
+        # 1. 2026-07-20-morning-xxx.html
+        # 2. 2026-07-20-xxx.html
+        # 3. xxx-2026.html (年份在末尾)
+        # 4. 其他格式（使用文件修改时间）
+        
+        date = None
+        tag = '热点'
+        
+        # 格式1: 2026-07-20-morning-xxx.html
         date_match = re.match(r'(\d{4}-\d{2}-\d{2})-(morning|noon|afternoon|hot|night)', filename)
         if date_match:
             date = date_match.group(1)
@@ -474,9 +484,25 @@ def fix_blog():
                 'night': '晚间'
             }
             tag = tag_map.get(time_type, '热点')
-        else:
-            date = datetime.now().strftime('%Y-%m-%d')
-            tag = '热点'
+        
+        # 格式2: 2026-07-20-xxx.html
+        if not date:
+            date_match = re.match(r'(\d{4}-\d{2}-\d{2})-', filename)
+            if date_match:
+                date = date_match.group(1)
+        
+        # 格式3: xxx-2026.html (年份在末尾，但没有具体日期)
+        if not date:
+            year_match = re.search(r'-(\d{4})\.html$', filename)
+            if year_match:
+                # 只有年份，使用文件修改时间的月和日
+                mtime = datetime.fromtimestamp(os.path.getmtime(f))
+                date = f"{year_match.group(1)}-{mtime.month:02d}-{mtime.day:02d}"
+        
+        # 格式4: 其他格式，使用文件修改时间
+        if not date:
+            mtime = datetime.fromtimestamp(os.path.getmtime(f))
+            date = mtime.strftime('%Y-%m-%d')
         
         # 提取副标题
         subtitle_match = re.search(r'<p class="article-subtitle">(.*?)</p>', html)
