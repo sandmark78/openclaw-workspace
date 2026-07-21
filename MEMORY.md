@@ -311,8 +311,9 @@
 - **日期提取**：fix_blog() 函数支持多种文件名格式
   - `2026-07-20-morning-xxx.html` → 提取日期 2026-07-20
   - `2026-07-20-xxx.html` → 提取日期 2026-07-20
-  - `xxx-2026.html` → 使用年份 + 文件修改时间的月日
-  - 其他格式 → 使用文件修改时间
+  - `xxx-2026.html` → 使用 git log 获取首次提交时间
+  - 其他格式 → 使用 git log 获取首次提交时间
+  - 如果 git log 失败，使用文件修改时间作为 fallback
 - **RSS 同步**：publish-article.sh 已确保同时更新 blog.html 和 feed.xml
   - 步骤：update-blog.py → update-rss.py → git commit → git push
   - 每次发布文章后，RSS 必须同步更新

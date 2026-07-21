@@ -495,14 +495,47 @@ def fix_blog():
         if not date:
             year_match = re.search(r'-(\d{4})\.html$', filename)
             if year_match:
-                # 只有年份，使用文件修改时间的月和日
-                mtime = datetime.fromtimestamp(os.path.getmtime(f))
-                date = f"{year_match.group(1)}-{mtime.month:02d}-{mtime.day:02d}"
+                # 只有年份，使用 git log 获取完整日期
+                if os.path.exists(f):
+                    try:
+                        result = subprocess.run(
+                            ['git', 'log', '--format=%ai', '--follow', '--', f],
+                            capture_output=True, text=True, cwd=REPO_DIR
+                        )
+                        if result.returncode == 0 and result.stdout.strip():
+                            first_commit_date = result.stdout.strip().split('\n')[-1]
+                            date = first_commit_date.split(' ')[0]
+                        else:
+                            # 如果 git log 失败，使用文件修改时间
+                            mtime = datetime.fromtimestamp(os.path.getmtime(f))
+                            date = f"{year_match.group(1)}-{mtime.month:02d}-{mtime.day:02d}"
+                    except Exception as e:
+                        # 如果出错，使用文件修改时间
+                        mtime = datetime.fromtimestamp(os.path.getmtime(f))
+                        date = f"{year_match.group(1)}-{mtime.month:02d}-{mtime.day:02d}"
         
-        # 格式4: 其他格式，使用文件修改时间
+        # 格式4: 其他格式，使用 git log 获取首次提交时间
         if not date:
-            mtime = datetime.fromtimestamp(os.path.getmtime(f))
-            date = mtime.strftime('%Y-%m-%d')
+            if os.path.exists(f):
+                try:
+                    # 使用 git log 获取文件的首次提交时间
+                    result = subprocess.run(
+                        ['git', 'log', '--format=%ai', '--follow', '--', f],
+                        capture_output=True, text=True, cwd=REPO_DIR
+                    )
+                    if result.returncode == 0 and result.stdout.strip():
+                        # 获取最后一次提交（首次提交）
+                        first_commit_date = result.stdout.strip().split('\n')[-1]
+                        # 格式: 2026-05-05 02:03:22 +0000
+                        date = first_commit_date.split(' ')[0]
+                    else:
+                        # 如果 git log 失败，使用文件修改时间
+                        mtime = datetime.fromtimestamp(os.path.getmtime(f))
+                        date = mtime.strftime('%Y-%m-%d')
+                except Exception as e:
+                    # 如果出错，使用文件修改时间
+                    mtime = datetime.fromtimestamp(os.path.getmtime(f))
+                    date = mtime.strftime('%Y-%m-%d')
         
         # 提取副标题
         subtitle_match = re.search(r'<p class="article-subtitle">(.*?)</p>', html)
