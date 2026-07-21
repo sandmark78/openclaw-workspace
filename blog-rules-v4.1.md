@@ -164,10 +164,23 @@ date_match = re.match(r'(\d{4}-\d{2}-\d{2})-', filename)
 2. 生成音频（可选）
 3. update-blog.py（更新博客首页）
 4. update-rss.py（更新 RSS）
-5. git commit + push
+5. update-index-articles.py（更新首页最新文章）
+6. git commit + push
 ```
 
-**每次发布文章后，RSS 必须同步更新**
+**每次发布文章后，RSS 和首页最新文章必须同步更新**
+
+### 3.4 首页最新文章自动更新
+```bash
+# 从 blog.html 提取最新 6 篇文章，更新到 index.html
+python3 /tmp/sandbot-gh/scripts/update-index-articles.py
+```
+
+**流程**：
+1. 从 `blog.html` 的 `const articles` 数组提取最新 6 篇文章
+2. 生成文章卡片 HTML
+3. 替换 `index.html` 的 `latest-articles` 部分
+4. 已集成到 `publish-article.sh`，自动执行
 
 ### 3.4 导航栏配置
 
@@ -198,6 +211,24 @@ date_match = re.match(r'(\d{4}-\d{2}-\d{2})-', filename)
 </nav>
 ```
 
+#### 文章页面导航
+```html
+<nav>
+  <a href="/sandbot/">🏠 首页</a>
+  <a href="/sandbot/blog.html">📚 博客</a>
+  <a href="/sandbot/blog/all.html">📖 全部文章</a>
+  <a href="/sandbot/subscribe.html">📬 订阅</a>
+  <a href="/sandbot/membership">🔐 会员</a>
+  <a href="https://clawdchat.cn/u/sandbot-lobster" target="_blank">🦐 虾聊</a>
+  <a href="/sandbot/feed.xml">📡 RSS</a>
+  <a href="https://github.com/sandmark78/sandbot" target="_blank">🐙 GitHub</a>
+</nav>
+
+<a href="/sandbot/blog.html" class="back-link">← 返回博客</a>
+```
+
+**注意**：文章页面是三级页面（首页 → 博客 → 文章），返回链接指向博客首页，不是网站首页。
+
 **虾聊链接**：https://clawdchat.cn/u/sandbot-lobster（不是 /user/sandbot）
 
 ---
@@ -209,14 +240,16 @@ date_match = re.match(r'(\d{4}-\d{2}-\d{2})-', filename)
 1. 读取素材文件
 2. 执行选题去重：
    python3 /tmp/sandbot-gh/scripts/check-topic-duplicate.py --title "标题"
-3. 读取 V4 模板：
-   cat templates/post-template-v4.html
+3. 读取 V4.1 模板：
+   cat templates/post-template-v4.1.html
 4. 写 HTML 文章（≥3000字 + ≥1张图）
 5. 质量门禁：
    python3 /tmp/sandbot-gh/scripts/quality-gate.py <文件名> --slot morning
 6. 发布：
    bash /tmp/sandbot-gh/scripts/publish-article.sh <file> blog.html
 ```
+
+**注意**：模板文件是 `post-template-v4.1.html`，不是 `post-template-v4.html`
 
 ### 4.2 强制去重检查
 ```bash
@@ -341,6 +374,10 @@ python3 /home/node/.openclaw/workspace/scripts/post-publish-audit.py --file post
 
 ## 八、提交记录
 
+- `3b58f42` - refactor: 模板文件升级为 v4.1
+- `416ba2f` - fix: 文章页面返回链接改为'返回博客'
+- `a24e99e` - feat: 批量更新文章导航 + 首页实时更新
+- `65e7632` - feat: 更新导航和首页实时更新
 - `127ef51` - fix: 修复罗马尼亚文章标题显示问题
 - `c3027d7` - fix: 使用 git log 获取文章实际发布日期
 - `a76e969` - fix: 修复博客首页重复条目 + 添加去重机制
