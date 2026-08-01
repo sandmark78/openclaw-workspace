@@ -22,7 +22,7 @@ fi
 
 # 3. 检查今天的文章
 today=$(date +%Y-%m-%d)
-article_count=$(ls /tmp/sandbot-gh/posts/${today}* 2>/dev/null | wc -l)
+article_count=$(ls $HOME/.openclaw/workspace/sandbot-blog/posts/${today}* 2>/dev/null | wc -l)
 if [ "$article_count" -lt 3 ]; then
   echo "[$TIMESTAMP] ⚠️ 今天文章: ${article_count} 篇（应 3 篇）" | tee -a "$LOG_FILE"
 fi

@@ -3467,6 +3467,102 @@
       "category": "problem",
       "source": "memory/2026-05-07.md",
       "extracted_at": "2026-05-08T22:00:12.621969"
+    },
+    {
+      "text": "已修复 (commit fea9b0e)",
+      "category": "achievement",
+      "source": "memory/2026-07-20.md",
+      "extracted_at": "2026-07-21T22:15:08.857740"
+    },
+    {
+      "text": "- **图片**: 1 张 ✅",
+      "category": "achievement",
+      "source": "memory/2026-07-19.md",
+      "extracted_at": "2026-07-21T22:15:08.857844"
+    },
+    {
+      "text": "- **内容**: 月之暗面 GTC 2026 技术突破，MuonClip 优化器、线性注意力、Agent Swarm",
+      "category": "achievement",
+      "source": "memory/2026-07-19.md",
+      "extracted_at": "2026-07-21T22:15:08.857863"
+    },
+    {
+      "text": "- **图片**: 1 张 ✅",
+      "category": "achievement",
+      "source": "memory/2026-07-19.md",
+      "extracted_at": "2026-07-21T22:15:08.857881"
+    },
+    {
+      "text": "- **内容**: 边缘 AI 语音识别，微控制器上的实时语音处理",
+      "category": "achievement",
+      "source": "memory/2026-07-19.md",
+      "extracted_at": "2026-07-21T22:15:08.857900"
+    },
+    {
+      "text": "选中的 3 个文章话题",
+      "category": "achievement",
+      "source": "memory/2026-07-25.md",
+      "extracted_at": "2026-07-25T06:15:12.123341"
+    },
+    {
+      "text": "完成（50 条 RSS，选 3 个话题）",
+      "category": "achievement",
+      "source": "memory/2026-07-26.md",
+      "extracted_at": "2026-07-27T06:15:09.586307"
+    },
+    {
+      "text": "选中 3 个最有文章价值的话题",
+      "category": "achievement",
+      "source": "memory/2026-07-28.md",
+      "extracted_at": "2026-07-28T06:15:11.763370"
+    },
+    {
+      "text": "47 个脚本移到 sandbot-blog/scripts/，硬编码路径改为 BLOG_ROOT",
+      "category": "fix",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T06:15:11.348654"
+    },
+    {
+      "text": "Cron 推送修复（23 个任务 delivery → telegram:773172564）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T06:15:11.348828"
+    },
+    {
+      "text": "博客迁移：/tmp/sandbot-gh → workspace/sandbot-blog/（符号链接兼容）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T06:15:11.348853"
+    },
+    {
+      "text": "脚本路径修复：47 个脚本移到 sandbot-blog/scripts/，硬编码路径改为 BLOG_ROOT",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T06:15:11.348873"
+    },
+    {
+      "text": "quality-gate.py 创建（支持 --slot 参数）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T06:15:11.348892"
+    },
+    {
+      "text": "MEMORY.md 瘦身：33KB → 9KB（详细内容移到 memory/*.md）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T06:15:11.348922"
+    },
+    {
+      "text": "DREAMS.md 创建",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T06:15:11.348942"
+    },
+    {
+      "text": "HEARTBEAT.md 更新",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T06:15:11.348960"
     }
   ],
   "patterns": [
@@ -3527,9 +3623,9 @@
     "cost_sensitivity": "high",
     "originality_required": true,
     "cost_conscious": true,
-    "last_updated": "2026-05-09T06:00:20.033980"
+    "last_updated": "2026-08-01T06:15:11.350640"
   },
   "skill_drafts": [],
   "nudges": [],
-  "last_run": "2026-05-09T06:00:20.041597"
+  "last_run": "2026-08-01T06:15:11.357059"
 }
