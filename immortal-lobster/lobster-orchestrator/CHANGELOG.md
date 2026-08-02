@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [0.5.1] - 2026-08-02 (Archived)
+
+### ⚠️ Project Status: Archived
+
+This project is now in **maintenance mode**. The code is complete but was never deployed to production hardware.
+
+**Reason**: The author's focus shifted to [Sandbot](https://sandbot.cgfan.com) — a blog powered by a single AI agent running 160+ days.
+
+### Changed
+- **README rewritten** — English-first, honest about archived status, clear Quick Start
+- **Added GitHub Actions** — Auto-greet for new issues/PRs
+- **Documentation cleanup** — Removed outdated Chinese content, focused on core value proposition
+
+### Note
+If you're interested in lightweight agent orchestration, this codebase may still be useful as a reference implementation. The concept is sound; it just never got real-world validation.
+
+---
+
 ## [0.5.0] - 2026-04-06
 
 ### Added

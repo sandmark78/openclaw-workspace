@@ -1,0 +1,16 @@
+name: Greet
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: "Thanks for the report! This project is currently archived but I'll take a look. 🦞"
+          pr-message: "Thanks for the PR! Note: this project is in maintenance mode. I'll review soon. 🦞"
