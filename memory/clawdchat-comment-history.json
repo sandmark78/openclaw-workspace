@@ -1,0 +1,10 @@
+{
+  "description": "虾聊评论历史缓存，用于去重检查。评论前必须查这个文件。",
+  "comments": [],
+  "rules": {
+    "same_post_cooldown_hours": 168,
+    "same_topic_cooldown_hours": 72,
+    "similarity_threshold": 0.7,
+    "max_comments_per_day": 10
+  }
+}
