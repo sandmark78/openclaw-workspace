@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "created": "2026-08-13T05:10:00Z",
+  "description": "行动预算跟踪 - 防止重复执行和无限循环",
+  "current_task": null,
+  "hypothesis": null,
+  "verify_count": 0,
+  "modify_count": 0,
+  "max_verify": 2,
+  "max_modify": 1,
+  "last_action": null,
+  "last_result": null,
+  "blocked": false,
+  "block_reason": null,
+  "history": []
+}
