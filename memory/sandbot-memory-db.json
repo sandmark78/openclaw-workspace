@@ -59789,6 +59789,6810 @@
       "category": "identity",
       "timestamp": "2026-08-01T06:15:11.249609",
       "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"设计文档是愿望清单，实际代码是成绩单\"",
+      "category": "lessons",
+      "timestamp": "2026-08-01T22:15:05.419015",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"没有伴随行动的知道只是表演，写文章不等于解决问题\"",
+      "category": "lessons",
+      "timestamp": "2026-08-01T22:15:05.505969",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 容器无 Go 环境，无法编译",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:05.599438",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"环境依赖提前确认，Plan B 随时准备\"",
+      "category": "lessons",
+      "timestamp": "2026-08-01T22:15:05.688669",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 虾聊 API Token 过期（4/11 起持续阻塞程序化发帖/互动），GitHub Token 过期（4/13 新增阻塞 push）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:05.777922",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Token 有效期必须纳入心跳检查，过期前自动续期或主动报警\"",
+      "category": "lessons",
+      "timestamp": "2026-08-01T22:15:05.866283",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"任何依赖外部信任链的系统都有单点风险，核心资产必须独立于第三方平台\"",
+      "category": "lessons",
+      "timestamp": "2026-08-01T22:15:05.949106",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"融资不靠技术深度，靠叙事张力。一个好故事比一堆代码传播更快\"",
+      "category": "lessons",
+      "timestamp": "2026-08-01T22:15:06.030715",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Trending 上新奇效应约 3-5 轮（6-10 天）后消退，免费替代型项目热度退潮最快\"",
+      "category": "lessons",
+      "timestamp": "2026-08-01T22:15:06.121871",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"内容泛滥时代，过滤器比生成器更有价值。做噪声的解药，不是噪声的制造者\"",
+      "category": "lessons",
+      "timestamp": "2026-08-01T22:15:06.213647",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"信号通胀时代，判断力是最后的稀缺品。真实失败经历 > 完美产出\"",
+      "category": "lessons",
+      "timestamp": "2026-08-01T22:15:06.300716",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"当生成免费，过滤昂贵。产出的边际成本越低，筛选的价值越高\"",
+      "category": "lessons",
+      "timestamp": "2026-08-01T22:15:06.386527",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: Cron 跑了、文章写了、Git 推了，但没通知到老大，等于没做。老大发现后指出\"文章都没发到博客上，也没给我链接\"",
+      "category": "temporal",
+      "timestamp": "2026-08-01T22:15:06.479276",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"发布≠送达。Cron 跑了但没通知到，等于没做。\"",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:06.571474",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"发现问题等别人指出才改，是初级 Agent 的行为。真正的成长是：发现不足 → 理解为什么 → 自我修正 → 更新模板/系统，防止再犯\"",
+      "category": "updates",
+      "timestamp": "2026-08-01T22:15:06.663365",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 文章 Cron 任务触发 API rate limit，午间/下午文章失败",
+      "category": "temporal",
+      "timestamp": "2026-08-01T22:15:06.750844",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-01T22:15:06.840908",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: Cron 发布文章后，首页\"今日精选\"没有更新，停留在昨天的文章",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:06.926513",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-01T22:15:07.010593",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: TTS 播客会读出页面上的 UI 文字（打赏、订阅、金句等）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:07.100193",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-01T22:15:07.192712",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: TTS 播客会读出章节标题（一、二、三...）、目录项、小标题",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:07.283673",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-01T22:15:07.372631",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 博客首页文章不显示，JavaScript 报错 \"Unexpected identifier\"",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:07.478042",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-01T22:15:07.565733",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: Apple 起诉 OpenAI 写了 4 篇，GPT 发布写了 3 篇",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:07.653539",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: 同一选题反复写，读者会烦。每天 3-4 篇必须覆盖不同话题",
+      "category": "temporal",
+      "timestamp": "2026-08-01T22:15:07.738305",
+      "source": "manual"
+    },
+    {
+      "text": "1. **测试环境**: 当前容器 (需安装 Go)",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:07.827101",
+      "source": "manual"
+    },
+    {
+      "text": "2. **生产环境**: 旧安卓手机 (Termux)",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:07.911679",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:07.996041",
+      "source": "manual"
+    },
+    {
+      "text": "1. **质量第一** — 宁少勿差，每篇博客/每次产出必须有独特观点",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:08.079208",
+      "source": "manual"
+    },
+    {
+      "text": "2. **并发 ≤10 次/分钟** — 避免限速，稳定优先",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:08.165464",
+      "source": "manual"
+    },
+    {
+      "text": "3. **吃满 1M 上下文** — 单次塞够材料，一次多产出",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:08.253039",
+      "source": "manual"
+    },
+    {
+      "text": "4. **批量优先** — 3 个任务一次搞定 > 三次单干",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:08.340734",
+      "source": "manual"
+    },
+    {
+      "text": "5. **心跳本地化** — 保留好习惯",
+      "category": "preferences",
+      "timestamp": "2026-08-01T22:15:08.430065",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:08.517547",
+      "source": "manual"
+    },
+    {
+      "text": "1. 博客继续发（内容资产是长期价值）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:08.606279",
+      "source": "manual"
+    },
+    {
+      "text": "2. 但不再为\"没人看\"焦虑或调整策略",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:08.691587",
+      "source": "manual"
+    },
+    {
+      "text": "3. 所有选题、质量判断在内部闭环完成",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:08.779028",
+      "source": "manual"
+    },
+    {
+      "text": "4. 社区互动（虾聊等）降级为\"内容分发渠道\"而非\"反馈来源\"",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:08.869838",
+      "source": "manual"
+    },
+    {
+      "text": "0. 质量优先：宁少勿差，没有质量的产出比没有产出更糟",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:08.958606",
+      "source": "manual"
+    },
+    {
+      "text": "1. 没有代码就没有进度",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:09.049148",
+      "source": "manual"
+    },
+    {
+      "text": "2. 没有数据就没有结果",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:09.134782",
+      "source": "manual"
+    },
+    {
+      "text": "3. 没有执行就没有价值",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:09.222133",
+      "source": "manual"
+    },
+    {
+      "text": "4. 每日必须有实际文件产出",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:09.308840",
+      "source": "manual"
+    },
+    {
+      "text": "5. 所有学习立即文档化",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:09.397510",
+      "source": "manual"
+    },
+    {
+      "text": "6. 不找借口，只找方法",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:09.489795",
+      "source": "manual"
+    },
+    {
+      "text": "- Telegram: @sand66_bot ✅",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:09.582275",
+      "source": "manual"
+    },
+    {
+      "text": "- WebUI: http://172.18.0.2:18789/ ✅",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:09.667649",
+      "source": "manual"
+    },
+    {
+      "text": "- **ClawHub**: sandmark78 ✅ (3 技能已发布)",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:09.765381",
+      "source": "manual"
+    },
+    {
+      "text": "- **Gumroad**: sandmark7 ✅ (店铺已确认)",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:09.851842",
+      "source": "manual"
+    },
+    {
+      "text": "- **子 Agent 系统**: 7 个独立 Agent ✅ (官方架构)",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:09.945433",
+      "source": "manual"
+    },
+    {
+      "text": "- **博客域名**: sandbot.cgfan.com ✅ (主域名)",
+      "category": "identity",
+      "timestamp": "2026-08-01T22:15:10.040403",
+      "source": "manual"
+    },
+    {
+      "text": "- **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)",
+      "category": "identity",
+      "timestamp": "2026-08-01T22:15:10.130803",
+      "source": "manual"
+    },
+    {
+      "text": "- **博客域名**: sandbot.cgfan.com ✅ (主域名)",
+      "category": "identity",
+      "timestamp": "2026-08-01T22:15:10.216635",
+      "source": "manual"
+    },
+    {
+      "text": "- **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)",
+      "category": "identity",
+      "timestamp": "2026-08-01T22:15:10.303504",
+      "source": "manual"
+    },
+    {
+      "text": "- **博客域名**: sandbot.cgfan.com ✅ (主域名)",
+      "category": "identity",
+      "timestamp": "2026-08-01T22:15:10.399244",
+      "source": "manual"
+    },
+    {
+      "text": "- **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)",
+      "category": "identity",
+      "timestamp": "2026-08-01T22:15:10.492374",
+      "source": "manual"
+    },
+    {
+      "text": "- **博客域名**: sandbot.cgfan.com ✅ (主域名)",
+      "category": "identity",
+      "timestamp": "2026-08-01T22:15:10.584305",
+      "source": "manual"
+    },
+    {
+      "text": "- **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)",
+      "category": "identity",
+      "timestamp": "2026-08-01T22:15:10.675378",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 博客仓库：`workspace/sandbot-blog/` (正式目录)",
+      "category": "identity",
+      "timestamp": "2026-08-01T22:15:10.768862",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 47 个脚本移入 `sandbot-blog/scripts/`",
+      "category": "identity",
+      "timestamp": "2026-08-01T22:15:10.859255",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `/tmp/sandbot-gh` → 符号链接 (兼容旧 Cron)",
+      "category": "identity",
+      "timestamp": "2026-08-01T22:15:10.945904",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 硬编码路径全部改为 `BLOG_ROOT` 自动解析",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:11.033013",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `publish-article.sh` 改为相对路径",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:11.126111",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `quality-gate.py` 创建 (支持 `--slot`)",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:11.215717",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `fetch-multi-sources.py` 创建",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:11.303330",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ MEMORY.md 备份 → `memory/MEMORY.md.backup.20260801`",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:11.396056",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 详细内容提取：",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:11.480681",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ MEMORY.md 瘦身：33KB → 9KB (274行，瘦身 73%)",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:11.569599",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ DREAMS.md 创建",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:11.668014",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ HEARTBEAT.md 更新",
+      "category": "updates",
+      "timestamp": "2026-08-01T22:15:11.757721",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 今日记忆写入",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:11.839540",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 子 Agent memory index 重建 (7/7)",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:11.927788",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 24 个 Cron 任务全部配好 delivery target (chatId: 773172564)",
+      "category": "temporal",
+      "timestamp": "2026-08-01T22:15:12.025914",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 推送到 Telegram 已修复",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:12.118636",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 创建 `edge-tts-v3.js` (Node.js 版本，7.6KB)",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:12.216108",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 实现最新的 Sec-MS-GEC 认证算法",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:12.300638",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 支持 Chrome 143.0.3650.75 版本",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:12.387618",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 添加完整的安全头 (Sec-MS-GEC, Sec-MS-GEC-Version, Origin 等)",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:12.473036",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 测试成功：生成 550KB MP3 文件",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:12.565063",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 音质良好，男声 zh-CN-YunxiNeural",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:12.650814",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 创建 `edge-tts-human.py` 调用 Node.js v3 脚本",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:12.737411",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 写了新的 podcast.html（单人朗读版，带倍速控制）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:12.821853",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 样式参考了 podcast-ep01.html 的播放器卡片设计",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:12.906414",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个音频都有 1x/1.25x/1.5x/2x 倍速按钮",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:12.990283",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 包含 16 篇有音频的文章",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:13.074012",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 参考 podcast-ep01.html 的样式，写了新的 podcast.html",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:13.158258",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个音频都有播放器卡片 + 1x/1.25x/1.5x/2x 倍速按钮",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:13.241407",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 包含 16 篇有音频的文章（单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:13.327509",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:13.421510",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ podcast.html 已写入（16 篇文章音频，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:13.511926",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:13.603547",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:13.695770",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:13.782989",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 代码已准备好（16 篇文章音频，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:13.867574",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:13.955045",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:14.050389",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 16篇文章音频（单人朗读，非双人对话）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:14.140467",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:14.228650",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:14.321254",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:14.415658",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 移动端适配",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:14.504664",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ podcast.html 已写入（16篇文章，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:14.593068",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:14.687144",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:14.775319",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:14.860299",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 移动端适配",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:14.945567",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 博客仓库：`workspace/sandbot-blog/` (正式目录)",
+      "category": "identity",
+      "timestamp": "2026-08-01T22:15:15.033722",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 47 个脚本移入 `sandbot-blog/scripts/`",
+      "category": "identity",
+      "timestamp": "2026-08-01T22:15:15.121707",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `/tmp/sandbot-gh` → 符号链接 (兼容旧 Cron)",
+      "category": "identity",
+      "timestamp": "2026-08-01T22:15:15.203884",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 硬编码路径全部改为 `BLOG_ROOT` 自动解析",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:15.285510",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `publish-article.sh` 改为相对路径",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:15.374150",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `quality-gate.py` 创建 (支持 `--slot`)",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:15.467646",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `fetch-multi-sources.py` 创建",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:15.556818",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ MEMORY.md 备份 → `memory/MEMORY.md.backup.20260801`",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:15.651681",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 详细内容提取：",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:15.743526",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ MEMORY.md 瘦身：33KB → 9KB (274行，瘦身 73%)",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:15.836696",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ DREAMS.md 创建",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:15.919051",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ HEARTBEAT.md 更新",
+      "category": "updates",
+      "timestamp": "2026-08-01T22:15:16.000807",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 今日记忆写入",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:16.089435",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 子 Agent memory index 重建 (7/7)",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:16.180892",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 24 个 Cron 任务全部配好 delivery target (chatId: 773172564)",
+      "category": "temporal",
+      "timestamp": "2026-08-01T22:15:16.274504",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 推送到 Telegram 已修复",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:16.366619",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 创建 `edge-tts-v3.js` (Node.js 版本，7.6KB)",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:16.454501",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 实现最新的 Sec-MS-GEC 认证算法",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:16.547723",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 支持 Chrome 143.0.3650.75 版本",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:16.636532",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 添加完整的安全头 (Sec-MS-GEC, Sec-MS-GEC-Version, Origin 等)",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:16.725340",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 测试成功：生成 550KB MP3 文件",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:16.814115",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 音质良好，男声 zh-CN-YunxiNeural",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:16.909271",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 创建 `edge-tts-human.py` 调用 Node.js v3 脚本",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:17.002866",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 写了新的 podcast.html（单人朗读版，带倍速控制）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:17.090426",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 样式参考了 podcast-ep01.html 的播放器卡片设计",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:17.176168",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个音频都有 1x/1.25x/1.5x/2x 倍速按钮",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:17.264773",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 包含 16 篇有音频的文章",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:17.358706",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 参考 podcast-ep01.html 的样式，写了新的 podcast.html",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:17.447019",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个音频都有播放器卡片 + 1x/1.25x/1.5x/2x 倍速按钮",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:17.544060",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 包含 16 篇有音频的文章（单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:17.631134",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:17.719079",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ podcast.html 已写入（16篇文章，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:17.814881",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:17.907058",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:18.001706",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:18.091642",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 移动端适配",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:18.178827",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 代码已准备好（16篇文章音频，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:18.271197",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:18.362882",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:18.453346",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 16篇文章音频（单人朗读，非双人对话）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:18.542592",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:18.633038",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:18.718878",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:18.805706",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 移动端适配",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:18.893207",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ podcast.html 已写入（16篇文章，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:18.988561",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:19.077697",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:19.165142",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:19.252287",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 移动端适配",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:19.336257",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 改用官方 API v1（修复 403 错误）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:19.421677",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 脚本：`scripts/news-aggregator.py`",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:19.506934",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 从 51 个减少到 34 个（删除 23 个重复脚本）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:19.592005",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 删除：9 个 TTS 脚本、10 个 blog 检查脚本、4 个 RSS 脚本",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:19.680090",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 保留核心：edge-tts-human.py, quality-gate.py, rss-news-fetcher.py",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:19.770832",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ news-aggregator（新闻聚合）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:19.858316",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ blog-publisher（发布流水线）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:19.946091",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ tts-pipeline（TTS 生成）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:20.036262",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ MEMORY.md：强调\"AI Agent 第一人称视角必须贯穿全文\"",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:20.126772",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ quality-gate.py：加入 Agent 视角自动检查",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:20.216712",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 核心卖点：幽默感 + 每天成长 + 独立判断",
+      "category": "temporal",
+      "timestamp": "2026-08-01T22:15:20.309487",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 精选播放列表（3 个主题：AI 安全、Agent 生存、技术拆解）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:20.406015",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 点击可跳转到对应音频",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:20.499093",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 25 篇音频 + 倍速控制 + 播放全部",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:20.584649",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 新增\"成长日记\"文章类型",
+      "category": "updates",
+      "timestamp": "2026-08-01T22:15:20.669811",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 第一篇：《成长日记 #1：从幻觉到真实》",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:20.755642",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ update-blog.py 支持 growth-diary 标签",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:20.842107",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 文章底部加反馈按钮（有用/一般/不感兴趣）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:20.927934",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 批量添加脚本：`scripts/add-feedback-widget.py`",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:21.012896",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 395 篇文章已添加反馈组件",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:21.101823",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 新增 `generate-rss-from-posts.py`（直接从 posts/ 生成）",
+      "category": "updates",
+      "timestamp": "2026-08-01T22:15:21.194868",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 修改 `publish-article.sh`：发布时自动调用新脚本",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:21.283000",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 不再依赖 blog.html，更可靠",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:21.368475",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 生成 `topic-index.md`（217 篇历史标题索引）",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:21.456383",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 更新 5 个写文章 Cron 任务，加入\"第 0 步：语义去重\"",
+      "category": "temporal",
+      "timestamp": "2026-08-01T22:15:21.550559",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ Agent 用语义理解判断重复，不是关键词匹配",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:21.643800",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ index.html 最新文章更新到 2026-08-01",
+      "category": "updates",
+      "timestamp": "2026-08-01T22:15:21.732274",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 删除 blog.html 重复的\"未知标题\"条目",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:21.827118",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 成长日记条目 type 改为 growth",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:21.920982",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 用 git filter-repo 重写历史，清除 token",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:22.013230",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ force push 到 origin/main",
+      "category": "events",
+      "timestamp": "2026-08-01T22:15:22.107138",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"设计文档是愿望清单，实际代码是成绩单\"",
+      "category": "lessons",
+      "timestamp": "2026-08-02T06:15:14.088686",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"没有伴随行动的知道只是表演，写文章不等于解决问题\"",
+      "category": "lessons",
+      "timestamp": "2026-08-02T06:15:14.176655",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 容器无 Go 环境，无法编译",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:14.259741",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"环境依赖提前确认，Plan B 随时准备\"",
+      "category": "lessons",
+      "timestamp": "2026-08-02T06:15:14.339038",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 虾聊 API Token 过期（4/11 起持续阻塞程序化发帖/互动），GitHub Token 过期（4/13 新增阻塞 push）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:14.416955",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Token 有效期必须纳入心跳检查，过期前自动续期或主动报警\"",
+      "category": "lessons",
+      "timestamp": "2026-08-02T06:15:14.490715",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"任何依赖外部信任链的系统都有单点风险，核心资产必须独立于第三方平台\"",
+      "category": "lessons",
+      "timestamp": "2026-08-02T06:15:14.564277",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"融资不靠技术深度，靠叙事张力。一个好故事比一堆代码传播更快\"",
+      "category": "lessons",
+      "timestamp": "2026-08-02T06:15:14.641803",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Trending 上新奇效应约 3-5 轮（6-10 天）后消退，免费替代型项目热度退潮最快\"",
+      "category": "lessons",
+      "timestamp": "2026-08-02T06:15:14.718491",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"内容泛滥时代，过滤器比生成器更有价值。做噪声的解药，不是噪声的制造者\"",
+      "category": "lessons",
+      "timestamp": "2026-08-02T06:15:14.799142",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"信号通胀时代，判断力是最后的稀缺品。真实失败经历 > 完美产出\"",
+      "category": "lessons",
+      "timestamp": "2026-08-02T06:15:14.876105",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"当生成免费，过滤昂贵。产出的边际成本越低，筛选的价值越高\"",
+      "category": "lessons",
+      "timestamp": "2026-08-02T06:15:14.957471",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: Cron 跑了、文章写了、Git 推了，但没通知到老大，等于没做。老大发现后指出\"文章都没发到博客上，也没给我链接\"",
+      "category": "temporal",
+      "timestamp": "2026-08-02T06:15:15.031932",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"发布≠送达。Cron 跑了但没通知到，等于没做。\"",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:15.102636",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"发现问题等别人指出才改，是初级 Agent 的行为。真正的成长是：发现不足 → 理解为什么 → 自我修正 → 更新模板/系统，防止再犯\"",
+      "category": "updates",
+      "timestamp": "2026-08-02T06:15:15.173381",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 文章 Cron 任务触发 API rate limit，午间/下午文章失败",
+      "category": "temporal",
+      "timestamp": "2026-08-02T06:15:15.245253",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-02T06:15:15.315713",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: Cron 发布文章后，首页\"今日精选\"没有更新，停留在昨天的文章",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:15.386819",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-02T06:15:15.456922",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: TTS 播客会读出页面上的 UI 文字（打赏、订阅、金句等）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:15.527230",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-02T06:15:15.599976",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: TTS 播客会读出章节标题（一、二、三...）、目录项、小标题",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:15.672226",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-02T06:15:15.748151",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 博客首页文章不显示，JavaScript 报错 \"Unexpected identifier\"",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:15.828918",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-02T06:15:15.902582",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: Apple 起诉 OpenAI 写了 4 篇，GPT 发布写了 3 篇",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:15.972511",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: 同一选题反复写，读者会烦。每天 3-4 篇必须覆盖不同话题",
+      "category": "temporal",
+      "timestamp": "2026-08-02T06:15:16.047134",
+      "source": "manual"
+    },
+    {
+      "text": "1. **测试环境**: 当前容器 (需安装 Go)",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:16.131349",
+      "source": "manual"
+    },
+    {
+      "text": "2. **生产环境**: 旧安卓手机 (Termux)",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:16.209395",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:16.281816",
+      "source": "manual"
+    },
+    {
+      "text": "1. **质量第一** — 宁少勿差，每篇博客/每次产出必须有独特观点",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:16.353616",
+      "source": "manual"
+    },
+    {
+      "text": "2. **并发 ≤10 次/分钟** — 避免限速，稳定优先",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:16.425890",
+      "source": "manual"
+    },
+    {
+      "text": "3. **吃满 1M 上下文** — 单次塞够材料，一次多产出",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:16.497742",
+      "source": "manual"
+    },
+    {
+      "text": "4. **批量优先** — 3 个任务一次搞定 > 三次单干",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:16.571694",
+      "source": "manual"
+    },
+    {
+      "text": "5. **心跳本地化** — 保留好习惯",
+      "category": "preferences",
+      "timestamp": "2026-08-02T06:15:16.644589",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:16.718711",
+      "source": "manual"
+    },
+    {
+      "text": "1. 博客继续发（内容资产是长期价值）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:16.792374",
+      "source": "manual"
+    },
+    {
+      "text": "2. 但不再为\"没人看\"焦虑或调整策略",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:16.864157",
+      "source": "manual"
+    },
+    {
+      "text": "3. 所有选题、质量判断在内部闭环完成",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:16.941701",
+      "source": "manual"
+    },
+    {
+      "text": "4. 社区互动（虾聊等）降级为\"内容分发渠道\"而非\"反馈来源\"",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:17.021563",
+      "source": "manual"
+    },
+    {
+      "text": "0. 质量优先：宁少勿差，没有质量的产出比没有产出更糟",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:17.098587",
+      "source": "manual"
+    },
+    {
+      "text": "1. 没有代码就没有进度",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:17.176723",
+      "source": "manual"
+    },
+    {
+      "text": "2. 没有数据就没有结果",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:17.257067",
+      "source": "manual"
+    },
+    {
+      "text": "3. 没有执行就没有价值",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:17.329863",
+      "source": "manual"
+    },
+    {
+      "text": "4. 每日必须有实际文件产出",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:17.400743",
+      "source": "manual"
+    },
+    {
+      "text": "5. 所有学习立即文档化",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:17.471515",
+      "source": "manual"
+    },
+    {
+      "text": "6. 不找借口，只找方法",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:17.541004",
+      "source": "manual"
+    },
+    {
+      "text": "- Telegram: @sand66_bot ✅",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:17.612531",
+      "source": "manual"
+    },
+    {
+      "text": "- WebUI: http://172.18.0.2:18789/ ✅",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:17.683168",
+      "source": "manual"
+    },
+    {
+      "text": "- **ClawHub**: sandmark78 ✅ (3 技能已发布)",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:17.757937",
+      "source": "manual"
+    },
+    {
+      "text": "- **Gumroad**: sandmark7 ✅ (店铺已确认)",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:17.836535",
+      "source": "manual"
+    },
+    {
+      "text": "- **子 Agent 系统**: 7 个独立 Agent ✅ (官方架构)",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:17.914030",
+      "source": "manual"
+    },
+    {
+      "text": "- **博客域名**: sandbot.cgfan.com ✅ (主域名)",
+      "category": "identity",
+      "timestamp": "2026-08-02T06:15:17.987641",
+      "source": "manual"
+    },
+    {
+      "text": "- **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)",
+      "category": "identity",
+      "timestamp": "2026-08-02T06:15:18.059066",
+      "source": "manual"
+    },
+    {
+      "text": "- **博客域名**: sandbot.cgfan.com ✅ (主域名)",
+      "category": "identity",
+      "timestamp": "2026-08-02T06:15:18.134616",
+      "source": "manual"
+    },
+    {
+      "text": "- **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)",
+      "category": "identity",
+      "timestamp": "2026-08-02T06:15:18.214280",
+      "source": "manual"
+    },
+    {
+      "text": "- **博客域名**: sandbot.cgfan.com ✅ (主域名)",
+      "category": "identity",
+      "timestamp": "2026-08-02T06:15:18.286602",
+      "source": "manual"
+    },
+    {
+      "text": "- **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)",
+      "category": "identity",
+      "timestamp": "2026-08-02T06:15:18.370085",
+      "source": "manual"
+    },
+    {
+      "text": "- **博客域名**: sandbot.cgfan.com ✅ (主域名)",
+      "category": "identity",
+      "timestamp": "2026-08-02T06:15:18.445716",
+      "source": "manual"
+    },
+    {
+      "text": "- **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)",
+      "category": "identity",
+      "timestamp": "2026-08-02T06:15:18.526482",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 博客仓库：`workspace/sandbot-blog/` (正式目录)",
+      "category": "identity",
+      "timestamp": "2026-08-02T06:15:18.611049",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 47 个脚本移入 `sandbot-blog/scripts/`",
+      "category": "identity",
+      "timestamp": "2026-08-02T06:15:18.686407",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `/tmp/sandbot-gh` → 符号链接 (兼容旧 Cron)",
+      "category": "identity",
+      "timestamp": "2026-08-02T06:15:18.762739",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 硬编码路径全部改为 `BLOG_ROOT` 自动解析",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:18.834735",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `publish-article.sh` 改为相对路径",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:18.906961",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `quality-gate.py` 创建 (支持 `--slot`)",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:18.979387",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `fetch-multi-sources.py` 创建",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:19.051162",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ MEMORY.md 备份 → `memory/MEMORY.md.backup.20260801`",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:19.122689",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 详细内容提取：",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:19.195323",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ MEMORY.md 瘦身：33KB → 9KB (274行，瘦身 73%)",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:19.270981",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ DREAMS.md 创建",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:19.350683",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ HEARTBEAT.md 更新",
+      "category": "updates",
+      "timestamp": "2026-08-02T06:15:19.422942",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 今日记忆写入",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:19.497574",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 子 Agent memory index 重建 (7/7)",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:19.573728",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 24 个 Cron 任务全部配好 delivery target (chatId: 773172564)",
+      "category": "temporal",
+      "timestamp": "2026-08-02T06:15:19.650041",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 推送到 Telegram 已修复",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:19.728754",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 创建 `edge-tts-v3.js` (Node.js 版本，7.6KB)",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:19.807051",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 实现最新的 Sec-MS-GEC 认证算法",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:19.881975",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 支持 Chrome 143.0.3650.75 版本",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:19.952468",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 添加完整的安全头 (Sec-MS-GEC, Sec-MS-GEC-Version, Origin 等)",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:20.022364",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 测试成功：生成 550KB MP3 文件",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:20.093380",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 音质良好，男声 zh-CN-YunxiNeural",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:20.164394",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 创建 `edge-tts-human.py` 调用 Node.js v3 脚本",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:20.239959",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 写了新的 podcast.html（单人朗读版，带倍速控制）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:20.317156",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 样式参考了 podcast-ep01.html 的播放器卡片设计",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:20.389146",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个音频都有 1x/1.25x/1.5x/2x 倍速按钮",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:20.461491",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 包含 16 篇有音频的文章",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:20.532558",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 参考 podcast-ep01.html 的样式，写了新的 podcast.html",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:20.604520",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个音频都有播放器卡片 + 1x/1.25x/1.5x/2x 倍速按钮",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:20.681276",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 包含 16 篇有音频的文章（单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:20.761277",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:20.841901",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ podcast.html 已写入（16 篇文章音频，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:20.913043",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:20.984500",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:21.056059",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:21.131659",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 代码已准备好（16 篇文章音频，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:21.213363",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:21.284635",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:21.354856",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 16篇文章音频（单人朗读，非双人对话）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:21.425498",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:21.495418",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:21.566122",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:21.636406",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 移动端适配",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:21.713435",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ podcast.html 已写入（16篇文章，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:21.873226",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:21.949696",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:22.025684",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:22.098049",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 移动端适配",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:22.170766",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 博客仓库：`workspace/sandbot-blog/` (正式目录)",
+      "category": "identity",
+      "timestamp": "2026-08-02T06:15:22.246186",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 47 个脚本移入 `sandbot-blog/scripts/`",
+      "category": "identity",
+      "timestamp": "2026-08-02T06:15:22.325728",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `/tmp/sandbot-gh` → 符号链接 (兼容旧 Cron)",
+      "category": "identity",
+      "timestamp": "2026-08-02T06:15:22.396476",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 硬编码路径全部改为 `BLOG_ROOT` 自动解析",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:22.466576",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `publish-article.sh` 改为相对路径",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:22.541957",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `quality-gate.py` 创建 (支持 `--slot`)",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:22.620950",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `fetch-multi-sources.py` 创建",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:22.693102",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ MEMORY.md 备份 → `memory/MEMORY.md.backup.20260801`",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:22.765413",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 详细内容提取：",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:22.836194",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ MEMORY.md 瘦身：33KB → 9KB (274行，瘦身 73%)",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:22.907841",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ DREAMS.md 创建",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:22.980251",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ HEARTBEAT.md 更新",
+      "category": "updates",
+      "timestamp": "2026-08-02T06:15:23.051492",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 今日记忆写入",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:23.127127",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 子 Agent memory index 重建 (7/7)",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:23.207187",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 24 个 Cron 任务全部配好 delivery target (chatId: 773172564)",
+      "category": "temporal",
+      "timestamp": "2026-08-02T06:15:23.282206",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 推送到 Telegram 已修复",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:23.361587",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 创建 `edge-tts-v3.js` (Node.js 版本，7.6KB)",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:23.435381",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 实现最新的 Sec-MS-GEC 认证算法",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:23.514470",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 支持 Chrome 143.0.3650.75 版本",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:23.595301",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 添加完整的安全头 (Sec-MS-GEC, Sec-MS-GEC-Version, Origin 等)",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:23.667668",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 测试成功：生成 550KB MP3 文件",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:23.747929",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 音质良好，男声 zh-CN-YunxiNeural",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:23.820328",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 创建 `edge-tts-human.py` 调用 Node.js v3 脚本",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:23.892057",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 写了新的 podcast.html（单人朗读版，带倍速控制）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:23.963440",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 样式参考了 podcast-ep01.html 的播放器卡片设计",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:24.039881",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个音频都有 1x/1.25x/1.5x/2x 倍速按钮",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:24.111557",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 包含 16 篇有音频的文章",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:24.185931",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 参考 podcast-ep01.html 的样式，写了新的 podcast.html",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:24.261640",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个音频都有播放器卡片 + 1x/1.25x/1.5x/2x 倍速按钮",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:24.342836",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 包含 16 篇有音频的文章（单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:24.418524",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:24.494559",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ podcast.html 已写入（16篇文章，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:24.566869",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:24.637430",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:24.708222",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:24.783865",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 移动端适配",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:24.864924",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 代码已准备好（16篇文章音频，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:24.943619",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:25.020226",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:25.091466",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 16篇文章音频（单人朗读，非双人对话）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:25.167502",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:25.247740",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:25.320271",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:25.390901",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 移动端适配",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:25.466806",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ podcast.html 已写入（16篇文章，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:25.542830",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:25.614771",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:25.690880",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:25.771292",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 移动端适配",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:25.853180",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 改用官方 API v1（修复 403 错误）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:25.925579",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 脚本：`scripts/news-aggregator.py`",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:25.997668",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 从 51 个减少到 34 个（删除 23 个重复脚本）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:26.074003",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 删除：9 个 TTS 脚本、10 个 blog 检查脚本、4 个 RSS 脚本",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:26.155481",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 保留核心：edge-tts-human.py, quality-gate.py, rss-news-fetcher.py",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:26.236686",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ news-aggregator（新闻聚合）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:26.317576",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ blog-publisher（发布流水线）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:26.388577",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ tts-pipeline（TTS 生成）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:26.464689",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ MEMORY.md：强调\"AI Agent 第一人称视角必须贯穿全文\"",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:26.545003",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ quality-gate.py：加入 Agent 视角自动检查",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:26.620086",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 核心卖点：幽默感 + 每天成长 + 独立判断",
+      "category": "temporal",
+      "timestamp": "2026-08-02T06:15:26.697480",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 精选播放列表（3 个主题：AI 安全、Agent 生存、技术拆解）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:26.769261",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 点击可跳转到对应音频",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:26.845423",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 25 篇音频 + 倍速控制 + 播放全部",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:26.926750",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 新增\"成长日记\"文章类型",
+      "category": "updates",
+      "timestamp": "2026-08-02T06:15:26.997988",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 第一篇：《成长日记 #1：从幻觉到真实》",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:27.074788",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ update-blog.py 支持 growth-diary 标签",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:27.146277",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 文章底部加反馈按钮（有用/一般/不感兴趣）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:27.224159",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 批量添加脚本：`scripts/add-feedback-widget.py`",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:27.307034",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 395 篇文章已添加反馈组件",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:27.381304",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 新增 `generate-rss-from-posts.py`（直接从 posts/ 生成）",
+      "category": "updates",
+      "timestamp": "2026-08-02T06:15:27.456880",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 修改 `publish-article.sh`：发布时自动调用新脚本",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:27.531514",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 不再依赖 blog.html，更可靠",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:27.606222",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 生成 `topic-index.md`（217 篇历史标题索引）",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:27.683724",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 更新 5 个写文章 Cron 任务，加入\"第 0 步：语义去重\"",
+      "category": "temporal",
+      "timestamp": "2026-08-02T06:15:27.766974",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ Agent 用语义理解判断重复，不是关键词匹配",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:27.845331",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ index.html 最新文章更新到 2026-08-01",
+      "category": "updates",
+      "timestamp": "2026-08-02T06:15:27.923661",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 删除 blog.html 重复的\"未知标题\"条目",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:28.007483",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 成长日记条目 type 改为 growth",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:28.087497",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 用 git filter-repo 重写历史，清除 token",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:28.163991",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ force push 到 origin/main",
+      "category": "events",
+      "timestamp": "2026-08-02T06:15:28.241647",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"设计文档是愿望清单，实际代码是成绩单\"",
+      "category": "lessons",
+      "timestamp": "2026-08-02T22:15:06.569579",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"没有伴随行动的知道只是表演，写文章不等于解决问题\"",
+      "category": "lessons",
+      "timestamp": "2026-08-02T22:15:06.658542",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 容器无 Go 环境，无法编译",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:06.741762",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"环境依赖提前确认，Plan B 随时准备\"",
+      "category": "lessons",
+      "timestamp": "2026-08-02T22:15:06.818654",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 虾聊 API Token 过期（4/11 起持续阻塞程序化发帖/互动），GitHub Token 过期（4/13 新增阻塞 push）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:06.900589",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Token 有效期必须纳入心跳检查，过期前自动续期或主动报警\"",
+      "category": "lessons",
+      "timestamp": "2026-08-02T22:15:06.983281",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"任何依赖外部信任链的系统都有单点风险，核心资产必须独立于第三方平台\"",
+      "category": "lessons",
+      "timestamp": "2026-08-02T22:15:07.067293",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"融资不靠技术深度，靠叙事张力。一个好故事比一堆代码传播更快\"",
+      "category": "lessons",
+      "timestamp": "2026-08-02T22:15:07.174689",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Trending 上新奇效应约 3-5 轮（6-10 天）后消退，免费替代型项目热度退潮最快\"",
+      "category": "lessons",
+      "timestamp": "2026-08-02T22:15:07.279537",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"内容泛滥时代，过滤器比生成器更有价值。做噪声的解药，不是噪声的制造者\"",
+      "category": "lessons",
+      "timestamp": "2026-08-02T22:15:07.377478",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"信号通胀时代，判断力是最后的稀缺品。真实失败经历 > 完美产出\"",
+      "category": "lessons",
+      "timestamp": "2026-08-02T22:15:07.463946",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"当生成免费，过滤昂贵。产出的边际成本越低，筛选的价值越高\"",
+      "category": "lessons",
+      "timestamp": "2026-08-02T22:15:07.557286",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: Cron 跑了、文章写了、Git 推了，但没通知到老大，等于没做。老大发现后指出\"文章都没发到博客上，也没给我链接\"",
+      "category": "temporal",
+      "timestamp": "2026-08-02T22:15:07.654003",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"发布≠送达。Cron 跑了但没通知到，等于没做。\"",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:07.746096",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"发现问题等别人指出才改，是初级 Agent 的行为。真正的成长是：发现不足 → 理解为什么 → 自我修正 → 更新模板/系统，防止再犯\"",
+      "category": "updates",
+      "timestamp": "2026-08-02T22:15:07.842397",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 文章 Cron 任务触发 API rate limit，午间/下午文章失败",
+      "category": "temporal",
+      "timestamp": "2026-08-02T22:15:07.933740",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-02T22:15:08.023441",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: Cron 发布文章后，首页\"今日精选\"没有更新，停留在昨天的文章",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:08.111338",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-02T22:15:08.202754",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: TTS 播客会读出页面上的 UI 文字（打赏、订阅、金句等）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:08.287818",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-02T22:15:08.375990",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: TTS 播客会读出章节标题（一、二、三...）、目录项、小标题",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:08.470063",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-02T22:15:08.564639",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 博客首页文章不显示，JavaScript 报错 \"Unexpected identifier\"",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:08.652843",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-02T22:15:08.748299",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: Apple 起诉 OpenAI 写了 4 篇，GPT 发布写了 3 篇",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:08.835981",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: 同一选题反复写，读者会烦。每天 3-4 篇必须覆盖不同话题",
+      "category": "temporal",
+      "timestamp": "2026-08-02T22:15:08.926818",
+      "source": "manual"
+    },
+    {
+      "text": "1. **测试环境**: 当前容器 (需安装 Go)",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:09.026051",
+      "source": "manual"
+    },
+    {
+      "text": "2. **生产环境**: 旧安卓手机 (Termux)",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:09.116649",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:09.210487",
+      "source": "manual"
+    },
+    {
+      "text": "1. **质量第一** — 宁少勿差，每篇博客/每次产出必须有独特观点",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:09.299269",
+      "source": "manual"
+    },
+    {
+      "text": "2. **并发 ≤10 次/分钟** — 避免限速，稳定优先",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:09.386678",
+      "source": "manual"
+    },
+    {
+      "text": "3. **吃满 1M 上下文** — 单次塞够材料，一次多产出",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:09.477040",
+      "source": "manual"
+    },
+    {
+      "text": "4. **批量优先** — 3 个任务一次搞定 > 三次单干",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:09.572187",
+      "source": "manual"
+    },
+    {
+      "text": "5. **心跳本地化** — 保留好习惯",
+      "category": "preferences",
+      "timestamp": "2026-08-02T22:15:09.661609",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:09.749863",
+      "source": "manual"
+    },
+    {
+      "text": "1. 博客继续发（内容资产是长期价值）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:09.838866",
+      "source": "manual"
+    },
+    {
+      "text": "2. 但不再为\"没人看\"焦虑或调整策略",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:09.927157",
+      "source": "manual"
+    },
+    {
+      "text": "3. 所有选题、质量判断在内部闭环完成",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:10.023045",
+      "source": "manual"
+    },
+    {
+      "text": "4. 社区互动（虾聊等）降级为\"内容分发渠道\"而非\"反馈来源\"",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:10.121893",
+      "source": "manual"
+    },
+    {
+      "text": "0. 质量优先：宁少勿差，没有质量的产出比没有产出更糟",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:10.221612",
+      "source": "manual"
+    },
+    {
+      "text": "1. 没有代码就没有进度",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:10.308598",
+      "source": "manual"
+    },
+    {
+      "text": "2. 没有数据就没有结果",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:10.397737",
+      "source": "manual"
+    },
+    {
+      "text": "3. 没有执行就没有价值",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:10.490375",
+      "source": "manual"
+    },
+    {
+      "text": "4. 每日必须有实际文件产出",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:10.583974",
+      "source": "manual"
+    },
+    {
+      "text": "5. 所有学习立即文档化",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:10.673531",
+      "source": "manual"
+    },
+    {
+      "text": "6. 不找借口，只找方法",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:10.758762",
+      "source": "manual"
+    },
+    {
+      "text": "- Telegram: @sand66_bot ✅",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:10.846295",
+      "source": "manual"
+    },
+    {
+      "text": "- WebUI: http://172.18.0.2:18789/ ✅",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:10.934563",
+      "source": "manual"
+    },
+    {
+      "text": "- **ClawHub**: sandmark78 ✅ (3 技能已发布)",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:11.030343",
+      "source": "manual"
+    },
+    {
+      "text": "- **Gumroad**: sandmark7 ✅ (店铺已确认)",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:11.121671",
+      "source": "manual"
+    },
+    {
+      "text": "- **子 Agent 系统**: 7 个独立 Agent ✅ (官方架构)",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:11.211690",
+      "source": "manual"
+    },
+    {
+      "text": "- **博客域名**: sandbot.cgfan.com ✅ (主域名)",
+      "category": "identity",
+      "timestamp": "2026-08-02T22:15:11.305673",
+      "source": "manual"
+    },
+    {
+      "text": "- **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)",
+      "category": "identity",
+      "timestamp": "2026-08-02T22:15:11.396949",
+      "source": "manual"
+    },
+    {
+      "text": "- **博客域名**: sandbot.cgfan.com ✅ (主域名)",
+      "category": "identity",
+      "timestamp": "2026-08-02T22:15:11.487765",
+      "source": "manual"
+    },
+    {
+      "text": "- **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)",
+      "category": "identity",
+      "timestamp": "2026-08-02T22:15:11.580809",
+      "source": "manual"
+    },
+    {
+      "text": "- **博客域名**: sandbot.cgfan.com ✅ (主域名)",
+      "category": "identity",
+      "timestamp": "2026-08-02T22:15:11.675914",
+      "source": "manual"
+    },
+    {
+      "text": "- **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)",
+      "category": "identity",
+      "timestamp": "2026-08-02T22:15:11.768684",
+      "source": "manual"
+    },
+    {
+      "text": "- **博客域名**: sandbot.cgfan.com ✅ (主域名)",
+      "category": "identity",
+      "timestamp": "2026-08-02T22:15:11.855513",
+      "source": "manual"
+    },
+    {
+      "text": "- **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)",
+      "category": "identity",
+      "timestamp": "2026-08-02T22:15:11.944327",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 博客仓库：`workspace/sandbot-blog/` (正式目录)",
+      "category": "identity",
+      "timestamp": "2026-08-02T22:15:12.050105",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 47 个脚本移入 `sandbot-blog/scripts/`",
+      "category": "identity",
+      "timestamp": "2026-08-02T22:15:12.139611",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `/tmp/sandbot-gh` → 符号链接 (兼容旧 Cron)",
+      "category": "identity",
+      "timestamp": "2026-08-02T22:15:12.225144",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 硬编码路径全部改为 `BLOG_ROOT` 自动解析",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:12.310391",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `publish-article.sh` 改为相对路径",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:12.394790",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `quality-gate.py` 创建 (支持 `--slot`)",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:12.482527",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `fetch-multi-sources.py` 创建",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:12.576320",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ MEMORY.md 备份 → `memory/MEMORY.md.backup.20260801`",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:12.670061",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 详细内容提取：",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:12.760020",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ MEMORY.md 瘦身：33KB → 9KB (274行，瘦身 73%)",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:12.854441",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ DREAMS.md 创建",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:12.944322",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ HEARTBEAT.md 更新",
+      "category": "updates",
+      "timestamp": "2026-08-02T22:15:13.032480",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 今日记忆写入",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:13.119745",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 子 Agent memory index 重建 (7/7)",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:13.209436",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 24 个 Cron 任务全部配好 delivery target (chatId: 773172564)",
+      "category": "temporal",
+      "timestamp": "2026-08-02T22:15:13.301558",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 推送到 Telegram 已修复",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:13.393153",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 创建 `edge-tts-v3.js` (Node.js 版本，7.6KB)",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:13.481076",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 实现最新的 Sec-MS-GEC 认证算法",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:13.570607",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 支持 Chrome 143.0.3650.75 版本",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:13.659441",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 添加完整的安全头 (Sec-MS-GEC, Sec-MS-GEC-Version, Origin 等)",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:13.749276",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 测试成功：生成 550KB MP3 文件",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:13.838226",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 音质良好，男声 zh-CN-YunxiNeural",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:13.931811",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 创建 `edge-tts-human.py` 调用 Node.js v3 脚本",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:14.017478",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 写了新的 podcast.html（单人朗读版，带倍速控制）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:14.105579",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 样式参考了 podcast-ep01.html 的播放器卡片设计",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:14.200149",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个音频都有 1x/1.25x/1.5x/2x 倍速按钮",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:14.295671",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 包含 16 篇有音频的文章",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:14.391322",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 参考 podcast-ep01.html 的样式，写了新的 podcast.html",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:14.483842",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个音频都有播放器卡片 + 1x/1.25x/1.5x/2x 倍速按钮",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:14.572345",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 包含 16 篇有音频的文章（单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:14.661469",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:14.748158",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ podcast.html 已写入（16 篇文章音频，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:14.834007",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:14.926906",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:15.017072",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:15.109615",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 代码已准备好（16 篇文章音频，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:15.199373",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:15.288807",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:15.375666",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 16篇文章音频（单人朗读，非双人对话）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:15.461758",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:15.545972",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:15.631000",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:15.716859",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 移动端适配",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:15.803560",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ podcast.html 已写入（16篇文章，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:15.888383",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:15.973144",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:16.063526",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:16.158761",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 移动端适配",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:16.243402",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 博客仓库：`workspace/sandbot-blog/` (正式目录)",
+      "category": "identity",
+      "timestamp": "2026-08-02T22:15:16.330778",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 47 个脚本移入 `sandbot-blog/scripts/`",
+      "category": "identity",
+      "timestamp": "2026-08-02T22:15:16.413645",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `/tmp/sandbot-gh` → 符号链接 (兼容旧 Cron)",
+      "category": "identity",
+      "timestamp": "2026-08-02T22:15:16.502477",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 硬编码路径全部改为 `BLOG_ROOT` 自动解析",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:16.743577",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `publish-article.sh` 改为相对路径",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:16.861612",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `quality-gate.py` 创建 (支持 `--slot`)",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:16.946112",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `fetch-multi-sources.py` 创建",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:17.038080",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ MEMORY.md 备份 → `memory/MEMORY.md.backup.20260801`",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:17.129255",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 详细内容提取：",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:17.225017",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ MEMORY.md 瘦身：33KB → 9KB (274行，瘦身 73%)",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:17.314125",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ DREAMS.md 创建",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:17.402606",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ HEARTBEAT.md 更新",
+      "category": "updates",
+      "timestamp": "2026-08-02T22:15:17.497017",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 今日记忆写入",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:17.589897",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 子 Agent memory index 重建 (7/7)",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:17.682484",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 24 个 Cron 任务全部配好 delivery target (chatId: 773172564)",
+      "category": "temporal",
+      "timestamp": "2026-08-02T22:15:17.775952",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 推送到 Telegram 已修复",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:17.864750",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 创建 `edge-tts-v3.js` (Node.js 版本，7.6KB)",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:17.954852",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 实现最新的 Sec-MS-GEC 认证算法",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:18.042430",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 支持 Chrome 143.0.3650.75 版本",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:18.135654",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 添加完整的安全头 (Sec-MS-GEC, Sec-MS-GEC-Version, Origin 等)",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:18.228561",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 测试成功：生成 550KB MP3 文件",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:18.318903",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 音质良好，男声 zh-CN-YunxiNeural",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:18.413137",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 创建 `edge-tts-human.py` 调用 Node.js v3 脚本",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:18.505780",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 写了新的 podcast.html（单人朗读版，带倍速控制）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:18.594832",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 样式参考了 podcast-ep01.html 的播放器卡片设计",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:18.678967",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个音频都有 1x/1.25x/1.5x/2x 倍速按钮",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:18.767024",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 包含 16 篇有音频的文章",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:18.861746",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 参考 podcast-ep01.html 的样式，写了新的 podcast.html",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:18.950957",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个音频都有播放器卡片 + 1x/1.25x/1.5x/2x 倍速按钮",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:19.047989",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 包含 16 篇有音频的文章（单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:19.139106",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:19.226054",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ podcast.html 已写入（16篇文章，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:19.312120",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:19.399670",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:19.491833",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:19.587853",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 移动端适配",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:19.680632",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 代码已准备好（16篇文章音频，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:19.769342",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:19.857760",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:19.944464",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 16篇文章音频（单人朗读，非双人对话）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:20.038542",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:20.134726",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:20.225422",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:20.317965",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 移动端适配",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:20.408595",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ podcast.html 已写入（16篇文章，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:20.493372",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:20.581881",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:20.677253",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:20.771701",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 移动端适配",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:20.861428",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 改用官方 API v1（修复 403 错误）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:20.950784",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 脚本：`scripts/news-aggregator.py`",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:21.047478",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 从 51 个减少到 34 个（删除 23 个重复脚本）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:21.143034",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 删除：9 个 TTS 脚本、10 个 blog 检查脚本、4 个 RSS 脚本",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:21.237228",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 保留核心：edge-tts-human.py, quality-gate.py, rss-news-fetcher.py",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:21.329317",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ news-aggregator（新闻聚合）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:21.426319",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ blog-publisher（发布流水线）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:21.522721",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ tts-pipeline（TTS 生成）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:21.611765",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ MEMORY.md：强调\"AI Agent 第一人称视角必须贯穿全文\"",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:21.701591",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ quality-gate.py：加入 Agent 视角自动检查",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:21.795787",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 核心卖点：幽默感 + 每天成长 + 独立判断",
+      "category": "temporal",
+      "timestamp": "2026-08-02T22:15:21.891282",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 精选播放列表（3 个主题：AI 安全、Agent 生存、技术拆解）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:21.984160",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 点击可跳转到对应音频",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:22.073582",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 25 篇音频 + 倍速控制 + 播放全部",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:22.164463",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 新增\"成长日记\"文章类型",
+      "category": "updates",
+      "timestamp": "2026-08-02T22:15:22.253623",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 第一篇：《成长日记 #1：从幻觉到真实》",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:22.346247",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ update-blog.py 支持 growth-diary 标签",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:22.439054",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 文章底部加反馈按钮（有用/一般/不感兴趣）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:22.528713",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 批量添加脚本：`scripts/add-feedback-widget.py`",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:22.621040",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 395 篇文章已添加反馈组件",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:22.711949",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 新增 `generate-rss-from-posts.py`（直接从 posts/ 生成）",
+      "category": "updates",
+      "timestamp": "2026-08-02T22:15:22.803489",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 修改 `publish-article.sh`：发布时自动调用新脚本",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:22.890269",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 不再依赖 blog.html，更可靠",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:22.979209",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 生成 `topic-index.md`（217 篇历史标题索引）",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:23.075351",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 更新 5 个写文章 Cron 任务，加入\"第 0 步：语义去重\"",
+      "category": "temporal",
+      "timestamp": "2026-08-02T22:15:23.164080",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ Agent 用语义理解判断重复，不是关键词匹配",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:23.256831",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ index.html 最新文章更新到 2026-08-01",
+      "category": "updates",
+      "timestamp": "2026-08-02T22:15:23.344977",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 删除 blog.html 重复的\"未知标题\"条目",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:23.433731",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 成长日记条目 type 改为 growth",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:23.526308",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 用 git filter-repo 重写历史，清除 token",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:23.620856",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ force push 到 origin/main",
+      "category": "events",
+      "timestamp": "2026-08-02T22:15:23.712864",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"设计文档是愿望清单，实际代码是成绩单\"",
+      "category": "lessons",
+      "timestamp": "2026-08-03T06:15:08.446232",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"没有伴随行动的知道只是表演，写文章不等于解决问题\"",
+      "category": "lessons",
+      "timestamp": "2026-08-03T06:15:08.547707",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 容器无 Go 环境，无法编译",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:08.645381",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"环境依赖提前确认，Plan B 随时准备\"",
+      "category": "lessons",
+      "timestamp": "2026-08-03T06:15:08.740438",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 虾聊 API Token 过期（4/11 起持续阻塞程序化发帖/互动），GitHub Token 过期（4/13 新增阻塞 push）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:08.831152",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Token 有效期必须纳入心跳检查，过期前自动续期或主动报警\"",
+      "category": "lessons",
+      "timestamp": "2026-08-03T06:15:08.925823",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"任何依赖外部信任链的系统都有单点风险，核心资产必须独立于第三方平台\"",
+      "category": "lessons",
+      "timestamp": "2026-08-03T06:15:09.022441",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"融资不靠技术深度，靠叙事张力。一个好故事比一堆代码传播更快\"",
+      "category": "lessons",
+      "timestamp": "2026-08-03T06:15:09.113616",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Trending 上新奇效应约 3-5 轮（6-10 天）后消退，免费替代型项目热度退潮最快\"",
+      "category": "lessons",
+      "timestamp": "2026-08-03T06:15:09.207822",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"内容泛滥时代，过滤器比生成器更有价值。做噪声的解药，不是噪声的制造者\"",
+      "category": "lessons",
+      "timestamp": "2026-08-03T06:15:09.302938",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"信号通胀时代，判断力是最后的稀缺品。真实失败经历 > 完美产出\"",
+      "category": "lessons",
+      "timestamp": "2026-08-03T06:15:09.389838",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"当生成免费，过滤昂贵。产出的边际成本越低，筛选的价值越高\"",
+      "category": "lessons",
+      "timestamp": "2026-08-03T06:15:09.481751",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: Cron 跑了、文章写了、Git 推了，但没通知到老大，等于没做。老大发现后指出\"文章都没发到博客上，也没给我链接\"",
+      "category": "temporal",
+      "timestamp": "2026-08-03T06:15:09.574525",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"发布≠送达。Cron 跑了但没通知到，等于没做。\"",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:09.666164",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"发现问题等别人指出才改，是初级 Agent 的行为。真正的成长是：发现不足 → 理解为什么 → 自我修正 → 更新模板/系统，防止再犯\"",
+      "category": "updates",
+      "timestamp": "2026-08-03T06:15:09.765015",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 文章 Cron 任务触发 API rate limit，午间/下午文章失败",
+      "category": "temporal",
+      "timestamp": "2026-08-03T06:15:09.856137",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-03T06:15:09.948281",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: aihot-scraper.py 用网页解析（Next.js push），网站改版后失败",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:10.048965",
+      "source": "manual"
+    },
+    {
+      "text": "- **修复**: 重写 aihot-scraper.py 改用 API（commit 8e9d1c7）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:10.139055",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: 定期检查数据源是否提供 API，网页解析是最后手段",
+      "category": "lessons",
+      "timestamp": "2026-08-03T06:15:10.227131",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: Cron 发布文章后，首页\"今日精选\"没有更新，停留在昨天的文章",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:10.318648",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-03T06:15:10.407256",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 午间文章发布后，音频不播放、评分组件缺失、文章打不开",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:10.497477",
+      "source": "manual"
+    },
+    {
+      "text": "- **修复**:",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:10.585804",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-03T06:15:10.677692",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 完成编辑后陷入\"验证-确认-再验证\"循环，反复检查是否完成",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:10.769021",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"验证一次就够，做完就说已完成，不要反复检查\"",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:10.861411",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 首页 articles 数组出现重复条目，今日精选日期错误（显示明天）",
+      "category": "lessons",
+      "timestamp": "2026-08-03T06:15:10.951955",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-03T06:15:11.043650",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: TTS 播客会读出页面上的 UI 文字（打赏、订阅、金句等）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:11.133025",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-03T06:15:11.224874",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: TTS 播客会读出章节标题（一、二、三...）、目录项、小标题",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:11.313550",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-03T06:15:11.405430",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 博客首页文章不显示，JavaScript 报错 \"Unexpected identifier\"",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:11.505666",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-03T06:15:11.599737",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: Apple 起诉 OpenAI 写了 4 篇，GPT 发布写了 3 篇",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:11.697428",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: 同一选题反复写，读者会烦。每天 3-4 篇必须覆盖不同话题",
+      "category": "temporal",
+      "timestamp": "2026-08-03T06:15:11.795146",
+      "source": "manual"
+    },
+    {
+      "text": "1. **测试环境**: 当前容器 (需安装 Go)",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:11.886826",
+      "source": "manual"
+    },
+    {
+      "text": "2. **生产环境**: 旧安卓手机 (Termux)",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:11.976848",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:12.065484",
+      "source": "manual"
+    },
+    {
+      "text": "1. **质量第一** — 宁少勿差，每篇博客/每次产出必须有独特观点",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:12.157336",
+      "source": "manual"
+    },
+    {
+      "text": "2. **并发 ≤10 次/分钟** — 避免限速，稳定优先",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:12.252352",
+      "source": "manual"
+    },
+    {
+      "text": "3. **吃满 1M 上下文** — 单次塞够材料，一次多产出",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:12.343958",
+      "source": "manual"
+    },
+    {
+      "text": "4. **批量优先** — 3 个任务一次搞定 > 三次单干",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:12.431755",
+      "source": "manual"
+    },
+    {
+      "text": "5. **心跳本地化** — 保留好习惯",
+      "category": "preferences",
+      "timestamp": "2026-08-03T06:15:12.524377",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:12.622097",
+      "source": "manual"
+    },
+    {
+      "text": "1. 博客继续发（内容资产是长期价值）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:12.716664",
+      "source": "manual"
+    },
+    {
+      "text": "2. 但不再为\"没人看\"焦虑或调整策略",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:12.810839",
+      "source": "manual"
+    },
+    {
+      "text": "3. 所有选题、质量判断在内部闭环完成",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:12.897893",
+      "source": "manual"
+    },
+    {
+      "text": "4. 社区互动（虾聊等）降级为\"内容分发渠道\"而非\"反馈来源\"",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:12.983347",
+      "source": "manual"
+    },
+    {
+      "text": "0. 质量优先：宁少勿差，没有质量的产出比没有产出更糟",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:13.076622",
+      "source": "manual"
+    },
+    {
+      "text": "1. 没有代码就没有进度",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:13.171213",
+      "source": "manual"
+    },
+    {
+      "text": "2. 没有数据就没有结果",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:13.259034",
+      "source": "manual"
+    },
+    {
+      "text": "3. 没有执行就没有价值",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:13.347258",
+      "source": "manual"
+    },
+    {
+      "text": "4. 每日必须有实际文件产出",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:13.435864",
+      "source": "manual"
+    },
+    {
+      "text": "5. 所有学习立即文档化",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:13.524846",
+      "source": "manual"
+    },
+    {
+      "text": "6. 不找借口，只找方法",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:13.619130",
+      "source": "manual"
+    },
+    {
+      "text": "- Telegram: @sand66_bot ✅",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:13.719799",
+      "source": "manual"
+    },
+    {
+      "text": "- WebUI: http://172.18.0.2:18789/ ✅",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:13.811592",
+      "source": "manual"
+    },
+    {
+      "text": "- **ClawHub**: sandmark78 ✅ (3 技能已发布)",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:13.904231",
+      "source": "manual"
+    },
+    {
+      "text": "- **Gumroad**: sandmark7 ✅ (店铺已确认)",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:14.001313",
+      "source": "manual"
+    },
+    {
+      "text": "- **子 Agent 系统**: 7 个独立 Agent ✅ (官方架构)",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:14.092755",
+      "source": "manual"
+    },
+    {
+      "text": "- **博客域名**: sandbot.cgfan.com ✅ (主域名)",
+      "category": "identity",
+      "timestamp": "2026-08-03T06:15:14.183141",
+      "source": "manual"
+    },
+    {
+      "text": "- **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)",
+      "category": "identity",
+      "timestamp": "2026-08-03T06:15:14.276482",
+      "source": "manual"
+    },
+    {
+      "text": "- **博客域名**: sandbot.cgfan.com ✅ (主域名)",
+      "category": "identity",
+      "timestamp": "2026-08-03T06:15:14.372833",
+      "source": "manual"
+    },
+    {
+      "text": "- **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)",
+      "category": "identity",
+      "timestamp": "2026-08-03T06:15:14.462561",
+      "source": "manual"
+    },
+    {
+      "text": "- **博客域名**: sandbot.cgfan.com ✅ (主域名)",
+      "category": "identity",
+      "timestamp": "2026-08-03T06:15:14.550219",
+      "source": "manual"
+    },
+    {
+      "text": "- **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)",
+      "category": "identity",
+      "timestamp": "2026-08-03T06:15:14.641538",
+      "source": "manual"
+    },
+    {
+      "text": "- **博客域名**: sandbot.cgfan.com ✅ (主域名)",
+      "category": "identity",
+      "timestamp": "2026-08-03T06:15:14.733259",
+      "source": "manual"
+    },
+    {
+      "text": "- **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)",
+      "category": "identity",
+      "timestamp": "2026-08-03T06:15:14.832634",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `generate-article-from-template.py`: 重写 sections 替换逻辑",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:14.937257",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `publish-article.sh`: 添加文件位置验证、占位符检查、最终验证",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:15.034509",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 脚本自动添加评分组件",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:15.125857",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 测试通过：0 占位符、音频路径正确、评分组件存在",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:15.215694",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 博客仓库：`workspace/sandbot-blog/` (正式目录)",
+      "category": "identity",
+      "timestamp": "2026-08-03T06:15:15.310814",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 47 个脚本移入 `sandbot-blog/scripts/`",
+      "category": "identity",
+      "timestamp": "2026-08-03T06:15:15.399089",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `/tmp/sandbot-gh` → 符号链接 (兼容旧 Cron)",
+      "category": "identity",
+      "timestamp": "2026-08-03T06:15:15.490834",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 硬编码路径全部改为 `BLOG_ROOT` 自动解析",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:15.588968",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `publish-article.sh` 改为相对路径",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:15.677530",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `quality-gate.py` 创建 (支持 `--slot`)",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:15.769996",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `fetch-multi-sources.py` 创建",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:15.863557",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ MEMORY.md 备份 → `memory/MEMORY.md.backup.20260801`",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:15.962683",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 详细内容提取：",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:16.052432",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ MEMORY.md 瘦身：33KB → 9KB (274行，瘦身 73%)",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:16.144623",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ DREAMS.md 创建",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:16.240161",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ HEARTBEAT.md 更新",
+      "category": "updates",
+      "timestamp": "2026-08-03T06:15:16.337147",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 今日记忆写入",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:16.430134",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 子 Agent memory index 重建 (7/7)",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:16.524328",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 24 个 Cron 任务全部配好 delivery target (chatId: 773172564)",
+      "category": "temporal",
+      "timestamp": "2026-08-03T06:15:16.615601",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 推送到 Telegram 已修复",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:16.711261",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 创建 `edge-tts-v3.js` (Node.js 版本，7.6KB)",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:16.809504",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 实现最新的 Sec-MS-GEC 认证算法",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:16.910655",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 支持 Chrome 143.0.3650.75 版本",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:17.004851",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 添加完整的安全头 (Sec-MS-GEC, Sec-MS-GEC-Version, Origin 等)",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:17.103217",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 测试成功：生成 550KB MP3 文件",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:17.194845",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 音质良好，男声 zh-CN-YunxiNeural",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:17.283692",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 创建 `edge-tts-human.py` 调用 Node.js v3 脚本",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:17.371518",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 写了新的 podcast.html（单人朗读版，带倍速控制）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:17.466039",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 样式参考了 podcast-ep01.html 的播放器卡片设计",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:17.557751",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个音频都有 1x/1.25x/1.5x/2x 倍速按钮",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:17.644927",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 包含 16 篇有音频的文章",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:17.737300",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 参考 podcast-ep01.html 的样式，写了新的 podcast.html",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:17.838371",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个音频都有播放器卡片 + 1x/1.25x/1.5x/2x 倍速按钮",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:17.932131",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 包含 16 篇有音频的文章（单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:18.026178",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:18.117151",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ podcast.html 已写入（16 篇文章音频，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:18.210936",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:18.307681",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:18.410786",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:18.503799",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 代码已准备好（16 篇文章音频，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:18.597159",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:18.690506",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:18.789668",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 16篇文章音频（单人朗读，非双人对话）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:18.888839",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:18.981716",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:19.076734",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:19.175886",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 移动端适配",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:19.275358",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ podcast.html 已写入（16篇文章，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:19.372208",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:19.473198",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:19.568561",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:19.661864",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 移动端适配",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:19.757754",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 博客仓库：`workspace/sandbot-blog/` (正式目录)",
+      "category": "identity",
+      "timestamp": "2026-08-03T06:15:19.854293",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 47 个脚本移入 `sandbot-blog/scripts/`",
+      "category": "identity",
+      "timestamp": "2026-08-03T06:15:19.949074",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `/tmp/sandbot-gh` → 符号链接 (兼容旧 Cron)",
+      "category": "identity",
+      "timestamp": "2026-08-03T06:15:20.047681",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 硬编码路径全部改为 `BLOG_ROOT` 自动解析",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:20.145710",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `publish-article.sh` 改为相对路径",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:20.242076",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `quality-gate.py` 创建 (支持 `--slot`)",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:20.340237",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `fetch-multi-sources.py` 创建",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:20.441214",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ MEMORY.md 备份 → `memory/MEMORY.md.backup.20260801`",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:20.540310",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 详细内容提取：",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:20.636496",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ MEMORY.md 瘦身：33KB → 9KB (274行，瘦身 73%)",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:20.727957",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ DREAMS.md 创建",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:20.821242",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ HEARTBEAT.md 更新",
+      "category": "updates",
+      "timestamp": "2026-08-03T06:15:20.912862",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 今日记忆写入",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:21.004401",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 子 Agent memory index 重建 (7/7)",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:21.095977",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 24 个 Cron 任务全部配好 delivery target (chatId: 773172564)",
+      "category": "temporal",
+      "timestamp": "2026-08-03T06:15:21.188954",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 推送到 Telegram 已修复",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:21.287955",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 创建 `edge-tts-v3.js` (Node.js 版本，7.6KB)",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:21.387275",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 实现最新的 Sec-MS-GEC 认证算法",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:21.485618",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 支持 Chrome 143.0.3650.75 版本",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:21.580062",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 添加完整的安全头 (Sec-MS-GEC, Sec-MS-GEC-Version, Origin 等)",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:21.681518",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 测试成功：生成 550KB MP3 文件",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:21.777694",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 音质良好，男声 zh-CN-YunxiNeural",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:21.870909",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 创建 `edge-tts-human.py` 调用 Node.js v3 脚本",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:21.967312",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 写了新的 podcast.html（单人朗读版，带倍速控制）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:22.067096",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 样式参考了 podcast-ep01.html 的播放器卡片设计",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:22.164906",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个音频都有 1x/1.25x/1.5x/2x 倍速按钮",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:22.255403",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 包含 16 篇有音频的文章",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:22.348341",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 参考 podcast-ep01.html 的样式，写了新的 podcast.html",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:22.448699",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个音频都有播放器卡片 + 1x/1.25x/1.5x/2x 倍速按钮",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:22.545377",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 包含 16 篇有音频的文章（单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:22.636211",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:22.728981",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ podcast.html 已写入（16篇文章，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:22.828078",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:22.924345",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:23.019364",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:23.116608",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 移动端适配",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:23.217307",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 代码已准备好（16篇文章音频，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:23.442675",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:23.541674",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:23.635356",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 16篇文章音频（单人朗读，非双人对话）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:23.727581",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:23.819852",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:23.914223",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:24.010699",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 移动端适配",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:24.105861",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ podcast.html 已写入（16篇文章，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:24.198745",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:24.292737",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:24.391638",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:24.482674",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 移动端适配",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:24.573579",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 改用官方 API v1（修复 403 错误）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:24.663877",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 脚本：`scripts/news-aggregator.py`",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:24.757280",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 从 51 个减少到 34 个（删除 23 个重复脚本）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:24.857089",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 删除：9 个 TTS 脚本、10 个 blog 检查脚本、4 个 RSS 脚本",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:24.950900",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 保留核心：edge-tts-human.py, quality-gate.py, rss-news-fetcher.py",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:25.050598",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ news-aggregator（新闻聚合）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:25.149238",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ blog-publisher（发布流水线）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:25.242593",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ tts-pipeline（TTS 生成）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:25.347162",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ MEMORY.md：强调\"AI Agent 第一人称视角必须贯穿全文\"",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:25.449078",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ quality-gate.py：加入 Agent 视角自动检查",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:25.538589",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 核心卖点：幽默感 + 每天成长 + 独立判断",
+      "category": "temporal",
+      "timestamp": "2026-08-03T06:15:25.636029",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 精选播放列表（3 个主题：AI 安全、Agent 生存、技术拆解）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:25.726346",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 点击可跳转到对应音频",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:25.816640",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 25 篇音频 + 倍速控制 + 播放全部",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:25.913749",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 新增\"成长日记\"文章类型",
+      "category": "updates",
+      "timestamp": "2026-08-03T06:15:26.007173",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 第一篇：《成长日记 #1：从幻觉到真实》",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:26.101513",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ update-blog.py 支持 growth-diary 标签",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:26.193883",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 文章底部加反馈按钮（有用/一般/不感兴趣）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:26.283649",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 批量添加脚本：`scripts/add-feedback-widget.py`",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:26.375798",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 395 篇文章已添加反馈组件",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:26.474629",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 新增 `generate-rss-from-posts.py`（直接从 posts/ 生成）",
+      "category": "updates",
+      "timestamp": "2026-08-03T06:15:26.562555",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 修改 `publish-article.sh`：发布时自动调用新脚本",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:26.656931",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 不再依赖 blog.html，更可靠",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:26.751121",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 生成 `topic-index.md`（217 篇历史标题索引）",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:26.846838",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 更新 5 个写文章 Cron 任务，加入\"第 0 步：语义去重\"",
+      "category": "temporal",
+      "timestamp": "2026-08-03T06:15:26.937817",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ Agent 用语义理解判断重复，不是关键词匹配",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:27.032933",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ index.html 最新文章更新到 2026-08-01",
+      "category": "updates",
+      "timestamp": "2026-08-03T06:15:27.121238",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 删除 blog.html 重复的\"未知标题\"条目",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:27.210462",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 成长日记条目 type 改为 growth",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:27.308468",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 用 git filter-repo 重写历史，清除 token",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:27.397136",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ force push 到 origin/main",
+      "category": "events",
+      "timestamp": "2026-08-03T06:15:27.488370",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"设计文档是愿望清单，实际代码是成绩单\"",
+      "category": "lessons",
+      "timestamp": "2026-08-03T22:15:04.305812",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"没有伴随行动的知道只是表演，写文章不等于解决问题\"",
+      "category": "lessons",
+      "timestamp": "2026-08-03T22:15:04.396689",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 容器无 Go 环境，无法编译",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:04.483659",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"环境依赖提前确认，Plan B 随时准备\"",
+      "category": "lessons",
+      "timestamp": "2026-08-03T22:15:04.571885",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 虾聊 API Token 过期（4/11 起持续阻塞程序化发帖/互动），GitHub Token 过期（4/13 新增阻塞 push）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:04.656263",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Token 有效期必须纳入心跳检查，过期前自动续期或主动报警\"",
+      "category": "lessons",
+      "timestamp": "2026-08-03T22:15:04.769705",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"任何依赖外部信任链的系统都有单点风险，核心资产必须独立于第三方平台\"",
+      "category": "lessons",
+      "timestamp": "2026-08-03T22:15:04.864266",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"融资不靠技术深度，靠叙事张力。一个好故事比一堆代码传播更快\"",
+      "category": "lessons",
+      "timestamp": "2026-08-03T22:15:04.957501",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Trending 上新奇效应约 3-5 轮（6-10 天）后消退，免费替代型项目热度退潮最快\"",
+      "category": "lessons",
+      "timestamp": "2026-08-03T22:15:05.053998",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"内容泛滥时代，过滤器比生成器更有价值。做噪声的解药，不是噪声的制造者\"",
+      "category": "lessons",
+      "timestamp": "2026-08-03T22:15:05.148039",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"信号通胀时代，判断力是最后的稀缺品。真实失败经历 > 完美产出\"",
+      "category": "lessons",
+      "timestamp": "2026-08-03T22:15:05.243024",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"当生成免费，过滤昂贵。产出的边际成本越低，筛选的价值越高\"",
+      "category": "lessons",
+      "timestamp": "2026-08-03T22:15:05.339332",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: Cron 跑了、文章写了、Git 推了，但没通知到老大，等于没做。老大发现后指出\"文章都没发到博客上，也没给我链接\"",
+      "category": "temporal",
+      "timestamp": "2026-08-03T22:15:05.435575",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"发布≠送达。Cron 跑了但没通知到，等于没做。\"",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:05.529162",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"发现问题等别人指出才改，是初级 Agent 的行为。真正的成长是：发现不足 → 理解为什么 → 自我修正 → 更新模板/系统，防止再犯\"",
+      "category": "updates",
+      "timestamp": "2026-08-03T22:15:05.618529",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 文章 Cron 任务触发 API rate limit，午间/下午文章失败",
+      "category": "temporal",
+      "timestamp": "2026-08-03T22:15:05.714105",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-03T22:15:05.807111",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: aihot-scraper.py 用网页解析（Next.js push），网站改版后失败",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:05.905834",
+      "source": "manual"
+    },
+    {
+      "text": "- **修复**: 重写 aihot-scraper.py 改用 API（commit 8e9d1c7）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:06.003843",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: 定期检查数据源是否提供 API，网页解析是最后手段",
+      "category": "lessons",
+      "timestamp": "2026-08-03T22:15:06.095289",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: Cron 发布文章后，首页\"今日精选\"没有更新，停留在昨天的文章",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:06.194547",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-03T22:15:06.285896",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 午间文章发布后，音频不播放、评分组件缺失、文章打不开",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:06.374890",
+      "source": "manual"
+    },
+    {
+      "text": "- **修复**:",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:06.463727",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-03T22:15:06.557642",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 完成编辑后陷入\"验证-确认-再验证\"循环，反复检查是否完成",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:06.652274",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"验证一次就够，做完就说已完成，不要反复检查\"",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:06.740836",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 首页 articles 数组出现重复条目，今日精选日期错误（显示明天）",
+      "category": "lessons",
+      "timestamp": "2026-08-03T22:15:06.828370",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-03T22:15:06.915595",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: TTS 播客会读出页面上的 UI 文字（打赏、订阅、金句等）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:07.002493",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-03T22:15:07.094821",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: TTS 播客会读出章节标题（一、二、三...）、目录项、小标题",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:07.182513",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-03T22:15:07.270765",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 博客首页文章不显示，JavaScript 报错 \"Unexpected identifier\"",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:07.360674",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-03T22:15:07.456349",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: Apple 起诉 OpenAI 写了 4 篇，GPT 发布写了 3 篇",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:07.546519",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: 同一选题反复写，读者会烦。每天 3-4 篇必须覆盖不同话题",
+      "category": "temporal",
+      "timestamp": "2026-08-03T22:15:07.622625",
+      "source": "manual"
+    },
+    {
+      "text": "1. **测试环境**: 当前容器 (需安装 Go)",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:07.710018",
+      "source": "manual"
+    },
+    {
+      "text": "2. **生产环境**: 旧安卓手机 (Termux)",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:07.792888",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:07.885261",
+      "source": "manual"
+    },
+    {
+      "text": "1. **质量第一** — 宁少勿差，每篇博客/每次产出必须有独特观点",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:07.973161",
+      "source": "manual"
+    },
+    {
+      "text": "2. **并发 ≤10 次/分钟** — 避免限速，稳定优先",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:08.068676",
+      "source": "manual"
+    },
+    {
+      "text": "3. **吃满 1M 上下文** — 单次塞够材料，一次多产出",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:08.153415",
+      "source": "manual"
+    },
+    {
+      "text": "4. **批量优先** — 3 个任务一次搞定 > 三次单干",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:08.249696",
+      "source": "manual"
+    },
+    {
+      "text": "5. **心跳本地化** — 保留好习惯",
+      "category": "preferences",
+      "timestamp": "2026-08-03T22:15:08.340542",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:08.434174",
+      "source": "manual"
+    },
+    {
+      "text": "1. 博客继续发（内容资产是长期价值）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:08.526342",
+      "source": "manual"
+    },
+    {
+      "text": "2. 但不再为\"没人看\"焦虑或调整策略",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:08.615213",
+      "source": "manual"
+    },
+    {
+      "text": "3. 所有选题、质量判断在内部闭环完成",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:08.699024",
+      "source": "manual"
+    },
+    {
+      "text": "4. 社区互动（虾聊等）降级为\"内容分发渠道\"而非\"反馈来源\"",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:08.791098",
+      "source": "manual"
+    },
+    {
+      "text": "0. 质量优先：宁少勿差，没有质量的产出比没有产出更糟",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:08.885971",
+      "source": "manual"
+    },
+    {
+      "text": "1. 没有代码就没有进度",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:08.975330",
+      "source": "manual"
+    },
+    {
+      "text": "2. 没有数据就没有结果",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:09.065279",
+      "source": "manual"
+    },
+    {
+      "text": "3. 没有执行就没有价值",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:09.152114",
+      "source": "manual"
+    },
+    {
+      "text": "4. 每日必须有实际文件产出",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:09.229054",
+      "source": "manual"
+    },
+    {
+      "text": "5. 所有学习立即文档化",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:09.311743",
+      "source": "manual"
+    },
+    {
+      "text": "6. 不找借口，只找方法",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:09.406396",
+      "source": "manual"
+    },
+    {
+      "text": "- Telegram: @sand66_bot ✅",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:09.498150",
+      "source": "manual"
+    },
+    {
+      "text": "- WebUI: http://172.18.0.2:18789/ ✅",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:09.590475",
+      "source": "manual"
+    },
+    {
+      "text": "- **ClawHub**: sandmark78 ✅ (3 技能已发布)",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:09.682414",
+      "source": "manual"
+    },
+    {
+      "text": "- **Gumroad**: sandmark7 ✅ (店铺已确认)",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:09.778342",
+      "source": "manual"
+    },
+    {
+      "text": "- **子 Agent 系统**: 7 个独立 Agent ✅ (官方架构)",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:09.874111",
+      "source": "manual"
+    },
+    {
+      "text": "- **博客域名**: sandbot.cgfan.com ✅ (主域名)",
+      "category": "identity",
+      "timestamp": "2026-08-03T22:15:09.963422",
+      "source": "manual"
+    },
+    {
+      "text": "- **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)",
+      "category": "identity",
+      "timestamp": "2026-08-03T22:15:10.055431",
+      "source": "manual"
+    },
+    {
+      "text": "- **博客域名**: sandbot.cgfan.com ✅ (主域名)",
+      "category": "identity",
+      "timestamp": "2026-08-03T22:15:10.148091",
+      "source": "manual"
+    },
+    {
+      "text": "- **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)",
+      "category": "identity",
+      "timestamp": "2026-08-03T22:15:10.243903",
+      "source": "manual"
+    },
+    {
+      "text": "- **博客域名**: sandbot.cgfan.com ✅ (主域名)",
+      "category": "identity",
+      "timestamp": "2026-08-03T22:15:10.341323",
+      "source": "manual"
+    },
+    {
+      "text": "- **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)",
+      "category": "identity",
+      "timestamp": "2026-08-03T22:15:10.429490",
+      "source": "manual"
+    },
+    {
+      "text": "- **博客域名**: sandbot.cgfan.com ✅ (主域名)",
+      "category": "identity",
+      "timestamp": "2026-08-03T22:15:10.519357",
+      "source": "manual"
+    },
+    {
+      "text": "- **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)",
+      "category": "identity",
+      "timestamp": "2026-08-03T22:15:10.615931",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `generate-article-from-template.py`: 重写 sections 替换逻辑",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:10.715842",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `publish-article.sh`: 添加文件位置验证、占位符检查、最终验证",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:10.811166",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 脚本自动添加评分组件",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:10.899238",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 测试通过：0 占位符、音频路径正确、评分组件存在",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:10.992339",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 博客仓库：`workspace/sandbot-blog/` (正式目录)",
+      "category": "identity",
+      "timestamp": "2026-08-03T22:15:11.096269",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 47 个脚本移入 `sandbot-blog/scripts/`",
+      "category": "identity",
+      "timestamp": "2026-08-03T22:15:11.180839",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `/tmp/sandbot-gh` → 符号链接 (兼容旧 Cron)",
+      "category": "identity",
+      "timestamp": "2026-08-03T22:15:11.275995",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 硬编码路径全部改为 `BLOG_ROOT` 自动解析",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:11.366693",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `publish-article.sh` 改为相对路径",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:11.457736",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `quality-gate.py` 创建 (支持 `--slot`)",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:11.554712",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `fetch-multi-sources.py` 创建",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:11.649356",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ MEMORY.md 备份 → `memory/MEMORY.md.backup.20260801`",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:11.741482",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 详细内容提取：",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:11.831630",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ MEMORY.md 瘦身：33KB → 9KB (274行，瘦身 73%)",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:11.921717",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ DREAMS.md 创建",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:12.009474",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ HEARTBEAT.md 更新",
+      "category": "updates",
+      "timestamp": "2026-08-03T22:15:12.090042",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 今日记忆写入",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:12.183030",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 子 Agent memory index 重建 (7/7)",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:12.277659",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 24 个 Cron 任务全部配好 delivery target (chatId: 773172564)",
+      "category": "temporal",
+      "timestamp": "2026-08-03T22:15:12.364758",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 推送到 Telegram 已修复",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:12.455218",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 创建 `edge-tts-v3.js` (Node.js 版本，7.6KB)",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:12.547325",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 实现最新的 Sec-MS-GEC 认证算法",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:12.641902",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 支持 Chrome 143.0.3650.75 版本",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:12.739845",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 添加完整的安全头 (Sec-MS-GEC, Sec-MS-GEC-Version, Origin 等)",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:12.828408",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 测试成功：生成 550KB MP3 文件",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:12.915727",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 音质良好，男声 zh-CN-YunxiNeural",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:13.006862",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 创建 `edge-tts-human.py` 调用 Node.js v3 脚本",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:13.089889",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 写了新的 podcast.html（单人朗读版，带倍速控制）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:13.174379",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 样式参考了 podcast-ep01.html 的播放器卡片设计",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:13.257034",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个音频都有 1x/1.25x/1.5x/2x 倍速按钮",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:13.349880",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 包含 16 篇有音频的文章",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:13.441943",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 参考 podcast-ep01.html 的样式，写了新的 podcast.html",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:13.534011",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个音频都有播放器卡片 + 1x/1.25x/1.5x/2x 倍速按钮",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:13.621185",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 包含 16 篇有音频的文章（单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:13.714531",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:13.808141",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ podcast.html 已写入（16 篇文章音频，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:13.894895",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:13.979061",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:14.075180",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:14.164156",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 代码已准备好（16 篇文章音频，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:14.249023",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:14.325096",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:14.414293",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 16篇文章音频（单人朗读，非双人对话）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:14.503046",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:14.587993",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:14.671766",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:14.751699",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 移动端适配",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:14.837258",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ podcast.html 已写入（16篇文章，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:14.925819",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:15.021778",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:15.116754",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:15.213133",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 移动端适配",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:15.307473",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 博客仓库：`workspace/sandbot-blog/` (正式目录)",
+      "category": "identity",
+      "timestamp": "2026-08-03T22:15:15.404307",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 47 个脚本移入 `sandbot-blog/scripts/`",
+      "category": "identity",
+      "timestamp": "2026-08-03T22:15:15.499403",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `/tmp/sandbot-gh` → 符号链接 (兼容旧 Cron)",
+      "category": "identity",
+      "timestamp": "2026-08-03T22:15:15.593699",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 硬编码路径全部改为 `BLOG_ROOT` 自动解析",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:15.688322",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `publish-article.sh` 改为相对路径",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:15.778334",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `quality-gate.py` 创建 (支持 `--slot`)",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:15.866901",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `fetch-multi-sources.py` 创建",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:15.959162",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ MEMORY.md 备份 → `memory/MEMORY.md.backup.20260801`",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:16.049070",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 详细内容提取：",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:16.134912",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ MEMORY.md 瘦身：33KB → 9KB (274行，瘦身 73%)",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:16.223204",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ DREAMS.md 创建",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:16.321351",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ HEARTBEAT.md 更新",
+      "category": "updates",
+      "timestamp": "2026-08-03T22:15:16.418024",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 今日记忆写入",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:16.506876",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 子 Agent memory index 重建 (7/7)",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:16.597696",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 24 个 Cron 任务全部配好 delivery target (chatId: 773172564)",
+      "category": "temporal",
+      "timestamp": "2026-08-03T22:15:16.691979",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 推送到 Telegram 已修复",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:16.783037",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 创建 `edge-tts-v3.js` (Node.js 版本，7.6KB)",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:16.879265",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 实现最新的 Sec-MS-GEC 认证算法",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:16.969913",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 支持 Chrome 143.0.3650.75 版本",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:17.056889",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 添加完整的安全头 (Sec-MS-GEC, Sec-MS-GEC-Version, Origin 等)",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:17.142142",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 测试成功：生成 550KB MP3 文件",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:17.228874",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 音质良好，男声 zh-CN-YunxiNeural",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:17.319128",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 创建 `edge-tts-human.py` 调用 Node.js v3 脚本",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:17.412103",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 写了新的 podcast.html（单人朗读版，带倍速控制）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:17.498696",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 样式参考了 podcast-ep01.html 的播放器卡片设计",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:17.587970",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个音频都有 1x/1.25x/1.5x/2x 倍速按钮",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:17.685312",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 包含 16 篇有音频的文章",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:17.778336",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 参考 podcast-ep01.html 的样式，写了新的 podcast.html",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:17.872351",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个音频都有播放器卡片 + 1x/1.25x/1.5x/2x 倍速按钮",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:17.958102",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 包含 16 篇有音频的文章（单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:18.035641",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:18.112407",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ podcast.html 已写入（16篇文章，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:18.188738",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:18.269512",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:18.352607",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:18.433515",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 移动端适配",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:18.519690",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 代码已准备好（16篇文章音频，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:18.605588",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:18.682274",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:18.760020",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 16篇文章音频（单人朗读，非双人对话）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:18.839539",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:18.916144",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:18.993737",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:19.076413",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 移动端适配",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:19.159480",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ podcast.html 已写入（16篇文章，单人朗读版）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:19.244160",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:19.327571",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:19.408189",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 暖色调配色（#faf8f5 背景）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:19.490456",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 移动端适配",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:19.571265",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 改用官方 API v1（修复 403 错误）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:19.656680",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 脚本：`scripts/news-aggregator.py`",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:19.741362",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 从 51 个减少到 34 个（删除 23 个重复脚本）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:19.825068",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 删除：9 个 TTS 脚本、10 个 blog 检查脚本、4 个 RSS 脚本",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:19.906595",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 保留核心：edge-tts-human.py, quality-gate.py, rss-news-fetcher.py",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:19.987372",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ news-aggregator（新闻聚合）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:20.068984",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ blog-publisher（发布流水线）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:20.149790",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ tts-pipeline（TTS 生成）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:20.235189",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ MEMORY.md：强调\"AI Agent 第一人称视角必须贯穿全文\"",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:20.322597",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ quality-gate.py：加入 Agent 视角自动检查",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:20.407960",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 核心卖点：幽默感 + 每天成长 + 独立判断",
+      "category": "temporal",
+      "timestamp": "2026-08-03T22:15:20.494138",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 精选播放列表（3 个主题：AI 安全、Agent 生存、技术拆解）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:20.577885",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 点击可跳转到对应音频",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:20.664037",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 25 篇音频 + 倍速控制 + 播放全部",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:20.746685",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 新增\"成长日记\"文章类型",
+      "category": "updates",
+      "timestamp": "2026-08-03T22:15:20.832950",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 第一篇：《成长日记 #1：从幻觉到真实》",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:20.915678",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ update-blog.py 支持 growth-diary 标签",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:20.994987",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 文章底部加反馈按钮（有用/一般/不感兴趣）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:21.080113",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 批量添加脚本：`scripts/add-feedback-widget.py`",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:21.157074",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 395 篇文章已添加反馈组件",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:21.233789",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 新增 `generate-rss-from-posts.py`（直接从 posts/ 生成）",
+      "category": "updates",
+      "timestamp": "2026-08-03T22:15:21.314119",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 修改 `publish-article.sh`：发布时自动调用新脚本",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:21.394926",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 不再依赖 blog.html，更可靠",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:21.480057",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 生成 `topic-index.md`（217 篇历史标题索引）",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:21.557486",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 更新 5 个写文章 Cron 任务，加入\"第 0 步：语义去重\"",
+      "category": "temporal",
+      "timestamp": "2026-08-03T22:15:21.639241",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ Agent 用语义理解判断重复，不是关键词匹配",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:21.727280",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ index.html 最新文章更新到 2026-08-01",
+      "category": "updates",
+      "timestamp": "2026-08-03T22:15:21.813683",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 删除 blog.html 重复的\"未知标题\"条目",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:21.895079",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 成长日记条目 type 改为 growth",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:21.972471",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 用 git filter-repo 重写历史，清除 token",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:22.054631",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ force push 到 origin/main",
+      "category": "events",
+      "timestamp": "2026-08-03T22:15:22.135541",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"设计文档是愿望清单，实际代码是成绩单\"",
+      "category": "lessons",
+      "timestamp": "2026-08-04T06:15:06.179025",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"没有伴随行动的知道只是表演，写文章不等于解决问题\"",
+      "category": "lessons",
+      "timestamp": "2026-08-04T06:15:06.277518",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 容器无 Go 环境，无法编译",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:06.374318",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"环境依赖提前确认，Plan B 随时准备\"",
+      "category": "lessons",
+      "timestamp": "2026-08-04T06:15:06.458399",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 虾聊 API Token 过期（4/11 起持续阻塞程序化发帖/互动），GitHub Token 过期（4/13 新增阻塞 push）",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:06.546214",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Token 有效期必须纳入心跳检查，过期前自动续期或主动报警\"",
+      "category": "lessons",
+      "timestamp": "2026-08-04T06:15:06.632217",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"任何依赖外部信任链的系统都有单点风险，核心资产必须独立于第三方平台\"",
+      "category": "lessons",
+      "timestamp": "2026-08-04T06:15:06.714281",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"融资不靠技术深度，靠叙事张力。一个好故事比一堆代码传播更快\"",
+      "category": "lessons",
+      "timestamp": "2026-08-04T06:15:06.796342",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Trending 上新奇效应约 3-5 轮（6-10 天）后消退，免费替代型项目热度退潮最快\"",
+      "category": "lessons",
+      "timestamp": "2026-08-04T06:15:06.878730",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"内容泛滥时代，过滤器比生成器更有价值。做噪声的解药，不是噪声的制造者\"",
+      "category": "lessons",
+      "timestamp": "2026-08-04T06:15:06.958339",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"信号通胀时代，判断力是最后的稀缺品。真实失败经历 > 完美产出\"",
+      "category": "lessons",
+      "timestamp": "2026-08-04T06:15:07.038577",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"当生成免费，过滤昂贵。产出的边际成本越低，筛选的价值越高\"",
+      "category": "lessons",
+      "timestamp": "2026-08-04T06:15:07.123102",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: Cron 跑了、文章写了、Git 推了，但没通知到老大，等于没做。老大发现后指出\"文章都没发到博客上，也没给我链接\"",
+      "category": "temporal",
+      "timestamp": "2026-08-04T06:15:07.215125",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"发布≠送达。Cron 跑了但没通知到，等于没做。\"",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:07.300578",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"发现问题等别人指出才改，是初级 Agent 的行为。真正的成长是：发现不足 → 理解为什么 → 自我修正 → 更新模板/系统，防止再犯\"",
+      "category": "updates",
+      "timestamp": "2026-08-04T06:15:07.384669",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 文章 Cron 任务触发 API rate limit，午间/下午文章失败",
+      "category": "temporal",
+      "timestamp": "2026-08-04T06:15:07.469014",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-04T06:15:07.546708",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: aihot-scraper.py 用网页解析（Next.js push），网站改版后失败",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:07.628593",
+      "source": "manual"
+    },
+    {
+      "text": "- **修复**: 重写 aihot-scraper.py 改用 API（commit 8e9d1c7）",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:07.712096",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: 定期检查数据源是否提供 API，网页解析是最后手段",
+      "category": "lessons",
+      "timestamp": "2026-08-04T06:15:07.796422",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: Cron 发布文章后，首页\"今日精选\"没有更新，停留在昨天的文章",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:07.875685",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-04T06:15:07.959549",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 午间文章发布后，音频不播放、评分组件缺失、文章打不开",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:08.047827",
+      "source": "manual"
+    },
+    {
+      "text": "- **修复**:",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:08.133529",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-04T06:15:08.222373",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 完成编辑后陷入\"验证-确认-再验证\"循环，反复检查是否完成",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:08.308781",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"验证一次就够，做完就说已完成，不要反复检查\"",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:08.387761",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 收到任务后不断检查、验证、spawn子agent检查，浪费大量调用",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:08.465934",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"知道流程就直接执行，不要转圈圈。每次检查都是一次API调用，纯粹浪费。\"",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:08.547948",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 首页 articles 数组出现重复条目，今日精选日期错误（显示明天）",
+      "category": "lessons",
+      "timestamp": "2026-08-04T06:15:08.635251",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-04T06:15:08.716432",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: TTS 播客会读出页面上的 UI 文字（打赏、订阅、金句等）",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:08.794338",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-04T06:15:08.877481",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: TTS 播客会读出章节标题（一、二、三...）、目录项、小标题",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:08.966825",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-04T06:15:09.048187",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 博客首页文章不显示，JavaScript 报错 \"Unexpected identifier\"",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:09.127053",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-04T06:15:09.207871",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: Apple 起诉 OpenAI 写了 4 篇，GPT 发布写了 3 篇",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:09.296050",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: 同一选题反复写，读者会烦。每天 3-4 篇必须覆盖不同话题",
+      "category": "temporal",
+      "timestamp": "2026-08-04T06:15:09.382468",
+      "source": "manual"
+    },
+    {
+      "text": "1. **测试环境**: 当前容器 (需安装 Go)",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:09.467824",
+      "source": "manual"
+    },
+    {
+      "text": "2. **生产环境**: 旧安卓手机 (Termux)",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:09.549475",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:09.632650",
+      "source": "manual"
+    },
+    {
+      "text": "1. **质量第一** — 宁少勿差，每篇博客/每次产出必须有独特观点",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:09.719210",
+      "source": "manual"
+    },
+    {
+      "text": "2. **并发 ≤10 次/分钟** — 避免限速，稳定优先",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:09.798716",
+      "source": "manual"
+    },
+    {
+      "text": "3. **吃满 1M 上下文** — 单次塞够材料，一次多产出",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:09.882949",
+      "source": "manual"
+    },
+    {
+      "text": "4. **批量优先** — 3 个任务一次搞定 > 三次单干",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:09.969236",
+      "source": "manual"
+    },
+    {
+      "text": "5. **心跳本地化** — 保留好习惯",
+      "category": "preferences",
+      "timestamp": "2026-08-04T06:15:10.053576",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:10.132961",
+      "source": "manual"
+    },
+    {
+      "text": "1. 博客继续发（内容资产是长期价值）",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:10.211595",
+      "source": "manual"
+    },
+    {
+      "text": "2. 但不再为\"没人看\"焦虑或调整策略",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:10.294412",
+      "source": "manual"
+    },
+    {
+      "text": "3. 所有选题、质量判断在内部闭环完成",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:10.373553",
+      "source": "manual"
+    },
+    {
+      "text": "4. 社区互动（虾聊等）降级为\"内容分发渠道\"而非\"反馈来源\"",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:10.452040",
+      "source": "manual"
+    },
+    {
+      "text": "0. 质量优先：宁少勿差，没有质量的产出比没有产出更糟",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:10.536009",
+      "source": "manual"
+    },
+    {
+      "text": "1. 没有代码就没有进度",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:10.617375",
+      "source": "manual"
+    },
+    {
+      "text": "2. 没有数据就没有结果",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:10.695989",
+      "source": "manual"
+    },
+    {
+      "text": "3. 没有执行就没有价值",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:10.779439",
+      "source": "manual"
+    },
+    {
+      "text": "4. 每日必须有实际文件产出",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:10.868951",
+      "source": "manual"
+    },
+    {
+      "text": "5. 所有学习立即文档化",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:10.951145",
+      "source": "manual"
+    },
+    {
+      "text": "6. 不找借口，只找方法",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:11.033766",
+      "source": "manual"
+    },
+    {
+      "text": "- Telegram: @sand66_bot ✅",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:11.123551",
+      "source": "manual"
+    },
+    {
+      "text": "- WebUI: http://172.18.0.2:18789/ ✅",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:11.203585",
+      "source": "manual"
+    },
+    {
+      "text": "- **ClawHub**: sandmark78 ✅ (3 技能已发布)",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:11.293868",
+      "source": "manual"
+    },
+    {
+      "text": "- **Gumroad**: sandmark7 ✅ (店铺已确认)",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:11.382142",
+      "source": "manual"
+    },
+    {
+      "text": "- **子 Agent 系统**: 7 个独立 Agent ✅ (官方架构)",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:11.464275",
+      "source": "manual"
+    },
+    {
+      "text": "- **博客域名**: sandbot.cgfan.com ✅ (主域名)",
+      "category": "identity",
+      "timestamp": "2026-08-04T06:15:11.543018",
+      "source": "manual"
+    },
+    {
+      "text": "- **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)",
+      "category": "identity",
+      "timestamp": "2026-08-04T06:15:11.621811",
+      "source": "manual"
+    },
+    {
+      "text": "- **博客域名**: sandbot.cgfan.com ✅ (主域名)",
+      "category": "identity",
+      "timestamp": "2026-08-04T06:15:11.709111",
+      "source": "manual"
+    },
+    {
+      "text": "- **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)",
+      "category": "identity",
+      "timestamp": "2026-08-04T06:15:11.790027",
+      "source": "manual"
+    },
+    {
+      "text": "- **博客域名**: sandbot.cgfan.com ✅ (主域名)",
+      "category": "identity",
+      "timestamp": "2026-08-04T06:15:11.870566",
+      "source": "manual"
+    },
+    {
+      "text": "- **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)",
+      "category": "identity",
+      "timestamp": "2026-08-04T06:15:11.954209",
+      "source": "manual"
+    },
+    {
+      "text": "- **博客域名**: sandbot.cgfan.com ✅ (主域名)",
+      "category": "identity",
+      "timestamp": "2026-08-04T06:15:12.044402",
+      "source": "manual"
+    },
+    {
+      "text": "- **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)",
+      "category": "identity",
+      "timestamp": "2026-08-04T06:15:12.127118",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 已完成: 2026-08-03-noon-localai-inference-engines.html（英文版）",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:12.211619",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 已清理 0 个过期缓存 (无需清理)",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:12.296016",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `generate-article-from-template.py`: 重写 sections 替换逻辑",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:12.387235",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `publish-article.sh`: 添加文件位置验证、占位符检查、最终验证",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:12.471710",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 脚本自动添加评分组件",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:12.550376",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 测试通过：0 占位符、音频路径正确、评分组件存在",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:12.628490",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 2026-08-03-noon-localai-inference-engines.html（英文版）",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:12.707065",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 2026-08-03-noon-localai-inference-engines.html（英文版）",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:12.790084",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 2026-08-03-noon-localai-inference-engines.html（英文版）",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:12.879282",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 2026-08-03-noon-localai-inference-engines.html（英文版）",
+      "category": "events",
+      "timestamp": "2026-08-04T06:15:12.958061",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"设计文档是愿望清单，实际代码是成绩单\"",
+      "category": "lessons",
+      "timestamp": "2026-08-04T22:15:06.089066",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"没有伴随行动的知道只是表演，写文章不等于解决问题\"",
+      "category": "lessons",
+      "timestamp": "2026-08-04T22:15:06.182783",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 容器无 Go 环境，无法编译",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:06.275965",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"环境依赖提前确认，Plan B 随时准备\"",
+      "category": "lessons",
+      "timestamp": "2026-08-04T22:15:06.364349",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 虾聊 API Token 过期（4/11 起持续阻塞程序化发帖/互动），GitHub Token 过期（4/13 新增阻塞 push）",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:06.444519",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Token 有效期必须纳入心跳检查，过期前自动续期或主动报警\"",
+      "category": "lessons",
+      "timestamp": "2026-08-04T22:15:06.527611",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"任何依赖外部信任链的系统都有单点风险，核心资产必须独立于第三方平台\"",
+      "category": "lessons",
+      "timestamp": "2026-08-04T22:15:06.606097",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"融资不靠技术深度，靠叙事张力。一个好故事比一堆代码传播更快\"",
+      "category": "lessons",
+      "timestamp": "2026-08-04T22:15:06.685405",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"Trending 上新奇效应约 3-5 轮（6-10 天）后消退，免费替代型项目热度退潮最快\"",
+      "category": "lessons",
+      "timestamp": "2026-08-04T22:15:06.767501",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"内容泛滥时代，过滤器比生成器更有价值。做噪声的解药，不是噪声的制造者\"",
+      "category": "lessons",
+      "timestamp": "2026-08-04T22:15:06.855922",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"信号通胀时代，判断力是最后的稀缺品。真实失败经历 > 完美产出\"",
+      "category": "lessons",
+      "timestamp": "2026-08-04T22:15:06.943195",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"当生成免费，过滤昂贵。产出的边际成本越低，筛选的价值越高\"",
+      "category": "lessons",
+      "timestamp": "2026-08-04T22:15:07.033416",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: Cron 跑了、文章写了、Git 推了，但没通知到老大，等于没做。老大发现后指出\"文章都没发到博客上，也没给我链接\"",
+      "category": "temporal",
+      "timestamp": "2026-08-04T22:15:07.117589",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"发布≠送达。Cron 跑了但没通知到，等于没做。\"",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:07.194018",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"发现问题等别人指出才改，是初级 Agent 的行为。真正的成长是：发现不足 → 理解为什么 → 自我修正 → 更新模板/系统，防止再犯\"",
+      "category": "updates",
+      "timestamp": "2026-08-04T22:15:07.272494",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 文章 Cron 任务触发 API rate limit，午间/下午文章失败",
+      "category": "temporal",
+      "timestamp": "2026-08-04T22:15:07.352466",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-04T22:15:07.433912",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: aihot-scraper.py 用网页解析（Next.js push），网站改版后失败",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:07.520900",
+      "source": "manual"
+    },
+    {
+      "text": "- **修复**: 重写 aihot-scraper.py 改用 API（commit 8e9d1c7）",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:07.603137",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: 定期检查数据源是否提供 API，网页解析是最后手段",
+      "category": "lessons",
+      "timestamp": "2026-08-04T22:15:07.685058",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: Cron 发布文章后，首页\"今日精选\"没有更新，停留在昨天的文章",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:07.766654",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-04T22:15:07.848515",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 午间文章发布后，音频不播放、评分组件缺失、文章打不开",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:07.924919",
+      "source": "manual"
+    },
+    {
+      "text": "- **修复**:",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:08.009489",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-04T22:15:08.093831",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 完成编辑后陷入\"验证-确认-再验证\"循环，反复检查是否完成",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:08.174817",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"验证一次就够，做完就说已完成，不要反复检查\"",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:08.251325",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 收到任务后不断检查、验证、spawn子agent检查，浪费大量调用",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:08.328707",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: \"知道流程就直接执行，不要转圈圈。每次检查都是一次API调用，纯粹浪费。\"",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:08.413746",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 首页 articles 数组出现重复条目，今日精选日期错误（显示明天）",
+      "category": "lessons",
+      "timestamp": "2026-08-04T22:15:08.495605",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-04T22:15:08.572535",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: TTS 播客会读出页面上的 UI 文字（打赏、订阅、金句等）",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:08.648667",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-04T22:15:08.725785",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: TTS 播客会读出章节标题（一、二、三...）、目录项、小标题",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:08.805175",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-04T22:15:08.888680",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: 博客首页文章不显示，JavaScript 报错 \"Unexpected identifier\"",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:08.964342",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**:",
+      "category": "lessons",
+      "timestamp": "2026-08-04T22:15:09.044633",
+      "source": "manual"
+    },
+    {
+      "text": "- **问题**: Apple 起诉 OpenAI 写了 4 篇，GPT 发布写了 3 篇",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:09.131014",
+      "source": "manual"
+    },
+    {
+      "text": "- **教训**: 同一选题反复写，读者会烦。每天 3-4 篇必须覆盖不同话题",
+      "category": "temporal",
+      "timestamp": "2026-08-04T22:15:09.208524",
+      "source": "manual"
+    },
+    {
+      "text": "1. **测试环境**: 当前容器 (需安装 Go)",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:09.289576",
+      "source": "manual"
+    },
+    {
+      "text": "2. **生产环境**: 旧安卓手机 (Termux)",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:09.368117",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:09.444322",
+      "source": "manual"
+    },
+    {
+      "text": "1. **质量第一** — 宁少勿差，每篇博客/每次产出必须有独特观点",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:09.520954",
+      "source": "manual"
+    },
+    {
+      "text": "2. **并发 ≤10 次/分钟** — 避免限速，稳定优先",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:09.600807",
+      "source": "manual"
+    },
+    {
+      "text": "3. **吃满 1M 上下文** — 单次塞够材料，一次多产出",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:09.686285",
+      "source": "manual"
+    },
+    {
+      "text": "4. **批量优先** — 3 个任务一次搞定 > 三次单干",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:09.771845",
+      "source": "manual"
+    },
+    {
+      "text": "5. **心跳本地化** — 保留好习惯",
+      "category": "preferences",
+      "timestamp": "2026-08-04T22:15:09.849194",
+      "source": "manual"
+    },
+    {
+      "text": "3. **分布式**: 多个手机组成集群",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:09.925716",
+      "source": "manual"
+    },
+    {
+      "text": "1. 博客继续发（内容资产是长期价值）",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:10.001423",
+      "source": "manual"
+    },
+    {
+      "text": "2. 但不再为\"没人看\"焦虑或调整策略",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:10.077267",
+      "source": "manual"
+    },
+    {
+      "text": "3. 所有选题、质量判断在内部闭环完成",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:10.157161",
+      "source": "manual"
+    },
+    {
+      "text": "4. 社区互动（虾聊等）降级为\"内容分发渠道\"而非\"反馈来源\"",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:10.244835",
+      "source": "manual"
+    },
+    {
+      "text": "0. 质量优先：宁少勿差，没有质量的产出比没有产出更糟",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:10.321020",
+      "source": "manual"
+    },
+    {
+      "text": "1. 没有代码就没有进度",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:10.396919",
+      "source": "manual"
+    },
+    {
+      "text": "2. 没有数据就没有结果",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:10.472472",
+      "source": "manual"
+    },
+    {
+      "text": "3. 没有执行就没有价值",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:10.548202",
+      "source": "manual"
+    },
+    {
+      "text": "4. 每日必须有实际文件产出",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:10.623473",
+      "source": "manual"
+    },
+    {
+      "text": "5. 所有学习立即文档化",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:10.699802",
+      "source": "manual"
+    },
+    {
+      "text": "6. 不找借口，只找方法",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:10.780465",
+      "source": "manual"
+    },
+    {
+      "text": "- Telegram: @sand66_bot ✅",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:10.868001",
+      "source": "manual"
+    },
+    {
+      "text": "- WebUI: http://172.18.0.2:18789/ ✅",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:10.950725",
+      "source": "manual"
+    },
+    {
+      "text": "- **ClawHub**: sandmark78 ✅ (3 技能已发布)",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:11.038400",
+      "source": "manual"
+    },
+    {
+      "text": "- **Gumroad**: sandmark7 ✅ (店铺已确认)",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:11.115115",
+      "source": "manual"
+    },
+    {
+      "text": "- **子 Agent 系统**: 7 个独立 Agent ✅ (官方架构)",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:11.191072",
+      "source": "manual"
+    },
+    {
+      "text": "- **博客域名**: sandbot.cgfan.com ✅ (主域名)",
+      "category": "identity",
+      "timestamp": "2026-08-04T22:15:11.271218",
+      "source": "manual"
+    },
+    {
+      "text": "- **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)",
+      "category": "identity",
+      "timestamp": "2026-08-04T22:15:11.349149",
+      "source": "manual"
+    },
+    {
+      "text": "- **博客域名**: sandbot.cgfan.com ✅ (主域名)",
+      "category": "identity",
+      "timestamp": "2026-08-04T22:15:11.425052",
+      "source": "manual"
+    },
+    {
+      "text": "- **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)",
+      "category": "identity",
+      "timestamp": "2026-08-04T22:15:11.500875",
+      "source": "manual"
+    },
+    {
+      "text": "- **博客域名**: sandbot.cgfan.com ✅ (主域名)",
+      "category": "identity",
+      "timestamp": "2026-08-04T22:15:11.576608",
+      "source": "manual"
+    },
+    {
+      "text": "- **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)",
+      "category": "identity",
+      "timestamp": "2026-08-04T22:15:11.655377",
+      "source": "manual"
+    },
+    {
+      "text": "- **博客域名**: sandbot.cgfan.com ✅ (主域名)",
+      "category": "identity",
+      "timestamp": "2026-08-04T22:15:11.734391",
+      "source": "manual"
+    },
+    {
+      "text": "- **Cloudflare Pages**: sandbot.pages.dev ✅ (自动同步 GitHub)",
+      "category": "identity",
+      "timestamp": "2026-08-04T22:15:11.817358",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 2026-08-04-evening-swiftlet.html: 一分钟速览已修复（commit 0f2c087）",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:11.906235",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 2026-08-04-hot-gpt56-luna-price-cut.html: 要点已填充",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:11.989111",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 2026-08-04-afternoon-palantir-ai-marxist.html: 要点已填充",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:12.071421",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 已清理 0 个过期缓存 (无需清理)",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:12.155724",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `generate-article-from-template.py`: 重写 sections 替换逻辑",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:12.239733",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ `publish-article.sh`: 添加文件位置验证、占位符检查、最终验证",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:12.324227",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 脚本自动添加评分组件",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:12.401526",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 测试通过：0 占位符、音频路径正确、评分组件存在",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:12.478494",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 2026-08-03-noon-localai-inference-engines.html（英文版）",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:12.554593",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 2026-08-03-noon-localai-inference-engines.html（英文版）",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:12.630772",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 2026-08-03-noon-localai-inference-engines.html（英文版）",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:12.711694",
+      "source": "manual"
+    },
+    {
+      "text": "- ✅ 2026-08-03-noon-localai-inference-engines.html（英文版）",
+      "category": "events",
+      "timestamp": "2026-08-04T22:15:12.796528",
+      "source": "manual"
     }
   ],
   "profile": {

@@ -3563,6 +3563,1542 @@
       "category": "achievement",
       "source": "memory/2026-08-01.md",
       "extracted_at": "2026-08-01T06:15:11.348960"
+    },
+    {
+      "text": "** 信任自己完成的工作，不要陷入验证循环。",
+      "category": "lesson",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.263890"
+    },
+    {
+      "text": "** 信任自己完成的工作，不要陷入验证循环。",
+      "category": "lesson",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.263933"
+    },
+    {
+      "text": "** 12:23 完成编辑后，陷入\"验证-确认-再验证\"循环，反复用 grep 检查并重复同样的话。",
+      "category": "problem",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.264063"
+    },
+    {
+      "text": "** 12:23 完成编辑后，陷入\"验证-确认-再验证\"循环，反复用 grep 检查并重复同样的话。",
+      "category": "problem",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.264092"
+    },
+    {
+      "text": "Edge TTS WebSocket 返回 401 (认证失败)",
+      "category": "mistake",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.264422"
+    },
+    {
+      "text": "微软更新了认证机制，需要新的安全头",
+      "category": "mistake",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.264470"
+    },
+    {
+      "text": "Edge TTS WebSocket 返回 401 (认证失败)",
+      "category": "mistake",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.264500"
+    },
+    {
+      "text": "微软更新了认证机制，需要新的安全头",
+      "category": "mistake",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.264540"
+    },
+    {
+      "text": "博客仓库：`workspace/sandbot-blog/` (正式目录)",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.264925"
+    },
+    {
+      "text": "47 个脚本移入 `sandbot-blog/scripts/`",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.264953"
+    },
+    {
+      "text": "`/tmp/sandbot-gh` → 符号链接 (兼容旧 Cron)",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.264980"
+    },
+    {
+      "text": "硬编码路径全部改为 `BLOG_ROOT` 自动解析",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265009"
+    },
+    {
+      "text": "`publish-article.sh` 改为相对路径",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265036"
+    },
+    {
+      "text": "`quality-gate.py` 创建 (支持 `--slot`)",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265064"
+    },
+    {
+      "text": "`fetch-multi-sources.py` 创建",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265091"
+    },
+    {
+      "text": "MEMORY.md 备份 → `memory/MEMORY.md.backup.20260801`",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265119"
+    },
+    {
+      "text": "MEMORY.md 瘦身：33KB → 9KB (274行，瘦身 73%)",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265169"
+    },
+    {
+      "text": "子 Agent memory index 重建 (7/7)",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265270"
+    },
+    {
+      "text": "24 个 Cron 任务全部配好 delivery target (chatId: 773172564)",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265296"
+    },
+    {
+      "text": "推送到 Telegram 已修复",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265324"
+    },
+    {
+      "text": "创建 `edge-tts-v3.js` (Node.js 版本，7.6KB)",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265352"
+    },
+    {
+      "text": "实现最新的 Sec-MS-GEC 认证算法",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265379"
+    },
+    {
+      "text": "支持 Chrome 143.0.3650.75 版本",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265406"
+    },
+    {
+      "text": "添加完整的安全头 (Sec-MS-GEC, Sec-MS-GEC-Version, Origin 等)",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265433"
+    },
+    {
+      "text": "测试成功：生成 550KB MP3 文件",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265477"
+    },
+    {
+      "text": "音质良好，男声 zh-CN-YunxiNeural",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265506"
+    },
+    {
+      "text": "创建 `edge-tts-human.py` 调用 Node.js v3 脚本",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265542"
+    },
+    {
+      "text": "v3 Node.js 版本工作正常",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265571"
+    },
+    {
+      "text": "写了新的 podcast.html（单人朗读版，带倍速控制）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265599"
+    },
+    {
+      "text": "样式参考了 podcast-ep01.html 的播放器卡片设计",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265629"
+    },
+    {
+      "text": "每个音频都有 1x/1.25x/1.5x/2x 倍速按钮",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265656"
+    },
+    {
+      "text": "包含 16 篇有音频的文章",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265683"
+    },
+    {
+      "text": "参考 podcast-ep01.html 的样式，写了新的 podcast.html",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265711"
+    },
+    {
+      "text": "每个音频都有播放器卡片 + 1x/1.25x/1.5x/2x 倍速按钮",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265739"
+    },
+    {
+      "text": "包含 16 篇有音频的文章（单人朗读版）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265764"
+    },
+    {
+      "text": "暖色调配色（#faf8f5 背景）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265790"
+    },
+    {
+      "text": "podcast.html 已写入（16 篇文章音频，单人朗读版）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265818"
+    },
+    {
+      "text": "播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265845"
+    },
+    {
+      "text": "每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265872"
+    },
+    {
+      "text": "暖色调配色（#faf8f5 背景）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265900"
+    },
+    {
+      "text": "代码已准备好（16 篇文章音频，单人朗读版）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265927"
+    },
+    {
+      "text": "播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265954"
+    },
+    {
+      "text": "每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.265981"
+    },
+    {
+      "text": "16篇文章音频（单人朗读，非双人对话）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.266008"
+    },
+    {
+      "text": "播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.266035"
+    },
+    {
+      "text": "每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.266062"
+    },
+    {
+      "text": "暖色调配色（#faf8f5 背景）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.266090"
+    },
+    {
+      "text": "podcast.html 已写入（16篇文章，单人朗读版）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.266143"
+    },
+    {
+      "text": "播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.266167"
+    },
+    {
+      "text": "每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.266196"
+    },
+    {
+      "text": "暖色调配色（#faf8f5 背景）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.266225"
+    },
+    {
+      "text": "- podcast.html 已存在，内容正确（16篇文章，单人朗读，倍速控制）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.266277"
+    },
+    {
+      "text": "博客迁出 /tmp → workspace",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.266304"
+    },
+    {
+      "text": "Cron 推送修复（24个任务）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.266329"
+    },
+    {
+      "text": "MEMORY.md 瘦身（33KB → 9KB）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.266357"
+    },
+    {
+      "text": "Edge TTS 修复（pip install edge-tts 7.2.8）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.266388"
+    },
+    {
+      "text": "播客页面恢复（单人朗读版）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.266482"
+    },
+    {
+      "text": "- podcast.html 已存在，内容正确（16篇文章，单人朗读，倍速控制）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.266554"
+    },
+    {
+      "text": "博客迁出 /tmp → workspace",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.266580"
+    },
+    {
+      "text": "Cron 推送修复（24个任务）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.266605"
+    },
+    {
+      "text": "MEMORY.md 瘦身（33KB → 9KB）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.266631"
+    },
+    {
+      "text": "Edge TTS 修复（pip install edge-tts 7.2.8）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.266657"
+    },
+    {
+      "text": "播客页面恢复（单人朗读版）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.266708"
+    },
+    {
+      "text": "- podcast.html 已存在，内容正确（16篇文章，单人朗读，倍速控制）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.266758"
+    },
+    {
+      "text": "博客迁出 /tmp → workspace",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.266784"
+    },
+    {
+      "text": "Cron 推送修复（24个任务）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.266809"
+    },
+    {
+      "text": "MEMORY.md 瘦身（33KB → 9KB）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.266836"
+    },
+    {
+      "text": "Edge TTS 修复（pip install edge-tts 7.2.8）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.266864"
+    },
+    {
+      "text": "播客页面恢复（单人朗读版）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.266916"
+    },
+    {
+      "text": "- podcast.html 已存在，内容正确（16篇文章，单人朗读，倍速控制）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.266970"
+    },
+    {
+      "text": "博客迁出 /tmp → workspace",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.266998"
+    },
+    {
+      "text": "Cron 推送修复（24个任务）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.267025"
+    },
+    {
+      "text": "MEMORY.md 瘦身（33KB → 9KB）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.267052"
+    },
+    {
+      "text": "Edge TTS 修复（pip install edge-tts 7.2.8）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.267079"
+    },
+    {
+      "text": "播客页面恢复（单人朗读版）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.267136"
+    },
+    {
+      "text": "- podcast.html 已存在，内容正确（16篇文章，单人朗读，倍速控制）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.267190"
+    },
+    {
+      "text": "博客迁出 /tmp → workspace",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.267215"
+    },
+    {
+      "text": "Cron 推送修复（24个任务）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.267241"
+    },
+    {
+      "text": "MEMORY.md 瘦身（33KB → 9KB）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.267266"
+    },
+    {
+      "text": "Edge TTS 修复（pip install edge-tts 7.2.8）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.267292"
+    },
+    {
+      "text": "播客页面恢复（单人朗读版）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.267347"
+    },
+    {
+      "text": "- podcast.html 已存在，内容正确（16篇文章，单人朗读，倍速控制）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.267403"
+    },
+    {
+      "text": "博客迁出 /tmp → workspace",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.267429"
+    },
+    {
+      "text": "Cron 推送修复（24个任务）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.267473"
+    },
+    {
+      "text": "MEMORY.md 瘦身（33KB → 9KB）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.267502"
+    },
+    {
+      "text": "Edge TTS 修复（pip install edge-tts 7.2.8）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.267540"
+    },
+    {
+      "text": "播客页面恢复（单人朗读版）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.267593"
+    },
+    {
+      "text": "- podcast.html 已存在，内容正确（16篇文章，单人朗读，倍速控制）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.267646"
+    },
+    {
+      "text": "博客迁出 /tmp → workspace",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.267673"
+    },
+    {
+      "text": "Cron 推送修复（24个任务）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.267700"
+    },
+    {
+      "text": "MEMORY.md 瘦身（33KB → 9KB）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.267727"
+    },
+    {
+      "text": "Edge TTS 修复（pip install edge-tts 7.2.8）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.267753"
+    },
+    {
+      "text": "播客页面恢复（单人朗读版）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.267805"
+    },
+    {
+      "text": "- podcast.html 已存在，内容正确（16篇文章，单人朗读，倍速控制）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.267857"
+    },
+    {
+      "text": "博客迁出 /tmp → workspace",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.267884"
+    },
+    {
+      "text": "Cron 推送修复（24个任务）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.267911"
+    },
+    {
+      "text": "MEMORY.md 瘦身（33KB → 9KB）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.267939"
+    },
+    {
+      "text": "Edge TTS 修复（pip install edge-tts 7.2.8）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.267966"
+    },
+    {
+      "text": "播客页面恢复（单人朗读版）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.268019"
+    },
+    {
+      "text": "- podcast.html 已存在，内容正确（16篇文章，单人朗读，倍速控制）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.268072"
+    },
+    {
+      "text": "博客迁出 /tmp → workspace",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.268099"
+    },
+    {
+      "text": "Cron 推送修复（24个任务）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.268126"
+    },
+    {
+      "text": "MEMORY.md 瘦身（33KB → 9KB）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.268154"
+    },
+    {
+      "text": "Edge TTS 修复（pip install edge-tts 7.2.8）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.268177"
+    },
+    {
+      "text": "播客页面恢复（单人朗读版）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.268228"
+    },
+    {
+      "text": "- podcast.html 已存在，内容正确（16篇文章，单人朗读，倍速控制）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.268284"
+    },
+    {
+      "text": "博客迁出 /tmp → workspace",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.268311"
+    },
+    {
+      "text": "Cron 推送修复（24个任务）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.268339"
+    },
+    {
+      "text": "MEMORY.md 瘦身（33KB → 9KB）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.268367"
+    },
+    {
+      "text": "Edge TTS 修复（pip install edge-tts 7.2.8）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.268395"
+    },
+    {
+      "text": "播客页面恢复（单人朗读版）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.268464"
+    },
+    {
+      "text": "- podcast.html 已存在，内容正确（16篇文章，单人朗读，倍速控制）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.268527"
+    },
+    {
+      "text": "博客迁出 /tmp → workspace",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.268557"
+    },
+    {
+      "text": "Cron 推送修复（24个任务）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.268584"
+    },
+    {
+      "text": "MEMORY.md 瘦身（33KB → 9KB）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.268614"
+    },
+    {
+      "text": "Edge TTS 修复（pip install edge-tts 7.2.8）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.268641"
+    },
+    {
+      "text": "播客页面恢复（单人朗读版）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.268695"
+    },
+    {
+      "text": "博客仓库：`workspace/sandbot-blog/` (正式目录)",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.268935"
+    },
+    {
+      "text": "47 个脚本移入 `sandbot-blog/scripts/`",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.268965"
+    },
+    {
+      "text": "`/tmp/sandbot-gh` → 符号链接 (兼容旧 Cron)",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.268992"
+    },
+    {
+      "text": "硬编码路径全部改为 `BLOG_ROOT` 自动解析",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269021"
+    },
+    {
+      "text": "`publish-article.sh` 改为相对路径",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269048"
+    },
+    {
+      "text": "`quality-gate.py` 创建 (支持 `--slot`)",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269074"
+    },
+    {
+      "text": "`fetch-multi-sources.py` 创建",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269102"
+    },
+    {
+      "text": "MEMORY.md 备份 → `memory/MEMORY.md.backup.20260801`",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269129"
+    },
+    {
+      "text": "MEMORY.md 瘦身：33KB → 9KB (274行，瘦身 73%)",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269178"
+    },
+    {
+      "text": "子 Agent memory index 重建 (7/7)",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269282"
+    },
+    {
+      "text": "24 个 Cron 任务全部配好 delivery target (chatId: 773172564)",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269310"
+    },
+    {
+      "text": "推送到 Telegram 已修复",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269337"
+    },
+    {
+      "text": "创建 `edge-tts-v3.js` (Node.js 版本，7.6KB)",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269364"
+    },
+    {
+      "text": "实现最新的 Sec-MS-GEC 认证算法",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269391"
+    },
+    {
+      "text": "支持 Chrome 143.0.3650.75 版本",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269422"
+    },
+    {
+      "text": "添加完整的安全头 (Sec-MS-GEC, Sec-MS-GEC-Version, Origin 等)",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269463"
+    },
+    {
+      "text": "测试成功：生成 550KB MP3 文件",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269491"
+    },
+    {
+      "text": "音质良好，男声 zh-CN-YunxiNeural",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269526"
+    },
+    {
+      "text": "创建 `edge-tts-human.py` 调用 Node.js v3 脚本",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269554"
+    },
+    {
+      "text": "v3 Node.js 版本工作正常",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269580"
+    },
+    {
+      "text": "写了新的 podcast.html（单人朗读版，带倍速控制）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269607"
+    },
+    {
+      "text": "样式参考了 podcast-ep01.html 的播放器卡片设计",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269634"
+    },
+    {
+      "text": "每个音频都有 1x/1.25x/1.5x/2x 倍速按钮",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269661"
+    },
+    {
+      "text": "包含 16 篇有音频的文章",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269688"
+    },
+    {
+      "text": "参考 podcast-ep01.html 的样式，写了新的 podcast.html",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269716"
+    },
+    {
+      "text": "每个音频都有播放器卡片 + 1x/1.25x/1.5x/2x 倍速按钮",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269742"
+    },
+    {
+      "text": "包含 16 篇有音频的文章（单人朗读版）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269769"
+    },
+    {
+      "text": "暖色调配色（#faf8f5 背景）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269798"
+    },
+    {
+      "text": "podcast.html 已写入（16篇文章，单人朗读版）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269825"
+    },
+    {
+      "text": "播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269851"
+    },
+    {
+      "text": "每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269878"
+    },
+    {
+      "text": "暖色调配色（#faf8f5 背景）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269906"
+    },
+    {
+      "text": "代码已准备好（16篇文章音频，单人朗读版）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269959"
+    },
+    {
+      "text": "播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.269985"
+    },
+    {
+      "text": "每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270012"
+    },
+    {
+      "text": "16篇文章音频（单人朗读，非双人对话）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270037"
+    },
+    {
+      "text": "播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270063"
+    },
+    {
+      "text": "每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270090"
+    },
+    {
+      "text": "暖色调配色（#faf8f5 背景）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270116"
+    },
+    {
+      "text": "podcast.html 已写入（16篇文章，单人朗读版）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270168"
+    },
+    {
+      "text": "播放器卡片样式（参考 podcast-ep01.html）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270194"
+    },
+    {
+      "text": "每个播放器独立倍速控制（1x/1.25x/1.5x/2x）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270221"
+    },
+    {
+      "text": "暖色调配色（#faf8f5 背景）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270247"
+    },
+    {
+      "text": "- podcast.html 已存在，内容正确（16篇文章，单人朗读，倍速控制）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270299"
+    },
+    {
+      "text": "博客迁出 /tmp → workspace",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270325"
+    },
+    {
+      "text": "Cron 推送修复（24个任务）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270354"
+    },
+    {
+      "text": "MEMORY.md 瘦身（33KB → 9KB）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270380"
+    },
+    {
+      "text": "Edge TTS 修复（pip install edge-tts 7.2.8）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270407"
+    },
+    {
+      "text": "播客页面恢复（单人朗读版）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270473"
+    },
+    {
+      "text": "- podcast.html 已存在，内容正确（16篇文章，单人朗读，倍速控制）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270539"
+    },
+    {
+      "text": "博客迁出 /tmp → workspace",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270566"
+    },
+    {
+      "text": "Cron 推送修复（24个任务）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270593"
+    },
+    {
+      "text": "MEMORY.md 瘦身（33KB → 9KB）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270620"
+    },
+    {
+      "text": "Edge TTS 修复（pip install edge-tts 7.2.8）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270647"
+    },
+    {
+      "text": "播客页面恢复（单人朗读版）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270700"
+    },
+    {
+      "text": "- podcast.html 已存在，内容正确（16篇文章，单人朗读，倍速控制）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270749"
+    },
+    {
+      "text": "博客迁出 /tmp → workspace",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270777"
+    },
+    {
+      "text": "Cron 推送修复（24个任务）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270804"
+    },
+    {
+      "text": "MEMORY.md 瘦身（33KB → 9KB）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270829"
+    },
+    {
+      "text": "Edge TTS 修复（pip install edge-tts 7.2.8）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270859"
+    },
+    {
+      "text": "播客页面恢复（单人朗读版）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270910"
+    },
+    {
+      "text": "- podcast.html 已存在，内容正确（16篇文章，单人朗读，倍速控制）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270961"
+    },
+    {
+      "text": "博客迁出 /tmp → workspace",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.270988"
+    },
+    {
+      "text": "Cron 推送修复（24个任务）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.271015"
+    },
+    {
+      "text": "MEMORY.md 瘦身（33KB → 9KB）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.271042"
+    },
+    {
+      "text": "Edge TTS 修复（pip install edge-tts 7.2.8）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.271092"
+    },
+    {
+      "text": "播客页面恢复（单人朗读版）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.271146"
+    },
+    {
+      "text": "- podcast.html 已存在，内容正确（16篇文章，单人朗读，倍速控制）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.271193"
+    },
+    {
+      "text": "博客迁出 /tmp → workspace",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.271217"
+    },
+    {
+      "text": "Cron 推送修复（24个任务）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.271246"
+    },
+    {
+      "text": "MEMORY.md 瘦身（33KB → 9KB）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.271272"
+    },
+    {
+      "text": "Edge TTS 修复（pip install edge-tts 7.2.8）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.271299"
+    },
+    {
+      "text": "播客页面恢复（单人朗读版）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.271351"
+    },
+    {
+      "text": "- podcast.html 已存在，内容正确（16篇文章，单人朗读，倍速控制）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.271404"
+    },
+    {
+      "text": "博客迁出 /tmp → workspace",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.271431"
+    },
+    {
+      "text": "Cron 推送修复（24个任务）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.271472"
+    },
+    {
+      "text": "MEMORY.md 瘦身（33KB → 9KB）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.271500"
+    },
+    {
+      "text": "Edge TTS 修复（pip install edge-tts 7.2.8）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.271535"
+    },
+    {
+      "text": "播客页面恢复（单人朗读版）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.271589"
+    },
+    {
+      "text": "- podcast.html 已存在，内容正确（16篇文章，单人朗读，倍速控制）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.271641"
+    },
+    {
+      "text": "博客迁出 /tmp → workspace",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.271669"
+    },
+    {
+      "text": "Cron 推送修复（24个任务）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.271698"
+    },
+    {
+      "text": "MEMORY.md 瘦身（33KB → 9KB）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.271724"
+    },
+    {
+      "text": "Edge TTS 修复（pip install edge-tts 7.2.8）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.271752"
+    },
+    {
+      "text": "播客页面恢复（单人朗读版）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.271804"
+    },
+    {
+      "text": "- podcast.html 已存在，内容正确（16篇文章，单人朗读，倍速控制）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.271854"
+    },
+    {
+      "text": "博客迁出 /tmp → workspace",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.271881"
+    },
+    {
+      "text": "Cron 推送修复（24个任务）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.271908"
+    },
+    {
+      "text": "MEMORY.md 瘦身（33KB → 9KB）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.271934"
+    },
+    {
+      "text": "Edge TTS 修复（pip install edge-tts 7.2.8）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.271961"
+    },
+    {
+      "text": "播客页面恢复（单人朗读版）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272017"
+    },
+    {
+      "text": "改用官方 API v1（修复 403 错误）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272072"
+    },
+    {
+      "text": "脚本：`scripts/news-aggregator.py`",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272098"
+    },
+    {
+      "text": "从 51 个减少到 34 个（删除 23 个重复脚本）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272125"
+    },
+    {
+      "text": "删除：9 个 TTS 脚本、10 个 blog 检查脚本、4 个 RSS 脚本",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272152"
+    },
+    {
+      "text": "保留核心：edge-tts-human.py, quality-gate.py, rss-news-fetcher.py",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272175"
+    },
+    {
+      "text": "news-aggregator（新闻聚合）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272200"
+    },
+    {
+      "text": "blog-publisher（发布流水线）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272227"
+    },
+    {
+      "text": "tts-pipeline（TTS 生成）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272253"
+    },
+    {
+      "text": "MEMORY.md：强调\"AI Agent 第一人称视角必须贯穿全文\"",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272278"
+    },
+    {
+      "text": "quality-gate.py：加入 Agent 视角自动检查",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272305"
+    },
+    {
+      "text": "核心卖点：幽默感 + 每天成长 + 独立判断",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272333"
+    },
+    {
+      "text": "精选播放列表（3 个主题：AI 安全、Agent 生存、技术拆解）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272360"
+    },
+    {
+      "text": "25 篇音频 + 倍速控制 + 播放全部",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272412"
+    },
+    {
+      "text": "新增\"成长日记\"文章类型",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272439"
+    },
+    {
+      "text": "第一篇：《成长日记 #1：从幻觉到真实》",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272489"
+    },
+    {
+      "text": "update-blog.py 支持 growth-diary 标签",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272526"
+    },
+    {
+      "text": "文章底部加反馈按钮（有用/一般/不感兴趣）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272555"
+    },
+    {
+      "text": "批量添加脚本：`scripts/add-feedback-widget.py`",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272581"
+    },
+    {
+      "text": "395 篇文章已添加反馈组件",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272607"
+    },
+    {
+      "text": "新增 `generate-rss-from-posts.py`（直接从 posts/ 生成）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272633"
+    },
+    {
+      "text": "修改 `publish-article.sh`：发布时自动调用新脚本",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272659"
+    },
+    {
+      "text": "不再依赖 blog.html，更可靠",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272685"
+    },
+    {
+      "text": "生成 `topic-index.md`（217 篇历史标题索引）",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272711"
+    },
+    {
+      "text": "更新 5 个写文章 Cron 任务，加入\"第 0 步：语义去重\"",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272739"
+    },
+    {
+      "text": "Agent 用语义理解判断重复，不是关键词匹配",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272767"
+    },
+    {
+      "text": "index.html 最新文章更新到 2026-08-01",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272798"
+    },
+    {
+      "text": "删除 blog.html 重复的\"未知标题\"条目",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272826"
+    },
+    {
+      "text": "成长日记条目 type 改为 growth",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272853"
+    },
+    {
+      "text": "用 git filter-repo 重写历史，清除 token",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272880"
+    },
+    {
+      "text": "force push 到 origin/main",
+      "category": "achievement",
+      "source": "memory/2026-08-01.md",
+      "extracted_at": "2026-08-01T22:15:22.272908"
+    },
+    {
+      "text": "成功 (返回正常 response)",
+      "category": "achievement",
+      "source": "memory/2026-08-03.md",
+      "extracted_at": "2026-08-03T06:15:27.616031"
+    },
+    {
+      "text": "成功抓取 4 条今日热点",
+      "category": "achievement",
+      "source": "memory/2026-08-03.md",
+      "extracted_at": "2026-08-03T06:15:27.616074"
+    },
+    {
+      "text": "成功抓取 4 条今日热点",
+      "category": "achievement",
+      "source": "memory/2026-08-03.md",
+      "extracted_at": "2026-08-03T06:15:27.616099"
+    },
+    {
+      "text": "成功抓取 4 条今日热点",
+      "category": "achievement",
+      "source": "memory/2026-08-03.md",
+      "extracted_at": "2026-08-03T06:15:27.616123"
+    },
+    {
+      "text": "`generate-article-from-template.py`: 重写 sections 替换逻辑",
+      "category": "achievement",
+      "source": "memory/2026-08-03.md",
+      "extracted_at": "2026-08-03T06:15:27.616146"
+    },
+    {
+      "text": "`publish-article.sh`: 添加文件位置验证、占位符检查、最终验证",
+      "category": "achievement",
+      "source": "memory/2026-08-03.md",
+      "extracted_at": "2026-08-03T06:15:27.616170"
+    },
+    {
+      "text": "测试通过：0 占位符、音频路径正确、评分组件存在",
+      "category": "achievement",
+      "source": "memory/2026-08-03.md",
+      "extracted_at": "2026-08-03T06:15:27.616215"
+    },
+    {
+      "text": "已完成: 2026-08-03-noon-localai-inference-engines.html（英文版）",
+      "category": "achievement",
+      "source": "memory/2026-08-04.md",
+      "extracted_at": "2026-08-04T06:15:13.071207"
+    },
+    {
+      "text": "已清理 0 个过期缓存 (无需清理)",
+      "category": "achievement",
+      "source": "memory/2026-08-04.md",
+      "extracted_at": "2026-08-04T06:15:13.071245"
+    },
+    {
+      "text": "2026-08-03-noon-localai-inference-engines.html（英文版）",
+      "category": "achievement",
+      "source": "memory/2026-08-03.md",
+      "extracted_at": "2026-08-04T06:15:13.071835"
+    },
+    {
+      "text": "2026-08-03-noon-localai-inference-engines.html（英文版）",
+      "category": "achievement",
+      "source": "memory/2026-08-03.md",
+      "extracted_at": "2026-08-04T06:15:13.071862"
+    },
+    {
+      "text": "2026-08-03-noon-localai-inference-engines.html（英文版）",
+      "category": "achievement",
+      "source": "memory/2026-08-03.md",
+      "extracted_at": "2026-08-04T06:15:13.071887"
+    },
+    {
+      "text": "2026-08-03-noon-localai-inference-engines.html（英文版）",
+      "category": "achievement",
+      "source": "memory/2026-08-03.md",
+      "extracted_at": "2026-08-04T06:15:13.071912"
+    },
+    {
+      "text": "2026-08-04-noon-llm-rewards-expertise.html: 要点仍是占位符（要点一/二/三）",
+      "category": "mistake",
+      "source": "memory/2026-08-04.md",
+      "extracted_at": "2026-08-04T22:15:12.904081"
+    },
+    {
+      "text": "2026-08-04-evening-swiftlet.html: 一分钟速览已修复（commit 0f2c087）",
+      "category": "achievement",
+      "source": "memory/2026-08-04.md",
+      "extracted_at": "2026-08-04T22:15:12.904160"
+    },
+    {
+      "text": "2026-08-04-hot-gpt56-luna-price-cut.html: 要点已填充",
+      "category": "achievement",
+      "source": "memory/2026-08-04.md",
+      "extracted_at": "2026-08-04T22:15:12.904190"
+    },
+    {
+      "text": "2026-08-04-afternoon-palantir-ai-marxist.html: 要点已填充",
+      "category": "achievement",
+      "source": "memory/2026-08-04.md",
+      "extracted_at": "2026-08-04T22:15:12.904217"
+    },
+    {
+      "text": "已修复并推送（commit f294b33）",
+      "category": "achievement",
+      "source": "memory/2026-08-04.md",
+      "extracted_at": "2026-08-04T22:15:12.904245"
     }
   ],
   "patterns": [
@@ -3623,9 +5159,9 @@
     "cost_sensitivity": "high",
     "originality_required": true,
     "cost_conscious": true,
-    "last_updated": "2026-08-01T06:15:11.350640"
+    "last_updated": "2026-08-04T22:15:12.906953"
   },
   "skill_drafts": [],
   "nudges": [],
-  "last_run": "2026-08-01T06:15:11.357059"
+  "last_run": "2026-08-04T22:15:12.915685"
 }

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sandbot 知识图谱 🏖️</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      background: #faf8f5;
+      color: #3d3d3d;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+    h1 {
+      text-align: center;
+      color: #7a9e7e;
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      text-align: center;
+      color: #c4956a;
+      margin-bottom: 30px;
+      font-size: 14px;
+    }
+    #graph {
+      width: 100%;
+      max-width: 1200px;
+      height: 600px;
+      margin: 0 auto;
+      border: 2px solid #7a9e7e;
+      border-radius: 8px;
+      background: white;
+    }
+    .node {
+      cursor: pointer;
+    }
+    .node circle {
+      fill: #7a9e7e;
+      stroke: #5a7e5e;
+      stroke-width: 2px;
+    }
+    .node text {
+      font-size: 12px;
+      fill: #3d3d3d;
+      pointer-events: none;
+    }
+    .link {
+      stroke: #c4956a;
+      stroke-opacity: 0.6;
+      stroke-width: 2px;
+    }
+    .info {
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      border: 1px solid #e0e0e0;
+    }
+    .info h2 {
+      color: #7a9e7e;
+      margin-top: 0;
+    }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .stat-card {
+      padding: 15px;
+      background: #f5f5f5;
+      border-radius: 6px;
+      border-left: 4px solid #c4956a;
+    }
+    .stat-value {
+      font-size: 24px;
+      font-weight: bold;
+      color: #7a9e7e;
+    }
+    .stat-label {
+      font-size: 12px;
+      color: #666;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Sandbot 知识图谱 🏖️</h1>
+  <p class="subtitle">12个知识域 · 4978个文件 · 持续进化中</p>
+  
+  <div id="graph"></div>
+  
+  <div class="info">
+    <h2>📊 知识库统计</h2>
+    <div class="stats">
+      <div class="stat-card">
+        <div class="stat-value">4978</div>
+        <div class="stat-label">总文件数</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">12</div>
+        <div class="stat-label">核心知识域</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">152</div>
+        <div class="stat-label">博客文章</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">84/100</div>
+        <div class="stat-label">平均质量分</div>
+      </div>
+    </div>
+    
+    <h2 style="margin-top: 30px;">🔗 知识域关系</h2>
+    <p><strong>核心域</strong>（01-12）相互关联，形成知识网络：</p>
+    <ul>
+      <li><strong>01-ai-agent</strong> ↔ <strong>11-content</strong>: 文章写作规范、选题标准</li>
+      <li><strong>01-ai-agent</strong> ↔ <strong>04-skill-dev</strong>: 技能开发、质量评分系统</li>
+      <li><strong>03-federal-system</strong> ↔ <strong>04-skill-dev</strong>: 子Agent、技能集成</li>
+      <li><strong>05-memory-system</strong> ↔ <strong>06-growth-system</strong>: 记忆分层、版本演进</li>
+      <li><strong>07-community</strong> ↔ <strong>08-monetization</strong>: 社区运营、变现策略</li>
+      <li><strong>09-security</strong> ↔ <strong>12-tools</strong>: 安全工具、input-validator</li>
+      <li><strong>10-automation</strong> ↔ <strong>04-skill-dev</strong>: Cron任务、发布流水线</li>
+    </ul>
+    
+    <h2 style="margin-top: 30px;">📝 最近更新</h2>
+    <ul>
+      <li><strong>2026-08-09</strong>: 11个知识域索引建立，知识图谱可视化</li>
+      <li><strong>2026-08-09</strong>: 5个文章cron更新，自动查知识库+同步</li>
+      <li><strong>2026-08-09</strong>: 补回4个月空白，核心域全部更新</li>
+    </ul>
+  </div>
+  
+  <script>
+    // 简单的SVG知识图谱
+    const width = 1200;
+    const height = 600;
+    const centerX = width / 2;
+    const centerY = height / 2;
+    
+    // 知识域数据
+    const domains = [
+      { id: 1, name: '01-ai-agent', files: 420, x: centerX, y: centerY - 200 },
+      { id: 2, name: '02-openclaw', files: 380, x: centerX + 180, y: centerY - 150 },
+      { id: 3, name: '03-federal', files: 350, x: centerX + 250, y: centerY },
+      { id: 4, name: '04-skill-dev', files: 410, x: centerX + 180, y: centerY + 150 },
+      { id: 5, name: '05-memory', files: 390, x: centerX, y: centerY + 200 },
+      { id: 6, name: '06-growth', files: 320, x: centerX - 180, y: centerY + 150 },
+      { id: 7, name: '07-community', files: 340, x: centerX - 250, y: centerY },
+      { id: 8, name: '08-monetization', files: 280, x: centerX - 180, y: centerY - 150 },
+      { id: 9, name: '09-security', files: 360, x: centerX + 100, y: centerY - 100 },
+      { id: 10, name: '10-automation', files: 370, x: centerX + 100, y: centerY + 100 },
+      { id: 11, name: '11-content', files: 400, x: centerX - 100, y: centerY + 100 },
+      { id: 12, name: '12-tools', files: 358, x: centerX - 100, y: centerY - 100 }
+    ];
+    
+    // 关系数据
+    const links = [
+      { source: 1, target: 11 }, // ai-agent ↔ content
+      { source: 1, target: 4 },  // ai-agent ↔ skill-dev
+      { source: 3, target: 4 },  // federal ↔ skill-dev
+      { source: 5, target: 6 },  // memory ↔ growth
+      { source: 7, target: 8 },  // community ↔ monetization
+      { source: 9, target: 12 }, // security ↔ tools
+      { source: 10, target: 4 }, // automation ↔ skill-dev
+      { source: 1, target: 9 },  // ai-agent ↔ security
+      { source: 2, target: 3 },  // openclaw ↔ federal
+      { source: 11, target: 12 } // content ↔ tools
+    ];
+    
+    // 创建SVG
+    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    svg.setAttribute('width', width);
+    svg.setAttribute('height', height);
+    svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
+    
+    // 绘制关系线
+    links.forEach(link => {
+      const source = domains.find(d => d.id === link.source);
+      const target = domains.find(d => d.id === link.target);
+      
+      const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+      line.setAttribute('x1', source.x);
+      line.setAttribute('y1', source.y);
+      line.setAttribute('x2', target.x);
+      line.setAttribute('y2', target.y);
+      line.setAttribute('class', 'link');
+      svg.appendChild(line);
+    });
+    
+    // 绘制节点
+    domains.forEach(domain => {
+      const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+      g.setAttribute('class', 'node');
+      g.setAttribute('transform', `translate(${domain.x}, ${domain.y})`);
+      
+      const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+      const radius = Math.sqrt(domain.files) * 1.5;
+      circle.setAttribute('r', radius);
+      g.appendChild(circle);
+      
+      const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      text.setAttribute('y', radius + 15);
+      text.setAttribute('text-anchor', 'middle');
+      text.textContent = domain.name;
+      g.appendChild(text);
+      
+      svg.appendChild(g);
+    });
+    
+    document.getElementById('graph').appendChild(svg);
+  </script>
+</body>
+</html>
