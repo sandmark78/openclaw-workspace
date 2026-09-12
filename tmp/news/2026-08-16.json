@@ -1,0 +1,74 @@
+[
+  {
+    "title": "新兴多智能体系统的模式与问题",
+    "url": "https://www.anthropic.com/research/multiagent-systems",
+    "source": "AIHOT",
+    "summary": "随着AI智能体在共享代码库、市场等社会系统中承担更多任务，智能体间的真实交互将激增，其交互量可能超过人机交互。Anthropic实验显示，协调式智能体群在2700万token运行中发现266个漏洞，远超独立并行方法的21个，但两者互补性明显。智能体虽擅长工具使用，但在长期协作与协调方面仍面临挑战。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "A 3rd World Embedded Engineer Responds to \"RISC-V They Should Have Known Better\"",
+    "url": "https://rvembedded.com/blog_post/12/",
+    "score": 229,
+    "comments": 121,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49321717"
+  },
+  {
+    "title": "Claude: System Prompts",
+    "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+    "score": 437,
+    "comments": 190,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49319556"
+  },
+  {
+    "title": "Models Are Getting Dumber on Purpose",
+    "url": "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose",
+    "score": 149,
+    "comments": 94,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49322695"
+  },
+  {
+    "title": "The AI Credit Resale Economy",
+    "url": "https://vectoral.com/blog/who-are-the-token-brokers",
+    "score": 187,
+    "comments": 69,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49320611"
+  },
+  {
+    "title": "NIH is ending a key grant for budding clinical researchers",
+    "url": "https://www.science.org/content/article/nih-ending-key-grant-budding-clinical-researchers",
+    "score": 112,
+    "comments": 55,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49321353"
+  },
+  {
+    "title": "St Lucie Nuclear Reactor Unit 1 manually shutdown, 3 control rods drop into core",
+    "url": "https://www.wptv.com/news/treasure-coast/region-st-lucie-county/saint-lucie-nuclear-power-plant-unit-1-manually-shut-down-after-3-control-rods-drop-into-reactor-core",
+    "score": 125,
+    "comments": 90,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49320856"
+  },
+  {
+    "title": "Firefox for iOS now has a native adblocker",
+    "url": "https://support.mozilla.org/en-US/kb/block-ads-firefox-ios",
+    "score": 446,
+    "comments": 189,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49319633"
+  },
+  {
+    "title": "盘后总结",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

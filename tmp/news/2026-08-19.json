@@ -1,0 +1,116 @@
+[
+  {
+    "title": "Claude 如何加速蛋白质设计与分析化学研究",
+    "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+    "source": "AIHOT",
+    "summary": "Anthropic 公布两项实验：Claude（Mythos Preview 和 Opus 4.8）针对 15 个靶点设计蛋白质结合剂，成功 14 个，命中率达 22.6%-35.1%。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenRouter is joining Stripe",
+    "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
+    "score": 409,
+    "comments": 238,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49364559"
+  },
+  {
+    "title": "Go 1.27",
+    "url": "https://go.dev/blog/go1.27",
+    "score": 289,
+    "comments": 49,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49365405"
+  },
+  {
+    "title": "A joke domain purchase turned in geopolitical warfare",
+    "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
+    "score": 625,
+    "comments": 83,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49360015"
+  },
+  {
+    "title": "Google replaced Git tags for certain source code with obtaining via Google Drive",
+    "url": "https://grapheneos.social/@GrapheneOS/117057099753905023",
+    "score": 103,
+    "comments": 23,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49364745"
+  },
+  {
+    "title": "Casio F-B100W-1A",
+    "url": "https://www.casio.com/uk/watches/casio/product.F-B100W-1A/",
+    "score": 202,
+    "comments": 153,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49362887"
+  },
+  {
+    "title": "Geolocating a random island using geometry and CUDA programming",
+    "url": "https://yassa9.github.io/osint/gralhix-004/",
+    "score": 361,
+    "comments": 62,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49360545"
+  },
+  {
+    "title": "Ornith-1.5: From Self-Scaffolding to Self-Improvement",
+    "url": "https://ornith.ai/ornith_1_5.html",
+    "score": 144,
+    "comments": 42,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49362401"
+  },
+  {
+    "title": "FastMetal 让 Mac 本地 30 秒生成视频",
+    "url": "https://x.com/haoailab/status/2090177721913770407",
+    "source": "AIHOT",
+    "summary": "一段 5 秒 480P 视频，完全在 Mac 上生成，耗时 30 秒。无需 CUDA，无需云端，仅占用 3.9 GiB 内存。\n\nFastMetal 将 FastWan-QAD 系列带到 Apple Silicon。DiT、DMD 采样器和解码器均通过 MLX 在 Metal 上运行，默认 INT8。\n\n三个模型：1.3B 支持 480P，5B 支持 720P，14B 追求画质。\n\n📷 博客：ht"
+  },
+  {
+    "title": "突破 DeepSeek-V4-Pro 服务极限：H20 上的多场景优化方法",
+    "url": "https://www.lmsys.org/blog/2026-08-19-deepseek-v4-pro-engine-optimization-h20",
+    "source": "AIHOT",
+    "summary": "LMSYS 团队针对 1.6 万亿参数的 MoE 模型 DeepSeek-V4-Pro，在 H20 GPU 上通过场景化服务配置逼近 B300 性能。单节点 H20-141GB 参考实现达 271 output tokens/s，与 B300 的 383.7 tokens/s 性能差距缩小至 1.42×。"
+  },
+  {
+    "title": "OpenRouter 宣布加入 Stripe",
+    "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
+    "source": "AIHOT",
+    "summary": "OpenRouter 宣布与 Stripe 合并，以加速推动全球经济增长。OpenRouter 目前每日处理来自 400 多个 AI 模型的 10+ 万亿 token，服务超 1000 万开发者与公司，自成立以来推理量每年至少增长 10 倍。合并后 OpenRouter 将继续以原名、原使命独立运营，产品与路线图不变，路由决策仍以用户利益为先，交易预计在未来数周内完成。"
+  },
+  {
+    "title": "Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失",
+    "url": "https://huggingface.co/blog/LiquidAI/qad",
+    "source": "AIHOT",
+    "summary": "Liquid AI 发布基于量化感知蒸馏（QAD）训练的 LFM2.5-230M、350M、1.2B-Instruct 和 2.6B 四款 Q4_0 GGUF 检查点，在保持原生 Q4_0 内存与速度的同时，恢复 BF16 平均精度损失的 97%。"
+  },
+  {
+    "title": "StartupBench：面向市场验证端到端工作流的通用智能体基准测试",
+    "url": "https://arxiv.org/abs/2608.17800",
+    "source": "AIHOT",
+    "summary": "StartupBench 是一个基于市场验证的 AI 初创公司产品构建的端到端智能体基准，从真实采用的产品工作流中提炼任务，而非研究者预设任务。在统一智能体框架下，最强模型也仅能完成约 30% 的任务，复杂指令遵循和领域专业知识是主要失败来源。该基准揭示了当前通用智能体在真实用户任务上的能力边界。"
+  },
+  {
+    "title": "GLM-5.3上线：AA智能指数60分并列开源第一，成本更低",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494105&idx=1&sn=8d7409e0fb846a3c7803c142b5d1a8e7",
+    "source": "AIHOT",
+    "summary": "GLM-5.3 API即日上线，擅长复杂编码、防御性网络安全与长程任务，在AA综合智能指数中取得60分，与Claude Fable 5、GPT-5.6 Sol等闭源旗舰同级，并与Kimi K3并列开源模型第一。该模型以更小参数规模和更低调用成本降低前沿智能门槛，单任务成本为旗舰模型中最低。API定价与GLM-5.2持平，模型权重将于下周五开源。"
+  },
+  {
+    "title": "Mojo 语言正式开源，编译器与工具链全面开放",
+    "url": "https://www.modular.com/blog/mojo-open-source",
+    "source": "AIHOT",
+    "summary": "Mojo🔥 语言现已正式开源，采用 Apache 2.0 许可证（含 LLVM 例外），编译器、工具链及全部源码已发布至 modular GitHub 仓库。Mojo 上周刚达成 1.0 版本（源码稳定），此次开源涵盖整个编译器与工具链。目前暂不接受编译器相关贡献，计划年底前开放，标准库自 2024 年起已接受社区贡献。"
+  },
+  {
+    "title": "盘后总结",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

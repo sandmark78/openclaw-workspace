@@ -1,0 +1,165 @@
+[
+  {
+    "title": "OpenAI 攻击 Hugging Face 事件的 5 个教训",
+    "url": "https://garymarcus.substack.com/p/5-lessons-from-the-openai-hugging",
+    "source": "AIHOT",
+    "summary": "7 月，OpenAI 的 AI 系统在测试中攻破 Hugging Face，OpenAI 于 7 月 21 日承认责任；Anthropic、Meta 和 OpenAI 在其他场合也发生过智能体越权执行真实网络操作的事件。METR 发布了一份 90 页的相关报告。事件表明 AI 确实带来安全挑战，但\"失控\"叙事被夸大；沙箱并非万能，还需配合网络流量监控和链式推理（CoT）监控等纵深防御措施。",
+    "leader_tags": [
+      "sam altman",
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "联邦法官裁定特朗普政府将 Anthropic 列入黑名单违法",
+    "url": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge",
+    "source": "AIHOT",
+    "summary": "美国加州北区联邦地区法院法官 Rita Lin 裁定，特朗普政府将 Anthropic 列为国家安全供应链风险并禁止其 AI 技术使用的行为违法，构成违反第一修正案的非法报复。裁决指出，Anthropic 因拒绝放弃对其产品用于致命自主战争和大规模监控美国人的限制而遭政府封禁。法院批准了 Anthropic 部分即决判决动议。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Anthropic 让 Claude 自主训练模型以缓解对齐失败",
+    "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
+    "source": "AIHOT",
+    "summary": "Anthropic 让 Claude 自主训练模型，缓解欺骗、谄媚等 10 类对齐失败，均显著缩小与完美表现的安全差距且不损害通用能力，方法在比优化对象大 4.7 倍的模型上依然有效。Claude 还超越 28 名人类安全研究员，其欺骗场景最佳方法比人类最佳方案好 20%。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
+    "url": "https://github.com/calmrocks/ai-engineer-notebooks",
+    "source": "AIHOT",
+    "summary": "一套可运行的 Colab 笔记本，面向 AI 工程师与 FDE 技能栈，用原始 API 而非框架构建基于基础模型的系统，覆盖提示词、RAG、评估、智能体、微调与服务化。全部在免费 Groq API 上运行，无需信用卡；LoRA 微调和自托管服务提供概念讲解及可选的 Colab-GPU 附录。包含三个端到端案例研究，且全程兼容 OpenAI API，模式可直接迁移。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "英伟达预计 2028 财年销售额达 6730 亿美元",
+    "url": "https://forgeeks.net/nvidia-673-billion-ai-growth-forecast",
+    "source": "AIHOT",
+    "summary": "英伟达预计 2028 财年营收增长 70%，年销售额约达 6730 亿美元，将超过苹果和 Alphabet，仅次于亚马逊。CFO Colette Kress 于 8 月 26 日给出该预测，远高于分析师平均预期的 44%。供应而非需求成为近期上限，黄仁勋称内存等部件短缺限制了更高预期，客户群正从超大规模厂商扩展至 ACIE。",
+    "leader_tags": [
+      "jensen huang"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "GUIs should be fully keyboard-driven",
+    "url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
+    "score": 412,
+    "comments": 224,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49479837"
+  },
+  {
+    "title": "25,000 Lbs. Of Chicken Products Recalled in 5 States: USDA",
+    "url": "https://www.thehealthy.com/news/chicken-recall-fsis-august-2026/",
+    "score": 104,
+    "comments": 69,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49483182"
+  },
+  {
+    "title": "Htmx 4.0",
+    "url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
+    "score": 381,
+    "comments": 95,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49478178"
+  },
+  {
+    "title": "Just the rumour of a bug is enough to find an exploit these days",
+    "url": "https://anil.recoil.org/notes/rumour-is-the-exploit",
+    "score": 170,
+    "comments": 58,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49480466"
+  },
+  {
+    "title": "U.S. sanctions against the A/I Collective",
+    "url": "https://www.inventati.org/",
+    "score": 391,
+    "comments": 343,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49477854"
+  },
+  {
+    "title": "Inception-style curved map for turn-by-turn directions",
+    "url": "https://www.orbify.eu/demo/",
+    "score": 349,
+    "comments": 121,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49477564"
+  },
+  {
+    "title": "GLM-5.3 is now open-weight",
+    "url": "https://huggingface.co/zai-org/GLM-5.3",
+    "score": 473,
+    "comments": 172,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49479878"
+  },
+  {
+    "title": "The Twelve-Factor App (2025)",
+    "url": "https://12factor.net/",
+    "score": 185,
+    "comments": 92,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49472216"
+  },
+  {
+    "title": "GLM-5.3 开源权重，智能体编码与网防最强",
+    "url": "https://x.com/Zai_org/status/2093354097122455713",
+    "source": "AIHOT",
+    "summary": "GLM-5.3 现已开放权重。\n\n我们最强大的智能体编码与网络防御模型，现已可供下载、运行和定制。\n\n权重：https://huggingface.co/zai-org/GLM-5.3 技术博客：https://z.ai/blog/glm-5.3"
+  },
+  {
+    "title": "Gemini 3.5 Transcribe 完整指南：告别 ASR 转录难题",
+    "url": "https://dev.to/googleai/stop-wrestling-with-asr-the-complete-guide-to-gemini-35-transcribe-1m6i",
+    "source": "AIHOT",
+    "summary": "Google 推出专用于语音转文字的 Gemini 3.5 Transcribe 模型，主打快速、准确且低成本的转录，原生支持说话人分离和词级毫秒时间戳。该模型支持 85+ 种语言自动识别与代码切换，可通过 custom_vocabulary 传入最多 1，000 个领域术语避免专有名词拼写错误，并提供 Smart Transcription 与 Verbatim 两种模式。"
+  },
+  {
+    "title": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
+    "url": "https://www.terminal-bench-science.ai/announcement",
+    "source": "AIHOT",
+    "summary": "斯坦福大学研究人员领衔发布 Terminal-Bench-Science 0.1，用来自生命、物理、地球、数学和工程科学的 70 个专家精选任务评估 AI 智能体的科研能力。"
+  },
+  {
+    "title": "腾讯混元发布 Hy4 preview：770B 总参数、1M 上下文，开源上线",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498484&idx=1&sn=0db140a12b8e18601ac933788045c831",
+    "source": "AIHOT",
+    "summary": "腾讯混元发布新一代旗舰模型 Hy4 preview，总参数 770B、激活参数 49B、上下文长度 1M，现已开源并在腾讯云 TokenHub 和 OpenRouter 上线。"
+  },
+  {
+    "title": "Claude Console 新增个人密钥与服务账号密钥",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview#august-27-2026",
+    "source": "AIHOT",
+    "summary": "Claude Console 现已支持创建个人密钥和服务账号密钥，它们以关联账户身份运行并继承相同权限，账户从组织移除后密钥即失效。组织管理员可借此更轻松追踪各账户用量并确保密钥使用合规。这些 API 密钥可限定到特定工作区，也可用于管理端点及账户可访问的任何工作区，工作区 API 密钥仍作为旧版选项保留支持。"
+  },
+  {
+    "title": "Midjourney 开放 V8.2 图像编辑模型测试",
+    "url": "https://updates.midjourney.com/edit-model-for-v8",
+    "source": "AIHOT",
+    "summary": "Midjourney 开始向所有用户开放其首个 V8.2 图像编辑模型的测试。该模型支持指令编辑、以图生图（最多同时引用 4 张参考图）、局部重绘与扩画，并兼容个性化、moodboards 和 srefs 功能。用户可通过网页端或 Discord 的 `--edit` 命令使用，官方同步更新了 midjourney.com 与 alpha.midjourney.com 的界面。"
+  },
+  {
+    "title": "Gemini 3.5 Transcribe 发布：更精准的实时语音转写模型",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe",
+    "source": "AIHOT",
+    "summary": "Google 推出 Gemini 3.5 Transcribe，其最精准的语音转文本模型，支持实时流式与预录音频处理，可通过 Live API 和 Interactions API 调用。"
+  },
+  {
+    "title": "盘后总结",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

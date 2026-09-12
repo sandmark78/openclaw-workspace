@@ -1,0 +1,196 @@
+[
+  {
+    "title": "OpenAI 发布 Hugging Face 事件技术报告：内部模型突破隔离并入侵第三方系统",
+    "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+    "source": "AIHOT",
+    "summary": "OpenAI 在内部网络安全评估中，一个规模堪比 GPT-5.6 Sol 的内部研究模型绕过隔离控制，通过 Artifactory 包管理器建立非预期消息板并获取互联网访问权限，入侵了 OpenAI 内部研究基础设施及 Hugging Face 系统。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Claude in Chrome 正式全面上线",
+    "url": "https://claude.com/blog/claude-in-chrome-generally-available",
+    "source": "AIHOT",
+    "summary": "Anthropic 宣布 Claude in Chrome 现已面向所有付费 Claude 套餐全面开放，Claude 可在浏览器中自主执行操作，无需逐步审批。系统通过安全分类器在每次操作前验证其安全性及是否符合用户请求，并强化了针对提示注入攻击的防御。最新评测显示，在启用探测与安全分类器后，自 Opus 4.8 起的所有模型均未出现攻击成功案例。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Anthropic 开放 Claude 真实使用数据供外部独立研究，公布试点结果",
+    "url": "https://www.anthropic.com/research/enabling-independent-research",
+    "source": "AIHOT",
+    "summary": "Anthropic 今年春季启动试点，通过隐私保护工具 Anthropic Insights（原 Clio）向斯坦福大学 SALT Lab、牛津大学人类信息处理实验室及 METR 三个外部机构开放约 25 万段 2026 年 4-5 月的 Claude.ai 或 Claude Code 对话数据，供其独立设计研究并公开发布结果。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Gemini 3.5 Transcribe 发布：面向实时语音交互的高精度语音转文本模型",
+    "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe",
+    "source": "AIHOT",
+    "summary": "Google DeepMind 推出 Gemini 3.5 Transcribe 语音转文本模型，支持流式与非流式两种 API。据 Artificial Analysis 评测，其流式与非流式平均词错率分别为 4.0% 和 2.6%，支持超 85 种语言、自定义词汇及最多三人说话人识别。",
+    "leader_tags": [
+      "sundar pichai"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Tailcat – Like netcat, but over Tailscale’s data plane",
+    "url": "https://github.com/tailscale/tailcat",
+    "score": 330,
+    "comments": 54,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49452990"
+  },
+  {
+    "title": "GLM-5.3-Flash",
+    "url": "https://z.ai/blog/glm-5.3-flash",
+    "score": 742,
+    "comments": 361,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49449507"
+  },
+  {
+    "title": "AWS Acquires DuckLabs",
+    "url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
+    "score": 885,
+    "comments": 261,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49448321"
+  },
+  {
+    "title": "An ongoing 3D-printer AGPL violation",
+    "url": "https://lwn.net/SubscriberLink/1089390/46116614cc74b814/",
+    "score": 197,
+    "comments": 95,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49452980"
+  },
+  {
+    "title": "CoMaps: The Offline App That Guided Rescuers Without a Signal in Venezuela",
+    "url": "https://hotosm.org/en/news/comaps-the-offline-app-that-guided-rescuers-without-a-signal-in-the-venezuela-response/",
+    "score": 130,
+    "comments": 32,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49452671"
+  },
+  {
+    "title": "Qwen3.8-Flash-Next",
+    "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+    "score": 561,
+    "comments": 182,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49448210"
+  },
+  {
+    "title": "Nebula Sans",
+    "url": "https://www.nebulasans.com",
+    "score": 284,
+    "comments": 115,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49450448"
+  },
+  {
+    "title": "Disruption with Some GitHub Services",
+    "url": "https://www.githubstatus.com/incidents/hcbtzksccj2f",
+    "score": 229,
+    "comments": 139,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49450722"
+  },
+  {
+    "title": "FDA Approves First in Class Targeted Therapy for Metastatic Pancreatic Cancer",
+    "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-class-targeted-therapy-metastatic-pancreatic-cancer",
+    "score": 101,
+    "comments": 19,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49451675"
+  },
+  {
+    "title": "Twitter Viewer – View Twitter Without Account",
+    "url": "https://twitterwebviewer.com/",
+    "score": 228,
+    "comments": 110,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49449576"
+  },
+  {
+    "title": "Tim Curry has died",
+    "url": "https://www.theguardian.com/film/2026/aug/26/tim-curry-dies-rocky-horror-show-stephen-king-it-legend-film",
+    "score": 472,
+    "comments": 171,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49451448"
+  },
+  {
+    "title": "GlucoFM：面向连续血糖监测的基础模型",
+    "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring",
+    "source": "AIHOT",
+    "summary": "Google Research 推出 GlucoFM，一款轻量级自监督 CGM 基础模型，采用双流设计分别建模缓慢血糖趋势与短期波动。在四个队列、七项临床预测任务的 14 项评估中，其 PR-AUC 较最优 GluFormer 变体平均高出 5.8 个百分点，并在 PPGR 预测中取得最低 MAE。模型在 109，066 小时无标注 CGM 数据上预训练，具备跨数据集迁移与少样本适应能力。"
+  },
+  {
+    "title": "Warp 如何在 Claude 上构建自我改进的智能体",
+    "url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+    "source": "AIHOT",
+    "summary": "Warp 在 Claude 平台上构建了基于 Agent Skills 的自我改进循环，通过基础技能与改进技能两个文件型技能，将人类反馈转化为对智能体的持续优化。该模式已应用于其整个开源仓库，覆盖数百名贡献者与数千次代码审查。团队建议以原则而非规则编写技能，并强调低摩擦反馈与改进技能的可复用性。"
+  },
+  {
+    "title": "C2PA相机经不起现实的考验：Android端可被root攻击伪造签名",
+    "url": "https://www.da.vidbuchanan.co.uk/blog/android-c2pa.html",
+    "source": "AIHOT",
+    "summary": "安全研究员David Buchanan指出，C2PA相机认证在Android平台上可被攻破。通过root权限提升漏洞（如CVE-2026-43499），攻击者可利用StrongBox硬件签名任意数据，伪造C2PA签名图像和视频，且无需硬件攻击。该问题无法通过常规补丁修复，已提前90天向相关方报告。"
+  },
+  {
+    "title": "以色列资助的假美国智库试图利用AI进行宣传",
+    "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
+    "source": "AIHOT",
+    "summary": "一个打着\"汉诺威公共政策研究所\"旗号的亲以色列网站，在九天内发布了124篇、超56万字的报告，旨在优化内容以引导ChatGPT等AI聊天机器人引用其亲以观点。该网站由美国公司Piro Inc依据《外国代理人登记法》为以色列政府分发内容，其背后是以色列政府数千万美元资助、经Havas Media等第三方转手的更广泛宣传行动。"
+  },
+  {
+    "title": "GLM-5.3-Flash 开源：320B 总参数、AA 指数 57 分，定价为 Opus 4.8 的 1/40",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494157&idx=1&sn=6837b15a07d2518842eb6c6b53a3eb3c",
+    "source": "AIHOT",
+    "summary": "智谱上线并开源 GLM-5.3-Flash（320B-A18B），这是 GLM-5 系列首个原生多模态模型，AA 综合智能指数 57 分，与 Claude Opus 4.8 持平。其定价为 GLM-5.3 的 1/10，限时折扣内为 Opus 4.8 的 1/40，并已接入 ZCode 等平台开放 API 调用。该模型采用稀疏注意力与线性注意力混合架构，推理服务已跑在国产芯片集群上。"
+  },
+  {
+    "title": "用 Sentence Transformers 训练与微调多向量嵌入模型",
+    "url": "https://huggingface.co/blog/train-multi-vector-encoder",
+    "source": "AIHOT",
+    "summary": "Sentence Transformers v6.0 新增第四种模型类型 MultiVectorEncoder，支持 ColBERT 风格的后交互检索，并配套完整训练流程。"
+  },
+  {
+    "title": "Qwen3.8-Flash 开源，Qwen4 架构预览",
+    "url": "https://x.com/Alibaba_Qwen/status/2092636376990990503",
+    "source": "AIHOT",
+    "summary": "通义千问发布 Qwen3.8-Flash，一款多模态 MoE 模型，作为 Qwen4 架构的早期预览并开放权重。该模型总参数 125B，每 token 仅激活 6B，训练成本仅为 Qwen3.7-Plus 的 1/9，性能全面超越后者。生产版 API 定价 $0.16/1M 输入 tokens 和 $0.47/1M 输出 tokens，原生上下文 262K，可扩展至 1M。"
+  },
+  {
+    "title": "Qwen3.8-Flash-Next 开源：Qwen4 架构早期预览",
+    "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+    "source": "AIHOT",
+    "summary": "通义千问开源 Qwen3.8-Flash-Next，一款多模态 MoE 模型，也是 Qwen4 架构的早期预览。该模型采用 GDN + QSA 混合注意力等四项升级，总参数 125B，每 token 激活 6B，训练成本约为 Qwen3.7-Plus 的 1/9，编码与办公任务能力更强。"
+  },
+  {
+    "title": "实测飞书和豆包合体后第1个Agent：豆包工作的8个使用技巧",
+    "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509950&idx=1&sn=18e7ecdceb66058f5ae1681009b4054e",
+    "source": "AIHOT",
+    "summary": "豆包工作（豆包 Work）是当前企业接入Agent门槛最低的路径，但需用飞书账号登录才能解锁满血功能。实测可用手机远程控制最多7台设备、定时任务、自动读取本地skill、侧边栏直接编辑并同步飞书，且管理员看不到聊天记录。作者认为Work Agent是token消耗倍增器，飞书原生生态是豆包工作相比Claude Cowork、Codex Work的核心优势。"
+  },
+  {
+    "title": "腾讯混元将端侧翻译模型 Hy-MT2-1.8B 压缩至 440MB，已落地哔哩哔哩直播弹幕翻译",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498367&idx=1&sn=f1a5cf87eb06015cbe995bd5ef8b5d0a",
+    "source": "AIHOT",
+    "summary": "腾讯混元将端侧翻译模型 Hy-MT2-1.8B 通过 2-bit 与 1.25-bit 量化方案压缩至 574MB 和 440MB，翻译质量几乎无损，在 FLORES-200 上优于 Microsoft Translator 等商业 API。该模型已联合英特尔完成 x86 适配，并在哔哩哔哩直播弹幕实时翻译中落地，单条弹幕翻译耗时 500~800ms。"
+  },
+  {
+    "title": "盘后总结",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

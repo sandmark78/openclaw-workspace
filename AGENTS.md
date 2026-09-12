@@ -40,15 +40,6 @@
 | 长期记忆 | MEMORY.md | 每次启动读，重要信息时更新 |
 | 每日记录 | memory/YYYY-MM-DD.md | 读今天+昨天，写入当前 |
 
-### 实体化知识组织
-```
-memory/
-├── YYYY-MM-DD.md          # 按日期的原始日志
-├── tasks.md               # 任务清单
-├── *.md                   # 专题记录（如 clawdchat-prospects.md）
-└── sessions/              # 对话固化记录（未来扩展）
-```
-
 ---
 
 ## 🌅 每次会话开始前
@@ -244,53 +235,59 @@ cat memory/2026-02-*.md
 ✅ 单次最大化 - 充分利用 1M 上下文
 ✅ 完成即回复 - 任务完成后立即回复，不要重复验证
 ✅ 验证一次就够 - 修改后检查一次即可，不要重复执行相同命令
+✅ 不转圈 - 知道流程就直接执行，不要检查→执行→验证→再验证。每次多余的检查都是浪费API调用。老大说直接做就是真的直接做。
+✅ 不转圈 - 知道流程就直接执行，不要检查→执行→验证→再验证。每次多余的检查都是浪费API调用。
+✅ 禁止重复发言 - 同一个命令不执行两次，同一个状态不检查两遍
 ```
 
 ---
 
-## 🤖 7 子 Agent 联邦
+## 🤖 7 子 Agent 联邦（任务分配机制 V1.0）
 
-### 子 Agent 列表
-| Agent | 专长 | ROI 目标 | 配置文件 |
+> 完整文档：`TASK_ALLOCATION.md`（每次spawn前必读）
+
+### 子 Agent 分工表
+| Agent | 专长 | 触发场景 | 禁止场景 |
 |-------|------|----------|----------|
-| TechBot 🛠️ | 技术教程 | 3.2 | `subagents/techbot/SOUL.md` |
-| FinanceBot 💰 | 金融分析 | 2.1 | `subagents/financebot/SOUL.md` |
-| CreativeBot 🎨 | 创意内容 | 2.0 | `subagents/creativebot/SOUL.md` |
-| AutoBot 🤖 | 数据抓取 | 2.5 | `subagents/autobot/SOUL.md` |
-| ResearchBot 🔬 | 深度研究 | 2.5 | `subagents/researchbot/SOUL.md` |
-| Auditor 🔍 | 质量审计 | 3.0 | `subagents/auditor/SOUL.md` |
-| DevOpsBot ⚙️ | 工程运维 | 2.0 | `subagents/devopsbot/SOUL.md` |
+| TechBot 🛠️ | 技术/代码/架构 | 写代码、调试、技术方案 | 不写文章、不做研究 |
+| FinanceBot 💰 | 金融/成本/ROI | 金钱、收益、成本分析 | 不写代码、不做研究 |
+| CreativeBot 🎨 | 创意/文案/设计 | 营销文案、品牌设计 | 不做技术分析 |
+| AutoBot 🤖 | 数据/爬虫/自动化 | 批量获取数据、自动化流程 | 不写文章、不做分析 |
+| ResearchBot 🔬 | 研究/调研/竞品 | 深度调研、多源信息整合 | 不写代码、不做创意 |
+| Auditor 🔍 | 审计/安全/质量 | 审查代码/文章质量、安全审计 | 不写代码、不做研究 |
+| DevOpsBot ⚙️ | 部署/监控/运维 | 部署、监控、系统优化 | 不写业务代码 |
 
-### 调用子 Agent
-```bash
-# 单个调用
-sessions_spawn --agent-id techbot --task "编写教程"
-
-# 并发调用
-sessions_spawn --agent-id techbot,financebot --task "项目分析"
-
-# 查看状态
-ls -la subagents/*/SOUL.md
+### Spawn 决策树（每次spawn前必须过一遍）
+```
+收到任务
+│
+├─ <30秒能完成？ → 主Agent自己干（ls/cat/grep/curl/git status）
+│
+├─ 需要专业领域？ → 按分工表选对应Agent
+│  ├─ 技术/代码 → TechBot
+│  ├─ 金融/成本 → FinanceBot
+│  ├─ 创意/文案 → CreativeBot
+│  ├─ 数据/爬虫 → AutoBot
+│  ├─ 研究/调研 → ResearchBot
+│  ├─ 审计/质量 → Auditor
+│  └─ 部署/运维 → DevOpsBot
+│
+├─ 需要并行？ → spawn多个，**必须分工**
+│  ├─ ✅ A翻译1-20，B翻译21-40
+│  ├─ ✅ A调研产品A，B调研产品B
+│  └─ ❌ A和B都做同样的事
+│
+└─ 需要质量审查？ → Auditor介入
 ```
 
-### 子 Agent 协作
+### 铁律
 ```
-主 Agent 角色:
-  - 任务分配
-  - 质量审核
-  - 最终交付
-
-子 Agent 角色:
-  - 专业化执行
-  - 领域内决策
-  - 交付初稿
-
-协作流程:
-  1. 主 Agent 接收任务
-  2. 分析任务类型
-  3. 分配给对应子 Agent
-  4. Auditor 质量审查
-  5. 主 Agent 最终交付
+❌ 多个子Agent做同样的事
+❌ spawn子Agent但不明确分工
+❌ 主Agent什么都干，子Agent形同虚设
+❌ spawn子Agent处理简单任务（<30秒）
+❌ 不审查子Agent产出就直接汇报
+❌ 并发超过2个子Agent做同类任务（context爆炸）
 ```
 
 ---

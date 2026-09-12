@@ -1,0 +1,156 @@
+[
+  {
+    "title": "Claude 文本水印机制如何运作",
+    "url": "https://www.anthropic.com/news/claude-text-watermark",
+    "source": "AIHOT",
+    "summary": "未来 Claude 模型生成的文本将包含水印，用于判断文本由 Claude 撰写的可能性，这是 Anthropic 为遵守欧盟《AI 法案》而实施的变更。该方法基于 Google DeepMind 的 SynthID-Text 技术，对输出质量、创造力和可读性无实际影响，读者无法区分水印文本与普通文本，且不增加额外 token 或成本。",
+    "leader_tags": [
+      "dario amodei",
+      "sundar pichai"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "2026年夏季开源模型生态观察：中国前沿模型规模领先，AMD与NVIDIA主导发布量",
+    "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+    "source": "AIHOT",
+    "summary": "2026年1至8月，Hugging Face公开模型仓库从243万增至296万，但85.6%的模型下载量不足200次，1.5%的仓库占据99.2%下载量。中国实验室月度最大开源模型参数规模在754B至2.78万亿之间，美国实验室七个月中五个月低于130B。AMD与NVIDIA各发布超200个新模型仓库，成为发布开源模型最多的机构。",
+    "leader_tags": [
+      "jensen huang"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+    "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
+    "source": "AIHOT",
+    "summary": "",
+    "leader_tags": [
+      "dario amodei",
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Cursor 正式被 SpaceX 收购",
+    "url": "https://cursor.com/blog/joining-spacex",
+    "source": "AIHOT",
+    "summary": "Cursor 已被 SpaceX 正式收购，完成自 4 月启动的收购流程。合并后 Cursor 将获得全球最大 GPU 集群，以构建更强且运行成本更低的模型，从而以更低价格向客户提供更强大的模型。本周三发布的 Grok 4.6 是双方合作成果的早期体现。",
+    "leader_tags": [
+      "elon musk"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Qwen 3.8 27B",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+    "score": 743,
+    "comments": 482,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49299605"
+  },
+  {
+    "title": "RustDesk now supports true unattended remote access on Wayland",
+    "url": "https://rustdesk.com/blog/unattended-remote-access-wayland/",
+    "score": 179,
+    "comments": 84,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49300759"
+  },
+  {
+    "title": "Why does Opus 5 feel worse to work with?",
+    "url": "https://mun-logadan.github.io/why-does-opus-5-feel-worse/",
+    "score": 680,
+    "comments": 628,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49296740"
+  },
+  {
+    "title": "Google is making private AI practical with homomorphic encryption",
+    "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+    "score": 212,
+    "comments": 135,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49300314"
+  },
+  {
+    "title": "Introducing Toast 1",
+    "url": "https://www.mixedbread.com/blog/toast-1",
+    "score": 153,
+    "comments": 54,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49299746"
+  },
+  {
+    "title": "AI by Hand",
+    "url": "https://www.byhand.ai/",
+    "score": 145,
+    "comments": 13,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49300568"
+  },
+  {
+    "title": "I turned my RSS feeds into an e-ink newspaper to stop reading on my phone",
+    "url": "https://heyjonny.dev/posts/rss-to-eink-newspaper/",
+    "score": 113,
+    "comments": 50,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49299081"
+  },
+  {
+    "title": "Maximizing the value of your Claude Code sessions",
+    "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+    "score": 103,
+    "comments": 70,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49300800"
+  },
+  {
+    "title": "Gemini 3.7 Flash 全面上线 Pro 与 Ultra 用户",
+    "url": "https://x.com/GeminiApp/status/2088326407730692538",
+    "source": "AIHOT",
+    "summary": "Gemini 3.7 Flash 现已向 Gemini 聊天中的 Pro 和 Ultra 用户开放。该模型更新提升了多步骤任务的推理与准确性，如智能整合数十个文件和邮件为一份主文档。同时，Gemini Spark 也已运行于 3.7 Flash，通过改进对 Google Workspace 应用的工具调用，让个人 AI 智能体更精准。"
+  },
+  {
+    "title": "通义千问开源 Qwen3.8 系列模型",
+    "url": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+    "source": "AIHOT",
+    "summary": "通义千问兑现承诺，开源 Qwen3.8 系列模型。其中 Qwen3.8-27B 为原生多模态稠密模型，仅 27B 参数即全面超越 Qwen3.7-Plus，原生支持 262K 上下文，可通过 YaRN 扩展至 1M tokens，采用 Apache 2.0 许可。Max 级 Qwen3.8-2.4T-A95B 的开放权重也已同步发布。"
+  },
+  {
+    "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
+    "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
+    "source": "AIHOT",
+    "summary": "小红书技术开源 dots3-note Preview，这是 dots3 系列最轻量模型，总参数 280B、激活参数 16B，支持 512K 上下文及文本、视觉、语音多模态理解，并针对复杂推理和长程 Agent 任务优化。"
+  },
+  {
+    "title": "GLM-5.3 发布：编程能力开源第一，并涌现网络安全能力",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494084&idx=1&sn=a2e5cd9a534a4825feb3633ea1b6d492",
+    "source": "AIHOT",
+    "summary": "智谱发布GLM-5.3，基于与GLM-5.2相同的基座，通过极致的后训练Scaling提升智能上界，编程能力较前代提升50%，在Terminal Bench 3.0等公开基准中取得开源第一，并接近Claude Fable 5。模型在白盒代码审查等安全任务中表现持平Mythos 5，在CyberGym测试中得分84.5%。模型权重将在两周后开源，即日起上线ZCode、AutoClaw等工具。"
+  },
+  {
+    "title": "DeepSeek V4 Pro 登陆硅基流动，1M 上下文",
+    "url": "https://x.com/SiliconFlowAI/status/2088127458558271885",
+    "source": "AIHOT",
+    "summary": "DeepSeek-V4-Pro-0813 正式上线硅基流动 SiliconFlow，提供 Day-0 支持，具备 1M 上下文窗口及低/高/最大三档推理强度，更侧重编码、工具调用与智能体工作流，仍保持 MIT 开源协议。定价为输入 $1.32/M、输出 $3.96/M、缓存命中 $0.44/M。同系列 DeepSeek-V4-Flash-0731 则面向追求速度与成本效益的日常生产场景。"
+  },
+  {
+    "title": "蚂蚁百灵与 ASystem 团队打通单机 Agentic RL 后训练闭环",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487525&idx=1&sn=b9def9117e34b45fce50ab76eeed726c",
+    "source": "AIHOT",
+    "summary": "蚂蚁百灵与 ASystem 团队合作，用 Ling-3.0-tiny 和 AReno 在 DGX Spark 上跑通单机 Agentic RL 后训练闭环。以井字棋为最小验证任务，用 GSPO 算法训练 400 步后，rollout/rewards_mean 从约 -0.5 升至 0.4，response_len 降至约 850 tokens，工具调用与动作选择趋于稳定。"
+  },
+  {
+    "title": "从0到1带你速通DeepSeek Harness。",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685238&idx=1&sn=c3159dba0dd5a141f8dd726fd474e6e2",
+    "source": "AIHOT",
+    "summary": ""
+  },
+  {
+    "title": "盘后总结",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

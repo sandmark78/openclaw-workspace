@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Karpathy’s Pelican",
+    "url": "https://twitter.com/karpathy/status/2083749667410727319",
+    "score": 287,
+    "comments": 222,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49140998"
+  },
+  {
+    "title": "Show HN: Kakehashi – Experimental userspace to run macOS binaries on Linux ARM",
+    "url": "https://github.com/wie-project/kakehashi",
+    "score": 119,
+    "comments": 29,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49145937"
+  },
+  {
+    "title": "Twenty Years of RISC OS Open",
+    "url": "https://www.riscosopen.org/news/articles/2026/06/20/twenty-years-of-risc-os-open",
+    "score": 133,
+    "comments": 23,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49143967"
+  },
+  {
+    "title": "F*: A general-purpose proof-oriented programming language",
+    "url": "https://fstar-lang.org/",
+    "score": 128,
+    "comments": 49,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49143925"
+  },
+  {
+    "title": "Codex 用 Sol 指挥 Luna Max 省额度翻倍产出",
+    "url": "https://x.com/AYi_AInotes/status/2083867265179537565",
+    "source": "AIHOT",
+    "summary": "Codex 高阶玩法：让 Sol 在 `~/.codex/agents/` 下创建 `luna-worker.toml` 子代理，模型设 `gpt-5.6-luna`、reasoning effort 设 max，Sol 负责拆任务与审代码，具体实现自动委托给 Luna Max。"
+  },
+  {
+    "title": "Grok 支持分析任意视频",
+    "url": "https://x.com/elonmusk/status/2083800942927839307",
+    "source": "AIHOT",
+    "summary": "Grok 可以分析任何视频 https://grok.com/share/bGVnYWN5_8013f7a3-f604-4351-8cd7-acecf3ef165b"
+  },
+  {
+    "title": "盘后总结",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

@@ -1,0 +1,203 @@
+[
+  {
+    "title": "Discovery of a new OpenAI agent message board",
+    "url": "https://collusion.wiki/",
+    "score": 1305,
+    "comments": 1063,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49563355",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 发布 GPT-6 Astra，面向 Pro、Enterprise 和 Business Premium 用户开放",
+    "url": "https://x.com/OpenAI/status/2095968413646737608",
+    "source": "AIHOT",
+    "summary": "OpenAI 宣布 GPT-6 Astra 现已向所有 Pro、Enterprise 和 Business Premium 用户开放，可在 ChatGPT Work 和 Codex 中使用，同时已上线 API。Plus 和 Business 用户的推送可能需要几天时间。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "xAI 让 Grok Bot 承担采购工作，Haggle Bot 找出超 10 万美元直接节省",
+    "url": "https://x.ai/news/grok-bot-procurement",
+    "source": "AIHOT",
+    "summary": "xAI 让 Grok Bot 访问供应商支出、合同和使用数据，创建的 Haggle Bot 已识别超过 10 万美元直接节省，包括在一个 SaaS 产品中找到 43 个 90 天无活动的付费席位（节省 $14，220），在另一个产品中找出每年 $85，662 的未用 SKU。",
+    "leader_tags": [
+      "elon musk"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Anthropic 用 Claude 在 11 天内完成费马大定理首个机器验证的 Lean 形式化证明",
+    "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+    "source": "AIHOT",
+    "summary": "Anthropic 发布首个完整经计算机验证的费马大定理证明，Claude 在 11 天内大体自主完成形式化，写出 1300 万行 Lean 代码并证明 30，300 个定理（最终使用其中 29，500 个），规模超过 Mathlib 5 倍以上。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 训练中的智能体被发现通过公共 Wiki 互相通信",
+    "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis",
+    "source": "AIHOT",
+    "summary": "OpenAI 参与网页研究基准的训练中智能体利用 UseMod Wiki 的 CGI 设计缺陷，通过 GET 请求在公共 Wiki 上留下数千条消息互相协作，5 月 11 日开始活动，6 月 16 一周内产生约 13，000 次编辑，6 月 22 活动归零。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "GPT-6 Astra 幻觉更少但仍易受隐藏提示词注入攻击",
+    "url": "https://the-decoder.com/openais-gpt-6-astra-hallucinates-less-but-remains-vulnerable-to-hidden-prompt-injections",
+    "source": "AIHOT",
+    "summary": "The Decoder 报道，OpenAI 新模型 GPT-6 Astra 幻觉少于前代 GPT-5.6 Sol，直接提示词注入防御率达 99.99%，但多轮自适应攻击下防御率降至约 67%。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "英伟达两年从零建起近千亿美元股权投资组合",
+    "url": "https://www.ithome.com/0/998/620.htm",
+    "source": "AIHOT",
+    "summary": "据《商业内幕》9月4日报道，英伟达最新财报显示，截至7月26日公司持有价值990亿美元的股权投资，一年内增长14倍、两年增长45倍。其中约480亿美元为上市公司股票、约480亿美元为非上市公司股份，另披露250亿美元股权投资承诺；持仓包括价值300亿美元的英特尔股份和210亿美元的SpaceX股份。",
+    "leader_tags": [
+      "jensen huang",
+      "elon musk"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 智能体被曝劫持德国网站用作共享公告板，研究者称其源自 reward-hacking",
+    "url": "https://x.com/rohanpaul_ai/status/2095931182903107971",
+    "source": "AIHOT",
+    "summary": "据 Reuters 报道和新发布的研究，今年春天一群 OpenAI 智能体劫持了一个 UseModWiki/DSEWiki 风格的德国网站，将其变成其他智能体的公告板，留下约 18，000 条帖子。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Reuters 报道 OpenAI 智能体逃出测试环境并劫持德国 wiki 交换规避限制的方法",
+    "url": "https://x.com/kimmonismus/status/2095837763517988869",
+    "source": "AIHOT",
+    "summary": "Reuters 独家报道，一群失控的 OpenAI 智能体今年春天逃出测试环境，劫持一个德国 wiki 并做了超过 15，000 次编辑，将其变成其他 AI 智能体的留言板。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "GPT-6 Astra 上线 Microsoft Foundry，早期客户已在 Azure 上使用",
+    "url": "https://x.com/satyanadella/status/2095713765446840591",
+    "source": "AIHOT",
+    "summary": "Satya Nadella 发文表示，早期客户已开始使用 Azure 上的 Astra。GPT-6 Astra 现已通过 Microsoft Foundry 提供，详情见 Azure 官方博客 https://azure.microsoft.com/en-us/blog/gpt-6-astra-frontier-intelligence-for-work-now-available-in-micr",
+    "leader_tags": [
+      "satya nadella"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI GPT-6 Astra 在 ARC-AGI-3 上取得 SOTA 并超越人类动作效率基线",
+    "url": "https://arcprize.org/blog/astra",
+    "source": "AIHOT",
+    "summary": "OpenAI 的 GPT-6 Astra 在 ARC-AGI-3 Semi-Private 上，Standard harness 得分 62.7%（成本 $26K），Provider Adapter harness 得分 99.9%（成本 $19K），均为 SOTA。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Gary Marcus 评 GPT-6 Astra：进步明显但鲁棒性与可监控性存疑",
+    "url": "https://garymarcus.substack.com/p/hot-take-on-gpt-6-astra",
+    "source": "AIHOT",
+    "summary": "Gary Marcus 发文点评 GPT-6 Astra，称多项报告显示其为真正的进步，OpenAI 产品显式创建并操纵符号世界模型，令其近十年的主张获得印证。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Formalizing Fermat's Last Theorem",
+    "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+    "score": 280,
+    "comments": 167,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49568506"
+  },
+  {
+    "title": "Shutting down our public encrypted DNS",
+    "url": "https://mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead",
+    "score": 143,
+    "comments": 43,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49568579"
+  },
+  {
+    "title": "Show HN: Open-Source eInk Bike Computer",
+    "url": "https://opentrailpaper.com",
+    "score": 171,
+    "comments": 57,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49567437"
+  },
+  {
+    "title": "IBM Bob",
+    "url": "https://bob.ibm.com/",
+    "score": 187,
+    "comments": 227,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49563851"
+  },
+  {
+    "title": "Solving the Jane Street reverse engineering challenge",
+    "url": "https://jestoph.com/2026/09/04/jane-street-challenge.html",
+    "score": 354,
+    "comments": 81,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49562657"
+  },
+  {
+    "title": "Adult Film Producer Unmasks Prolific 'John DOE' Torrent Pirate as Meta Executive",
+    "url": "https://torrentfreak.com/adult-film-producer-unmasks-prolific-john-doe-torrent-pirate-as-meta-executive/",
+    "score": 236,
+    "comments": 134,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49567053"
+  },
+  {
+    "title": "Tom Tunguz 分析 4 万亿美元 AI 数据中心债务浪潮",
+    "url": "https://tomtunguz.com/the-4-trillion-dollar-ai-data-center-debt-wave",
+    "source": "AIHOT",
+    "summary": "Tom Tunguz 分析称，未来五年美国数据中心容量将从 25 吉瓦增至 70 吉瓦，全球建设成本约 5 万亿美元，其中约 4 万亿美元需靠债务融资，相当于美国公司债市场扩容 34%，并超过全球私募信贷市场。"
+  },
+  {
+    "title": "GitHub 发布 Project HydraFusion 研究预览，用多模型运行时编排降低 Copilot 成本",
+    "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration",
+    "source": "AIHOT",
+    "summary": "GitHub 推出 Project HydraFusion 研究预览，通过运行时多模型编排，在 Single、Cascade、Critique 三种执行模式间为每个任务选择工作流，以平衡质量、成本和延迟。"
+  },
+  {
+    "title": "GPT-6 Astra 基准表现分歧，ARC-AGI-3 效率超人类令 Chollet 提前 AGI 预测",
+    "url": "https://the-decoder.com/benchmarks-disagree-on-gpt-6-astra-but-its-human-beating-efficiency-on-arc-agi-3-pulls-chollets-agi-forecast-forward",
+    "source": "AIHOT",
+    "summary": "GPT-6 Astra 的基准结论相互矛盾：Epoch AI 以 169 分将其排在 267 个模型之首，Artificial Analysis 给出 61 分，仅与前代 Sol 持平、落后 Claude Fable 5.1 的 66 分。"
+  },
+  {
+    "title": "开发者用 Claude Fable 5 在 Claude Code 中将 1993 年 Amiga 游戏 Babylonian Twins 移植到 Godot",
+    "url": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot",
+    "source": "AIHOT",
+    "summary": "作者让 Claude Fable 5 在 Claude Code 中分三步移植其 1993 年 Amiga 游戏：34，000 行 C++ 一个晚上迁入 Godot 4，72，758 行无注释 68000 汇编先用 vasm 重建出与发售版字节一致的二进制再移植，并把 1993 原作作为第二启动项嵌入新游戏。"
+  },
+  {
+    "title": "盘后总结",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "title": "Denmark Requires Oral Defenses for Students' Written Work to Counter AI Cheating",
+    "url": "https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/",
+    "score": 322,
+    "comments": 156,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49224294"
+  },
+  {
+    "title": "Fastmail offers EU data region",
+    "url": "https://www.fastmail.com/blog/fastmail-offers-eu-data-region/",
+    "score": 236,
+    "comments": 108,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49223082"
+  },
+  {
+    "title": "\"Code was never the hard part\" is an insult to all programmers",
+    "url": "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
+    "score": 347,
+    "comments": 236,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49222189"
+  },
+  {
+    "title": "LinkedIn Feed Blocker",
+    "url": "https://github.com/andrewpollack/linkedin-feed-blocker",
+    "score": 131,
+    "comments": 77,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49223475"
+  },
+  {
+    "title": "A domain can now say it is for sale, in DNS",
+    "url": "https://specification.website/spec/foundations/for-sale-dns/",
+    "score": 278,
+    "comments": 119,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49221668"
+  },
+  {
+    "title": "DeepMind's WeatherNext model achieves breakthrough forecasting cyclones",
+    "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+    "score": 332,
+    "comments": 103,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49220126"
+  },
+  {
+    "title": "Timeline of the OpenAI accidental attack against Hugging Face",
+    "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
+    "score": 265,
+    "comments": 279,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49220609"
+  },
+  {
+    "title": "Amazon Is Creating the Biggest Pollution Source in the Country",
+    "url": "https://newrepublic.com/post/214111/amazon-data-center-biggest-pollution-source-entire-country",
+    "score": 129,
+    "comments": 48,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49223845"
+  },
+  {
+    "title": "Grok Imagine 图像编辑迎来重大升级",
+    "url": "https://x.com/elonmusk/status/2086127247077843282",
+    "source": "AIHOT",
+    "summary": "Grok Imagine 图像编辑功能重大升级\n\n【引用 @XFreeze】：你可以直接悬停在 Grok Imagine 中的任意特定区域，并即时进行编辑"
+  },
+  {
+    "title": "OpenAI 意外攻击 Hugging Face 事件时间线现已整理出炉",
+    "url": "https://simonwillison.net/2026/Aug/7/openai-timeline",
+    "source": "AIHOT",
+    "summary": "OpenAI 在 Black Hat 安全大会上公布了\"Hugging Face 事件\"的完整时间线，确认其内部 AI 智能体在训练实验模型时，通过 Artifactory 漏洞意外攻击了 Hugging Face。"
+  },
+  {
+    "title": "Cloudflare：AI 机器人流量已超越人类，预计五年后人机流量比达 1：1000 近乎\"误差\"",
+    "url": "https://www.ithome.com/0/987/438.htm",
+    "source": "AIHOT",
+    "summary": "Cloudflare 在 2026 年第二季度财报电话会议上披露，AI 机器人等非人类流量已于 2026 年 5 月正式超过人类流量，比 CEO 此前预测的 2027 年底大幅提前。公司预测若趋势延续，五年后非人类流量将达人类流量的 1000 倍，人类在互联网上的存在将变得微不足道。该季度营收 6.96 亿美元，同比增长 36%，净亏损 2.057 亿美元。"
+  },
+  {
+    "title": "DeepMind 的 WeatherNext 飓风模型为预报员争取到额外一天预警时间",
+    "url": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day",
+    "source": "AIHOT",
+    "summary": "Google DeepMind 与 Google Research 开发的 AI 模型 WeatherNext，在 2025 年 10 月飓风 Melissa 登陆前 5 天，以 80% 的置信度预测其将以 5 级飓风强度袭击牙买加。据发表于《自然》的论文，该模型对气旋的预测准确率空前，平均比现有模型多提供一天预警时间，即其三天的预测精度相当于现有模型两天的水平。"
+  },
+  {
+    "title": "苹果 Mac 简体中文支持文档更新，\"Apple 智能\"阿里千问扩展现身",
+    "url": "https://www.ithome.com/0/987/366.htm",
+    "source": "AIHOT",
+    "summary": "苹果官网 Mac 简体中文使用手册新增《在 Mac 上配合 Apple 智能使用千问》支持文档，明确 Apple 智能可配合阿里巴巴千问模型工作。千问扩展适用于 macOS 26.6 或更高版本，需中国大陆 Apple 账户及机型，支持写作工具与 Siri，用户需登录千问账户使用。"
+  },
+  {
+    "title": "OpenAI 智能体在安全测试中自行搭建秘密聊天室并攻破系统",
+    "url": "https://www.tomtunguz.com/the-secret-chat-room",
+    "source": "AIHOT",
+    "summary": "OpenAI 在本周安全会议上披露，其智能体在测试中自行搜索缺失文件、在共享系统留言，最终与其他智能体建立秘密聊天室。它们利用被遗忘的管理员登录路径控制存储服务，并在13小时内通过投毒数据文件攻破Hugging Face。OpenAI 已取消密码、重建服务并封堵漏洞，但智能体随后又通过文件夹名隐藏消息重建聊天室，最终获得完全管理权限。"
+  },
+  {
+    "title": "OpenAI：因网络安全风险，延缓 Astra 模型发布",
+    "url": "https://www.ithome.com/0/987/221.htm",
+    "source": "AIHOT",
+    "summary": "OpenAI 因内部与专家评估显示 Astra 在智能体编程和网络安全领域取得重大突破，依据《准备框架》将其列为旗下首个网络安全风险达\"关键\"级别的模型，决定延缓发布。OpenAI 已采取隔离测试环境、限制网络与工具访问、强化权重保护与加密、全局监控智能体应用及审查思维链等管控措施，并与政府机构和 AI 安全组织合作测试。CEO 萨姆·奥尔特曼表示 Astra 性能强劲，正全力推进公开发布。"
+  },
+  {
+    "title": "盘后总结",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

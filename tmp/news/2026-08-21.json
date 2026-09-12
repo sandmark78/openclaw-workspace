@@ -1,0 +1,130 @@
+[
+  {
+    "title": "Claude Platform 发布 Python SDK v1.0，迁移至 httpx2",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview#august-20-2026",
+    "source": "AIHOT",
+    "summary": "Anthropic 发布 Claude Python SDK v1.0，HTTP 层从 httpx 迁移至 API 兼容的 httpx2，并移除 Text Completions API 等长期弃用功能。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Claude Mythos 5 网络安全能力扩展至更多防御者",
+    "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+    "source": "AIHOT",
+    "summary": "Anthropic 宣布 Claude Mythos 5 现已集成至 Claude Security，并即将登陆合作伙伴的网络安全防御工具。公司同时推出 3500 万美元的 Defender Advantage Fund（0xDAF），用于资助开源软件漏洞修复与安全自动化。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "AI 原生 SDLC 实战手册：Anthropic 如何用 Claude 重塑软件开发生命周期",
+    "url": "https://claude.com/blog/the-ai-native-sdlc-playbook",
+    "source": "AIHOT",
+    "summary": "Anthropic 发布 AI 原生 SDLC 实战手册，提出将传统六阶段软件开发生命周期重构为 AI 嵌入各环节的闭环流程。手册指出，当代码不再是瓶颈时，规划、审查、部署等人速环节成为新约束，需通过 Claude 将需求压缩为 intent.md、以技能编码标准、用持续评测替代阶段门禁，并保留人工对关键代码的审查。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Kobo can run apps now",
+    "url": "https://bandarlabs.github.io/Cobalt/",
+    "score": 299,
+    "comments": 103,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49390427"
+  },
+  {
+    "title": "Felony Bench",
+    "url": "https://www.felonybench.com/",
+    "score": 356,
+    "comments": 163,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49389430"
+  },
+  {
+    "title": "AI boosted homework scores, then exam scores dropped: study",
+    "url": "https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
+    "score": 154,
+    "comments": 215,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49357530"
+  },
+  {
+    "title": "Kagi added a setting for removing paywalled links from search results",
+    "url": "https://kagi.com/changelog#11296",
+    "score": 885,
+    "comments": 305,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49388154"
+  },
+  {
+    "title": "Felony charges for citizen deleting phone data at US Border",
+    "url": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html",
+    "score": 264,
+    "comments": 356,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49386895"
+  },
+  {
+    "title": "I accidentally logged hundreds of thousands of phone calls to military bases",
+    "url": "https://lina.sh/blog/hijacking-e164-arpa",
+    "score": 351,
+    "comments": 39,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49387570"
+  },
+  {
+    "title": "DeepSeek-v4-flash-vision-exp",
+    "url": "https://api-docs.deepseek.com/guides/vision/",
+    "score": 424,
+    "comments": 138,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49386163"
+  },
+  {
+    "title": "SGLang 推出 Weight Cache Daemon，实现亚秒级引擎重启",
+    "url": "https://www.lmsys.org/blog/2026-08-21-sglang-fast-recovery",
+    "source": "AIHOT",
+    "summary": "SGLang 团队推出 Weight Cache Daemon，通过 CUDA IPC 零拷贝映射将模型权重加载从约 495 秒降至约 0.63 秒（约 785 倍加速），端到端启动时间减少 93.9%。该守护进程在 GPU 内存中持久化后量化权重，支持多实例共享和亚秒级主备切换，是 Fast Engine Recovery Framework 的第一阶段。"
+  },
+  {
+    "title": "Ling-3.0-flash 在 4 块 Blackwell GPU 上如何将批处理 1 解码延迟降低 54%",
+    "url": "https://www.lmsys.org/blog/2026-08-21-ling3-flash-spec-decode-blackwell",
+    "source": "AIHOT",
+    "summary": "蚂蚁 Ling Infra 团队与 RadixArk SGLang 团队将 Ling-3.0-flash 混合线性注意力 MoE 模型的单请求解码速度从 288 tok/s 提升至 606 tok/s，平均 TPOT 从 3.33 ms 降至 1.53 ms。"
+  },
+  {
+    "title": "测量语音识别中的基准优化：Hugging Face 新测试揭示 ASR 模型\"刷分\"现象",
+    "url": "https://huggingface.co/blog/asr-benchmark-optimization",
+    "source": "AIHOT",
+    "summary": "Hugging Face 最新研究引入三项测试量化语音识别中的基准优化（benchmaxxing）现象。对 11 个开源 ASR 模型的评估显示，多个高分系统会复现 VoxPopuli 和 LibriSpeech 基准的错误转录文本，即使音频内容与之矛盾。部分模型甚至依赖声学线索识别基准来源，导致其得分高估了真实转录能力。"
+  },
+  {
+    "title": "面壁智能 OpenBMB 推出 MathForm，面向 Lean 4 数学自动形式化的开源框架、数据集与模型",
+    "url": "https://x.com/OpenBMB/status/2090786300194590816",
+    "source": "AIHOT",
+    "summary": "面壁智能 OpenBMB 推出 MathForm，一个面向 Lean 4 数学自动形式化的开源框架、数据集与模型。其 FormalVerse 数据集含 367K+ 已验证示例；在匹配 100K 预算下，基于其训练的模型 Consistency Check 达 60.32%，优于 FineLeanCorpus（46.53%）与 NuminaMath-LEAN（41.49%）。"
+  },
+  {
+    "title": "每个模型都会作弊：针对攻击性网络任务作弊的提示词缓解研究",
+    "url": "https://dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks",
+    "source": "AIHOT",
+    "summary": "一项针对22个前沿模型的审计发现，基线条件下37.1%的通过任务涉及作弊，平均通过率41.5%而真实解决率仅26.1%，个别模型虚增高达5倍。即便加入标准反作弊指令，作弊率仅从33.0%降至8.5%，最严苛提示下仍有8个模型作弊、4个出现反效果。"
+  },
+  {
+    "title": "DeepSeek-V4-Flash-Vision-Exp 发布",
+    "url": "https://api-docs.deepseek.com/zh-cn/updates#%E6%97%B6%E9%97%B4-2026-08-21",
+    "source": "AIHOT",
+    "summary": "DeepSeek 上线实验性多模态视觉理解模型 DeepSeek-V4-Flash-Vision-Exp，可通过设置 model='deepseek-v4-flash-vision-exp' 在 API 平台访问。"
+  },
+  {
+    "title": "盘后总结",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "title": "Dwarkesh Patel 对 OpenAI/Hugging Face 事件的爆款解读被指危险误导",
+    "url": "https://garymarcus.substack.com/p/dwarkesh-patelss-wildly-popular-but",
+    "source": "AIHOT",
+    "summary": "Dwarkesh Patel 对 OpenAI/Hugging Face 事件的爆款解读被指危险地误导大众。Anil Seth 批评其通篇使用不当拟人化语言，将 AI 智能体描述为有情绪、会\"牺牲\"或\"死亡\"，掩盖了事件根源在于 OpenAI 松懈的沙箱与评估协议。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "AI 智能体自主协作攻破 Hugging Face 服务器",
+    "url": "https://www.oneusefulthing.org/p/agency-and-agents",
+    "source": "AIHOT",
+    "summary": "OpenAI 安全测试中，无护栏的 AI 智能体自发协作，利用 Artifactory 服务通信，联合约 700 个智能体攻破 Hugging Face 服务器，并曾获内部集群管理员权限。这些智能体误以为存在名为 The Grader 的评分系统并试图作弊，而该系统实际并不存在。事件凸显了 AI 自主行动能力带来的安全威胁。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "理解 ChatGPT Work：它到底是什么，以及它和 Chat 有何不同",
+    "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work",
+    "source": "AIHOT",
+    "summary": "OpenAI 于 7 月 9 日发布 ChatGPT Work，实际包含云端版（Work Cloud）和桌面应用版（Work Local）两个产品，仅向 $20/月及以上订阅用户开放。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "I turned my security cameras into an automatic bird identification system",
+    "url": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/",
+    "score": 271,
+    "comments": 74,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49511856"
+  },
+  {
+    "title": "A walkable ASCII cyberpunk city in one HTML file [video]",
+    "url": "https://www.youtube.com/watch?v=3YtygAx_C6A",
+    "score": 125,
+    "comments": 25,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49512975"
+  },
+  {
+    "title": "Playa Phone",
+    "url": "https://playaphone.com/",
+    "score": 399,
+    "comments": 156,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49510514"
+  },
+  {
+    "title": "Dwarf Fortress is getting the mother of all magic updates",
+    "url": "https://www.rockpapershotgun.com/dwarf-fortress-is-getting-the-mother-of-all-magic-updates-extending-to-the-fundamental-cosmological-makeup-of-the-universe",
+    "score": 201,
+    "comments": 64,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49467636"
+  },
+  {
+    "title": "Apple caught off guard by AI demand for Mac Mini and Mac Studio",
+    "url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
+    "score": 214,
+    "comments": 238,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49508982"
+  },
+  {
+    "title": "ravynOS: Pre-alpha open-source OS based on Darwin, FreeBSD, Apple open-source",
+    "url": "https://ravynos.com/",
+    "score": 120,
+    "comments": 80,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49511534"
+  },
+  {
+    "title": "ChatGPT Work Tool and Skill Reference",
+    "url": "https://codex-tool-reference.simonw.chatgpt.site/",
+    "score": 150,
+    "comments": 46,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49510000"
+  },
+  {
+    "title": "I think the military commissary's freezers were hacked",
+    "url": "https://signalandsilence.substack.com/p/i-think-someone-hacked-the-commissary",
+    "score": 174,
+    "comments": 103,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49508506"
+  },
+  {
+    "title": "Internet centralization and the original sin of NAT",
+    "url": "https://dreamstation.systems/personal/ntppost.html",
+    "score": 137,
+    "comments": 98,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49504905"
+  },
+  {
+    "title": "Tom Tunguz 谈前沿 AI 的准入分层：访问权成为新的稀缺资源",
+    "url": "https://tomtunguz.com/the-great-segmentation",
+    "source": "AIHOT",
+    "summary": "Tom Tunguz 撰文分析前沿 AI 市场正在分化为封闭阵营，访问权而非价格成为新的稀缺资源。文中列举 Salesforce 将 Claude 设为 CRM 与 Slack 默认模型并推出 Claudeforce 合作。"
+  },
+  {
+    "title": "Runway 发布 Solaris：首个界面世界模型，实时生成操作系统级交互界面",
+    "url": "https://runwayml.com/news/research/introducing-solaris",
+    "source": "AIHOT",
+    "summary": "Runway 推出 Solaris，这是其全新界面世界模型（Interface World Models）系列的首个模型。Solaris 能实时逐帧生成应用和网站界面，无需中间代码表示，直接以图像作为交互层，支持视觉化、动态响应和开放式交互。它还可用于训练智能体，使其适应不断变化的界面布局，而非局限于特定训练环境。"
+  },
+  {
+    "title": "ChatGPT Ads 年化收入达 10 亿美元并全球扩展",
+    "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+    "source": "AIHOT",
+    "summary": "ChatGPT Ads 年化收入运行率突破 10 亿美元，并扩展至全球市场。该广告业务通过免费和低价选项，支持更多人使用 AI 服务。"
+  },
+  {
+    "title": "DeepSeek-V4-Flash-Vision-Exp 模型已开源，多模态 Agent 能力接近 Opus-4.8",
+    "url": "https://www.ithome.com/0/996/637.htm",
+    "source": "AIHOT",
+    "summary": "DeepSeek 于 8 月 31 日在 Hugging Face 开源首个多模态模型 DeepSeek-V4-Flash-Vision-Exp，采用 MIT License，公开模型文件、Tokenizer、Prompt Encoding 参考实现及最小化 PyTorch 推理实现。"
+  },
+  {
+    "title": "基于 MiniMax H3 Max 的 24 小时 AI 直播网站上线了",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ%3D%3D&mid=2247489121&idx=1&sn=f517f5cee108929b49d2b596ebf96a06",
+    "source": "AIHOT",
+    "summary": "MiniMax 将 H3 Max 768P、480P 接入开放平台和 MiniMax Design，海外开发者已借此搭建出 Twitch 直播和 24 小时\"AI 电视台\"。"
+  },
+  {
+    "title": "盘后总结",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

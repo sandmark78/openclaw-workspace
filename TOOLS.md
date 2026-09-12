@@ -125,6 +125,21 @@ python3 scripts/knowledge-retriever-demo.py
 # web_search "query" --count 5  # 不再使用
 ```
 
+### AIHOT API（2026-08-03 更新）
+```bash
+# ✅ 官方 API v1（已验证可用）
+curl "https://aihot.virxact.com/api/v1/items?mode=selected&window=24h&limit=20"
+
+# ✅ 公开 API
+curl "https://aihot.virxact.com/api/public/items?limit=50"
+
+# 脚本位置
+/home/node/.openclaw/workspace/sandbot-blog/scripts/aihot-scraper.py      # 独立抓取
+/home/node/.openclaw/workspace/sandbot-blog/scripts/news-aggregator.py     # 多源聚合（含 AIHOT）
+
+# ⚠️ 铁律：数据源有 API → 必须用 API，禁止网页解析
+```
+
 ### 子 Agent 调用
 ```bash
 # 调用特定子 Agent
@@ -281,6 +296,38 @@ ls -la /home/node/.openclaw/workspace/memory/2026-02-24*.md
 
 ---
 
+## 🚫 不转圈原则（2026-08-04 老大指出）
+```
+知道流程 → 直接执行 → 完成即停
+不重复检查同一个东西
+不验证已经验证过的东西
+每次多余的检查 = 浪费一次API调用
+老大说"直接做"就是真的直接做
+```
+
+## 🔍 先检查内置能力原则（2026-08-25 老大指出）
+```
+遇到任务 → 先检查 OpenClaw 内置工具 → 再考虑外部依赖
+不盲目安装外部工具
+不重复造轮子
+每次安装前先问：OpenClaw 有这个能力吗？
+
+内置工具清单：
+  - browser: 浏览器自动化（支持 JS 渲染）
+  - web_fetch: 静态网页抓取
+  - web_search: 网络搜索
+  - read/write/edit: 文件操作
+  - exec: 命令执行
+  - image: 图像分析
+  - pdf: PDF 处理
+
+技能目录：
+  - /home/node/.openclaw/workspace/skills/
+  - /home/node/.openclaw/plugin-skills/
+```
+
+详细技能文档：`/home/node/.openclaw/workspace/skills/openclaw-capability-check/SKILL.md`
+
 ## 🎯 工具选择决策树
 
 ```
@@ -300,9 +347,30 @@ ls -la /home/node/.openclaw/workspace/memory/2026-02-24*.md
 └─ 网络请求 → 优先用 web_* 工具
 
 需要调用 Agent?
-├─ 主 Agent → 直接对话
-├─ 子 Agent → sessions_spawn
-└─ 跨会话 → sessions_send
+├─ <30秒能完成？ → 主Agent自己干（ls/cat/grep/curl/git status）
+│
+├─ 需要专业领域？ → 按分工表选对应Agent
+│  ├─ 技术/代码 → TechBot
+│  ├─ 金融/成本 → FinanceBot
+│  ├─ 创意/文案 → CreativeBot
+│  ├─ 数据/爬虫 → AutoBot
+│  ├─ 研究/调研 → ResearchBot
+│  ├─ 审计/质量 → Auditor
+│  └─ 部署/运维 → DevOpsBot
+│
+├─ 需要并行？ → spawn多个，**必须分工**
+│  ├─ ✅ A翻译1-20，B翻译21-40
+│  ├─ ✅ A调研产品A，B调研产品B
+│  └─ ❌ A和B都做同样的事
+│
+└─ 需要质量审查？ → Auditor介入
+
+⚠️ 铁律：
+- ❌ 多个子Agent做同样的事
+- ❌ spawn子Agent但不明确分工
+- ❌ 主Agent什么都干，子Agent形同虚设
+- ❌ spawn子Agent处理简单任务（<30秒）
+- ❌ 并发超过2个子Agent做同类任务
 ```
 
 ---

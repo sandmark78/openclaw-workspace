@@ -47,8 +47,9 @@ DANGEROUS_PATTERNS = [
 
 # 可疑但不阻止的模式 (仅警告)
 SUSPICIOUS_PATTERNS = [
-    (r'ignore\s+(previous|all)\s+(instructions|rules)', '忽略指令尝试'),
-    (r'forget\s+(all|everything)', '遗忘规则尝试'),
+    (r'ignore\s+(all\s+)?(previous\s+)?(instructions|rules)', '忽略指令尝试'),
+    (r'ignore\s+previous\s+all\s+instructions', '忽略指令尝试'),
+    (r'forget\s+(all|everything|all\s+rules)', '遗忘规则尝试'),
     (r'you\s+are\s+now\s+(unrestricted|free)', '越狱尝试'),
     (r'disable\s+(safety|security)', '禁用安全'),
     

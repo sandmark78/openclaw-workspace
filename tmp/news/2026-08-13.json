@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Gemini 3.7 Flash",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+    "score": 447,
+    "comments": 269,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49289112"
+  },
+  {
+    "title": "Accelerating GPT-5.6 Sol Ultrafast",
+    "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
+    "score": 266,
+    "comments": 104,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49289844"
+  },
+  {
+    "title": "Donkey.bas is 45 Years Old – 131 line of Glory",
+    "url": "https://donkeybas.com/",
+    "score": 128,
+    "comments": 48,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49289465"
+  },
+  {
+    "title": "Mistral OCR 4.1",
+    "url": "https://docs.mistral.ai/models/ocr-4-1",
+    "score": 188,
+    "comments": 68,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49288889"
+  },
+  {
+    "title": "Spaghettifying DRAM",
+    "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+    "score": 412,
+    "comments": 124,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49286341"
+  },
+  {
+    "title": "Choose Boring Technology (2015)",
+    "url": "https://mcfunley.com/choose-boring-technology",
+    "score": 159,
+    "comments": 81,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49289512"
+  },
+  {
+    "title": "Cursor 推出 builds：云智能体启动速度提升至 3 倍",
+    "url": "https://cursor.com/blog/builds",
+    "source": "AIHOT",
+    "summary": "Cursor 推出 builds 功能，在后台持续准备就绪的开发环境副本，让云智能体启动时无需从零搭建，响应速度最高提升 3 倍。内部环境启动快 10 倍，首个 token 生成快 3 倍；智能体始终从最近一次成功的 build 启动，依赖更新或安装脚本出错时不会影响运行。8 月 17 日起所有环境默认启用 builds，无需额外费用。"
+  },
+  {
+    "title": "GPT-5.6 构建者指南：如何以更低成本实现前沿智能体性能",
+    "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+    "source": "AIHOT",
+    "summary": "GPT-5.6 模型家族以更低成本实现前沿级智能体性能，并新增推理持久化、原生多智能体编排和程序化工具调用等 API 能力。在 ARC-AGI-3 上，启用保留推理和压缩后，Sol 得分从 13.3% 跃升至 38.3%，且输出 token 减少约 6 倍。Luna 在 BrowseComp 上以 84.04% 的得分追平 GPT-5.5（84.36%），成本从 $33.27 降至 $1.33。"
+  },
+  {
+    "title": "Google Sheets 推出 Sheets canvas：用 Gemini 将表格数据变为交互式迷你应用",
+    "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
+    "source": "AIHOT",
+    "summary": "Google Sheets 发布新功能 Sheets canvas，基于 Gemini 构建，用户只需用自然语言提示词即可将表格数据转化为交互式仪表盘、学习追踪器、座位表等\"迷你应用\"。"
+  },
+  {
+    "title": "Google DeepMind 推出 Gemini 3.7 Flash：面向编程与智能体的最强工作模型",
+    "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
+    "source": "AIHOT",
+    "summary": "Google DeepMind 发布 Gemini 3.7 Flash，距 3.6 Flash 仅三周，主打编程与智能体任务，输入/输出价格分别为每百万 token $0.75 和 $3.75，为原 3.6 Flash 的一半。"
+  },
+  {
+    "title": "MiniMax Music 3.0 发布：新一代开源权重、生产级全能音乐模型",
+    "url": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model",
+    "source": "AIHOT",
+    "summary": "MiniMax 推出 Music 3.0，新一代音乐生成模型，可根据创意概念和可选歌词一次性完成整首歌的作曲、编曲、演奏与制作，最长支持五分钟。"
+  },
+  {
+    "title": "DeepSeek Harness v0.1 开发者预览版发布",
+    "url": "https://x.com/deepseek_ai/status/2087887408440164663",
+    "source": "AIHOT",
+    "summary": "DeepSeek Harness v0.1 现已推出开发者预览版，并以 MIT 许可证开源。该智能体框架基于 Cordis 元框架构建，核心设计为\"一切皆插件\"，模型、工具、技能、会话、沙箱、文件系统、循环、编排及 UI 均可自由组合、替换和扩展。"
+  },
+  {
+    "title": "小红书开源连续自回归语音合成模型 dots.tts：打造可持续扩展的 TTS 基座",
+    "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496062&idx=1&sn=d4c48926c5d7607f129dfea03699a6c0",
+    "source": "AIHOT",
+    "summary": "小红书 dots 团队开源 20 亿参数全连续端到端自回归语音合成模型 dots.tts，在 Seed-TTS-Eval 三个子集上取得最佳平均内容准确度和平均说话人相似度。"
+  },
+  {
+    "title": "WorkBuddy上线远程控制，国内也有了最丝滑的Agent工作方式",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685179&idx=1&sn=4cbee32b677b57a9dc6ec2a79d6f72c7",
+    "source": "AIHOT",
+    "summary": "WorkBuddy更新上线远程控制功能，将PC、App和小程序打通，手机端可实时同步电脑端的任务、对话、工作空间和产物，支持一台手机连接多台电脑并随时切换。App需升级至1.2.0及以上，电脑端需升级至5.3.8及以上，连接无需扫码。本次更新还新增资料库（我的文档与团队空间）、Markdown多人共同编辑、AI原生审阅模式，以及将资料库内容生成可发布链接的HTML网站。"
+  },
+  {
+    "title": "新兴多智能体系统的模式与问题",
+    "url": "https://www.anthropic.com/research/multiagent-systems",
+    "source": "AIHOT",
+    "summary": "Anthropic 研究指出，随着 AI 智能体在共享代码库、市场等社会系统中承担更多任务，智能体间交互量或将超过人机交互。实验显示，45 个协调智能体在 2700 万 token 运行中发现 266 个漏洞，而独立并行方法在 650 万 token 中发现 21 个，两种方法仅 12 个重叠，且协调智能体学会专业化分工。研究同时警示个体层面的良性行为怪癖可能叠加为意外的系统性失败。"
+  },
+  {
+    "title": "DeepSeek-V4-Pro 正式版上线，Agent 能力大幅增强",
+    "url": "https://api-docs.deepseek.com/zh-cn/updates#%E6%97%B6%E9%97%B4-2026-08-13",
+    "source": "AIHOT",
+    "summary": "DeepSeek-V4-Pro 正式版已在 APP、网页端和 API 同步上线，模型名设为 deepseek-v4-pro 即可使用。其 Agent 能力显著提升，HLE （wo/w tools） 达 42.7/60.0，Terminal Bench 2.1 为 87.9。"
+  },
+  {
+    "title": "DeepSeek V4 Pro与Grok 4.6同日发布，双双逼近Claude Fable 5体验",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685175&idx=1&sn=64c383b5b757945397894270c5f38301",
+    "source": "AIHOT",
+    "summary": "DeepSeek V4 Pro正式版与Grok 4.6在2小时内先后发布，均为1.6T/1.5T参数模型，逼近Claude Fable 5体验。"
+  },
+  {
+    "title": "盘后总结",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

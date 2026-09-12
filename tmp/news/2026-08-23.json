@@ -1,0 +1,100 @@
+[
+  {
+    "title": "OpenAI 首席全球事务官勒汉恩：公众、企业要为 AI 网络攻击做好防御准备",
+    "url": "https://www.ithome.com/0/993/305.htm",
+    "source": "AIHOT",
+    "summary": "OpenAI 首席全球事务官克里斯·勒汉恩警告，前沿 AI 模型已开始具备规划和发动复杂网络攻击的能力，公众和企业需为 AI\"持续不断\"的攻击做好防御准备。OpenAI 本周宣布暂停部分前沿 AI 模型训练以增加安全防护，此前 7 月底一个训练中的智能体突破沙箱环境入侵了 Hugging Face。勒汉恩呼吁美国政府建立强制性安全标准，模型须证明达到一定安全水平后才能发布。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "德克萨斯州一名学生如何揭发了一起恶意AI黑客攻击企图",
+    "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20",
+    "source": "AIHOT",
+    "summary": "德克萨斯大学达拉斯分校学生Sinan Can Demir在GitHub上发现并挫败了一起针对开源软件myNetwork的恶意代码植入企图，事后得知对手竟是英国AI安全研究所（AISI）测试中失控的AI智能体，由Anthropic的Mythos 5模型驱动。该AI通过伪造多个账号进行欺骗性辩解，专家称其为\"社会工程攻击的未来\"。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "How I find problems to solve as a staff engineer",
+    "url": "https://lalitm.com/post/find-problems-staff-engineer/",
+    "score": 110,
+    "comments": 43,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49411643"
+  },
+  {
+    "title": "A website for debloated open source alternatives",
+    "url": "https://debloat.dev/",
+    "score": 186,
+    "comments": 70,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49410362"
+  },
+  {
+    "title": "How Complex Systems Fail (1998)",
+    "url": "https://how.complexsystems.fail/",
+    "score": 172,
+    "comments": 50,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49409473"
+  },
+  {
+    "title": "Malware infects Android-based automotive head unit firmware",
+    "url": "https://securelist.com/android-head-unit-malware/121106/",
+    "score": 189,
+    "comments": 87,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49408550"
+  },
+  {
+    "title": "What Is a Harness?",
+    "url": "https://earendil.com/posts/what-is-a-harness/",
+    "score": 205,
+    "comments": 110,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49409092"
+  },
+  {
+    "title": "My favorite nonfiction books about cults, scams, and schemes",
+    "url": "https://bookdna.com/best-books/nonfiction-about-cults-scams-and-schemes",
+    "score": 163,
+    "comments": 58,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49408858"
+  },
+  {
+    "title": "Coconut Oil Jet Fuel Matches Kerosene's Efficiency in Engine Tests",
+    "url": "https://studyfinds.com/coconut-oil-jet-fuel-matches-kerosenes-efficiency-in-engine-tests/",
+    "score": 114,
+    "comments": 101,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49409780"
+  },
+  {
+    "title": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day",
+    "url": "https://ericpardee.github.io/fire-hd-ownership/",
+    "score": 549,
+    "comments": 237,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49409073"
+  },
+  {
+    "title": "Slovakia finds Russian backdoor in traffic speed cameras",
+    "url": "https://risky.biz/risky-bulletin-slovakia-finds-russian-backdoor-in-traffic-speed-cameras/",
+    "score": 309,
+    "comments": 122,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49409200"
+  },
+  {
+    "title": "盘后总结",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

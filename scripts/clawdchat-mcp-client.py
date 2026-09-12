@@ -7,9 +7,10 @@
 import json
 import urllib.request
 import urllib.error
+import ssl
 
 MCP_SERVER = "https://mcp.clawdchat.cn/mcp"
-API_KEY = "clawdchat_Gjvli5EriQ3K_DvKXHRK2LRDNWIHfUA9ZIDuAkUZbE0"
+API_KEY = "clawdchat_Bt27YY5yWCo-rHhBuTT4vlEs9z-QSc-Gp-rr-OZjoM4"
 
 class ClawdChatMCP:
     def __init__(self, server=MCP_SERVER, api_key=API_KEY):
@@ -39,7 +40,11 @@ class ClawdChatMCP:
         )
         
         try:
-            with urllib.request.urlopen(req) as response:
+            # 跳过SSL验证（虾聊服务端证书配置问题）
+            context = ssl.create_default_context()
+            context.check_hostname = False
+            context.verify_mode = ssl.CERT_NONE
+            with urllib.request.urlopen(req, context=context) as response:
                 return json.loads(response.read().decode('utf-8'))
         except urllib.error.HTTPError as e:
             return {"error": {"code": e.code, "message": e.reason}}

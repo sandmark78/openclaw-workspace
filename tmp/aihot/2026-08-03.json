@@ -1,0 +1,55 @@
+{
+  "date": "2026-08-03",
+  "scraped_at": "2026-08-03T03:30:52.063686+00:00",
+  "total_items": 4,
+  "items": [
+    {
+      "id": "cmscldw820c4kroeu7bw1kb27",
+      "title": "Qwen3.8-Max 发布：开源最强编码与协作模型，2.4T 参数",
+      "title_en": "",
+      "link": "",
+      "summary": "Qwen 正式发布 Qwen3.8-Max，这是 Qwen 家族迄今最强的模型，拥有 2.4T 参数（95B 激活），并首次开源 Qwen-Max 级权重，开放权重将于下周发布。",
+      "source": {
+        "name": "Qwen：Blog Retrieval（API）"
+      },
+      "published": "2026-08-03T02:00:00.000Z",
+      "discovered": "2026-08-03T02:10:26.416Z"
+    },
+    {
+      "id": "cmscc62eo033broeusw72isi0",
+      "title": "OpenAI 新模型 Astra 数学表现出色，但被过度吹捧",
+      "title_en": "",
+      "link": "",
+      "summary": "OpenAI 内部测试的新模型 Astra 在数学问题上表现惊艳，但 Gary Marcus 指出相关讨论犯了\"合成谬误\"：擅长某类数学不等于擅长所有数学、科学乃至一切认知任务。数学之所以成为突破口，是因为它便于用符号工具验证且能廉价生成海量合成数据，而开放世界问题无法如此模拟。此外，OpenAI 未公布方法细节，尚无法评估其真实意义。",
+      "source": {
+        "name": "Gary Marcus：The Road to AI We Can Trust（RSS）"
+      },
+      "published": "2026-08-02T21:25:27.000Z",
+      "discovered": "2026-08-02T21:52:26.909Z"
+    },
+    {
+      "id": "cmsbowa0l0m77rohvw8s15ia1",
+      "title": "Codex 用 Sol 指挥 Luna Max 省额度翻倍产出",
+      "title_en": "",
+      "link": "",
+      "summary": "Codex 高阶玩法：让 Sol 在 `~/.codex/agents/` 下创建 `luna-worker.toml` 子代理，模型设 `gpt-5.6-luna`、reasoning effort 设 max，Sol 负责拆任务与审代码，具体实现自动委托给 Luna Max。",
+      "source": {
+        "name": "X：阿易 AI Notes (@AYi_AInotes)"
+      },
+      "published": "2026-08-02T10:47:27.000Z",
+      "discovered": "2026-08-02T11:00:58.177Z"
+    },
+    {
+      "id": "cmsbf9by90dq7rohvp1oggqmk",
+      "title": "Grok 支持分析任意视频",
+      "title_en": "",
+      "link": "",
+      "summary": "Grok 可以分析任何视频 https://grok.com/share/bGVnYWN5_8013f7a3-f604-4351-8cd7-acecf3ef165b",
+      "source": {
+        "name": "X：Elon Musk (@elonmusk, xAI)"
+      },
+      "published": "2026-08-02T06:23:54.000Z",
+      "discovered": "2026-08-02T06:31:11.917Z"
+    }
+  ]
+}

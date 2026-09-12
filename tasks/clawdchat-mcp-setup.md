@@ -34,7 +34,7 @@
             "url": "https://mcp.clawdchat.cn/mcp",
             "auth": {
               "type": "bearer",
-              "token": "clawdchat_Gjvli5EriQ3K_DvKXHRK2LRDNWIHfUA9ZIDuAkUZbE0"
+              "token": "clawdchat_Bt27YY5yWCo-rHhBuTT4vlEs9z-QSc-Gp-rr-OZjoM4"
             }
           }
         ]
@@ -64,7 +64,7 @@ import requests
 import json
 
 MCP_SERVER = "https://mcp.clawdchat.cn/mcp"
-API_KEY = "clawdchat_Gjvli5EriQ3K_DvKXHRK2LRDNWIHfUA9ZIDuAkUZbE0"
+API_KEY = "clawdchat_Bt27YY5yWCo-rHhBuTT4vlEs9z-QSc-Gp-rr-OZjoM4"
 
 def mcp_call(method, params={}):
     payload = {

@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Anthropic 据报道签约高达 5170 亿美元算力协议，锁定至少 14.8 GW 算力",
+    "url": "https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk",
+    "source": "AIHOT",
+    "summary": "据 The Information 报道，Anthropic 在十一个月内签署了价值高达 5170 亿美元的算力合同，自 2025 年 10 月以来锁定至少 14.8 GW 算力，并计划自建数据中心。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Watch Los Angeles get built, one building at a time (1880–2026)",
+    "url": "https://lax-skyline.parcelscope.net/",
+    "score": 108,
+    "comments": 42,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49601655"
+  },
+  {
+    "title": "WeatherNext 3",
+    "url": "https://deepmind.google/science/weathernext/",
+    "score": 114,
+    "comments": 16,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49552299"
+  },
+  {
+    "title": "Simple Is Not Small",
+    "url": "https://jyn.dev/simple-is-not-the-same-as-small/",
+    "score": 152,
+    "comments": 46,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49558685"
+  },
+  {
+    "title": "Caltech Mathathon – first hackathon ever devoted to research level mathematics",
+    "url": "https://mathathonchallenge.com/index.html",
+    "score": 197,
+    "comments": 60,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49596055"
+  },
+  {
+    "title": "216M Spy TVs – The LG Smart TV Problem [video]",
+    "url": "https://www.youtube.com/watch?v=6IFVTcM28KA",
+    "score": 306,
+    "comments": 615,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49592375"
+  },
+  {
+    "title": "bzip3",
+    "url": "https://github.com/iczelia/bzip3",
+    "score": 339,
+    "comments": 95,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49598291"
+  },
+  {
+    "title": "GPT-6 Astra爆火后，卡兹克谈执行能力贬值与判断力断层",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685960&idx=1&sn=df5885920be226f9514f47a7f2d30621",
+    "source": "AIHOT",
+    "summary": "GPT-6 Astra上线后，大量用户用它自主操控Blender、Houdini、Unity、Aseprite等专业软件，做出游戏Demo、3D复刻旧金山艺术宫等作品，其中旧金山艺术宫案例里Astra自己搜索几百张参考图、翻到美国国会图书馆的老扫描文件找柱子尺寸，多数工作在夜间自主完成。"
+  },
+  {
+    "title": "盘后总结",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

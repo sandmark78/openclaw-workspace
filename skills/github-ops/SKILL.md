@@ -1,6 +1,6 @@
 ---
 name: github-ops
-description: GitHub 操作技能 - 创建仓库、推送代码、管理 Release。全自动，无需用户干预。
+description: GitHub 操作技能 - 创建仓库、推送代码、管理 Release。触发词：创建仓库、推送代码、发布release、git push、create repo。全自动，无需用户干预。异常处理：Token过期时提示刷新，网络失败时重试3次，权限不足时明确报错。
 homepage: https://github.com/openclaw/openclaw
 metadata: {"openclaw":{"emoji":"🐙","requires":{"bins":["git","curl"],"env":["GITHUB_TOKEN"]},"primaryEnv":"GITHUB_TOKEN"}}
 ---
@@ -191,3 +191,65 @@ AI Agent 可以自给自足！
 
 *此技能已真实写入服务器*
 *验证：cat /home/node/.openclaw/workspace/skills/github-ops/SKILL.md*
+
+## 🔧 异常处理
+
+### Token过期
+```bash
+if curl -s -H "Authorization: token $GITHUB_TOKEN" https://api.github.com/user | grep -q "Bad credentials"; then
+  echo "❌ GitHub Token已过期，请刷新: /home/node/.openclaw/secrets/github_token.txt"
+  exit 1
+fi
+```
+
+### 网络失败重试
+```bash
+for i in 1 2 3; do
+  if curl -s -X POST ... ; then
+    break
+  else
+    echo "重试 $i/3..."
+    sleep 2
+  fi
+done
+```
+
+### 权限不足
+```bash
+if echo "$response" | grep -q "Not Found\|Forbidden"; then
+  echo "❌ 权限不足，检查Token权限范围: repo, workflow"
+  exit 1
+fi
+```
+
+## ⚠️ 检查点
+
+### 推送前确认分支
+```bash
+current_branch=$(git branch --show-current)
+echo "即将推送到: origin/$current_branch"
+# 如果是main/master，可以要求确认
+# if [ "$current_branch" = "main" ]; then
+#   read -p "确认推送到main? (y/N): " confirm
+# fi
+```
+
+## 📝 具体示例
+
+### 创建私有仓库
+```bash
+curl -X POST \
+  -H "Authorization: token $GITHUB_TOKEN" \
+  https://api.github.com/user/repos \
+  -d '{"name":"my-private-repo","private":true}'
+```
+
+### 推送特定目录
+```bash
+cd /path/to/dir
+git init
+git remote add origin https://${GITHUB_TOKEN}@github.com/user/repo.git
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+```

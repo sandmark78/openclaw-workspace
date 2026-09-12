@@ -1,0 +1,106 @@
+[
+  {
+    "title": "Cursor回应OpenAI将封禁其模型访问",
+    "url": "https://x.com/mntruell/status/2093532254006063557",
+    "source": "AIHOT",
+    "summary": "我们很遗憾地看到，OpenAI 发布声明称计划在三个月内阻止 Cursor 用户访问 OpenAI 模型。\n\nOpenAI 模型承载了 Cursor 约 5% 的用户流量，我们正在与 OpenAI 团队沟通以解决此事。\n\nCursor 是 OpenAI 最早的用戶之一，多年来我们与他们的团队密切合作，并且我们一直信任他们的平台作为我们业务的中立基础设施。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 终止与 Cursor 合作，11 月 12 日生效",
+    "url": "https://x.com/thsottiaux/status/2093515916076343774",
+    "source": "AIHOT",
+    "summary": "OpenAI 因 SpaceX 收购 Cursor 后信任问题，决定终止向其提供模型访问，合作于 11 月 12 日结束。开发者仍可通过自有 OpenAI API 密钥及 IDE 扩展继续使用 GPT 模型。OpenAI 表示将继续支持广泛的工具生态与开源计划。",
+    "leader_tags": [
+      "sam altman",
+      "elon musk"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险",
+    "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+    "source": "AIHOT",
+    "summary": "OpenAI 已通知 SpaceX，将终止向 Cursor 提供 OpenAI 模型的合同，拟定关停日期为 2026 年 11 月 12 日，并给予合同允许的最长通知期。OpenAI 称此举源于无法确信 SpaceX 会遵守服务条款，并援引马斯克旗下公司此前违反合同及 xAI 违反 OpenAI 服务条款的先例。OpenAI 表示将尽力支持受影响的开发者过渡。",
+    "leader_tags": [
+      "sam altman",
+      "elon musk"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Tether: iMessage, SMS, etc. on Linux",
+    "url": "https://zackbartel.com/blog/2026/08/tether/",
+    "score": 219,
+    "comments": 101,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49415386"
+  },
+  {
+    "title": "SQLite as a Document Database (2020)",
+    "url": "https://dgl.cx/2020/06/sqlite-json-support",
+    "score": 131,
+    "comments": 42,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49426995"
+  },
+  {
+    "title": "DHS is using obscure law to snoop on journalists, non-profits, unions",
+    "url": "https://www.theguardian.com/us-news/2026/aug/29/trump-dhs-1509-summons-records-journalists-nonprofits",
+    "score": 162,
+    "comments": 22,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49492219"
+  },
+  {
+    "title": "Good Culture Is the Biggest Productivity Hack, Not AI",
+    "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
+    "score": 149,
+    "comments": 25,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49491568"
+  },
+  {
+    "title": "Glacier Mice",
+    "url": "https://en.wikipedia.org/wiki/Glacier_mice",
+    "score": 218,
+    "comments": 45,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49424320"
+  },
+  {
+    "title": "Samsung's Processing-in-Memory (PIM)",
+    "url": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
+    "score": 225,
+    "comments": 81,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49487341"
+  },
+  {
+    "title": "在本地运行 Qwen3.8 27B：来自我的 Mac Studio 的实际数据",
+    "url": "https://terminalbytes.com/run-qwen-3-8-27b-locally",
+    "source": "AIHOT",
+    "summary": "Qwen3.8 27B（27.3B 参数，混合注意力架构，262，144 token 上下文窗口，Apache 2.0 开源）在 Mac Studio M3 Ultra 上经 Ollama 以 Q4_K_M 量化（17GB）生成速度约 14 tokens/s。"
+  },
+  {
+    "title": "智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御",
+    "url": "https://www.ithome.com/0/995/896.htm",
+    "source": "AIHOT",
+    "summary": "智谱宣布开源 GLM-5.3 模型权重，支持本地运行与个性化定制，擅长复杂编码、防御性网络安全及长程任务。该模型在 AA 综合智能指数中取得 60 分，与 Claude Fable 5、GPT-5.6 Sol 等闭源旗舰同级，并与 Kimi K3 并列开源模型第一。仅年营业额超 100 亿美元的机构将其作为外部模型服务提供时才需安全审查。"
+  },
+  {
+    "title": "Open ASR 排行榜新增首个全球南方语言：印地语与印度英语评测集",
+    "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+    "source": "AIHOT",
+    "summary": "Voice Arena 与 Hugging Face 合作，为 Open ASR 排行榜引入 Monsoon en-IN 和 Monsoon hi-IN 两个评测集，覆盖印地语与印度英语，其中印地语是该排行榜多语言板块首个非欧洲语言。数据集含公开与私有分割，共 4，888 位说话人，并记录 12 项说话人属性，旨在暴露按地区、年龄、性别等维度分布不均的语音识别误差。"
+  },
+  {
+    "title": "盘后总结",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

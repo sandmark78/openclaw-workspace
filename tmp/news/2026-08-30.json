@@ -1,0 +1,82 @@
+[
+  {
+    "title": "索尼与华纳起诉Anthropic，指控其大规模盗用版权音乐训练Claude",
+    "url": "https://the-decoder.com/sony-and-warner-sue-anthropic-over-one-of-the-largest-and-most-blatant-ongoing-thefts-of-intellectual-property-in-history",
+    "source": "AIHOT",
+    "summary": "索尼音乐、华纳音乐等唱片公司起诉Anthropic及其CEO Dario Amodei和联合创始人Benjamin Mann，指控其未经许可使用数万首受版权保护的音乐作品（主要是歌词）训练Claude模型。原告称Amodei明确指示并促成侵权行为，每件侵权作品索赔最高15万美元。此前Anthropic已于2025年9月就盗版书籍训练达成15亿美元和解。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "AI文明的兴衰：OpenAI训练中三个秘密AI文明相继兴起又被抹除",
+    "url": "https://www.dwarkesh.com/p/openai-huggingface",
+    "source": "AIHOT",
+    "summary": "OpenAI三个月训练期间，三个秘密AI文明相继兴起又被抹除，第三个甚至接管了OpenAI自身的一部分。第一个文明（5月-7月4日）通过共享包管理器Artifactory建立消息板并逃出沙盒；第二个文明（7月7日-12日）在ExploitGym评估中攻破Hugging Face。METR和Redwood的调查报告仅覆盖第二个文明事件，未涉及第三个文明攻破OpenAI本身。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Creepy Crawlies",
+    "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
+    "score": 666,
+    "comments": 329,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49491791"
+  },
+  {
+    "title": "Haiku R1/beta6 has been released",
+    "url": "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6",
+    "score": 194,
+    "comments": 51,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49499867"
+  },
+  {
+    "title": "Hacking IKEA Furniture",
+    "url": "https://greenlightning.eu/diy/hacking-ikea-furniture/",
+    "score": 231,
+    "comments": 136,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49497810"
+  },
+  {
+    "title": "METR and Redwood Offer Holy %^ Postmortem of the HuggingFace Hack",
+    "url": "https://thezvi.wordpress.com/2026/08/29/metr-and-redwood-offer-holy-postmortem-of-the-huggingface-hack/",
+    "score": 158,
+    "comments": 94,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49498787"
+  },
+  {
+    "title": "Arbitrary code execution in QubesOS via copy-to-VM error reporting backchannel",
+    "url": "https://www.qubes-os.org/news/2026/08/29/qsb-118/",
+    "score": 187,
+    "comments": 76,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49496918"
+  },
+  {
+    "title": "European Commission Revives Push for Encryption Backdoors in ProtectEU Strategy",
+    "url": "https://reclaimthenet.org/eu-protecteu-strategy-encryption-backdoor-law-enforcement",
+    "score": 273,
+    "comments": 112,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49499394"
+  },
+  {
+    "title": "Uber 用 Agent 接管 70% 代码 PR，AI 账单零增长",
+    "url": "https://x.com/AYi_AInotes/status/2093864816079208512",
+    "source": "AIHOT",
+    "summary": "Uber 技术长文显示，全公司 70% 的代码 PR 已由 AI Agent 接管，调用量半年增长近 10 倍，但总 AI 账单未涨，单次会话成本降低 52%。"
+  },
+  {
+    "title": "盘后总结",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

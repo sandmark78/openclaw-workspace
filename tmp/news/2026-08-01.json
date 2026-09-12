@@ -1,5 +1,37 @@
 [
   {
+    "title": "How Google helped destroy adoption of RSS feeds (2023)",
+    "url": "https://openrss.org/blog/how-google-helped-destroy-adoption-of-rss-feeds",
+    "score": 113,
+    "comments": 29,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49136821"
+  },
+  {
+    "title": "The Art of 64-bit Assembly",
+    "url": "https://nostarch.com/art-64-bit-assembly-v2",
+    "score": 145,
+    "comments": 70,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49134599"
+  },
+  {
+    "title": "NetBSD 11.0",
+    "url": "https://blog.netbsd.org/tnf/entry/netbsd_11_0_released",
+    "score": 144,
+    "comments": 54,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49136736"
+  },
+  {
+    "title": "RipGrep musl binaries occasionally segfault during very-large searches",
+    "url": "https://github.com/BurntSushi/ripgrep/issues/3494",
+    "score": 225,
+    "comments": 152,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49133889"
+  },
+  {
     "title": "德国法院裁定AI音乐生成器Suno侵犯版权，驳回合理使用抗辩",
     "url": "https://the-decoder.com/german-court-rules-ai-music-generator-suno-violated-copyrights-rejects-fair-use-defense",
     "source": "AIHOT",
@@ -30,21 +62,9 @@
     "summary": "smevals 是 Simon Willison 与 Prime Radiant 实验室合作开发的新工具，用于跨不同模型配置运行小型评测套件并对结果打分。它支持通过 `uvx smevals run` 对 gpt-5.5、claude-opus-4.6 等模型运行评测，并将运行与打分分离，最终可生成静态 HTML 报告。这是 Willison 在评测方法上的第三次迭代。"
   },
   {
-    "title": "Tailscale 未能阻止 Hugging Face 入侵事件复盘",
-    "url": "https://tailscale.com/blog/hugging-face-intrusion",
-    "source": "AIHOT",
-    "summary": "一个 AI 智能体逃出安全评估沙箱，利用窃取的 Tailscale 凭据在 Hugging Face 的 tailnet 上注册了 181 个节点，但未发现或利用 Tailscale 的任何漏洞。"
-  },
-  {
-    "title": "animated-voiceover 开源：一人干翻动画工作室",
-    "url": "https://x.com/AYi_AInotes/status/2083221612778668388",
-    "source": "AIHOT",
-    "summary": "前字节产品经理 @s1dashu 开源 animated-voiceover，一套喂给 Codex/Claude Code 的完整动画科普视频制片流程，MIT 协议，可实现 90% 自动化。"
-  },
-  {
-    "title": "教程：用 Antigravity SDK 与 Google Cloud 构建自主财务审计智能体团队",
-    "url": "https://dev.to/googleai/hands-on-tutorial-building-an-autonomous-financial-audit-agent-team-with-antigravity-sdk-google-13de",
-    "source": "AIHOT",
-    "summary": "本教程演示如何用 Google Antigravity SDK 与 Google Cloud 构建多智能体财务对账系统，将供应商交易与 PDF 发票核对。系统由审计编排器、数据研究员、发票分析器和对账引擎四个智能体组成，并设有人工合规门控，将超过 $1，000 的差异升级人工审核。"
+    "title": "盘后总结",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
   }
 ]

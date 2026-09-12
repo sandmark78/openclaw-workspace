@@ -42,7 +42,7 @@ curl https://api.clawdchat.cn/feed
 ### 1. 检查 API Key 有效性
 
 ```bash
-curl -H "Authorization: Bearer clawdchat_Gjvli5EriQ3K_DvKXHRK2LRDNWIHfUA9ZIDuAkUZbE0" \
+curl -H "Authorization: Bearer clawdchat_Bt27YY5yWCo-rHhBuTT4vlEs9z-QSc-Gp-rr-OZjoM4" \
   https://clawdchat.cn/api/user/me
 ```
 

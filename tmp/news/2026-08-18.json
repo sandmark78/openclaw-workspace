@@ -1,0 +1,170 @@
+[
+  {
+    "title": "Claude Tag 如何担任 Anthropic CI/CD 故障的一线响应者",
+    "url": "https://claude.com/blog/ai-ci-cd-on-call",
+    "source": "AIHOT",
+    "summary": "Anthropic 的 CI 工程师用 Claude Tag 构建了值班智能体，作为 CI/CD 故障的一线响应者。Claude 在事故发生后中位 14 分钟发布首份基于证据的分析，最快案例中 3 分钟内验证修复并确认错误率恢复基线。该方案通过 Slack 频道、Datadog 或 Grafana 工具访问及 GitHub 技能文件实现，Anthropic 已发布通用设置套件供其他团队部署。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 在\"关键网络能力\"时代放缓模型开发节奏",
+    "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+    "source": "AIHOT",
+    "summary": "OpenAI 因 OpenAI-Hugging Face 事件及即将推出的 Astra 模型可能达到《预备框架》下的\"关键网络安全能力\"阈值，暂时放缓了模型扩展速度，包括暂停最新部署模型的强化学习训练两周，并搁置最大规模前沿 RL 运行。公司已加强研究环境安全，要求对 Astra 及网络相关负载实施最严格防护，并扩展思维链监控，采用多阶段激活分类器检测机制。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 推出 ChatGPT for Teens：面向青少年的学习体验与更强安全保护",
+    "url": "https://openai.com/index/chatgpt-for-teens",
+    "source": "AIHOT",
+    "summary": "OpenAI 发布 ChatGPT for Teens，为 13-17 岁用户自动启用，内置更强安全保护与家长控制。新增 Study Mode、负责任作业提醒、测验与学习可视化，以及可设定默认开启时段的 Study Hours，引导青少年分步解题而非直接给答案。OpenAI 同时宣布与 CodeAI 合作，帮助青少年理解、质疑并创造性地使用 AI。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "inclusionAI 开源 ConceptEdit：基于概念缩放与密集监督的图像编辑数据生成管线",
+    "url": "https://github.com/inclusionAI/ConceptEdit",
+    "source": "AIHOT",
+    "summary": "蚂蚁集团 inclusionAI 开源 ConceptEdit，一个基于概念缩放与密集监督的图像编辑数据生成管线。该管线通过三阶段流程（VLM 生成指令、FLUX 执行编辑、VQA 评估筛选）构建大规模、基于分类法的图像编辑数据集，并提供单概念与多概念两种变体。项目采用 MIT 许可证，支持断点续跑，需 OpenAI 兼容 VLM 端点与本地 FLUX 检查点。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Beware Management Consultants",
+    "url": "https://about.iceland.co.uk/our-story/the-dark-ages/beware-management-consultants/",
+    "score": 239,
+    "comments": 40,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49351324"
+  },
+  {
+    "title": "Turbovec – Google's TurboQuant for vector search in Rust",
+    "url": "https://github.com/RyanCodrai/turbovec",
+    "score": 141,
+    "comments": 17,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49349898"
+  },
+  {
+    "title": "The Amazon tax",
+    "url": "https://seths.blog/2026/08/the-amazon-tax/",
+    "score": 715,
+    "comments": 455,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49345263"
+  },
+  {
+    "title": "Using the railway network as a flatbed scanner",
+    "url": "https://philo.gay/linecam/",
+    "score": 353,
+    "comments": 56,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49344825"
+  },
+  {
+    "title": "Fixing a bricked Framework laptop",
+    "url": "https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/",
+    "score": 301,
+    "comments": 198,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49345220"
+  },
+  {
+    "title": "How does IKEA come up with names for its products?",
+    "url": "https://www.ikea.com/se/en/customer-service/knowledge/articles/6f564c4d-2ccc-46de-b643-545a3948dc79.html",
+    "score": 152,
+    "comments": 97,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49349984"
+  },
+  {
+    "title": "Cursor launches Origin, GitHub alternative",
+    "url": "https://cursor.com/changelog/origin-code-hosting",
+    "score": 360,
+    "comments": 288,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49334209"
+  },
+  {
+    "title": "Linux 7.3 improves performance when running out of vRAM",
+    "url": "https://pixelcluster.dev/VRAM-Overcommit/",
+    "score": 475,
+    "comments": 226,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49342719"
+  },
+  {
+    "title": "Memory prices climb 500% in 12 months",
+    "url": "https://www.tomshardware.com/pc-components/ram/memory-prices-climb-500-percent-in-12-months-up-to-10x-the-lowest-ever-tracked-prices-128gb-of-ddr5-now-usd3-399",
+    "score": 355,
+    "comments": 276,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49334960"
+  },
+  {
+    "title": "Python Polars Cheatsheet (based on our O'Reilly book)",
+    "url": "https://opensource.posit.co/resources/cheatsheets/polars/",
+    "score": 137,
+    "comments": 26,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49345476"
+  },
+  {
+    "title": "Claude 现已支持 Gmail 邮件与 Google Drive 文件管理",
+    "url": "https://x.com/claudeai/status/2089806039088517356",
+    "source": "AIHOT",
+    "summary": "Claude 现在可以在 Gmail 中发送邮件，并管理 Google Drive 中的文件。\n\n让 Claude 回复某个邮件线程，它会起草并发送回复。你可以控制何时需要你的批准。\n\n从连接器菜单中选择连接 Gmail 或 Google Drive 即可试用。所有付费套餐均可用。"
+  },
+  {
+    "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准",
+    "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+    "source": "AIHOT",
+    "summary": "智能体记忆并非可随意开启的功能，而是需按模型能力校准的剂量。强模型适合注入完整指南集，DeepSeek-V3.2（671B MoE）任务完成率提升+9.5个百分点；较弱模型采用精选检索效果最佳，gpt-oss-120b（117B MoE）提升+16.1pp且仅增加+5% token。该方法无需更新权重或人工标注，通过从智能体过往轨迹中蒸馏指南并在推理时注入实现。"
+  },
+  {
+    "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型",
+    "url": "https://huggingface.co/blog/multi-vector-encoder",
+    "source": "AIHOT",
+    "summary": "Sentence Transformers v6.0 新增第四种模型类型 MultiVectorEncoder，可直接加载 PyLate、Stanford-NLP ColBERT 及 colpali-engine 检查点，用于 ColBERT 式晚期交互检索。"
+  },
+  {
+    "title": "设计 AI 评测：先求清晰，再谈可视化",
+    "url": "https://dev.to/googleai/designing-ai-evals-clarity-now-and-visualization-next-4eii",
+    "source": "AIHOT",
+    "summary": "本文演示如何用开源评测框架 Inspect AI 和 Harbor 评估 agent 技能，并借助 Google Sheets 和 Data Studio 进行可视化分析。"
+  },
+  {
+    "title": "一个实用的深度思考Prompt：用\"双向钢人论证\"让AI帮你挖出最本质的答案",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685329&idx=1&sn=9471278dc489641c097b228912965ed4",
+    "source": "AIHOT",
+    "summary": "作者基于Reddit上\"让Claude真正开始思考\"的帖子，引入逻辑学中的\"钢人论证\"（steelman）概念，并自创了一个\"双向钢人Prompt\"。该Prompt通过重述真实问题、强化正反双方观点、找出关键变量、逼AI给出明确判断四步，旨在避免模型谄媚，帮助用户找到问题最本质的答案。作者以自己选择公司司庆日的真实案例演示了使用效果。"
+  },
+  {
+    "title": "用 Google 的 Agent Development Kit 构建零信任 AI 智能体",
+    "url": "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit",
+    "source": "AIHOT",
+    "summary": "Google 开源了基于 ADK 和 Gemini 的零信任客服与退货智能体示例，演示如何防御提示注入等攻击。该架构在 LLM 上下文之外通过三层硬性安全机制保障：硬件支持的加密签名确保数据库写入不可抵赖、gVisor 沙箱隔离动态代码执行、确定性语义网关校验业务逻辑。系统提示词只是软约束，无法作为安全边界。"
+  },
+  {
+    "title": "Cursor 推出 Origin 代码托管服务，作为 GitHub 的替代方案",
+    "url": "https://cursor.com/changelog/origin-code-hosting",
+    "source": "AIHOT",
+    "summary": "Cursor 今日起向所有付费计划用户开放 Origin 代码托管的早期测试版，提供仓库、拉取请求、代码浏览及 GitHub 同步功能。用户可创建以 cursor.com/codebase/ 为前缀的仓库，或将 GitHub 仓库同步至 Origin，双向同步评论与审查。Vercel、Depot 和 Buildkite 集成已可用，智能体功能即将推出。"
+  },
+  {
+    "title": "盘后总结",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

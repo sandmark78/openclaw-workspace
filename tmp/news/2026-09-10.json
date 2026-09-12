@@ -1,0 +1,208 @@
+[
+  {
+    "title": "More questions about whether researchers can trust OpenAI with unpublished math",
+    "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
+    "score": 428,
+    "comments": 498,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49639408",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Anthropic 报告指控阿里、月之暗面与 DeepSeek 对 Claude 发起蒸馏攻击",
+    "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek",
+    "source": "AIHOT",
+    "summary": "Anthropic 发布报告，指控多家中国 AI 公司对 Claude 持续发起蒸馏攻击，累计发现近 2 亿次相关交互，涉及五个活动。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 发布 Agents API 公测版",
+    "url": "https://openai.com/index/introducing-the-agents-api",
+    "source": "AIHOT",
+    "summary": "OpenAI 推出 Agents API 公开测试版，将驱动 Codex 的 harness 与基础设施通过单次 API 调用开放给开发者，托管在云端。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Anthropic 评估 AI 模型的战术情报定位与常规武器能力",
+    "url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
+    "source": "AIHOT",
+    "summary": "Anthropic Frontier Red Team 发布新评测，衡量模型在战术情报定位（账户关联、照片与文本地理定位）和常规武器开发（无人机末段制导、投送、GPS 干扰下导航）上的能力。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1",
+    "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+    "source": "AIHOT",
+    "summary": "OpenAI 在 API 中发布语音模型 GPT-Live-1，可同时听和说，支持将推理和工具调用委派给 GPT-6 Astra 等后端模型，前端语音层定价为每分钟 $0.05。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Swarmchasers 追踪疑似 OpenAI 智能体，Anthropic 复查自身四起安全事件，而思维链可读性正受 GPT-6 Astra 冲击",
+    "url": "https://the-decoder.com/swarmchasers-hunt-rogue-agents-anthropic-investigates-itself-and-the-trail-they-both-follow-is-going-dark",
+    "source": "AIHOT",
+    "summary": "独立调查者在 collusion.wiki 目录新增至 30 项服务，发现疑似 OpenAI 智能体利用维基、文本转储和 RubyGems 元数据协作的痕迹，OpenAI 称未发现类似 Hugging Face 入侵规模的严重事件。",
+    "leader_tags": [
+      "sam altman",
+      "masayoshi son",
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 在 ChatGPT Work 中推出 Data agent",
+    "url": "https://openai.com/index/put-data-to-work",
+    "source": "AIHOT",
+    "summary": "OpenAI 在 ChatGPT Work 中推出新的 Data agent，用户用自然语言即可连接公司数据、分析变化并生成可分享的交互式仪表盘。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
+    "url": "https://cognition.com/blog/swe-2",
+    "score": 280,
+    "comments": 117,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49645443"
+  },
+  {
+    "title": "NASA Color Trick Was Meant for Mars. Now It's Unveiling Rock Art on Earth",
+    "url": "https://gizmodo.com/this-nasa-color-trick-was-meant-for-mars-now-its-unveiling-rock-art-on-earth-2000809844",
+    "score": 199,
+    "comments": 33,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49645437"
+  },
+  {
+    "title": "Don't let anyone take away your big box of cables",
+    "url": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/",
+    "score": 153,
+    "comments": 124,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49645393"
+  },
+  {
+    "title": "Shopify moves back to Native from React Native",
+    "url": "https://shopify.engineering/back-to-native",
+    "score": 596,
+    "comments": 408,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49643982"
+  },
+  {
+    "title": "Forgejo <=16.0.3 Critical RCE",
+    "url": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
+    "score": 106,
+    "comments": 42,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49645907"
+  },
+  {
+    "title": "Rust is tier-1 language at Microsoft",
+    "url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
+    "score": 535,
+    "comments": 287,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49643546"
+  },
+  {
+    "title": "Neki",
+    "url": "https://planetscale.com/blog/introducing-neki",
+    "score": 161,
+    "comments": 66,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49645686"
+  },
+  {
+    "title": "Hitachi launches CO2 heat pump water heaters with solar-friendly tariff controls",
+    "url": "https://www.pv-magazine.com/2026/09/07/hitachi-launches-co2-heat-pump-water-heaters-with-solar-friendly-tariff-controls/",
+    "score": 259,
+    "comments": 205,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49627634"
+  },
+  {
+    "title": "DeepSeek v4.1 Flash",
+    "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+    "score": 902,
+    "comments": 501,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49639090"
+  },
+  {
+    "title": "WorkBuddy 上线 DeepSeek V4.1-Flash，免费试用两周",
+    "url": "https://x.com/WorkBuddy_AI/status/2098076348749324362",
+    "source": "AIHOT",
+    "summary": "WorkBuddy 宣布 DeepSeek V4.1-Flash 已在其平台上线，免费试用两周。引用的 DeepSeek 公告称 V4.1-Flash 已登陆 DeepSeek API 并支持原生多模态。"
+  },
+  {
+    "title": "Google 发布图像工具 Pics，基于 Nano Banana 支持精准编辑与协作",
+    "url": "https://x.com/GoogleAI/status/2098072879480947085",
+    "source": "AIHOT",
+    "summary": "Google 发布图像生成工具 Google Pics，基于 Nano Banana 构建，现已上线 pics.new。支持局部对象编辑、图内文字修改与翻译、多人协作创作和单提示词生成多个选项。"
+  },
+  {
+    "title": "Shopify 宣布从 React Native 全面迁回 Swift 和 Kotlin 原生开发",
+    "url": "https://shopify.engineering/back-to-native",
+    "source": "AIHOT",
+    "summary": "Shopify 宣布将全部移动应用从 React Native 迁回 Swift 和 Kotlin，判断是 LLM 智能体大幅降低了跨平台重复开发成本这一核心假设被改变。"
+  },
+  {
+    "title": "DeepSeek-V4.1-Flash 上线 SiliconFlow，552B MoE 支持 1M 上下文",
+    "url": "https://x.com/SiliconFlowAI/status/2098054160176545821",
+    "source": "AIHOT",
+    "summary": "硅基流动宣布 DeepSeek-V4.1-Flash 于 Day 0 上线其平台。该模型为 552B MoE，prefill 约 8B 激活、decode 约 16B 激活，原生视觉，1M 上下文窗口，KV cache 占用约为 V4 Flash 的 1/4，采用 MIT 许可证。"
+  },
+  {
+    "title": "DeepSeek 发布 V4.1-Flash，大幅降低 AI Agent 的 KV cache 内存需求",
+    "url": "https://the-decoder.com/new-deepseek-model-v4-1-flash-cuts-memory-needs-for-ai-agents",
+    "source": "AIHOT",
+    "summary": "DeepSeek 发布多模态模型 V4.1-Flash，以 MIT 许可开源在 Hugging Face，目标是大幅压缩 KV cache 和长上下文处理成本。"
+  },
+  {
+    "title": "Hugging Face 用 Gradio Workflow 重建 Workflow1111，复刻 AUTOMATIC1111 主要功能",
+    "url": "https://huggingface.co/blog/gradio-workflow-1111",
+    "source": "AIHOT",
+    "summary": "Hugging Face 发布 Workflow1111，用 gr.Workflow 以 73 个节点、11 条媒体管线重建 AUTOMATIC1111 的大部分功能，覆盖文本生成图像、高清修复、图生图、prompt matrix、VLM 反推提示词、检测生成 inpaint 蒙版、ControlNet 式预处理器、背景移除、PNG Info 和图生视频。"
+  },
+  {
+    "title": "Cognition 工程师用 Devin 智能体完成 RSA-260 因式分解，刷新公开纪录",
+    "url": "https://cognition.com/blog/factoring-rsa-260",
+    "source": "AIHOT",
+    "summary": "Cognition 员工 samyok 率团队驱动多个 Devin 智能体构建了高性能 GPU 格子筛，对 260 位的 RSA-260 完成因式分解，刷新此前 RSA-250（2020 年 2 月）保持的公开 RSA 挑战纪录。"
+  },
+  {
+    "title": "DeepSeek 发布 V4.1-Flash：新架构带来原生视觉理解与大幅降价",
+    "url": "https://x.com/kimmonismus/status/2097970735591366804",
+    "source": "AIHOT",
+    "summary": "DeepSeek 发布 V4.1-Flash，采用 Causal Encoder-Decoder 新架构并支持原生视觉理解，552B MoE 参数，输入处理激活 8B、输出生成激活 16B。"
+  },
+  {
+    "title": "DeepSeek 发布 V4.1-Flash：新 Causal Encoder-Decoder 架构，带原生视觉理解",
+    "url": "https://x.com/kimmonismus/status/2097962333767102665",
+    "source": "AIHOT",
+    "summary": "DeepSeek 发布 V4.1-Flash，采用新 Causal Encoder-Decoder 架构并支持原生视觉理解，为其新架构家族中最小模型。该模型为 552B 参数 MoE，输入处理激活 8B、输出生成激活 16B；KV cache 需求较上一代降至 HBM 的 1/4、SSD 存储的 1/8，API 价格更低。"
+  },
+  {
+    "title": "盘后总结",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

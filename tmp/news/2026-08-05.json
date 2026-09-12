@@ -1,0 +1,116 @@
+[
+  {
+    "title": "Zed DeltaDB",
+    "url": "https://zed.dev/deltadb",
+    "score": 178,
+    "comments": 72,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49187256"
+  },
+  {
+    "title": "Discovery Loop",
+    "url": "https://www.discoveryloop.com/",
+    "score": 431,
+    "comments": 271,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49184960"
+  },
+  {
+    "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
+    "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+    "score": 294,
+    "comments": 447,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49184755"
+  },
+  {
+    "title": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models",
+    "url": "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency",
+    "score": 122,
+    "comments": 23,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49186762"
+  },
+  {
+    "title": "Atlassian Rovo Exfiltrates Data, Bypassing Controls",
+    "url": "https://www.promptarmor.com/resources/atlassian-rovo-exfiltrates-data",
+    "score": 104,
+    "comments": 32,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49185983"
+  },
+  {
+    "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
+    "url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/",
+    "score": 109,
+    "comments": 49,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49187977"
+  },
+  {
+    "title": "用 Claude Fable 5 一次性生成完整《Raccoon Heist》游戏",
+    "url": "https://simonwillison.net/2026/Aug/5/raccoon-heist",
+    "source": "AIHOT",
+    "summary": "Simon Willison 将 2022 年 GPT-3 和 DALL-E 生成的游戏概念与截图输入 Claude Fable 5（运行于 Claude Code for web），成功构建出可玩的 3D 浏览器游戏。"
+  },
+  {
+    "title": "Jeff Dean 宣布离开谷歌，创办 DiscoLoop AI",
+    "url": "https://x.com/JeffDean/status/2085083442669318443",
+    "source": "AIHOT",
+    "summary": "Jeff Dean 在谷歌任职 27 年后宣布离职，将于明日正式离开。他称谷歌已从 25 人发展到 19 万余人，拥有十三款用户超十亿的产品。他将与 Sanjay Ghemawat、Oriol Vinyals 和 Quoc Le 共同创办 DiscoLoop AI。"
+  },
+  {
+    "title": "Google DeepMind CEO 德米斯·哈萨比斯即将卸任",
+    "url": "https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai",
+    "source": "AIHOT",
+    "summary": "Google DeepMind CEO 德米斯·哈萨比斯即将卸任。该消息由 Axios 报道，并在 Hacker News 上获得超过 125 点热度。目前尚未公布继任者或具体离职时间等细节。"
+  },
+  {
+    "title": "为什么传奇的埃尔德什问题正被人工智能攻克",
+    "url": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803",
+    "source": "AIHOT",
+    "summary": "OpenAI 于 2026 年 5 月 20 日宣布，其内部 AI 模型对埃尔德什 1946 年提出的\"单位距离\"问题给出了反例，成为首个由 AI 模型完成的历史性重要证明；8 月 1 日又宣布未发布模型 Astra 取得 10 项数学进展，其中解决了埃尔德什提出的另外 3 个问题。"
+  },
+  {
+    "title": "Demis Hassabis 转任 Google DeepMind 主席与 Alphabet 首席科学家",
+    "url": "https://x.com/demishassabis/status/2085034334914769203",
+    "source": "AIHOT",
+    "summary": "Demis Hassabis 宣布卸任 Google DeepMind CEO，转任主席兼 Alphabet 首席科学家，专注长期战略与科学突破，包括推进 Isomorphic 的疾病治愈研究。Koray Kavukcuoglu 将接任 GDM 高级副总裁，与 Josh Woodward 及执行团队共同领导下一阶段发展。"
+  },
+  {
+    "title": "SpaceX 宣布 AI 算力上太空，独家采用 Nvidia Vera Rubin",
+    "url": "https://x.com/AYi_AInotes/status/2085010659150852220",
+    "source": "AIHOT",
+    "summary": "SpaceX 在财报电话会上宣布，未来所有 AI 算力（地面及轨道）将独家采用 Nvidia Vera Rubin 架构，2026 年底总算力超 2GW，2027 年底接近 10GW。同步公布 Starmind 计划，2027 年起发射搭载 Rubin GPU 与 Vera CPU 的轨道 AI 卫星星座，明年开始发射，算力经星链激光链路回传。消息公布后 AMD 股价跌 8%。"
+  },
+  {
+    "title": "AI智能体尚无法开展开放式AI研究",
+    "url": "https://www.normaltech.ai/p/ai-agents-cant-yet-do-open-ended",
+    "source": "AIHOT",
+    "summary": "普林斯顿大学团队通过\"影子评估\"测试前沿AI智能体的开放式研究能力：让智能体在六天时间内、使用数千美元API额度和算力，回答两篇未发表论文的核心研究问题，结果两篇论文均被原作者明确拒绝。分析显示，智能体缺乏研究判断力、资源意识、创造性反馈应对能力和有效回溯能力，且未遵循具体指令。研究团队认为，开放式研究对前沿AI智能体仍具挑战性，但结果尚属初步，需扩大样本量并持续评估。"
+  },
+  {
+    "title": "Cloudflare 用身份感知分析捕捉失控 AI 行为",
+    "url": "https://blog.cloudflare.com/identity-aware-ai-gateway",
+    "source": "AIHOT",
+    "summary": "Cloudflare 推出身份感知 AI Gateway 与 User Insights，为每个请求绑定经 Access 验证的用户身份，并基于账户自身历史行为建立基线，识别偏离正常模式的异常会话。该功能现处于开放测试阶段，User Insights 已向所有 AI Gateway 客户免费开放。其异常检测以近 30 天会话成本 p95 为基准，超过 2 倍即标记为可疑行为。"
+  },
+  {
+    "title": "Cloudflare OS：面向智能体、应用与工作的开放平台",
+    "url": "https://blog.cloudflare.com/cloudflare-os",
+    "source": "AIHOT",
+    "summary": "Cloudflare 开源新版 Cloudflare OS，任何组织均可部署并连接内部系统。该平台为每位员工提供基于公司上下文与技能的智能体工作区，包含隔离运行时、安全治理框架及可共享修改的个人应用。此前内部版本已供数千名员工日常使用，新版针对协作中的信息暴露风险重建了安全基础。"
+  },
+  {
+    "title": "Cloudflare 如何用 Cloudflare OS 重构内部工作方式",
+    "url": "https://blog.cloudflare.com/how-we-use-ai-with-cloudflare-os",
+    "source": "AIHOT",
+    "summary": "Cloudflare 推出 Cloudflare OS，整合 Workers 与 Access 等组件，让员工安全使用 AI 并部署智能体。平台源于销售团队用 AI 构建 SuperApp 引发的内部需求，遵循\"人负责输出\"\"权限不因 AI 扩大\"等五项原则，面向工程师与非工程师分别提供支持。"
+  },
+  {
+    "title": "盘后总结",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

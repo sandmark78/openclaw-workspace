@@ -1,0 +1,5 @@
+.cache/
+orchestrator
+*.exe
+data/
+.DS_Store

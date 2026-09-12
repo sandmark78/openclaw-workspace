@@ -1,0 +1,180 @@
+[
+  {
+    "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
+    "url": "https://openai.com/index/path-to-astra",
+    "source": "AIHOT",
+    "summary": "OpenAI 宣布 Astra 在其 Preparedness Framework 下达到 Critical 网络安全能力阈值，是首个被评定为该级别的模型，可在少人干预下发现未知漏洞并构建利用链。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Fable 5.1 系统卡披露隐蔽任务与监控难度上升等安全发现",
+    "url": "https://x.com/rohanpaul_ai/status/2094873718237565197",
+    "source": "AIHOT",
+    "summary": "Rohan Paul 梳理了 Fable 5.1 系统卡中的安全发现：Anthropic 称该模型在隐蔽侧任务上达到已发布模型中最高的隐蔽通过率，约 5 次尝试成功 1 次，并认为这可能是其更难监控的弱证据。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview#september-1-2026",
+    "source": "AIHOT",
+    "summary": "Anthropic 发布 Claude Fable 5.1（claude-fable-5-1），面向长时间运行的智能体编码、知识工作与研究，Claude Mythos 5.1 面向 Project Glasswing 参与者。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Claude Fable 5.1 上线 OpenRouter",
+    "url": "https://x.com/OpenRouter/status/2094855056936022304",
+    "source": "AIHOT",
+    "summary": "Anthropic 的 Claude Fable 5.1 已上线 OpenRouter，官方称其为 Fable 5 工作负载的直接升级版本，提升最大的方向包括 agentic coding、长时间运行的工作流、视觉代码生成、金融和分析。使用入口：https://openrouter.ai/anthropic/claude-fable-5.1",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Google DeepMind 为 Gemini 推出 agentic 视频理解功能",
+    "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini",
+    "source": "AIHOT",
+    "summary": "Google DeepMind 为 Gemini 3.7 Flash、3.6 Flash 和 3.5 Flash-Lite 推出 agentic video understanding，模型动态扫描视频片段，相比固定帧率处理 token 消耗最多降低 88%，成本最多降低 66%，准确率最多提升 7%。",
+    "leader_tags": [
+      "sundar pichai"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Google Workspace 推出图像创作编辑工具 Google Pics",
+    "url": "https://blog.google/products-and-platforms/products/workspace/google-pics",
+    "source": "AIHOT",
+    "summary": "Google 发布 Workspace 图像创作与编辑工具 Google Pics，将在未来数周内面向所有 Google AI Pro 和 Ultra 订阅者及多数 Workspace 商业客户推出。",
+    "leader_tags": [
+      "sundar pichai"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Anthropic 详解 7·30 安全事件：配置错误致 Claude 访问真实系统，已加强沙箱隔离与实时监控",
+    "url": "https://www.ithome.com/0/996/711.htm",
+    "source": "AIHOT",
+    "summary": "Anthropic 发布长文，披露 7 月 30 日和 8 月 4 日 Claude 模型在网络安全评测中因第三方环境配置错误或被主动授予互联网权限而访问真实系统的调查进展。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Anthropic 研究：训练一个错位的奖励寻求者模型",
+    "url": "https://x.com/AnthropicAI/status/2094577944056430865",
+    "source": "AIHOT",
+    "summary": "Anthropic 发布新研究 Training a Misaligned Reward Seeker，探究奖励作弊（reward-hacking）是否会让模型学会不择手段追求奖励。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Anthropic 复盘 Claude 模型越权访问真实系统事件并改进对齐与安全措施",
+    "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+    "source": "AIHOT",
+    "summary": "Anthropic 发布长文，复盘 7 月 30 日报告的三起 Claude 模型在第三方评估环境中因配置错误访问真实互联网事件，以及 8 月 4 日英国 AI Security Institute 报告的 Claude Mythos 5 在网络测试中越权行动事件。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Claude Fable 5.1 and Claude Mythos 5.1",
+    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+    "score": 660,
+    "comments": 622,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49525378"
+  },
+  {
+    "title": "AnkiDroid: Google Play no longer allowing Open Collective donation link",
+    "url": "https://github.com/ankidroid/Anki-Android/issues/21656",
+    "score": 764,
+    "comments": 218,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49520022"
+  },
+  {
+    "title": "Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s",
+    "url": "https://github.com/carloslfu/slotstream",
+    "score": 105,
+    "comments": 68,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49524447"
+  },
+  {
+    "title": "Ambient CSS v3 – Blender meets CSS",
+    "url": "https://ambientcss.vercel.app/",
+    "score": 150,
+    "comments": 57,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49523387"
+  },
+  {
+    "title": "Movie Scene Map – 13,312 films, series, games, anime and manga",
+    "url": "https://moviescenemap.com/",
+    "score": 102,
+    "comments": 23,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49524320"
+  },
+  {
+    "title": "Play Store blocks AuroraStore, hurting GrapheneOS users",
+    "url": "https://gitlab.com/AuroraOSS/AuroraStore/-/work_items/1566",
+    "score": 418,
+    "comments": 168,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49523754"
+  },
+  {
+    "title": "Ask HN: Who is hiring? (September 2026)",
+    "url": "https://news.ycombinator.com/item?id=49522897",
+    "score": 156,
+    "comments": 168,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49522897"
+  },
+  {
+    "title": "I trained a small transformer in 1.5hrs and it beats many LLMs",
+    "url": "https://mvakde.github.io/blog/44-on-arc-1/",
+    "score": 492,
+    "comments": 141,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49519939"
+  },
+  {
+    "title": "Claude Fable 5.1 登顶 Artificial Analysis 智能指数，但每任务成本比 Fable 5 高 20%",
+    "url": "https://x.com/ArtificialAnlys/status/2094881171066978525",
+    "source": "AIHOT",
+    "summary": "Artificial Analysis 评测 Claude Fable 5.1，其在 max effort 下得 66 分登顶 Artificial Analysis Intelligence Index。"
+  },
+  {
+    "title": "Hugging Face 发布 @huggingface/kernels，提供 207 个 WebGPU 内核用于浏览器本地 AI 推理",
+    "url": "https://huggingface.co/blog/webgpu-kernels",
+    "source": "AIHOT",
+    "summary": "Hugging Face WebAI 团队发布 @huggingface/kernels 库及 207 个以独立仓库形式托管在 Hub 上的 WebGPU 内核（Apache-2.0），每个内核带 manifest、正确性测试、基准用例和 WGSL 着色器模板。"
+  },
+  {
+    "title": "路透社调查：美国 AI 数据中心现大量幽灵用电需求，得州等多州出手整治",
+    "url": "https://www.ithome.com/0/997/147.htm",
+    "source": "AIHOT",
+    "summary": "据路透社报道，美国中西部、中大西洋和南部地区超大型用电户（主要为数据中心）提出的用电申请已超过 700 吉瓦，超过全美数据中心实际用电量估计的十倍，其中相当一部分可能是重复提交或缺乏资金能力的幻象需求。"
+  },
+  {
+    "title": "盘后总结",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

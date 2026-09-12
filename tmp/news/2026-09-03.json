@@ -1,0 +1,194 @@
+[
+  {
+    "title": "Rohan Paul 解读 OpenAI GPT-6 Astra 117 页系统卡中的安全发现",
+    "url": "https://x.com/rohanpaul_ai/status/2095616781880869271",
+    "source": "AIHOT",
+    "summary": "Rohan Paul 梳理 OpenAI GPT-6 Astra 117 页系统卡的要点：Astra 控制自身链式思维的能力从 GPT-5.6 Sol 的 16.1% 跃升至 60.9%，可监控性相应下降。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 发布 GPT-6 Astra 并公布安全概览，称其网络安全能力达到 Preparedness Framework 的 Critical 级",
+    "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+    "source": "AIHOT",
+    "summary": "OpenAI 发布 GPT-6 Astra，称这是其部署过的最强模型，也是首个在其 Preparedness Framework 下达到网络安全能力 Critical 级的模型，可在无人逐步引导的情况下发现未知安全漏洞并开发利用方式。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 推出 Daybreak for Frontline Defenders，投入10亿美元支持一线网络防御",
+    "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+    "source": "AIHOT",
+    "summary": "OpenAI 发布 Daybreak for Frontline Defenders 全球计划，承诺提供10亿美元的 Daybreak 补贴访问、培训、技术支持与合作，计划在未来六个月内消耗，优先支持水处理、电网、州和地方政府、社区银行、非营利组织和开源维护者等资源有限的一线防御者。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 发布 GPT-6 Astra，多项基准达到 SOTA",
+    "url": "https://x.com/sherwinwu/status/2095608486940086448",
+    "source": "AIHOT",
+    "summary": "OpenAI 发布 GPT-6 Astra，在 FrontierMath Tier 4、ARC-AGI 3、TerminalBench-4.0 上达到 SOTA，并在 Terminal-Bench Science 0.1 和 HealthBench Pro 上取得领先成绩。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 发布 GPT-6 Astra，ARC-AGI 3 得分 99.9%",
+    "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra",
+    "source": "AIHOT",
+    "summary": "OpenAI 的 GPT-6 Astra 今日起向部分组织推出，随后面向 ChatGPT Plus、Pro、Business、Enterprise 用户开放，API 定价为每百万输入 $10、每百万输出 $50，与 Claude Fable 5/5.1 持平。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 开始发布 GPT-6 Astra，面向全部 Plus 用户开放",
+    "url": "https://x.com/thsottiaux/status/2095597168816226335",
+    "source": "AIHOT",
+    "summary": "OpenAI 宣布开始发布 GPT-6 Astra，称正以尽可能谨慎和快速的方式推进，重点让全部 Plus 用户可用，而不只限 Pro、Business 和 Enterprise 套餐。发布需几天完成，背后多个全新系统将首次大规模运行，团队正带来大量算力，详情见 openai.com/index/gpt-6-astra/。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 发布 GPT-6 Astra",
+    "url": "https://x.com/sama/status/2095600005772104059",
+    "source": "AIHOT",
+    "summary": "Sam Altman 宣布 GPT-6 Astra 发布，称其为计算机使用、专业工作、科学、编码、网络安全等领域全球最佳模型。官方表示为确保该能力级别所需的安全与对齐标准而多花了些时间，并公布 FrontierMath Tier 4 得分 98%、ARC-AGI 3 得分 99.9%、ExploitBench 得分 100%。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 发布 GPT-6 Astra，主打 Computer Use 与 Agent 对齐进展",
+    "url": "https://x.com/markchen90/status/2095597534412673109",
+    "source": "AIHOT",
+    "summary": "OpenAI 首席研究官 Mark Chen 宣布 GPT-6 Astra 发布，称其为团队多年预训练、强化学习和后训练工作的成果，是迄今能力最强、对齐最好的模型。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 发布 GPT-6 Astra，并首次将其列为 Preparedness Framework 下关键级网络安全模型",
+    "url": "https://the-decoder.com/gpt-6-astra-is-the-first-model-making-openai-willing-to-declare-the-agi-era",
+    "source": "AIHOT",
+    "summary": "OpenAI 发布其最强模型 GPT-6 Astra，总裁 Greg Brockman 称其可能已接近 AGI，并以 Welcome to the AGI era 结束发布。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 发布 GPT-6 Astra，先向受限网络安全客户开放",
+    "url": "https://x.com/rohanpaul_ai/status/2095586785455948112",
+    "source": "AIHOT",
+    "summary": "OpenAI 发布 GPT-6 Astra，首先向经过审核的 Daybreak 网络安全客户开放，Plus、Pro、Business、Enterprise、API 和 AWS 将在未来数日内跟进。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 发布 GPT-6 Astra，官方基准显示 ARC-AGI-3 得分 99.9%",
+    "url": "https://x.com/kimmonismus/status/2095585966102614182",
+    "source": "AIHOT",
+    "summary": "",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 发布 GPT-6 Astra，基准全面超越 Claude Fable 5.1",
+    "url": "https://x.com/kimmonismus/status/2095589174686400914",
+    "source": "AIHOT",
+    "summary": "作者引用 OpenAI 官方基准称 GPT-6 Astra 以 99.9% 饱和 ARC-AGI-3，在 ExploitBench 得 100%，并在各项基准上全面超过此前保持 SOTA 两天的 Claude Fable 5.1，且价格更低。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "GPT-6 Astra",
+    "url": "https://openai.com/index/gpt-6-astra/",
+    "score": 783,
+    "comments": 511,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49554643"
+  },
+  {
+    "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
+    "url": "https://inference-docs.cerebras.ai/models/overview",
+    "score": 304,
+    "comments": 100,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49554520"
+  },
+  {
+    "title": ".name Termination",
+    "url": "https://neil.fraser.name/news/2026/09/03/",
+    "score": 1059,
+    "comments": 317,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49550772"
+  },
+  {
+    "title": "Any Human Ever – One life, drawn at random from all who have ever lived",
+    "url": "https://anyhumanever.com/",
+    "score": 354,
+    "comments": 162,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49550698"
+  },
+  {
+    "title": "K2 Horizon: A connected fleet of six open models",
+    "url": "https://ifm.ai/blog/k2/",
+    "score": 210,
+    "comments": 71,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49551760"
+  },
+  {
+    "title": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly",
+    "url": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/",
+    "score": 110,
+    "comments": 39,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49550375"
+  },
+  {
+    "title": "ARC-AGI-3 发布仅半年即被 Astra 饱和，进展快于 François Chollet 预期一倍",
+    "url": "https://x.com/sherwinwu/status/2095608725730119733",
+    "source": "AIHOT",
+    "summary": "Sherwin Wu 表示自己曾觉得 ARC-AGI-3 很难，如今该基准已被 Astra 饱和。引用 François Chollet 的话称，ARC 3 发布时他预计前沿模型约一年才能饱和，实际只用了 6 个月，约为预期的 2 倍速度，新一代模型的能力将挑战人们基于旧模型形成的 AI 观点。"
+  },
+  {
+    "title": "François Chollet 评 GPT-6 Astra 在 ARC-AGI-3 上的表现",
+    "url": "https://x.com/fchollet/status/2095598451115614371",
+    "source": "AIHOT",
+    "summary": "François Chollet 发文称 GPT-6 Astra 在交互式推理任务上带来阶跃式能力提升，使用标准 harness 在 ARC-AGI-3 上得 66%，配合持续对话 harness 和自定义 compaction 接近 100%，每局成本约 $360。"
+  },
+  {
+    "title": "Artificial Analysis 评测 GPT-6 Astra：编码智能体追平 Fable 5 但价格涨至 2.5 倍",
+    "url": "https://x.com/ArtificialAnlys/status/2095595489031000350",
+    "source": "AIHOT",
+    "summary": "Artificial Analysis 发布 GPT-6 Astra 评测，其 Coding Agent Index 得分 67，约等于 Claude Opus 5 和 Fable 5，且成本不到 Fable 5 的一半；token 效率比 GPT-5.6 Sol （max） 高约 70%。"
+  },
+  {
+    "title": "盘后总结",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

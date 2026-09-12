@@ -1,0 +1,12 @@
+[
+{"title":"AMD acquires Taalas to boost inference performance by etching models in silicon","score":330,"url":"https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344","summary":"AMD收购AI芯片初创公司Taalas，将模型直接刻入硅片以提升推理性能","source":"hn"},
+{"title":"Mario Meets Pareto","score":855,"url":"https://www.mayerowitz.io/blog/mario-meets-pareto","summary":"用帕累托最优原则分析超级马里奥游戏设计，今日HN最高分","source":"hn"},
+{"title":"Taste Is All That's Left","score":184,"url":"https://notashelf.dev/posts/taste-is-all-thats-left","summary":"当AI让技术门槛消失，品味成为唯一的差异化竞争力","source":"hn"},
+{"title":"Launch HN: ProvenMetal (YC S26) delivers circuit boards in days instead of weeks","score":185,"url":"https://provenmetal.com","summary":"YC S26项目ProvenMetal将PCB交付周期从数周缩短到数天","source":"hn"},
+{"title":"Improving GPT-5.6 Sol in ChatGPT, expanding GPT-5.6 Luna access for free users","score":141,"url":"https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/","summary":"OpenAI优化GPT-5.6 Sol模型，并向免费用户开放GPT-5.6 Luna","source":"hn"},
+{"title":"GitHub Actions and Pages experiencing degraded availability","score":313,"url":"https://www.githubstatus.com/incidents/qcvjkzcs7j74","summary":"GitHub Actions和Pages遭遇可用性下降，影响大量开发者","source":"hn"},
+{"title":"Agent Plugins 1.0.0发布：谷歌、亚马逊、微软等支持的统一智能体插件规范","score":250,"url":"https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more","summary":"Google/Amazon/Microsoft联合推出统一AI Agent插件规范1.0.0","source":"aihot"},
+{"title":"科学家首次用AI制造新病毒","score":200,"url":"https://x.com/AISafetyMemes/status/2085447739320758622","summary":"研究人员首次完全使用AI工具合成新型病毒，引发生物安全担忧","source":"aihot"},
+{"title":"微软首次披露OpenAI贡献七成AI收入","score":220,"url":"https://x.com/rohanpaul_ai/status/2085368375816163423","summary":"微软财报首次披露OpenAI贡献约70%的AI相关收入","source":"aihot"},
+{"title":"Google大规模AI组织调整背后的混乱政治","score":280,"url":"https://www.theverge.com/tech/976108/google-ai-leadership-shakeup-jeff-dean-demis-hassabis-deepmind","summary":"Google AI部门大重组，Jeff Dean与Demis Hassabis权力博弈内幕","source":"aihot"}
+]

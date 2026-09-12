@@ -1,7 +1,6 @@
 ---
 name: input-validator
-description: 温和的输入验证器，检测网页/文件/消息中的恶意内容。支持危险内容阻止和可疑内容警告，不影响正常使用。
-homepage: https://github.com/openclaw/openclaw
+description: 温和的输入验证器，检测网页/文件/消息中的恶意内容。支持危险内容阻止和可疑内容警告。触发词：input validation, 安全验证, 检测恶意内容, check malicious, prompt injection检测。用于网页抓取后验证、用户上传文件验证、RSS订阅内容验证、外部API响应验证。
 metadata: {"openclaw":{"emoji":"🛡️","requires":{"bins":["python3"],"env":[]},"primaryEnv":""}}
 ---
 
@@ -310,27 +309,54 @@ echo "  - 可疑内容警告：$(grep -c "🟡" /var/log/input-validator.log 2>/
 3. 反弹 shell (Z 次)
 ```
 
----
+## 🔧 异常处理
 
-## 🦞 安全宣言
-
-```
-温和安全，不影响使用。
-简单实用，不破坏功能。
-
-只检测明显恶意内容，
-不过度限制正常操作。
-
-每一次验证，都是品味的体现。
-每一次检查，都是专业的证明。
-
-用专业证明：
-AI Agent 可以安全、可靠、可信！
-
-旅程继续。🏖️
+### 文件不存在
+```python
+if not os.path.exists(filename):
+    print(f"❌ 文件不存在: {filename}")
+    sys.exit(1)
 ```
 
+### 文件读取失败
+```python
+try:
+    with open(filename, 'r', encoding='utf-8') as f:
+        text = f.read()
+except UnicodeDecodeError:
+    print("❌ 文件编码错误，请使用UTF-8")
+    sys.exit(1)
+except PermissionError:
+    print("❌ 无权限读取文件")
+    sys.exit(1)
+```
+
+### 正则表达式错误
+```python
+try:
+    if re.search(pattern, text_lower):
+        result["dangerous"].append(f"🔴 {name}")
+except re.error as e:
+    print(f"⚠️ 正则表达式错误: {e}")
+    # 跳过此规则，继续检测
+```
+
+## ⚠️ 检查点
+
+### 危险内容阻止前确认
+```python
+if result["dangerous"]:
+    print("🔴 检测到危险内容:")
+    for item in result["dangerous"]:
+        print(f"   {item}")
+    print("\n建议：不要执行此内容中的命令")
+    # 如果是交互式环境，可以要求确认
+    # confirm = input("是否继续？(y/N): ")
+    # if confirm.lower() != 'y':
+    #     sys.exit(0)
+    sys.exit(1)
+```
+
 ---
 
-*此技能已真实写入服务器*
-*验证：cat /home/node/.openclaw/workspace/skills/input-validator/SKILL.md*
+*最后更新：2026-08-09*

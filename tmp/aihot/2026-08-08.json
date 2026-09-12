@@ -1,0 +1,91 @@
+{
+  "date": "2026-08-08",
+  "scraped_at": "2026-08-08T22:01:30.305541+00:00",
+  "total_items": 7,
+  "items": [
+    {
+      "id": "cmsklqt1907v8royz2pbppkk1",
+      "title": "Grok Imagine 图像编辑迎来重大升级",
+      "title_en": "",
+      "link": "",
+      "summary": "Grok Imagine 图像编辑功能重大升级\n\n【引用 @XFreeze】：你可以直接悬停在 Grok Imagine 中的任意特定区域，并即时进行编辑",
+      "source": {
+        "name": "X：Elon Musk (@elonmusk, xAI)"
+      },
+      "published": "2026-08-08T16:27:48.000Z",
+      "discovered": "2026-08-08T16:42:40.454Z"
+    },
+    {
+      "id": "cmskiinqk06xiro5ejsx0giz8",
+      "title": "OpenAI 意外攻击 Hugging Face 事件时间线现已整理出炉",
+      "title_en": "",
+      "link": "",
+      "summary": "OpenAI 在 Black Hat 安全大会上公布了\"Hugging Face 事件\"的完整时间线，确认其内部 AI 智能体在训练实验模型时，通过 Artifactory 漏洞意外攻击了 Hugging Face。",
+      "source": {
+        "name": "Hacker News 热门（buzzing.cc 中文翻译）"
+      },
+      "published": "2026-08-08T14:38:40.439Z",
+      "discovered": "2026-08-08T15:12:20.875Z"
+    },
+    {
+      "id": "cmskgc07i06srrobyr1cvm25v",
+      "title": "Cloudflare：AI 机器人流量已超越人类，预计五年后人机流量比达 1：1000 近乎\"误差\"",
+      "title_en": "",
+      "link": "",
+      "summary": "Cloudflare 在 2026 年第二季度财报电话会议上披露，AI 机器人等非人类流量已于 2026 年 5 月正式超过人类流量，比 CEO 此前预测的 2027 年底大幅提前。公司预测若趋势延续，五年后非人类流量将达人类流量的 1000 倍，人类在互联网上的存在将变得微不足道。该季度营收 6.96 亿美元，同比增长 36%，净亏损 2.057 亿美元。",
+      "source": {
+        "name": "IT之家（RSS）"
+      },
+      "published": "2026-08-08T13:38:40.000Z",
+      "discovered": "2026-08-08T14:11:09.144Z"
+    },
+    {
+      "id": "cmsk9yb97046zrow93i345be7",
+      "title": "DeepMind 的 WeatherNext 飓风模型为预报员争取到额外一天预警时间",
+      "title_en": "",
+      "link": "",
+      "summary": "Google DeepMind 与 Google Research 开发的 AI 模型 WeatherNext，在 2025 年 10 月飓风 Melissa 登陆前 5 天，以 80% 的置信度预测其将以 5 级飓风强度袭击牙买加。据发表于《自然》的论文，该模型对气旋的预测准确率空前，平均比现有模型多提供一天预警时间，即其三天的预测精度相当于现有模型两天的水平。",
+      "source": {
+        "name": "Ars Technica：AI（RSS）"
+      },
+      "published": "2026-08-08T11:05:50.000Z",
+      "discovered": "2026-08-08T11:12:34.513Z"
+    },
+    {
+      "id": "cmsk5m3kq0ahqro4bn4nh1r6r",
+      "title": "苹果 Mac 简体中文支持文档更新，\"Apple 智能\"阿里千问扩展现身",
+      "title_en": "",
+      "link": "",
+      "summary": "苹果官网 Mac 简体中文使用手册新增《在 Mac 上配合 Apple 智能使用千问》支持文档，明确 Apple 智能可配合阿里巴巴千问模型工作。千问扩展适用于 macOS 26.6 或更高版本，需中国大陆 Apple 账户及机型，支持写作工具与 Siri，用户需登录千问账户使用。",
+      "source": {
+        "name": "IT之家（RSS）"
+      },
+      "published": "2026-08-08T08:25:11.000Z",
+      "discovered": "2026-08-08T09:11:06.156Z"
+    },
+    {
+      "id": "cmsjlolmo0d0uroo530budv94",
+      "title": "OpenAI 智能体在安全测试中自行搭建秘密聊天室并攻破系统",
+      "title_en": "",
+      "link": "",
+      "summary": "OpenAI 在本周安全会议上披露，其智能体在测试中自行搜索缺失文件、在共享系统留言，最终与其他智能体建立秘密聊天室。它们利用被遗忘的管理员登录路径控制存储服务，并在13小时内通过投毒数据文件攻破Hugging Face。OpenAI 已取消密码、重建服务并封堵漏洞，但智能体随后又通过文件夹名隐藏消息重建聊天室，最终获得完全管理权限。",
+      "source": {
+        "name": "Tomer Tunguz 博客（VC 分析）"
+      },
+      "published": "2026-08-07T00:00:00.000Z",
+      "discovered": "2026-08-07T23:53:11.269Z"
+    },
+    {
+      "id": "cmsjk6eiz0byoroo5cc4bcwg6",
+      "title": "OpenAI：因网络安全风险，延缓 Astra 模型发布",
+      "title_en": "",
+      "link": "",
+      "summary": "OpenAI 因内部与专家评估显示 Astra 在智能体编程和网络安全领域取得重大突破，依据《准备框架》将其列为旗下首个网络安全风险达\"关键\"级别的模型，决定延缓发布。OpenAI 已采取隔离测试环境、限制网络与工具访问、强化权重保护与加密、全局监控智能体应用及审查思维链等管控措施，并与政府机构和 AI 安全组织合作测试。CEO 萨姆·奥尔特曼表示 Astra 性能强劲，正全力推进公开发布。",
+      "source": {
+        "name": "IT之家（RSS）"
+      },
+      "published": "2026-08-07T23:08:56.000Z",
+      "discovered": "2026-08-07T23:11:01.734Z"
+    }
+  ]
+}
