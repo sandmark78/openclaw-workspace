@@ -1,0 +1,120 @@
+[
+  {
+    "title": "Mark Zuckerberg: \"Cambridge Analytica\" (2017)",
+    "url": "https://twitter.com/TechEmails/status/2099214399840059428",
+    "score": 110,
+    "comments": 24,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49688157",
+    "leader_tags": [
+      "mark zuckerberg"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Gary Marcus 评 Dario Amodei 的放慢 AI 发展提议：三份赞誉加两分怀疑",
+    "url": "https://garymarcus.substack.com/p/two-cheers-out-of-three-for-dario",
+    "source": "AIHOT",
+    "summary": "Gary Marcus 评析 Dario Amodei 倡导放慢 AI 发展并支持透明度的文章，Sam Altman 与 Elon Musk 迅速表示认同。Marcus 肯定其透明度承诺，但列举多方质疑：METR 与 AI 公司关系过近、Anthropic 借对华威胁维持加速、以及该提议可能意在抢先于真正的监管。",
+    "leader_tags": [
+      "elon musk",
+      "dario amodei",
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
+    "url": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
+    "source": "AIHOT",
+    "summary": "Anthropic 9 月威胁报告披露，据评估极可能关联胡塞组织的也门小组使用 Claude Code 开发制导火箭、射程超 2，000 公里弹道导弹及名为 R2000 的高超声速滑翔载具概念的相关软件。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Why is Google still serving dodgy ads?",
+    "url": "https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads",
+    "score": 348,
+    "comments": 162,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49686445"
+  },
+  {
+    "title": "Astra and Fable still hack on simple variants of alignment evals from 2025",
+    "url": "https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment",
+    "score": 314,
+    "comments": 142,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49684393"
+  },
+  {
+    "title": "Data collected by cars and sold to third parties",
+    "url": "https://www.theverge.com/column/994172/your-car-is-selling-your-data",
+    "score": 199,
+    "comments": 112,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49683953"
+  },
+  {
+    "title": "Global Shortage Has Led to Motor Oil Rationing at Costco",
+    "url": "https://guessingheadlights.com/global-shortage-has-led-to-motor-oil-rationing-at-costco/",
+    "score": 127,
+    "comments": 94,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49686697"
+  },
+  {
+    "title": "JetKVM Mini",
+    "url": "https://jetkvm.com/blog/introducing-jetkvm-mini",
+    "score": 477,
+    "comments": 185,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49681152"
+  },
+  {
+    "title": "Why is the x86 undefined instruction called ud2? Why 2?",
+    "url": "https://devblogs.microsoft.com/oldnewthing/20260910-00/?p=112689",
+    "score": 154,
+    "comments": 39,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49683262"
+  },
+  {
+    "title": "CUDA for AMD on Windows",
+    "url": "https://github.com/Speedstu/CUDA-for-AMD-Windows",
+    "score": 112,
+    "comments": 60,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49684356"
+  },
+  {
+    "title": "Reverse engineering my e-scooter and rewriting the firmware in Rust",
+    "url": "https://bensimms.moe/reverse-engineering-scooter/",
+    "score": 296,
+    "comments": 72,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49638071"
+  },
+  {
+    "title": "Making Startups Powerful",
+    "url": "https://paulgraham.com/powerful.html",
+    "score": 102,
+    "comments": 42,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49684196"
+  },
+  {
+    "title": "Agent 长任务上下文工程解析：用预算控制、压缩、todo-state 和记忆对抗上下文溢出与目标丢失",
+    "url": "https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks",
+    "source": "AIHOT",
+    "summary": "文章解析 Agent harness 层应对长任务中上下文溢出与目标丢失的四类机制：上下文预算与卸载、压缩、todo-state 复述和跨会话记忆。"
+  },
+  {
+    "title": "盘后总结",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

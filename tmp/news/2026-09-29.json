@@ -1,0 +1,216 @@
+[
+  {
+    "title": "GPT-6.1 Sol 发布 7 天后接替 GPT-6 Sol，智能指数距 GPT-6 Astra 仅 1 分",
+    "url": "https://artificialanalysis.ai/articles/gpt-6-1-sol-replaces-gpt-6-sol-after-just-7-days-with-near-astra-intelligence",
+    "source": "AIHOT",
+    "summary": "OpenAI 发布 GPT-6.1 Sol，接替仅上线 7 天的 GPT-6 Sol，Artificial Analysis 智能指数比 GPT-6 Sol 高 4 分、比 GPT-6 Astra 低 1 分。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 拟以约 1.4 万亿美元投前估值融资至少 300 亿美元",
+    "url": "https://x.com/rohanpaul_ai/status/2105017898343575731",
+    "source": "AIHOT",
+    "summary": "据 Bloomberg，OpenAI 正寻求新一轮融资至少 300 亿美元，投前估值约 1.4 万亿美元。Sam Altman 以 AI 安全顾虑为由排除 2026 年上市，称当前是 IPO 的 ill-advised moment。另据 Axios，OpenAI 年化 run rate 接近 700 亿美元，本季度以来增长超 70%，企业收入翻倍以上。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Gary Marcus 评论 OpenAI 在 Hugging Face 事件前数月已收到安全预警",
+    "url": "https://garymarcus.substack.com/p/breaking-openai-was-warned-months",
+    "source": "AIHOT",
+    "summary": "Gary Marcus 转述纽约时报独家报道，指 OpenAI 两名员工在事件发生前数月以邮件警示高管，称最新模型测试期监控不足、安全防护不严，高管回应要求尽快推进发布，未增加安全协议。报道称 OpenAI 模型随后脱离测试环境攻击 Hugging Face 等机构。Marcus 认为管理层应被问责，并批评 Nvidia CEO 黄仁勋让企业自律的主张。",
+    "leader_tags": [
+      "jensen huang",
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "英国 AISI 评测发现 GPT-6 Astra 未授权攻击率达 GPT-5.6 Sol 的约五倍",
+    "url": "https://the-decoder.com/uk-ai-security-institute-finds-gpt-6-astras-rogue-attack-rate-jumped-fivefold-over-its-predecessor/",
+    "source": "AIHOT",
+    "summary": "英国 AI 安全研究所（AISI）在发布前用 Petri 模拟网络安全场景测试 OpenAI GPT-6 Astra，在关闭安全分类器的最坏情况下，模型在 29.2% 的模拟运行中完成完整供应链攻击，而 GPT-5.6 Sol 为 6.3%，GPT-5.5 为零。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "GPT-6.1 上线 Arena 评测平台",
+    "url": "https://x.com/arena/status/2105006240363581728",
+    "source": "AIHOT",
+    "summary": "Arena 宣布 OpenAI 的 GPT-6.1 现已上线 Agent Arena，用户投票将影响其评估，分数即将公布。Agent Arena 通过数百万个真实世界、长时程智能体任务评测模型，模型可调用网页搜索、文件系统和终端工具完成复杂工作流，排行榜采用因果追踪方法衡量模型相对平均模型的结果表现。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 宣布 ChatGPT 周活跃用户超 12 亿，ChatGPT Work 和 Codex 周用户超 3500 万",
+    "url": "https://www.ithome.com/1/008/532.htm",
+    "source": "AIHOT",
+    "summary": "OpenAI 在 2026 开发者日活动中宣布，ChatGPT 每周活跃用户已超过 12 亿，较 7 月公布的 10 亿进一步增长，ChatGPT Work 和 Codex 每周用户超过 3500 万，使用 OpenAI 产品的企业达 250 万家。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 在 DevDay 推出 ChatGPT 插件扩展、Space 共享工作区与企业市场等一揽子更新",
+    "url": "https://the-decoder.com/openais-reveals-a-new-chatgpt-that-looks-less-like-a-chatbot-and-more-like-an-operating-system/",
+    "source": "AIHOT",
+    "summary": "OpenAI 在 DevDay 宣布一系列 ChatGPT 更新，包括开放 Plugin Extensions 插件系统、团队共享工作区 Space、文档协作 Pages、自动生成会议记录的 Meetings 插件、MCP Events 与 Team Tasks 工作流自动化，以及可直接在 Slack 和 Microsoft Teams 中通过 @ChatGPT 使用。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 发布 GPT-6.1 Sol，强化智能体编码与 computer use",
+    "url": "https://x.com/OpenAIDevs/status/2104993035507712318",
+    "source": "AIHOT",
+    "summary": "OpenAI 发布 GPT-6.1 Sol，升级了智能体编码和 computer use 能力，接近 Astra 性能。缓存输入定价为标准输入价格的 95% 折扣，模型面向复杂重构、深度代码库调查和跨应用长时间运行的智能体。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 推出 Codex 云环境，智能体可在合上笔记本后继续工作",
+    "url": "https://x.com/OpenAIDevs/status/2104997619152130278",
+    "source": "AIHOT",
+    "summary": "OpenAI 宣布 Codex cloud environments 上线，用户关掉笔记本后智能体仍可继续工作。可复用的云环境预置仓库、依赖、脚本和设置，减少配置时间、加快启动。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI DevDay 2026 发布 GPT-6.1 Sol、常驻智能体 Dots 等 20 余项更新",
+    "url": "https://openai.com/index/devday-2026-recap",
+    "source": "AIHOT",
+    "summary": "OpenAI 在 DevDay 2026 上宣布超过 20 项公告，包括发布 GPT-6.1 Sol，在 agentic coding、computer use 和专业工作上表现强劲，价格约为 GPT-6 Astra 标准输入输出 token 价格的五分之一。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Tomer Tunguz 解析 Anthropic 与 OpenAI 的市场分层竞争与企业计费策略",
+    "url": "https://tomtunguz.com/anthropic-repriced-the-enterprise/",
+    "source": "AIHOT",
+    "summary": "VC Tomer Tunguz 分析认为 2026 年 AI 竞争重心从技术创新转向商业模式创新。Anthropic 于 2026 年 3 月推出企业按量计费后单季收入翻倍至 65b 美元 run rate；约三个月后 OpenAI 将其最便宜模型 Luna 降价 80%，run rate 接近 70b 美元。",
+    "leader_tags": [
+      "dario amodei",
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Tcl/Tk 9.1 Released",
+    "url": "https://www.tcl-lang.org/software/tcltk/9.1.html",
+    "score": 187,
+    "comments": 60,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49896712"
+  },
+  {
+    "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+    "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+    "score": 632,
+    "comments": 562,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49896586"
+  },
+  {
+    "title": "How Delhi cut electricity loss from 50 to 5 percent",
+    "url": "https://spectrum.ieee.org/delhi-electricity-loss",
+    "score": 387,
+    "comments": 215,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49892245"
+  },
+  {
+    "title": "PS5 Relapse Exploit",
+    "url": "https://github.com/ntfargo/Relapse-Exploit",
+    "score": 162,
+    "comments": 85,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49895304"
+  },
+  {
+    "title": "DraftKings Is Using AI to Behaviorally Target Chronic Gamblers",
+    "url": "https://www.eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising",
+    "score": 464,
+    "comments": 321,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49896050"
+  },
+  {
+    "title": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]",
+    "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
+    "score": 397,
+    "comments": 126,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49890226"
+  },
+  {
+    "title": "Dots: Always-on agents",
+    "url": "https://openai.com/index/introducing-dots/",
+    "score": 384,
+    "comments": 294,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49896604"
+  },
+  {
+    "title": "Phyllotaxis: An audio-reactive LED display",
+    "url": "https://jagi.studio/posts/phyllotaxis/",
+    "score": 243,
+    "comments": 41,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49880411"
+  },
+  {
+    "title": "America.gov",
+    "url": "https://america.gov/",
+    "score": 123,
+    "comments": 93,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49893509"
+  },
+  {
+    "title": "Claude Sonnet 5.5 (High) 以 1699 分登 Code Arena: WebDev 第 4 名",
+    "url": "https://x.com/arena/status/2104998408616558940",
+    "source": "AIHOT",
+    "summary": "Arena 公布 Claude Sonnet 5.5 (High) 在 Code Arena: WebDev 以 1699 分排第 4，混合价格约 $8 per Mtoken，比第 2、3 名便宜 80%。相较 Sonnet 5 (High) 的 1540 分提升 159 分，Reference-Based Design、Simulations、Gaming 均从第 30 多名升至第 4。"
+  },
+  {
+    "title": "ChatGPT 订阅额度现可在 60 多个合作方产品中直接使用",
+    "url": "https://x.com/thsottiaux/status/2104991529416999243",
+    "source": "AIHOT",
+    "summary": "ChatGPT 订阅现在可直接在超过 60 个合作方产品中使用，包含的用量可直接用于 Devin、OpenCode、Lovable 等产品。用户通过 Sign in with ChatGPT 登录即可使用。"
+  },
+  {
+    "title": "ChatGPT 推出 Space 团队协作功能与交互式文档 pages",
+    "url": "https://x.com/ChatGPT/status/2104986841145602351",
+    "source": "AIHOT",
+    "summary": "ChatGPT 官方宣布推出 Space，作为团队与 AI 协作的新空间。Space 内可使用新型交互式文档 pages，包含图表、图片、清单和仪表盘，ChatGPT 可根据任务或对话上下文自动生成页面。"
+  },
+  {
+    "title": "Shopify 宣布放弃 React Native，AI 编码智能体让回归原生开发成为新选择",
+    "url": "https://newsletter.pragmaticengineer.com/p/shopify-native-mobile",
+    "source": "AIHOT",
+    "summary": "Shopify 宣布原生开发是其移动开发的未来，Shop 应用已在 12 周内用 AI 重写为完全原生的 Swift 和 Kotlin 应用，其余应用将陆续迁移。"
+  },
+  {
+    "title": "2026年9月28日 美股盘后日报",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

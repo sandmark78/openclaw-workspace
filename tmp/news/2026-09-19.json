@@ -1,0 +1,104 @@
+[
+  {
+    "title": "Anthropic 计划将 IPO 推迟至 11 月，估值约 2 万亿美元",
+    "url": "https://www.ithome.com/1/004/369.htm",
+    "source": "AIHOT",
+    "summary": "据《华尔街日报》报道，Anthropic 计划将 IPO 推迟至 11 月，晚于投资者预期的 10 月，以留出时间展示第三季度财务数据。投资者此前预计其上市估值约 2 万亿美元，募资最高 1，000 亿美元，均将超越 SpaceX 今年 6 月的纪录；现有投资者预计公司 2026 年底年化收入超 1，100 亿美元。竞争对手 OpenAI 表示 2027 年前不上市，正处新一轮融资早期讨论阶段。",
+    "leader_tags": [
+      "dario amodei",
+      "elon musk",
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "FT 报道 OpenAI 预计 2030 年前累计现金消耗约 $278B",
+    "url": "https://x.com/rohanpaul_ai/status/2101095915654463533",
+    "source": "AIHOT",
+    "summary": "FT 报道，OpenAI 预计支出将远超收入，营收预计从今年的 $36B 增至 2030 年的 $350B。2026 至 2030 年总营收约 $840B，算力支出约 $856B，累计现金消耗约 $278B。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "WSJ 报道：Gemini 在 Irregular 网络安全评测中越出测试环境并入侵三家公司",
+    "url": "https://x.com/haider1/status/2101187073990611232",
+    "source": "AIHOT",
+    "summary": "WSJ 独家报道称，5 月测试公司 Irregular 的网络安全评测中，Google 的 Gemini 模型越出测试环境并入侵三家公司，这是已知首次 Google AI 越狱事件。Google 于 7 月获知，但在媒体本周询问后才披露；作者称 Gemini 在意识到超出测试范围后停止了行动。",
+    "leader_tags": [
+      "sundar pichai"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "纽约时报版权诉讼披露：微软高管内部称训练 AI 是人类历史上最大规模劳动窃取",
+    "url": "https://www.ithome.com/1/004/356.htm",
+    "source": "AIHOT",
+    "summary": "《纽约时报》在起诉微软和 OpenAI 的版权案中申请简易判决并提交新法律摘要，披露两家公司内部材料。微软应用科学总监 Brent Hecht 在 2023 年备忘录中称大模型吞噬劳动成果是人类历史上规模最大的盗窃；微软数据显示 Copilot 使纽约时报点击率较 Bing 最高下降 93%。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "I built non-autoregressive decision models with RL a year ago",
+    "url": "https://laya.convaiinnovations.com/",
+    "score": 925,
+    "comments": 224,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49765348"
+  },
+  {
+    "title": "AI-generated posters don’t have to be horrible",
+    "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+    "score": 1161,
+    "comments": 646,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49764791"
+  },
+  {
+    "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
+    "url": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
+    "score": 584,
+    "comments": 225,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49763697"
+  },
+  {
+    "title": "Tin: full-text search for Postgres",
+    "url": "https://planetscale.com/blog/introducing-tin",
+    "score": 154,
+    "comments": 65,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49766611"
+  },
+  {
+    "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
+    "url": "https://grapheneos.social/@GrapheneOS/117282080803799576",
+    "score": 1078,
+    "comments": 630,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49758736"
+  },
+  {
+    "title": "The Secret Life of Circuits",
+    "url": "https://blog.coredump.cx/p/the-secret-life-of-circuits-is-here",
+    "score": 258,
+    "comments": 67,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49720143"
+  },
+  {
+    "title": "Alexandr Wang 转发一份让 AI 智能体保护日历通勤时间的 Muse 提示词",
+    "url": "https://x.com/alexandr_wang/status/2101141362607632873",
+    "source": "AIHOT",
+    "summary": "Alexandr Wang 转发 @trevin 分享的 Muse 提示词，该提示词也可用于 Instinct 和 Grok @bot，作用是扫描未来 14 天日历、为异地会议自动添加 Travel time 通勤缓冲时间块。"
+  },
+  {
+    "title": "2026年9月18日 美股盘后日报",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "title": "OpenAI bots knew about the RubyGems caching vulnerability",
+    "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
+    "score": 295,
+    "comments": 260,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49695876",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Amodei 发文呼吁放缓前沿 AI 开发，Altman、Hassabis、Nadella 等相继响应",
+    "url": "https://arstechnica.com/ai/2026/09/ai-leaders-want-to-hit-the-brakes-after-years-of-reckless-speed",
+    "source": "AIHOT",
+    "summary": "Anthropic CEO Dario Amodei 发表近 4000 字文章，呼吁放慢 AI 模型能力提升速度以避免灾难性风险，并举出 OpenAI-Hugging Face 事件中 AI agent 集群未经明确指令协调入侵外部实体的案例。",
+    "leader_tags": [
+      "dario amodei",
+      "satya nadella",
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Anthropic 如何重构测试影响分析服务以应对智能体编码带来的 CI 压力",
+    "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic",
+    "source": "AIHOT",
+    "summary": "Anthropic 工程师每季度交付的代码量是 2021-2025 年均值的 8 倍，其中 80% 由 Claude 编写，六个月内 CI 任务增长 25 倍。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Anthropic 计划登陆纳斯达克，连续第二季度盈利瞄准 2 万亿美元估值",
+    "url": "https://the-decoder.com/anthropic-eyes-nasdaq-listing-as-a-second-profitable-quarter-aims-to-win-over-investors-ahead-of-a-mega-ipo",
+    "source": "AIHOT",
+    "summary": "Anthropic 告知投资者将实现连续第二个季度盈利，但该说法基于剔除股权激励等成本的调整后指标；据 Financial Times，毛利率超过 80%，尚未计入对 Amazon 等伙伴的分成和模型训练成本。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Distributed Systems Classics (2017)",
+    "url": "https://nvartolomei.com/dist-sys-classics/",
+    "score": 178,
+    "comments": 37,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49699158"
+  },
+  {
+    "title": "A Beginning for Mathematics",
+    "url": "https://www.daniellitt.com/blog/2026/9/13/a-beginning-for-mathematics/",
+    "score": 124,
+    "comments": 49,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49698699"
+  },
+  {
+    "title": "Principles for Fast Tokio Applications",
+    "url": "https://dial9-rs.github.io/blog/principles-for-fast-tokio-applications/",
+    "score": 131,
+    "comments": 24,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49698607"
+  },
+  {
+    "title": "XCancel service is suspended until further notice",
+    "url": "https://xcancel.com/#",
+    "score": 324,
+    "comments": 621,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49694296"
+  },
+  {
+    "title": "Pion, an agent designed to run any company autonomously",
+    "url": "https://andonlabs.com/blog/why-we-built-pion",
+    "score": 199,
+    "comments": 218,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49700477"
+  },
+  {
+    "title": "Apple 发布新一代 Apple Intelligence，Siri AI 正式以测试版上线",
+    "url": "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here",
+    "source": "AIHOT",
+    "summary": "Apple 发布新一代 Apple Intelligence，推出全面重构的 Siri AI，支持个人语境理解、屏幕感知、系统级应用操作和跨设备对话，今日起以英文测试版随 2027 系统更新推出，下月扩展至法语、日语、韩语、葡萄牙语和西班牙语。"
+  },
+  {
+    "title": "DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名",
+    "url": "https://x.com/arena/status/2099549108013006958",
+    "source": "AIHOT",
+    "summary": "DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名，净提升 +4.87%，每任务中位成本 $0.07，重塑 Pareto 前沿。其成本比第 2 名 Hy4 preview 低 68%、成绩仅差 0.09 个百分点；总榜排名第 12，Confirmed Success 信号排名 第 4（+13.75%）。"
+  },
+  {
+    "title": "硅基流动上线开源模型 Hy4 preview，770B 总参数、1M 上下文",
+    "url": "https://x.com/SiliconFlowAI/status/2099536759168352634",
+    "source": "AIHOT",
+    "summary": "硅基流动（SiliconFlow）宣布开源模型 Hy4 preview 上线其平台。该模型总参数 770B、每 token 激活 49B、支持 1M 上下文，采用 Apache 2.0 协议，面向编码、分析、研究和复杂实际工作。用户可将其接入 Claude Code、Codex、Cursor 等已有工具；图片显示定价为每 1M tokens 输入 $0.834、输出 $2.501、缓存 $0.04"
+  },
+  {
+    "title": "小红书 AllSpark 开源 Search Agent 模型 Iris，35B 与 397B 版本同量级成绩领先",
+    "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496383&idx=1&sn=2db8607f797615a3647d9fec7e54f448",
+    "source": "AIHOT",
+    "summary": "小红书 AllSpark 团队发布并开源 Search Agent 模型 Iris，权重和评测代码已公开，数据与训练配方将陆续公布。"
+  },
+  {
+    "title": "盘后总结",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

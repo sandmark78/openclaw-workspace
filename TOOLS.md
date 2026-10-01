@@ -121,8 +121,8 @@ web_fetch "https://reddit.com/r/opensource"
 grep -r "关键词" knowledge_base/
 python3 scripts/knowledge-retriever-demo.py
 
-# 🚫 禁用：web_search (Brave API 已永久禁用)
-# web_search "query" --count 5  # 不再使用
+# 🚫 禁用：web_search (2026-09-16 老大指示永久禁用)
+# web_search "query"  # 绝对不使用，违反即记录
 ```
 
 ### AIHOT API（2026-08-03 更新）

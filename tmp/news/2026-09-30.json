@@ -1,0 +1,179 @@
+[
+  {
+    "title": "Artificial Analysis 评测 Gemini 4 Argon，智能指数追平 GPT-6 Astra 且成本仅 60%",
+    "url": "https://x.com/ArtificialAnlys/status/2105392625788637299",
+    "source": "AIHOT",
+    "summary": "Artificial Analysis 评测 Google DeepMind 新模型 Gemini 4 Argon，在 Artificial Analysis Intelligence Index 得 53 分，追平 GPT-6 Astra (max)，高于 GPT-6.1 Sol (max) 1 分。",
+    "leader_tags": [
+      "sundar pichai"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Google DeepMind 发布 Gemini 4 Argon，面向可信网络防御者先行开放",
+    "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+    "source": "AIHOT",
+    "summary": "Google DeepMind 发布新前沿模型 Gemini 4 Argon，先通过 Fairwind Program 向可信网络防御者开放，后续将逐步面向开发者、企业和消费者推出。",
+    "leader_tags": [
+      "sundar pichai"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Trump 推动二十余家科技公司签署自愿性 AI 安全协议",
+    "url": "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/",
+    "source": "AIHOT",
+    "summary": "约二十余家科技公司签署白宫超级智能协议，承诺实施独立安全审计、定期会商并制定共同安全标准，涵盖网络安全、生物安全和化学威胁等风险。协议无法律约束力，Trump 称其具有道德约束力。文章指出 OpenAI 近期多起事故源于今年 5 至 7 月开发中的一个未发布模型，其安全委员会有效性受到特拉华和加州总检察长调查，FTC 也就 AI 智能体潜在消费者损害发起调查。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "GPT-6.1 Sol (Max) 以 1759 分登上 Code Arena: WebDev 第 3 名",
+    "url": "https://x.com/arena/status/2105367591174995999",
+    "source": "AIHOT",
+    "summary": "Arena 评测榜单显示，OpenAI 的 GPT-6.1 Sol (Max) 以 1759 分位列 Code Arena: WebDev 第 3 名，混合价格为 $8/MToken。相比 GPT-6 Sol (Max) 同价提升 70 分，排名上升 4 位，且在 Consumer Product 等所有类目均有提升。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 披露并处置一起有组织的模型蒸馏攻击行动",
+    "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+    "source": "AIHOT",
+    "summary": "OpenAI 披露其识别并处置了一起有组织的攻击行动，该行动旨在系统性提取模型受保护的推理内容，最早活动出现在 7 月第一周。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Anthropic 研究测算机器人对岗位的暴露度：机器人可做 74% 的物理任务但仅 0.3% 具备成本竞争力",
+    "url": "https://www.anthropic.com/research/what-work-can-robots-do",
+    "source": "AIHOT",
+    "summary": "Anthropic 发布研究，用 Claude 对约 19,000 项工作任务评估机器人暴露度，发现现今机器人可完成美国 74% 的物理任务（占全部工作时间的 34%），但仅在 0.3% 的任务上比人工更具成本竞争力，按每年约 3% 的降价趋势需约 40 年才能达到 10%。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Google DeepMind 发布 SynthID Bio，为 AI 生成的蛋白质嵌入可验证水印",
+    "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+    "source": "AIHOT",
+    "summary": "Google DeepMind 于 9 月 30 日发布 SynthID Bio，将水印技术引入合成生物学，把不可见签名嵌入生物序列和预测结构中，使水印可在合成的物理蛋白质上验证，且在湿实验中不损害生物功能。",
+    "leader_tags": [
+      "sundar pichai"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "FTC 以消费者保护为由对 OpenAI、Anthropic 等 AI 实验室启动全面调查",
+    "url": "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
+    "source": "AIHOT",
+    "summary": "FTC 正以潜在消费者保护违规为由调查 OpenAI、Anthropic 等头部 AI 实验室，主席 Andrew Ferguson 计划通过具法律约束力的 Civil Investigative Demands 强制调取文件并质询高管，命令将在数周内发出，METR 也在审查范围之列。",
+    "leader_tags": [
+      "dario amodei",
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Gemini 4 Argon",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+    "score": 511,
+    "comments": 282,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49913571"
+  },
+  {
+    "title": "A brief history of the Bloomberg terminal",
+    "url": "https://spectrum.ieee.org/bloomberg-terminal",
+    "score": 181,
+    "comments": 70,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49909583"
+  },
+  {
+    "title": "You said no MCP",
+    "url": "https://earendil.com/posts/you-said-no-mcp/",
+    "score": 557,
+    "comments": 320,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49906637"
+  },
+  {
+    "title": "I Could've Accessed 17T Microsoft Records",
+    "url": "https://blog.faav.net/how-i-couldve-accessed-17-trillion-microsoft-records",
+    "score": 213,
+    "comments": 97,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49883970"
+  },
+  {
+    "title": "The last time my family was replaced by technology",
+    "url": "https://manuel.darcemont.fr/posts/the-last-time-my-family-was-replaced-by-technology/",
+    "score": 141,
+    "comments": 326,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49908394"
+  },
+  {
+    "title": "What TLA+ can and can't check",
+    "url": "https://buttondown.com/hillelwayne/archive/what-tla-can-and-cant-check/",
+    "score": 107,
+    "comments": 23,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49909056"
+  },
+  {
+    "title": "METR 主席 Chris Painter 就 AI 智能体事件向美国参议院作证",
+    "url": "https://metr.org/blog/2026-09-30-chris-painter-senate-testimony/",
+    "source": "AIHOT",
+    "summary": "2026年9月30日，METR 主席 Chris Painter 在美国参议院国土安全小组委员会题为“Rogue AI”的听证会上作证，主题为 AI 智能体事故。"
+  },
+  {
+    "title": "Perplexity 开放 Computer 邮件委托入口并限时免费运行任务",
+    "url": "https://x.com/AravSrinivas/status/2105369479190601754",
+    "source": "AIHOT",
+    "summary": "Perplexity 向所有人开放 Computer 的邮件委托功能，无需 Perplexity 账号，将转发或抄送 computer@perplexity.com 的任务限时免费运行。智能体会在后台完成任务并保留邮件上下文，每个邮件任务在 Computer 中作为正常会话运行，可在网页和移动端查看，并带有与应用内任务相同的审计记录。"
+  },
+  {
+    "title": "Factory Automations 正式开放：Droid 可定时或按事件自动执行工程工作流",
+    "url": "https://factory.ai/news/automations",
+    "source": "AIHOT",
+    "summary": "Factory 宣布 Automations 正式向所有用户开放，用自然语言描述工作流后，Droid 可按定时或 Slack、GitHub、webhook 触发运行，支持自选模型（含 BYOK 和 Factory Router）与自选机器。"
+  },
+  {
+    "title": "MIT 等机构发布 Ataraxos，以极低成本战胜顶级人类 Stratego 选手",
+    "url": "https://news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930",
+    "source": "AIHOT",
+    "summary": "MIT、CMU、NYU 与 Stanford 的研究人员开发出 AI 系统 Ataraxos，在隐藏信息棋盘战棋 Stratego 上大幅超越世界顶级人类选手，论文发表于 Nature。"
+  },
+  {
+    "title": "ElevenLabs 完成 3 亿美元员工股份回购，估值升至 220 亿美元",
+    "url": "https://elevenlabs.io/blog/tender-22bn",
+    "source": "AIHOT",
+    "summary": "ElevenLabs 完成 3 亿美元员工 tender offer，估值达 220 亿美元，是 2026 年 2 月 Series D 估值的两倍，由 Wellington 和 T. Rowe Price 领投。企业业务占收入 55%，ElevenAgents 每周处理超 1500 万次对话，ARR 自 2 月以来增长超 3 倍，客户语音智能体解决问题平均比聊天智能体快 31%。"
+  },
+  {
+    "title": "Hugging Face CEO 称收到数千条私信，将花几天逐一处理",
+    "url": "https://x.com/ClementDelangue/status/2105276853632094607",
+    "source": "AIHOT",
+    "summary": "Clément Delangue 表示收到数千条私信，但 @bot 无法自动分析私信，需要几天时间处理。他称暂时只会关注特别匹配的人选，未获回复不代表负面评价，并可前往 https://apply.workable.com/huggingface 申请具体职位。"
+  },
+  {
+    "title": "蚂蚁百灵发布 Ling-3.1-flash，面向真实世界长任务升级",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw==&mid=2247488041&idx=1&sn=e895cef2129ff2a96598d78b5a45c17b&chksm=c3a0565f2837a278a1a2f05d010189577c4e94fb18ccdd5e25001862b11c205fcd792160b382&scene=126&sessionid=1790772500#rd",
+    "source": "AIHOT",
+    "summary": "蚂蚁百灵推出 Ling-3.1-flash，总参数约 560B，每个 Token 激活约 25B，上下文窗口上限 1M，延续混合线性架构并提高线性 Attention 层比例（7 层 KDA 配 1 层 Gated MLA，512 个路由专家选 8 个加 1 个共享专家）。"
+  },
+  {
+    "title": "2026年9月29日 美股盘后日报",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

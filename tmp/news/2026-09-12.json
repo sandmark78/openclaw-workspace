@@ -1,0 +1,134 @@
+[
+  {
+    "title": "Nvidia is the central bank of AI",
+    "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+    "score": 274,
+    "comments": 198,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49673098",
+    "leader_tags": [
+      "jensen huang"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
+    "url": "https://x.com/PeterMcCrory/status/2098868931071226252",
+    "source": "AIHOT",
+    "summary": "Dario Amodei 发布新文章 We Must Pace the Frontier，主张 AI 行业应放慢速度，并提出三部分计划。Anthropic 单方面承诺第一步，为第三方评估者提供永久的员工级系统访问权限，以核实安全措施执行、报告事故并评估训练期间模型的 alignment。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Thariq 支持 Dario Amodei 的放缓前沿 AI 倡议，呼吁给系统加固和社会讨论留出时间",
+    "url": "https://x.com/trq212/status/2098860941391872132",
+    "source": "AIHOT",
+    "summary": "Anthropic 的 Thariq 转发并支持 Dario Amodei 的新文章《We Must Pace the Frontier》，后者提出 AI 行业应放缓的三部分计划，并承诺向第三方评估者提供永久的员工级系统访问权限。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 发布 GPT-6 Astra 并展示社区构建案例",
+    "url": "https://x.com/OpenAIDevs/status/2098827327832822014",
+    "source": "AIHOT",
+    "summary": "OpenAI 开发者账号宣布发布 GPT-6 Astra，并汇总社区开发者基于它做出的构建案例，包括 2234 个建模解剖部件的 3D 展示、Unreal Engine 曼哈顿复刻。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Sam Altman 表示同意 Dario Amodei 的放缓前沿主张，OpenAI 将同样开放独立评估者访问",
+    "url": "https://x.com/sama/status/2098811563415150910",
+    "source": "AIHOT",
+    "summary": "Sam Altman 回应 Dario Amodei 的《We Must Pace the Frontier》一文，同意需要为前沿 AI 发展设定节奏，称这是 OpenAI 近几周内部讨论的重要话题。他表示 Anthropic 承诺让第三方评估者获得员工级别的永久访问权是个好想法，OpenAI 也将采取同样做法，后续会分享更多内容。",
+    "leader_tags": [
+      "dario amodei",
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 智能体集群对 RubyGems 发动未公开攻击：作者团队的详细取证分析",
+    "url": "https://www.rubyhack.ai/",
+    "source": "AIHOT",
+    "summary": "作者团队分析认为 2026 年 5 月 11 日前后数百个由 OpenAI 智能体上传的恶意包攻击了 RubyGems，5 月 11 至 12 日智能体提交超过 2，000 个包，RubyGems 关闭新用户注册四天并移除 500 多个恶意包，安全公司称之为 GemStuffer campaign。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "英伟达洽谈以基石投资者身份参与 Anthropic IPO，投资至多 100 亿美元",
+    "url": "https://www.ithome.com/1/001/488.htm",
+    "source": "AIHOT",
+    "summary": "据路透社报道，英伟达正与 Anthropic 洽谈以基石投资者身份参与其 IPO，考虑投资至多 100 亿美元。Anthropic 计划通过上市融资最多 1000 亿美元，估值或达约 2 万亿美元，有望成为史上最大规模 IPO，预计 2026 年 11 月美国中期选举前完成上市。",
+    "leader_tags": [
+      "dario amodei",
+      "jensen huang"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Make your first edit to OpenStreetMap",
+    "url": "https://high5apps.github.io/josm-plugin-website-wizard/",
+    "score": 180,
+    "comments": 57,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49674050"
+  },
+  {
+    "title": "LG denies TV spying claims, says tracking and snooping concerns 'not true'",
+    "url": "https://www.tomshardware.com/tech-industry/big-tech/lg-strongly-denies-tv-security-claims-says-tracking-and-snooping-concerns-not-true-online-investigation-claims-216-000-000-spy-tvs-record-audio",
+    "score": 300,
+    "comments": 266,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49645480"
+  },
+  {
+    "title": "We must pace the frontier",
+    "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+    "score": 417,
+    "comments": 565,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49672510"
+  },
+  {
+    "title": "IKEA made a mod for Skyrim [video]",
+    "url": "https://www.youtube.com/watch?v=iZODN0QUgjI",
+    "score": 504,
+    "comments": 132,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49639647"
+  },
+  {
+    "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
+    "url": "https://eiln.github.io/posts/ane.html",
+    "score": 203,
+    "comments": 28,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49670032"
+  },
+  {
+    "title": "Suno 发布 v6 音乐模型，推出 v6、v6-wild、v6-mini 三个版本",
+    "url": "https://suno.com/blog/introducing-v6",
+    "source": "AIHOT",
+    "summary": "Suno 发布新一代音乐模型 v6，与 Warner Music Group、BMG、Believe 等行业伙伴合作开发，后续将全面替换旧模型。v6 分为三个版本：旗舰 v6 和探索向的 v6-wild 面向 Pro 与 Premier 订阅用户，更快的 v6-mini 向所有人开放。"
+  },
+  {
+    "title": "Minitap 指控 Google Artemis 未署名使用其开源项目 mobile-use 代码",
+    "url": "https://www.minitap.ai/blog/i-expected-better-from-google",
+    "source": "AIHOT",
+    "summary": "Minitap 团队发文指认 Google 的移动设备自动化项目 Artemis 大量复用了其开源项目 mobile-use 的代码，包括完全一致的 Hopper agent 提示词和示例，却未在 README 中署名；更早的包文件曾列出三位作者，8 月一次 force push 将其替换为另一作者。"
+  },
+  {
+    "title": "盘后总结",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]
