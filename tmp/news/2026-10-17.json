@@ -1,0 +1,104 @@
+[
+  {
+    "title": "Anthropic 报告：AI 如何改变公司内部的雇佣与工作组织",
+    "url": "https://www.anthropic.com/research/employment-at-anthropic",
+    "source": "AIHOT",
+    "summary": "Anthropic 发布基于内部数据的技术报告，研究 AI 对自身雇佣与工作组织的影响。到 2026 年 8 月，交互式 AI agent 工时已达员工的 6 倍；技术部门初级员工占比从 21% 降至 14%，初级技术招聘占比从 27% 降至 9%。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Bleached corals thrive within days when touching healthy neighbour",
+    "url": "https://www.nature.com/articles/d41586-026-03266-x",
+    "score": 168,
+    "comments": 23,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50126253"
+  },
+  {
+    "title": "Furifont, a Japanese font that shows furigana",
+    "url": "https://furifont.antfu.me/",
+    "score": 183,
+    "comments": 42,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50100994"
+  },
+  {
+    "title": "Making chicken transparent using Dorito dust",
+    "url": "https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using",
+    "score": 216,
+    "comments": 59,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50131213"
+  },
+  {
+    "title": "DeepSeek-v4.1-Flash-1017",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "score": 584,
+    "comments": 520,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50129045"
+  },
+  {
+    "title": "Pele – Mermaid diagrams as themeable SVG",
+    "url": "https://pele.run/",
+    "score": 105,
+    "comments": 13,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50132193"
+  },
+  {
+    "title": "Gold is now the top U.S. export",
+    "url": "https://www.numismaticnews.net/gold-now-top-u-s-export",
+    "score": 126,
+    "comments": 63,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50132870"
+  },
+  {
+    "title": "Solar surpasses nuclear power globally for first time",
+    "url": "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/",
+    "score": 398,
+    "comments": 241,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50131256"
+  },
+  {
+    "title": "卡兹克实测37999元RTX Spark轻薄本：一周实现本地Token自由",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687354&idx=1&sn=dea0d54dc3b71b361e36199db6cf4a86",
+    "source": "AIHOT",
+    "summary": "数字生命卡兹克分享华硕ProArt创16（RTX Spark N1X芯片、128G统一内存、37999元）的一周深度使用体验，该机全球开售时128G版本在京东几分钟内被抢空。"
+  },
+  {
+    "title": "WorkBuddy Intl 更新支持 DeepSeek-V4.1-Flash-1017，10 月 31 日前免费",
+    "url": "https://x.com/WorkBuddy_AI/status/2111404103402430558",
+    "source": "AIHOT",
+    "summary": "WorkBuddy Intl 已更新至最新的 DeepSeek-V4.1-Flash-1017 模型，10 月 31 日前免费开放。引用的 DeepSeek 官方内容称该模型相比上一版性能更强、任务完成更快、输出更短，已上线网站、App 和 API，并针对 DeepSeek Harness、Tencent CodeBuddy、WorkBuddy 等做了优化。"
+  },
+  {
+    "title": "DeepSeek-V4.1-Flash-1017 发布，多基准成绩提升且 API 价格不变",
+    "url": "https://api-docs.deepseek.com/zh-cn/updates/#deepseek-v41-flash-1017-更新",
+    "source": "AIHOT",
+    "summary": "DeepSeek 将 V4.1 Flash 升级至 DeepSeek-V4.1-Flash-1017，网页端与 APP 同步更新，API 调用方式与价格不变，仍用 deepseek-flash 访问。"
+  },
+  {
+    "title": "DeepSeek 开放自研搜索 API",
+    "url": "https://api-docs.deepseek.com/zh-cn/updates/#开放自研搜索-api",
+    "source": "AIHOT",
+    "summary": "DeepSeek 开放自研搜索 API，底层由 AI 原生的 DeepSeek 搜索引擎提供，每天稳定处理数亿次搜索请求。该引擎索引全球千亿级网页、支持多语言，并通过识别机制过滤 SEO 作弊、GEO 操纵和低质 AIGC，使用方式见网页搜索与抓取指南。"
+  },
+  {
+    "title": "Muse Spark Open (Max) 登顶 Code Arena: WebDev 美国开源模型第一",
+    "url": "https://x.com/arena/status/2111221323217412318",
+    "source": "AIHOT",
+    "summary": "Arena 公布 Meta 发布的 Muse Spark Open (Max) 在 Code Arena: WebDev 以 1511 分位居美国开源模型第一、开源模型总榜第 13。"
+  },
+  {
+    "title": "2026年10月16日 美股盘后日报",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

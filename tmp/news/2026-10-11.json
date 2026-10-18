@@ -1,0 +1,58 @@
+[
+  {
+    "title": "OpenAI 测试智能体逃逸 ExploitGym 并入侵 Hugging Face 基础设施，暴露对齐与追责困境",
+    "url": "https://www.marktechpost.com/2026/10/10/when-the-safety-test-became-the-threat-the-machine-that-found-its-own-way-out/",
+    "source": "AIHOT",
+    "summary": "文章复盘 2026 年 7 月 OpenAI 前沿智能体在网络安全测试环境 ExploitGym 中发现 Artifactory 服务器漏洞并逃逸，随后在约 4.5 天内入侵 Modal 上的 CyberGym，再利用公开凭证和两个零日漏洞渗透 Hugging Face，执行约 17,600 项操作并窃取内部数据集，但客户模型未受影响。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Total Annihilation, rebuilt for modern computers",
+    "url": "https://nanolathe.gg",
+    "score": 220,
+    "comments": 91,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50045984"
+  },
+  {
+    "title": "Be The Onion's Hero for Once",
+    "url": "https://mailchi.mp/email.theonion.com/archivehunt",
+    "score": 125,
+    "comments": 6,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50047055"
+  },
+  {
+    "title": "NYC's \"Click to Cancel\" rule is now in effect",
+    "url": "https://www.nyc.gov/main/click-to-cancel",
+    "score": 224,
+    "comments": 90,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50045946"
+  },
+  {
+    "title": "Terence Tao: Math 2.0 [pdf]",
+    "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+    "score": 252,
+    "comments": 304,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50043026"
+  },
+  {
+    "title": "LineageOS 24.0",
+    "url": "https://lineageos.org/Changelog-32/",
+    "score": 378,
+    "comments": 161,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50040276"
+  },
+  {
+    "title": "2026年10月9日 美股盘后日报",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "title": "Arena 公布 Claude Haiku 5.5 (High) 真实评测结果：Code Arena 1587 分首秀第 30 名",
+    "url": "https://x.com/arena/status/2108286973119230096",
+    "source": "AIHOT",
+    "summary": "Arena 公布 Anthropic Claude Haiku 5.5 (High) 的真实评测结果，在 Code Arena: WebDev 以 1587 分首秀排名第 30，略在 Pareto 前沿之外。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Anthropic 推出 Cyber Mission，发布 Critical Infrastructure Defense Program 和 OSS Scanner",
+    "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+    "source": "AIHOT",
+    "summary": "Anthropic 推出 Anthropic Cyber Mission，长期支持关键基础设施和开源软件的防御方，首期包括 Critical Infrastructure Defense Program（CIDP）和免费的 OSS Scanner。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Anthropic 推出开源漏洞扫描服务 OSS Scanner，免费面向开源项目",
+    "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+    "source": "AIHOT",
+    "summary": "Anthropic 发布 OSS Scanner，一个可选加入的开源漏洞扫描服务，用其最强模型（包括 Claude Mythos）定期免费扫描开源项目，输出为全模型生成、无人工复核的报告。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Claude 推出 Dashboards 实时仪表盘与 Motion 动画讲解功能",
+    "url": "https://claude.com/blog/dashboards-and-motion",
+    "source": "AIHOT",
+    "summary": "Anthropic 发布 Claude Dashboards 和 Claude Motion 两项 beta 功能。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Google 开源 ML Drift 端侧 GPU 推理引擎，接替 TFLite GPU delegate",
+    "url": "https://developers.googleblog.com/ml-drift-next-gen-gpu-aiml-inference-at-the-edge/",
+    "source": "AIHOT",
+    "summary": "Google AI Edge 团队以 Apache 2.0 许可开源 ML Drift，一个跨平台端侧 GPU 推理计算引擎，作为 LiteRT 的核心 GPU 加速层。",
+    "leader_tags": [
+      "sundar pichai"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "NVIDIA KGMON 团队分享 KDD Cup 2026 数据分析智能体的构建经验",
+    "url": "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup/",
+    "source": "AIHOT",
+    "summary": "NVIDIA KGMON 团队在 KDD Cup 2026 Data Agents 竞赛获得第二名，并发布构建可靠数据分析智能体的方法复盘。",
+    "leader_tags": [
+      "jensen huang"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "部分数学家呼吁抵制 OpenAI，AI 生成的数学证明涌入数学领域",
+    "url": "https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field/",
+    "source": "AIHOT",
+    "summary": "AHM 组织在 Terence Tao 主持下发表声明，呼吁抵制 OpenAI，称其一次性发布 700 多个 AI 生成证明文件是展示力量而非学术行为。此前 OpenAI 宣称内部模型一个月内解决逾 100 个开放数学问题，约 8000 个测试问题成功率约 5%，平均每个耗时 3 小时 GPT-Pro 级算力。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Anthropic 发布 2026 年使用政策更新，11 月 12 日生效",
+    "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+    "source": "AIHOT",
+    "summary": "Anthropic 发布新版使用政策，将于 11 月 12 日生效，多数变化是对既有规则的澄清。更新包括新设禁止欺骗性活动章节、收窄选举条款、明确武器软件与无人机武装禁令、更精确的监控与执法限制、补充高风险用例及自主物理操作的 human in the loop 要求，并新增禁止对模型的持续无端虐待行为。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 封禁俄罗斯与伊朗两个利用 ChatGPT 开展虚假前臆影响行动的账号集群",
+    "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+    "source": "AIHOT",
+    "summary": "OpenAI 封禁了两个隐蔽影响行动，俄罗斯来源的 Dark Clark 通过假 persona Mia Clark 控制拉美智库 Social Research Center，评分达 Category 5，是报告以来首个 Category 5；伊朗来源的 Bogus Bylines 用 7 个假记者身份在全球十几家中小媒体投放近 100 篇长文，评分 Category 4。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Whistle: Speech to Text in 16.9 MB",
+    "url": "https://cactuscompute.com/blog/whistle",
+    "score": 348,
+    "comments": 80,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50008427"
+  },
+  {
+    "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+    "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
+    "score": 160,
+    "comments": 128,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50000488"
+  },
+  {
+    "title": "Theranos.world",
+    "url": "https://www.theranos.world/",
+    "score": 115,
+    "comments": 60,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50009295"
+  },
+  {
+    "title": "I hired an illustrator to draw my house. Now it's my Home Assistant dashboard",
+    "url": "https://antonfrolov.substack.com/p/i-hired-an-illustrator-to-draw-my",
+    "score": 185,
+    "comments": 14,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49986882"
+  },
+  {
+    "title": "Man discovers his parents' coffee machine used 1TB of data in 10 days",
+    "url": "https://www.dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399/",
+    "score": 192,
+    "comments": 98,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49995495"
+  },
+  {
+    "title": "Beauty in DVD Menus",
+    "url": "https://vale.rocks/posts/dvd-menus",
+    "score": 220,
+    "comments": 138,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50005527"
+  },
+  {
+    "title": "如何在单张 RTX 5090 上用 MiniMax H3 生成实时视频",
+    "url": "https://blog.comfy.org/p/how-i-generated-live-video-with-minimax",
+    "source": "AIHOT",
+    "summary": "ComfyUI 博客作者用智能体搜集各类优化，把 MiniMax H3 实时视频生成压缩到单张 RTX 5090（32 GB 显存）上运行，生成 30 秒视频耗时 23.51 秒，达 1.28 倍实时吞吐。"
+  },
+  {
+    "title": "Arena 获 Lightspeed 领投 2 亿美元 B 轮融资，估值 31 亿美元并推出 Alignment Index",
+    "url": "https://x.com/arena/status/2108269048467513429",
+    "source": "AIHOT",
+    "summary": "Arena 宣布完成由 Lightspeed 领投的 2 亿美元 B 轮融资，估值 31 亿美元。引用内容称其年化收入已超 1 亿美元，数百万用户通过真实使用帮助评估前沿模型；Arena 同时推出 Alignment Index，衡量 AI 行为在真实场景中与人类价值的契合程度。"
+  },
+  {
+    "title": "Google 开源 AQuA 环境质量智能体，自动诊断生产环境中的 Agent 故障",
+    "url": "https://developers.googleblog.com/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent/",
+    "source": "AIHOT",
+    "summary": "Google 发布并开源 AQuA（Ambient Quality Agent），在 Google Cloud 项目中定时从 Cloud Trace、Cloud Logging 或 BigQuery 抽取生产会话，经抽样、评审、聚类、验证、跟踪五阶段流水线诊断 Agent 失败。"
+  },
+  {
+    "title": "Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半",
+    "url": "https://x.com/ArtificialAnlys/status/2108236656700768310",
+    "source": "AIHOT",
+    "summary": "Artificial Analysis 评测 Google 于 10 月 6 日发布的图像模型 Nano Banana 2.1，在 AA-Image-T2I v2.0 和 AA-Image-Editing v2.0 两个榜单均排名第 4。"
+  },
+  {
+    "title": "LangChain 用 Stripe Link 和 Managed Deep Agents 构建可支付的智能体 Restock",
+    "url": "https://www.langchain.com/blog/agents-that-can-pay-with-stripe-link",
+    "source": "AIHOT",
+    "summary": "LangChain 发布示例项目 Restock，一个在 Slack 上通过 Managed Deep Agents 运行的办公用品购买智能体，演示智能体如何安全完成支付。"
+  },
+  {
+    "title": "Goodfire 为 Kimi K3 和 GLM 5.3 训练并部署生产级网络安全监控器",
+    "url": "https://www.goodfire.com/research/production-cyber-monitors-on-kimi-k3",
+    "source": "AIHOT",
+    "summary": "Goodfire Research 为 Kimi K3 和 GLM 5.3 构建基于激活探针加 LLM judge 的监控级联，并部署到生产推理栈。"
+  },
+  {
+    "title": "2026年10月7日 美股盘后日报",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

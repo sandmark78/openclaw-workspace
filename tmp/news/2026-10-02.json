@@ -1,0 +1,187 @@
+[
+  {
+    "title": "Meta 发布 Muse Spark 与数学家协作完成的六篇数学研究论文",
+    "url": "https://research.meta.ai/blog/solving-open-research-problems-together",
+    "source": "AIHOT",
+    "summary": "Meta AI 与数学家合作，使用 Muse Spark 1.1 和 1.2（Thinking Mode、经 meta.ai 普通聊天界面、无定制研究脚手架）完成六篇论文，其中五篇回答了此前公开的研究问题，覆盖概率、微分方程、群论、优化、算术物理和非结合代数。",
+    "leader_tags": [
+      "mark zuckerberg"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "GPT-6.1 Sol (Max) 进入 Agent Arena 第 5 名，以更低成本逼近前列模型",
+    "url": "https://x.com/arena/status/2106109027923140928",
+    "source": "AIHOT",
+    "summary": "Arena 宣布 OpenAI 的 GPT-6.1 Sol (Max) 在 Agent Arena 排名第 5（+11.23%），中位任务成本 $0.56，并重塑了 Pareto 前沿。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Arena 评测：Claude Sonnet 5.5 登顶 Agent Arena 第 3 名但未入 Pareto 前沿",
+    "url": "https://x.com/arena/status/2106105400487821764",
+    "source": "AIHOT",
+    "summary": "Arena 发布 Agent Arena 最新榜单，Anthropic 的 Claude Sonnet 5.5 以 +12.5% 净提升得分排名第 3，单任务中位成本 $2.74，比排名第 2 的 Claude Opus 5.5（$1.58）高约 73%，且 Opus 5.5 得分更高，因此 Sonnet 5.5 未进入 Agent Arena 的 Pareto 前沿。据引用内容，Sonnet 5",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 发布 GPT-6 家族实用指南：选型、提示词与长任务管理",
+    "url": "https://openai.com/index/practical-guide-building-gpt-6",
+    "source": "AIHOT",
+    "summary": "OpenAI 发布 GPT-6 家族的实用指南，讲解如何按任务选择 GPT-6 Astra、GPT-6.1 Sol、GPT-6 Luna 及推理档位与速度模式。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "NVIDIA DGX Spark 推出 64GB 版本，10 月 23 日起以 $4,999 开售",
+    "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+    "source": "AIHOT",
+    "summary": "NVIDIA 宣布 DGX Spark 推出 64GB 统一内存新配置，10 月 23 日起由 Acer、ASUS、Dell、Gigabyte、HP 和 MSI 发售，起步价 $4,999，支持最高 1000 亿参数模型在端侧运行。",
+    "leader_tags": [
+      "jensen huang"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Bloomberg：Anthropic 为可能估值近 2 万亿美元的 IPO 邀请机构投资者质询高管",
+    "url": "https://x.com/rohanpaul_ai/status/2105921530211508488",
+    "source": "AIHOT",
+    "summary": "Bloomberg 报道，Anthropic 已邀请机构投资者在其可能估值近 2 万亿美元的 IPO 前质询高管。10 月 14 日的会议之后，最早 11 月 9 日当周启动正式路演，感恩节前上市；按 SEC 规则需在 10 月下旬公布 S-1 文件。OpenAI 则相反，以安全担忧为由排除 2026 年上市，正以约 1.4 万亿美元估值私下寻求至少 300 亿美元融资。",
+    "leader_tags": [
+      "sam altman",
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Apple Pass Designer",
+    "url": "https://developer.apple.com/pass-designer/",
+    "score": 195,
+    "comments": 118,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49937276"
+  },
+  {
+    "title": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
+    "url": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
+    "score": 379,
+    "comments": 162,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49927754"
+  },
+  {
+    "title": "A 12-year sequence of telescope images of a star and four planets orbiting",
+    "url": "https://bsky.app/profile/theplanetaryguy.com/post/3mwucf5ert22f",
+    "score": 100,
+    "comments": 19,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49932147"
+  },
+  {
+    "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+    "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+    "score": 116,
+    "comments": 20,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49929391"
+  },
+  {
+    "title": "With most information hidden, the game Stratego had stumped AI until now",
+    "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+    "score": 101,
+    "comments": 32,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49933740"
+  },
+  {
+    "title": "Loss of cell identity drives human aging: Two new papers",
+    "url": "https://erictopol.substack.com/p/loss-of-cell-identity-drives-human",
+    "score": 110,
+    "comments": 24,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49926411"
+  },
+  {
+    "title": "Mike Tomlin spent 12 years building a Minecraft city",
+    "url": "https://www.nytimes.com/athletic/7648198/2026/10/01/mike-tomlin-minecraft-nfl-coach/",
+    "score": 119,
+    "comments": 29,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49925184"
+  },
+  {
+    "title": "Sites in ChatGPT",
+    "url": "https://chatgpt.com/features/sites/",
+    "score": 148,
+    "comments": 174,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49927747"
+  },
+  {
+    "title": "Prime Intellect 发布推理平台 Prime Inference，已上线 GLM-5.3 端点",
+    "url": "https://www.primeintellect.ai/blog/prime-inference",
+    "source": "AIHOT",
+    "summary": "Prime Intellect 发布推理平台 Prime Inference，提供 serverless 端点与预留容量，跨数据中心服务前沿开源模型，内部每天处理近一万亿 token。"
+  },
+  {
+    "title": "Meta 公布数学家与 Muse Spark 1.1/1.2 协作完成的六篇论文",
+    "url": "https://x.com/AIatMeta/status/2106099776035152231",
+    "source": "AIHOT",
+    "summary": "Meta 分享数学家与 Muse Spark 1.1 和 Muse Spark 1.2（Thinking Mode）在 meta.ai 普通聊天界面下协作完成的六篇论文，面向无现成解法的开放数学问题，未使用定制研究脚手架。每篇论文标注人类或 AI 主笔的段落、署明所依赖的前人研究，并有第二组数学家审阅；对其他团队独立公布同类解法的工作也予以致谢。"
+  },
+  {
+    "title": "Epoch AI 估算 2025–27 年 HBM 可支撑 3000 万至 1.7 亿并发前沿模型智能体",
+    "url": "https://epoch.ai/publications/estimating-the-agent-population",
+    "source": "AIHOT",
+    "summary": "Epoch AI 发布研究，估算 2025–27 年出货的 HBM 硬件全面部署后可运行约 30–170 百万并发前沿模型智能体，相当于每周约 1.4–7.2 亿全职员工的工作时长。"
+  },
+  {
+    "title": "ChatGPT 推出 Finances 财务管理功能",
+    "url": "https://x.com/ChatGPT/status/2106083595433791573",
+    "source": "AIHOT",
+    "summary": "ChatGPT 官方宣布推出 Finances 财务管理功能，入口为 http://chatgpt.com/finances。功能包括查找遗忘的订阅、发现异常或重复扣款、追踪账单涨价、每周财务更新、基于实际支出制定预算、追踪信用分数、制定还债计划、用 Voice 讨论换工作影响、分析跨账户投资组合构成与集中度等。"
+  },
+  {
+    "title": "Google 发布基于 TEE 的下一代联邦学习系统，Gboard 已部署",
+    "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data/",
+    "source": "AIHOT",
+    "summary": "Google 宣布下一代联邦学习系统，利用可信执行环境（TEE）提供完全可验证、可审计的数据匿名化保证，访问策略发布至公共透明日志 Rekor，二进制可从开源代码可复现构建。Gboard 已部署该系统，用于英语和日语下一词预测模型，训练时间从过去的每次 1-2 个月显著缩短，并带来更强的隐私保证和更高的准确率。"
+  },
+  {
+    "title": "Ai2 开源 8B 科学报告生成模型 AstaBrief",
+    "url": "https://allenai.org/blog/astabrief",
+    "source": "AIHOT",
+    "summary": "Ai2 开源 AstaBrief 8B，一个基于 Qwen3-8B、将研究问题和检索文献片段转化为带引用报告的科学报告生成模型，现已在 Asta 的 Generate a report 功能中作为 Fast mode 上线，并连同训练数据开放下载。"
+  },
+  {
+    "title": "Manus 分享视频生成与时间线编辑工作流",
+    "url": "https://manus.im/zh-cn/blog/introducing-video-editor",
+    "source": "AIHOT",
+    "summary": "Manus 分享使用既有视频能力的创作经验：先由 AI 搜索参考、制作镜头与代码视觉元素，再在 Manus Studio 的视频编辑器中逐轨调整画面、字幕、配乐和音效。教程还演示导入本地素材、自动转录与编排初剪，以及将长视频剪成短片；作者以 125 段旅行素材整理成约 11 分钟成片为例，说明如何把生成初稿继续打磨为可发布作品。"
+  },
+  {
+    "title": "Artificial Analysis：Claude Sonnet 5.5、GPT-6.1 Sol 与 Gemini 4 Argon 登顶 Coding Agent Index 榜单但成本差异大",
+    "url": "https://x.com/ArtificialAnlys/status/2105814318294114720",
+    "source": "AIHOT",
+    "summary": "Artificial Analysis 发布 Coding Agent Index 榜单，Claude Sonnet 5.5 (max) 在 Claude Code 以 68 分居首，但每任务成本最高达 $14.19。"
+  },
+  {
+    "title": "OpenRouter 解析 LangChain 与 CrewAI 编排和 OpenRouter 原生路由的差异",
+    "url": "https://openrouter.ai/blog/insights/langchain-vs-crewai-orchestration-compared-to-openrouter-native-routing/",
+    "source": "AIHOT",
+    "summary": "OpenRouter 发文将多模型编排分为工作流编排、模型路由和提供商路由三层，指出 LangGraph 和 CrewAI 负责工作流编排，OpenRouter 负责模型与提供商路由，二者不互相替代。"
+  },
+  {
+    "title": "2026年10月1日 美股盘后日报",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

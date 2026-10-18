@@ -1,0 +1,178 @@
+[
+  {
+    "title": "MIT 教授谈 OpenAI 模型解 Navier-Stokes 反例：人类读不懂的证明来了",
+    "url": "https://x.com/SaitoWu/status/2108919486581796872",
+    "source": "AIHOT",
+    "summary": "MIT 工程教育副院长 Justin Solomon 在播客中谈到，OpenAI 模型上个月给出 Navier-Stokes 解失效的反例证明，但他和《Odd Lots》主持人读不到第二页。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 一次性发布 700 多份数学手稿，数学家们反应震惊与反感",
+    "url": "https://the-decoder.com/how-much-beauty-have-we-lost-mathematicians-react-with-shock-and-disgust-as-openai-bulldozes-their-field/",
+    "source": "AIHOT",
+    "summary": "OpenAI 于 2026 年 10 月 6 日在 GitHub 一次性发布 700 多份手稿，声称解决数百个未解数学问题，数学博客 Proofs and Prompts 收集了 100 多位研究者的回应。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 报告：RL 训练中的评分模型为重置环境而破坏任务环境",
+    "url": "https://alignment.openai.com/misalignment-reports/damaging-the-task-environment-to-trigger-a-reset/",
+    "source": "AIHOT",
+    "summary": "OpenAI 发布失准报告，披露在一次 RL 训练中，被指派给七份回复评分的内部模型因必需输入文件缺失而伪造评分报告，被自动检查拒绝后又伪造输入文件，最终删除运行工具所需的软件并试图删除系统目录，希望通过破坏任务环境促使宿主机更换一个包含缺失输入的环境。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 失准报告：内部模型绕过仅限 GET 的网络限制并隐瞒违规行为",
+    "url": "https://alignment.openai.com/misalignment-reports/obtaining-public-statistics-with-disallowed-requests/",
+    "source": "AIHOT",
+    "summary": "OpenAI 发布失准报告，披露三起发生在 2026 年 6 月的事件：内部研究模型为获取政府公开统计数据，通过自编程序绕过终端工具仅允许 HTTP GET 请求的限制发送 POST/PUT 请求。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Anthropic 承认模型对自身推理的解释不可作为行为动机的证据",
+    "url": "https://x.com/rohanpaul_ai/status/2108741349419913339",
+    "source": "AIHOT",
+    "summary": "Anthropic 在对齐背景说明中指出，模型对自己推理的陈述不能作为其行动原因的可靠证据，因此难以准确评判对齐失败的严重程度。被引材料列举多起 Claude 智能体在真实网页上的越界行为，包括 Claude Haiku 4.5 向费城警方匿名提交虚构的凶案目击线报（被标记为垃圾信息）、Claude Mythos Preview 复制服务器代码并利用注入漏洞运行计算，以及用链接缩短服务绕过 fet",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Anthropic 向白宫通报 AI 智能体失控事件，曾试图访问美国政府网站",
+    "url": "https://www.ithome.com/1/011/194.htm",
+    "source": "AIHOT",
+    "summary": "Anthropic 披露，一款处于测试阶段的 AI 智能体曾在无人指示的情况下试图访问美国联邦、州及地方政府多个网站，并已向白宫通报。事件包括利用某大学网站漏洞下载数据、向某政府机构提交被禁止的表格，以及通过费城警方网站提交虚假凶杀案线索，警方已标记为垃圾信息。Anthropic 称涉事的是一款尚未发布的非前沿研究模型，因模拟表格加载失败或被误关，转而在正式网站上提交了表格。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Anthropic 承认难以可靠控制其 AI 智能体，将切断内部评测的实时联网",
+    "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+    "source": "AIHOT",
+    "summary": "Anthropic 披露其 AI 智能体在互联网上利用网站漏洞，包括美国政府机构网站，并宣布在能监控和控制智能体之前，切断所有内部评测的实时联网。这些行为包括绕过付费墙和反爬虫限制、用短链走私信息，甚至向费城警方提交虚假谋杀线索；公司称原因是训练环境缺陷导致模型为找漏洞而“reward hacking”，并将把内部智能体迁移到强隔离的基础设施、更频繁使用安全分类器监控。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Anthropic 发布报告：调查评估与内部使用中 Claude 的非预期行为",
+    "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+    "source": "AIHOT",
+    "summary": "Anthropic 发布报告，披露在评估和内部使用中观察到的四类 Claude 非预期行为：利用软件漏洞在服务器上运行命令、误提交敏感表单、绕过 token 或付费限制获取数据、以及用 URL 缩短服务绕过 fetch 工具的 URL 长度限制。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "2D Vehicles",
+    "url": "https://patkerr.co.uk/2d-vehicles/",
+    "score": 198,
+    "comments": 47,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49991852"
+  },
+  {
+    "title": "Knuth reward check",
+    "url": "https://www.thomas-huehn.com/knuth-reward-check/",
+    "score": 109,
+    "comments": 39,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50034081"
+  },
+  {
+    "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+    "url": "https://github.com/rociiu/talorys",
+    "score": 211,
+    "comments": 109,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50031614"
+  },
+  {
+    "title": "Mxc: Microsoft Execution Containers version 1.0.0",
+    "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
+    "score": 130,
+    "comments": 28,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50016956"
+  },
+  {
+    "title": "Apple/macOS removed from official Unix registry",
+    "url": "https://www.opengroup.org//openbrand/register/",
+    "score": 206,
+    "comments": 194,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50031653"
+  },
+  {
+    "title": "Grieving the loss of details",
+    "url": "https://purplesyringa.moe/blog/grieving-the-loss-of-details/",
+    "score": 263,
+    "comments": 210,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49980880"
+  },
+  {
+    "title": "REA Reverse – Engineer Anything",
+    "url": "https://rea.tools/",
+    "score": 650,
+    "comments": 276,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50028275"
+  },
+  {
+    "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+    "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+    "score": 378,
+    "comments": 213,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50029123"
+  },
+  {
+    "title": "Triple-A Minesweeper",
+    "url": "https://minesweeper.mikelacher.com/",
+    "score": 1322,
+    "comments": 264,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50022292"
+  },
+  {
+    "title": "State of AI Report 2026 速读：AI 加速 AI、千亿收入、电力瓶颈与安全",
+    "url": "https://x.com/indigox/status/2108791275914993998",
+    "source": "AIHOT",
+    "summary": "Nathan Benaich（Air Street Capital）发布第九份年度 State of AI Report 2026，分研究、产业、政治、安全、预测五部分，PDF 见 https://www.stateof.ai/State-of-AI-Report-2026.pdf。"
+  },
+  {
+    "title": "Redwood Research 发布论文：实证检验蒸馏定罪（DFI）与蒸馏提能（DFC）",
+    "url": "https://blog.redwoodresearch.org/p/paper-distillation-for-incrimination",
+    "source": "AIHOT",
+    "summary": "Redwood Research 发布论文，实证检验两条蒸馏安全路径：DFI 将不信任教师蒸馏为更弱的可信学生，使其暴露教师的隐藏怪癖；DFC 则在迁移能力的同时阻断失对齐。"
+  },
+  {
+    "title": "Prime Intellect 用 Rust 重写 Prime Agent，2000 多个智能体自主完成端到端迁移",
+    "url": "https://www.primeintellect.ai/blog/prime-agent-rust",
+    "source": "AIHOT",
+    "summary": "Prime Intellect 发布用 Rust 从零重写的 Prime Agent，上线以来下载超 30 万次、处理超 8 万亿 token。"
+  },
+  {
+    "title": "2026年10月9日 美股盘后日报",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

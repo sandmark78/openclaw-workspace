@@ -1,0 +1,174 @@
+[
+  {
+    "title": "Anthropic Code Review 正式可用，面向 Team 和 Enterprise 组织",
+    "url": "https://claude.com/blog/code-review-is-now-generally-available",
+    "source": "AIHOT",
+    "summary": "Anthropic 宣布 Claude 的 Code Review 结束研究预览，正式向 Claude Team 和 Enterprise 组织开放。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Claude Opus 5.5 fast mode 结束研究预览并移除等待名单",
+    "url": "https://x.com/ClaudeDevs/status/2110825294655562048",
+    "source": "AIHOT",
+    "summary": "Anthropic 宣布 Claude 平台上的 Opus 5.5 fast mode 不再处于研究预览阶段，并已移除等待名单。该模式速度最高提升 2.5 倍，定价为 $8 / $40 per million tokens；现已登陆 Microsoft Foundry（Azure 托管），Google Cloud 即将支持。Claude Code 中的 fast mode 保持不变，消耗额外 us",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Anthropic 公布独立评估机制细节，METR 团队获类员工访问权限",
+    "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+    "source": "AIHOT",
+    "summary": "Anthropic 宣布已向评估前沿 AI 模型的非营利机构 METR 的六名员工提供类员工访问权限，包括公司硬件、办公空间和与内部风险评估团队相当的内部系统访问，METR 将公开发布风险评估结果，Anthropic 不得否决发布但可要求删减少数预定义类别的信息。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Muse Spark Open",
+    "url": "https://research.meta.ai/blog/muse-spark-open",
+    "score": 453,
+    "comments": 272,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50107379"
+  },
+  {
+    "title": "Neural networks are clean",
+    "url": "https://already-clean.goodfire.com/",
+    "score": 369,
+    "comments": 122,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50105647"
+  },
+  {
+    "title": "Wayland desktop for Linux with skeuomorphic design",
+    "url": "https://github.com/fyzugx/DEsk",
+    "score": 424,
+    "comments": 173,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50103338"
+  },
+  {
+    "title": "Krea 3 – An image model built for editing at scale",
+    "url": "https://www.krea.ai/krea-3",
+    "score": 199,
+    "comments": 72,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50105648"
+  },
+  {
+    "title": "AdFection: Targeted ads turned into a pipeline for zero-click mercenary spyware",
+    "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
+    "score": 314,
+    "comments": 462,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50101813"
+  },
+  {
+    "title": "Jev meets the Trolley Problem",
+    "url": "https://zachlandes.com/trolley-problem/",
+    "score": 173,
+    "comments": 84,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50106023"
+  },
+  {
+    "title": "Celebrating 70 Years of Fortran",
+    "url": "https://fortran-lang.org/news/2026/09-15-Fortran-birthday/",
+    "score": 181,
+    "comments": 80,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50104726"
+  },
+  {
+    "title": "Delta’s Biscoff cookies were supposed to be temporary",
+    "url": "https://www.seriouseats.com/biscoff-history-12168161",
+    "score": 129,
+    "comments": 115,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50080155"
+  },
+  {
+    "title": "ChatGPT 为 Chrome 用户新增标签页读取与控制能力",
+    "url": "https://x.com/ChatGPT/status/2110823738531037651",
+    "source": "AIHOT",
+    "summary": "ChatGPT 官宣面向 Chrome 用户带来升级，把 computer use 能力引入 Chrome。在聊天中，ChatGPT 可以查看用户打开的标签页并汇总信息；在工作模式下，它能控制 Chrome 标签页执行操作，如发送消息、填写表单、下载文件，还可帮助整理和分组打开的标签页。"
+  },
+  {
+    "title": "Meta 如何用 AI 原生工程方式开发 Forum 应用",
+    "url": "https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering/",
+    "source": "AIHOT",
+    "summary": "Meta 工程团队详解如何把 AI 智能体作为开发流程参与者来构建独立 Groups 应用 Forum，采用 human-on-the-loop 模式并以验证通过的生产级产出衡量成功。Forum 在八周内达到与 Facebook Groups 的核心功能对齐，自主压测循环在开发期发现并修复了内存问题，内存占用和缺页约减半，上线后智能体还协助根因分析用户反馈。"
+  },
+  {
+    "title": "Meta 开源 Muse Spark Open，Modal 上线共享端点按 token 计费",
+    "url": "https://modal.com/blog/meta-muse-spark-open-now-available-on-modal",
+    "source": "AIHOT",
+    "summary": "Meta 发布 Muse Spark Open 开源权重，现已上线 Modal Auto Endpoints，以 Shared Endpoint 方式按 token 计费。"
+  },
+  {
+    "title": "Black Forest Labs FLUX 3 系列登陆 OpenRouter：Image Klein 开源权重、视频 upscale 降价并支持 4K 生成",
+    "url": "https://x.com/OpenRouter/status/2110803343878873473",
+    "source": "AIHOT",
+    "summary": "OpenRouter 宣布 Black Forest Labs（@bfl_ai）三项新内容上线。FLUX 3 Image Klein 是新的开源权重图像模型，可在单张消费级 GPU 上运行；改进版 FLUX Video Upscale 开启 early access，可将任意视频转为 4K，价格从 $0.59/s 降至 $0.28/s；FLUX 3 Video 现已支持从提示词直接生成 4K 视频"
+  },
+  {
+    "title": "Meta Muse Spark Open 上线 Together AI",
+    "url": "https://www.together.ai/blog/meta-muse-spark-open",
+    "source": "AIHOT",
+    "summary": "Meta 的 Muse Spark Open 开源权重模型即日起在 Together AI 提供，Together AI 为 Day 0 发布合作方。该模型主打长时程智能体编码，具备 1M token 上下文窗口、计算机使用与多模态输入（文本、图像、音频、视频），并在行动前输出意图说明。"
+  },
+  {
+    "title": "vLLM 提供 Muse Spark Open Day 0 支持",
+    "url": "https://vllm.ai/blog/2026-10-15-muse-spark-open",
+    "source": "AIHOT",
+    "summary": "vLLM 与 Meta Superintelligence Labs 合作，在发布当天即支持开源 MoE 模型 Muse Spark Open。该模型总参数 816B、每 token 激活 42B、上下文窗口 1M，面向长程智能体编码工作流。"
+  },
+  {
+    "title": "Muse Spark Open 上架 Arena，可在 Agent Arena 实测，评分即将公布",
+    "url": "https://x.com/arena/status/2110797782953132049",
+    "source": "AIHOT",
+    "summary": "Arena 宣布 Meta 的 Muse Spark Open 已进入 Agent Arena，用户可实测，评分即将公布。该模型为 816B 总参数、42B 激活参数，1M token 上下文窗口，原生多模态。"
+  },
+  {
+    "title": "Meta 开放权重模型 Muse Spark Open 上架 OpenRouter",
+    "url": "https://x.com/OpenRouter/status/2110793354154008685",
+    "source": "AIHOT",
+    "summary": "Meta 发布开放权重模型 Muse Spark Open，现已可在 OpenRouter 使用，定位为面向编码与智能体工作的美国最强开放权重模型。模型总参数 816B、激活 42B，支持 1M token 上下文窗口，原生多模态，OpenRouter 定价为输入 $1.25/M、输出 $4.25/M，正文提到支持图像、视频、音频和 PDF 输入。"
+  },
+  {
+    "title": "Meta 发布开源权重模型 Muse Spark Open，816B 参数、1M 上下文",
+    "url": "https://pytorch.org/blog/muse-spark-open/",
+    "source": "AIHOT",
+    "summary": "Meta 发布开源权重模型 Muse Spark Open，已在 Hugging Face 以 Muse Model License 提供。模型总参数 816B、激活 42B，上下文窗口 1M token，面向编码与智能体工作流，原生多模态（图像、音频、文档），并相比 8 月发布的 Muse Spark 增加了安全后训练。"
+  },
+  {
+    "title": "Perplexity 开源驱动 Perplexity Computer 的沙箱平台 SPACE",
+    "url": "https://x.com/AravSrinivas/status/2110785848958759165",
+    "source": "AIHOT",
+    "summary": "Perplexity CEO Aravind Srinivas 宣布开源沙箱平台 SPACE，该平台为 Perplexity Computer 的全部沙箱能力提供支撑，仓库地址为 https://github.com/perplexityai/space。他表示沙箱虽是 commodity，但在生产级流量下服务数百万沙箱、为企业和消费者扩展 Agent 需要大量细节，开源旨在支持生态。"
+  },
+  {
+    "title": "Apple 演示用 MLX 与 RDMA 在 Mac Studio 集群本地运行 816B 大模型",
+    "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+    "source": "AIHOT",
+    "summary": "Apple 机器学习研究团队演示如何在 Mac Studio 上本地运行近万亿参数的 Muse Spark Open 等前沿模型，使用今天发布的新版 MLX（v0.30.1 起）与 macOS 26.2 的 RDMA over Thunderbolt 驱动。"
+  },
+  {
+    "title": "Gemini 4 Argon 在 ARC-AGI (Verified) 评测中公布：ARC-AGI-3 得分 97.5%",
+    "url": "https://x.com/arcprize/status/2110768288523251762",
+    "source": "AIHOT",
+    "summary": "ARC Prize 公布 Gemini 4 Argon 在 ARC-AGI (Verified) 的评测成绩。ARC-AGI-3 上，provider adapter harness 得分 97.5%、成本 $4.8K，标准 harness 得分 49.8%、成本 $5.8K；ARC-AGI-2 得分 91.3%、$0.32/task；ARC-AGI-1 得分 98.5%、$0.16/task。G"
+  },
+  {
+    "title": "2026年10月14日 美股盘后日报",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

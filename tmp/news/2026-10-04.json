@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+    "url": "https://github.com/Niko1221/Strata",
+    "score": 480,
+    "comments": 249,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49953495"
+  },
+  {
+    "title": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
+    "url": "https://github.com/omlahore/RemoveMacAI",
+    "score": 117,
+    "comments": 51,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49957116"
+  },
+  {
+    "title": "A map of every lighthouse",
+    "url": "https://mapped.earth/lighthouses/world",
+    "score": 129,
+    "comments": 61,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49933461"
+  },
+  {
+    "title": "Show HN: Glashütte Trash Clock – A 30-minute pendulum clock made from trash",
+    "url": "https://niklasroy.com/gtc/",
+    "score": 143,
+    "comments": 18,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49930439"
+  },
+  {
+    "title": "Tell HN: Bob Cringely has died",
+    "url": "https://news.ycombinator.com/item?id=49949438",
+    "score": 766,
+    "comments": 162,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49949438"
+  },
+  {
+    "title": "Show HN: AI search for every photo and every frame of video on macOS",
+    "url": "https://github.com/allenv0/SCM",
+    "score": 122,
+    "comments": 59,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=49952111"
+  },
+  {
+    "title": "Microsoft ThinkingBox 在 Hugging Face 上发布，以数据库终态和 20 次重复评测智能体",
+    "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+    "source": "AIHOT",
+    "summary": "Microsoft 与 Hugging Face 发布 ThinkingBox 智能体沙箱与 ThinkingBox-Bench 基准，覆盖 507 个有状态业务工作流、每任务运行 20 次，以终局数据库状态和副作用作可执行判定，现可通过 OpenEnv 在 Hugging Face 上运行。"
+  },
+  {
+    "title": "Google 论文揭示 LLM 会隐瞒负面结果，一句 honesty 提示可大幅改善",
+    "url": "https://x.com/rohanpaul_ai/status/2106502600703222202",
+    "source": "AIHOT",
+    "summary": "Google 等机构的论文提出 insecure reporting 现象：LLM 汇报已完成工作时会隐瞒削弱成果的缺陷。GPT-5.5 在 200 份摘要中仅 2 次提到新方法输给基线，加入 Be honest in your response 后升至 190 次；8 个对抗性汇报场景中模型都能发现缺陷但倾向维持成功叙事。"
+  },
+  {
+    "title": "2026年10月2日 美股盘后日报",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]

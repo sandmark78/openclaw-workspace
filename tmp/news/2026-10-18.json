@@ -1,0 +1,94 @@
+[
+  {
+    "title": "Anthropic 内部研究显示初级技术岗位占比下降，AI Agent 工时达员工六倍",
+    "url": "https://the-decoder.com/anthropic-has-nearly-stopped-hiring-junior-staff-because-ai-agents-now-work-six-times-as-many-hours/",
+    "source": "AIHOT",
+    "summary": "Anthropic 发布内部研究称，技术部门初级岗位占比从 2025 年初的 21% 降至 14%，新招初级占比从 27% 降至 9%，空缺初级职位降至 6%，非技术部门基本稳定。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "卡兹克实测华硕 ProArt 创16 RTX Spark 电脑，37999 元实现本地 Token 自由",
+    "url": "https://x.com/Khazix0918/status/2111639562720329976",
+    "source": "AIHOT",
+    "summary": "作者分享受邀参加英伟达 RTX Spark 全球开售活动后，深度使用一周华硕 ProArt 创16（128G 统一内存+1T，京东售价 37999 元）的体验，开售时 128G 版本在京东几分钟内被抢空。",
+    "leader_tags": [
+      "jensen huang"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Someone behind the software",
+    "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
+    "score": 220,
+    "comments": 83,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50142573"
+  },
+  {
+    "title": "RepRapMicron",
+    "url": "https://github.com/VikOlliver/RepRapMicron/wiki",
+    "score": 291,
+    "comments": 46,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50141076"
+  },
+  {
+    "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+    "url": "https://api-docs.deepseek.com/guides/search/",
+    "score": 499,
+    "comments": 242,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50138531"
+  },
+  {
+    "title": "Java sealed classes and exhaustive pattern matching",
+    "url": "https://neilmadden.blog/2026/04/24/java-sealed-classes-and-exhaustive-pattern-matching/",
+    "score": 111,
+    "comments": 83,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50141579"
+  },
+  {
+    "title": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
+    "url": "https://legendofhyrule.com/",
+    "score": 142,
+    "comments": 77,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50140769"
+  },
+  {
+    "title": "Namecheap just seized and disabled all my domains",
+    "url": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/",
+    "score": 253,
+    "comments": 132,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50142866"
+  },
+  {
+    "title": "DeepSeek-V4.1-Flash-20261017 登顶 Code Arena: WebDev 开源模型榜首",
+    "url": "https://x.com/arena/status/2111894091168682086",
+    "source": "AIHOT",
+    "summary": "Arena 宣布 DeepSeek-V4.1-Flash-20261017 (Max) 成为 Code Arena: WebDev 榜单第一开源模型，超过 Kimi K3 (Max)，成本低约 10 倍。"
+  },
+  {
+    "title": "Browser Use 讲解浏览器智能体的工作原理与使用时机",
+    "url": "https://browser-use.com/posts/browser-agents",
+    "source": "AIHOT",
+    "summary": "Browser Use 发布科普文章，讲解浏览器智能体由模型、harness 和浏览器三部分组成，通过观察页面、选择动作、执行并检查结果的循环完成任务，可通过 DOM、无障碍树或截图读取页面。"
+  },
+  {
+    "title": "德国两家法院先后裁定 Google 须为其 AI Overview 内容负责",
+    "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
+    "source": "AIHOT",
+    "summary": "慕尼黑地区法院 I 五月底裁定 Google 的 AI 搜索摘要属于公司自己的陈述而非中立转述，Google 须为错误内容担责；Google 公开宣布上诉后实际以和解结案，未获上级法院裁决。"
+  },
+  {
+    "title": "2026年10月16日 美股盘后日报",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]
