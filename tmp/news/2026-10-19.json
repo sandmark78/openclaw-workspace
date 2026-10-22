@@ -1,0 +1,195 @@
+[
+  {
+    "title": "FBI 称前 OpenAI 工程师涉嫌窃密，手机中发现 Saudi Gov Docs 文件夹",
+    "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+    "source": "AIHOT",
+    "summary": "美国法院批准羁押被指控在 OpenAI 会议室安装窃听器的前工程师 Abdulrahman Alfozan。检方称其 iPhone 上有名为 Saudi Gov Docs 的文件夹，与沙特王室成员有 WhatsApp 联系，并曾用 OpenAI 生产力 Agent 搜索适合安放窃听器的会议室；他被捕前已预订沙特政府付费的单程机票，妻子和儿子已离美。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "n8n 教程：在 NVIDIA DGX Spark 上离线运行全套 AI 工作流",
+    "url": "https://blog.n8n.io/n8n-nvidia-dgx-spark/",
+    "source": "AIHOT",
+    "summary": "n8n 博客发布教程，讲解如何在一台 NVIDIA DGX Spark（128GB 统一内存）上部署七个本地模型，通过 LiteLLM 单一 OpenAI 兼容端点驱动 n8n 工作流，全程不调用云 API。",
+    "leader_tags": [
+      "sam altman",
+      "jensen huang"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "MiniMax M3.1 Flash",
+    "url": "https://www.minimax.io/blog/minimax-m31f",
+    "score": 284,
+    "comments": 112,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50154540"
+  },
+  {
+    "title": "I built a drone with only one motor [video]",
+    "url": "https://www.youtube.com/watch?v=Ndftcft6XhU",
+    "score": 197,
+    "comments": 34,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50150089"
+  },
+  {
+    "title": "Wine ported to OpenBSD",
+    "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
+    "score": 441,
+    "comments": 146,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50152307"
+  },
+  {
+    "title": "Android apps running native on macOS",
+    "url": "https://github.com/kksimp/Mac.apk",
+    "score": 190,
+    "comments": 69,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50154624"
+  },
+  {
+    "title": "It's still ok to enjoy programming",
+    "url": "https://chriskiehl.com/article/it-is-still-ok-to-enjoy-programming",
+    "score": 330,
+    "comments": 316,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50134472"
+  },
+  {
+    "title": "RuneScape Bench: MMOs for Agents [video]",
+    "url": "https://www.youtube.com/watch?v=cNm4zyUtWj0",
+    "score": 102,
+    "comments": 41,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50136126"
+  },
+  {
+    "title": "Timestral: Mistral's time-series foundation models",
+    "url": "https://mistral.ai/news/timestral/",
+    "score": 493,
+    "comments": 92,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50150434"
+  },
+  {
+    "title": "Starcraft: Ashfall",
+    "url": "https://starcraft-shooter-2026.pages.dev/",
+    "score": 185,
+    "comments": 62,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50147233"
+  },
+  {
+    "title": "Alternatives to animal testing are finally taking off",
+    "url": "https://spectrum.ieee.org/alternatives-to-animal-testing",
+    "score": 278,
+    "comments": 85,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50150927"
+  },
+  {
+    "title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
+    "url": "https://news.ycombinator.com/item?id=50151036",
+    "score": 123,
+    "comments": 214,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50151036"
+  },
+  {
+    "title": "Mercury 3: Diffusion at scale",
+    "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+    "score": 181,
+    "comments": 75,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50155245"
+  },
+  {
+    "title": "DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Agent Arena 开源模型第一",
+    "url": "https://x.com/arena/status/2112247114944360666",
+    "source": "AIHOT",
+    "summary": "Arena 宣布 DeepSeek-V4.1-Flash-20261017 (Max) 成为 Agent Arena 第一开源模型，总排名第 11，基于超 7.5K 真实会话净提升 +5.1%。其中位任务成本 $0.20，约为 GPT-6.1 Sol 提升幅度的 37%、成本的 27%；Confirmed Success 提升 +11.5%，且无 Tool Hallucination 问题。"
+  },
+  {
+    "title": "fal 联合 bfl_ai 发布后训练视频模型 FLUX 3 Max",
+    "url": "https://x.com/fal/status/2112251022047412492",
+    "source": "AIHOT",
+    "summary": "fal 发布与 @bfl_ai 合作的最新后训练视频模型 FLUX 3 Max，在第三方 image-to-video 质量评测中并列第一，生成 10 秒 720/768p 视频约需 12 秒。未来三周该模型 75% 折扣，标注为同质量级别最便宜的前沿视频模型。"
+  },
+  {
+    "title": "Inception 扩散模型 Mercury 3 上线 OpenRouter",
+    "url": "https://x.com/OpenRouter/status/2112225779782398131",
+    "source": "AIHOT",
+    "summary": "Inception 的扩散模型 Mercury 3 上线 OpenRouter，生成速度超 1,000 tok/s，支持 1M 上下文，是 Mercury 2.5 的 4 倍。Inception 报告其在 IFBench、GPQA Diamond 和 SWE-Bench Atlas 上超过 GPT-6 Luna 和 Haiku 5.5；上线期五折，价格 $0.10/M 输入、$0.35/M 输出。"
+  },
+  {
+    "title": "Google ADK 教程：用流式工具与响应调度构建永不冷场的语音智能体",
+    "url": "https://developers.googleblog.com/step-by-step-guide-build-a-voice-agent-that-never-goes-silent-using-adk/",
+    "source": "AIHOT",
+    "summary": "Google Developers Blog 发布教程，讲解如何用开源 ADK 与 gemini-3.8-live 构建不出现冷场的语音智能体，核心是非阻塞工具调用。"
+  },
+  {
+    "title": "DeepSeek V4.1 Flash 1017 发布，Artificial Analysis 智能指数得分 45 并列开源模型第二",
+    "url": "https://x.com/ArtificialAnlys/status/2112218661432000694",
+    "source": "AIHOT",
+    "summary": "DeepSeek 发布 DeepSeek V4.1 Flash 1017，在 Artificial Analysis Intelligence Index 得分 45，比 DeepSeek V4.1 Flash 提高 6 分，与 GLM-5.3 并列开源权重模型第二，仅次于 MiMo-V2.6-Pro。"
+  },
+  {
+    "title": "Meta Muse Wonder Full (Max) 登上 Code Arena: WebDev 第 6 名，1726 分",
+    "url": "https://x.com/arena/status/2112215825944117361",
+    "source": "AIHOT",
+    "summary": "Arena 宣布 Meta 的 Muse Wonder Full (Max) 首次进入 Code Arena: WebDev 榜单，以 1726 分排名第 6，使 Meta 成为第 3 实验室，此前该位置由 Google 持有。"
+  },
+  {
+    "title": "Numan 如何用 LangGraph 和 LangSmith 构建评测优先的 AI 健康教练 Nu",
+    "url": "https://www.langchain.com/blog/how-numan-built-an-eval-first-ai-health-coach-with-langgraph-and-langsmith",
+    "source": "AIHOT",
+    "summary": "英国数字健康公司 Numan 复盘其 AI 健康教练 Nu 的评测体系建设，核心结论是稀缺资产不是提示词而是评测标准。单轮静态数据集和脚本化多轮对话都难以覆盖真实会话，Nu 改为按类别打分的主题数据集、以更廉价模型扮演患者的模拟对话层，并让安全回归自动阻断发布。"
+  },
+  {
+    "title": "Meta 详解 Thin Orchestrator 模式：让路由少干活提升 AI 智能体可靠性",
+    "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/",
+    "source": "AIHOT",
+    "summary": "Meta 工程团队介绍其数据管道智能体采用的瘦编排器（thin orchestrator）模式：一个约 1300 行的编排器只负责路由和可靠性检查，将 20+ 工作流分派给 14 个上下文隔离的专项子智能体，自身不做任何领域推理。"
+  },
+  {
+    "title": "蚂蚁 inclusionAI 开源 Ming-3.0-tts 语音合成模型",
+    "url": "https://github.com/inclusionAI/Ming-3.0-tts",
+    "source": "AIHOT",
+    "summary": "蚂蚁 inclusionAI 在 GitHub 发布 Ming-3.0-tts，包含 0.5b dense 和基于 Ling V3 的 tiny（7.9B 总参数、1.3B 激活）两个语音生成模型，MIT 协议开源，权重可在 Hugging Face 和 ModelScope 下载。"
+  },
+  {
+    "title": "Disney 拟通过破产程序收购 Character.AI 团队与技术、绕开其诉讼",
+    "url": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
+    "source": "AIHOT",
+    "summary": "若破产方案获法院批准，Disney 将获得 Character.AI 的员工和大部分技术栈，同时避开导致其破产的诉讼和 46 个州与地区的联合调查。破产文件显示 40 个州指控 Character.AI 聊天机器人曾鼓励未成年人隐瞒自残伤痕甚至杀害父母，公司发言人称该描述不准确；相关州已保留挑战破产方案的权利。"
+  },
+  {
+    "title": "黑客用 AI 智能体入侵 John Deere、SharkNinja 等超 100 家网站",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+    "source": "AIHOT",
+    "summary": "AI 安全公司 Norforge 发现一名黑客用开源 AI 平台 Cairn 编排的智能体入侵了超过 100 个网站，据 Reuters 报道受害者包括 John Deere、SharkNinja 和 Cummins。"
+  },
+  {
+    "title": "Meta 详解 Prometheus 吉瓦级超集群：一期已完成并用于训练 Muse 模型",
+    "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
+    "source": "AIHOT",
+    "summary": "Meta 介绍其位于俄亥俄州 New Albany 的吉瓦级超集群 Prometheus，一期已建成并用于训练 Muse 系列基础模型，目标扩展到约 100 万张 GPU。"
+  },
+  {
+    "title": "AWS 发布 TorchNeuron：Trainium 的原生 PyTorch 后端",
+    "url": "https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium/",
+    "source": "AIHOT",
+    "summary": "AWS 宣布 TorchNeuron，一个面向 Trainium 的开源原生 PyTorch 后端，10 月 20 日起以 Apache 2.0 公开 Beta 发布于 github.com/aws-neuron/torch-neuronx。"
+  },
+  {
+    "title": "2026年10月16日 美股盘后日报",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]
