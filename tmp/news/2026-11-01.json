@@ -1,0 +1,102 @@
+[
+  {
+    "title": "An Italian farmer found some unknown seeds in his attic and planted them",
+    "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
+    "score": 196,
+    "comments": 58,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50320963",
+    "leader_tags": [
+      "masayoshi son"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 12月起将ChatGPT与Codex合并为统一Token额度",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647688028&idx=1&sn=e509269da2e0e0b4d4dfbb121b42204b",
+    "source": "AIHOT",
+    "summary": "作者引述OpenAI凌晨更新的帮助文档称，从12月开始Plus和Pro用户的ChatGPT聊天与Codex用量将合并为同一Token额度，仅Instant聊天不受影响。作者回顾此前按条数计费的历史、一个月内Codex Pro额度先降后恢复的运营反复，以及社区在GitHub上提issue抗议的反应，认为合并与IPO预期下的算力成本压力有关。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "美国白宫科技顾问萨克斯称 Anthropic 可能成为资本主义史上最伟大企业",
+    "url": "https://www.ithome.com/1/020/633.htm",
+    "source": "AIHOT",
+    "summary": "美国白宫科学与技术顾问会议主席戴维·萨克斯在 All-In 播客分析 Anthropic 的 S-1 文件，称其很可能成为资本主义历史上最伟大企业，也可能是回报最高的风险投资项目。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Anthropic IPO 招股文件披露近 9000 亿美元隐性债务",
+    "url": "https://www.ithome.com/1/020/444.htm",
+    "source": "AIHOT",
+    "summary": "Anthropic 近日提交 IPO 招股文件，彭博社报道其计划未来在服务器、建筑和电力等领域投入近 9,000 亿美元债务。该公司资产负债表显示 1,175 亿美元负债和 1,120 亿美元现金，而租赁合同及数据中心、电力和 GPU 采购协议等表外义务未直接体现；Anthropic 计划通过增加收入和筹集资金支付这些负债。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "HackerTube: YouTube built from videos recommended by HN",
+    "url": "https://karpathy.bearblog.dev/hacker-tube/",
+    "score": 821,
+    "comments": 263,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50319510"
+  },
+  {
+    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+    "score": 373,
+    "comments": 178,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50319143"
+  },
+  {
+    "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+    "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+    "score": 108,
+    "comments": 55,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50320995"
+  },
+  {
+    "title": "It's the memory latency, stupid",
+    "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
+    "score": 142,
+    "comments": 41,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50318720"
+  },
+  {
+    "title": "Jepsen: ParticleDB 1.1.4",
+    "url": "https://jepsen.io/analyses/particledb-1.1.4",
+    "score": 213,
+    "comments": 118,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50316100"
+  },
+  {
+    "title": "OpenRouter 教程：用 Responses API 构建可在 Linux 沙箱验证 bug 的 AI 代码审查脚本",
+    "url": "https://openrouter.ai/blog/tutorials/ai-code-review/",
+    "source": "AIHOT",
+    "summary": "OpenRouter 发布教程，介绍一个 233 行、仅用标准库的 review.py，通过 Responses API 组合 Files API、Shell 沙箱工具和 Apply Patch 工具，把变更文件上传到托管 Linux 沙箱，让模型实际运行检查确认 bug 并返回 V4A 补丁。"
+  },
+  {
+    "title": "彭博社统计：Alphabet、Meta、微软、亚马逊、甲骨文承诺投入超3万亿美元建AI基础设施",
+    "url": "https://www.ithome.com/1/020/632.htm",
+    "source": "AIHOT",
+    "summary": "据彭博社10月31日报道，Alphabet、Meta、微软、亚马逊和甲骨文五大巨头承诺未来数年在数据中心等领域投入超过3万亿美元（约20.01万亿元人民币）。其中谷歌支出承诺超1万亿美元、接近一年前的八倍，Meta超8,000亿美元且近半用于最长分30年支付的租约；甲骨文是首家因投资AI数据中心而自由现金流转负的大型科技公司，预计到2028年恢复正自由现金流。"
+  },
+  {
+    "title": "2026年10月30日 美股盘后日报",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]
