@@ -2,8 +2,8 @@
   {
     "title": "An Italian farmer found some unknown seeds in his attic and planted them",
     "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
-    "score": 196,
-    "comments": 58,
+    "score": 721,
+    "comments": 194,
     "source": "Hacker News",
     "hn_url": "https://news.ycombinator.com/item?id=50320963",
     "leader_tags": [
@@ -32,66 +32,50 @@
     "priority": "leader"
   },
   {
-    "title": "Anthropic IPO 招股文件披露近 9000 亿美元隐性债务",
-    "url": "https://www.ithome.com/1/020/444.htm",
-    "source": "AIHOT",
-    "summary": "Anthropic 近日提交 IPO 招股文件，彭博社报道其计划未来在服务器、建筑和电力等领域投入近 9,000 亿美元债务。该公司资产负债表显示 1,175 亿美元负债和 1,120 亿美元现金，而租赁合同及数据中心、电力和 GPU 采购协议等表外义务未直接体现；Anthropic 计划通过增加收入和筹集资金支付这些负债。",
-    "leader_tags": [
-      "dario amodei"
-    ],
-    "priority": "leader"
+    "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+    "url": "https://hackerbooks.org",
+    "score": 621,
+    "comments": 142,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50326821"
   },
   {
     "title": "HackerTube: YouTube built from videos recommended by HN",
     "url": "https://karpathy.bearblog.dev/hacker-tube/",
-    "score": 821,
-    "comments": 263,
+    "score": 2079,
+    "comments": 510,
     "source": "Hacker News",
     "hn_url": "https://news.ycombinator.com/item?id=50319510"
   },
   {
-    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
-    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
-    "score": 373,
-    "comments": 178,
+    "title": "Mathematics has changed. Let's act like it",
+    "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+    "score": 122,
+    "comments": 142,
     "source": "Hacker News",
-    "hn_url": "https://news.ycombinator.com/item?id=50319143"
+    "hn_url": "https://news.ycombinator.com/item?id=50328251"
   },
   {
-    "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
-    "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
-    "score": 108,
-    "comments": 55,
+    "title": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
+    "url": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
+    "score": 306,
+    "comments": 111,
     "source": "Hacker News",
-    "hn_url": "https://news.ycombinator.com/item?id=50320995"
+    "hn_url": "https://news.ycombinator.com/item?id=50326099"
   },
   {
-    "title": "It's the memory latency, stupid",
-    "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
-    "score": 142,
-    "comments": 41,
+    "title": "Seoul Viosys begins production of rare-earth-free white light emitter",
+    "url": "https://www.semiconductor-today.com/news_items/2026/oct/seoul-291026.shtml",
+    "score": 106,
+    "comments": 22,
     "source": "Hacker News",
-    "hn_url": "https://news.ycombinator.com/item?id=50318720"
-  },
-  {
-    "title": "Jepsen: ParticleDB 1.1.4",
-    "url": "https://jepsen.io/analyses/particledb-1.1.4",
-    "score": 213,
-    "comments": 118,
-    "source": "Hacker News",
-    "hn_url": "https://news.ycombinator.com/item?id=50316100"
+    "hn_url": "https://news.ycombinator.com/item?id=50327058"
   },
   {
     "title": "OpenRouter 教程：用 Responses API 构建可在 Linux 沙箱验证 bug 的 AI 代码审查脚本",
     "url": "https://openrouter.ai/blog/tutorials/ai-code-review/",
     "source": "AIHOT",
     "summary": "OpenRouter 发布教程，介绍一个 233 行、仅用标准库的 review.py，通过 Responses API 组合 Files API、Shell 沙箱工具和 Apply Patch 工具，把变更文件上传到托管 Linux 沙箱，让模型实际运行检查确认 bug 并返回 V4A 补丁。"
-  },
-  {
-    "title": "彭博社统计：Alphabet、Meta、微软、亚马逊、甲骨文承诺投入超3万亿美元建AI基础设施",
-    "url": "https://www.ithome.com/1/020/632.htm",
-    "source": "AIHOT",
-    "summary": "据彭博社10月31日报道，Alphabet、Meta、微软、亚马逊和甲骨文五大巨头承诺未来数年在数据中心等领域投入超过3万亿美元（约20.01万亿元人民币）。其中谷歌支出承诺超1万亿美元、接近一年前的八倍，Meta超8,000亿美元且近半用于最长分30年支付的租约；甲骨文是首家因投资AI数据中心而自由现金流转负的大型科技公司，预计到2028年恢复正自由现金流。"
   },
   {
     "title": "2026年10月30日 美股盘后日报",

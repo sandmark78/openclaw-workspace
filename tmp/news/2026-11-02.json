@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Claude Platform 推出 message threads 公测，降低长会话智能体延迟",
+    "url": "https://claude.com/blog/message-threads",
+    "source": "AIHOT",
+    "summary": "Anthropic 在 Claude Platform 推出 message threads 公测，智能体每轮只需发送新增消息而无需重发全部对话历史，从而缩短首 token 时间。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 训练并部署激活分类器作为前沿模型安全监控层",
+    "url": "https://alignment.openai.com/training-activation-classifiers/",
+    "source": "AIHOT",
+    "summary": "OpenAI 自 GPT-5.6 起在其最强模型的内部和外部流量上部署激活分类器（probes），利用模型内部激活逐 token 实时评分，可在生成中途阻断违规回复和工具调用并交由推理模型复审。实验显示 probes 比更大的文本分类器对测试的越狱攻击更鲁棒，准确率随模型能力提升，且在后训练各检查点间迁移良好，但需为新基础模型重新训练，且只能检测可显式训练的已知违规类型。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Anthropic 季度营收增长十二倍至近 170 亿美元，但净亏损达 233 亿美元",
+    "url": "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss/",
+    "source": "AIHOT",
+    "summary": "据 Bloomberg 与 The Information，Anthropic 该季度营收近 170 亿美元，为一年前的十二倍，但运营成本达 175 亿美元，季度净亏损 233 亿美元，高于去年同期的 121 亿美元。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Anthropic 更新 IPO 文件首次披露第三季度财报，从盈利 9.74 亿美元转为亏损 5.67 亿美元",
+    "url": "https://x.com/rohanpaul_ai/status/2117285920500273582",
+    "source": "AIHOT",
+    "summary": "Anthropic 更新 S-1 IPO 文件并首次披露第三季度业绩，经营利润从二季度盈利 9.74 亿美元转为三季度亏损 5.67 亿美元，主因是 50 亿美元的高价短期算力和 20 亿美元员工捐赠配比的非现金支出。",
+    "leader_tags": [
+      "dario amodei"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "OpenAI 推出 Grid Protectors 计划，从 Georgia 校园开始支持电网削峰",
+    "url": "https://openai.com/index/grid-protectors-program",
+    "source": "AIHOT",
+    "summary": "OpenAI 推出 Grid Protectors 计划，与电力公司、监管机构和政策制定者合作，让未来算力校园在电网紧张时降低用电需求，首站为 Effingham County 校园。",
+    "leader_tags": [
+      "sam altman"
+    ],
+    "priority": "leader"
+  },
+  {
+    "title": "Astra can read and write weights to improve Qwen",
+    "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+    "score": 1053,
+    "comments": 328,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50341174"
+  },
+  {
+    "title": "Show HN: Subvocal – Talk to your computer without making noise",
+    "url": "https://news.ycombinator.com/item?id=50340088",
+    "score": 367,
+    "comments": 224,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50340088"
+  },
+  {
+    "title": "US boy names that became girl names and vice versa",
+    "url": "https://namedaisy.com/blog/boy-names-that-became-girl-names",
+    "score": 184,
+    "comments": 205,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50339397"
+  },
+  {
+    "title": "Show HN: Warsaw in voxels – An interactive 3D map of the city centre",
+    "url": "https://p.migdal.pl/warsaw-vibe-voxel/",
+    "score": 149,
+    "comments": 29,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50339221"
+  },
+  {
+    "title": "If you love a website, back it up",
+    "url": "https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/",
+    "score": 272,
+    "comments": 64,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50336518"
+  },
+  {
+    "title": "Ask HN: Who is hiring? (November 2026)",
+    "url": "https://news.ycombinator.com/item?id=50338728",
+    "score": 129,
+    "comments": 109,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50338728"
+  },
+  {
+    "title": "Let Me Ch...",
+    "url": "https://blog.alxgsv.com/let-me-check/",
+    "score": 152,
+    "comments": 53,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50340369"
+  },
+  {
+    "title": "WTF Ubuntu?",
+    "url": "https://chalmovsky.com/posts/wtf-ubuntu",
+    "score": 1102,
+    "comments": 531,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50337608"
+  },
+  {
+    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
+    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+    "score": 114,
+    "comments": 15,
+    "source": "Hacker News",
+    "hn_url": "https://news.ycombinator.com/item?id=50341462"
+  },
+  {
+    "title": "腾讯混元发布 Hyra 2.0：让通用 agent 研发可复用的科学工具与模型",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498763&idx=1&sn=279f8fb4e43a987fdc0aa2af0b0f7958",
+    "source": "AIHOT",
+    "summary": "腾讯混元发布 Hyra 2.0，将自动化科研重点从直接解题转向由 agent 研发和升级科学模型、工作流与软件工具。系统采用 Overall、Mission、Worker 三层分工，接入企业微信、计算平台和代码仓库的实际研发环境，成果已公开在 GitHub 仓库。"
+  },
+  {
+    "title": "数字生命卡兹克分享折腾一年的Agent自动化系统架构",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647688060&idx=1&sn=e00d7e57b6f0e3670f0e267e677047df",
+    "source": "AIHOT",
+    "summary": "自媒体作者卡兹克分享自己搭建近一年的Agent自动化系统，核心是把任务起点从人身上移开，由事件触发Agent工作。系统分为自动化中台、Agent执行、CI中台和飞书决策四层：中台用rules.json统一管理事件触发和Agent调度，本地MacMini跑Agent任务，自建CI中台完成审查、检查、合并、发布、核实五步，只在删数据、花钱、改方向等关键决策时通过飞书卡片找作者拍板。"
+  },
+  {
+    "title": "2026年10月30日 美股盘后日报",
+    "url": "https://finews.elsetech.app/",
+    "source": "FiNews",
+    "summary": "美股日报"
+  }
+]
